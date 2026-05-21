@@ -4,271 +4,1492 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Xohopathi | Your Digital Companion</title>
-<meta name="description" content="Xohopathi provides study materials, mock tests, class tests, MCQs, grammar notes, Assam GK, and exam preparation resources for students." />
+<meta name="description" content="Xohopathi provides teacher links, student resources, mock tests, study materials, question papers, and educational contact details." />
 <style>
-:root{--primary:#2563eb;--primary-dark:#1e40af;--sky:#0ea5e9;--slate:#0f172a;--text:#111827;--muted:#64748b;--bg:#f8fafc;--card:#fff;--border:#e2e8f0;--soft-blue:#eff6ff;--shadow:0 12px 28px rgba(15,23,42,.08);--radius:18px}
+:root{
+  --blue:#2563eb;
+  --blue-dark:#1d4ed8;
+  --green:#15803d;
+  --teal:#0f766e;
+  --orange:#c2410c;
+  --rose:#be123c;
+  --violet:#6d28d9;
+  --ink:#0f172a;
+  --text:#1f2937;
+  --muted:#64748b;
+  --bg:#f8fafc;
+  --surface:#ffffff;
+  --border:#e2e8f0;
+  --shadow:0 14px 30px rgba(15,23,42,.08);
+  --radius:16px;
+}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
-a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:0 auto}
-header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
-.navbar{min-height:74px;display:flex;justify-content:space-between;align-items:center;gap:16px}
-.logo{display:flex;align-items:center;gap:12px}.logo-mark{width:46px;height:46px;flex:0 0 46px;border-radius:15px;background:linear-gradient(135deg,var(--primary),var(--sky));color:#fff;display:grid;place-items:center;font-size:1.35rem;font-weight:900;box-shadow:0 8px 20px rgba(37,99,235,.22)}
-.logo-text{display:flex;flex-direction:column;line-height:1.08}.logo-text strong{font-size:1.38rem;font-weight:900;color:var(--slate);letter-spacing:-.04em}.logo-text small{margin-top:4px;font-size:.78rem;font-weight:800;color:var(--muted)}
-nav{display:flex;align-items:center;gap:20px;font-size:.95rem;font-weight:800;color:#334155}nav a:hover{color:var(--primary)}
-.menu-btn{display:none;border:1px solid var(--border);background:#fff;color:var(--slate);border-radius:12px;padding:9px 12px;font-weight:900;cursor:pointer}
-
-.whatsapp-marquee{overflow:hidden;background:linear-gradient(90deg,#ecfdf5,#eff6ff,#fff7ed);border-bottom:1px solid var(--border);padding:10px 0}
-.whatsapp-marquee a{display:inline-block;white-space:nowrap;color:#16a34a;font-size:1rem;font-weight:900;animation:whatsappRun 15s linear infinite}
-.whatsapp-marquee a:hover{color:#2563eb;text-decoration:underline;animation-play-state:paused}
-@keyframes whatsappRun{from{transform:translateX(-100%)}to{transform:translateX(100vw)}}
-
-.hero{padding:54px 0 44px;background:linear-gradient(135deg,#eff6ff 0%,#fff 55%,#ecfeff 100%);border-bottom:1px solid var(--border)}
-.hero-box{background:#fff;border:1px solid var(--border);border-radius:26px;padding:34px;box-shadow:var(--shadow);display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
-.tag{display:inline-flex;background:#dbeafe;color:var(--primary-dark);padding:8px 13px;border-radius:999px;font-size:.92rem;font-weight:900;margin-bottom:14px}
-h1{font-size:clamp(2rem,4.5vw,3.6rem);line-height:1.08;letter-spacing:-.05em;color:var(--slate);margin-bottom:12px}h1 span{color:var(--primary)}
-.hero p{color:#475569;font-size:1.05rem;max-width:680px}
-.quick-links{display:grid;gap:10px}.quick-link{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px;border:1px solid var(--border);border-radius:15px;background:#f8fafc;font-weight:900;color:var(--slate)}.quick-link:hover{border-color:var(--primary);background:#eff6ff}
-section{padding:58px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 30px}.mini{color:var(--primary);font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:.84rem;margin-bottom:7px}.section-head h2{font-size:clamp(1.65rem,3vw,2.45rem);line-height:1.15;letter-spacing:-.035em;color:var(--slate);margin-bottom:8px}.section-head p{color:var(--muted);font-size:1rem}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:0 8px 22px rgba(15,23,42,.055)}
-.icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;background:#dbeafe;color:var(--primary);font-size:1.25rem;margin-bottom:13px}.card h3{color:var(--slate);font-size:1.13rem;margin-bottom:7px}.card p{color:var(--muted);font-size:.95rem;margin-bottom:12px}.pill{display:inline-block;background:#eff6ff;color:var(--primary-dark);border-radius:999px;padding:6px 10px;font-size:.82rem;font-weight:900;margin-bottom:12px}.card-link{display:inline-block;color:var(--primary);font-weight:900;margin-top:4px}
-.alt{background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.contact-link{color:var(--primary);font-weight:900;word-break:break-word}.whatsapp-btn{display:inline-flex;margin-top:10px;background:#16a34a;color:#fff;padding:10px 14px;border-radius:12px;font-weight:900}
-footer{background:var(--slate);color:#cbd5e1;padding:36px 0 24px}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .9fr;gap:26px;margin-bottom:22px}footer h3,footer h4{color:#fff;margin-bottom:9px}footer p,footer a{color:#cbd5e1;display:block;margin-bottom:7px}footer a:hover{color:#fff}.copyright{border-top:1px solid rgba(255,255,255,.1);padding-top:17px;color:#94a3b8;font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:920px){.menu-btn{display:inline-block}nav{display:none;position:absolute;top:74px;left:0;width:100%;background:#fff;border-bottom:1px solid var(--border);padding:18px 4%;flex-direction:column;align-items:flex-start;gap:15px}nav.active{display:flex}.hero-box{grid-template-columns:1fr}.grid,.footer-grid{grid-template-columns:1fr}}
-@media(max-width:560px){.container{width:min(100% - 28px,1120px)}.navbar{min-height:70px}.logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}.logo-text strong{font-size:1.12rem}.logo-text small{font-size:.68rem}.hero{padding:34px 0 30px}.hero-box{padding:22px;border-radius:20px}h1{font-size:clamp(1.9rem,10vw,2.8rem)}section{padding:44px 0}.whatsapp-marquee a{font-size:.92rem;animation-duration:12s}}
+html{scroll-behavior:auto}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:linear-gradient(135deg,#f8fafc 0%,#eef6ff 32%,#fff7ed 68%,#ecfdf5 100%);
+  color:var(--text);
+  line-height:1.6;
+}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1140px,92%);margin:0 auto}
+.skip-link{
+  position:absolute;
+  left:16px;
+  top:-80px;
+  z-index:2000;
+  background:var(--ink);
+  color:#fff;
+  padding:10px 14px;
+  border-radius:10px;
+  font-weight:800;
+}
+.skip-link:focus{top:16px}
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:rgba(255,255,255,.98);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+}
+.navbar{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:max-content;
+}
+.logo-mark{
+  width:46px;
+  height:46px;
+  flex:0 0 46px;
+  border-radius:14px;
+  background:linear-gradient(135deg,var(--blue),var(--teal));
+  color:#fff;
+  display:grid;
+  place-items:center;
+  font-size:1.35rem;
+  font-weight:900;
+  box-shadow:0 10px 22px rgba(37,99,235,.22);
+}
+.logo-text{display:flex;flex-direction:column;line-height:1.08}
+.logo-text strong{
+  color:var(--ink);
+  font-size:1.34rem;
+  font-weight:900;
+  letter-spacing:-.03em;
+}
+.logo-text small{
+  color:var(--muted);
+  font-size:.78rem;
+  font-weight:800;
+  margin-top:4px;
+}
+.bi{
+  display:inline-flex;
+  flex-direction:column;
+  gap:1px;
+  line-height:1.18;
+}
+.as{
+  color:var(--muted);
+  font-size:.82em;
+  font-weight:800;
+}
+nav{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:.9rem;
+  font-weight:900;
+}
+.nav-link{
+  --accent:var(--blue);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  padding:8px 12px;
+  border-radius:12px;
+  border:1px solid transparent;
+  color:#334155;
+}
+.nav-link.home{--accent:var(--blue)}
+.nav-link.teacher{--accent:var(--green)}
+.nav-link.students{--accent:var(--orange)}
+.nav-link.mock{--accent:var(--rose)}
+.nav-link.materials{--accent:var(--teal)}
+.nav-link.contact{--accent:var(--violet)}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active{
+  color:var(--accent);
+  background:color-mix(in srgb, var(--accent) 10%, white);
+  border-color:color-mix(in srgb, var(--accent) 25%, white);
+}
+.menu-btn{
+  display:none;
+  border:1px solid var(--border);
+  background:#fff;
+  color:var(--ink);
+  border-radius:12px;
+  padding:9px 12px;
+  font-weight:900;
+  cursor:pointer;
+}
+main{
+  min-height:calc(100vh - 76px);
+  padding:36px 0 44px;
+}
+.page-view{display:block}
+.page-view[hidden]{display:none}
+.section-head{
+  max-width:760px;
+  margin:0 auto 30px;
+  text-align:center;
+}
+.mini{
+  color:var(--blue);
+  font-size:.82rem;
+  font-weight:900;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  margin-bottom:7px;
+}
+.section-head h1,
+.section-head h2{
+  color:var(--ink);
+  font-size:clamp(1.75rem,3.4vw,2.65rem);
+  line-height:1.15;
+  letter-spacing:-.035em;
+  margin-bottom:8px;
+}
+.section-head p{color:var(--muted);font-size:1rem}
+.home-shell{
+  display:grid;
+  place-items:center;
+  min-height:calc(100vh - 170px);
+}
+.fact-card{
+  width:min(920px,100%);
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  display:grid;
+  grid-template-columns:.95fr 1.05fr;
+  border-top:7px solid transparent;
+  border-image:linear-gradient(90deg,var(--blue),var(--green),var(--orange),var(--rose)) 1;
+}
+.fact-media{
+  min-height:360px;
+  background:#dbeafe;
+}
+.fact-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.fact-copy{
+  padding:32px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background:linear-gradient(135deg,#ffffff 0%,#f8fbff 52%,#fff7ed 100%);
+}
+.fact-date{
+  display:inline-flex;
+  align-self:flex-start;
+  background:#dcfce7;
+  color:#166534;
+  padding:7px 11px;
+  border-radius:999px;
+  font-size:.8rem;
+  font-weight:900;
+  margin-bottom:12px;
+}
+.fact-copy h1{
+  color:var(--green);
+  font-size:clamp(1.9rem,3.4vw,2.7rem);
+  line-height:1.08;
+  letter-spacing:-.035em;
+  margin-bottom:12px;
+}
+.fact-title{
+  color:var(--ink);
+  font-size:1.2rem;
+  font-weight:900;
+  margin-bottom:8px;
+}
+.fact-copy p{
+  color:#334155;
+  font-size:1.03rem;
+}
+.fact-source{
+  display:inline-flex;
+  align-self:flex-start;
+  margin-top:16px;
+  color:var(--blue-dark);
+  font-size:.9rem;
+  font-weight:900;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:22px;
+  box-shadow:0 8px 22px rgba(15,23,42,.055);
+}
+.card-mark{
+  width:44px;
+  height:44px;
+  border-radius:14px;
+  display:grid;
+  place-items:center;
+  background:#dbeafe;
+  color:var(--blue-dark);
+  font-weight:900;
+  margin-bottom:13px;
+}
+.card h3{
+  color:var(--ink);
+  font-size:1.14rem;
+  line-height:1.25;
+  margin-bottom:7px;
+}
+.card p{
+  color:var(--muted);
+  font-size:.95rem;
+  margin-bottom:13px;
+}
+.badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:28px;
+  padding:5px 10px;
+  border-radius:999px;
+  background:#eff6ff;
+  color:var(--blue-dark);
+  font-size:.78rem;
+  font-weight:900;
+}
+.badge.green{background:#dcfce7;color:#166534}
+.badge.amber{background:#ffedd5;color:#9a3412}
+.resource-layout{max-width:760px;margin:0 auto}
+.resource-list{display:grid;gap:12px}
+.resource-row{
+  display:grid;
+  grid-template-columns:44px 1fr auto;
+  gap:12px;
+  align-items:center;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:15px;
+  padding:13px;
+  box-shadow:0 8px 20px rgba(15,23,42,.045);
+}
+.resource-row:nth-child(1) .resource-mark{background:#fee2e2;color:#991b1b}
+.resource-row:nth-child(2) .resource-mark{background:#dbeafe;color:#1d4ed8}
+.resource-row:nth-child(3) .resource-mark{background:#dcfce7;color:#166534}
+.resource-row:nth-child(4) .resource-mark{background:#fef3c7;color:#92400e}
+.resource-row:nth-child(5) .resource-mark{background:#ede9fe;color:#5b21b6}
+.resource-row:nth-child(6) .resource-mark{background:#ccfbf1;color:#0f766e}
+.resource-row:hover{
+  border-color:var(--blue);
+  background:#f8fbff;
+}
+.resource-row.disabled{
+  cursor:default;
+  background:#fff;
+}
+.resource-row.disabled:hover{
+  border-color:var(--border);
+  background:#fff;
+}
+.resource-row strong{
+  color:var(--ink);
+  display:block;
+  line-height:1.25;
+}
+.resource-row small{
+  color:var(--muted);
+  display:block;
+  margin-top:3px;
+}
+.resource-mark{
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  border-radius:13px;
+  background:#f1f5f9;
+  color:#334155;
+  font-size:.78rem;
+  font-weight:900;
+}
+.notice-panel{
+  background:#0f172a;
+  color:#cbd5e1;
+  border-radius:18px;
+  padding:24px;
+  min-height:100%;
+}
+.notice-panel h3{
+  color:#fff;
+  font-size:1.2rem;
+  margin-bottom:10px;
+}
+.notice-panel p{color:#cbd5e1;margin-bottom:14px}
+.rule-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin-top:18px;
+}
+.rule{
+  background:#111c33;
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:14px;
+  padding:14px;
+}
+.rule strong{display:block;color:#fff;font-size:1rem}
+.rule span{display:block;color:#cbd5e1;font-size:.88rem;margin-top:4px}
+.corner-actions{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+.student-action{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:20px;
+  box-shadow:0 8px 22px rgba(15,23,42,.05);
+  border-top:5px solid var(--orange);
+}
+.student-action:nth-child(1){border-top-color:var(--rose)}
+.student-action:nth-child(2){border-top-color:var(--teal)}
+.student-action:nth-child(3){border-top-color:var(--blue)}
+.student-action:nth-child(4){border-top-color:var(--violet)}
+.student-action:hover{
+  border-color:var(--orange);
+  background:#fffaf5;
+}
+.student-action strong{
+  color:var(--ink);
+  display:block;
+  font-size:1.04rem;
+  line-height:1.25;
+  margin-bottom:7px;
+}
+.student-action p{
+  color:var(--muted);
+  font-size:.92rem;
+  margin-bottom:12px;
+}
+.tree{display:grid;gap:14px}
+.tree-panel{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  box-shadow:0 8px 22px rgba(15,23,42,.045);
+  overflow:hidden;
+}
+.tree-panel summary{
+  cursor:pointer;
+  list-style:none;
+  padding:17px 18px;
+  color:var(--ink);
+  font-weight:900;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+.tree-panel summary::-webkit-details-marker{display:none}
+.tree-panel summary .summary-title{
+  color:var(--ink);
+  font-size:1rem;
+  font-weight:900;
+}
+.tree-panel summary .summary-meta{
+  color:var(--muted);
+  font-size:.86rem;
+  font-weight:800;
+}
+.tree-panel[open] summary{
+  border-bottom:1px solid var(--border);
+  background:#f8fafc;
+}
+.subject-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+  padding:16px;
+}
+.subject-block{
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:14px;
+  background:#fff;
+}
+.subject-block h4{
+  color:#111827;
+  font-size:1rem;
+  margin-bottom:10px;
+}
+.subject-wide{grid-column:1 / -1}
+.nested-grid,.chapter-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+.chapter-card{
+  border:1px solid var(--border);
+  border-radius:13px;
+  padding:12px;
+  background:linear-gradient(135deg,#ffffff 0%,#f8fbff 100%);
+}
+.chapter-card strong{
+  display:block;
+  color:var(--ink);
+  font-size:.95rem;
+  margin-bottom:9px;
+}
+.part-list{
+  display:grid;
+  gap:12px;
+}
+.nested-panel{
+  border:1px solid var(--border);
+  border-radius:13px;
+  overflow:hidden;
+  background:#fff;
+}
+.nested-panel summary{
+  cursor:pointer;
+  list-style:none;
+  padding:12px 14px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  color:var(--ink);
+  font-weight:900;
+  background:#f8fafc;
+}
+.nested-panel summary::-webkit-details-marker{display:none}
+.nested-panel summary span{
+  color:var(--muted);
+  font-size:.82rem;
+  font-weight:800;
+}
+.nested-panel .chapter-grid{
+  padding:12px;
+}
+.test-links,.topic-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.test-links a,.topic-links a{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  padding:7px 10px;
+  border-radius:10px;
+  background:#eff6ff;
+  color:var(--blue-dark);
+  font-size:.84rem;
+  font-weight:900;
+}
+.topic-links a{
+  background:#ecfdf5;
+  color:#166534;
+}
+.test-links a:hover,.topic-links a:hover{
+  filter:brightness(.97);
+  transform:translateY(-1px);
+}
+.drill{
+  display:grid;
+  gap:16px;
+}
+.drill-toolbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.drill-title{
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:900;
+}
+.drill-back{
+  border:1px solid var(--border);
+  background:#fff;
+  color:var(--blue-dark);
+  border-radius:12px;
+  padding:9px 12px;
+  font-weight:900;
+  cursor:pointer;
+}
+.drill-back[hidden]{display:none}
+.drill-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.drill-card{
+  border:1px solid var(--border);
+  background:#fff;
+  border-radius:15px;
+  padding:16px;
+  min-height:78px;
+  text-align:left;
+  color:var(--ink);
+  font:inherit;
+  font-weight:900;
+  cursor:pointer;
+  box-shadow:0 8px 20px rgba(15,23,42,.045);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+.drill-card:nth-child(6n+1){background:#eff6ff;border-color:#bfdbfe}
+.drill-card:nth-child(6n+2){background:#ecfdf5;border-color:#bbf7d0}
+.drill-card:nth-child(6n+3){background:#fff7ed;border-color:#fed7aa}
+.drill-card:nth-child(6n+4){background:#fdf2f8;border-color:#fbcfe8}
+.drill-card:nth-child(6n+5){background:#f5f3ff;border-color:#ddd6fe}
+.drill-card:nth-child(6n+6){background:#ecfeff;border-color:#a5f3fc}
+.drill-card::after{
+  content:"›";
+  color:var(--blue);
+  font-size:1.45rem;
+  line-height:1;
+}
+.drill-card:hover{
+  border-color:var(--blue);
+  background:#f8fbff;
+  transform:translateY(-1px);
+}
+.drill-card.test-link{
+  color:var(--blue-dark);
+  background:linear-gradient(135deg,#eff6ff 0%,#ecfdf5 100%);
+}
+.drill-card.test-link::after{content:"→"}
+.drill-card.disabled{
+  cursor:not-allowed;
+  opacity:.72;
+}
+.drill-card.disabled::after{content:""}
+.status-chip{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:24px;
+  padding:4px 8px;
+  border-radius:999px;
+  font-size:.76rem;
+  font-weight:900;
+  white-space:nowrap;
+}
+.status-chip.available{background:#dcfce7;color:#166534}
+.status-chip.soon{background:#ffedd5;color:#9a3412}
+.drill-empty{
+  background:#fff;
+  border:1px dashed var(--border);
+  border-radius:15px;
+  padding:18px;
+  color:var(--muted);
+  font-weight:800;
+}
+.contact-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.contact-link{
+  color:var(--blue);
+  font-weight:900;
+  word-break:break-word;
+}
+.whatsapp-btn{
+  display:inline-flex;
+  margin-top:10px;
+  background:#16a34a;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:12px;
+  font-weight:900;
+}
+footer{
+  background:var(--ink);
+  color:#cbd5e1;
+  padding:20px 0;
+}
+.footer-line{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  color:#94a3b8;
+  font-size:.9rem;
+}
+@media(max-width:980px){
+  .menu-btn{display:inline-flex}
+  nav{
+    display:none;
+    position:absolute;
+    top:76px;
+    left:0;
+    width:100%;
+    background:#fff;
+    border-bottom:1px solid var(--border);
+    padding:16px 4%;
+    flex-direction:column;
+    align-items:stretch;
+    gap:10px;
+  }
+  nav.active{display:flex}
+  .nav-link{justify-content:center}
+  .fact-card{grid-template-columns:1fr}
+  .fact-media{min-height:260px}
+  .grid,.contact-grid{grid-template-columns:1fr}
+  .corner-actions{grid-template-columns:repeat(2,1fr)}
+  .rule-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .container{width:min(100% - 28px,1140px)}
+  .navbar{min-height:70px}
+  nav{top:70px}
+  .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
+  .logo-text strong{font-size:1.12rem}
+  .logo-text small{font-size:.68rem}
+  main{padding:24px 0 34px}
+  .fact-copy{padding:24px}
+  .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
+  .resource-row{grid-template-columns:42px 1fr}
+  .resource-row .badge{grid-column:2;justify-self:start}
+}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header>
   <div class="container navbar">
-    <a href="#home" class="logo" aria-label="Xohopathi Home">
-      <span class="logo-mark">স</span>
-      <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion</small></span>
+    <a href="#home" class="logo nav-route" data-page="home" aria-label="Xohopathi Home">
+      <span class="logo-mark">X</span>
+      <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
     </a>
-    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
-    <nav id="navMenu">
-      <a href="#home">Home</a>
-      <a href="#mock-tests">Mock Test</a>
-      <a href="#class-tests">Class Test</a>
-      <a href="#materials">Study Materials</a>
-      <a href="#contact">Contact</a>
+    <button class="menu-btn" type="button" aria-controls="navMenu" aria-expanded="false" onclick="toggleMenu()">Menu</button>
+    <nav id="navMenu" aria-label="Primary navigation">
+      <a class="nav-link home nav-route" href="#home" data-page="home"><span class="bi">Home<span class="as">মুখ্য পৃষ্ঠা</span></span></a>
+      <a class="nav-link teacher nav-route" href="#teacher-corner" data-page="teacher-corner"><span class="bi">Teacher Corner<span class="as">শিক্ষক কোণ</span></span></a>
+      <a class="nav-link students nav-route" href="#students-corner" data-page="students-corner"><span class="bi">Students Corner<span class="as">শিক্ষাৰ্থী কোণ</span></span></a>
+      <a class="nav-link mock nav-route" href="#mock-tests" data-page="mock-tests"><span class="bi">Mock Test<span class="as">মক টেষ্ট</span></span></a>
+      <a class="nav-link materials nav-route" href="#study-materials" data-page="study-materials"><span class="bi">Study Materials<span class="as">অধ্যয়ন সামগ্ৰী</span></span></a>
+      <a class="nav-link contact nav-route" href="#contact" data-page="contact"><span class="bi">Contact<span class="as">যোগাযোগ</span></span></a>
     </nav>
   </div>
 </header>
 
-<div class="whatsapp-marquee">
-  <a href="https://chat.whatsapp.com/FO91h8PmkyLCoRF1nQDvvV" target="_blank" rel="noopener noreferrer">
-    To Join WhatsApp Group of Class 7 (A and B), Click here.
-  </a>
-</div>
+<main id="main">
+  <section class="page-view" id="home" data-title="Home">
+    <div class="container home-shell">
+      <article class="fact-card" aria-labelledby="did-you-know-title">
+        <figure class="fact-media">
+          <img id="factImage" src="https://commons.wikimedia.org/wiki/Special:FilePath/Majuli%2C_the_River_Island.jpg?width=1000" alt="Majuli river island landscape in Assam" />
+        </figure>
+        <div class="fact-copy">
+          <span class="fact-date" id="factDate">Today</span>
+          <h1 id="did-you-know-title"><span class="bi">Did you know?<span class="as">আপুনি জানেনে?</span></span></h1>
+          <div class="fact-title" id="factTitle"></div>
+          <p id="factText"></p>
+          <a class="fact-source" id="factSource" href="#" target="_blank" rel="noopener noreferrer">Read more / অধিক পঢ়ক &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<main>
-<section class="hero" id="home">
-  <div class="container">
-    <div class="hero-box">
-      <div>
-        <div class="tag">Your Digital Companion</div>
-        <h1><span>Xohopathi</span></h1>
-        <p>Study materials, mock tests, class tests, MCQs, grammar notes, Assam GK, and exam preparation resources for students.</p>
+  <section class="page-view" id="teacher-corner" data-title="Teacher Corner" hidden>
+    <div class="container">
+      <div class="section-head">
+        <div class="mini">For Teachers / শিক্ষকসকলৰ বাবে</div>
+        <h1><span class="bi">Teacher Corner<span class="as">শিক্ষক কোণ</span></span></h1>
+        <p>Frequently visited official and academic links in one place. / সঘনাই ব্যৱহাৰ হোৱা চৰকাৰী আৰু শৈক্ষিক লিংক একে ঠাইতে।</p>
       </div>
-      <div class="quick-links">
-        <a class="quick-link" href="#mock-tests">Mock Test <span>→</span></a>
-        <a class="quick-link" href="#class-tests">Class Test <span>→</span></a>
-        <a class="quick-link" href="#materials">Study Materials <span>→</span></a>
-        <a class="quick-link" href="#contact">Contact <span>→</span></a>
+
+      <div class="resource-layout">
+        <div class="resource-list" aria-label="Teacher links">
+          <div class="resource-row disabled" aria-disabled="true">
+            <span class="resource-mark">LN</span>
+            <span><strong>Latest Notification / শেহতীয়া জাননী</strong><small>School updates and important notices / বিদ্যালয়ৰ আপডেট আৰু গুৰুত্বপূৰ্ণ জাননী</small></span>
+            <span class="badge amber">Coming Soon / শীঘ্ৰে</span>
+          </div>
+          <a class="resource-row" href="https://sikshasetu.assam.gov.in/" target="_blank" rel="noopener noreferrer">
+            <span class="resource-mark">SS</span>
+            <span><strong>Shiksha Setu / শিক্ষা সেতু</strong><small>Teacher and school education portal / শিক্ষক আৰু বিদ্যালয় শিক্ষা প'ৰ্টেল</small></span>
+            <span class="badge green">Open / খোলক</span>
+          </a>
+          <a class="resource-row" href="https://fin.assam.gov.in/ess/gotoEmpLogin" target="_blank" rel="noopener noreferrer">
+            <span class="resource-mark">FA</span>
+            <span><strong>Fin Assam / ফিন অসম</strong><small>Finance related official access / বিত্ত সম্পৰ্কীয় চৰকাৰী প্ৰৱেশ</small></span>
+            <span class="badge green">Open / খোলক</span>
+          </a>
+          <a class="resource-row" href="https://mmlsay.assam.gov.in/" target="_blank" rel="noopener noreferrer">
+            <span class="resource-mark">MM</span>
+            <span><strong>MMLSAY</strong><small>Scheme and service link / আঁচনি আৰু সেৱাৰ লিংক</small></span>
+            <span class="badge green">Open / খোলক</span>
+          </a>
+          <a class="resource-row" href="https://site.sebaonline.org/photo/upload/2026/1775041197_3132.pdf" target="_blank" rel="noopener noreferrer">
+            <span class="resource-mark">AC</span>
+            <span><strong>Academic Calendar / শৈক্ষিক পঞ্জিকা</strong><small>Yearly academic planning and dates / বাৰ্ষিক শৈক্ষিক পৰিকল্পনা আৰু তাৰিখ</small></span>
+            <span class="badge green">Open PDF / PDF খোলক</span>
+          </a>
+          <a class="resource-row" href="https://auth.udiseplus.gov.in/login?response_type=code&amp;client_id=udise-teacher-prod&amp;scope=read&amp;redirect_uri=https://udiseplus.gov.in/udiseteacher/authCallback&amp;loginTxnId=12082955-3962-4849-bea5-5f9adba26c66" target="_blank" rel="noopener noreferrer">
+            <span class="resource-mark">UD</span>
+            <span><strong>UDISE+</strong><small>School data and UDISE portal / বিদ্যালয় তথ্য আৰু UDISE প'ৰ্টেল</small></span>
+            <span class="badge green">Open / খোলক</span>
+          </a>
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="mock-tests">
-  <div class="container">
-    <div class="section-head">
-      <div class="mini">Practice</div>
-      <h2>Mock Test</h2>
-      <p>Select a mock test and start practicing.</p>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <div class="icon">🌏</div>
-        <h3>Mock Test on General Studies</h3>
-        <p>Practice important General Studies questions.</p>
-        <span class="pill">Available</span><br>
-        <a class="card-link" href="/mock-tests/general-studies/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+  <section class="page-view" id="students-corner" data-title="Students Corner" hidden>
+    <div class="container">
+      <div class="section-head">
+        <div class="mini">For Students / শিক্ষাৰ্থীসকলৰ বাবে</div>
+        <h1><span class="bi">Students Corner<span class="as">শিক্ষাৰ্থী কোণ</span></span></h1>
       </div>
 
-      <div class="card">
-        <div class="icon">🔤</div>
-        <h3>Mock Test on Grammar</h3>
-        <p>Practice English grammar questions.</p>
-        <span class="pill">Available</span><br>
-        <a class="card-link" href="/mock-tests/grammar/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">📘</div>
-        <h3>Mock Test on Assam GK</h3>
-        <p>Practice Assam GK and current affairs.</p>
-        <span class="pill">Available</span><br>
-        <a class="card-link" href="/mock-tests/assam-gk/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">📚</div>
-        <h3>Mock Test on Assamese Literature</h3>
-        <p>Practice important Assamese literature GK questions.</p>
-        <span class="pill">Available</span><br>
-        <a class="card-link" href="/mock-tests/assamese-literature/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">📰</div>
-        <h3>Mock Test on Current Affairs</h3>
-        <p>Practice important current affairs questions.</p>
-        <span class="pill">Available</span><br>
-        <a class="card-link" href="/mock-tests/current-affairs/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+      <div class="corner-actions">
+        <a class="student-action nav-route" href="#mock-tests" data-page="mock-tests">
+          <strong>Mock Test / মক টেষ্ট</strong>
+          <p>Class-wise and exam-wise tests with timer and final score. / শ্ৰেণীভিত্তিক আৰু পৰীক্ষাভিত্তিক অনুশীলন।</p>
+          <span class="badge green">Practice / অনুশীলন</span>
+        </a>
+        <a class="student-action nav-route" href="#study-materials" data-page="study-materials">
+          <strong>Study Materials / অধ্যয়ন সামগ্ৰী</strong>
+          <p>Class-wise and subject-wise PDF or OneDrive links. / শ্ৰেণী আৰু বিষয়ভিত্তিক PDF বা OneDrive লিংক।</p>
+          <span class="badge green">PDF links / PDF লিংক</span>
+        </a>
+        <a class="student-action" href="https://www.xobdo.org" target="_blank" rel="noopener noreferrer">
+          <strong>Assamese Dictionary / অসমীয়া অভিধান</strong>
+          <p>Web link for Assamese word meanings and vocabulary help. / অসমীয়া শব্দাৰ্থ আৰু শব্দভাণ্ডাৰৰ সহায়।</p>
+          <span class="badge green">Open / খোলক</span>
+        </a>
+        <a class="student-action nav-route" href="#previous-papers" data-page="previous-papers">
+          <strong>Previous Year Question Paper / পূৰ্বৰ প্ৰশ্নকাকত</strong>
+          <p>OneDrive links for exam and class question papers. / পৰীক্ষা আৰু শ্ৰেণীভিত্তিক প্ৰশ্নকাকতৰ লিংক।</p>
+          <span class="badge green">Browse / চাওক</span>
+        </a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="class-tests" class="alt">
-  <div class="container">
-    <div class="section-head">
-      <div class="mini">Class Practice</div>
-      <h2>Class Test</h2>
-      <p>Class-wise tests and practice activities for students.</p>
+  <section class="page-view" id="mock-tests" data-title="Mock Test" hidden>
+    <div class="container">
+      <div class="section-head">
+        <div class="mini">Practice / অনুশীলন</div>
+        <h1><span class="bi">Mock Test<span class="as">মক টেষ্ট</span></span></h1>
+        <p>Select a class or exam, choose a subject, and open Test 1 to Test 5. / শ্ৰেণী বা পৰীক্ষা বাছনি কৰি বিষয় আৰু টেষ্ট খোলক।</p>
+      </div>
+
+      <div class="tree" id="mockTree" aria-live="polite"></div>
     </div>
+  </section>
 
-    <div class="grid">
-      <div class="card">
-        <div class="icon">📝</div>
-        <h3>Class 7 Test</h3>
-        <p>Practice class test questions for Class 7 students.</p>
-        <span class="pill">Coming soon</span>
+  <section class="page-view" id="study-materials" data-title="Study Materials" hidden>
+    <div class="container">
+      <div class="section-head">
+        <div class="mini">Resources / সমল</div>
+        <h1><span class="bi">Study Materials<span class="as">অধ্যয়ন সামগ্ৰী</span></span></h1>
       </div>
 
-      <div class="card">
-        <div class="icon">📚</div>
-        <h3>Subject Wise Test</h3>
-        <p>Tests for English, Social Science, General Knowledge, and more.</p>
-        <span class="pill">Coming soon</span>
-      </div>
-
-      <div class="card">
-        <div class="icon">✅</div>
-        <h3>Weekly Practice</h3>
-        <p>Weekly class practice sets and short quizzes.</p>
-        <span class="pill">Coming soon</span>
-      </div>
+      <div class="tree" id="materialsTree" aria-live="polite"></div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="materials">
-  <div class="container">
-    <div class="section-head">
-      <div class="mini">Resources</div>
-      <h2>Study Materials</h2>
-      <p>Notes, PDFs, worksheets, grammar lessons, Assam GK, and practice sets.</p>
+  <section class="page-view" id="previous-papers" data-title="Previous Year Question Paper" hidden>
+    <div class="container">
+      <div class="section-head">
+        <div class="mini">Question Papers / প্ৰশ্নকাকত</div>
+        <h1><span class="bi">Previous Year Question Paper<span class="as">পূৰ্বৰ বছৰৰ প্ৰশ্নকাকত</span></span></h1>
+      </div>
+
+      <div class="tree" id="paperTree" aria-live="polite"></div>
     </div>
+  </section>
 
-    <div class="grid">
-      <div class="card">
-        <div class="icon">📖</div>
-        <h3>School Study Materials</h3>
-        <p>Class-wise notes, short answers, and practice questions.</p>
-        <span class="pill">Coming soon</span>
+  <section class="page-view" id="contact" data-title="Contact" hidden>
+    <div class="container">
+      <div class="section-head">
+        <div class="mini">Contact / যোগাযোগ</div>
+        <h1><span class="bi">Contact<span class="as">যোগাযোগ</span></span></h1>
+        <p>For study materials, mock tests, class tests, or educational queries. / অধ্যয়ন সামগ্ৰী, মক টেষ্ট বা শৈক্ষিক প্ৰশ্নৰ বাবে।</p>
       </div>
 
-      <div class="card">
-        <div class="icon">🔤</div>
-        <h3>English Grammar</h3>
-        <p>Noun, pronoun, verb, adverb, articles, clauses, and sentence correction.</p>
-        <span class="pill">Coming soon</span>
-      </div>
+      <div class="contact-grid">
+        <div class="card">
+          <div class="card-mark">PH</div>
+          <h3>Phone / WhatsApp / ফোন / ৱাটছএপ</h3>
+          <p><a class="contact-link" href="tel:+919101247321">+91 9101247321</a></p>
+          <a class="whatsapp-btn" href="https://wa.me/919101247321" target="_blank" rel="noopener noreferrer">Message on WhatsApp / ৱাটছএপত বাৰ্তা</a>
+        </div>
 
-      <div class="card">
-        <div class="icon">🌏</div>
-        <h3>Assam GK & Current Affairs</h3>
-        <p>Assam geography, history, culture, and current affairs resources.</p>
-        <span class="pill">Coming soon</span>
-      </div>
-    </div>
-  </div>
-</section>
+        <div class="card">
+          <div class="card-mark">EM</div>
+          <h3>Email / ইমেইল</h3>
+          <p><a class="contact-link" href="mailto:drmamun@zohomail.in">drmamun@zohomail.in</a></p>
+        </div>
 
-<section class="alt" id="contact">
-  <div class="container">
-    <div class="section-head">
-      <div class="mini">Contact</div>
-      <h2>Contact</h2>
-      <p>For study materials, mock tests, class tests, or educational queries.</p>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <div class="icon">📞</div>
-        <h3>Phone / WhatsApp</h3>
-        <p><a class="contact-link" href="tel:+919101247321">+91 9101247321</a></p>
-        <a class="whatsapp-btn" href="https://wa.me/919101247321" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
-      </div>
-
-      <div class="card">
-        <div class="icon">✉️</div>
-        <h3>Email</h3>
-        <p><a class="contact-link" href="mailto:drmamun@zohomail.in">drmamun@zohomail.in</a></p>
-      </div>
-
-      <div class="card">
-        <div class="icon">🌐</div>
-        <h3>Website</h3>
-        <p><a class="contact-link" href="https://xohopathi.in">xohopathi.in</a></p>
-        <p>Assam, India</p>
+        <div class="card">
+          <div class="card-mark">WB</div>
+          <h3>Website / ৱেবছাইট</h3>
+          <p><a class="contact-link" href="https://xohopathi.in" target="_blank" rel="noopener noreferrer">xohopathi.in</a></p>
+          <p>Assam, India / অসম, ভাৰত</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </main>
 
 <footer>
-  <div class="container footer-grid">
-    <div>
-      <h3>Xohopathi</h3>
-      <p>Your Digital Companion</p>
-    </div>
-
-    <div>
-      <h4>Quick Links</h4>
-      <a href="#home">Home</a>
-      <a href="#mock-tests">Mock Test</a>
-      <a href="#class-tests">Class Test</a>
-      <a href="#materials">Study Materials</a>
-      <a href="#contact">Contact</a>
-    </div>
-
-    <div>
-      <h4>Contact</h4>
-      <p>Phone: +91 9101247321</p>
-      <p>Email: drmamun@zohomail.in</p>
-      <p>Website: xohopathi.in</p>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="copyright">
-      <span>© 2026 Xohopathi. All rights reserved.</span>
-      <span>Created by Dr. Abdullah Al Mamun</span>
-    </div>
+  <div class="container footer-line">
+    <span>&copy; 2026 Xohopathi. All rights reserved.</span>
+    <span>Created by Dr. Abdullah Al Mamun / ডঃ আব্দুল্লাহ আল মামুনৰ দ্বাৰা নিৰ্মিত</span>
   </div>
 </footer>
 
 <script>
-function toggleMenu(){document.getElementById("navMenu").classList.toggle("active")}
-document.querySelectorAll("nav a").forEach(function(link){link.addEventListener("click",function(){document.getElementById("navMenu").classList.remove("active")})})
-</script>
+const classes = ["Class 12","Class 11","Class 10","Class 9","Class 8","Class 7","Class 6"];
+const classSubjects = [
+  {en:"English"},
+  {en:"Assamese", as:"অসমীয়া"},
+  {en:"Social Science", as:"সমাজ বিজ্ঞান"},
+  {en:"Science", as:"বিজ্ঞান"},
+  {en:"Mathematics", as:"গণিত"}
+];
+const juniorMockClasses = ["Class 10","Class 9","Class 8","Class 7","Class 6"];
+const seniorMockClasses = ["Class 12","Class 11"];
+const class10SocialScience = {
+  name:{en:"Social Science", as:"সমাজ বিজ্ঞান"},
+  chapterGroups:[
+    {
+      name:{en:"History", as:"ইতিহাস"},
+      chapters:[
+        {en:"Chapter 1 - Partition of Bengal and Swadeshi Movement", as:"অধ্যায় ১ - বঙ্গ বিভাজন আৰু স্বদেশী আন্দোলন"},
+        {en:"Chapter 2 - Rise of Gandhi and the Freedom Movement of India", as:"অধ্যায় ২ - গান্ধীৰ উত্থান আৰু ভাৰতৰ স্বাধীনতা আন্দোলন"},
+        {en:"Chapter 3 - Anti-British Rising and Peasant Revolts in Assam", as:"অধ্যায় ৩ - অসমত ব্ৰিটিছ বিৰোধী বিদ্ৰোহ আৰু কৃষক আন্দোলন"},
+        {en:"Chapter 4 - Indian Freedom Movement and National Awakening in Assam", as:"অধ্যায় ৪ - ভাৰতীয় স্বাধীনতা আন্দোলন আৰু অসমত জাতীয় জাগৰণ"},
+        {en:"Chapter 5 - Cultural Heritage of India and North East Region", as:"অধ্যায় ৫ - ভাৰত আৰু উত্তৰ-পূব অঞ্চলৰ সাংস্কৃতিক ঐতিহ্য"}
+      ]
+    },
+    {
+      name:{en:"Political Science", as:"ৰাজনীতি বিজ্ঞান"},
+      chapters:[
+        {en:"Chapter 1 - Indian Democracy", as:"অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"},
+        {en:"Chapter 2 - International Organization - The United Nations Organization", as:"অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ"},
+        {en:"Others", as:"অন্যান্য"}
+      ]
+    },
+    {
+      name:{en:"Geography", as:"ভূগোল"},
+      chapters:[
+        {en:"Chapter 1 - Economic Geography: Subject Matter and Resource", as:"অধ্যায় ১ - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"},
+        {en:"Chapter 2 - Environment and Environmental Problems", as:"অধ্যায় ২ - পৰিৱেশ আৰু পৰিৱেশজনিত সমস্যা"},
+        {en:"Chapter 3 - Geography of World", as:"অধ্যায় ৩ - বিশ্বৰ ভূগোল"},
+        {en:"Chapter 4 - Geography of Assam", as:"অধ্যায় ৪ - অসমৰ ভূগোল"}
+      ]
+    },
+    {
+      name:{en:"Economics", as:"অৰ্থনীতি"},
+      chapters:[
+        {en:"Chapter 1 - Money and Banking", as:"অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"},
+        {en:"Chapter 2 - Economic Development", as:"অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"}
+      ]
+    }
+  ]
+};
+const class9SocialScience = {
+  name:{en:"Social Science", as:"সমাজ বিজ্ঞান"},
+  chapterGroups:[
+    {
+      name:{en:"History", as:"ইতিহাস"},
+      chapters:[
+        {en:"Chapter 1 - Advent of the Europeans into India", as:"অধ্যায় ১ - ভাৰতত ইউৰোপীয়সকলৰ আগমন"},
+        {en:"Chapter 2 - Growth of Indian Nationalism", as:"অধ্যায় ২ - ভাৰতীয় জাতীয়তাবাদৰ বিকাশ"},
+        {en:"Chapter 3 - The Moamoriya Rebellion", as:"অধ্যায় ৩ - মোৱামৰীয়া বিদ্ৰোহ"},
+        {en:"Chapter 4 - Burmese Invasion of Assam", as:"অধ্যায় ৪ - অসমত মানৰ আক্ৰমণ"},
+        {en:"Chapter 5 - Beginning of the British Administration in Assam", as:"অধ্যায় ৫ - অসমত ব্ৰিটিছ প্ৰশাসনৰ আৰম্ভণি"}
+      ]
+    },
+    {
+      name:{en:"Geography", as:"ভূগোল"},
+      chapters:[
+        {en:"Chapter 1 - Change of the Earth's Surface", as:"অধ্যায় ১ - পৃথিৱীৰ পৃষ্ঠৰ পৰিৱৰ্তন"},
+        {en:"Chapter 2 - Atmosphere: Structure, Air Pressure and Wind System", as:"অধ্যায় ২ - বায়ুমণ্ডল: গঠন, বায়ুচাপ আৰু বতাহৰ প্ৰণালী"},
+        {en:"Chapter 3 - Geography of India", as:"অধ্যায় ৩ - ভাৰতৰ ভূগোল"},
+        {en:"Chapter 4 - Geography of Assam", as:"অধ্যায় ৪ - অসমৰ ভূগোল"}
+      ]
+    },
+    {
+      name:{en:"Political Science", as:"ৰাজনীতি বিজ্ঞান"},
+      chapters:[
+        {en:"Chapter 1 - Political Parties in India", as:"অধ্যায় ১ - ভাৰতৰ ৰাজনৈতিক দলসমূহ"},
+        {en:"Chapter 2 - Types or Classification of Government", as:"অধ্যায় ২ - চৰকাৰৰ প্ৰকাৰ বা শ্ৰেণীবিভাগ"}
+      ]
+    },
+    {
+      name:{en:"Economics", as:"অৰ্থনীতি"},
+      chapters:[
+        {en:"Chapter 1 - Basic Concepts of Economics", as:"অধ্যায় ১ - অৰ্থনীতিৰ মৌলিক ধাৰণা"},
+        {en:"Chapter 2 - Basic Economic Problems", as:"অধ্যায় ২ - মৌলিক অৰ্থনৈতিক সমস্যা"}
+      ]
+    }
+  ]
+};
+const juniorMockSubjects = [
+  {name:{en:"English"}, sections:[{en:"English"},{en:"Grammar", as:"ব্যাকৰণ"}]},
+  {name:{en:"Social Science", as:"সমাজ বিজ্ঞান"}, sections:[{en:"History", as:"ইতিহাস"},{en:"Geography", as:"ভূগোল"},{en:"Political Science", as:"ৰাজনীতি বিজ্ঞান"},{en:"Economics", as:"অৰ্থনীতি"}]}
+];
+const seniorMockSubjects = [
+  {name:{en:"English"}, sections:[{en:"English"},{en:"Grammar", as:"ব্যাকৰণ"}]},
+  {name:{en:"Economics", as:"অৰ্থনীতি"}, parts:[{en:"Part 1", as:"প্ৰথম ভাগ"},{en:"Part 2", as:"দ্বিতীয় ভাগ"}], chapters:8}
+];
+const mockClassGroups = [
+  ...seniorMockClasses.map(className => ({name:className, subjects:seniorMockSubjects})),
+  ...juniorMockClasses.map(className => ({
+    name:className,
+    subjects:className === "Class 10"
+      ? [juniorMockSubjects[0], class10SocialScience]
+      : className === "Class 9"
+        ? [juniorMockSubjects[0], class9SocialScience]
+        : juniorMockSubjects
+  }))
+];
+const examGroups = [
+  {name:"APSC", subjects:[{en:"General Studies", as:"সাধাৰণ অধ্যয়ন"},{en:"Assam GK", as:"অসম সাধাৰণ জ্ঞান"},{en:"Current Affairs", as:"চলিত ঘটনা"},{en:"Aptitude", as:"দক্ষতা"}]},
+  {name:"ADRE", subjects:[{en:"General Knowledge", as:"সাধাৰণ জ্ঞান"},{en:"Reasoning", as:"যুক্তি"},{en:"Mathematics", as:"গণিত"},{en:"English"}]},
+  {name:"TET", subjects:[{en:"Child Development", as:"শিশু বিকাশ"},{en:"Pedagogy", as:"শিক্ষণবিদ্যা"},{en:"English"},{en:"Assamese", as:"অসমীয়া"}]}
+];
+const testNames = [
+  {en:"Test 1", as:"টেষ্ট ১"},
+  {en:"Test 2", as:"টেষ্ট ২"},
+  {en:"Test 3", as:"টেষ্ট ৩"},
+  {en:"Test 4", as:"টেষ্ট ৪"},
+  {en:"Test 5", as:"টেষ্ট ৫"}
+];
+const materialTopics = [
+  {en:"Notes PDF", as:"নোট PDF"},
+  {en:"Question Bank", as:"প্ৰশ্ন ভঁৰাল"},
+  {en:"Worksheet", as:"ৱৰ্কশ্বীট"},
+  {en:"OneDrive Folder", as:"OneDrive ফোল্ডাৰ"}
+];
+const paperYears = ["2026","2025","2024","2023","2022","2021","2020"];
+const previousPaperGroups = [
+  {
+    name:{en:"Class 10", as:"শ্ৰেণী ১০"},
+    subjects:[
+      {en:"Assamese", as:"অসমীয়া"},
+      {en:"English"},
+      {en:"General Science", as:"সাধাৰণ বিজ্ঞান"},
+      {en:"General Maths", as:"সাধাৰণ গণিত"},
+      {en:"Social Science", as:"সমাজ বিজ্ঞান"},
+      {en:"Hindi", as:"হিন্দী"},
+      {en:"Geography", as:"ভূগোল"}
+    ]
+  },
+  {
+    name:{en:"Class 12", as:"শ্ৰেণী ১২"},
+    subjects:[
+      {en:"Assamese", as:"অসমীয়া"},
+      {en:"English"},
+      {en:"Economics", as:"অৰ্থনীতি"},
+      {en:"Education", as:"শিক্ষা"},
+      {en:"Political Science", as:"ৰাজনীতি বিজ্ঞান"},
+      {en:"History", as:"ইতিহাস"}
+    ]
+  }
+];
+const facts = [
+  {
+    title:"Majuli became India's first island district.",
+    text:"Majuli in Assam was declared a district in 2016, making it India's first river island district.",
+    titleAs:"মাজুলী ভাৰতৰ প্ৰথম নদী দ্বীপ জিলা হৈছিল।",
+    textAs:"২০১৬ চনত অসমৰ মাজুলীক জিলা ঘোষণা কৰা হয়, যাৰ ফলত ই ভাৰতৰ প্ৰথম নদী দ্বীপ জিলা হয়।",
+    source:"https://majuli.assam.gov.in/index.php/about-district/district-glance"
+  },
+  {
+    title:"Sualkuchi is famous for silk weaving.",
+    text:"Sualkuchi is often called the Manchester of Assam because of its long tradition of weaving silk textiles.",
+    titleAs:"সুৱালকুছি ৰেচম বোৱাৰ বাবে বিখ্যাত।",
+    textAs:"ৰেচম বস্ত্ৰ বোৱাৰ দীৰ্ঘ পৰম্পৰাৰ বাবে সুৱালকুছিক অসমীয়া Manchester বুলিও কোৱা হয়।",
+    source:"https://assam.gov.in/about-us/396"
+  },
+  {
+    title:"Muga silk has a natural golden shine.",
+    text:"Assam's muga silk is valued because its golden-yellow colour is natural, not added by dye.",
+    titleAs:"মুগা ৰেচমৰ স্বাভাৱিক সোণালী আভা আছে।",
+    textAs:"অসমৰ মুগা ৰেচমৰ সোণালী-হালধীয়া ৰং প্ৰাকৃতিক, ৰং দি সৃষ্টি কৰা নহয়।",
+    source:"https://assam.gov.in/about-us/396"
+  },
+  {
+    title:"The Ahom kingdom lasted nearly 600 years.",
+    text:"The Ahoms ruled large parts of Assam from 1228 until the Treaty of Yandabo in 1826.",
+    titleAs:"আহোম ৰাজ্য প্ৰায় ৬০০ বছৰ ধৰি আছিল।",
+    textAs:"আহোমসকলে ১২২৮ চনৰ পৰা ১৮২৬ চনৰ ইয়ান্দাবু সন্ধিলৈকে অসমৰ বৃহৎ অংশ শাসন কৰিছিল।",
+    source:"https://en.wikipedia.org/wiki/Ahom_kingdom"
+  },
+  {
+    title:"Bhaona is a theatre tradition from Assam.",
+    text:"Bhaona, associated with Srimanta Sankardev, uses drama, music, and dialogue to present moral and spiritual stories.",
+    titleAs:"ভাওনা অসমৰ এক নাট্য পৰম্পৰা।",
+    textAs:"শ্ৰীমন্ত শংকৰদেৱৰ সৈতে জড়িত ভাওনাত নাটক, সংগীত আৰু সংলাপৰ জৰিয়তে নৈতিক আৰু আধ্যাত্মিক কাহিনী উপস্থাপন কৰা হয়।",
+    source:"https://en.wikipedia.org/wiki/Bhaona"
+  },
+  {
+    title:"Hajo is important to three faith traditions.",
+    text:"Hajo near Guwahati has sacred sites associated with Hinduism, Islam, and Buddhism.",
+    titleAs:"হাজো তিনিটা ধৰ্মীয় পৰম্পৰাৰ বাবে গুৰুত্বপূৰ্ণ।",
+    textAs:"গুৱাহাটীৰ ওচৰৰ হাজোত হিন্দু, ইছলাম আৰু বৌদ্ধ ধৰ্মৰ সৈতে জড়িত পবিত্ৰ স্থান আছে।",
+    source:"https://en.wikipedia.org/wiki/Hajo"
+  },
+  {
+    title:"Deepor Beel is a Ramsar wetland.",
+    text:"Deepor Beel near Guwahati is internationally recognised as a wetland of importance under the Ramsar Convention.",
+    titleAs:"দীপৰ বিল এটা Ramsar জলাভূমি।",
+    textAs:"গুৱাহাটীৰ ওচৰৰ দীপৰ বিল Ramsar Convention অনুসৰি আন্তঃৰাষ্ট্ৰীয় গুৰুত্বসম্পন্ন জলাভূমি হিচাপে স্বীকৃত।",
+    source:"https://rsis.ramsar.org/ris/1207"
+  },
+  {
+    title:"The Brahmaputra is known by different names.",
+    text:"The same great river is known as Yarlung Tsangpo in Tibet, Siang or Dihang in Arunachal Pradesh, and Brahmaputra in Assam.",
+    titleAs:"ব্ৰহ্মপুত্ৰ নদী বিভিন্ন নামেৰে জনাজাত।",
+    textAs:"একেখন মহান নদী তিব্বতত Yarlung Tsangpo, অৰুণাচল প্ৰদেশত Siang বা Dihang, আৰু অসমত ব্ৰহ্মপুত্ৰ নামেৰে জনাজাত।",
+    source:"https://en.wikipedia.org/wiki/Brahmaputra_River"
+  },
+  {
+    title:"Rang Ghar is an early sports pavilion.",
+    text:"Rang Ghar in Sivasagar is often described as one of Asia's oldest surviving amphitheatre-style sports pavilions.",
+    titleAs:"ৰংঘৰ এক প্ৰাচীন ক্ৰীড়া মণ্ডপ।",
+    textAs:"শিৱসাগৰৰ ৰংঘৰক এছিয়াৰ আটাইতকৈ পুৰণি টিকি থকা amphitheatre-ধৰণৰ ক্ৰীড়া মণ্ডপসমূহৰ ভিতৰত গণ্য কৰা হয়।",
+    source:"https://en.wikipedia.org/wiki/Rang_Ghar"
+  },
+  {
+    title:"Dhola-Sadiya Bridge connects two northeastern states.",
+    text:"The Bhupen Hazarika Setu, also called Dhola-Sadiya Bridge, links Assam with Arunachal Pradesh across the Lohit river.",
+    titleAs:"ঢোলা-সদিয়া দলঙে দুটা উত্তৰ-পূৰ্বাঞ্চলীয় ৰাজ্য সংযোগ কৰে।",
+    textAs:"ভূপেন হাজৰিকা সেতু, যাক ঢোলা-সদিয়া দলং বুলিও কোৱা হয়, লোহিত নদীৰ ওপৰেৰে অসমক অৰুণাচল প্ৰদেশৰ সৈতে সংযোগ কৰে।",
+    source:"https://en.wikipedia.org/wiki/Dhola%E2%80%93Sadiya_Bridge"
+  }
+];
 
+function labelEn(value){
+  return typeof value === "string" ? value : value.en;
+}
+
+function labelAs(value){
+  return typeof value === "string" ? "" : value.as || "";
+}
+
+function displayLabel(value){
+  const en = labelEn(value);
+  const as = labelAs(value);
+  if(!as) return en;
+  return `<span class="bi">${en}<span class="as">${as}</span></span>`;
+}
+
+function countLabel(count, englishWord, assameseWord){
+  return `${count} ${englishWord} / ${count} ${assameseWord}`;
+}
+
+function slugify(value){
+  return labelEn(value).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+}
+
+function testLink(group, subject, test){
+  return "mock-tests/" + slugify(group) + "/" + slugify(subject) + "/" + slugify(test) + ".html";
+}
+
+function mockSetId(parts, test){
+  return parts.map(slugify).join("__") + "__" + slugify(test);
+}
+
+function nestedTestLink(parts, test){
+  return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));
+}
+
+function isMockTestAvailable(parts, test){
+  return /^class-10__social-science__history__chapter-[1-5]-/.test(mockSetId(parts, test))
+    && ["Test 1","Test 2"].includes(labelEn(test));
+}
+
+function renderTestLinks(parts){
+  return testNames.map(test => {
+    if(!isMockTestAvailable(parts, test)){
+      return `<span class="drill-card disabled">${displayLabel(test)} <span class="status-chip soon">Coming Soon / শীঘ্ৰে</span></span>`;
+    }
+    return `<a href="${nestedTestLink(parts, test)}">${displayLabel(test)}</a>`;
+  }).join("");
+}
+
+function renderSubjectBlock(group, subject){
+  return `
+    <div class="subject-block">
+      <h4>${displayLabel(subject)}</h4>
+      <div class="test-links">
+        ${testNames.map(test => `<a href="${testLink(group, subject, test)}">${displayLabel(test)}</a>`).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderMockChapterCard(parts, title){
+  return `
+    <div class="chapter-card">
+      <strong>${displayLabel(title)}</strong>
+      <div class="test-links">
+        ${renderTestLinks(parts)}
+      </div>
+    </div>
+  `;
+}
+
+let mockDrillCurrentLevel = null;
+let mockDrillBackStack = [];
+let paperDrillCurrentLevel = null;
+let paperDrillBackStack = [];
+
+function groupLabel(group){
+  if(/^Class /.test(group.name)){
+    return {en:group.name, as:"শ্ৰেণী " + group.name.replace("Class ","")};
+  }
+  if(group.name === "APSC") return {en:"APSC", as:"এ পি এছ চি"};
+  if(group.name === "ADRE") return {en:"ADRE", as:"এ ডি আৰ ই"};
+  if(group.name === "TET") return {en:"TET", as:"টি ই টি"};
+  return group.name;
+}
+
+function makeTestLevel(title, parts){
+  return {
+    title,
+    items:testNames.map(test => ({
+      label:test,
+      href:isMockTestAvailable(parts, test) ? nestedTestLink(parts, test) : "",
+      status:isMockTestAvailable(parts, test) ? "available" : "soon",
+      test:true
+    }))
+  };
+}
+
+function makeChapterItems(group, subject, chapterGroup){
+  return chapterGroup.chapters.map(chapter => ({
+    label:chapter,
+    next:makeTestLevel(chapter, [group.name, subject.name, chapterGroup.name, chapter])
+  }));
+}
+
+function makeSubjectItems(group, subject){
+  if(subject.chapterGroups){
+    return subject.chapterGroups.map(chapterGroup => ({
+      label:chapterGroup.name,
+      next:{
+        title:chapterGroup.name,
+        items:makeChapterItems(group, subject, chapterGroup)
+      }
+    }));
+  }
+
+  if(subject.sections){
+    return subject.sections.map(section => ({
+      label:section,
+      next:makeTestLevel(section, [group.name, subject.name, section])
+    }));
+  }
+
+  if(subject.parts){
+    return subject.parts.map(part => ({
+      label:part,
+      next:{
+        title:part,
+        items:Array.from({length:subject.chapters}, function(_, index){
+          const chapter = {en:"Chapter " + (index + 1), as:"অধ্যায় " + (index + 1)};
+          return {
+            label:chapter,
+            next:makeTestLevel(chapter, [group.name, subject.name, part, chapter])
+          };
+        })
+      }
+    }));
+  }
+
+  return [{
+    label:{en:"Practice Set", as:"অনুশীলন সেট"},
+    next:makeTestLevel({en:"Practice Set", as:"অনুশীলন সেট"}, [group.name, subject])
+  }];
+}
+
+function makeSubjectLevel(group){
+  return {
+    title:groupLabel(group),
+    items:group.subjects.map(subject => ({
+      label:subject.name || subject,
+      next:{
+        title:subject.name || subject,
+        items:makeSubjectItems(group, subject)
+      }
+    }))
+  };
+}
+
+function makeMockHomeLevel(){
+  const groups = [...mockClassGroups, ...examGroups];
+  return {
+    title:{en:"Choose Class or Exam", as:"শ্ৰেণী বা পৰীক্ষা বাছনি কৰক"},
+    root:true,
+    items:groups.map(group => ({
+      label:groupLabel(group),
+      next:makeSubjectLevel(group)
+    }))
+  };
+}
+
+function renderMockDrillLevel(level){
+  mockDrillCurrentLevel = level;
+  const backButton = `<button class="drill-back" type="button" ${mockDrillBackStack.length ? "" : "hidden"} data-drill-back="true">Back / পিছলৈ</button>`;
+  const cards = level.items.length
+    ? level.items.map((item, index) => {
+      if(item.href){
+        return `<a class="drill-card test-link" href="${item.href}">${displayLabel(item.label)} <span class="status-chip available">Available / উপলব্ধ</span></a>`;
+      }
+      if(item.status === "soon"){
+        return `<button class="drill-card disabled" type="button" disabled>${displayLabel(item.label)} <span class="status-chip soon">Coming Soon / শীঘ্ৰে</span></button>`;
+      }
+      return `<button class="drill-card" type="button" data-drill-index="${index}">${displayLabel(item.label)}</button>`;
+    }).join("")
+    : `<div class="drill-empty">Content coming soon. / সমল শীঘ্ৰে আহিব।</div>`;
+
+  document.getElementById("mockTree").innerHTML = `
+    <div class="drill">
+      <div class="drill-toolbar">
+        <div class="drill-title">${displayLabel(level.title)}</div>
+        ${backButton}
+      </div>
+      <div class="drill-grid">${cards}</div>
+    </div>
+  `;
+}
+
+function renderMockTree(){
+  mockDrillBackStack = [];
+  renderMockDrillLevel(makeMockHomeLevel());
+}
+
+function paperLink(classGroup, year, subject){
+  return "previous-year-question-papers/" + slugify(classGroup.name) + "/" + slugify(year) + "/" + slugify(subject) + ".pdf";
+}
+
+function makePaperHomeLevel(){
+  return {
+    title:{en:"Choose Class", as:"শ্ৰেণী বাছনি কৰক"},
+    items:previousPaperGroups.map(group => ({
+      label:group.name,
+      next:{
+        title:group.name,
+        items:paperYears.map(year => ({
+          label:year,
+          next:{
+            title:year,
+            items:group.subjects.map(subject => ({
+              label:subject,
+              href:paperLink(group, year, subject),
+              test:true
+            }))
+          }
+        }))
+      }
+    }))
+  };
+}
+
+function renderPaperDrillLevel(level){
+  paperDrillCurrentLevel = level;
+  const backButton = `<button class="drill-back" type="button" ${paperDrillBackStack.length ? "" : "hidden"} data-paper-back="true">Back / পিছলৈ</button>`;
+  const cards = level.items.length
+    ? level.items.map((item, index) => {
+      if(item.href){
+        return `<a class="drill-card test-link" href="${item.href}">${displayLabel(item.label)}</a>`;
+      }
+      return `<button class="drill-card" type="button" data-paper-index="${index}">${displayLabel(item.label)}</button>`;
+    }).join("")
+    : `<div class="drill-empty">Content coming soon. / সমল শীঘ্ৰে আহিব।</div>`;
+
+  document.getElementById("paperTree").innerHTML = `
+    <div class="drill">
+      <div class="drill-toolbar">
+        <div class="drill-title">${displayLabel(level.title)}</div>
+        ${backButton}
+      </div>
+      <div class="drill-grid">${cards}</div>
+    </div>
+  `;
+}
+
+function renderPaperTree(){
+  paperDrillBackStack = [];
+  renderPaperDrillLevel(makePaperHomeLevel());
+}
+
+function materialLink(className, subject, topic){
+  return "study-materials/" + slugify(className) + "/" + slugify(subject) + "/" + slugify(topic) + ".pdf";
+}
+
+function renderMaterialBlock(className, subject){
+  return `
+    <div class="subject-block">
+      <h4>${displayLabel(subject)}</h4>
+      <div class="topic-links">
+        ${materialTopics.map(topic => `<a href="${materialLink(className, subject, topic)}">${displayLabel(topic)}</a>`).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderMaterialsTree(){
+  document.getElementById("materialsTree").innerHTML = classes.map((className, index) => `
+    <details class="tree-panel" ${index === 0 ? "open" : ""}>
+      <summary><span class="summary-title">${className}</span><span class="summary-meta">${countLabel(classSubjects.length, "subjects", "বিষয়")}</span></summary>
+      <div class="subject-grid">
+        ${classSubjects.map(subject => renderMaterialBlock(className, subject)).join("")}
+      </div>
+    </details>
+  `).join("");
+}
+
+function renderFact(){
+  const startDate = new Date(2026, 4, 21);
+  const today = new Date();
+  const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const dayNumber = Math.floor((todayMidnight.getTime() - startDate.getTime()) / 86400000);
+  const index = ((dayNumber % facts.length) + facts.length) % facts.length;
+  const fact = facts[index];
+  const dateLabel = today.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
+  document.getElementById("factDate").textContent = "Daily Fact - " + dateLabel + " - " + (index + 1) + " of 10";
+  document.getElementById("factTitle").innerHTML = `<span class="bi">${fact.title}<span class="as">${fact.titleAs}</span></span>`;
+  document.getElementById("factText").innerHTML = `${fact.text}<br><span class="as">${fact.textAs}</span>`;
+  document.getElementById("factSource").href = fact.source;
+}
+
+function showPage(pageId, updateHash){
+  const page = document.getElementById(pageId) || document.getElementById("home");
+  document.querySelectorAll(".page-view").forEach(function(section){
+    section.hidden = section.id !== page.id;
+  });
+  if(page.id === "mock-tests"){
+    renderMockTree();
+  }
+  if(page.id === "previous-papers"){
+    renderPaperTree();
+  }
+  document.querySelectorAll(".nav-link").forEach(function(link){
+    link.classList.toggle("active", link.dataset.page === page.id);
+  });
+  document.title = page.dataset.title === "Home"
+    ? "Xohopathi | Your Digital Companion"
+    : page.dataset.title + " | Xohopathi";
+  window.scrollTo({top:0,left:0,behavior:"auto"});
+  if(updateHash && location.hash !== "#" + page.id){
+    history.pushState(null,"","#" + page.id);
+  }
+}
+
+function toggleMenu(){
+  const nav = document.getElementById("navMenu");
+  const button = document.querySelector(".menu-btn");
+  const isOpen = nav.classList.toggle("active");
+  button.setAttribute("aria-expanded", String(isOpen));
+}
+
+document.querySelectorAll(".nav-route").forEach(function(link){
+  link.addEventListener("click",function(event){
+    event.preventDefault();
+    document.getElementById("navMenu").classList.remove("active");
+    document.querySelector(".menu-btn").setAttribute("aria-expanded","false");
+    showPage(link.dataset.page, true);
+  });
+});
+
+document.getElementById("mockTree").addEventListener("click", function(event){
+  const backButton = event.target.closest("[data-drill-back='true']");
+  if(backButton){
+    const previousLevel = mockDrillBackStack.pop();
+    if(previousLevel) renderMockDrillLevel(previousLevel);
+    return;
+  }
+
+  const card = event.target.closest("[data-drill-index]");
+  if(!card || !mockDrillCurrentLevel) return;
+  const item = mockDrillCurrentLevel.items[Number(card.dataset.drillIndex)];
+  if(!item || !item.next) return;
+  mockDrillBackStack.push(mockDrillCurrentLevel);
+  renderMockDrillLevel(item.next);
+});
+
+document.getElementById("paperTree").addEventListener("click", function(event){
+  const backButton = event.target.closest("[data-paper-back='true']");
+  if(backButton){
+    const previousLevel = paperDrillBackStack.pop();
+    if(previousLevel) renderPaperDrillLevel(previousLevel);
+    return;
+  }
+
+  const card = event.target.closest("[data-paper-index]");
+  if(!card || !paperDrillCurrentLevel) return;
+  const item = paperDrillCurrentLevel.items[Number(card.dataset.paperIndex)];
+  if(!item || !item.next) return;
+  paperDrillBackStack.push(paperDrillCurrentLevel);
+  renderPaperDrillLevel(item.next);
+});
+
+document.addEventListener("click", function(event){
+  const link = event.target.closest("[data-placeholder='true']");
+  if(!link) return;
+  event.preventDefault();
+  alert("This resource link will be updated soon.");
+});
+
+window.addEventListener("popstate", function(){
+  showPage(location.hash.replace("#","") || "home", false);
+});
+
+renderFact();
+renderMockTree();
+renderPaperTree();
+renderMaterialsTree();
+showPage(location.hash.replace("#","") || "home", false);
+</script>
 </body>
 </html>
