@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mock Test on Grammar | Xohopathi</title>
+
+  <style>
+    :root {
+      --primary:#2563eb;
+      --primary-dark:#1e40af;
+      --sky:#0ea5e9;
+      --slate:#0f172a;
+      --text:#111827;
+      --muted:#64748b;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --border:#e2e8f0;
+      --green:#15803d;
+      --green-bg:#dcfce7;
+      --red:#b91c1c;
+      --red-bg:#fee2e2;
+      --yellow-bg:#fef3c7;
+      --shadow:0 14px 32px rgba(15,23,42,0.10);
+    }
+
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family:Arial,Helvetica,sans-serif;
+      background:linear-gradient(135deg,#eff6ff 0%,#ffffff 48%,#ecfeff 100%);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    a { color:inherit; text-decoration:none; }
+    .container { width:min(1050px,92%); margin:0 auto; }
+
+    header {
+      background:linear-gradient(135deg,var(--slate),var(--primary-dark));
+      color:#fff;
+      padding:24px 0;
+      box-shadow:var(--shadow);
+    }
+
+    .header-row {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+
+    .brand {
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .logo-mark {
+      width:48px;
+      height:48px;
+      border-radius:16px;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg,var(--primary),var(--sky));
+      color:#fff;
+      font-size:1.4rem;
+      font-weight:900;
+    }
+
+    h1 {
+      font-size:clamp(1.55rem,4vw,2.35rem);
+      line-height:1.15;
+      letter-spacing:-0.03em;
+    }
+
+    .subtitle {
+      color:#bfdbfe;
+      font-weight:700;
+      margin-top:4px;
+    }
+
+    .home-link {
+      border:1px solid rgba(255,255,255,0.30);
+      background:rgba(255,255,255,0.10);
+      border-radius:999px;
+      padding:9px 14px;
+      font-weight:900;
+      white-space:nowrap;
+    }
+
+    .panel {
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:22px;
+      box-shadow:var(--shadow);
+      margin:24px 0;
+      padding:24px;
+    }
+
+    .info-grid {
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:12px;
+      margin:18px 0;
+    }
+
+    .info-box {
+      background:#f8fafc;
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:14px;
+    }
+
+    .info-box span {
+      display:block;
+      color:var(--muted);
+      font-size:0.82rem;
+      text-transform:uppercase;
+      letter-spacing:0.06em;
+      font-weight:900;
+    }
+
+    .info-box strong {
+      display:block;
+      color:var(--primary-dark);
+      font-size:1.18rem;
+      margin-top:4px;
+    }
+
+    .instructions {
+      background:#fff7ed;
+      border:1px solid #fed7aa;
+      border-radius:16px;
+      padding:14px 16px;
+      margin-top:16px;
+    }
+
+    .instructions ul { margin-left:20px; margin-top:8px; }
+
+    .start-row {
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:12px;
+      margin-top:18px;
+      align-items:center;
+    }
+
+    input[type="text"] {
+      width:100%;
+      border:1px solid var(--border);
+      border-radius:12px;
+      padding:13px 14px;
+      font-size:1rem;
+      outline:none;
+    }
+
+    input[type="text"]:focus {
+      border-color:var(--primary);
+      box-shadow:0 0 0 3px rgba(37,99,235,0.12);
+    }
+
+    .btn {
+      border:0;
+      border-radius:12px;
+      padding:13px 18px;
+      font-size:0.98rem;
+      font-weight:900;
+      cursor:pointer;
+      transition:transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+    }
+
+    .btn:hover {
+      transform:translateY(-1px);
+      box-shadow:0 10px 20px rgba(15,23,42,0.14);
+    }
+
+    .btn-primary { background:var(--primary); color:#fff; }
+    .btn-primary:hover { background:var(--primary-dark); }
+    .btn-danger { background:var(--red); color:#fff; }
+    .btn-light { background:#e5e7eb; color:#111827; }
+
+    .test-area { display:none; }
+
+    .topbar {
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(255,255,255,0.96);
+      backdrop-filter:blur(12px);
+      border-bottom:1px solid var(--border);
+      box-shadow:0 6px 18px rgba(15,23,42,0.06);
+    }
+
+    .topbar-inner {
+      width:min(1050px,92%);
+      margin:0 auto;
+      padding:12px 0;
+      display:grid;
+      grid-template-columns:1fr auto auto;
+      align-items:center;
+      gap:14px;
+    }
+
+    .timer {
+      background:var(--slate);
+      color:#fff;
+      border-radius:999px;
+      padding:9px 15px;
+      min-width:104px;
+      text-align:center;
+      font-weight:900;
+    }
+
+    .timer.warning { background:var(--red); }
+
+    .status {
+      color:var(--muted);
+      font-weight:900;
+      font-size:0.92rem;
+    }
+
+    .progress-wrap {
+      height:8px;
+      background:#e5e7eb;
+      border-radius:999px;
+      overflow:hidden;
+      margin-top:7px;
+    }
+
+    .progress-bar {
+      height:100%;
+      width:100%;
+      background:linear-gradient(90deg,var(--primary),var(--sky));
+      transition:width 0.4s linear;
+    }
+
+    .result-panel {
+      display:none;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:22px;
+      box-shadow:var(--shadow);
+      margin:24px 0;
+      padding:24px;
+    }
+
+    .result-panel h2 {
+      color:var(--primary-dark);
+      margin-bottom:6px;
+      font-size:1.8rem;
+    }
+
+    .result-grid {
+      display:grid;
+      grid-template-columns:repeat(5,1fr);
+      gap:12px;
+      margin:18px 0;
+    }
+
+    .result-box {
+      border:1px solid var(--border);
+      border-radius:16px;
+      background:#f8fafc;
+      padding:14px;
+      text-align:center;
+    }
+
+    .result-box strong {
+      display:block;
+      color:var(--primary-dark);
+      font-size:1.35rem;
+    }
+
+    .question-card {
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:18px;
+      box-shadow:0 8px 22px rgba(15,23,42,0.06);
+      padding:20px;
+      margin:18px 0;
+    }
+
+    .question-head {
+      display:flex;
+      justify-content:space-between;
+      gap:14px;
+      align-items:flex-start;
+      margin-bottom:14px;
+    }
+
+    .q-text {
+      font-size:1.05rem;
+      font-weight:900;
+      color:var(--slate);
+    }
+
+    .q-number {
+      background:#dbeafe;
+      color:var(--primary-dark);
+      border-radius:999px;
+      padding:6px 11px;
+      font-weight:900;
+      white-space:nowrap;
+    }
+
+    .options { display:grid; gap:10px; }
+
+    .option {
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:10px;
+      align-items:start;
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:12px 14px;
+      background:#fff;
+      cursor:pointer;
+    }
+
+    .option:hover {
+      border-color:var(--primary);
+      background:#f8fbff;
+    }
+
+    .option input { margin-top:4px; }
+
+    .letter {
+      color:var(--primary-dark);
+      font-weight:900;
+      margin-right:4px;
+    }
+
+    .correct-answer {
+      background:var(--green-bg)!important;
+      border-color:var(--green)!important;
+      color:#064e3b;
+    }
+
+    .wrong-answer {
+      background:var(--red-bg)!important;
+      border-color:var(--red)!important;
+      color:#7f1d1d;
+    }
+
+    .not-attempted {
+      border-color:#f59e0b;
+      background:var(--yellow-bg);
+    }
+
+    .submit-panel {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:18px;
+      box-shadow:var(--shadow);
+      padding:18px;
+      margin:26px 0 34px;
+    }
+
+    .footer {
+      text-align:center;
+      color:var(--muted);
+      padding:20px 0 32px;
+      font-size:0.9rem;
+    }
+
+    @media(max-width:760px) {
+      .info-grid,.result-grid { grid-template-columns:repeat(2,1fr); }
+      .start-row,.topbar-inner { grid-template-columns:1fr; }
+      .timer { width:100%; border-radius:14px; }
+      .question-head { flex-direction:column-reverse; }
+    }
+
+    @media(max-width:520px) {
+      .container,.topbar-inner { width:min(100% - 28px,1050px); }
+      .panel,.result-panel,.question-card { padding:16px; }
+      .info-grid,.result-grid { grid-template-columns:1fr; }
+      .btn { width:100%; }
+      .header-row { align-items:flex-start; }
+    }
+
+    @media print {
+      header,.topbar,.submit-panel,.btn,.footer { display:none!important; }
+      body { background:#fff; }
+      .panel,.question-card,.result-panel { box-shadow:none; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container header-row">
+      <div class="brand">
+        <div class="logo-mark">স</div>
+        <div>
+          <h1>Mock Test on Grammar</h1>
+          <div class="subtitle">Xohopathi — Your Digital Companion</div>
+        </div>
+      </div>
+      <a href="/" class="home-link">Home</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="startScreen" class="panel">
+      <h2>Test Instructions</h2>
+
+      <div class="info-grid">
+        <div class="info-box"><span>Total Questions</span><strong>10</strong></div>
+        <div class="info-box"><span>Total Marks</span><strong>10</strong></div>
+        <div class="info-box"><span>Correct Answer</span><strong>+1</strong></div>
+        <div class="info-box"><span>Wrong Answer</span><strong>−0.25</strong></div>
+      </div>
+
+      <div class="instructions">
+        <strong>Read carefully before starting:</strong>
+        <ul>
+          <li>Each question has four options: A, B, C, and D.</li>
+          <li>Correct answer carries 1 mark.</li>
+          <li>Wrong answer carries negative marking of 0.25.</li>
+          <li>Unanswered question carries 0 mark.</li>
+          <li>After submission, correct answers will be shown in green and wrong selected answers in red.</li>
+        </ul>
+      </div>
+
+      <div class="start-row">
+        <input type="text" id="candidateName" placeholder="Candidate name (optional)" />
+        <button class="btn btn-primary" onclick="startTest()">Start Test</button>
+      </div>
+    </section>
+
+    <section id="testArea" class="test-area">
+      <div class="topbar">
+        <div class="topbar-inner">
+          <div>
+            <strong id="candidateDisplay">Mock Test in Progress</strong>
+            <div class="progress-wrap"><div id="progressBar" class="progress-bar"></div></div>
+          </div>
+          <div class="status" id="attemptStatus">Attempted: 0 / 10</div>
+          <div class="timer" id="timer">10:00</div>
+        </div>
+      </div>
+
+      <div id="resultPanel" class="result-panel"></div>
+      <div id="questionsContainer"></div>
+
+      <div id="submitPanel" class="submit-panel">
+        <div>
+          <strong>Ready to submit?</strong><br />
+          <span class="status">Review your answers before final submission.</span>
+        </div>
+        <button class="btn btn-danger" onclick="submitTest(false)">Submit Test</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer">© 2026 Xohopathi. Created by Dr. Abdullah Al Mamun.</div>
+
+  <script>
+    const TOTAL_TIME_SECONDS = 10 * 60;
+    const CORRECT_MARK = 1;
+    const WRONG_MARK = -0.25;
+
+    const questions = [
+      {
+            "q": "Identify the noun in the sentence: The teacher opened the book.",
+            "options": {
+                  "A": "opened",
+                  "B": "the",
+                  "C": "teacher",
+                  "D": "quickly"
+            },
+            "answer": "C"
+      },
+      {
+            "q": "Choose the correct pronoun: Rina is my friend. ___ is very kind.",
+            "options": {
+                  "A": "He",
+                  "B": "She",
+                  "C": "It",
+                  "D": "They"
+            },
+            "answer": "B"
+      },
+      {
+            "q": "Identify the verb in the sentence: The birds fly in the sky.",
+            "options": {
+                  "A": "birds",
+                  "B": "fly",
+                  "C": "sky",
+                  "D": "the"
+            },
+            "answer": "B"
+      },
+      {
+            "q": "Identify the adjective in the sentence: This is a beautiful flower.",
+            "options": {
+                  "A": "this",
+                  "B": "is",
+                  "C": "beautiful",
+                  "D": "flower"
+            },
+            "answer": "C"
+      },
+      {
+            "q": "Identify the adverb in the sentence: He runs fast.",
+            "options": {
+                  "A": "He",
+                  "B": "runs",
+                  "C": "fast",
+                  "D": "none"
+            },
+            "answer": "C"
+      },
+      {
+            "q": "Choose the correct article: I saw ___ elephant.",
+            "options": {
+                  "A": "a",
+                  "B": "an",
+                  "C": "the",
+                  "D": "no article"
+            },
+            "answer": "B"
+      },
+      {
+            "q": "Choose the correct plural form of 'child'.",
+            "options": {
+                  "A": "childs",
+                  "B": "childes",
+                  "C": "children",
+                  "D": "childrens"
+            },
+            "answer": "C"
+      },
+      {
+            "q": "Choose the correct preposition: The book is ___ the table.",
+            "options": {
+                  "A": "on",
+                  "B": "with",
+                  "C": "by",
+                  "D": "from"
+            },
+            "answer": "A"
+      },
+      {
+            "q": "Choose the correct tense: She ___ to school every day.",
+            "options": {
+                  "A": "go",
+                  "B": "goes",
+                  "C": "went",
+                  "D": "going"
+            },
+            "answer": "B"
+      },
+      {
+            "q": "Choose the correct sentence.",
+            "options": {
+                  "A": "He are a student.",
+                  "B": "He is a student.",
+                  "C": "He am a student.",
+                  "D": "He be a student."
+            },
+            "answer": "B"
+      }
+];
+
+    let remainingSeconds = TOTAL_TIME_SECONDS;
+    let timerInterval = null;
+    let submitted = false;
+    const answers = Array(questions.length).fill(null);
+
+    function startTest() {
+      const name = document.getElementById("candidateName").value.trim();
+      document.getElementById("candidateDisplay").textContent = name ? "Candidate: " + name : "Mock Test in Progress";
+      document.getElementById("startScreen").style.display = "none";
+      document.getElementById("testArea").style.display = "block";
+      renderQuestions();
+      updateAttemptStatus();
+      timerInterval = setInterval(updateTimer, 1000);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function renderQuestions() {
+      const container = document.getElementById("questionsContainer");
+      container.innerHTML = "";
+
+      questions.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.className = "question-card";
+        card.id = "question-" + index;
+
+        const head = document.createElement("div");
+        head.className = "question-head";
+
+        const questionText = document.createElement("div");
+        questionText.className = "q-text";
+        questionText.textContent = item.q;
+
+        const qNumber = document.createElement("div");
+        qNumber.className = "q-number";
+        qNumber.textContent = "Q" + (index + 1);
+
+        head.appendChild(questionText);
+        head.appendChild(qNumber);
+        card.appendChild(head);
+
+        const optionsWrap = document.createElement("div");
+        optionsWrap.className = "options";
+
+        Object.entries(item.options).forEach(([letter, optionText]) => {
+          const label = document.createElement("label");
+          label.className = "option";
+          label.id = "q" + index + "-" + letter;
+
+          const input = document.createElement("input");
+          input.type = "radio";
+          input.name = "q" + index;
+          input.value = letter;
+          input.addEventListener("change", function() {
+            answers[index] = letter;
+            updateAttemptStatus();
+          });
+
+          const span = document.createElement("span");
+          span.innerHTML = '<span class="letter">' + letter + '.</span> ' + escapeHTML(optionText);
+
+          label.appendChild(input);
+          label.appendChild(span);
+          optionsWrap.appendChild(label);
+        });
+
+        card.appendChild(optionsWrap);
+        container.appendChild(card);
+      });
+    }
+
+    function escapeHTML(str) {
+      return String(str)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function updateAttemptStatus() {
+      const attempted = answers.filter(Boolean).length;
+      document.getElementById("attemptStatus").textContent = "Attempted: " + attempted + " / " + questions.length;
+    }
+
+    function updateTimer() {
+      remainingSeconds--;
+      const minutes = Math.floor(remainingSeconds / 60);
+      const seconds = remainingSeconds % 60;
+
+      const timer = document.getElementById("timer");
+      timer.textContent = String(minutes).padStart(2, "0") + ":" + String(seconds).padStart(2, "0");
+
+      const percentage = Math.max(0, (remainingSeconds / TOTAL_TIME_SECONDS) * 100);
+      document.getElementById("progressBar").style.width = percentage + "%";
+
+      if (remainingSeconds <= 120) timer.classList.add("warning");
+      if (remainingSeconds <= 0) submitTest(true);
+    }
+
+    function submitTest(autoSubmit) {
+      if (submitted) return;
+
+      if (!autoSubmit) {
+        const ok = confirm("Are you sure you want to submit the test?");
+        if (!ok) return;
+      }
+
+      submitted = true;
+      clearInterval(timerInterval);
+      document.getElementById("submitPanel").style.display = "none";
+
+      let correct = 0;
+      let wrong = 0;
+      let unanswered = 0;
+
+      questions.forEach((item, index) => {
+        const selected = answers[index];
+        const correctLetter = item.answer;
+
+        if (!selected) unanswered++;
+        else if (selected === correctLetter) correct++;
+        else wrong++;
+
+        Object.keys(item.options).forEach(letter => {
+          const label = document.getElementById("q" + index + "-" + letter);
+          const input = label.querySelector("input");
+          input.disabled = true;
+
+          if (letter === correctLetter) label.classList.add("correct-answer");
+          if (selected === letter && selected !== correctLetter) label.classList.add("wrong-answer");
+        });
+
+        if (!selected) document.getElementById("question-" + index).classList.add("not-attempted");
+      });
+
+      const score = (correct * CORRECT_MARK) + (wrong * WRONG_MARK);
+      const percentage = (score / questions.length) * 100;
+      const name = document.getElementById("candidateName").value.trim() || "Candidate";
+
+      const resultPanel = document.getElementById("resultPanel");
+      resultPanel.style.display = "block";
+      resultPanel.innerHTML =
+        '<h2>Result Summary</h2>' +
+        '<p><strong>' + escapeHTML(name) + '</strong>' +
+        (autoSubmit ? ' — Time is over. Your test has been auto-submitted.' : ' — Your test has been submitted successfully.') +
+        '</p>' +
+        '<div class="result-grid">' +
+          '<div class="result-box"><strong>' + score.toFixed(2) + '</strong>Marks / 10</div>' +
+          '<div class="result-box"><strong>' + correct + '</strong>Correct</div>' +
+          '<div class="result-box"><strong>' + wrong + '</strong>Wrong</div>' +
+          '<div class="result-box"><strong>' + unanswered + '</strong>Unanswered</div>' +
+          '<div class="result-box"><strong>' + percentage.toFixed(1) + '%</strong>Score</div>' +
+        '</div>' +
+        '<p><strong>Review:</strong> Correct answers are highlighted in green. Wrong selected answers are highlighted in red.</p>' +
+        '<div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap;">' +
+          '<button class="btn btn-primary" onclick="window.print()">Print Result</button>' +
+          '<button class="btn btn-light" onclick="location.reload()">Retake Test</button>' +
+          '<a class="btn btn-light" href="/">Back to Home</a>' +
+        '</div>';
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>

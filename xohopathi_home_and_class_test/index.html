@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Xohopathi | Your Digital Companion</title>
+<meta name="description" content="Xohopathi provides study materials, mock tests, class tests, MCQs, grammar notes, Assam GK, and exam preparation resources for students." />
+<style>
+:root{--primary:#2563eb;--primary-dark:#1e40af;--sky:#0ea5e9;--slate:#0f172a;--text:#111827;--muted:#64748b;--bg:#f8fafc;--card:#fff;--border:#e2e8f0;--soft-blue:#eff6ff;--shadow:0 12px 28px rgba(15,23,42,.08);--radius:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:0 auto}
+header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.navbar{min-height:74px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:12px}.logo-mark{width:46px;height:46px;flex:0 0 46px;border-radius:15px;background:linear-gradient(135deg,var(--primary),var(--sky));color:#fff;display:grid;place-items:center;font-size:1.35rem;font-weight:900;box-shadow:0 8px 20px rgba(37,99,235,.22)}
+.logo-text{display:flex;flex-direction:column;line-height:1.08}.logo-text strong{font-size:1.38rem;font-weight:900;color:var(--slate);letter-spacing:-.04em}.logo-text small{margin-top:4px;font-size:.78rem;font-weight:800;color:var(--muted)}
+nav{display:flex;align-items:center;gap:20px;font-size:.95rem;font-weight:800;color:#334155}nav a:hover{color:var(--primary)}
+.menu-btn{display:none;border:1px solid var(--border);background:#fff;color:var(--slate);border-radius:12px;padding:9px 12px;font-weight:900;cursor:pointer}
+
+.whatsapp-marquee{overflow:hidden;background:linear-gradient(90deg,#ecfdf5,#eff6ff,#fff7ed);border-bottom:1px solid var(--border);padding:10px 0}
+.whatsapp-marquee a{display:inline-block;white-space:nowrap;color:#16a34a;font-size:1rem;font-weight:900;animation:whatsappRun 15s linear infinite}
+.whatsapp-marquee a:hover{color:#2563eb;text-decoration:underline;animation-play-state:paused}
+@keyframes whatsappRun{from{transform:translateX(-100%)}to{transform:translateX(100vw)}}
+
+.hero{padding:54px 0 44px;background:linear-gradient(135deg,#eff6ff 0%,#fff 55%,#ecfeff 100%);border-bottom:1px solid var(--border)}
+.hero-box{background:#fff;border:1px solid var(--border);border-radius:26px;padding:34px;box-shadow:var(--shadow);display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.tag{display:inline-flex;background:#dbeafe;color:var(--primary-dark);padding:8px 13px;border-radius:999px;font-size:.92rem;font-weight:900;margin-bottom:14px}
+h1{font-size:clamp(2rem,4.5vw,3.6rem);line-height:1.08;letter-spacing:-.05em;color:var(--slate);margin-bottom:12px}h1 span{color:var(--primary)}
+.hero p{color:#475569;font-size:1.05rem;max-width:680px}
+.quick-links{display:grid;gap:10px}.quick-link{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px;border:1px solid var(--border);border-radius:15px;background:#f8fafc;font-weight:900;color:var(--slate)}.quick-link:hover{border-color:var(--primary);background:#eff6ff}
+section{padding:58px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 30px}.mini{color:var(--primary);font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:.84rem;margin-bottom:7px}.section-head h2{font-size:clamp(1.65rem,3vw,2.45rem);line-height:1.15;letter-spacing:-.035em;color:var(--slate);margin-bottom:8px}.section-head p{color:var(--muted);font-size:1rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:0 8px 22px rgba(15,23,42,.055)}
+.icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;background:#dbeafe;color:var(--primary);font-size:1.25rem;margin-bottom:13px}.card h3{color:var(--slate);font-size:1.13rem;margin-bottom:7px}.card p{color:var(--muted);font-size:.95rem;margin-bottom:12px}.pill{display:inline-block;background:#eff6ff;color:var(--primary-dark);border-radius:999px;padding:6px 10px;font-size:.82rem;font-weight:900;margin-bottom:12px}.card-link{display:inline-block;color:var(--primary);font-weight:900;margin-top:4px}
+.alt{background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.contact-link{color:var(--primary);font-weight:900;word-break:break-word}.whatsapp-btn{display:inline-flex;margin-top:10px;background:#16a34a;color:#fff;padding:10px 14px;border-radius:12px;font-weight:900}
+footer{background:var(--slate);color:#cbd5e1;padding:36px 0 24px}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .9fr;gap:26px;margin-bottom:22px}footer h3,footer h4{color:#fff;margin-bottom:9px}footer p,footer a{color:#cbd5e1;display:block;margin-bottom:7px}footer a:hover{color:#fff}.copyright{border-top:1px solid rgba(255,255,255,.1);padding-top:17px;color:#94a3b8;font-size:.9rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:920px){.menu-btn{display:inline-block}nav{display:none;position:absolute;top:74px;left:0;width:100%;background:#fff;border-bottom:1px solid var(--border);padding:18px 4%;flex-direction:column;align-items:flex-start;gap:15px}nav.active{display:flex}.hero-box{grid-template-columns:1fr}.grid,.footer-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.container{width:min(100% - 28px,1120px)}.navbar{min-height:70px}.logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}.logo-text strong{font-size:1.12rem}.logo-text small{font-size:.68rem}.hero{padding:34px 0 30px}.hero-box{padding:22px;border-radius:20px}h1{font-size:clamp(1.9rem,10vw,2.8rem)}section{padding:44px 0}.whatsapp-marquee a{font-size:.92rem;animation-duration:12s}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <a href="#home" class="logo" aria-label="Xohopathi Home">
+      <span class="logo-mark">স</span>
+      <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion</small></span>
+    </a>
+    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#mock-tests">Mock Test</a>
+      <a href="#class-tests">Class Test</a>
+      <a href="#materials">Study Materials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="whatsapp-marquee">
+  <a href="https://chat.whatsapp.com/FO91h8PmkyLCoRF1nQDvvV" target="_blank" rel="noopener noreferrer">
+    To Join WhatsApp Group of Class 7 (A and B), Click here.
+  </a>
+</div>
+
+<main>
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-box">
+      <div>
+        <div class="tag">Your Digital Companion</div>
+        <h1><span>Xohopathi</span></h1>
+        <p>Study materials, mock tests, class tests, MCQs, grammar notes, Assam GK, and exam preparation resources for students.</p>
+      </div>
+      <div class="quick-links">
+        <a class="quick-link" href="#mock-tests">Mock Test <span>→</span></a>
+        <a class="quick-link" href="#class-tests">Class Test <span>→</span></a>
+        <a class="quick-link" href="#materials">Study Materials <span>→</span></a>
+        <a class="quick-link" href="#contact">Contact <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mock-tests">
+  <div class="container">
+    <div class="section-head">
+      <div class="mini">Practice</div>
+      <h2>Mock Test</h2>
+      <p>Select a mock test and start practicing.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">🌏</div>
+        <h3>Mock Test on General Studies</h3>
+        <p>Practice important General Studies questions.</p>
+        <span class="pill">Available</span><br>
+        <a class="card-link" href="/mock-tests/general-studies/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔤</div>
+        <h3>Mock Test on Grammar</h3>
+        <p>Practice English grammar questions.</p>
+        <span class="pill">Available</span><br>
+        <a class="card-link" href="/mock-tests/grammar/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+      </div>
+
+      <div class="card">
+        <div class="icon">📘</div>
+        <h3>Mock Test on Assam GK</h3>
+        <p>Practice Assam GK and current affairs.</p>
+        <span class="pill">Available</span><br>
+        <a class="card-link" href="/mock-tests/assam-gk/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+      </div>
+
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>Mock Test on Assamese Literature</h3>
+        <p>Practice important Assamese literature GK questions.</p>
+        <span class="pill">Available</span><br>
+        <a class="card-link" href="/mock-tests/assamese-literature/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+      </div>
+
+      <div class="card">
+        <div class="icon">📰</div>
+        <h3>Mock Test on Current Affairs</h3>
+        <p>Practice important current affairs questions.</p>
+        <span class="pill">Available</span><br>
+        <a class="card-link" href="/mock-tests/current-affairs/" target="_blank" rel="noopener noreferrer">Open Mock Test →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="class-tests" class="alt">
+  <div class="container">
+    <div class="section-head">
+      <div class="mini">Class Practice</div>
+      <h2>Class Test</h2>
+      <p>Class-wise tests and practice activities for students.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Class 7 Test</h3>
+        <p>Practice class test questions for Class 7 students.</p>
+        <span class="pill">Coming soon</span>
+      </div>
+
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>Subject Wise Test</h3>
+        <p>Tests for English, Social Science, General Knowledge, and more.</p>
+        <span class="pill">Coming soon</span>
+      </div>
+
+      <div class="card">
+        <div class="icon">✅</div>
+        <h3>Weekly Practice</h3>
+        <p>Weekly class practice sets and short quizzes.</p>
+        <span class="pill">Coming soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="materials">
+  <div class="container">
+    <div class="section-head">
+      <div class="mini">Resources</div>
+      <h2>Study Materials</h2>
+      <p>Notes, PDFs, worksheets, grammar lessons, Assam GK, and practice sets.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📖</div>
+        <h3>School Study Materials</h3>
+        <p>Class-wise notes, short answers, and practice questions.</p>
+        <span class="pill">Coming soon</span>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔤</div>
+        <h3>English Grammar</h3>
+        <p>Noun, pronoun, verb, adverb, articles, clauses, and sentence correction.</p>
+        <span class="pill">Coming soon</span>
+      </div>
+
+      <div class="card">
+        <div class="icon">🌏</div>
+        <h3>Assam GK & Current Affairs</h3>
+        <p>Assam geography, history, culture, and current affairs resources.</p>
+        <span class="pill">Coming soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <div class="mini">Contact</div>
+      <h2>Contact</h2>
+      <p>For study materials, mock tests, class tests, or educational queries.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📞</div>
+        <h3>Phone / WhatsApp</h3>
+        <p><a class="contact-link" href="tel:+919101247321">+91 9101247321</a></p>
+        <a class="whatsapp-btn" href="https://wa.me/919101247321" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+      </div>
+
+      <div class="card">
+        <div class="icon">✉️</div>
+        <h3>Email</h3>
+        <p><a class="contact-link" href="mailto:drmamun@zohomail.in">drmamun@zohomail.in</a></p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🌐</div>
+        <h3>Website</h3>
+        <p><a class="contact-link" href="https://xohopathi.in">xohopathi.in</a></p>
+        <p>Assam, India</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h3>Xohopathi</h3>
+      <p>Your Digital Companion</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#mock-tests">Mock Test</a>
+      <a href="#class-tests">Class Test</a>
+      <a href="#materials">Study Materials</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Phone: +91 9101247321</p>
+      <p>Email: drmamun@zohomail.in</p>
+      <p>Website: xohopathi.in</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      <span>© 2026 Xohopathi. All rights reserved.</span>
+      <span>Created by Dr. Abdullah Al Mamun</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleMenu(){document.getElementById("navMenu").classList.toggle("active")}
+document.querySelectorAll("nav a").forEach(function(link){link.addEventListener("click",function(){document.getElementById("navMenu").classList.remove("active")})})
+</script>
+
+</body>
+</html>

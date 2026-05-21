@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mock Test on Current Affairs</title>
+  <style>
+    :root {
+      --bg: #eef5f2;
+      --paper: #fbfdfc;
+      --paper-soft: #f5faf7;
+      --ink: #061b1d;
+      --muted: #5d7069;
+      --line: #cfe0d8;
+      --green: #0f7c4d;
+      --green-dark: #085f3a;
+      --green-soft: #eaf8f1;
+      --blue: #2d6fb4;
+      --blue-soft: #eaf3ff;
+      --cream: #faf6ef;
+      --shadow: 0 28px 70px rgba(10, 36, 31, 0.14);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 12%, rgba(20, 124, 77, 0.09), transparent 27rem),
+        linear-gradient(135deg, #f8faf8 0%, #eef7f3 46%, #e7f0ef 100%);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      padding: 0 clamp(18px, 8vw, 360px);
+      background: rgba(255, 255, 255, 0.92);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius);
+      color: white;
+      background: linear-gradient(145deg, #0477bc, #00a583);
+      box-shadow: 0 10px 24px rgba(9, 80, 64, 0.18);
+    }
+
+    .brand-mark svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .home-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 18px;
+      color: var(--green-dark);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      border: 1px solid #acd3c3;
+      border-radius: 999px;
+      background: #ffffff;
+    }
+
+    main {
+      width: min(1050px, calc(100% - 32px));
+      margin: 36px auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 24px;
+    }
+
+    .quiz-card,
+    .side-card,
+    .result-panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 22px 22px 20px;
+      background:
+        linear-gradient(117deg, rgba(232, 247, 239, 0.9), rgba(255, 249, 240, 0.78)),
+        var(--cream);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 13px;
+      color: #00804c;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      border: 1px solid #b7dbcc;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.76);
+    }
+
+    h1 {
+      margin: 8px 0 8px;
+      font-size: clamp(28px, 3vw, 34px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #334d47;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .quiz-body {
+      padding: 18px 22px;
+    }
+
+    .date-select {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: min(360px, 100%);
+      min-height: 58px;
+      padding: 0 15px;
+      color: #004f30;
+      border: 1px solid #9ed0be;
+      border-radius: var(--radius);
+      background: var(--paper-soft);
+      box-shadow: 0 12px 24px rgba(14, 88, 62, 0.08);
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .date-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .date-icon {
+      display: grid;
+      place-items: center;
+      width: 22px;
+      height: 22px;
+      color: white;
+      border-radius: 5px;
+      background: var(--green);
+      flex: 0 0 auto;
+    }
+
+    .date-icon svg,
+    .small-icon svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .language-tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: min(280px, 100%);
+      margin-top: 10px;
+      padding: 5px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+    }
+
+    .tab {
+      min-height: 36px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: #526660;
+      font: inherit;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .tab.active {
+      color: white;
+      background: var(--green);
+    }
+
+    .question-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 12px;
+      color: #0055a2;
+      background: var(--blue-soft);
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 0 10px;
+      color: #007646;
+      background: var(--green-soft);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .question-title {
+      margin: 8px 0 12px;
+      font-size: clamp(24px, 3vw, 32px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .options {
+      display: grid;
+      gap: 8px;
+    }
+
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      min-height: 58px;
+      padding: 10px 13px;
+      text-align: left;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: #001316;
+      font: inherit;
+      cursor: pointer;
+      transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+    }
+
+    .option:hover {
+      transform: translateY(-1px);
+      border-color: #9acbb9;
+      background: #f8fcfa;
+    }
+
+    .option.selected {
+      border-color: var(--green);
+      background: #edf9f3;
+    }
+
+    .option.correct {
+      border-color: #119a61;
+      background: #e7f7ef;
+    }
+
+    .option.wrong {
+      border-color: #d37a7a;
+      background: #fff0f0;
+    }
+
+    .letter {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      color: white;
+      background: #0b1c1f;
+      border-radius: 7px;
+      font-size: 14px;
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+
+    .answer-note {
+      display: none;
+      margin: 12px 0 0;
+      padding: 12px 14px;
+      color: #244d41;
+      background: #f0faf5;
+      border: 1px solid #c8e4d7;
+      border-radius: var(--radius);
+      line-height: 1.45;
+    }
+
+    .answer-note.visible {
+      display: block;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .left-actions,
+    .right-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: #004f30;
+      font: inherit;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .btn.primary {
+      color: #ffffff;
+      border-color: var(--green);
+      background: var(--green);
+    }
+
+    .btn.primary:hover,
+    .tab.active:hover {
+      background: var(--green-dark);
+    }
+
+    .icon-btn {
+      display: inline-grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #80a4bd;
+      background: rgba(255, 255, 255, 0.82);
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .auto {
+      gap: 7px;
+      min-height: 44px;
+      padding: 0 12px;
+      color: #536761;
+    }
+
+    .small-icon {
+      display: grid;
+      place-items: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      color: #26794f;
+      background: #ecf6f1;
+      border: 1px solid #d2e7de;
+    }
+
+    .side-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 720px;
+      padding: 22px 20px;
+      background: rgba(250, 253, 252, 0.88);
+    }
+
+    .side-card h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .side-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .question-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 7px;
+      margin-top: 16px;
+    }
+
+    .map-btn {
+      display: grid;
+      place-items: center;
+      aspect-ratio: 1;
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: #5e6f68;
+      font: inherit;
+      font-size: 17px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .map-btn.active {
+      color: #ffffff;
+      background: var(--blue);
+      border-color: var(--blue);
+    }
+
+    .map-btn.answered {
+      color: var(--green-dark);
+      border-color: #9dd5be;
+      background: #ecf8f1;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: auto;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    .stat {
+      min-height: 62px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .progress-wrap {
+      margin-top: 12px;
+    }
+
+    .progress-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 8px;
+      color: #526660;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .progress-track {
+      height: 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #e1eae5;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--green), #20a66b);
+      transition: width 200ms ease;
+    }
+
+    .result-panel {
+      display: none;
+      width: min(1050px, calc(100% - 32px));
+      margin: -12px auto 40px;
+      padding: 18px 22px;
+      background: #ffffff;
+    }
+
+    .result-panel.visible {
+      display: block;
+    }
+
+    .result-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .result-row h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .result-row p {
+      margin: 6px 0 0;
+      color: var(--muted);
+    }
+
+    @media (max-width: 980px) {
+      .topbar {
+        padding: 0 18px;
+      }
+
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .side-card {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .topbar {
+        height: auto;
+        min-height: 64px;
+        gap: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .brand span {
+        font-size: 15px;
+      }
+
+      main {
+        width: min(100% - 20px, 1050px);
+        margin-top: 18px;
+        gap: 14px;
+      }
+
+      .hero,
+      .quiz-body,
+      .side-card,
+      .result-panel {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .question-title {
+        font-size: 24px;
+      }
+
+      .actions,
+      .question-meta {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .left-actions,
+      .right-actions,
+      .tags {
+        justify-content: space-between;
+      }
+
+      .btn {
+        flex: 1;
+      }
+
+      .question-grid {
+        grid-template-columns: repeat(5, minmax(44px, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" aria-label="Mock Test on Current Affairs">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 2.5 20 7v10l-8 4.5L4 17V7l8-4.5Z" fill="rgba(255,255,255,.95)" />
+          <path d="m12 2.5 8 4.5-8 4.5L4 7l8-4.5Z" fill="#0b8ed0" />
+          <path d="M12 11.5V21.5L4 17V7l8 4.5Z" fill="#006da7" />
+          <path d="M12 11.5 20 7v10l-8 4.5v-10Z" fill="#00a075" />
+          <path d="M9.3 7 12 5.5 14.7 7 12 8.5 9.3 7Z" fill="#fff" />
+        </svg>
+      </div>
+      <span>Mock Test on Current Affairs</span>
+    </div>
+    <a class="home-link" href="#">Home</a>
+  </header>
+
+  <main>
+    <section class="quiz-card" aria-labelledby="quiz-title">
+      <div class="hero">
+        <span class="eyebrow">Daily Mock Test</span>
+        <h1 id="quiz-title">Current Affairs Daily Quiz for 21 May 2026</h1>
+        <p class="subtitle">National, international, economy, science, sports, and awards.</p>
+      </div>
+
+      <div class="quiz-body">
+        <div class="date-select" role="button" tabindex="0">
+          <span class="date-left">
+            <span class="date-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M7 3v3M17 3v3M4.5 9h15M6 5h12a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span>21 May 2026</span>
+          </span>
+          <span aria-hidden="true">∨</span>
+        </div>
+
+        <div class="language-tabs" role="tablist" aria-label="Language">
+          <button class="tab active" type="button" data-language="en" role="tab" aria-selected="true">English</button>
+          <button class="tab" type="button" data-language="as" role="tab" aria-selected="false">অসমীয়া</button>
+        </div>
+
+        <div class="question-meta">
+          <span class="pill" id="question-count">Question 1 of 30</span>
+          <div class="tags">
+            <span class="tag" id="topic-tag">Current Affairs</span>
+            <span class="tag" id="level-tag">Medium</span>
+          </div>
+        </div>
+
+        <h2 class="question-title" id="question-text"></h2>
+        <div class="options" id="options"></div>
+        <p class="answer-note" id="answer-note"></p>
+
+        <div class="actions">
+          <div class="left-actions">
+            <button class="btn" type="button" id="prev-btn">Previous</button>
+            <button class="btn auto" type="button" id="auto-btn" aria-pressed="false">
+              <span class="small-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              Auto
+            </button>
+          </div>
+          <div class="right-actions">
+            <button class="icon-btn" type="button" id="review-btn" title="Show explanation" aria-label="Show explanation">i</button>
+            <button class="btn primary" type="button" id="next-btn">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side-card" aria-label="Question map and progress">
+      <h2>Question Map</h2>
+      <p>Tap a number to jump across the test.</p>
+      <div class="question-grid" id="question-map"></div>
+
+      <div class="stats">
+        <div class="stat">
+          <strong id="total-stat">30</strong>
+          <span>Questions</span>
+        </div>
+        <div class="stat">
+          <strong id="answered-stat">0</strong>
+          <span>Answered</span>
+        </div>
+        <div class="stat">
+          <strong id="score-stat">0</strong>
+          <span>Score</span>
+        </div>
+        <div class="stat">
+          <strong id="time-stat">00:00</strong>
+          <span>Time</span>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-head">
+          <span>Progress</span>
+          <span id="progress-text">0%</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <section class="result-panel" id="result-panel" aria-live="polite">
+    <div class="result-row">
+      <div>
+        <h2 id="result-title">Test completed</h2>
+        <p id="result-detail"></p>
+      </div>
+      <button class="btn primary" type="button" id="restart-btn">Restart Test</button>
+    </div>
+  </section>
+
+  <script>
+    const questions = [
+      {
+        topic: "National",
+        level: "Medium",
+        q: "Which Indian mission successfully placed the Aditya-L1 spacecraft on its Sun-observation journey?",
+        as: "সূৰ্য অধ্যয়নৰ বাবে Aditya-L1 মহাকাশযান প্ৰেৰণ কৰা ভাৰতীয় অভিযান কোনটো?",
+        options: ["Gaganyaan", "Chandrayaan-2", "PSLV-C57", "INSAT-3DS"],
+        answer: 2,
+        note: "Aditya-L1 was launched by ISRO using PSLV-C57."
+      },
+      {
+        topic: "Economy",
+        level: "Hard",
+        q: "In India, the Monetary Policy Committee is associated with decisions on which key policy rate?",
+        as: "ভাৰতত Monetary Policy Committee কোন মুখ্য নীতি হাৰৰ সিদ্ধান্তৰ সৈতে জড়িত?",
+        options: ["Repo rate", "GST rate", "Customs duty", "Corporate tax"],
+        answer: 0,
+        note: "The MPC decides the policy repo rate used by the Reserve Bank of India."
+      },
+      {
+        topic: "International",
+        level: "Medium",
+        q: "COP28, the United Nations climate conference, was hosted in which city?",
+        as: "ৰাষ্ট্ৰসংঘৰ জলবায়ু সন্মিলন COP28 কোন চহৰত অনুষ্ঠিত হৈছিল?",
+        options: ["Paris", "Dubai", "Glasgow", "Baku"],
+        answer: 1,
+        note: "COP28 was hosted in Dubai, United Arab Emirates."
+      },
+      {
+        topic: "Sports",
+        level: "Easy",
+        q: "Which country won the ICC Men's Cricket World Cup 2023?",
+        as: "ICC Men's Cricket World Cup 2023 কোন দেশে জয় কৰিছিল?",
+        options: ["India", "England", "Australia", "New Zealand"],
+        answer: 2,
+        note: "Australia defeated India in the 2023 final."
+      },
+      {
+        topic: "Awards",
+        level: "Medium",
+        q: "Who received the Nobel Peace Prize in 2023?",
+        as: "২০২৩ চনৰ Nobel Peace Prize কোনে লাভ কৰিছিল?",
+        options: ["Narges Mohammadi", "Maria Ressa", "Abiy Ahmed", "Ales Bialiatski"],
+        answer: 0,
+        note: "Narges Mohammadi was awarded the 2023 Nobel Peace Prize."
+      },
+      {
+        topic: "Science",
+        level: "Medium",
+        q: "Chandrayaan-3 made India the first country to land near which lunar region?",
+        as: "Chandrayaan-3-য়ে ভাৰতক চন্দ্ৰৰ কোন অঞ্চলৰ ওচৰত অৱতৰণ কৰা প্ৰথম দেশ কৰিলে?",
+        options: ["North pole", "South polar region", "Mare Tranquillitatis", "Far-side equator"],
+        answer: 1,
+        note: "The Vikram lander touched down near the Moon's south polar region."
+      },
+      {
+        topic: "Polity",
+        level: "Medium",
+        q: "The Nari Shakti Vandan Adhiniyam is related to reservation for whom?",
+        as: "Nari Shakti Vandan Adhiniyam কাক সংৰক্ষণ দিয়াৰ সৈতে জড়িত?",
+        options: ["Senior citizens", "Women", "Farmers", "Startups"],
+        answer: 1,
+        note: "It provides for reservation of seats for women in legislatures after delimitation conditions are met."
+      },
+      {
+        topic: "Environment",
+        level: "Easy",
+        q: "Which gas is the primary target of global net-zero emission goals?",
+        as: "বিশ্বৰ net-zero emission লক্ষ্যসমূহৰ মূল লক্ষ্য কোন গেছ?",
+        options: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+        answer: 2,
+        note: "Carbon dioxide is the main greenhouse gas targeted by net-zero plans."
+      },
+      {
+        topic: "Defence",
+        level: "Medium",
+        q: "The Agni series is best known as which type of Indian defence system?",
+        as: "Agni শৃংখলা ভাৰতৰ কোন ধৰণৰ প্ৰতিৰক্ষা ব্যৱস্থা হিচাপে পৰিচিত?",
+        options: ["Ballistic missile", "Fighter aircraft", "Naval submarine", "Radar network"],
+        answer: 0,
+        note: "Agni is a family of ballistic missiles developed by India."
+      },
+      {
+        topic: "Technology",
+        level: "Easy",
+        q: "India Stack is mainly associated with which area of public digital infrastructure?",
+        as: "India Stack মুখ্যতঃ কোন ক্ষেত্ৰৰ public digital infrastructure-ৰ সৈতে জড়িত?",
+        options: ["Digital identity and payments", "Satellite navigation only", "Coal mining", "Railway tracks"],
+        answer: 0,
+        note: "India Stack includes digital identity, payments, and data-sharing layers."
+      },
+      {
+        topic: "International",
+        level: "Medium",
+        q: "Which organization publishes the Global Hunger Index along with Welthungerhilfe?",
+        as: "Welthungerhilfe-ৰ সৈতে Global Hunger Index কোন সংস্থাই প্ৰকাশ কৰে?",
+        options: ["UNDP", "FAO", "Concern Worldwide", "WHO"],
+        answer: 2,
+        note: "The Global Hunger Index is published by Concern Worldwide and Welthungerhilfe."
+      },
+      {
+        topic: "National",
+        level: "Easy",
+        q: "The new Parliament building of India is located in which city?",
+        as: "ভাৰতৰ নতুন সংসদ ভৱন কোন চহৰত অৱস্থিত?",
+        options: ["Mumbai", "New Delhi", "Kolkata", "Hyderabad"],
+        answer: 1,
+        note: "India's Parliament complex is in New Delhi."
+      },
+      {
+        topic: "Economy",
+        level: "Hard",
+        q: "What does CPI commonly measure in economic current affairs?",
+        as: "অৰ্থনীতিৰ current affairs-ত CPI সাধাৰণতে কি জোখে?",
+        options: ["Consumer price inflation", "Coal production index", "Capital profit income", "Currency printing intensity"],
+        answer: 0,
+        note: "CPI stands for Consumer Price Index and is used to measure retail inflation."
+      },
+      {
+        topic: "Science",
+        level: "Medium",
+        q: "INSAT-3DS is primarily associated with which application?",
+        as: "INSAT-3DS মুখ্যতঃ কোন প্ৰয়োগৰ সৈতে জড়িত?",
+        options: ["Meteorology", "Banking", "Railway ticketing", "Deep-sea mining"],
+        answer: 0,
+        note: "INSAT-3DS is a meteorological satellite."
+      },
+      {
+        topic: "Sports",
+        level: "Easy",
+        q: "The Olympic Games are organized by which body?",
+        as: "Olympic Games কোন সংস্থাই আয়োজন কৰে?",
+        options: ["FIFA", "ICC", "International Olympic Committee", "World Athletics"],
+        answer: 2,
+        note: "The International Olympic Committee oversees the Olympic Games."
+      },
+      {
+        topic: "Environment",
+        level: "Medium",
+        q: "The Kunming-Montreal Global Biodiversity Framework is linked to which subject?",
+        as: "Kunming-Montreal Global Biodiversity Framework কোন বিষয়ৰ সৈতে জড়িত?",
+        options: ["Cyber security", "Biodiversity conservation", "Space exploration", "Monetary policy"],
+        answer: 1,
+        note: "It is a global framework for biodiversity protection."
+      },
+      {
+        topic: "Polity",
+        level: "Medium",
+        q: "Which constitutional body conducts elections to the Lok Sabha in India?",
+        as: "ভাৰতত Lok Sabha নিৰ্বাচন কোন সংবিধানিক সংস্থাই পৰিচালনা কৰে?",
+        options: ["Election Commission of India", "Finance Commission", "NITI Aayog", "UPSC"],
+        answer: 0,
+        note: "The Election Commission of India conducts national and state elections."
+      },
+      {
+        topic: "Technology",
+        level: "Medium",
+        q: "UPI is an instant payment system developed by which Indian organization?",
+        as: "UPI কোন ভাৰতীয় সংস্থাই বিকশিত কৰা instant payment system?",
+        options: ["NPCI", "SEBI", "TRAI", "ISRO"],
+        answer: 0,
+        note: "The National Payments Corporation of India developed UPI."
+      },
+      {
+        topic: "International",
+        level: "Easy",
+        q: "The G20 is primarily a forum for which group?",
+        as: "G20 মুখ্যতঃ কোন গোটৰ মঞ্চ?",
+        options: ["Major economies", "Only island nations", "Only military alliances", "Only oil producers"],
+        answer: 0,
+        note: "The G20 brings together major advanced and emerging economies."
+      },
+      {
+        topic: "National",
+        level: "Medium",
+        q: "PM Vishwakarma is a Government of India scheme focused mainly on whom?",
+        as: "PM Vishwakarma মুখ্যতঃ কাক লক্ষ্য কৰি ভাৰত চৰকাৰৰ আঁচনি?",
+        options: ["Traditional artisans and craftspeople", "Only software exporters", "Airline pilots", "Foreign tourists"],
+        answer: 0,
+        note: "The scheme supports traditional artisans and craftspeople."
+      },
+      {
+        topic: "Economy",
+        level: "Easy",
+        q: "Which institution presents India's Union Budget in Parliament?",
+        as: "ভাৰতৰ Union Budget সংসদত কোনে উপস্থাপন কৰে?",
+        options: ["Ministry of Finance", "Reserve Bank of India", "Election Commission", "Supreme Court"],
+        answer: 0,
+        note: "The Union Budget is presented by the Ministry of Finance."
+      },
+      {
+        topic: "Science",
+        level: "Medium",
+        q: "The Gaganyaan programme is associated with which objective?",
+        as: "Gaganyaan programme কোন লক্ষ্যৰ সৈতে জড়িত?",
+        options: ["Human spaceflight", "Ocean cleaning", "Digital payments", "River linking"],
+        answer: 0,
+        note: "Gaganyaan is India's human spaceflight programme."
+      },
+      {
+        topic: "Awards",
+        level: "Medium",
+        q: "The Bharat Ratna is India's highest civilian award. Which body announces civilian awards on behalf of the Government of India?",
+        as: "Bharat Ratna ভাৰতৰ সৰ্বোচ্চ অসামৰিক সন্মান। ভাৰত চৰকাৰৰ হৈ অসামৰিক সন্মান কোনে ঘোষণা কৰে?",
+        options: ["Ministry of Home Affairs", "RBI", "CAG", "NITI Aayog"],
+        answer: 0,
+        note: "Civilian awards are announced through the Ministry of Home Affairs."
+      },
+      {
+        topic: "Defence",
+        level: "Medium",
+        q: "Exercise Malabar is best known as a naval exercise involving India and partner countries. Which branch is central to it?",
+        as: "Exercise Malabar ভাৰত আৰু অংশীদাৰ দেশসমূহৰ কোন শাখাৰ exercise হিচাপে পৰিচিত?",
+        options: ["Navy", "Air traffic control", "Forest service", "Civil aviation"],
+        answer: 0,
+        note: "Exercise Malabar is a major naval exercise."
+      },
+      {
+        topic: "Environment",
+        level: "Easy",
+        q: "World Environment Day is observed every year on which date?",
+        as: "World Environment Day প্ৰতি বছৰে কোন তাৰিখে পালন কৰা হয়?",
+        options: ["5 June", "15 August", "2 October", "26 January"],
+        answer: 0,
+        note: "World Environment Day is observed on 5 June."
+      },
+      {
+        topic: "Technology",
+        level: "Hard",
+        q: "Semicon India initiatives are mainly linked to which strategic sector?",
+        as: "Semicon India উদ্যোগসমূহ মুখ্যতঃ কোন কৌশলগত ক্ষেত্ৰৰ সৈতে জড়িত?",
+        options: ["Semiconductor ecosystem", "Tea exports", "Textile weaving", "Wildlife census"],
+        answer: 0,
+        note: "Semicon India supports semiconductor manufacturing and design capabilities."
+      },
+      {
+        topic: "Sports",
+        level: "Medium",
+        q: "The Asian Games 2022 were held in 2023 in which Chinese city?",
+        as: "Asian Games 2022, ২০২৩ চনত চীনৰ কোন চহৰত অনুষ্ঠিত হৈছিল?",
+        options: ["Beijing", "Shanghai", "Hangzhou", "Chengdu"],
+        answer: 2,
+        note: "The postponed Asian Games were held in Hangzhou."
+      },
+      {
+        topic: "International",
+        level: "Hard",
+        q: "The International Court of Justice is located in which city?",
+        as: "International Court of Justice কোন চহৰত অৱস্থিত?",
+        options: ["Geneva", "The Hague", "New York", "Vienna"],
+        answer: 1,
+        note: "The ICJ sits at the Peace Palace in The Hague."
+      },
+      {
+        topic: "Polity",
+        level: "Easy",
+        q: "The Chief Election Commissioner of India is part of which institution?",
+        as: "ভাৰতৰ Chief Election Commissioner কোন সংস্থাৰ অংশ?",
+        options: ["Election Commission of India", "Planning Commission", "Finance Ministry", "Lok Sabha Secretariat only"],
+        answer: 0,
+        note: "The Chief Election Commissioner heads the Election Commission of India."
+      },
+      {
+        topic: "National",
+        level: "Medium",
+        q: "Which programme is associated with expanding piped water supply to rural households in India?",
+        as: "ভাৰতৰ গ্ৰাম্য ঘৰত পাইপেৰে পানী যোগান বৃদ্ধিৰ সৈতে কোন আঁচনি জড়িত?",
+        options: ["Jal Jeevan Mission", "UDAN", "PM-KUSUM", "Startup India"],
+        answer: 0,
+        note: "Jal Jeevan Mission aims to provide tap water connections to rural households."
+      }
+    ];
+
+    const state = {
+      current: 0,
+      answers: new Array(questions.length).fill(null),
+      showNotes: false,
+      auto: false,
+      startedAt: Date.now(),
+      language: "en",
+      timer: null
+    };
+
+    const questionText = document.getElementById("question-text");
+    const questionCount = document.getElementById("question-count");
+    const topicTag = document.getElementById("topic-tag");
+    const levelTag = document.getElementById("level-tag");
+    const optionsEl = document.getElementById("options");
+    const noteEl = document.getElementById("answer-note");
+    const mapEl = document.getElementById("question-map");
+    const totalStat = document.getElementById("total-stat");
+    const answeredStat = document.getElementById("answered-stat");
+    const scoreStat = document.getElementById("score-stat");
+    const timeStat = document.getElementById("time-stat");
+    const progressText = document.getElementById("progress-text");
+    const progressFill = document.getElementById("progress-fill");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const autoBtn = document.getElementById("auto-btn");
+    const reviewBtn = document.getElementById("review-btn");
+    const resultPanel = document.getElementById("result-panel");
+    const resultDetail = document.getElementById("result-detail");
+    const restartBtn = document.getElementById("restart-btn");
+
+    function formatTime(ms) {
+      const totalSeconds = Math.floor(ms / 1000);
+      const minutes = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
+      const seconds = String(totalSeconds % 60).padStart(2, "0");
+      return `${minutes}:${seconds}`;
+    }
+
+    function score() {
+      return state.answers.reduce((total, answer, index) => {
+        return total + (answer === questions[index].answer ? 1 : 0);
+      }, 0);
+    }
+
+    function answeredCount() {
+      return state.answers.filter(answer => answer !== null).length;
+    }
+
+    function renderMap() {
+      mapEl.innerHTML = "";
+      questions.forEach((_, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "map-btn";
+        button.textContent = index + 1;
+        button.setAttribute("aria-label", `Go to question ${index + 1}`);
+        if (index === state.current) button.classList.add("active");
+        if (state.answers[index] !== null) button.classList.add("answered");
+        button.addEventListener("click", () => {
+          state.current = index;
+          state.showNotes = false;
+          render();
+        });
+        mapEl.appendChild(button);
+      });
+    }
+
+    function renderQuestion() {
+      const item = questions[state.current];
+      const selected = state.answers[state.current];
+      const alphabet = ["A", "B", "C", "D"];
+
+      questionCount.textContent = `Question ${state.current + 1} of ${questions.length}`;
+      topicTag.textContent = item.topic;
+      levelTag.textContent = item.level;
+      questionText.textContent = state.language === "as" ? item.as : item.q;
+      optionsEl.innerHTML = "";
+
+      item.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "option";
+        if (selected === index) button.classList.add("selected");
+        if (state.showNotes && index === item.answer) button.classList.add("correct");
+        if (state.showNotes && selected === index && selected !== item.answer) button.classList.add("wrong");
+        button.innerHTML = `<span class="letter">${alphabet[index]}</span><span>${option}</span>`;
+        button.addEventListener("click", () => {
+          state.answers[state.current] = index;
+          if (state.auto && state.current < questions.length - 1) {
+            window.setTimeout(() => {
+              state.current += 1;
+              state.showNotes = false;
+              render();
+            }, 240);
+          }
+          render();
+        });
+        optionsEl.appendChild(button);
+      });
+
+      noteEl.textContent = item.note;
+      noteEl.classList.toggle("visible", state.showNotes);
+      prevBtn.disabled = state.current === 0;
+      nextBtn.textContent = state.current === questions.length - 1 ? "Finish" : "Next";
+    }
+
+    function renderStats() {
+      const answered = answeredCount();
+      const percent = Math.round((answered / questions.length) * 100);
+      totalStat.textContent = questions.length;
+      answeredStat.textContent = answered;
+      scoreStat.textContent = score();
+      progressText.textContent = `${percent}%`;
+      progressFill.style.width = `${percent}%`;
+    }
+
+    function renderResult() {
+      const answered = answeredCount();
+      const finalScore = score();
+      resultDetail.textContent = `You answered ${answered} of ${questions.length} questions. Current score: ${finalScore}/${questions.length}.`;
+      resultPanel.classList.add("visible");
+      resultPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+
+    function render() {
+      renderQuestion();
+      renderMap();
+      renderStats();
+    }
+
+    prevBtn.addEventListener("click", () => {
+      if (state.current > 0) {
+        state.current -= 1;
+        state.showNotes = false;
+        render();
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (state.current < questions.length - 1) {
+        state.current += 1;
+        state.showNotes = false;
+        render();
+      } else {
+        renderResult();
+      }
+    });
+
+    autoBtn.addEventListener("click", () => {
+      state.auto = !state.auto;
+      autoBtn.setAttribute("aria-pressed", String(state.auto));
+      autoBtn.classList.toggle("primary", state.auto);
+    });
+
+    reviewBtn.addEventListener("click", () => {
+      state.showNotes = !state.showNotes;
+      render();
+    });
+
+    restartBtn.addEventListener("click", () => {
+      state.current = 0;
+      state.answers.fill(null);
+      state.showNotes = false;
+      state.startedAt = Date.now();
+      resultPanel.classList.remove("visible");
+      render();
+    });
+
+    document.querySelectorAll(".tab").forEach(tab => {
+      tab.addEventListener("click", () => {
+        state.language = tab.dataset.language;
+        document.querySelectorAll(".tab").forEach(item => {
+          const isActive = item === tab;
+          item.classList.toggle("active", isActive);
+          item.setAttribute("aria-selected", String(isActive));
+        });
+        render();
+      });
+    });
+
+    state.timer = window.setInterval(() => {
+      timeStat.textContent = formatTime(Date.now() - state.startedAt);
+    }, 1000);
+
+    render();
+  </script>
+</body>
+</html>

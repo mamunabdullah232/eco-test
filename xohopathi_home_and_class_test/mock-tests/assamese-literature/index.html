@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="as">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>অসমীয়া সাহিত্য GK | MCQ Quiz</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1e40af;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --green: #15803d;
+      --red: #b91c1c;
+      --soft-blue: #eff6ff;
+      --soft-green: #dcfce7;
+      --soft-red: #fee2e2;
+      --shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Noto Sans Assamese", "Noto Sans Bengali", sans-serif;
+      background: linear-gradient(135deg, #eff6ff, #f8fafc);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 18px;
+      box-shadow: var(--shadow);
+      margin-bottom: 22px;
+    }
+
+    header h1 {
+      font-size: clamp(1.7rem, 4vw, 2.6rem);
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .info-bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .badge {
+      background: var(--soft-blue);
+      color: var(--primary-dark);
+      border: 1px solid #bfdbfe;
+      padding: 7px 12px;
+      border-radius: 999px;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .question-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .question-title {
+      font-size: 1.08rem;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .options {
+      display: grid;
+      gap: 10px;
+    }
+
+    label.option {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      cursor: pointer;
+      transition: 0.2s ease;
+      background: #fff;
+    }
+
+    label.option:hover {
+      border-color: var(--primary);
+      background: #f8fbff;
+    }
+
+    input[type="radio"] {
+      margin-top: 5px;
+      accent-color: var(--primary);
+    }
+
+    .correct {
+      background: var(--soft-green) !important;
+      border-color: #86efac !important;
+    }
+
+    .wrong {
+      background: var(--soft-red) !important;
+      border-color: #fecaca !important;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 24px 0;
+    }
+
+    button {
+      border: none;
+      border-radius: 14px;
+      padding: 12px 18px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 800;
+      transition: 0.2s ease;
+    }
+
+    .primary-btn {
+      background: var(--primary);
+      color: white;
+    }
+
+    .primary-btn:hover {
+      background: var(--primary-dark);
+    }
+
+    .secondary-btn {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+
+    .secondary-btn:hover {
+      background: #cbd5e1;
+    }
+
+    .result-box {
+      display: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .result-box h2 {
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+    }
+
+    .answer-key {
+      display: none;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .answer-key h2 {
+      color: var(--primary-dark);
+      margin-bottom: 12px;
+    }
+
+    .answer-key ol {
+      padding-left: 25px;
+    }
+
+    .answer-key li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 24px;
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 12px;
+      }
+
+      .question-card {
+        padding: 16px;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>অসমীয়া সাহিত্য GK MCQ</h1>
+      <p>সাধাৰণ জ্ঞানৰ ১০টা বহুনিৰ্বাচনী প্ৰশ্ন</p>
+      <div class="info-bar">
+        <span class="badge">মুঠ প্ৰশ্ন: ১০</span>
+        <span class="badge">প্ৰতি প্ৰশ্নত ১ নম্বৰ</span>
+        <span class="badge">বিষয়: অসমীয়া সাহিত্য</span>
+      </div>
+    </header>
+
+    <section id="quiz"></section>
+
+    <div class="actions">
+      <button class="primary-btn" onclick="checkAnswers()">উত্তৰ জমা দিয়ক</button>
+      <button class="secondary-btn" onclick="resetQuiz()">পুনৰ আৰম্ভ কৰক</button>
+      <button class="secondary-btn" onclick="toggleAnswerKey()">উত্তৰ তালিকা দেখুৱাওক</button>
+    </div>
+
+    <section id="result" class="result-box"></section>
+
+    <section id="answerKey" class="answer-key">
+      <h2>উত্তৰ তালিকা</h2>
+      <ol id="answerList"></ol>
+    </section>
+
+    <footer>
+      <p>Created for Assamese Literature GK practice.</p>
+    </footer>
+  </main>
+
+  <script>
+    const questions = [
+      {
+        q: "প্ৰথম অসমীয়া উপন্যাস ‘ভানুমতী’ৰ লেখক কোন?",
+        options: ["লক্ষ্মীনাথ বেজবৰুৱা", "পদ্মনাথ গোহাঞি বৰুৱা", "চন্দ্ৰকুমাৰ আগৰৱালা", "হেমচন্দ্ৰ বৰুৱা"],
+        answer: 1
+      },
+      {
+        q: "প্ৰথম অসমীয়া আলোচনী ‘অৰুণোদই’ কেতিয়া প্ৰকাশিত হৈছিল?",
+        options: ["১৮২৬", "১৮৪৬", "১৮৮৯", "১৯০০"],
+        answer: 1
+      },
+      {
+        q: "জ্ঞানপীঠ বঁটা লাভ কৰা প্ৰথম অসমীয়া সাহিত্যিক কোন?",
+        options: ["ইন্দিৰা গোস্বামী", "হোমেন বৰগোহাঞি", "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য", "নীলমণি ফুকন"],
+        answer: 2
+      },
+      {
+        q: "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই কোনখন উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?",
+        options: ["মৃত্যুঞ্জয়", "ইয়াৰুইংগম", "মিৰি জীয়ৰী", "দঁতাল হাতীৰ উঁয়ে খোৱা হাওদা"],
+        answer: 0
+      },
+      {
+        q: "‘ৰসৰাজ’ উপাধিৰে কোনজন অসমীয়া সাহিত্যিক পৰিচিত?",
+        options: ["লক্ষ্মীনাথ বেজবৰুৱা", "জ্যোতিপ্ৰসাদ আগৰৱালা", "মাধৱদেৱ", "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"],
+        answer: 0
+      },
+      {
+        q: "‘ৰূপকোঁৱৰ’ উপাধিৰে কোনজন পৰিচিত?",
+        options: ["বিষ্ণুপ্ৰসাদ ৰাভা", "জ্যোতিপ্ৰসাদ আগৰৱালা", "অম্বিকাগিৰী ৰায়চৌধুৰী", "চন্দ্ৰকুমাৰ আগৰৱালা"],
+        answer: 1
+      },
+      {
+        q: "‘মামণি ৰয়ছম গোস্বামী’ কোন সাহিত্যিকৰ ছদ্মনাম/জনপ্ৰিয় নাম?",
+        options: ["নলিনীবালা দেৱী", "ইন্দিৰা গোস্বামী", "অনুৰাধা শৰ্মা পূজাৰী", "মামণি হাজৰিকা"],
+        answer: 1
+      },
+      {
+        q: "‘কীৰ্তন-ঘোষা’ৰ ৰচয়িতা কোন?",
+        options: ["মাধৱদেৱ", "শ্ৰীমন্ত শংকৰদেৱ", "হেম সৰস্বতী", "মাধৱ কন্দলী"],
+        answer: 1
+      },
+      {
+        q: "‘হেমকোষ’ নামৰ অসমীয়া ব্যুৎপত্তিগত অভিধানখন কোনে সংকলন কৰিছিল?",
+        options: ["ড° মাইল্‌ছ ব্ৰনছন", "হেমচন্দ্ৰ বৰুৱা", "গুণাভিৰাম বৰুৱা", "আনন্দৰাম ঢেকিয়াল ফুকন"],
+        answer: 1
+      },
+      {
+        q: "অসমীয়া সাহিত্যৰ ‘জোনাকী যুগ’ কোনখন আলোচনীৰ সৈতে জড়িত?",
+        options: ["অৰুণোদই", "জোনাকী", "বিজুলী", "বাঁহী"],
+        answer: 1
+      }
+    ];
+
+    const quiz = document.getElementById("quiz");
+    const answerList = document.getElementById("answerList");
+
+    function renderQuiz() {
+      quiz.innerHTML = "";
+      answerList.innerHTML = "";
+
+      questions.forEach((item, index) => {
+        const card = document.createElement("div");
+        card.className = "question-card";
+
+        const title = document.createElement("div");
+        title.className = "question-title";
+        title.textContent = `${index + 1}. ${item.q}`;
+        card.appendChild(title);
+
+        const optionsDiv = document.createElement("div");
+        optionsDiv.className = "options";
+
+        item.options.forEach((option, optIndex) => {
+          const label = document.createElement("label");
+          label.className = "option";
+          label.setAttribute("data-question", index);
+          label.setAttribute("data-option", optIndex);
+
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            <span>${String.fromCharCode(65 + optIndex)}. ${option}</span>
+          `;
+
+          optionsDiv.appendChild(label);
+        });
+
+        card.appendChild(optionsDiv);
+        quiz.appendChild(card);
+
+        const li = document.createElement("li");
+        li.textContent = `${index + 1}. ${String.fromCharCode(65 + item.answer)}. ${item.options[item.answer]}`;
+        answerList.appendChild(li);
+      });
+    }
+
+    function checkAnswers() {
+      let score = 0;
+
+      document.querySelectorAll(".option").forEach(label => {
+        label.classList.remove("correct", "wrong");
+      });
+
+      questions.forEach((item, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const correctLabel = document.querySelector(`label[data-question="${index}"][data-option="${item.answer}"]`);
+
+        if (selected) {
+          const selectedValue = Number(selected.value);
+          const selectedLabel = document.querySelector(`label[data-question="${index}"][data-option="${selectedValue}"]`);
+
+          if (selectedValue === item.answer) {
+            score++;
+            selectedLabel.classList.add("correct");
+          } else {
+            selectedLabel.classList.add("wrong");
+            correctLabel.classList.add("correct");
+          }
+        } else {
+          correctLabel.classList.add("correct");
+        }
+      });
+
+      const result = document.getElementById("result");
+      result.style.display = "block";
+      result.innerHTML = `
+        <h2>আপোনাৰ নম্বৰ: ${score}/${questions.length}</h2>
+        <p>${getFeedback(score)}</p>
+      `;
+      result.scrollIntoView({ behavior: "smooth" });
+    }
+
+    function getFeedback(score) {
+      if (score === 10) return "অসাধাৰণ! সকলো উত্তৰ শুদ্ধ হৈছে।";
+      if (score >= 7) return "ভাল হৈছে! আৰু অলপ অনুশীলন কৰিলে অধিক ভাল হ’ব।";
+      if (score >= 4) return "মধ্যম ফলাফল। উত্তৰ তালিকা চাই পুনৰ চেষ্টা কৰক।";
+      return "আৰু অনুশীলনৰ প্ৰয়োজন আছে। পুনৰ চেষ্টা কৰক।";
+    }
+
+    function resetQuiz() {
+      document.querySelectorAll("input[type='radio']").forEach(input => {
+        input.checked = false;
+      });
+
+      document.querySelectorAll(".option").forEach(label => {
+        label.classList.remove("correct", "wrong");
+      });
+
+      document.getElementById("result").style.display = "none";
+      document.getElementById("answerKey").style.display = "none";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function toggleAnswerKey() {
+      const key = document.getElementById("answerKey");
+      key.style.display = key.style.display === "block" ? "none" : "block";
+      if (key.style.display === "block") {
+        key.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    renderQuiz();
+  </script>
+</body>
+</html>
