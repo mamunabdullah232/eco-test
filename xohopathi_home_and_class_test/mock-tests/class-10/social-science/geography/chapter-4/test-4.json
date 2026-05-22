@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "?????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Geography of Assam",
+    "as": "অধ্যায় 4 - অসমৰ ভূগোল"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Assam’s main mineral resources include coal, oil, natural gas and—",
+      "as": "অসমৰ মুখ্য খনিজ সম্পদৰ ভিতৰত কয়লা, তেল, প্ৰাকৃতিক গেছ আৰু কি আছে?",
+      "options": [
+        {
+          "en": "Limestone",
+          "as": "চূণশিলা"
+        },
+        {
+          "en": "Gold only",
+          "as": "কেৱল সোণ"
+        },
+        {
+          "en": "Diamond only",
+          "as": "কেৱল হীৰা"
+        },
+        {
+          "en": "Uranium only",
+          "as": "কেৱল ইউৰেনিয়াম"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Mineral oil is also known as—",
+      "as": "খনিজ তেলক আৰু কি নামেৰে জনা যায়?",
+      "options": [
+        {
+          "en": "Liquid gold",
+          "as": "তৰল সোণ"
+        },
+        {
+          "en": "Black cotton",
+          "as": "ক’লা কপাহ"
+        },
+        {
+          "en": "White coal",
+          "as": "বগা কয়লা"
+        },
+        {
+          "en": "Blue metal",
+          "as": "নীলা ধাতু"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam has more than how many wetlands according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি অসমত কিমানতকৈ অধিক জলাভূমি আছে?",
+      "options": [
+        {
+          "en": "Three thousand",
+          "as": "তিনি হাজাৰ"
+        },
+        {
+          "en": "Three hundred",
+          "as": "তিনি শ"
+        },
+        {
+          "en": "Thirty",
+          "as": "ত্ৰিশ"
+        },
+        {
+          "en": "Thirty thousand",
+          "as": "ত্ৰিশ হাজাৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Human resource refers to—",
+      "as": "মানৱ সম্পদ বুলিলে কি বুজায়?",
+      "options": [
+        {
+          "en": "People as a valuable resource",
+          "as": "মানুহক মূল্যবান সম্পদ হিচাপে বুজায়"
+        },
+        {
+          "en": "Only rivers",
+          "as": "কেৱল নদী"
+        },
+        {
+          "en": "Only minerals",
+          "as": "কেৱল খনিজ"
+        },
+        {
+          "en": "Only forests",
+          "as": "কেৱল বনাঞ্চল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam’s economy is mainly dependent on—",
+      "as": "অসমৰ অৰ্থনীতি মুখ্যতঃ কিহৰ ওপৰত নিৰ্ভৰশীল?",
+      "options": [
+        {
+          "en": "Agriculture",
+          "as": "কৃষি"
+        },
+        {
+          "en": "Space research",
+          "as": "মহাকাশ গৱেষণা"
+        },
+        {
+          "en": "Desert tourism",
+          "as": "মৰু পৰ্যটন"
+        },
+        {
+          "en": "Ocean mining",
+          "as": "মহাসাগৰীয় খনন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "About what percentage of Assam’s people depend on agriculture as their main occupation?",
+      "as": "অসমৰ প্ৰায় কিমান শতাংশ মানুহে কৃষিক মুখ্য বৃত্তি হিচাপে গ্ৰহণ কৰে?",
+      "options": [
+        {
+          "en": "75%",
+          "as": "৭৫%"
+        },
+        {
+          "en": "25%",
+          "as": "২৫%"
+        },
+        {
+          "en": "10%",
+          "as": "১০%"
+        },
+        {
+          "en": "2%",
+          "as": "২%"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "More than what percentage of Assam’s total working population is directly or indirectly engaged in agriculture?",
+      "as": "অসমৰ মুঠ কৰ্মৰত জনসংখ্যাৰ কিমান শতাংশতকৈ অধিক লোক কৃষিৰ সৈতে প্ৰত্যক্ষ বা পৰোক্ষভাৱে জড়িত?",
+      "options": [
+        {
+          "en": "53%",
+          "as": "৫৩%"
+        },
+        {
+          "en": "10%",
+          "as": "১০%"
+        },
+        {
+          "en": "20%",
+          "as": "২০%"
+        },
+        {
+          "en": "90%",
+          "as": "৯০%"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Based on soil, topography, temperature and rainfall, Assam is divided into how many agro-climatic zones?",
+      "as": "মাটি, ভূ-প্ৰকৃতি, তাপমাত্রা আৰু বৰষুণৰ ভিত্তিত অসমক কিমানটা কৃষি-জলবায়ুগত অঞ্চলত ভাগ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Six",
+          "as": "ছয়"
+        },
+        {
+          "en": "Three",
+          "as": "তিনি"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰি"
+        },
+        {
+          "en": "Ten",
+          "as": "দহ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which is the major crop of Assam?",
+      "as": "অসমৰ প্ৰধান শস্য কোনটো?",
+      "options": [
+        {
+          "en": "Rice",
+          "as": "ধান"
+        },
+        {
+          "en": "Wheat",
+          "as": "ঘেঁহু"
+        },
+        {
+          "en": "Cotton",
+          "as": "কপাহ"
+        },
+        {
+          "en": "Barley",
+          "as": "যৱ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The three types of rice cultivated in Assam are Autumn rice, Winter rice and—",
+      "as": "অসমত উৎপাদিত ধানৰ তিনিটা প্ৰকাৰ হৈছে আহু ধান, শালিধান আৰু—",
+      "options": [
+        {
+          "en": "Bodo rice",
+          "as": "বোৰো ধান"
+        },
+        {
+          "en": "Arabian rice",
+          "as": "আৰবীয় ধান"
+        },
+        {
+          "en": "European rice",
+          "as": "ইউৰোপীয় ধান"
+        },
+        {
+          "en": "Mountain rice only",
+          "as": "কেৱল পাহাৰীয়া ধান"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

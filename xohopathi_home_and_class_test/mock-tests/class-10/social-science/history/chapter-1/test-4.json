@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
+    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who said that boycotting means patriotism?",
+      "as": "‘বহিষ্কাৰ মানে দেশপ্ৰেম’ বুলি কোনে কৈছিল?",
+      "options": [
+        {
+          "en": "Aurobindo Ghose",
+          "as": "অৰবিন্দ ঘোষ"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        },
+        {
+          "en": "Lord Minto",
+          "as": "লৰ্ড মিণ্টো"
+        },
+        {
+          "en": "Nawab Salimullah",
+          "as": "নৱাব ছালিমুল্লাহ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which newspaper was edited by Surendranath Banerjee during the Swadeshi period?",
+      "as": "স্বদেশী সময়ত সুৰেন্দ্ৰনাথ বেনাৰ্জীয়ে কোন বাতৰি কাকত সম্পাদনা কৰিছিল?",
+      "options": [
+        {
+          "en": "The Bengali",
+          "as": "দ্য বেংগলী"
+        },
+        {
+          "en": "Yugantar",
+          "as": "যুগান্তৰ"
+        },
+        {
+          "en": "Sandhya",
+          "as": "সন্ধ্যা"
+        },
+        {
+          "en": "Su-Prabhat",
+          "as": "সু-প্ৰভাত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who edited the weekly Yugantar?",
+      "as": "সাপ্তাহিক ‘যুগান্তৰ’ কোনে সম্পাদনা কৰিছিল?",
+      "options": [
+        {
+          "en": "Bhupendra Dutta",
+          "as": "ভূপেন্দ্ৰ দত্ত"
+        },
+        {
+          "en": "Krishna Kumar Mitra",
+          "as": "কৃষ্ণ কুমাৰ মিত্ৰ"
+        },
+        {
+          "en": "Kumudini Mishra",
+          "as": "কুমুদিনী মিশ্ৰ"
+        },
+        {
+          "en": "Satish Chandra Mukherjee",
+          "as": "সতীশ চন্দ্ৰ মুখাৰ্জী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which patriotic song later became the national anthem of Bangladesh?",
+      "as": "কোন দেশপ্ৰেমমূলক গীত পিছত বাংলাদেশৰ ৰাষ্ট্ৰীয় সংগীত হয়?",
+      "options": [
+        {
+          "en": "Amar Sonar Bangla",
+          "as": "আমাৰ সোনাৰ বাংলা"
+        },
+        {
+          "en": "Vande Mataram",
+          "as": "বন্দে মাতৰম"
+        },
+        {
+          "en": "Jana Gana Mana",
+          "as": "জন গণ মন"
+        },
+        {
+          "en": "Ekla Cholo Re",
+          "as": "একলা চলো ৰে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who painted 'Banga Mata'?",
+      "as": "‘বংগ মাতা’ ছবি কোনে আঁকিছিল?",
+      "options": [
+        {
+          "en": "Abanindranath Tagore",
+          "as": "অবনীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Nandalal Bose",
+          "as": "নন্দলাল বসু"
+        },
+        {
+          "en": "Raja Ravi Varma",
+          "as": "ৰাজা ৰবি বৰ্মা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who transformed 'Banga Mata' into 'Bharat Mata'?",
+      "as": "‘বংগ মাতা’ক ‘ভাৰত মাতা’ ৰূপে কোনে ৰূপান্তৰ কৰিছিল?",
+      "options": [
+        {
+          "en": "Sister Nivedita",
+          "as": "ছিস্টাৰ নিবেদিতা"
+        },
+        {
+          "en": "Sarala Devi",
+          "as": "সৰলা দেৱী"
+        },
+        {
+          "en": "Kumudini Mishra",
+          "as": "কুমুদিনী মিশ্ৰ"
+        },
+        {
+          "en": "Bhabaneswari Devi",
+          "as": "ভবানেশ্বৰী দেৱী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who issued the Carlyle Circular warning students not to take part in the movement?",
+      "as": "ছাত্ৰ-ছাত্ৰীক আন্দোলনত অংশ নল’বলৈ সতৰ্ক কৰা কাৰ্লাইল চাৰ্কুলাৰ কোনে জাৰি কৰিছিল?",
+      "options": [
+        {
+          "en": "R. W. Carlyle",
+          "as": "আৰ. ডব্লিউ. কাৰ্লাইল"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        },
+        {
+          "en": "Aga Khan",
+          "as": "আগা খান"
+        },
+        {
+          "en": "R. C. Dutt",
+          "as": "আৰ. চি. দত্ত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When was the Anti-Circular Society formed?",
+      "as": "এণ্টি-চাৰ্কুলাৰ ছ’চাইটি কেতিয়া গঠন হৈছিল?",
+      "options": [
+        {
+          "en": "4 November 1905",
+          "as": "৪ নৱেম্বৰ ১৯০৫"
+        },
+        {
+          "en": "7 August 1905",
+          "as": "৭ আগষ্ট ১৯০৫"
+        },
+        {
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        },
+        {
+          "en": "5 March 1931",
+          "as": "৫ মাৰ্চ ১৯৩১"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The National Education Council was formed under the leadership of—",
+      "as": "জাতীয় শিক্ষা পৰিষদ কাৰ নেতৃত্বত গঠন হৈছিল?",
+      "options": [
+        {
+          "en": "Rasbihari Bose",
+          "as": "ৰাসবিহাৰী বসু"
+        },
+        {
+          "en": "Lord Minto",
+          "as": "লৰ্ড মিণ্টো"
+        },
+        {
+          "en": "Aga Khan",
+          "as": "আগা খান"
+        },
+        {
+          "en": "J. B. Fuller",
+          "as": "জে. বি. ফুলাৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was the first principal of Bengal National College?",
+      "as": "বেংগল নেচনেল কলেজৰ প্ৰথম অধ্যক্ষ কোন আছিল?",
+      "options": [
+        {
+          "en": "Aurobindo Ghose",
+          "as": "অৰবিন্দ ঘোষ"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Satish Chandra Mukherjee",
+          "as": "সতীশ চন্দ্ৰ মুখাৰ্জী"
+        },
+        {
+          "en": "Surendranath Banerjee",
+          "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

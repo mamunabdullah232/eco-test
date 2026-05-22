@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
+    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The article 'Bangar Sarbanash' was published in which journal?",
+      "as": "‘বংগৰ সৰ্বনাশ’ প্ৰবন্ধটো কোন আলোচনীত প্ৰকাশ পাইছিল?",
+      "options": [
+        {
+          "en": "Sanjibani",
+          "as": "সঞ্জীৱনী"
+        },
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        },
+        {
+          "en": "Milan",
+          "as": "মিলন"
+        },
+        {
+          "en": "The Dawn",
+          "as": "দ্য ডন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who edited the journal Sanjibani?",
+      "as": "সঞ্জীৱনী আলোচনীখন কোনে সম্পাদনা কৰিছিল?",
+      "options": [
+        {
+          "en": "Krishna Kumar Mitra",
+          "as": "কৃষ্ণ কুমাৰ মিত্ৰ"
+        },
+        {
+          "en": "Aurobindo Ghose",
+          "as": "অৰবিন্দ ঘোষ"
+        },
+        {
+          "en": "Bhupendra Dutta",
+          "as": "ভূপেন্দ্ৰ দত্ত"
+        },
+        {
+          "en": "Kumudini Mishra",
+          "as": "কুমুদিনী মিশ্ৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Where was the first protest meeting against the proposed Partition of Bengal held?",
+      "as": "প্ৰস্তাৱিত বংগ বিভাজনৰ বিৰুদ্ধে প্ৰথম প্ৰতিবাদ সভা ক’ত হৈছিল?",
+      "options": [
+        {
+          "en": "Khulna (Bagerbari)",
+          "as": "খুলনা (বাগেৰবাৰী)"
+        },
+        {
+          "en": "Dandi",
+          "as": "ডাণ্ডী"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Patharughat",
+          "as": "পাথৰুঘাট"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The huge public meeting of 7 August 1905 was held at—",
+      "as": "৭ আগষ্ট ১৯০৫ৰ বৃহৎ জনসভা ক’ত অনুষ্ঠিত হৈছিল?",
+      "options": [
+        {
+          "en": "Town Hall of Kasimbazar, Calcutta",
+          "as": "কলকাতাৰ কাশিমবজাৰ টাউন হল"
+        },
+        {
+          "en": "Gowalia Tank, Bombay",
+          "as": "বোম্বাইৰ গোৱালিয়া টেংক"
+        },
+        {
+          "en": "Jallianwala Bagh",
+          "as": "জালিয়ানৱালা বাগ"
+        },
+        {
+          "en": "Jowai",
+          "as": "জোৱাই"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who formed a Student Union during the Swadeshi Movement?",
+      "as": "স্বদেশী আন্দোলনৰ সময়ত কাৰ নেতৃত্বত ‘Student Union’ গঠন হৈছিল?",
+      "options": [
+        {
+          "en": "Surendranath Banerjee",
+          "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        },
+        {
+          "en": "Nawab Salimullah",
+          "as": "নৱাব ছালিমুল্লাহ"
+        },
+        {
+          "en": "R. C. Dutt",
+          "as": "আৰ. চি. দত্ত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who presided over the protest rally at Rajabazar on 23 September 1905?",
+      "as": "২৩ ছেপ্টেম্বৰ ১৯০৫ত ৰাজাবজাৰৰ প্ৰতিবাদ সভাত কোনে সভাপতিত্ব কৰিছিল?",
+      "options": [
+        {
+          "en": "Abdul Rassul",
+          "as": "আব্দুল ৰছুল"
+        },
+        {
+          "en": "Aga Khan",
+          "as": "আগা খান"
+        },
+        {
+          "en": "Jinnah",
+          "as": "জিন্না"
+        },
+        {
+          "en": "Lord Morley",
+          "as": "লৰ্ড মৰ্লে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How did Bengal observe 16 October 1905?",
+      "as": "১৬ অক্টোবৰ ১৯০৫ত বংগবাসীয়ে দিনটো কেনেদৰে পালন কৰিছিল?",
+      "options": [
+        {
+          "en": "As National Mourning Day",
+          "as": "জাতীয় শোক দিৱস হিচাপে"
+        },
+        {
+          "en": "As Independence Day",
+          "as": "স্বাধীনতা দিৱস হিচাপে"
+        },
+        {
+          "en": "As Republic Day",
+          "as": "গণতন্ত্ৰ দিৱস হিচাপে"
+        },
+        {
+          "en": "As Labour Day",
+          "as": "শ্ৰমিক দিৱস হিচাপে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who called upon people to observe Rakhibandhan on 16 October 1905?",
+      "as": "১৬ অক্টোবৰ ১৯০৫ত ৰাখীবন্ধন পালন কৰিবলৈ কোনে আহ্বান জনাইছিল?",
+      "options": [
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Sarala Devi",
+          "as": "সৰলা দেৱী"
+        },
+        {
+          "en": "Sister Nivedita",
+          "as": "ছিস্টাৰ নিবেদিতা"
+        },
+        {
+          "en": "Bhupendra Dutta",
+          "as": "ভূপেন্দ্ৰ দত্ত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who laid the foundation stone of Federal Hall on 16 October 1905?",
+      "as": "১৬ অক্টোবৰ ১৯০৫ত ফেডাৰেল হলৰ ভিত্তিপ্ৰস্তৰ কোনে স্থাপন কৰিছিল?",
+      "options": [
+        {
+          "en": "Ananda Mohan Bose",
+          "as": "আনন্দ মোহন বসু"
+        },
+        {
+          "en": "Bipin Chandra Pal",
+          "as": "বিপিন চন্দ্ৰ পাল"
+        },
+        {
+          "en": "Bal Gangadhar Tilak",
+          "as": "বাল গঙ্গাধৰ তিলক"
+        },
+        {
+          "en": "Khan Abdul Gaffar Khan",
+          "as": "খান আব্দুল গফ্ফাৰ খান"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In the beginning, the Swadeshi Movement was mainly confined to—",
+      "as": "আৰম্ভণিতে স্বদেশী আন্দোলন প্ৰধানকৈ কিহত সীমাবদ্ধ আছিল?",
+      "options": [
+        {
+          "en": "Boycott of foreign goods and use of indigenous goods",
+          "as": "বিদেশী বস্তু বর্জন আৰু দেশীয় বস্তু ব্যৱহাৰ"
+        },
+        {
+          "en": "Armed revolt only",
+          "as": "কেৱল সশস্ত্ৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Formation of ministries",
+          "as": "মন্ত্ৰিসভা গঠন"
+        },
+        {
+          "en": "Creation of Pakistan",
+          "as": "পাকিস্তান সৃষ্টি"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

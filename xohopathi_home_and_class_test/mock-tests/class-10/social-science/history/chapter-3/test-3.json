@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Anti-British Rising and Peasant Revolts in Assam",
+    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ-বিৰোধী উত্থান আৰু কৃষক বিদ্ৰোহ"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Raij Mels were—",
+      "as": "ৰাইজ মেলসমূহ আছিল—",
+      "options": [
+        {
+          "en": "People's assemblies of several villages",
+          "as": "কেইবাখনো গাঁৱৰ জনসভা"
+        },
+        {
+          "en": "British courts",
+          "as": "ব্ৰিটিছ আদালত"
+        },
+        {
+          "en": "Military camps",
+          "as": "সেনা শিবিৰ"
+        },
+        {
+          "en": "Religious temples only",
+          "as": "কেৱল ধৰ্মীয় মন্দিৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Phulaguri Dhawa took place in—",
+      "as": "ফুলগুৰি ধাৱা কোন চনত সংঘটিত হৈছিল?",
+      "options": [
+        {
+          "en": "1861",
+          "as": "১৮৬১"
+        },
+        {
+          "en": "1857",
+          "as": "১৮৫৭"
+        },
+        {
+          "en": "1893",
+          "as": "১৮৯৩"
+        },
+        {
+          "en": "1891",
+          "as": "১৮৯১"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which community was especially affected by the ban on poppy cultivation at Phulaguri?",
+      "as": "ফুলগুৰিত পপি খেতিৰ নিষেধাজ্ঞাৰ ফলত কোন জনগোষ্ঠী বিশেষভাৱে প্ৰভাৱিত হৈছিল?",
+      "options": [
+        {
+          "en": "Tiwa/Lalung community",
+          "as": "তিৱা/লালুং জনগোষ্ঠী"
+        },
+        {
+          "en": "Ahom nobles only",
+          "as": "কেৱল আহোম অভিজাত"
+        },
+        {
+          "en": "Mizo community",
+          "as": "মিজো জনগোষ্ঠী"
+        },
+        {
+          "en": "Naga community",
+          "as": "নগা জনগোষ্ঠী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When did more than 1500 peasants gather at Phulaguri against the ban on poppy cultivation?",
+      "as": "পপি খেতিৰ নিষেধাজ্ঞাৰ বিৰুদ্ধে ফুলগুৰিত ১৫০০ৰো অধিক কৃষক কেতিয়া গোট খাইছিল?",
+      "options": [
+        {
+          "en": "17 September 1861",
+          "as": "১৭ ছেপ্টেম্বৰ ১৮৬১"
+        },
+        {
+          "en": "15 October 1861",
+          "as": "১৫ অক্টোবৰ ১৮৬১"
+        },
+        {
+          "en": "24 December 1893",
+          "as": "২৪ ডিচেম্বৰ ১৮৯৩"
+        },
+        {
+          "en": "21 January 1894",
+          "as": "২১ জানুৱাৰী ১৮৯৪"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was the Deputy Commissioner of Nowgong during Phulaguri Dhawa?",
+      "as": "ফুলগুৰি ধাৱাৰ সময়ত নগাঁৱৰ ডেপুটি কমিশনাৰ কোন আছিল?",
+      "options": [
+        {
+          "en": "Herbert Sconce",
+          "as": "হাৰ্বাৰ্ট স্কনছ"
+        },
+        {
+          "en": "Lieutenant Singer",
+          "as": "লেফটেনেণ্ট ছিংগাৰ"
+        },
+        {
+          "en": "J. D. Anderson",
+          "as": "জে. ডি. এণ্ডাৰচন"
+        },
+        {
+          "en": "McCabe",
+          "as": "মেককেব"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was killed during Phulaguri Dhawa?",
+      "as": "ফুলগুৰি ধাৱাত কোন নিহত হৈছিল?",
+      "options": [
+        {
+          "en": "Lieutenant Singer",
+          "as": "লেফটেনেণ্ট ছিংগাৰ"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Piyoli Barua",
+          "as": "পিয়লি বৰুৱা"
+        },
+        {
+          "en": "J. W. Quinton",
+          "as": "জে. ডব্লিউ. কুইণ্টন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which river was Singer's body thrown into?",
+      "as": "ছিংগাৰৰ মৃতদেহ কোন নদীত পেলোৱা হৈছিল?",
+      "options": [
+        {
+          "en": "Kollong River",
+          "as": "কলং নদী"
+        },
+        {
+          "en": "Brahmaputra River",
+          "as": "ব্ৰহ্মপুত্ৰ নদী"
+        },
+        {
+          "en": "Barak River",
+          "as": "বৰাক নদী"
+        },
+        {
+          "en": "Dhansiri River",
+          "as": "ধনশিৰী নদী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which of the following was an importance of Phulaguri Dhawa?",
+      "as": "ফুলগুৰি ধাৱাৰ এটা গুৰুত্ব কি আছিল?",
+      "options": [
+        {
+          "en": "It inspired later peasant revolts in Assam",
+          "as": "ই অসমৰ পৰৱৰ্তী কৃষক বিদ্ৰোহসমূহক অনুপ্ৰাণিত কৰিছিল"
+        },
+        {
+          "en": "It created the Muslim League",
+          "as": "ই মুছলিম লীগ গঠন কৰিছিল"
+        },
+        {
+          "en": "It ended the British Empire",
+          "as": "ই ব্ৰিটিছ সাম্ৰাজ্য শেষ কৰিছিল"
+        },
+        {
+          "en": "It began the Dandi March",
+          "as": "ই ডাণ্ডী যাত্ৰা আৰম্ভ কৰিছিল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In 1892, who increased land revenue by 100 percent in Assam?",
+      "as": "১৮৯২ চনত অসমত ভূমি ৰাজহ ১০০ শতাংশ বৃদ্ধি কোনে কৰিছিল?",
+      "options": [
+        {
+          "en": "Sir William Ward",
+          "as": "ছাৰ উইলিয়াম ৱাৰ্ড"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        },
+        {
+          "en": "Lord Minto",
+          "as": "লৰ্ড মিণ্টো"
+        },
+        {
+          "en": "J. W. Quinton",
+          "as": "জে. ডব্লিউ. কুইণ্টন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The series of peasant revolts beginning in December 1893 were known as—",
+      "as": "১৮৯৩ চনৰ ডিচেম্বৰ পৰা আৰম্ভ হোৱা কৃষক বিদ্ৰোহৰ শৃংখলাক কি নামেৰে জনা যায়?",
+      "options": [
+        {
+          "en": "Assam Riots",
+          "as": "অসম ৰায়টছ"
+        },
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        },
+        {
+          "en": "Swadeshi Movement",
+          "as": "স্বদেশী আন্দোলন"
+        },
+        {
+          "en": "Khilafat Movement",
+          "as": "খিলাফত আন্দোলন"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

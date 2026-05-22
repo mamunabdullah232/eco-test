@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "?????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Geography of Assam",
+    "as": "অধ্যায় 4 - অসমৰ ভূগোল"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Assam is known as the gateway of—",
+      "as": "অসমক কিহৰ দুৱাৰ বুলি জনা যায়?",
+      "options": [
+        {
+          "en": "North-East India",
+          "as": "উত্তৰ-পূব ভাৰত"
+        },
+        {
+          "en": "South India",
+          "as": "দক্ষিণ ভাৰত"
+        },
+        {
+          "en": "Western India",
+          "as": "পশ্চিম ভাৰত"
+        },
+        {
+          "en": "Central India",
+          "as": "মধ্য ভাৰত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Transport development in Assam directly helps the economic development of—",
+      "as": "অসমত পৰিবহণৰ উন্নয়নে কিহৰ অৰ্থনৈতিক উন্নয়নত সহায় কৰে?",
+      "options": [
+        {
+          "en": "The North-East",
+          "as": "উত্তৰ-পূব"
+        },
+        {
+          "en": "Only Europe",
+          "as": "কেৱল ইউৰোপ"
+        },
+        {
+          "en": "Only Africa",
+          "as": "কেৱল আফ্ৰিকা"
+        },
+        {
+          "en": "Only South America",
+          "as": "কেৱল দক্ষিণ আমেৰিকা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The transport systems of Assam include road, railway, water and—",
+      "as": "অসমৰ পৰিবহণ ব্যৱস্থাত পথ, ৰেল, জল আৰু কোন পৰিবহণ অন্তর্ভুক্ত?",
+      "options": [
+        {
+          "en": "Air transport",
+          "as": "বায়ু পৰিবহণ"
+        },
+        {
+          "en": "Space transport",
+          "as": "মহাকাশ পৰিবহণ"
+        },
+        {
+          "en": "Desert transport",
+          "as": "মৰু পৰিবহণ"
+        },
+        {
+          "en": "Glacier transport",
+          "as": "হিমবাহ পৰিবহণ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which of the following is a type of road in Assam?",
+      "as": "তলৰ কোনটো অসমৰ পথৰ এটা প্ৰকাৰ?",
+      "options": [
+        {
+          "en": "National Highway",
+          "as": "ৰাষ্ট্ৰীয় ঘাইপথ"
+        },
+        {
+          "en": "Oceanic trench",
+          "as": "মহাসাগৰীয় খাত"
+        },
+        {
+          "en": "Continental shelf",
+          "as": "মহাদেশীয় তাক"
+        },
+        {
+          "en": "Glacier route",
+          "as": "হিমবাহ পথ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The railway transport system in Assam has influenced the—",
+      "as": "অসমৰ ৰেল পৰিবহণ ব্যৱস্থাই কিহত প্ৰভাৱ পেলাইছে?",
+      "options": [
+        {
+          "en": "Economy of the state",
+          "as": "ৰাজ্যৰ অৰ্থনীতি"
+        },
+        {
+          "en": "Rotation of the earth",
+          "as": "পৃথিৱীৰ ঘূৰণ"
+        },
+        {
+          "en": "Formation of oceans",
+          "as": "মহাসাগৰৰ সৃষ্টি"
+        },
+        {
+          "en": "Height of Himalayas",
+          "as": "হিমালয়ৰ উচ্চতা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Water transport in Assam is mainly related to—",
+      "as": "অসমত জলপৰিবহণ মুখ্যতঃ কিহৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Rivers and inland waterways",
+          "as": "নদী আৰু অন্তৰ্দেশীয় জলপথ"
+        },
+        {
+          "en": "Deserts",
+          "as": "মৰুভূমি"
+        },
+        {
+          "en": "Mountains only",
+          "as": "কেৱল পৰ্বত"
+        },
+        {
+          "en": "Polar ice",
+          "as": "মেৰু বৰফ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam’s main air transport gateway is associated with—",
+      "as": "অসমৰ মুখ্য বায়ুপৰিবহণ প্ৰৱেশদ্বাৰ কোন বিমানবন্দৰৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Lokapriya Gopinath Bordoloi International Airport",
+          "as": "লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তঃৰাষ্ট্ৰীয় বিমানবন্দৰ"
+        },
+        {
+          "en": "Digboi Refinery",
+          "as": "ডিগবৈ তেল শোধনাগাৰ"
+        },
+        {
+          "en": "Kaziranga only",
+          "as": "কেৱল কাজিৰঙা"
+        },
+        {
+          "en": "Brahmaputra Valley only",
+          "as": "কেৱল ব্ৰহ্মপুত্ৰ উপত্যকা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "For overall development of transport in Assam, there is need for proper coordination among—",
+      "as": "অসমত পৰিবহণৰ সামগ্ৰিক উন্নয়নৰ বাবে কিহৰ মাজত সঠিক সমন্বয়ৰ প্ৰয়োজন?",
+      "options": [
+        {
+          "en": "Road, rail, water and air transport",
+          "as": "পথ, ৰেল, জল আৰু বায়ু পৰিবহণ"
+        },
+        {
+          "en": "Only roads and forests",
+          "as": "কেৱল পথ আৰু বনাঞ্চল"
+        },
+        {
+          "en": "Only rivers and deserts",
+          "as": "কেৱল নদী আৰু মৰুভূমি"
+        },
+        {
+          "en": "Only mountains and plateaus",
+          "as": "কেৱল পৰ্বত আৰু মালভূমি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Resources of Assam are mainly grouped into natural, man-made and—",
+      "as": "অসমৰ সম্পদসমূহ মুখ্যতঃ প্ৰাকৃতিক, মানৱসৃষ্ট আৰু কোন সম্পদত ভাগ কৰা হয়?",
+      "options": [
+        {
+          "en": "Human resources",
+          "as": "মানৱ সম্পদ"
+        },
+        {
+          "en": "Desert resources",
+          "as": "মৰু সম্পদ"
+        },
+        {
+          "en": "Oceanic trenches",
+          "as": "মহাসাগৰীয় খাত"
+        },
+        {
+          "en": "Volcanic gases",
+          "as": "আগ্নেয় গেছ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam’s soils are fertile and suitable mainly for rice and—",
+      "as": "অসমৰ মাটি উৰ্বৰ আৰু মুখ্যতঃ ধান আৰু কিহৰ খেতিৰ বাবে উপযুক্ত?",
+      "options": [
+        {
+          "en": "Tea cultivation",
+          "as": "চাহ খেতি"
+        },
+        {
+          "en": "Wheat only",
+          "as": "কেৱল ঘেঁহু"
+        },
+        {
+          "en": "Olive cultivation",
+          "as": "জলফাই খেতি"
+        },
+        {
+          "en": "Date palm cultivation",
+          "as": "খেজুৰ খেতি"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

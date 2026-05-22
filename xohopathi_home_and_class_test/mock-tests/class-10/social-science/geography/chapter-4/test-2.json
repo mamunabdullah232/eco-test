@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "?????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Geography of Assam",
+    "as": "অধ্যায় 4 - অসমৰ ভূগোল"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Population is described as a—",
+      "as": "জনসংখ্যাক কেনেকুৱা সত্তা হিচাপে বর্ণনা কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Dynamic entity",
+          "as": "গতিশীল সত্তা"
+        },
+        {
+          "en": "Static entity",
+          "as": "স্থিতিশীল সত্তা"
+        },
+        {
+          "en": "Non-living resource only",
+          "as": "কেৱল অজীৱ সম্পদ"
+        },
+        {
+          "en": "Climate element",
+          "as": "জলবায়ুগত উপাদান"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Population growth in Assam depends on birth rate, death rate and—",
+      "as": "অসমৰ জনসংখ্যা বৃদ্ধি জন্মহাৰ, মৃত্যুহাৰ আৰু কিহৰ ওপৰত নিৰ্ভৰ কৰে?",
+      "options": [
+        {
+          "en": "Migration",
+          "as": "প্ৰব্ৰজন"
+        },
+        {
+          "en": "Only rainfall",
+          "as": "কেৱল বৰষুণ"
+        },
+        {
+          "en": "Only soil type",
+          "as": "কেৱল মাটিৰ প্ৰকাৰ"
+        },
+        {
+          "en": "Only mountain height",
+          "as": "কেৱল পৰ্বতৰ উচ্চতা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which factor has a very significant impact on Assam’s population growth?",
+      "as": "অসমৰ জনসংখ্যা বৃদ্ধিত কোন কাৰকে অতি গুৰুত্বপূর্ণ প্ৰভাৱ পেলায়?",
+      "options": [
+        {
+          "en": "Migration",
+          "as": "প্ৰব্ৰজন"
+        },
+        {
+          "en": "Desertification",
+          "as": "মৰুকৰণ"
+        },
+        {
+          "en": "Ocean currents",
+          "as": "মহাসাগৰীয় সোঁত"
+        },
+        {
+          "en": "Volcanic eruption",
+          "as": "আগ্নেয়গিৰিৰ উদ্গীৰণ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam’s population increased by more than two times during the four decades from—",
+      "as": "অসমৰ জনসংখ্যা ১৯০১ৰ পৰা ১৯৪১লৈ চাৰি দশকত কিমানতকৈ অধিক বৃদ্ধি পাইছিল?",
+      "options": [
+        {
+          "en": "1901 to 1941",
+          "as": "১৯০১ৰ পৰা ১৯৪১"
+        },
+        {
+          "en": "2001 to 2011",
+          "as": "২০০১ৰ পৰা ২০১১"
+        },
+        {
+          "en": "1800 to 1840",
+          "as": "১৮০০ৰ পৰা ১৮৪০"
+        },
+        {
+          "en": "2011 to 2021",
+          "as": "২০১১ৰ পৰা ২০২১"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "During the post-Independence period, Assam’s population increased rapidly from—",
+      "as": "স্বাধীনতাৰ পাছৰ সময়ত অসমৰ জনসংখ্যা কেতিয়াৰ পৰা কেতিয়ালৈ দ্ৰুতভাৱে বৃদ্ধি পাইছিল?",
+      "options": [
+        {
+          "en": "1951 to 1971",
+          "as": "১৯৫১ৰ পৰা ১৯৭১"
+        },
+        {
+          "en": "1901 to 1911",
+          "as": "১৯০১ৰ পৰা ১৯১১"
+        },
+        {
+          "en": "1981 to 2011",
+          "as": "১৯৮১ৰ পৰা ২০১১"
+        },
+        {
+          "en": "2001 to 2011",
+          "as": "২০০১ৰ পৰা ২০১১"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In the Brahmaputra Valley, population density generally increases from—",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাত জনঘনত্ব সাধাৰণতে কোন দিশে বৃদ্ধি পায়?",
+      "options": [
+        {
+          "en": "Upper to middle and then to lower part",
+          "as": "উজনিৰ পৰা মধ্যভাগলৈ আৰু তাৰ পিছত নামনি অংশলৈ"
+        },
+        {
+          "en": "Lower to middle and then to upper part",
+          "as": "নামনিৰ পৰা মধ্যভাগলৈ আৰু তাৰ পিছত উজনি অংশলৈ"
+        },
+        {
+          "en": "Only hills to deserts",
+          "as": "কেৱল পাহাৰৰ পৰা মৰুভূমিলৈ"
+        },
+        {
+          "en": "Only towns to forests",
+          "as": "কেৱল চহৰৰ পৰা বনাঞ্চললৈ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The hill zone of Assam includes—",
+      "as": "অসমৰ পাহাৰীয়া অঞ্চলত কোন কোন জিলা অন্তর্ভুক্ত?",
+      "options": [
+        {
+          "en": "Karbi Anglong and Dima Hasao",
+          "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও"
+        },
+        {
+          "en": "Dhubri and Barpeta",
+          "as": "ধুবুৰী আৰু বৰপেটা"
+        },
+        {
+          "en": "Cachar and Hailakandi",
+          "as": "কাছাৰ আৰু হাইলাকান্দি"
+        },
+        {
+          "en": "Nagaon and Morigaon",
+          "as": "নগাঁও আৰু মৰিগাঁও"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "According to 2011 Census, the most densely populated district of Assam was—",
+      "as": "২০১১ চনৰ জনগণনা অনুসৰি, অসমৰ সৰ্বাধিক জনঘনত্ব থকা জিলা কোনটো?",
+      "options": [
+        {
+          "en": "Kamrup (Metro)",
+          "as": "কামৰূপ (মেট্ৰো)"
+        },
+        {
+          "en": "Dima Hasao",
+          "as": "ডিমা হাছাও"
+        },
+        {
+          "en": "Karbi Anglong",
+          "as": "কাৰ্বি আংলং"
+        },
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "According to 2011 Census, the most sparsely populated district of Assam was—",
+      "as": "২০১১ চনৰ জনগণনা অনুসৰি, অসমৰ সৰ্বনিম্ন জনঘনত্ব থকা জিলা কোনটো?",
+      "options": [
+        {
+          "en": "Dima Hasao",
+          "as": "ডিমা হাছাও"
+        },
+        {
+          "en": "Kamrup (Metro)",
+          "as": "কামৰূপ (মেট্ৰো)"
+        },
+        {
+          "en": "Dhubri",
+          "as": "ধুবুৰী"
+        },
+        {
+          "en": "Nagaon",
+          "as": "নগাঁও"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The ethnic and linguistic diversity of Assam is mainly the result of—",
+      "as": "অসমৰ জাতিগত আৰু ভাষাগত বৈচিত্ৰ্যৰ মুখ্য কাৰণ কি?",
+      "options": [
+        {
+          "en": "Migration of different ethnic groups",
+          "as": "বিভিন্ন জনগোষ্ঠীৰ প্ৰব্ৰজন"
+        },
+        {
+          "en": "Absence of population",
+          "as": "জনসংখ্যাৰ অনুপস্থিতি"
+        },
+        {
+          "en": "Only industrial growth",
+          "as": "কেৱল ঔদ্যোগিক বৃদ্ধি"
+        },
+        {
+          "en": "Only desertification",
+          "as": "কেৱল মৰুকৰণ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

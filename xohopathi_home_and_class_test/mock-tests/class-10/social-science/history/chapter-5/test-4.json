@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 5 - Cultural Heritage of India and North East Region",
+    "as": "অধ্যায় ৫ - ভাৰত আৰু উত্তৰ-পূব অঞ্চলৰ সাংস্কৃতিক ঐতিহ্য"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The word Mizo means—",
+      "as": "‘মিজো’ শব্দৰ অৰ্থ হৈছে—",
+      "options": [
+        {
+          "en": "Inhabitants of the hills",
+          "as": "পাহাৰৰ বাসিন্দা"
+        },
+        {
+          "en": "River people",
+          "as": "নদীৰ মানুহ"
+        },
+        {
+          "en": "Forest traders",
+          "as": "বন ব্যৱসায়ী"
+        },
+        {
+          "en": "Royal people",
+          "as": "ৰাজকীয় লোক"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which North-Eastern state has a matriarchal society according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি কোন উত্তৰ-পূবৰ ৰাজ্যত মাতৃকেন্দ্ৰিক সমাজ আছে?",
+      "options": [
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Manipur",
+          "as": "মণিপুৰ"
+        },
+        {
+          "en": "Tripura",
+          "as": "ত্ৰিপুৰা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The ancient names of Assam mentioned in old writings are—",
+      "as": "প্ৰাচীন গ্ৰন্থত অসমৰ পুৰণি নামসমূহ কি?",
+      "options": [
+        {
+          "en": "Pragjyotishpur and Kamrup",
+          "as": "প্ৰাগজ্যোতিষপুৰ আৰু কামৰূপ"
+        },
+        {
+          "en": "Harappa and Mohenjo-daro",
+          "as": "হৰপ্পা আৰু মহেঞ্জোদাৰো"
+        },
+        {
+          "en": "Jowai and Maibang",
+          "as": "জোৱাই আৰু মাইবং"
+        },
+        {
+          "en": "Dhaka and Rajshahi",
+          "as": "ঢাকা আৰু ৰাজশাহী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Ahoms ruled Assam from which century?",
+      "as": "আহোমসকলে অসমত কোন শতাব্দীৰ পৰা শাসন কৰিছিল?",
+      "options": [
+        {
+          "en": "13th century",
+          "as": "১৩শ শতাব্দী"
+        },
+        {
+          "en": "4th century",
+          "as": "৪র্থ শতাব্দী"
+        },
+        {
+          "en": "10th century",
+          "as": "১০ম শতাব্দী"
+        },
+        {
+          "en": "19th century",
+          "as": "১৯শ শতাব্দী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "According to some experts, the name Assam may have come from words used by—",
+      "as": "কিছু বিশেষজ্ঞৰ মতে ‘অসম’ নামটো কোনসকলৰ ব্যৱহৃত শব্দৰ পৰা উদ্ভৱ হ’ব পাৰে?",
+      "options": [
+        {
+          "en": "Ahom and Bodo people",
+          "as": "আহোম আৰু বড়ো লোক"
+        },
+        {
+          "en": "Greek and Roman people",
+          "as": "গ্ৰীক আৰু ৰোমান লোক"
+        },
+        {
+          "en": "Mughal and British people",
+          "as": "মোগল আৰু ব্ৰিটিছ লোক"
+        },
+        {
+          "en": "Portuguese and Dutch people",
+          "as": "পৰ্তুগীজ আৰু ডাচ লোক"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The first Assamese journal was—",
+      "as": "প্ৰথম অসমীয়া আলোচনী আছিল—",
+      "options": [
+        {
+          "en": "Arunodoi",
+          "as": "অৰুণোদই"
+        },
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        },
+        {
+          "en": "Milan",
+          "as": "মিলন"
+        },
+        {
+          "en": "Sanjibani",
+          "as": "সঞ্জীৱনী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Charyapada belongs mainly to which period of Assamese literature?",
+      "as": "চৰ্যাপদ প্ৰধানকৈ অসমীয়া সাহিত্যৰ কোন সময়ৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "10th to 14th century",
+          "as": "১০মৰ পৰা ১৪শ শতাব্দী"
+        },
+        {
+          "en": "17th century only",
+          "as": "কেৱল ১৭শ শতাব্দী"
+        },
+        {
+          "en": "19th century only",
+          "as": "কেৱল ১৯শ শতাব্দী"
+        },
+        {
+          "en": "20th century only",
+          "as": "কেৱল ২০শ শতাব্দী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who translated the Ramayana into Assamese as Saptakanda Ramayana?",
+      "as": "ৰামায়ণক অসমীয়ালৈ ‘সপ্তকাণ্ড ৰামায়ণ’ নামেৰে কোনে অনুবাদ কৰিছিল?",
+      "options": [
+        {
+          "en": "Madhab Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Madhabdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Madhab Kandali was patronized by—",
+      "as": "মাধৱ কন্দলীক কোনে পৃষ্ঠপোষকতা কৰিছিল?",
+      "options": [
+        {
+          "en": "Barahi King Mahamanikya",
+          "as": "বৰাহী ৰজা মহামাণিক্য"
+        },
+        {
+          "en": "Ahom King Rudra Singha",
+          "as": "আহোম ৰজা ৰুদ্ৰ সিংহ"
+        },
+        {
+          "en": "Koch King Naranarayan",
+          "as": "কোচ ৰজা নৰনাৰায়ণ"
+        },
+        {
+          "en": "British Governor",
+          "as": "ব্ৰিটিছ গৱৰ্ণৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which movement strongly influenced Assamese literature in the 15th century?",
+      "as": "১৫শ শতাব্দীত অসমীয়া সাহিত্যক কোন আন্দোলনে গভীৰভাৱে প্ৰভাৱিত কৰিছিল?",
+      "options": [
+        {
+          "en": "Vaishnavite movement of Sankardeva and Madhabdeva",
+          "as": "শংকৰদেৱ-মাধৱদেৱৰ বৈষ্ণৱ আন্দোলন"
+        },
+        {
+          "en": "Khilafat movement",
+          "as": "খিলাফত আন্দোলন"
+        },
+        {
+          "en": "Swadeshi movement",
+          "as": "স্বদেশী আন্দোলন"
+        },
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

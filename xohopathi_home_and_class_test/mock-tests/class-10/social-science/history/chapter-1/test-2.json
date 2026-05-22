@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
+    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "J. Bamfylde Fuller was the Chief Commissioner of—",
+      "as": "জে. বামফাইল্ড ফুলাৰ ক’ৰ চিফ কমিশনাৰ আছিল?",
+      "options": [
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Bengal",
+          "as": "বংগ"
+        },
+        {
+          "en": "Punjab",
+          "as": "পঞ্জাব"
+        },
+        {
+          "en": "Bombay",
+          "as": "বোম্বাই"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which document was known as the 'Risley Papers'?",
+      "as": "কোন নথি ‘ৰিজলি পেপাৰ্ছ’ নামেৰে জনা গৈছিল?",
+      "options": [
+        {
+          "en": "The official declaration of Bengal partition proposal",
+          "as": "বংগ বিভাজনৰ প্ৰস্তাৱৰ চৰকাৰী ঘোষণা"
+        },
+        {
+          "en": "The Poona Pact",
+          "as": "পুনা চুক্তি"
+        },
+        {
+          "en": "The Indian Independence Act",
+          "as": "ভাৰত স্বাধীনতা আইন"
+        },
+        {
+          "en": "The Queen's Proclamation",
+          "as": "ৰাণীৰ ঘোষণা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "On which date was the partition proposal officially declared by Herbert Risley?",
+      "as": "হাৰ্বাৰ্ট ৰিজলিয়ে বিভাজনৰ প্ৰস্তাৱ কোন তাৰিখে চৰকাৰীভাৱে ঘোষণা কৰিছিল?",
+      "options": [
+        {
+          "en": "6 December 1903",
+          "as": "৬ ডিচেম্বৰ ১৯০৩"
+        },
+        {
+          "en": "7 August 1905",
+          "as": "৭ আগষ্ট ১৯০৫"
+        },
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which three territories were to be annexed to Assam under the partition plan?",
+      "as": "বিভাজন পৰিকল্পনাৰ অধীনত কোন তিনিখন অঞ্চল অসমত সংযুক্ত কৰিব লাগিছিল?",
+      "options": [
+        {
+          "en": "Dhaka, Chattagram and Rajshahi",
+          "as": "ঢাকা, চাটগাঁ আৰু ৰাজশাহী"
+        },
+        {
+          "en": "Punjab, Sind and Baluchistan",
+          "as": "পঞ্জাব, সিন্ধ আৰু বেলুচিস্তান"
+        },
+        {
+          "en": "Madras, Bombay and Bihar",
+          "as": "মাদ্ৰাজ, বোম্বাই আৰু বিহাৰ"
+        },
+        {
+          "en": "Delhi, Agra and Lucknow",
+          "as": "দিল্লী, আগ্ৰা আৰু লক্ষ্ণৌ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What was to be the capital of Eastern Bengal and Assam?",
+      "as": "পূব বংগ আৰু অসমৰ ৰাজধানী কি হ’ব লাগিছিল?",
+      "options": [
+        {
+          "en": "Dhaka",
+          "as": "ঢাকা"
+        },
+        {
+          "en": "Shillong",
+          "as": "শ্বিলং"
+        },
+        {
+          "en": "Calcutta",
+          "as": "কলকাতা"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "On which date was the Partition of Bengal implemented?",
+      "as": "বংগ বিভাজন কোন তাৰিখে কার্যকৰী কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "19 July 1905",
+          "as": "১৯ জুলাই ১৯০৫"
+        },
+        {
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        },
+        {
+          "en": "5 March 1931",
+          "as": "৫ মাৰ্চ ১৯৩১"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "After partition, Calcutta was to remain the capital of which province?",
+      "as": "বিভাজনৰ পিছত কলকাতা কোন প্ৰদেশৰ ৰাজধানী হিচাপে থাকিব লাগিছিল?",
+      "options": [
+        {
+          "en": "New Bengal province",
+          "as": "নতুন বংগ প্ৰদেশ"
+        },
+        {
+          "en": "Eastern Bengal and Assam",
+          "as": "পূব বংগ আৰু অসম"
+        },
+        {
+          "en": "Punjab",
+          "as": "পঞ্জাব"
+        },
+        {
+          "en": "Assam only",
+          "as": "কেৱল অসম"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who wrote that 'United Bengal is a big force, the partition will destroy this big unity'?",
+      "as": "‘ঐক্যবদ্ধ বংগ এক বৃহৎ শক্তি, বিভাজনে এই ঐক্য ধ্বংস কৰিব’ বুলি কোনে লিখিছিল?",
+      "options": [
+        {
+          "en": "Herbert Risley",
+          "as": "হাৰ্বাৰ্ট ৰিজলি"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Surendranath Banerjee",
+          "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+        },
+        {
+          "en": "Dadabhai Naoroji",
+          "as": "দাদাভাই নওৰোজি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which leader was NOT among those who opposed the Partition of Bengal in the textbook list?",
+      "as": "তলৰ কোনজন পাঠ্যপুথিৰ তালিকাত বংগ বিভাজনৰ বিৰোধী নেতা হিচাপে উল্লেখ নাই?",
+      "options": [
+        {
+          "en": "Winston Churchill",
+          "as": "উইনষ্টন চাৰ্চিল"
+        },
+        {
+          "en": "Surendranath Banerjee",
+          "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+        },
+        {
+          "en": "Bipin Chandra Pal",
+          "as": "বিপিন চন্দ্ৰ পাল"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How many Indians signed the protest paper against the Partition of Bengal?",
+      "as": "বংগ বিভাজনৰ বিৰোধী প্ৰতিবাদপত্ৰত কিমান ভাৰতীয়ে স্বাক্ষৰ কৰিছিল?",
+      "options": [
+        {
+          "en": "70,000",
+          "as": "৭০,০০০"
+        },
+        {
+          "en": "7,000",
+          "as": "৭,০০০"
+        },
+        {
+          "en": "35,000",
+          "as": "৩৫,০০০"
+        },
+        {
+          "en": "1,00,000",
+          "as": "১,০০,০০০"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

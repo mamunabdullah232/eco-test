@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 5 - Cultural Heritage of India and North East Region",
+    "as": "অধ্যায় ৫ - ভাৰত আৰু উত্তৰ-পূব অঞ্চলৰ সাংস্কৃতিক ঐতিহ্য"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who wrote Rajtarangini?",
+      "as": "ৰাজতৰঙ্গিণী কোনে লিখিছিল?",
+      "options": [
+        {
+          "en": "Kalhan",
+          "as": "কলহন"
+        },
+        {
+          "en": "Kautilya",
+          "as": "কৌটিল্য"
+        },
+        {
+          "en": "Kalidasa",
+          "as": "কালিদাস"
+        },
+        {
+          "en": "Madhab Kandali",
+          "as": "মাধৱ কন্দলী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The expression 'Satyameva Jayate' is taken from—",
+      "as": "‘সত্যমেৱ জয়তে’ বাক্যাংশটো কোন গ্ৰন্থৰ পৰা লোৱা হৈছে?",
+      "options": [
+        {
+          "en": "Mundaka Upanishad",
+          "as": "মুণ্ডক উপনিষদ"
+        },
+        {
+          "en": "Mahabharata",
+          "as": "মহাভাৰত"
+        },
+        {
+          "en": "Ramayana",
+          "as": "ৰামায়ণ"
+        },
+        {
+          "en": "Mahopanishad",
+          "as": "মহোপনিষদ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The expression 'Ahimsa Paramo Dharma' is associated with—",
+      "as": "‘অহিংসা পৰম ধৰ্ম’ কোন গ্ৰন্থৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Mahabharata",
+          "as": "মহাভাৰত"
+        },
+        {
+          "en": "Ramayana",
+          "as": "ৰামায়ণ"
+        },
+        {
+          "en": "Arthashastra",
+          "as": "অৰ্থশাস্ত্ৰ"
+        },
+        {
+          "en": "Hemkosh",
+          "as": "হেমকোষ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In ancient Indian temple architecture, Nagara style is mainly associated with—",
+      "as": "প্ৰাচীন ভাৰতীয় মন্দিৰ স্থাপত্যত নাগৰ শৈলী প্ৰধানকৈ ক’ৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "North India",
+          "as": "উত্তৰ ভাৰত"
+        },
+        {
+          "en": "South India",
+          "as": "দক্ষিণ ভাৰত"
+        },
+        {
+          "en": "Only Assam",
+          "as": "কেৱল অসম"
+        },
+        {
+          "en": "Only Manipur",
+          "as": "কেৱল মণিপুৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Dravida style in temple architecture is mainly associated with—",
+      "as": "মন্দিৰ স্থাপত্যত দ্ৰাবিড় শৈলী প্ৰধানকৈ ক’ৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "South India",
+          "as": "দক্ষিণ ভাৰত"
+        },
+        {
+          "en": "North India",
+          "as": "উত্তৰ ভাৰত"
+        },
+        {
+          "en": "Punjab only",
+          "as": "কেৱল পঞ্জাব"
+        },
+        {
+          "en": "Bengal only",
+          "as": "কেৱল বংগ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Vesara style is associated with the region between—",
+      "as": "বেছাৰা শৈলী কোন অঞ্চলৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Vindhya Mountain and Krishna River",
+          "as": "বিন্দ্য পৰ্বত আৰু কৃষ্ণা নদীৰ মাজৰ অঞ্চল"
+        },
+        {
+          "en": "Brahmaputra and Barak valleys",
+          "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকা"
+        },
+        {
+          "en": "Sindhu and Ganga only",
+          "as": "কেৱল সিন্ধু আৰু গঙ্গা"
+        },
+        {
+          "en": "Himalaya and Tibet only",
+          "as": "কেৱল হিমালয় আৰু তিব্বত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which dance form is recognized as a classical dance by Sangeet Natak Akademi?",
+      "as": "সঙ্গীত নাটক একাডেমীয়ে কোন নৃত্যক শাস্ত্রীয় নৃত্য হিচাপে স্বীকৃতি দিছে?",
+      "options": [
+        {
+          "en": "Manipuri dance",
+          "as": "মণিপুৰী নৃত্য"
+        },
+        {
+          "en": "Bihu dance",
+          "as": "বিহু নৃত্য"
+        },
+        {
+          "en": "Bagurumba",
+          "as": "বাগুৰুম্বা"
+        },
+        {
+          "en": "Bhortal dance",
+          "as": "ভোৰতাল নৃত্য"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Hornbill Festival is associated with which state?",
+      "as": "হৰ্ণবিল উৎসৱ কোন ৰাজ্যৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Nagaland",
+          "as": "নাগালেণ্ড"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Mizoram",
+          "as": "মিজোৰাম"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Heraka movement was started by—",
+      "as": "হেৰাকা আন্দোলন কোনে আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "Rani Gaidalu",
+          "as": "ৰাণী গাইডালু"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Ajan Peer",
+          "as": "আজান পীৰ"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Chapchar Kut is a traditional festival of—",
+      "as": "চাপচাৰ কুট কোন ৰাজ্যৰ পৰম্পৰাগত উৎসৱ?",
+      "options": [
+        {
+          "en": "Mizoram",
+          "as": "মিজোৰাম"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Tripura",
+          "as": "ত্ৰিপুৰা"
+        },
+        {
+          "en": "Nagaland",
+          "as": "নাগালেণ্ড"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}
