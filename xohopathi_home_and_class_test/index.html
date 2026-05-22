@@ -1138,13 +1138,59 @@ function mockSetId(parts, test){
   return parts.map(slugify).join("__") + "__" + slugify(test);
 }
 
+function getNumberFromLabel(value){
+  const match = labelEn(value).match(/\d+/);
+  return match ? match[0] : "";
+}
+
+function isClass10History(parts){
+  return /^class-10__social-science__history__chapter-[1-5]-/.test(parts.map(slugify).join("__"));
+}
+
+function isClass10Geography(parts){
+  return /^class-10__social-science__geography__chapter-[1-4]-/.test(parts.map(slugify).join("__"));
+}
+
+function historyTestFile(parts, test){
+  return [
+    "mock-tests",
+    "class-10",
+    "social-science",
+    "history",
+    "chapter-" + getNumberFromLabel(parts[3]),
+    "test-" + getNumberFromLabel(test) + ".json"
+  ].join("/");
+}
+
+function geographyTestFile(parts, test){
+  return [
+    "mock-tests",
+    "class-10",
+    "social-science",
+    "geography",
+    "chapter-" + getNumberFromLabel(parts[3]),
+    "test-" + getNumberFromLabel(test) + ".json"
+  ].join("/");
+}
+
 function nestedTestLink(parts, test){
+  if(isClass10History(parts)){
+    return "mock-test.html?file=" + encodeURIComponent(historyTestFile(parts, test));
+  }
+  if(isClass10Geography(parts)){
+    return "mock-test.html?file=" + encodeURIComponent(geographyTestFile(parts, test));
+  }
   return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));
 }
 
 function isMockTestAvailable(parts, test){
-  return /^class-10__social-science__history__chapter-[1-5]-/.test(mockSetId(parts, test))
-    && ["Test 1","Test 2"].includes(labelEn(test));
+  if(isClass10History(parts)){
+    return /^Test [1-5]$/.test(labelEn(test));
+  }
+  if(isClass10Geography(parts)){
+    return /^Test [1-5]$/.test(labelEn(test));
+  }
+  return false;
 }
 
 function renderTestLinks(parts){
