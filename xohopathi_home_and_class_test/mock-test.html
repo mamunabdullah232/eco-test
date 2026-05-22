@@ -242,7 +242,7 @@ h1{
 <script src="mock-test-data.js"></script>
 <script>
 const params = new URLSearchParams(location.search);
-const testSet = window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")];
+let testSet = null;
 const content = document.getElementById("content");
 const timer = document.getElementById("timer");
 let selectedMedium = "en";
@@ -251,6 +251,41 @@ let started = false;
 let submitted = false;
 let remainingSeconds = 600;
 let timerHandle = null;
+
+function safeTestFilePath(filePath){
+  return /^mock-tests\/[a-z0-9\-\/]+\.json$/i.test(filePath || "");
+}
+
+function normalizeTestSet(raw){
+  if(!raw) return null;
+  return {
+    className: raw.className || { en:"Class 10", as:"শ্ৰেণী ১০" },
+    subject: raw.subject || { en:"Social Science", as:"সমাজ বিজ্ঞান" },
+    section: raw.section || { en:"Geography", as:"ভূগোল" },
+    chapter: raw.chapter || raw.title || { en:"Chapter", as:"অধ্যায়" },
+    test: raw.test || { en:"Test", as:"টেষ্ট" },
+    durationMinutes: raw.durationMinutes || 10,
+    correctMarks: raw.correctMarks ?? 1,
+    wrongMarks: raw.wrongMarks ?? -0.25,
+    questions: raw.questions || []
+  };
+}
+
+async function loadTestSet(){
+  const filePath = params.get("file");
+  if(filePath){
+    if(!safeTestFilePath(filePath)) return;
+    try{
+      const response = await fetch(filePath, { cache:"no-store" });
+      if(!response.ok) return;
+      testSet = normalizeTestSet(await response.json());
+    }catch(error){
+      console.error("Could not load test file:", error);
+    }
+    return;
+  }
+  testSet = window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")];
+}
 
 function text(value){
   if(!value) return "";
@@ -282,7 +317,7 @@ function setHeader(){
   document.title = text(testSet.test) + " | Xohopathi";
   document.getElementById("testTitle").textContent = `${text(testSet.chapter)} - ${text(testSet.test)}`;
   document.getElementById("testMeta").textContent =
-    `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | 10 Questions | +1 correct, -0.25 wrong | 10 minutes`;
+    `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | ${testSet.questions.length} Questions | +${testSet.correctMarks} correct, ${testSet.wrongMarks} wrong | ${testSet.durationMinutes} minutes`;
 }
 
 function formatTime(seconds){
@@ -311,9 +346,9 @@ function renderStart(){
   content.innerHTML = `
     <div class="start-card">
       <div class="rules">
-        <div class="rule"><strong>10 Questions</strong><span>১০টা প্ৰশ্ন</span></div>
-        <div class="rule"><strong>10 Minutes</strong><span>১০ মিনিট</span></div>
-        <div class="rule"><strong>+1 / -0.25</strong><span>শুদ্ধত +১, ভুলত -০.২৫</span></div>
+        <div class="rule"><strong>${testSet.questions.length} Questions</strong><span>১০টা প্ৰশ্ন</span></div>
+        <div class="rule"><strong>${testSet.durationMinutes} Minutes</strong><span>১০ মিনিট</span></div>
+        <div class="rule"><strong>+${testSet.correctMarks} / ${testSet.wrongMarks}</strong><span>শুদ্ধত +১, ভুলত -০.২৫</span></div>
       </div>
       <button class="btn" type="button" id="startBtn">Start Test / টেষ্ট আৰম্ভ কৰক</button>
     </div>
@@ -418,10 +453,12 @@ document.querySelectorAll("input[name='medium']").forEach(input => {
   });
 });
 
-setHeader();
-if(testSet){
-  renderStart();
-}
+loadTestSet().then(function(){
+  setHeader();
+  if(testSet){
+    renderStart();
+  }
+});
 </script>
 </body>
 </html>
