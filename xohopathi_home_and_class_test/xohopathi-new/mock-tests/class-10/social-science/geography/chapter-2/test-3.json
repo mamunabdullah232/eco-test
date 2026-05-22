@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "?????"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Environment and Environmental Problems",
+    "as": "অধ্যায় 2 - পৰিৱেশ আৰু পৰিৱেশীয় সমস্যা"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Environmental problems are geographically divided into—",
+      "as": "ভূগোলীয় দৃষ্টিভংগীৰে পৰিৱেশীয় সমস্যাক কোন তিনিটা ভাগত ভাগ কৰা হয়?",
+      "options": [
+        {
+          "en": "Local, regional and global problems",
+          "as": "স্থানীয়, আঞ্চলিক আৰু বিশ্বব্যাপী সমস্যা"
+        },
+        {
+          "en": "Rural and urban problems only",
+          "as": "কেৱল গ্ৰামাঞ্চলীয় আৰু চহৰীয়া সমস্যা"
+        },
+        {
+          "en": "Small and large problems only",
+          "as": "কেৱল সৰু আৰু ডাঙৰ সমস্যা"
+        },
+        {
+          "en": "Natural and artificial problems only",
+          "as": "কেৱল প্ৰাকৃতিক আৰু কৃত্ৰিম সমস্যা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which is an example of a local environmental problem?",
+      "as": "স্থানীয় পৰিৱেশীয় সমস্যাৰ এটা উদাহৰণ কোনটো?",
+      "options": [
+        {
+          "en": "Land pollution created by a small-scale industry",
+          "as": "সৰু উদ্যোগে সৃষ্টি কৰা ভূমি প্ৰদূষণ"
+        },
+        {
+          "en": "Global warming",
+          "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
+        },
+        {
+          "en": "Worldwide sea-level rise",
+          "as": "বিশ্বব্যাপী সমুদ্ৰপৃষ্ঠ বৃদ্ধি"
+        },
+        {
+          "en": "Climate change across the earth",
+          "as": "পৃথিৱীব্যাপী জলবায়ু পৰিৱৰ্তন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which is an example of a regional environmental problem?",
+      "as": "আঞ্চলিক পৰিৱেশীয় সমস্যাৰ এটা উদাহৰণ কোনটো?",
+      "options": [
+        {
+          "en": "Flood problem of the Brahmaputra Valley",
+          "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ বানপানীৰ সমস্যা"
+        },
+        {
+          "en": "Global warming",
+          "as": "গোলকীয় উষ্ণতা বৃদ্ধি"
+        },
+        {
+          "en": "Rise of world temperature",
+          "as": "বিশ্বৰ তাপমাত্রা বৃদ্ধি"
+        },
+        {
+          "en": "Ozone depletion across the world",
+          "as": "বিশ্বব্যাপী ওজোন স্তৰৰ ক্ষয়"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "A global environmental problem has—",
+      "as": "বিশ্বব্যাপী পৰিৱেশীয় সমস্যাৰ—",
+      "options": [
+        {
+          "en": "No geographical boundary",
+          "as": "কোনো ভূগোলীয় সীমা নাই"
+        },
+        {
+          "en": "Only village-level impact",
+          "as": "কেৱল গাঁও পৰ্যায়ৰ প্ৰভাৱ"
+        },
+        {
+          "en": "Only household impact",
+          "as": "কেৱল ঘৰুৱা প্ৰভাৱ"
+        },
+        {
+          "en": "No link with the atmosphere",
+          "as": "বায়ুমণ্ডলৰ সৈতে কোনো সম্পৰ্ক নাই"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The root cause of major environmental problems is—",
+      "as": "প্ৰধান পৰিৱেশীয় সমস্যাৰ মূল কাৰণ কি?",
+      "options": [
+        {
+          "en": "Overgrowing human activities",
+          "as": "অত্যধিক বৃদ্ধি পোৱা মানৱীয় কাৰ্যকলাপ"
+        },
+        {
+          "en": "Absence of sunlight",
+          "as": "সূৰ্যৰ পোহৰৰ অনুপস্থিতি"
+        },
+        {
+          "en": "Lack of mountains",
+          "as": "পৰ্বতৰ অভাৱ"
+        },
+        {
+          "en": "Low population everywhere",
+          "as": "সকলো ঠাইতে কম জনসংখ্যা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The process of contamination of the environment by harmful substances is called—",
+      "as": "ক্ষতিকাৰক পদার্থৰ দ্বাৰা পৰিৱেশ দূষিত হোৱা প্ৰক্ৰিয়াক কি বোলে?",
+      "options": [
+        {
+          "en": "Pollution",
+          "as": "প্ৰদূষণ"
+        },
+        {
+          "en": "Desertification",
+          "as": "মৰুকৰণ"
+        },
+        {
+          "en": "Conservation",
+          "as": "সংৰক্ষণ"
+        },
+        {
+          "en": "Photosynthesis",
+          "as": "প্ৰকাশ সংশ্লেষণ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Substances that harm the environment are called—",
+      "as": "পৰিৱেশৰ ক্ষতি কৰা পদার্থক কি বোলে?",
+      "options": [
+        {
+          "en": "Pollutants",
+          "as": "প্ৰদূষক"
+        },
+        {
+          "en": "Resources",
+          "as": "সম্পদ"
+        },
+        {
+          "en": "Fossils",
+          "as": "জীৱাশ্ম"
+        },
+        {
+          "en": "Continents",
+          "as": "মহাদেশ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which of the following is mentioned as an environmental pollutant?",
+      "as": "তলৰ কোনটো পৰিৱেশীয় প্ৰদূষক হিচাপে উল্লেখ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Sulphur dioxide",
+          "as": "ছালফাৰ-ডাই-অক্সাইড"
+        },
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Pure water",
+          "as": "বিশুদ্ধ পানী"
+        },
+        {
+          "en": "Clean soil",
+          "as": "স্বচ্ছ মাটি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Land becomes polluted when it comes into contact with—",
+      "as": "মাটি কিহৰ সংস্পৰ্শলৈ আহিলে প্ৰদূষিত হয়?",
+      "options": [
+        {
+          "en": "Chemicals and poisonous metals",
+          "as": "ৰাসায়নিক পদার্থ আৰু বিষাক্ত ধাতু"
+        },
+        {
+          "en": "Clean rainwater only",
+          "as": "কেৱল পৰিষ্কাৰ বৰষুণৰ পানী"
+        },
+        {
+          "en": "Fresh air only",
+          "as": "কেৱল সতেজ বায়ু"
+        },
+        {
+          "en": "Natural sunlight only",
+          "as": "কেৱল প্ৰাকৃতিক সূৰ্যৰ পোহৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which practice is mainly responsible for land pollution?",
+      "as": "ভূমি প্ৰদূষণৰ বাবে কোনটো অভ্যাস মুখ্যতঃ দায়ী?",
+      "options": [
+        {
+          "en": "Modern farming with chemical fertilizers and insecticides",
+          "as": "ৰাসায়নিক সাৰ আৰু কীটনাশকৰ সৈতে আধুনিক কৃষি"
+        },
+        {
+          "en": "Organic farming only",
+          "as": "কেৱল জৈৱিক কৃষি"
+        },
+        {
+          "en": "Tree plantation",
+          "as": "গছ ৰোপণ"
+        },
+        {
+          "en": "Soil conservation",
+          "as": "মাটি সংৰক্ষণ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

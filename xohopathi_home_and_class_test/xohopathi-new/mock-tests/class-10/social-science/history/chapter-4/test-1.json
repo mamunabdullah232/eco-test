@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Indian Freedom Movement and National Awakening in Assam",
+    "as": "অধ্যায় ৪ - ভাৰতীয় স্বাধীনতা আন্দোলন আৰু অসমত জাতীয় জাগৰণ"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "When was the Treaty of Yandaboo signed?",
+      "as": "ইয়াণ্ডাবু সন্ধি কেতিয়া স্বাক্ষৰিত হৈছিল?",
+      "options": [
+        {
+          "en": "24 February 1826",
+          "as": "২৪ ফেব্ৰুৱাৰী ১৮২৬"
+        },
+        {
+          "en": "10 May 1857",
+          "as": "১০ মে’ ১৮৫৭"
+        },
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "26 January 1948",
+          "as": "২৬ জানুৱাৰী ১৯৪৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Treaty of Yandaboo led to the annexation of Assam by—",
+      "as": "ইয়াণ্ডাবু সন্ধিৰ ফলত অসম কাৰ অধীনলৈ গৈছিল?",
+      "options": [
+        {
+          "en": "East India Company",
+          "as": "ইষ্ট ইণ্ডিয়া কোম্পানী"
+        },
+        {
+          "en": "Indian National Congress",
+          "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ"
+        },
+        {
+          "en": "Ahom Sabha",
+          "as": "আহোম সভা"
+        },
+        {
+          "en": "Assam Association",
+          "as": "অসম এছ’চিয়েচন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which period is known as Company Raj in Assam?",
+      "as": "অসমত কোন সময়ক কোম্পানী ৰাজ বুলি কোৱা হয়?",
+      "options": [
+        {
+          "en": "1826 to 1858",
+          "as": "১৮২৬ৰ পৰা ১৮৫৮"
+        },
+        {
+          "en": "1858 to 1905",
+          "as": "১৮৫৮ৰ পৰা ১৯০৫"
+        },
+        {
+          "en": "1905 to 1911",
+          "as": "১৯০৫ৰ পৰা ১৯১১"
+        },
+        {
+          "en": "1942 to 1947",
+          "as": "১৯৪২ৰ পৰা ১৯৪৭"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Bengali was introduced in Assam in place of Assamese in schools, offices and courts in—",
+      "as": "বিদ্যালয়, কাৰ্যালয় আৰু আদালতত অসমীয়াৰ স্থানত বঙলা ভাষা কোন চনত প্ৰৱৰ্তন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        },
+        {
+          "en": "1888",
+          "as": "১৮৮৮"
+        },
+        {
+          "en": "1916",
+          "as": "১৯১৬"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assamese language was re-established in Assam in—",
+      "as": "অসমত অসমীয়া ভাষা পুনঃস্থাপন কোন চনত হৈছিল?",
+      "options": [
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1888",
+          "as": "১৮৮৮"
+        },
+        {
+          "en": "1903",
+          "as": "১৯০৩"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who initiated the Gyan Pradayini Sabha in 1857?",
+      "as": "১৮৫৭ চনত জ্ঞান প্ৰদায়িনী সভা কোনে আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "Anandaram Dhekial Phukan and Gunaviram Barua",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন আৰু গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Jagannath Barua and Manik Chandra Barua",
+          "as": "জগন্নাথ বৰুৱা আৰু মাণিক চন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbarua and Chandranath Sarma",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা আৰু চন্দ্ৰনাথ শৰ্মা"
+        },
+        {
+          "en": "Gopinath Bordoloi and Bishnuram Medhi",
+          "as": "গোপীনাথ বৰদলৈ আৰু বিষ্ণুৰাম মেধি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Assamese Literary Society was established in Calcutta in—",
+      "as": "কলকাতাত অসমীয়া সাহিত্যিক সভা কোন চনত স্থাপন হৈছিল?",
+      "options": [
+        {
+          "en": "1872",
+          "as": "১৮৭২"
+        },
+        {
+          "en": "1888",
+          "as": "১৮৮৮"
+        },
+        {
+          "en": "1916",
+          "as": "১৯১৬"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who were associated with the Assamese Literary Society's leadership?",
+      "as": "অসমীয়া সাহিত্যিক সভাৰ নেতৃত্বৰ সৈতে কোনসকল জড়িত আছিল?",
+      "options": [
+        {
+          "en": "Devicharan Barua and Gangagovinda Phukan",
+          "as": "দেবীচৰণ বৰুৱা আৰু গঙ্গাগোবিন্দ ফুকন"
+        },
+        {
+          "en": "Bishnuram Medhi and Tayebullah",
+          "as": "বিষ্ণুৰাম মেধি আৰু তাইয়েবুল্লাহ"
+        },
+        {
+          "en": "Rudra Singha and Rajeshwar Singha",
+          "as": "ৰুদ্ৰ সিংহ আৰু ৰাজেশ্বৰ সিংহ"
+        },
+        {
+          "en": "Kanaklata and Kushal Konwar",
+          "as": "কনকলতা আৰু কুশল কোঁৱৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Asomiya Bhasa Unnati Sadhini Sabha was formed in—",
+      "as": "অসমীয়া ভাষা উন্নতি সাধিনী সভা কোন চনত গঠন হৈছিল?",
+      "options": [
+        {
+          "en": "1888",
+          "as": "১৮৮৮"
+        },
+        {
+          "en": "1872",
+          "as": "১৮৭২"
+        },
+        {
+          "en": "1903",
+          "as": "১৯০৩"
+        },
+        {
+          "en": "1930",
+          "as": "১৯৩০"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which journal was published by the Asomiya Bhasa Unnati Sadhini Sabha?",
+      "as": "অসমীয়া ভাষা উন্নতি সাধিনী সভাই কোন আলোচনী প্ৰকাশ কৰিছিল?",
+      "options": [
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        },
+        {
+          "en": "Milan",
+          "as": "মিলন"
+        },
+        {
+          "en": "Arunodoi",
+          "as": "অৰুণোদই"
+        },
+        {
+          "en": "Bharati",
+          "as": "ভাৰতী"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
+    "as": "অধ্যায় ২ - গান্ধীৰ উত্থান আৰু ভাৰতৰ স্বাধীনতা আন্দোলন"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Where was Mahatma Gandhi born?",
+      "as": "মহাত্মা গান্ধীৰ জন্ম ক’ত হৈছিল?",
+      "options": [
+        {
+          "en": "Porbandar, Gujarat",
+          "as": "পোৰবন্দৰ, গুজৰাট"
+        },
+        {
+          "en": "Amritsar, Punjab",
+          "as": "অমৃতসৰ, পঞ্জাব"
+        },
+        {
+          "en": "Dandi, Gujarat",
+          "as": "ডাণ্ডী, গুজৰাট"
+        },
+        {
+          "en": "Champaran, Bihar",
+          "as": "চম্পাৰণ, বিহাৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When was Mahatma Gandhi born?",
+      "as": "মহাত্মা গান্ধীৰ জন্ম কেতিয়া হৈছিল?",
+      "options": [
+        {
+          "en": "2 October 1869",
+          "as": "২ অক্টোবৰ ১৮৬৯"
+        },
+        {
+          "en": "13 April 1919",
+          "as": "১৩ এপ্ৰিল ১৯১৯"
+        },
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "30 January 1948",
+          "as": "৩০ জানুৱাৰী ১৯৪৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In which country did Gandhi first use Satyagraha?",
+      "as": "গান্ধীয়ে প্ৰথমে সত্যাগ্ৰহ কোন দেশত ব্যৱহাৰ কৰিছিল?",
+      "options": [
+        {
+          "en": "South Africa",
+          "as": "দক্ষিণ আফ্ৰিকা"
+        },
+        {
+          "en": "India",
+          "as": "ভাৰত"
+        },
+        {
+          "en": "England",
+          "as": "ইংলেণ্ড"
+        },
+        {
+          "en": "Japan",
+          "as": "জাপান"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The word Satyagraha means—",
+      "as": "‘সত্যাগ্ৰহ’ শব্দৰ অৰ্থ হৈছে—",
+      "options": [
+        {
+          "en": "Holding on to truth",
+          "as": "সত্যত অটল থকা"
+        },
+        {
+          "en": "Armed rebellion",
+          "as": "সশস্ত্ৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Tax collection",
+          "as": "কৰ সংগ্ৰহ"
+        },
+        {
+          "en": "Separate electorate",
+          "as": "পৃথক নিৰ্বাচনী ব্যৱস্থা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which principle formed the basis of Satyagraha?",
+      "as": "সত্যাগ্ৰহৰ মূল ভিত্তি কোনটো আছিল?",
+      "options": [
+        {
+          "en": "Non-violence",
+          "as": "অহিংসা"
+        },
+        {
+          "en": "Violence",
+          "as": "হিংসা"
+        },
+        {
+          "en": "Imperialism",
+          "as": "সাম্ৰাজ্যবাদ"
+        },
+        {
+          "en": "Communalism",
+          "as": "সাম্প্ৰদায়িকতা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Gandhi returned to India from South Africa in—",
+      "as": "গান্ধী দক্ষিণ আফ্ৰিকাৰ পৰা ভাৰতলৈ কোন চনত উভতি আহে?",
+      "options": [
+        {
+          "en": "1915",
+          "as": "১৯১৫"
+        },
+        {
+          "en": "1893",
+          "as": "১৮৯৩"
+        },
+        {
+          "en": "1920",
+          "as": "১৯২০"
+        },
+        {
+          "en": "1930",
+          "as": "১৯৩০"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which three local struggles made Gandhi an influential leader in India?",
+      "as": "ভাৰতত কোন তিনিটা স্থানীয় সংগ্ৰামে গান্ধীক প্ৰভাৱশালী নেতা হিচাপে প্ৰতিষ্ঠা কৰিছিল?",
+      "options": [
+        {
+          "en": "Champaran, Kheda and Ahmedabad",
+          "as": "চম্পাৰণ, খেডা আৰু আহমেদাবাদ"
+        },
+        {
+          "en": "Dandi, Lahore and Delhi",
+          "as": "ডাণ্ডী, লাহোৰ আৰু দিল্লী"
+        },
+        {
+          "en": "Kohima, Imphal and Burma",
+          "as": "কোহিমা, ইম্ফল আৰু বুৰ্মা"
+        },
+        {
+          "en": "Jorhat, Rangia and Lachima",
+          "as": "যোৰহাট, ৰঙিয়া আৰু লছিমা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In Champaran, Gandhi took up the cause of—",
+      "as": "চম্পাৰণত গান্ধীয়ে কাৰ বিষয় উত্থাপন কৰিছিল?",
+      "options": [
+        {
+          "en": "Peasants against landlords",
+          "as": "জমিদাৰৰ বিৰুদ্ধে কৃষক"
+        },
+        {
+          "en": "Mill workers against mill owners",
+          "as": "মিল-মালিকৰ বিৰুদ্ধে শ্ৰমিক"
+        },
+        {
+          "en": "Soldiers against officers",
+          "as": "বিষয়াৰ বিৰুদ্ধে সৈনিক"
+        },
+        {
+          "en": "Students against universities",
+          "as": "বিশ্ববিদ্যালয়ৰ বিৰুদ্ধে ছাত্ৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who chaired the committee that led to the Rowlatt Act?",
+      "as": "ৰ’লাট আইনলৈ লৈ যোৱা কমিটিখনৰ অধ্যক্ষ কোন আছিল?",
+      "options": [
+        {
+          "en": "Justice Sydney Rowlatt",
+          "as": "ন্যায়াধীশ ছিডনি ৰ’লাট"
+        },
+        {
+          "en": "Lord Hunter",
+          "as": "লৰ্ড হান্টাৰ"
+        },
+        {
+          "en": "Lord Irwin",
+          "as": "লৰ্ড আৰউইন"
+        },
+        {
+          "en": "Sir Stafford Cripps",
+          "as": "ছাৰ ষ্টেফৰ্ড ক্ৰিপ্স"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Rowlatt Act allowed the government to—",
+      "as": "ৰ’লাট আইনে চৰকাৰক কি কৰিবলৈ অনুমতি দিছিল?",
+      "options": [
+        {
+          "en": "Imprison a person without trial",
+          "as": "বিচাৰ নোহোৱাকৈ ব্যক্তিক কাৰাগাৰত ৰাখিবলৈ"
+        },
+        {
+          "en": "Abolish salt tax",
+          "as": "নিমখ কৰ উঠাই দিবলৈ"
+        },
+        {
+          "en": "Grant independence",
+          "as": "স্বাধীনতা দিবলৈ"
+        },
+        {
+          "en": "Create a constituent assembly",
+          "as": "সংবিধান সভা গঠন কৰিবলৈ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "?????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Geography of Assam",
+    "as": "অধ্যায় 4 - অসমৰ ভূগোল"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Jhum cultivation is widely practiced in—",
+      "as": "ঝুম খেতি ক’ত বহুলভাৱে কৰা হয়?",
+      "options": [
+        {
+          "en": "Karbi Anglong and Dima Hasao",
+          "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও"
+        },
+        {
+          "en": "Kamrup (Metro) and Dhubri",
+          "as": "কামৰূপ (মেট্ৰো) আৰু ধুবুৰী"
+        },
+        {
+          "en": "Barpeta and Nalbari",
+          "as": "বৰপেটা আৰু নলবাৰী"
+        },
+        {
+          "en": "Jorhat and Sivasagar",
+          "as": "যোৰহাট আৰু শিৱসাগৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam is still backward in industrial sector despite having—",
+      "as": "মূল্যবান খনিজসহ প্ৰচুৰ প্ৰাকৃতিক সম্পদ থকা সত্ত্বেও অসম কোন ক্ষেত্ৰত এতিয়াও পিছপৰা?",
+      "options": [
+        {
+          "en": "Plenty of natural resources including valuable minerals",
+          "as": "মূল্যবান খনিজসহ প্ৰচুৰ প্ৰাকৃতিক সম্পদ"
+        },
+        {
+          "en": "No resources",
+          "as": "কোনো সম্পদ নাই"
+        },
+        {
+          "en": "No agriculture",
+          "as": "কৃষি নাই"
+        },
+        {
+          "en": "No transport at all",
+          "as": "একেবাৰেই পৰিবহণ নাই"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Industries of Assam are broadly classified into how many types?",
+      "as": "অসমৰ উদ্যোগসমূহক প্ৰধানকৈ কিমান ভাগত ভাগ কৰা হয়?",
+      "options": [
+        {
+          "en": "Five",
+          "as": "পাঁচ"
+        },
+        {
+          "en": "Two",
+          "as": "দুই"
+        },
+        {
+          "en": "Seven",
+          "as": "সাত"
+        },
+        {
+          "en": "Ten",
+          "as": "দহ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which is one type of industry in Assam?",
+      "as": "তলৰ কোনটো অসমৰ উদ্যোগৰ এটা প্ৰকাৰ?",
+      "options": [
+        {
+          "en": "Mining industry",
+          "as": "খনন উদ্যোগ"
+        },
+        {
+          "en": "Polar industry",
+          "as": "মেৰু উদ্যোগ"
+        },
+        {
+          "en": "Ocean trench industry",
+          "as": "মহাসাগৰীয় খাত উদ্যোগ"
+        },
+        {
+          "en": "Desert industry",
+          "as": "মৰু উদ্যোগ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Tea industry is the largest—",
+      "as": "চাহ উদ্যোগ অসমৰ সৰ্ববৃহৎ—",
+      "options": [
+        {
+          "en": "Agro-based industry of Assam",
+          "as": "অসমৰ কৃষিভিত্তিক উদ্যোগ"
+        },
+        {
+          "en": "Mining industry of Assam",
+          "as": "অসমৰ খনন উদ্যোগ"
+        },
+        {
+          "en": "Power industry of Assam",
+          "as": "অসমৰ বিদ্যুৎ উদ্যোগ"
+        },
+        {
+          "en": "Service industry only",
+          "as": "কেৱল সেৱা উদ্যোগ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam produces more than half of India’s total—",
+      "as": "অসমে ভাৰতৰ মুঠ কিহৰ উৎপাদনৰ আধাতকৈ অধিক উৎপাদন কৰে?",
+      "options": [
+        {
+          "en": "Tea production",
+          "as": "চাহ উৎপাদন"
+        },
+        {
+          "en": "Wheat production",
+          "as": "ঘেঁহু উৎপাদন"
+        },
+        {
+          "en": "Cotton production",
+          "as": "কপাহ উৎপাদন"
+        },
+        {
+          "en": "Sugar production",
+          "as": "চেনি উৎপাদন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam is world famous for the production of—",
+      "as": "অসম কিহৰ উৎপাদনৰ বাবে বিশ্ববিখ্যাত?",
+      "options": [
+        {
+          "en": "Muga yarn or Golden Silk",
+          "as": "মুগা সূতা বা সোণালী ৰেচম"
+        },
+        {
+          "en": "Petroleum from oceans",
+          "as": "মহাসাগৰৰ পৰা পেট্ৰোলিয়াম"
+        },
+        {
+          "en": "Polar ice",
+          "as": "মেৰু বৰফ"
+        },
+        {
+          "en": "Olive oil",
+          "as": "জলফাই তেল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "More than what percentage of India’s Muga yarn is produced in Assam?",
+      "as": "ভাৰতৰ মুগা সূতাৰ কিমান শতাংশতকৈ অধিক অসমত উৎপাদিত হয়?",
+      "options": [
+        {
+          "en": "97%",
+          "as": "৯৭%"
+        },
+        {
+          "en": "50%",
+          "as": "৫০%"
+        },
+        {
+          "en": "20%",
+          "as": "২০%"
+        },
+        {
+          "en": "10%",
+          "as": "১০%"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Digboi is famous as the oldest—",
+      "as": "ডিগবৈ ভাৰতৰ সৰ্বাধিক পুৰণি কিহৰ বাবে বিখ্যাত?",
+      "options": [
+        {
+          "en": "Oil field of India",
+          "as": "ভাৰতৰ তেলক্ষেত্ৰ"
+        },
+        {
+          "en": "Tea garden of India",
+          "as": "ভাৰতৰ চাহ বাগিচা"
+        },
+        {
+          "en": "Airport of India",
+          "as": "ভাৰতৰ বিমানবন্দৰ"
+        },
+        {
+          "en": "River port of India",
+          "as": "ভাৰতৰ নদীবন্দৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Presently, Assam has how many oil refineries according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি বৰ্তমানে অসমত তেল শোধনাগাৰ কিমানটা আছে?",
+      "options": [
+        {
+          "en": "Four",
+          "as": "চাৰি"
+        },
+        {
+          "en": "Two",
+          "as": "দুই"
+        },
+        {
+          "en": "Six",
+          "as": "ছয়"
+        },
+        {
+          "en": "Ten",
+          "as": "দহ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

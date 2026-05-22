@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
+    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "How many secondary schools were established during the Swadeshi movement according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি স্বদেশী আন্দোলনৰ সময়ত কিমানখন মাধ্যমিক বিদ্যালয় স্থাপন হৈছিল?",
+      "options": [
+        {
+          "en": "62",
+          "as": "৬২"
+        },
+        {
+          "en": "3000",
+          "as": "৩০০০"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "108",
+          "as": "১০৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who is described as a prominent female leader of the Swadeshi Movement?",
+      "as": "স্বদেশী আন্দোলনৰ এগৰাকী মুখ্য মহিলা নেত্ৰী হিচাপে কাক উল্লেখ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Sarala Devi Choudhurani",
+          "as": "সৰলা দেৱী চৌধুৰাণী"
+        },
+        {
+          "en": "Rani Lakshmi Bai",
+          "as": "ৰাণী লক্ষ্মীবাই"
+        },
+        {
+          "en": "Kanaklata Barua",
+          "as": "কনকলতা বৰুৱা"
+        },
+        {
+          "en": "Aruna Asaf Ali",
+          "as": "অৰুণা আসফ আলী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Sister Nivedita's real name was—",
+      "as": "ছিস্টাৰ নিবেদিতাৰ প্ৰকৃত নাম আছিল—",
+      "options": [
+        {
+          "en": "Margaret Elizabeth Noble",
+          "as": "মাৰ্গাৰেট এলিজাবেথ ন’বল"
+        },
+        {
+          "en": "Sarala Devi",
+          "as": "সৰলা দেৱী"
+        },
+        {
+          "en": "Kumudini Mishra",
+          "as": "কুমুদিনী মিশ্ৰ"
+        },
+        {
+          "en": "Bhabaneswari Devi",
+          "as": "ভবানেশ্বৰী দেৱী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who started the magazine Bharati during the Swadeshi period?",
+      "as": "স্বদেশী সময়ত ‘ভাৰতী’ আলোচনী কোনে সম্পাদনা/চলায়িছিল?",
+      "options": [
+        {
+          "en": "Sarala Devi Choudhurani",
+          "as": "সৰলা দেৱী চৌধুৰাণী"
+        },
+        {
+          "en": "Sister Nivedita",
+          "as": "ছিস্টাৰ নিবেদিতা"
+        },
+        {
+          "en": "Aurobindo Ghose",
+          "as": "অৰবিন্দ ঘোষ"
+        },
+        {
+          "en": "Nawab Salimullah",
+          "as": "নৱাব ছালিমুল্লাহ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Banga Lakshi Cotton Mill was established at the initiative of—",
+      "as": "বংগ লক্ষ্মী কটন মিল কাৰ উদ্যোগত স্থাপন হৈছিল?",
+      "options": [
+        {
+          "en": "Nilratan Sarkar",
+          "as": "নীলৰতন চৰকাৰ"
+        },
+        {
+          "en": "Jamshedji Tata",
+          "as": "জামশেদজি টাটা"
+        },
+        {
+          "en": "R. C. Dutt",
+          "as": "আৰ. চি. দত্ত"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who started Bengal Chemicals on 25 July 1906?",
+      "as": "২৫ জুলাই ১৯০৬ত বেংগল কেমিকেলছ কোনে আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "Acharya Prafulla Chandra Ray",
+          "as": "আচার্য প্ৰফুল্ল চন্দ্ৰ ৰায়"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Aga Khan",
+          "as": "আগা খান"
+        },
+        {
+          "en": "Manindra Chandra Nandi",
+          "as": "মনিন্দ্ৰ চন্দ্ৰ নন্দী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The first Indian industrial summit was held at—",
+      "as": "প্ৰথম ভাৰতীয় ঔদ্যোগিক সন্মিলন ক’ত অনুষ্ঠিত হৈছিল?",
+      "options": [
+        {
+          "en": "Varanasi",
+          "as": "বাৰাণসী"
+        },
+        {
+          "en": "Dhaka",
+          "as": "ঢাকা"
+        },
+        {
+          "en": "Calcutta",
+          "as": "কলকাতা"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who presided over the first Indian industrial summit?",
+      "as": "প্ৰথম ভাৰতীয় ঔদ্যোগিক সন্মিলনত কোনে সভাপতিত্ব কৰিছিল?",
+      "options": [
+        {
+          "en": "R. C. Dutt",
+          "as": "আৰ. চি. দত্ত"
+        },
+        {
+          "en": "Dadabhai Naoroji",
+          "as": "দাদাভাই নওৰোজি"
+        },
+        {
+          "en": "Lord Minto",
+          "as": "লৰ্ড মিণ্টো"
+        },
+        {
+          "en": "Aga Khan",
+          "as": "আগা খান"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The All India Muslim League was established on—",
+      "as": "অল ইণ্ডিয়া মুছলিম লীগ কেতিয়া স্থাপন হৈছিল?",
+      "options": [
+        {
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        },
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "1 October 1906",
+          "as": "১ অক্টোবৰ ১৯০৬"
+        },
+        {
+          "en": "13 April 1906",
+          "as": "১৩ এপ্ৰিল ১৯০৬"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who led the creation of the Muslim League according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি মুছলিম লীগ গঠনৰ নেতৃত্ব কোনে দিছিল?",
+      "options": [
+        {
+          "en": "Nawab Salimullah",
+          "as": "নৱাব ছালিমুল্লাহ"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Lala Lajpat Rai",
+          "as": "লালা লাজপত ৰায়"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "as": "সুভাষ চন্দ্ৰ বসু"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

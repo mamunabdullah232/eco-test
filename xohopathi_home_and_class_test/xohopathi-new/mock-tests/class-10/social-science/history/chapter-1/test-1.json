@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
+    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "During whose viceroyalty did the Partition of Bengal take place?",
+      "as": "বংগ বিভাজন কোনজন ভাইচৰয়ৰ সময়ত হৈছিল?",
+      "options": [
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        },
+        {
+          "en": "Lord Minto",
+          "as": "লৰ্ড মিণ্টো"
+        },
+        {
+          "en": "Lord Wavell",
+          "as": "লৰ্ড ৱাভেল"
+        },
+        {
+          "en": "Lord Mountbatten",
+          "as": "লৰ্ড মাউণ্টবেটেন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Partition of Bengal is associated with which period?",
+      "as": "বংগ বিভাজন কোন সময়ৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "1905-1911 A.D.",
+          "as": "১৯০৫-১৯১১ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1919-1922 A.D.",
+          "as": "১৯১৯-১৯২২ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1930-1934 A.D.",
+          "as": "১৯৩০-১৯৩৪ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1942-1947 A.D.",
+          "as": "১৯৪২-১৯৪৭ খ্ৰীষ্টাব্দ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Partition of Bengal is described as the second important political upheaval after—",
+      "as": "বংগ বিভাজনক কোন ঘটনাৰ পিছত দ্বিতীয় গুৰুত্বপূর্ণ ৰাজনৈতিক আলোড়ন বুলি কোৱা হৈছে?",
+      "options": [
+        {
+          "en": "Sepoy Mutiny of 1857",
+          "as": "১৮৫৭ চনৰ চিপাহী বিদ্ৰোহ"
+        },
+        {
+          "en": "Dandi March",
+          "as": "ডাণ্ডী যাত্ৰা"
+        },
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        },
+        {
+          "en": "Civil Disobedience Movement",
+          "as": "আইন অমান্য আন্দোলন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which new province was created by joining East Bengal with Assam?",
+      "as": "পূব বংগক অসমৰে সংযুক্ত কৰি কোন নতুন প্ৰদেশ সৃষ্টি কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Eastern Bengal and Assam",
+          "as": "পূব বংগ আৰু অসম"
+        },
+        {
+          "en": "Bihar and Orissa",
+          "as": "বিহাৰ আৰু উৰিষ্যা"
+        },
+        {
+          "en": "United Provinces",
+          "as": "যুক্ত প্ৰদেশ"
+        },
+        {
+          "en": "Central Provinces",
+          "as": "মধ্য প্ৰদেশ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "According to the textbook, why did Curzon want to divide Bengal?",
+      "as": "পাঠ্যপুথি অনুসৰি কাৰ্জনে বংগ কিয় ভাগ কৰিব বিচাৰিছিল?",
+      "options": [
+        {
+          "en": "To weaken Bengal's unity and nationalism",
+          "as": "বংগৰ ঐক্য আৰু জাতীয়তাবাদ দুৰ্বল কৰিবলৈ"
+        },
+        {
+          "en": "To give full independence to Bengal",
+          "as": "বংগক সম্পূৰ্ণ স্বাধীনতা দিবলৈ"
+        },
+        {
+          "en": "To abolish all taxes",
+          "as": "সকলো কৰ উঠাই দিবলৈ"
+        },
+        {
+          "en": "To unite all provinces",
+          "as": "সকলো প্ৰদেশ একত্ৰিত কৰিবলৈ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Regulating Act upgraded the Governor of Bengal Presidency to the level of—",
+      "as": "ৰেগুলেটিং এক্টে বংগ প্ৰেচিডেন্সীৰ গৱৰ্ণৰৰ পদ কোন স্তৰলৈ উন্নীত কৰিছিল?",
+      "options": [
+        {
+          "en": "Governor General",
+          "as": "গৱৰ্ণৰ জেনেৰেল"
+        },
+        {
+          "en": "Chief Commissioner",
+          "as": "চিফ কমিশনাৰ"
+        },
+        {
+          "en": "Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "Lt. Governor only",
+          "as": "কেৱল লেফটেনেণ্ট গৱৰ্ণৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In which year was the Regulating Act introduced?",
+      "as": "ৰেগুলেটিং এক্ট কোন চনত প্ৰৱৰ্তন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "1773",
+          "as": "১৭৭৩"
+        },
+        {
+          "en": "1765",
+          "as": "১৭৬৫"
+        },
+        {
+          "en": "1874",
+          "as": "১৮৭৪"
+        },
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "On which date was Assam created as a separate state under a Chief Commissioner?",
+      "as": "চিফ কমিশনাৰৰ অধীনত অসমক পৃথক ৰাজ্য হিচাপে কোন তাৰিখে সৃষ্টি কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "7 February 1874",
+          "as": "৭ ফেব্ৰুৱাৰী ১৮৭৪"
+        },
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        },
+        {
+          "en": "1 September 1905",
+          "as": "১ ছেপ্টেম্বৰ ১৯০৫"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was given charge of Assam when it was created in 1874?",
+      "as": "১৮৭৪ চনত অসম সৃষ্টি হোৱাৰ পিছত ইয়াৰ দায়িত্ব কাক দিয়া হৈছিল?",
+      "options": [
+        {
+          "en": "Colonel R. H. Keatings",
+          "as": "কৰ্নেল আৰ. এইচ. কিটিংছ"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        },
+        {
+          "en": "Aga Khan",
+          "as": "আগা খান"
+        },
+        {
+          "en": "R. C. Dutt",
+          "as": "আৰ. চি. দত্ত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who gave a proposal to Lord Curzon in 1901 to change the boundary of Madhya Pradesh and Bengal?",
+      "as": "১৯০১ চনত মধ্য প্ৰদেশ আৰু বংগৰ সীমা সলনি কৰাৰ প্ৰস্তাৱ লৰ্ড কাৰ্জনক কোনে দিছিল?",
+      "options": [
+        {
+          "en": "Andrew Fraser",
+          "as": "এণ্ড্ৰিউ ফ্ৰেজাৰ"
+        },
+        {
+          "en": "J. B. Fuller",
+          "as": "জে. বি. ফুলাৰ"
+        },
+        {
+          "en": "Minto",
+          "as": "মিণ্টো"
+        },
+        {
+          "en": "Morley",
+          "as": "মৰ্লে"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

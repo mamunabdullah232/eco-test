@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
+    "as": "অধ্যায় ২ - গান্ধীৰ উত্থান আৰু ভাৰতৰ স্বাধীনতা আন্দোলন"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Why did Gandhi suspend the Non-Cooperation Movement?",
+      "as": "গান্ধীয়ে অসহযোগ আন্দোলন কিয় স্থগিত কৰিছিল?",
+      "options": [
+        {
+          "en": "Because of the Chauri Chaura violence",
+          "as": "চৌৰি চৌৰা হিংসাৰ বাবে"
+        },
+        {
+          "en": "Because India got independence",
+          "as": "ভাৰত স্বাধীন হোৱাৰ বাবে"
+        },
+        {
+          "en": "Because salt tax was abolished",
+          "as": "নিমখ কৰ উঠোৱাৰ বাবে"
+        },
+        {
+          "en": "Because the Simon Commission arrived",
+          "as": "সাইমন কমিশন অহাৰ বাবে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Chauri Chaura incident occurred on—",
+      "as": "চৌৰি চৌৰা ঘটনা কেতিয়া সংঘটিত হৈছিল?",
+      "options": [
+        {
+          "en": "5 February 1922",
+          "as": "৫ ফেব্ৰুৱাৰী ১৯২২"
+        },
+        {
+          "en": "12 March 1930",
+          "as": "১২ মাৰ্চ ১৯৩০"
+        },
+        {
+          "en": "13 April 1919",
+          "as": "১৩ এপ্ৰিল ১৯১৯"
+        },
+        {
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who headed the Simon Commission?",
+      "as": "সাইমন কমিশনৰ নেতৃত্ব কোনে দিছিল?",
+      "options": [
+        {
+          "en": "Sir John Simon",
+          "as": "ছাৰ জন সাইমন"
+        },
+        {
+          "en": "Lord Irwin",
+          "as": "লৰ্ড আৰউইন"
+        },
+        {
+          "en": "Lord Hunter",
+          "as": "লৰ্ড হান্টাৰ"
+        },
+        {
+          "en": "Clement Attlee",
+          "as": "ক্লেমেণ্ট এটলি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Why did the Congress boycott the Simon Commission?",
+      "as": "কংগ্ৰেছে সাইমন কমিশন কিয় বর্জন কৰিছিল?",
+      "options": [
+        {
+          "en": "It had no Indian member",
+          "as": "ইয়াত কোনো ভাৰতীয় সদস্য নাছিল"
+        },
+        {
+          "en": "It abolished salt tax",
+          "as": "ই নিমখ কৰ উঠাইছিল"
+        },
+        {
+          "en": "It gave complete independence",
+          "as": "ই সম্পূৰ্ণ স্বাধীনতা দিছিল"
+        },
+        {
+          "en": "It supported Purna Swaraj",
+          "as": "ই পূৰ্ণ স্বৰাজ সমৰ্থন কৰিছিল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was injured in the lathi-charge against the Simon Commission at Lahore and later died?",
+      "as": "লাহোৰত সাইমন কমিশনৰ বিৰুদ্ধে লাঠিচাৰ্জত আহত হৈ পিছত কোনে মৃত্যু বৰণ কৰিছিল?",
+      "options": [
+        {
+          "en": "Lala Lajpat Rai",
+          "as": "লালা লাজপত ৰায়"
+        },
+        {
+          "en": "Bal Gangadhar Tilak",
+          "as": "বাল গঙ্গাধৰ তিলক"
+        },
+        {
+          "en": "Bhagat Singh",
+          "as": "ভগত সিং"
+        },
+        {
+          "en": "Motilal Nehru",
+          "as": "মোতিলাল নেহৰু"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Purna Swaraj was declared as the goal of Congress at—",
+      "as": "পূৰ্ণ স্বৰাজ কংগ্ৰেছৰ লক্ষ্য হিচাপে ঘোষণা কৰা হৈছিল—",
+      "options": [
+        {
+          "en": "Lahore session, 1929",
+          "as": "লাহোৰ অধিৱেশন, ১৯২৯"
+        },
+        {
+          "en": "Nagpur session, 1920",
+          "as": "নাগপুৰ অধিৱেশন, ১৯২০"
+        },
+        {
+          "en": "Calcutta session, 1906",
+          "as": "কলকাতা অধিৱেশন, ১৯০৬"
+        },
+        {
+          "en": "Madras session, 1903",
+          "as": "মাদ্ৰাজ অধিৱেশন, ১৯০৩"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who presided over the Lahore session of Congress in 1929?",
+      "as": "১৯২৯ চনৰ লাহোৰ কংগ্ৰেছ অধিৱেশনত কোনে সভাপতিত্ব কৰিছিল?",
+      "options": [
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Dadabhai Naoroji",
+          "as": "দাদাভাই নওৰোজি"
+        },
+        {
+          "en": "Sardar Patel",
+          "as": "সৰদাৰ পেটেল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which day was celebrated as Independence Day after the Lahore session?",
+      "as": "লাহোৰ অধিৱেশনৰ পিছত কোন দিনটো স্বাধীনতা দিৱস হিচাপে পালন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "26 January 1930",
+          "as": "২৬ জানুৱাৰী ১৯৩০"
+        },
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "6 April 1919",
+          "as": "৬ এপ্ৰিল ১৯১৯"
+        },
+        {
+          "en": "8 August 1942",
+          "as": "৮ আগষ্ট ১৯৪২"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Civil Disobedience Movement began with—",
+      "as": "আইন অমান্য আন্দোলন কোন ঘটনাৰে আৰম্ভ হৈছিল?",
+      "options": [
+        {
+          "en": "Salt Satyagraha/Dandi March",
+          "as": "নিমখ সত্যাগ্ৰহ/ডাণ্ডী যাত্ৰা"
+        },
+        {
+          "en": "Chauri Chaura incident",
+          "as": "চৌৰি চৌৰা ঘটনা"
+        },
+        {
+          "en": "Khilafat Conference",
+          "as": "খিলাফত সন্মিলন"
+        },
+        {
+          "en": "Cabinet Mission",
+          "as": "কেবিনেট মিছন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When did Gandhi start the Dandi March?",
+      "as": "গান্ধীয়ে ডাণ্ডী যাত্ৰা কেতিয়া আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "12 March 1930",
+          "as": "১২ মাৰ্চ ১৯৩০"
+        },
+        {
+          "en": "6 April 1930",
+          "as": "৬ এপ্ৰিল ১৯৩০"
+        },
+        {
+          "en": "5 March 1931",
+          "as": "৫ মাৰ্চ ১৯৩১"
+        },
+        {
+          "en": "8 August 1942",
+          "as": "৮ আগষ্ট ১৯৪২"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

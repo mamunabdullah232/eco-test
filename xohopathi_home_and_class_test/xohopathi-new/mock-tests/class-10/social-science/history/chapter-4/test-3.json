@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Indian Freedom Movement and National Awakening in Assam",
+    "as": "অধ্যায় ৪ - ভাৰতীয় স্বাধীনতা আন্দোলন আৰু অসমত জাতীয় জাগৰণ"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The first session of the All Assam Ryot Sabha was held near Tilikiyam in Jorhat on—",
+      "as": "অল অসম ৰায়ত সভাৰ প্ৰথম অধিৱেশন যোৰহাটৰ তিলিকিয়ামৰ ওচৰত কেতিয়া অনুষ্ঠিত হৈছিল?",
+      "options": [
+        {
+          "en": "8 April 1933",
+          "as": "৮ এপ্ৰিল ১৯৩৩"
+        },
+        {
+          "en": "25 December 1916",
+          "as": "২৫ ডিচেম্বৰ ১৯১৬"
+        },
+        {
+          "en": "26 January 1948",
+          "as": "২৬ জানুৱাৰী ১৯৪৮"
+        },
+        {
+          "en": "20 September 1960",
+          "as": "২০ ছেপ্টেম্বৰ ১৯৬০"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who presided over the first session of All Assam Ryot Sabha?",
+      "as": "অল অসম ৰায়ত সভাৰ প্ৰথম অধিৱেশনত কোনে সভাপতিত্ব কৰিছিল?",
+      "options": [
+        {
+          "en": "Nabinchandra Bordoloi",
+          "as": "নবীনচন্দ্ৰ বৰদলৈ"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Jagannath Barua",
+          "as": "জগন্নাথ বৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Barua",
+          "as": "পদ্মনাথ গোহাঁই বৰুৱা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Ahom Sabha was formed in 1893 by—",
+      "as": "১৮৯৩ চনত আহোম সভা কোনে গঠন কৰিছিল?",
+      "options": [
+        {
+          "en": "Padmanath Gohain Barua",
+          "as": "পদ্মনাথ গোহাঁই বৰুৱা"
+        },
+        {
+          "en": "Jagannath Barua",
+          "as": "জগন্নাথ বৰুৱা"
+        },
+        {
+          "en": "Manik Chandra Barua",
+          "as": "মাণিক চন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "One of the first activities of Ahom Sabha was—",
+      "as": "আহোম সভাৰ প্ৰথম কাৰ্যসমূহৰ ভিতৰত এটা আছিল—",
+      "options": [
+        {
+          "en": "Anti-opium campaign",
+          "as": "আফিম বিৰোধী অভিযান"
+        },
+        {
+          "en": "Salt Satyagraha",
+          "as": "নিমখ সত্যাগ্ৰহ"
+        },
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        },
+        {
+          "en": "Simon boycott",
+          "as": "সাইমন বর্জন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In 1910, Ahom Sabha was renamed as—",
+      "as": "১৯১০ চনত আহোম সভাৰ নাম সলনি কৰি কি কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Ahom Association",
+          "as": "আহোম এছ’চিয়েচন"
+        },
+        {
+          "en": "Assam Association",
+          "as": "অসম এছ’চিয়েচন"
+        },
+        {
+          "en": "Ryot Sabha",
+          "as": "ৰায়ত সভা"
+        },
+        {
+          "en": "Jorhat Sarbajanik Sabha",
+          "as": "যোৰহাট সাৰ্বজনিক সভা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Jorhat Sarbajanik Sabha was founded in—",
+      "as": "যোৰহাট সাৰ্বজনিক সভা কোন চনত স্থাপন হৈছিল?",
+      "options": [
+        {
+          "en": "1884",
+          "as": "১৮৮৪"
+        },
+        {
+          "en": "1903",
+          "as": "১৯০৩"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        },
+        {
+          "en": "1946",
+          "as": "১৯৪৬"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who founded Jorhat Sarbajanik Sabha?",
+      "as": "যোৰহাট সাৰ্বজনিক সভা কোনে স্থাপন কৰিছিল?",
+      "options": [
+        {
+          "en": "Jagannath Barua",
+          "as": "জগন্নাথ বৰুৱা"
+        },
+        {
+          "en": "Manik Chandra Barua",
+          "as": "মাণিক চন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was the founder President of Jorhat Sarbajanik Sabha?",
+      "as": "যোৰহাট সাৰ্বজনিক সভাৰ প্ৰতিষ্ঠাপক সভাপতি কোন আছিল?",
+      "options": [
+        {
+          "en": "Raja Naranarayan Simha",
+          "as": "ৰজা নৰনাৰায়ণ সিংহ"
+        },
+        {
+          "en": "Jagannath Barua",
+          "as": "জগন্নাথ বৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Barua",
+          "as": "পদ্মনাথ গোহাঁই বৰুৱা"
+        },
+        {
+          "en": "Nabin Chandra Bordoloi",
+          "as": "নবীনচন্দ্ৰ বৰদলৈ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which Act did Jorhat Sarbajanik Sabha oppose in 1886?",
+      "as": "১৮৮৬ চনত যোৰহাট সাৰ্বজনিক সভাই কোন আইনক বিৰোধিতা কৰিছিল?",
+      "options": [
+        {
+          "en": "Assam Land and Revenue Regulation Act",
+          "as": "অসম ভূমি আৰু ৰাজহ নিয়ম আইন"
+        },
+        {
+          "en": "Rowlatt Act",
+          "as": "ৰ’লাট আইন"
+        },
+        {
+          "en": "Indian Independence Act",
+          "as": "ভাৰত স্বাধীনতা আইন"
+        },
+        {
+          "en": "Government of India Act 1935",
+          "as": "ভাৰত চৰকাৰ আইন ১৯৩৫"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assam Association was formed in 1903 by—",
+      "as": "১৯০৩ চনত অসম এছ’চিয়েচন কোনে গঠন কৰিছিল?",
+      "options": [
+        {
+          "en": "Manik Chandra Barua",
+          "as": "মাণিক চন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Jagannath Barua",
+          "as": "জগন্নাথ বৰুৱা"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Chandranath Sarma",
+          "as": "চন্দ্ৰনাথ শৰ্মা"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

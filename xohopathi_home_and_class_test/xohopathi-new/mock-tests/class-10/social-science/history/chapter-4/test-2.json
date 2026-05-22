@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "?????? ??"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "???? ???????"
+  },
+  "section": {
+    "en": "History",
+    "as": "??????"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Indian Freedom Movement and National Awakening in Assam",
+    "as": "অধ্যায় ৪ - ভাৰতীয় স্বাধীনতা আন্দোলন আৰু অসমত জাতীয় জাগৰণ"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "????? ?"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who was the first editor of Jonaki?",
+      "as": "জোনাকীৰ প্ৰথম সম্পাদক কোন আছিল?",
+      "options": [
+        {
+          "en": "Chandrakumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Lakshminath Bezbarua",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Barua",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Kanaklal Barua",
+          "as": "কনকলাল বৰুৱা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Jonaki was the mouthpiece of—",
+      "as": "জোনাকী কোন সংগঠনৰ মুখপত্ৰ আছিল?",
+      "options": [
+        {
+          "en": "Asomiya Bhasa Unnati Sadhini Sabha",
+          "as": "অসমীয়া ভাষা উন্নতি সাধিনী সভা"
+        },
+        {
+          "en": "Assam Chatra Sanmilan",
+          "as": "অসম ছাত্ৰ সন্মিলন"
+        },
+        {
+          "en": "Ryot Sabha",
+          "as": "ৰায়ত সভা"
+        },
+        {
+          "en": "Ahom Association",
+          "as": "আহোম এছ’চিয়েচন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The first session of Assam Chatra Sanmilan was held in—",
+      "as": "অসম ছাত্ৰ সন্মিলনৰ প্ৰথম অধিৱেশন ক’ত অনুষ্ঠিত হৈছিল?",
+      "options": [
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Sibsagar",
+          "as": "শিৱসাগৰ"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When was the first session of Assam Chatra Sanmilan held?",
+      "as": "অসম ছাত্ৰ সন্মিলনৰ প্ৰথম অধিৱেশন কেতিয়া হৈছিল?",
+      "options": [
+        {
+          "en": "25 December 1916",
+          "as": "২৫ ডিচেম্বৰ ১৯১৬"
+        },
+        {
+          "en": "8 April 1933",
+          "as": "৮ এপ্ৰিল ১৯৩৩"
+        },
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "26 January 1948",
+          "as": "২৬ জানুৱাৰী ১৯৪৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who presided over the first session of Assam Chatra Sanmilan?",
+      "as": "অসম ছাত্ৰ সন্মিলনৰ প্ৰথম অধিৱেশনত কোনে সভাপতিত্ব কৰিছিল?",
+      "options": [
+        {
+          "en": "Lakshminath Bezbarua",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Chandranath Sarma",
+          "as": "চন্দ্ৰনাথ শৰ্মা"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was the founder secretary of Assam Chatra Sanmilan?",
+      "as": "অসম ছাত্ৰ সন্মিলনৰ প্ৰতিষ্ঠাপক সম্পাদক কোন আছিল?",
+      "options": [
+        {
+          "en": "Chandranath Sarma",
+          "as": "চন্দ্ৰনাথ শৰ্মা"
+        },
+        {
+          "en": "Lakshminath Bezbarua",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Barua",
+          "as": "পদ্মনাথ গোহাঁই বৰুৱা"
+        },
+        {
+          "en": "Manik Chandra Barua",
+          "as": "মাণিক চন্দ্ৰ বৰুৱা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The mouthpiece of Assam Chatra Sanmilan was—",
+      "as": "অসম ছাত্ৰ সন্মিলনৰ মুখপত্ৰ আছিল—",
+      "options": [
+        {
+          "en": "Milan",
+          "as": "মিলন"
+        },
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        },
+        {
+          "en": "Sanjibani",
+          "as": "সঞ্জীৱনী"
+        },
+        {
+          "en": "Yugantar",
+          "as": "যুগান্তৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The main objective of Assam Chatra Sanmilan was to enrich—",
+      "as": "অসম ছাত্ৰ সন্মিলনৰ মুখ্য উদ্দেশ্য আছিল কাক সমৃদ্ধ কৰা?",
+      "options": [
+        {
+          "en": "The mother tongue",
+          "as": "মাতৃভাষা"
+        },
+        {
+          "en": "British administration",
+          "as": "ব্ৰিটিছ প্ৰশাসন"
+        },
+        {
+          "en": "Military power",
+          "as": "সেনা শক্তি"
+        },
+        {
+          "en": "Foreign trade",
+          "as": "বিদেশী বাণিজ্য"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Ryot Sabhas were mainly formed to address the problems of—",
+      "as": "ৰায়ত সভাসমূহ প্ৰধানকৈ কাৰ সমস্যা সমাধানৰ বাবে গঠন হৈছিল?",
+      "options": [
+        {
+          "en": "Peasants",
+          "as": "কৃষক"
+        },
+        {
+          "en": "Tea planters",
+          "as": "চাহ বাগিচাৰ মালিক"
+        },
+        {
+          "en": "British officers",
+          "as": "ব্ৰিটিছ বিষয়া"
+        },
+        {
+          "en": "Industrialists",
+          "as": "ঔদ্যোগিকপতি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What was a major demand of the Ryot Sabhas during the Civil Disobedience period?",
+      "as": "আইন অমান্য আন্দোলনৰ সময়ত ৰায়ত সভাসমূহৰ এটা মুখ্য দাবী কি আছিল?",
+      "options": [
+        {
+          "en": "Reduction of land tax by 50 percent",
+          "as": "ভূমি কৰ ৫০ শতাংশ হ্ৰাস"
+        },
+        {
+          "en": "Increase of land tax",
+          "as": "ভূমি কৰ বৃদ্ধি"
+        },
+        {
+          "en": "Separate electorates for Ahoms",
+          "as": "আহোমৰ বাবে পৃথক নিৰ্বাচন"
+        },
+        {
+          "en": "Partition of Bengal",
+          "as": "বংগ বিভাজন"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}
