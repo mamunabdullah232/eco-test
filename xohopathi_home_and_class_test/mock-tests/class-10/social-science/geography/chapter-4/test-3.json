@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 4 - Geography of Assam",
-    "as": "অধ্যায় 4 - অসমৰ ভূগোল"
+    "as": "অধ্যায় ৪ - অসমৰ ভূগোল"
   },
   "test": {
     "en": "Test 3",
-    "as": "????? ?"
+    "as": "টেষ্ট ৩"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -36,12 +36,12 @@
           "as": "দক্ষিণ ভাৰত"
         },
         {
-          "en": "Western India",
-          "as": "পশ্চিম ভাৰত"
-        },
-        {
           "en": "Central India",
           "as": "মধ্য ভাৰত"
+        },
+        {
+          "en": "Western India",
+          "as": "পশ্চিম ভাৰত"
         }
       ],
       "answer": 0
@@ -50,6 +50,10 @@
       "en": "Transport development in Assam directly helps the economic development of—",
       "as": "অসমত পৰিবহণৰ উন্নয়নে কিহৰ অৰ্থনৈতিক উন্নয়নত সহায় কৰে?",
       "options": [
+        {
+          "en": "Only South America",
+          "as": "কেৱল দক্ষিণ আমেৰিকা"
+        },
         {
           "en": "The North-East",
           "as": "উত্তৰ-পূব"
@@ -61,49 +65,37 @@
         {
           "en": "Only Africa",
           "as": "কেৱল আফ্ৰিকা"
-        },
-        {
-          "en": "Only South America",
-          "as": "কেৱল দক্ষিণ আমেৰিকা"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The transport systems of Assam include road, railway, water and—",
       "as": "অসমৰ পৰিবহণ ব্যৱস্থাত পথ, ৰেল, জল আৰু কোন পৰিবহণ অন্তর্ভুক্ত?",
       "options": [
         {
-          "en": "Air transport",
-          "as": "বায়ু পৰিবহণ"
-        },
-        {
           "en": "Space transport",
           "as": "মহাকাশ পৰিবহণ"
         },
         {
-          "en": "Desert transport",
-          "as": "মৰু পৰিবহণ"
-        },
-        {
           "en": "Glacier transport",
           "as": "হিমবাহ পৰিবহণ"
+        },
+        {
+          "en": "Air transport",
+          "as": "বায়ু পৰিবহণ"
+        },
+        {
+          "en": "Desert transport",
+          "as": "মৰু পৰিবহণ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Which of the following is a type of road in Assam?",
       "as": "তলৰ কোনটো অসমৰ পথৰ এটা প্ৰকাৰ?",
       "options": [
-        {
-          "en": "National Highway",
-          "as": "ৰাষ্ট্ৰীয় ঘাইপথ"
-        },
-        {
-          "en": "Oceanic trench",
-          "as": "মহাসাগৰীয় খাত"
-        },
         {
           "en": "Continental shelf",
           "as": "মহাদেশীয় তাক"
@@ -111,9 +103,17 @@
         {
           "en": "Glacier route",
           "as": "হিমবাহ পথ"
+        },
+        {
+          "en": "Oceanic trench",
+          "as": "মহাসাগৰীয় খাত"
+        },
+        {
+          "en": "National Highway",
+          "as": "ৰাষ্ট্ৰীয় ঘাইপথ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The railway transport system in Assam has influenced the—",
@@ -143,6 +143,10 @@
       "as": "অসমত জলপৰিবহণ মুখ্যতঃ কিহৰ সৈতে জড়িত?",
       "options": [
         {
+          "en": "Mountains only",
+          "as": "কেৱল পৰ্বত"
+        },
+        {
           "en": "Rivers and inland waterways",
           "as": "নদী আৰু অন্তৰ্দেশীয় জলপথ"
         },
@@ -151,61 +155,57 @@
           "as": "মৰুভূমি"
         },
         {
-          "en": "Mountains only",
-          "as": "কেৱল পৰ্বত"
-        },
-        {
           "en": "Polar ice",
           "as": "মেৰু বৰফ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Assam’s main air transport gateway is associated with—",
       "as": "অসমৰ মুখ্য বায়ুপৰিবহণ প্ৰৱেশদ্বাৰ কোন বিমানবন্দৰৰ সৈতে জড়িত?",
       "options": [
         {
-          "en": "Lokapriya Gopinath Bordoloi International Airport",
-          "as": "লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তঃৰাষ্ট্ৰীয় বিমানবন্দৰ"
-        },
-        {
           "en": "Digboi Refinery",
           "as": "ডিগবৈ তেল শোধনাগাৰ"
         },
         {
-          "en": "Kaziranga only",
-          "as": "কেৱল কাজিৰঙা"
-        },
-        {
           "en": "Brahmaputra Valley only",
           "as": "কেৱল ব্ৰহ্মপুত্ৰ উপত্যকা"
+        },
+        {
+          "en": "Lokapriya Gopinath Bordoloi International Airport",
+          "as": "লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তঃৰাষ্ট্ৰীয় বিমানবন্দৰ"
+        },
+        {
+          "en": "Kaziranga only",
+          "as": "কেৱল কাজিৰঙা"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "For overall development of transport in Assam, there is need for proper coordination among—",
       "as": "অসমত পৰিবহণৰ সামগ্ৰিক উন্নয়নৰ বাবে কিহৰ মাজত সঠিক সমন্বয়ৰ প্ৰয়োজন?",
       "options": [
         {
-          "en": "Road, rail, water and air transport",
-          "as": "পথ, ৰেল, জল আৰু বায়ু পৰিবহণ"
+          "en": "Only rivers and deserts",
+          "as": "কেৱল নদী আৰু মৰুভূমি"
         },
         {
           "en": "Only roads and forests",
           "as": "কেৱল পথ আৰু বনাঞ্চল"
         },
         {
-          "en": "Only rivers and deserts",
-          "as": "কেৱল নদী আৰু মৰুভূমি"
-        },
-        {
           "en": "Only mountains and plateaus",
           "as": "কেৱল পৰ্বত আৰু মালভূমি"
+        },
+        {
+          "en": "Road, rail, water and air transport",
+          "as": "পথ, ৰেল, জল আৰু বায়ু পৰিবহণ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Resources of Assam are mainly grouped into natural, man-made and—",
@@ -220,12 +220,12 @@
           "as": "মৰু সম্পদ"
         },
         {
-          "en": "Oceanic trenches",
-          "as": "মহাসাগৰীয় খাত"
-        },
-        {
           "en": "Volcanic gases",
           "as": "আগ্নেয় গেছ"
+        },
+        {
+          "en": "Oceanic trenches",
+          "as": "মহাসাগৰীয় খাত"
         }
       ],
       "answer": 0
@@ -234,6 +234,10 @@
       "en": "Assam’s soils are fertile and suitable mainly for rice and—",
       "as": "অসমৰ মাটি উৰ্বৰ আৰু মুখ্যতঃ ধান আৰু কিহৰ খেতিৰ বাবে উপযুক্ত?",
       "options": [
+        {
+          "en": "Date palm cultivation",
+          "as": "খেজুৰ খেতি"
+        },
         {
           "en": "Tea cultivation",
           "as": "চাহ খেতি"
@@ -245,13 +249,9 @@
         {
           "en": "Olive cultivation",
           "as": "জলফাই খেতি"
-        },
-        {
-          "en": "Date palm cultivation",
-          "as": "খেজুৰ খেতি"
         }
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

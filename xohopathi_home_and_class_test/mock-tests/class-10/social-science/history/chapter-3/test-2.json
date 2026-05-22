@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 3 - Anti-British Rising and Peasant Revolts in Assam",
-    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ-বিৰোধী উত্থান আৰু কৃষক বিদ্ৰোহ"
+    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ বিৰোধী বিদ্ৰোহ আৰু কৃষক আন্দোলন"
   },
   "test": {
     "en": "Test 2",
-    "as": "????? ?"
+    "as": "টেষ্ট ২"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,46 +28,46 @@
       "as": "কলকাতাত ষড়যন্ত্ৰৰ পৰিকল্পনা কৰিবলৈ মণিৰাম দেৱানে কাক লগ পাইছিল?",
       "options": [
         {
-          "en": "Madhu Mallik",
-          "as": "মধু মল্লিক"
-        },
-        {
-          "en": "J. D. Anderson",
-          "as": "জে. ডি. এণ্ডাৰচন"
-        },
-        {
           "en": "Herbert Sconce",
           "as": "হাৰ্বাৰ্ট স্কনছ"
         },
         {
           "en": "Ramsay MacDonald",
           "as": "ৰামজে মেকডোনাল্ড"
+        },
+        {
+          "en": "Madhu Mallik",
+          "as": "মধু মল্লিক"
+        },
+        {
+          "en": "J. D. Anderson",
+          "as": "জে. ডি. এণ্ডাৰচন"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Who arrested Kandarpeswar Singha on 7 September 1857?",
       "as": "৭ ছেপ্টেম্বৰ ১৮৫৭ত কন্দৰ্পেশ্বৰ সিংহক কোনে গ্ৰেপ্তাৰ কৰিছিল?",
       "options": [
         {
-          "en": "Captain Louther",
-          "as": "কেপ্টেইন লাউথাৰ"
+          "en": "Lieutenant Singer",
+          "as": "লেফটেনেণ্ট ছিংগাৰ"
         },
         {
           "en": "Captain Holroyd",
           "as": "কেপ্টেইন হলৰয়েড"
         },
         {
-          "en": "Lieutenant Singer",
-          "as": "লেফটেনেণ্ট ছিংগাৰ"
-        },
-        {
           "en": "Colonel Johnston",
           "as": "কৰ্নেল জনষ্টন"
+        },
+        {
+          "en": "Captain Louther",
+          "as": "কেপ্টেইন লাউথাৰ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who set up the special court that tried Maniram Dewan?",
@@ -78,16 +78,16 @@
           "as": "কেপ্টেইন হলৰয়েড"
         },
         {
+          "en": "J. D. Anderson",
+          "as": "জে. ডি. এণ্ডাৰচন"
+        },
+        {
           "en": "Moffat Mills",
           "as": "মফাট মিলছ"
         },
         {
           "en": "J. W. Quinton",
           "as": "জে. ডব্লিউ. কুইণ্টন"
-        },
-        {
-          "en": "J. D. Anderson",
-          "as": "জে. ডি. এণ্ডাৰচন"
         }
       ],
       "answer": 0
@@ -97,28 +97,36 @@
       "as": "মণিৰাম দেৱানৰ সৈতে কাক ফাঁচি দিয়া হৈছিল?",
       "options": [
         {
-          "en": "Piyoli Barua",
-          "as": "পিয়লি বৰুৱা"
-        },
-        {
           "en": "Kandarpeswar Singha",
           "as": "কন্দৰ্পেশ্বৰ সিংহ"
         },
         {
-          "en": "Madhu Mallik",
-          "as": "মধু মল্লিক"
+          "en": "Piyoli Barua",
+          "as": "পিয়লি বৰুৱা"
         },
         {
           "en": "Bahadur Shah Zafar",
           "as": "বাহাদুৰ শ্বাহ জাফৰ"
+        },
+        {
+          "en": "Madhu Mallik",
+          "as": "মধু মল্লিক"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "On which date were Maniram Dewan and Piyoli Barua hanged?",
       "as": "মণিৰাম দেৱান আৰু পিয়লি বৰুৱাক কোন তাৰিখে ফাঁচি দিয়া হৈছিল?",
       "options": [
+        {
+          "en": "28 January 1894",
+          "as": "২৮ জানুৱাৰী ১৮৯৪"
+        },
+        {
+          "en": "17 September 1861",
+          "as": "১৭ ছেপ্টেম্বৰ ১৮৬১"
+        },
         {
           "en": "26 February 1858",
           "as": "২৬ ফেব্ৰুৱাৰী ১৮৫৮"
@@ -126,40 +134,32 @@
         {
           "en": "10 May 1857",
           "as": "১০ মে’ ১৮৫৭"
-        },
-        {
-          "en": "17 September 1861",
-          "as": "১৭ ছেপ্টেম্বৰ ১৮৬১"
-        },
-        {
-          "en": "28 January 1894",
-          "as": "২৮ জানুৱাৰী ১৮৯৪"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "One major cause of the failure of the revolt of 1857 in Assam was—",
       "as": "অসমত ১৮৫৭ৰ বিদ্ৰোহ ব্যৰ্থ হোৱাৰ এটা মুখ্য কাৰণ আছিল—",
       "options": [
         {
-          "en": "Small number of rebels and lack of support",
-          "as": "বিদ্ৰোহীৰ সংখ্যা কম আৰু সমৰ্থনৰ অভাৱ"
-        },
-        {
-          "en": "British gave independence",
-          "as": "ব্ৰিটিছে স্বাধীনতা দিছিল"
+          "en": "All soldiers joined the revolt",
+          "as": "সকলো সৈন্যই বিদ্ৰোহত যোগ দিছিল"
         },
         {
           "en": "Assam had no revenue system",
           "as": "অসমত ৰাজহ ব্যৱস্থা নাছিল"
         },
         {
-          "en": "All soldiers joined the revolt",
-          "as": "সকলো সৈন্যই বিদ্ৰোহত যোগ দিছিল"
+          "en": "British gave independence",
+          "as": "ব্ৰিটিছে স্বাধীনতা দিছিল"
+        },
+        {
+          "en": "Small number of rebels and lack of support",
+          "as": "বিদ্ৰোহীৰ সংখ্যা কম আৰু সমৰ্থনৰ অভাৱ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The revolt of 1857 in Assam was important because—",
@@ -170,16 +170,16 @@
           "as": "অসম এটা সৰ্বভাৰতীয় ঘটনাৰ সৈতে জড়িত হৈছিল"
         },
         {
-          "en": "It immediately ended British rule",
-          "as": "ই তৎক্ষণাত ব্ৰিটিছ শাসন শেষ কৰিছিল"
+          "en": "It abolished all taxes",
+          "as": "ই সকলো কৰ বিলোপ কৰিছিল"
         },
         {
           "en": "It created Pakistan",
           "as": "ই পাকিস্তান সৃষ্টি কৰিছিল"
         },
         {
-          "en": "It abolished all taxes",
-          "as": "ই সকলো কৰ বিলোপ কৰিছিল"
+          "en": "It immediately ended British rule",
+          "as": "ই তৎক্ষণাত ব্ৰিটিছ শাসন শেষ কৰিছিল"
         }
       ],
       "answer": 0
@@ -189,36 +189,28 @@
       "as": "১৮৫৭ৰ বিদ্ৰোহৰ পিছত ইষ্ট ইণ্ডিয়া কোম্পানীৰ ক্ষমতা কাৰ ওচৰলৈ হস্তান্তৰিত হৈছিল?",
       "options": [
         {
-          "en": "Queen of England",
-          "as": "ইংলেণ্ডৰ ৰাণী"
-        },
-        {
-          "en": "Indian National Congress",
-          "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ"
-        },
-        {
           "en": "Ahom monarchy",
           "as": "আহোম ৰাজতন্ত্ৰ"
         },
         {
+          "en": "Queen of England",
+          "as": "ইংলেণ্ডৰ ৰাণী"
+        },
+        {
           "en": "Muslim League",
           "as": "মুছলিম লীগ"
+        },
+        {
+          "en": "Indian National Congress",
+          "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which taxes were introduced in Assam in 1860?",
       "as": "১৮৬০ চনত অসমত কোন কৰসমূহ প্ৰৱৰ্তন কৰা হৈছিল?",
       "options": [
-        {
-          "en": "Income Tax, License Tax and Grazing Tax",
-          "as": "আয়কৰ, লাইচেন্স কৰ আৰু চৰণীয়া কৰ"
-        },
-        {
-          "en": "Salt tax only",
-          "as": "কেৱল নিমখ কৰ"
-        },
         {
           "en": "House tax only",
           "as": "কেৱল ঘৰ কৰ"
@@ -226,32 +218,40 @@
         {
           "en": "No tax",
           "as": "কোনো কৰ নহয়"
+        },
+        {
+          "en": "Income Tax, License Tax and Grazing Tax",
+          "as": "আয়কৰ, লাইচেন্স কৰ আৰু চৰণীয়া কৰ"
+        },
+        {
+          "en": "Salt tax only",
+          "as": "কেৱল নিমখ কৰ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The peasant revolts in Assam were led by—",
       "as": "অসমৰ কৃষক বিদ্ৰোহসমূহৰ নেতৃত্ব কোনে দিছিল?",
       "options": [
         {
-          "en": "Raij Mels",
-          "as": "ৰাইজ মেল"
+          "en": "Simon Commission",
+          "as": "সাইমন কমিশন"
         },
         {
           "en": "Municipal Boards",
           "as": "পৌৰসভা"
         },
         {
-          "en": "Simon Commission",
-          "as": "সাইমন কমিশন"
-        },
-        {
           "en": "Cabinet Mission",
           "as": "কেবিনেট মিছন"
+        },
+        {
+          "en": "Raij Mels",
+          "as": "ৰাইজ মেল"
         }
       ],
-      "answer": 0
+      "answer": 3
     }
   ]
 }

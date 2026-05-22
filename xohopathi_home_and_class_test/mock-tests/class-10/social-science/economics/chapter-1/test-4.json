@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Money and Banking",
+    "as": "অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which was the first bank in India mentioned in the chapter?",
+      "as": "অধ্যায়ত উল্লেখ কৰা ভাৰতৰ প্ৰথম বেংক কোনটো?",
+      "options": [
+        {
+          "en": "Reserve Bank of India",
+          "as": "ৰিজাৰ্ভ বেংক অৱ ইণ্ডিয়া"
+        },
+        {
+          "en": "Gauhati Bank",
+          "as": "গৌহাটি বেংক"
+        },
+        {
+          "en": "State Bank of India",
+          "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
+        },
+        {
+          "en": "Bank of Hindustan",
+          "as": "বেংক অৱ হিন্দুস্তান"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which was the first bank in Assam set up entirely on local capital mobilisation?",
+      "as": "অসমত সম্পূৰ্ণ স্থানীয় পুঁজি সংগ্ৰহেৰে স্থাপিত প্ৰথম বেংক কোনটো আছিল?",
+      "options": [
+        {
+          "en": "Gauhati Bank",
+          "as": "গৌহাটি বেংক"
+        },
+        {
+          "en": "RBI",
+          "as": "ৰিজাৰ্ভ বেংক অৱ ইণ্ডিয়া"
+        },
+        {
+          "en": "NABARD",
+          "as": "নাবাৰ্ড"
+        },
+        {
+          "en": "Bank of Hindustan",
+          "as": "বেংক অৱ হিন্দুস্তান"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which bank is the head of all banks in a country?",
+      "as": "দেশৰ সকলো বেংকৰ মুৰব্বী কোন বেংক?",
+      "options": [
+        {
+          "en": "RRB",
+          "as": "গ্ৰামীণ আঞ্চলিক বেংক"
+        },
+        {
+          "en": "Central Bank",
+          "as": "কেন্দ্ৰীয় বেংক"
+        },
+        {
+          "en": "Commercial Bank",
+          "as": "বাণিজ্যিক বেংক"
+        },
+        {
+          "en": "NBFI",
+          "as": "অ-বেংকিং বিত্তীয় প্ৰতিষ্ঠান"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which is India's Central Bank?",
+      "as": "ভাৰতৰ কেন্দ্ৰীয় বেংক কোনটো?",
+      "options": [
+        {
+          "en": "Gauhati Bank",
+          "as": "গৌহাটি বেংক"
+        },
+        {
+          "en": "NABARD",
+          "as": "নাবাৰ্ড"
+        },
+        {
+          "en": "Reserve Bank of India",
+          "as": "ৰিজাৰ্ভ বেংক অৱ ইণ্ডিয়া"
+        },
+        {
+          "en": "SIDBI",
+          "as": "ছিডবি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "In which year was the Reserve Bank of India set up?",
+      "as": "ৰিজাৰ্ভ বেংক অৱ ইণ্ডিয়া কোন বছৰত স্থাপন হৈছিল?",
+      "options": [
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1950",
+          "as": "১৯৫০"
+        },
+        {
+          "en": "1982",
+          "as": "১৯৮২"
+        },
+        {
+          "en": "1935",
+          "as": "১৯৩৫"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which is a function of the Central Bank?",
+      "as": "কেন্দ্ৰীয় বেংকৰ এটা কাৰ্য কোনটো?",
+      "options": [
+        {
+          "en": "Issue of currency",
+          "as": "মুদ্ৰা জাৰি কৰা"
+        },
+        {
+          "en": "Building roads directly",
+          "as": "পথ পোনপটীয়াকৈ নিৰ্মাণ কৰা"
+        },
+        {
+          "en": "Preparing school syllabus",
+          "as": "বিদ্যালয় পাঠ্যক্ৰম প্ৰস্তুত কৰা"
+        },
+        {
+          "en": "Conducting village elections",
+          "as": "গাঁও নিৰ্বাচন অনুষ্ঠিত কৰা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Central Bank is called the bankers' bank because it does what?",
+      "as": "কেন্দ্ৰীয় বেংকক বেংকৰ বেংক কোৱা হয় কিয়?",
+      "options": [
+        {
+          "en": "It collects school fees only",
+          "as": "ই কেৱল বিদ্যালয়ৰ মাচুল সংগ্ৰহ কৰে"
+        },
+        {
+          "en": "It examines accounts and helps member banks in crisis",
+          "as": "ই সদস্য বেংকৰ হিচাপ পৰীক্ষা কৰে আৰু সংকটত সহায় কৰে"
+        },
+        {
+          "en": "It abolishes all deposits",
+          "as": "ই সকলো জমা বিলুপ্ত কৰে"
+        },
+        {
+          "en": "It sells vegetables to banks",
+          "as": "ই বেংকক শাক-পাচলি বিক্ৰী কৰে"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which institution is the custodian of foreign exchange reserves?",
+      "as": "বিদেশী মুদ্ৰা ভাণ্ডাৰৰ ৰক্ষক কোন প্ৰতিষ্ঠান?",
+      "options": [
+        {
+          "en": "School board",
+          "as": "বিদ্যালয় ব'ৰ্ড"
+        },
+        {
+          "en": "Panchayat",
+          "as": "পঞ্চায়ত"
+        },
+        {
+          "en": "Central Bank",
+          "as": "কেন্দ্ৰীয় বেংক"
+        },
+        {
+          "en": "Municipality",
+          "as": "নগৰপালিকা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is priority sector lending fixed at according to the chapter?",
+      "as": "অধ্যায় অনুসৰি প্ৰাধান্য খণ্ড ঋণদান কিমান স্থিৰ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "100 percent of total bank deposits",
+          "as": "বেংকৰ মুঠ জমাৰ ১০০ শতাংশ"
+        },
+        {
+          "en": "5 percent of total bank deposits",
+          "as": "বেংকৰ মুঠ জমাৰ ৫ শতাংশ"
+        },
+        {
+          "en": "10 percent of total bank deposits",
+          "as": "বেংকৰ মুঠ জমাৰ ১০ শতাংশ"
+        },
+        {
+          "en": "40 percent of total bank deposits",
+          "as": "বেংকৰ মুঠ জমাৰ ৪০ শতাংশ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which are three types of savings/deposits in commercial banks?",
+      "as": "বাণিজ্যিক বেংকৰ তিনিধৰণৰ সঞ্চয় বা জমা কোনবোৰ?",
+      "options": [
+        {
+          "en": "Current, fixed/time and savings deposit",
+          "as": "চলতি, স্থায়ী/সময়সীমাবদ্ধ আৰু সঞ্চয় জমা"
+        },
+        {
+          "en": "Only current deposits",
+          "as": "কেৱল চলতি জমা"
+        },
+        {
+          "en": "Gold, land and goats",
+          "as": "সোণ, মাটি আৰু ছাগলী"
+        },
+        {
+          "en": "Tax, rent and profit",
+          "as": "কৰ, ভাড়া আৰু লাভ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

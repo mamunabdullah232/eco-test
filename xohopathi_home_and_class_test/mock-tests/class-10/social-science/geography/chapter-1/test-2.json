@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 1 - Economic Geography: Subject Matter and Resource",
-    "as": "অধ্যায় 1 - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
+    "as": "অধ্যায় ১ - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
   },
   "test": {
     "en": "Test 2",
-    "as": "????? ?"
+    "as": "টেষ্ট ২"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,16 +28,16 @@
       "as": "পাৰম্পৰিক অৰ্থনৈতিক ভূগোল মুখ্যতঃ প্ৰথম কেইটা প্ৰশ্নৰ সৈতে জড়িত?",
       "options": [
         {
-          "en": "Two questions",
-          "as": "দুটা প্ৰশ্ন"
+          "en": "Four questions",
+          "as": "চাৰিটা প্ৰশ্ন"
         },
         {
           "en": "Three questions",
           "as": "তিনিটা প্ৰশ্ন"
         },
         {
-          "en": "Four questions",
-          "as": "চাৰিটা প্ৰশ্ন"
+          "en": "Two questions",
+          "as": "দুটা প্ৰশ্ন"
         },
         {
           "en": "Five questions",
@@ -55,32 +55,24 @@
           "as": "প্ৰাচীন ভূগোল"
         },
         {
-          "en": "Modern economic geography",
-          "as": "আধুনিক অৰ্থনৈতিক ভূগোল"
-        },
-        {
           "en": "Political geography",
           "as": "ৰাজনৈতিক ভূগোল"
+        },
+        {
+          "en": "Modern economic geography",
+          "as": "আধুনিক অৰ্থনৈতিক ভূগোল"
         },
         {
           "en": "Physical geography",
           "as": "ভৌতিক ভূগোল"
         }
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "en": "Who is considered the father of modern Economic Geography?",
       "as": "আধুনিক অৰ্থনৈতিক ভূগোলৰ পিতৃ হিচাপে কাক গণ্য কৰা হয়?",
       "options": [
-        {
-          "en": "Peter Haggett",
-          "as": "পিটাৰ হেগেট"
-        },
-        {
-          "en": "George Chisholm",
-          "as": "জর্জ চিশলম"
-        },
         {
           "en": "Zimmermann",
           "as": "জিমাৰমেন"
@@ -88,9 +80,17 @@
         {
           "en": "Julian Huxley",
           "as": "জুলিয়ান হাক্সলে"
+        },
+        {
+          "en": "Peter Haggett",
+          "as": "পিটাৰ হেগেট"
+        },
+        {
+          "en": "George Chisholm",
+          "as": "জর্জ চিশলম"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "According to George Chisholm, the main objective of Economic Geography is to determine the economic development—",
@@ -101,12 +101,12 @@
           "as": "প্ৰবণতা আৰু দিশ"
         },
         {
-          "en": "Religious condition of a place",
-          "as": "ধর্মীয় অৱস্থা"
-        },
-        {
           "en": "Climate of a place",
           "as": "জলবায়ু"
+        },
+        {
+          "en": "Religious condition of a place",
+          "as": "ধর্মীয় অৱস্থা"
         },
         {
           "en": "Population only",
@@ -120,43 +120,43 @@
       "as": "অৰ্থনৈতিক ভূগোলে মূলতঃ মানুহৰ উৎপাদনমূলক কাৰ্যকলাপ আৰু কিহৰ মাজৰ সম্পৰ্ক অধ্যয়ন কৰে?",
       "options": [
         {
-          "en": "Environmental conditions",
-          "as": "পৰিৱেশীয় অৱস্থা"
-        },
-        {
-          "en": "Political parties",
-          "as": "ৰাজনৈতিক দল"
-        },
-        {
           "en": "Literature",
           "as": "সাহিত্য"
         },
         {
+          "en": "Environmental conditions",
+          "as": "পৰিৱেশীয় অৱস্থা"
+        },
+        {
           "en": "Solar system",
           "as": "সৌৰজগত"
+        },
+        {
+          "en": "Political parties",
+          "as": "ৰাজনৈতিক দল"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The human activity through which man collects resources from nature is called—",
       "as": "মানুহে প্ৰকৃতিৰ পৰা সম্পদ সংগ্ৰহ কৰা কাৰ্যকলাপক কি বোলে?",
       "options": [
         {
-          "en": "Secondary occupation",
-          "as": "গৌণ বৃত্তি"
+          "en": "Quaternary occupation",
+          "as": "চতুৰ্থক বৃত্তি"
         },
         {
-          "en": "Tertiary occupation",
-          "as": "তৃতীয়ক বৃত্তি"
+          "en": "Secondary occupation",
+          "as": "গৌণ বৃত্তি"
         },
         {
           "en": "Primary occupation",
           "as": "প্ৰাথমিক বৃত্তি"
         },
         {
-          "en": "Quaternary occupation",
-          "as": "চতুৰ্থক বৃত্তি"
+          "en": "Tertiary occupation",
+          "as": "তৃতীয়ক বৃত্তি"
         }
       ],
       "answer": 2
@@ -166,23 +166,23 @@
       "as": "তলৰ কোনটো প্ৰাথমিক বৃত্তি?",
       "options": [
         {
-          "en": "Banking",
-          "as": "বেংকিং"
-        },
-        {
-          "en": "Agriculture",
-          "as": "কৃষি"
+          "en": "Administration",
+          "as": "প্ৰশাসন"
         },
         {
           "en": "Tourism",
           "as": "পৰ্যটন"
         },
         {
-          "en": "Administration",
-          "as": "প্ৰশাসন"
+          "en": "Banking",
+          "as": "বেংকিং"
+        },
+        {
+          "en": "Agriculture",
+          "as": "কৃষি"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "Fishing is an example of—",
@@ -197,12 +197,12 @@
           "as": "গৌণ বৃত্তি"
         },
         {
-          "en": "Tertiary occupation",
-          "as": "তৃতীয়ক বৃত্তি"
-        },
-        {
           "en": "Quaternary occupation",
           "as": "চতুৰ্থক বৃত্তি"
+        },
+        {
+          "en": "Tertiary occupation",
+          "as": "তৃতীয়ক বৃত্তি"
         }
       ],
       "answer": 0
@@ -212,20 +212,20 @@
       "as": "উৎপাদন/নিৰ্মাণ কাৰ্য কিহৰ উদাহৰণ?",
       "options": [
         {
-          "en": "Primary occupation",
-          "as": "প্ৰাথমিক বৃত্তি"
+          "en": "Quaternary occupation",
+          "as": "চতুৰ্থক বৃত্তি"
         },
         {
           "en": "Secondary occupation",
           "as": "গৌণ বৃত্তি"
         },
         {
-          "en": "Tertiary occupation",
-          "as": "তৃতীয়ক বৃত্তি"
+          "en": "Primary occupation",
+          "as": "প্ৰাথমিক বৃত্তি"
         },
         {
-          "en": "Quaternary occupation",
-          "as": "চতুৰ্থক বৃত্তি"
+          "en": "Tertiary occupation",
+          "as": "তৃতীয়ক বৃত্তি"
         }
       ],
       "answer": 1
@@ -235,12 +235,12 @@
       "as": "পৰিবহণ আৰু যোগাযোগ কিহৰ উদাহৰণ?",
       "options": [
         {
-          "en": "Primary occupation",
-          "as": "প্ৰাথমিক বৃত্তি"
-        },
-        {
           "en": "Secondary occupation",
           "as": "গৌণ বৃত্তি"
+        },
+        {
+          "en": "Primary occupation",
+          "as": "প্ৰাথমিক বৃত্তি"
         },
         {
           "en": "Tertiary occupation",

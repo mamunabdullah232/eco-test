@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 3 - Anti-British Rising and Peasant Revolts in Assam",
-    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ-বিৰোধী উত্থান আৰু কৃষক বিদ্ৰোহ"
+    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ বিৰোধী বিদ্ৰোহ আৰু কৃষক আন্দোলন"
   },
   "test": {
     "en": "Test 4",
-    "as": "????? ?"
+    "as": "টেষ্ট ৪"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,31 +28,31 @@
       "as": "ৰঙিয়াৰ কৃষক বিদ্ৰোহ কেতিয়া আৰম্ভ হৈছিল?",
       "options": [
         {
-          "en": "24 December 1893",
-          "as": "২৪ ডিচেম্বৰ ১৮৯৩"
-        },
-        {
           "en": "10 January 1894",
           "as": "১০ জানুৱাৰী ১৮৯৪"
         },
         {
-          "en": "21 January 1894",
-          "as": "২১ জানুৱাৰী ১৮৯৪"
-        },
-        {
           "en": "28 January 1894",
           "as": "২৮ জানুৱাৰী ১৮৯৪"
+        },
+        {
+          "en": "24 December 1893",
+          "as": "২৪ ডিচেম্বৰ ১৮৯৩"
+        },
+        {
+          "en": "21 January 1894",
+          "as": "২১ জানুৱাৰী ১৮৯৪"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "What campaign did peasants of Rangia, Lachima and Patharughat decide to follow?",
       "as": "ৰঙিয়া, লছিমা আৰু পাথৰুঘাটৰ কৃষকে কোন কাৰ্যসূচী গ্ৰহণ কৰিছিল?",
       "options": [
         {
-          "en": "No-tax campaign",
-          "as": "কৰ নিদিয়া আন্দোলন"
+          "en": "Khilafat campaign",
+          "as": "খিলাফত আন্দোলন"
         },
         {
           "en": "Salt-making campaign",
@@ -63,11 +63,11 @@
           "as": "পৃথক নিৰ্বাচন আন্দোলন"
         },
         {
-          "en": "Khilafat campaign",
-          "as": "খিলাফত আন্দোলন"
+          "en": "No-tax campaign",
+          "as": "কৰ নিদিয়া আন্দোলন"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who ordered firing on peasants at Rangia on 10 January 1894?",
@@ -78,16 +78,16 @@
           "as": "ডেপুটি কমিশনাৰ মেককেব"
         },
         {
-          "en": "Lieutenant Singer",
-          "as": "লেফটেনেণ্ট ছিংগাৰ"
-        },
-        {
           "en": "Captain Holroyd",
           "as": "কেপ্টেইন হলৰয়েড"
         },
         {
           "en": "Ukiang Nongbah",
           "as": "উকিয়াং নংবা"
+        },
+        {
+          "en": "Lieutenant Singer",
+          "as": "লেফটেনেণ্ট ছিংগাৰ"
         }
       ],
       "answer": 0
@@ -97,12 +97,12 @@
       "as": "লছিমা অঞ্চলৰ সৰ্ববৃহৎ ৰাইজ মেল ক’ত হৈছিল?",
       "options": [
         {
-          "en": "Panagaon sapori",
-          "as": "পানাগাঁও চাপৰি"
-        },
-        {
           "en": "Jowai",
           "as": "জোৱাই"
+        },
+        {
+          "en": "Panagaon sapori",
+          "as": "পানাগাঁও চাপৰি"
         },
         {
           "en": "Maibang",
@@ -113,43 +113,35 @@
           "as": "কোহিমা"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The peasant revolt of Lachima is associated with which date?",
       "as": "লছিমাৰ কৃষক বিদ্ৰোহ কোন তাৰিখৰ সৈতে জড়িত?",
       "options": [
         {
-          "en": "21 January 1894",
-          "as": "২১ জানুৱাৰী ১৮৯৪"
+          "en": "17 January 1862",
+          "as": "১৭ জানুৱাৰী ১৮৬২"
         },
         {
           "en": "24 December 1893",
           "as": "২৪ ডিচেম্বৰ ১৮৯৩"
         },
         {
-          "en": "17 January 1862",
-          "as": "১৭ জানুৱাৰী ১৮৬২"
+          "en": "21 January 1894",
+          "as": "২১ জানুৱাৰী ১৮৯৪"
         },
         {
           "en": "16 October 1905",
           "as": "১৬ অক্টোবৰ ১৯০৫"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Patharughat peasant assembly was planned for—",
       "as": "পাথৰুঘাটত কৃষক সভা কোন দিনকেইটাত অনুষ্ঠিত কৰাৰ পৰিকল্পনা আছিল?",
       "options": [
-        {
-          "en": "26-28 January 1894",
-          "as": "২৬-২৮ জানুৱাৰী ১৮৯৪"
-        },
-        {
-          "en": "15-17 October 1861",
-          "as": "১৫-১৭ অক্টোবৰ ১৮৬১"
-        },
         {
           "en": "7-9 September 1857",
           "as": "৭-৯ ছেপ্টেম্বৰ ১৮৫৭"
@@ -157,9 +149,17 @@
         {
           "en": "1-3 June 1947",
           "as": "১-৩ জুন ১৯৪৭"
+        },
+        {
+          "en": "15-17 October 1861",
+          "as": "১৫-১৭ অক্টোবৰ ১৮৬১"
+        },
+        {
+          "en": "26-28 January 1894",
+          "as": "২৬-২৮ জানুৱাৰী ১৮৯৪"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who was the Deputy Commissioner during the Patharughat revolt?",
@@ -189,36 +189,28 @@
       "as": "অচৰকাৰী তথ্য অনুসৰি পাথৰুঘাটত কিমানজন কৃষক নিহত হৈছিল?",
       "options": [
         {
+          "en": "37",
+          "as": "৩৭"
+        },
+        {
           "en": "140",
           "as": "১৪০"
         },
         {
           "en": "15",
           "as": "১৫"
-        },
-        {
-          "en": "37",
-          "as": "৩৭"
         },
         {
           "en": "6",
           "as": "৬"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "According to official records, how many peasants were killed at Patharughat?",
       "as": "চৰকাৰী তথ্য অনুসৰি পাথৰুঘাটত কিমানজন কৃষক নিহত হৈছিল?",
       "options": [
-        {
-          "en": "15",
-          "as": "১৫"
-        },
-        {
-          "en": "140",
-          "as": "১৪০"
-        },
         {
           "en": "150",
           "as": "১৫০"
@@ -226,17 +218,25 @@
         {
           "en": "3000",
           "as": "৩০০০"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "140",
+          "as": "১৪০"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Jaintia Kingdom passed into British hands in—",
       "as": "জয়ন্তীয়া ৰাজ্য ব্ৰিটিছৰ হাতলৈ কোন চনত গৈছিল?",
       "options": [
         {
-          "en": "1835",
-          "as": "১৮৩৫"
+          "en": "1891",
+          "as": "১৮৯১"
         },
         {
           "en": "1862",
@@ -247,11 +247,11 @@
           "as": "১৮৮১"
         },
         {
-          "en": "1891",
-          "as": "১৮৯১"
+          "en": "1835",
+          "as": "১৮৩৫"
         }
       ],
-      "answer": 0
+      "answer": 3
     }
   ]
 }

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 2 - International Organization - UNO and Others",
+    "as": "অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ আৰু অন্যান্য"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "In 1963, temporary members of the Security Council were increased to how many?",
+      "as": "১৯৬৩ চনত নিৰাপত্তা পৰিষদৰ অস্থায়ী সদস্য সংখ্যা কিমানলৈ বৃদ্ধি কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Fifty-four",
+          "as": "চৌৱন্নজন"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচজন"
+        },
+        {
+          "en": "Ten",
+          "as": "দহজন"
+        },
+        {
+          "en": "Six",
+          "as": "ছয়জন"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which UN organ deals with international economic, social, cultural, educational and health problems?",
+      "as": "আন্তঃৰাষ্ট্ৰীয় অৰ্থনৈতিক, সামাজিক, সাংস্কৃতিক, শিক্ষামূলক আৰু স্বাস্থ্য সমস্যাৰ সৈতে কোন ৰাষ্ট্ৰসংঘ অংগ জড়িত?",
+      "options": [
+        {
+          "en": "Secretariat",
+          "as": "সচিবালয়"
+        },
+        {
+          "en": "Trusteeship Council",
+          "as": "ন्यास পৰিষদ"
+        },
+        {
+          "en": "Security Council",
+          "as": "নিৰাপত্তা পৰিষদ"
+        },
+        {
+          "en": "Economic and Social Council",
+          "as": "অৰ্থনৈতিক আৰু সামাজিক পৰিষদ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "How many members did ECOSOC finally have after the increase in 1973?",
+      "as": "১৯৭৩ চনত বৃদ্ধি হোৱাৰ পিছত ECOSOCৰ সদস্য সংখ্যা কিমান হৈছিল?",
+      "options": [
+        {
+          "en": "54",
+          "as": "৫৪"
+        },
+        {
+          "en": "27",
+          "as": "২৭"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which Article of the UN Charter refers to the Trusteeship Council?",
+      "as": "ৰাষ্ট্ৰসংঘ চনদৰ কোন অনুচ্ছেদত ন্যাস পৰিষদৰ কথা উল্লেখ আছে?",
+      "options": [
+        {
+          "en": "Article 55",
+          "as": "অনুচ্ছেদ ৫৫"
+        },
+        {
+          "en": "Article 76",
+          "as": "অনুচ্ছেদ ৭৬"
+        },
+        {
+          "en": "Article 97",
+          "as": "অনুচ্ছেদ ৯৭"
+        },
+        {
+          "en": "Article 1",
+          "as": "অনুচ্ছেদ ১"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which is the judicial organ of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ ন্যায়িক অংগ কোনটো?",
+      "options": [
+        {
+          "en": "Secretariat",
+          "as": "সচিবালয়"
+        },
+        {
+          "en": "Security Council",
+          "as": "নিৰাপত্তা পৰিষদ"
+        },
+        {
+          "en": "International Court of Justice",
+          "as": "আন্তঃৰাষ্ট্ৰীয় ন্যায়ালয়"
+        },
+        {
+          "en": "General Assembly",
+          "as": "সাধাৰণ সভা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How many judges form the International Court of Justice?",
+      "as": "আন্তঃৰাষ্ট্ৰীয় ন্যায়ালয় কিমানজন ন্যায়াধীশেৰে গঠিত?",
+      "options": [
+        {
+          "en": "54",
+          "as": "৫৪"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which organ is described as the heart of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ হৃদয় বুলি কোন অংগক কোৱা হয়?",
+      "options": [
+        {
+          "en": "Secretariat",
+          "as": "সচিবালয়"
+        },
+        {
+          "en": "General Assembly",
+          "as": "সাধাৰণ সভা"
+        },
+        {
+          "en": "Trusteeship Council",
+          "as": "ন್ಯಾಸ পৰিষদ"
+        },
+        {
+          "en": "Security Council",
+          "as": "নিৰাপত্তা পৰিষদ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "According to Article 97, who appoints the Secretary-General of the UNO?",
+      "as": "অনুচ্ছেদ ৯৭ অনুসৰি ৰাষ্ট্ৰসংঘৰ মহাসচিবক কোনে নিযুক্তি দিয়ে?",
+      "options": [
+        {
+          "en": "Only NATO",
+          "as": "কেৱল নাটো"
+        },
+        {
+          "en": "General Assembly with recommendation of the Security Council",
+          "as": "নিৰাপত্তা পৰিষদৰ পৰামৰ্শত সাধাৰণ সভা"
+        },
+        {
+          "en": "Only UNICEF",
+          "as": "কেৱল ইউনিচেফ"
+        },
+        {
+          "en": "Only the ICJ",
+          "as": "কেৱল আন্তঃৰাষ্ট্ৰীয় ন্যায়ালয়"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What is the tenure of the UN Secretary-General according to the chapter?",
+      "as": "অধ্যায় অনুসৰি ৰাষ্ট্ৰসংঘৰ মহাসচিবৰ কাৰ্যকাল কিমান?",
+      "options": [
+        {
+          "en": "Three years",
+          "as": "তিনি বছৰ"
+        },
+        {
+          "en": "Ten years",
+          "as": "দহ বছৰ"
+        },
+        {
+          "en": "Five years",
+          "as": "পাঁচ বছৰ"
+        },
+        {
+          "en": "One year",
+          "as": "এবছৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Who was the first Secretary-General of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ প্ৰথম মহাসচিব কোন আছিল?",
+      "options": [
+        {
+          "en": "Boutros Boutros-Ghali of Egypt",
+          "as": "ইজিপ্তৰ Boutros Boutros-Ghali"
+        },
+        {
+          "en": "Kofi Annan of Ghana",
+          "as": "ঘানাৰ Kofi Annan"
+        },
+        {
+          "en": "Antonio Guterres of Portugal",
+          "as": "পৰ্তুগালৰ Antonio Guterres"
+        },
+        {
+          "en": "Trygve Halvdan Lie of Norway",
+          "as": "নৰৱেৰ Trygve Halvdan Lie"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

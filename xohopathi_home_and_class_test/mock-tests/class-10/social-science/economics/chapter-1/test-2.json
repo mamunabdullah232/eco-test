@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Money and Banking",
+    "as": "অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট ২"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Today's paper money is mainly what type according to the chapter?",
+      "as": "অধ্যায় অনুসৰি আজিৰ কাগজী মুদ্ৰা মুখ্যত কোন ধৰণৰ?",
+      "options": [
+        {
+          "en": "Inconvertible or non-representative paper money",
+          "as": "অৰূপান্তৰযোগ্য বা অ-প্ৰতিনিধিত্বমূলক কাগজী মুদ্ৰা"
+        },
+        {
+          "en": "Commodity money only",
+          "as": "কেৱল সামগ্ৰী মুদ্ৰা"
+        },
+        {
+          "en": "Gold certificate only",
+          "as": "কেৱল সোণৰ প্ৰমাণপত্ৰ"
+        },
+        {
+          "en": "Animal money",
+          "as": "প্ৰাণী মুদ্ৰা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Why is a cheque not money according to the chapter?",
+      "as": "অধ্যায় অনুসৰি চেক মুদ্ৰা নহয় কিয়?",
+      "options": [
+        {
+          "en": "It is made of metal",
+          "as": "ই ধাতুৰে তৈয়াৰ"
+        },
+        {
+          "en": "It lacks general acceptability as a medium of exchange",
+          "as": "বিনিময় মাধ্যম হিচাপে ইয়াৰ সৰ্বজনীন গ্ৰহণযোগ্যতা নাই"
+        },
+        {
+          "en": "It cannot be written",
+          "as": "ই লিখিব নোৱাৰি"
+        },
+        {
+          "en": "It is always legal tender",
+          "as": "ই সদায় আইনি মুদ্ৰা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "According to Geoffrey Crowther, what is money?",
+      "as": "জেফ্ৰি ক্ৰাউদাৰৰ মতে মুদ্ৰা কি?",
+      "options": [
+        {
+          "en": "Only bank loans",
+          "as": "কেৱল বেংক ঋণ"
+        },
+        {
+          "en": "Only tax receipts",
+          "as": "কেৱল কৰ ৰচিদ"
+        },
+        {
+          "en": "Anything generally acceptable as a medium of exchange",
+          "as": "বিনিময় মাধ্যম হিচাপে সাধাৰণভাৱে গ্ৰহণযোগ্য যিকোনো বস্তু"
+        },
+        {
+          "en": "Only gold coins",
+          "as": "কেৱল সোণৰ মুদ্ৰা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is the most important characteristic of money?",
+      "as": "মুদ্ৰাৰ আটাইতকৈ গুৰুত্বপূর্ণ বৈশিষ্ট্য কোনটো?",
+      "options": [
+        {
+          "en": "Lack of divisibility",
+          "as": "বিভাজ্যতাৰ অভাৱ"
+        },
+        {
+          "en": "Perishability",
+          "as": "নষ্টশীলতা"
+        },
+        {
+          "en": "Heavy weight",
+          "as": "ভাৰী ওজন"
+        },
+        {
+          "en": "General acceptability",
+          "as": "সাধাৰণ গ্ৰহণযোগ্যতা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "What does cognizability of money mean?",
+      "as": "মুদ্ৰাৰ চিনাক্তযোগ্যতাৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Money should be easy to identify",
+          "as": "মুদ্ৰা সহজে চিনিব পৰা হ'ব লাগে"
+        },
+        {
+          "en": "Money should be difficult to transfer",
+          "as": "মুদ্ৰা স্থানান্তৰ কৰিবলৈ কঠিন হ'ব লাগে"
+        },
+        {
+          "en": "Money should have unstable value",
+          "as": "মুদ্ৰাৰ মূল্য অস্থিৰ হ'ব লাগে"
+        },
+        {
+          "en": "Money should perish quickly",
+          "as": "মুদ্ৰা সোনকালে নষ্ট হ'ব লাগে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Why must money be durable?",
+      "as": "মুদ্ৰা টেকসই হ'ব লাগে কিয়?",
+      "options": [
+        {
+          "en": "So that it loses all value",
+          "as": "যাতে ই সকলো মূল্য হেৰুৱায়"
+        },
+        {
+          "en": "So that it can serve as a store of value",
+          "as": "ই যাতে মূল্য সংৰক্ষণ কৰিব পাৰে"
+        },
+        {
+          "en": "So that it cannot be saved",
+          "as": "যাতে ই সঞ্চয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "So that it becomes perishable",
+          "as": "যাতে ই নষ্টশীল হয়"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What does homogeneity of money mean?",
+      "as": "মুদ্ৰাৰ একৰূপতাৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Every note should have different size and value",
+          "as": "প্ৰতিখন নোটৰ আকাৰ আৰু মূল্য বেলেগ হ'ব লাগে"
+        },
+        {
+          "en": "Money should not be recognizable",
+          "as": "মুদ্ৰা চিনিব নোৱাৰা হ'ব লাগে"
+        },
+        {
+          "en": "Money of equal value should be identical in all respects",
+          "as": "সমমূল্যৰ মুদ্ৰা সকলো দিশতে একে হ'ব লাগে"
+        },
+        {
+          "en": "Money should be made of animals",
+          "as": "মুদ্ৰা প্ৰাণীৰে তৈয়াৰ হ'ব লাগে"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is liquidity of money?",
+      "as": "মুদ্ৰাৰ তাৰল্য কি?",
+      "options": [
+        {
+          "en": "The age of a bank",
+          "as": "বেংকৰ বয়স"
+        },
+        {
+          "en": "The physical weight of coins",
+          "as": "মুদ্ৰাৰ শাৰীৰিক ওজন"
+        },
+        {
+          "en": "The color of banknotes",
+          "as": "নোটৰ ৰং"
+        },
+        {
+          "en": "Direct and immediate convertibility into goods and services",
+          "as": "সামগ্ৰী আৰু সেৱালৈ প্ৰত্যক্ষ আৰু তৎক্ষণাত ৰূপান্তৰযোগ্যতা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which characteristic allows high-value money to be converted into low-value money?",
+      "as": "উচ্চ মূল্যৰ মুদ্ৰাক নিম্ন মূল্যৰ মুদ্ৰালৈ সলনি কৰিব পৰা বৈশিষ্ট্য কোনটো?",
+      "options": [
+        {
+          "en": "Divisibility",
+          "as": "বিভাজ্যতা"
+        },
+        {
+          "en": "Secrecy",
+          "as": "গোপনীয়তা"
+        },
+        {
+          "en": "Perishability",
+          "as": "নষ্টশীলতা"
+        },
+        {
+          "en": "Scarcity only",
+          "as": "কেৱল দুৰ্লভতা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which function of money makes indirect exchange possible?",
+      "as": "মুদ্ৰাৰ কোন কাৰ্যই পৰোক্ষ বিনিময় সম্ভৱ কৰে?",
+      "options": [
+        {
+          "en": "Standard of deferred payment only",
+          "as": "কেৱল স্থগিত পৰিশোধৰ মান"
+        },
+        {
+          "en": "Medium of exchange",
+          "as": "বিনিময়ৰ মাধ্যম"
+        },
+        {
+          "en": "Legal advice",
+          "as": "আইনি পৰামৰ্শ"
+        },
+        {
+          "en": "Store of value only",
+          "as": "কেৱল মূল্য সংৰক্ষণ"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

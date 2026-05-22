@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 4 - Geography of Assam",
-    "as": "অধ্যায় 4 - অসমৰ ভূগোল"
+    "as": "অধ্যায় ৪ - অসমৰ ভূগোল"
   },
   "test": {
     "en": "Test 1",
-    "as": "????? ?"
+    "as": "টেষ্ট ১"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -36,12 +36,12 @@
           "as": "পশ্চিম ভাৰত"
         },
         {
-          "en": "South India",
-          "as": "দক্ষিণ ভাৰত"
-        },
-        {
           "en": "Central India",
           "as": "মধ্য ভাৰত"
+        },
+        {
+          "en": "South India",
+          "as": "দক্ষিণ ভাৰত"
         }
       ],
       "answer": 0
@@ -51,59 +51,51 @@
       "as": "অসমে ভাৰতৰ মুঠ ক্ষেত্ৰফলৰ কিমান শতাংশ আৱৰি আছে?",
       "options": [
         {
-          "en": "2.4%",
-          "as": "২.৪%"
-        },
-        {
           "en": "7.3%",
           "as": "৭.৩%"
         },
         {
-          "en": "16.3%",
-          "as": "১৬.৩%"
+          "en": "2.4%",
+          "as": "২.৪%"
         },
         {
           "en": "29.9%",
           "as": "২৯.৯%"
+        },
+        {
+          "en": "16.3%",
+          "as": "১৬.৩%"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "According to the 2011 Census, Assam has what percentage of India’s population?",
       "as": "২০১১ চনৰ জনগণনা অনুসৰি, অসমত ভাৰতৰ জনসংখ্যাৰ কিমান শতাংশ আছে?",
       "options": [
         {
-          "en": "2.6%",
-          "as": "২.৬%"
-        },
-        {
           "en": "10.4%",
           "as": "১০.৪%"
         },
         {
-          "en": "20.2%",
-          "as": "২০.২%"
-        },
-        {
           "en": "5.4%",
           "as": "৫.৪%"
+        },
+        {
+          "en": "2.6%",
+          "as": "২.৬%"
+        },
+        {
+          "en": "20.2%",
+          "as": "২০.২%"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "According to 2011 Census, Assam’s total population was about—",
       "as": "২০১১ চনৰ জনগণনা অনুসৰি, অসমৰ মুঠ জনসংখ্যা প্ৰায় কিমান আছিল?",
       "options": [
-        {
-          "en": "312.05 lakh",
-          "as": "৩১২.০৫ লাখ"
-        },
-        {
-          "en": "430 crore",
-          "as": "৪৩০ কোটি"
-        },
         {
           "en": "74 crore",
           "as": "৭৪ কোটি"
@@ -111,9 +103,17 @@
         {
           "en": "565 million",
           "as": "৫৬৫ মিলিয়ন"
+        },
+        {
+          "en": "430 crore",
+          "as": "৪৩০ কোটি"
+        },
+        {
+          "en": "312.05 lakh",
+          "as": "৩১২.০৫ লাখ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "During 2001–2011 in Assam, literacy rate—",
@@ -143,12 +143,12 @@
       "as": "২০০১–২০১১ সময়ছোৱাত অসমত লিংগানুপাত—",
       "options": [
         {
-          "en": "Increased",
-          "as": "বৃদ্ধি পাইছিল"
-        },
-        {
           "en": "Decreased sharply to zero",
           "as": "দ্ৰুতভাৱে শূন্যলৈ হ্ৰাস পাইছিল"
+        },
+        {
+          "en": "Increased",
+          "as": "বৃদ্ধি পাইছিল"
         },
         {
           "en": "Was not counted",
@@ -159,39 +159,35 @@
           "as": "সকলো ঠাইতে অপৰিৱৰ্তিত আছিল"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "During 2001–2011 in Assam, the percentage of rural population—",
       "as": "২০০১–২০১১ সময়ছোৱাত অসমত গ্ৰামাঞ্চলীয় জনসংখ্যাৰ শতাংশ—",
       "options": [
         {
-          "en": "Decreased",
-          "as": "হ্ৰাস পাইছিল"
+          "en": "Became zero",
+          "as": "শূন্য হৈছিল"
         },
         {
           "en": "Increased only",
           "as": "কেৱল বৃদ্ধি পাইছিল"
         },
         {
-          "en": "Became zero",
-          "as": "শূন্য হৈছিল"
+          "en": "Decreased",
+          "as": "হ্ৰাস পাইছিল"
         },
         {
           "en": "Was equal to urban population",
           "as": "চহৰীয়া জনসংখ্যাৰ সমান আছিল"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "During 2001–2011 in Assam, the percentage of urban population—",
       "as": "২০০১–২০১১ সময়ছোৱাত অসমত চহৰীয়া জনসংখ্যাৰ শতাংশ—",
       "options": [
-        {
-          "en": "Increased",
-          "as": "বৃদ্ধি পাইছিল"
-        },
         {
           "en": "Decreased to zero",
           "as": "শূন্যলৈ হ্ৰাস পাইছিল"
@@ -203,9 +199,13 @@
         {
           "en": "Remained exactly the same",
           "as": "সম্পূৰ্ণ একেই আছিল"
+        },
+        {
+          "en": "Increased",
+          "as": "বৃদ্ধি পাইছিল"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "How many Class-I towns were there in Assam as per 2011 Census?",
@@ -216,16 +216,16 @@
           "as": "৭"
         },
         {
-          "en": "6",
-          "as": "৬"
-        },
-        {
           "en": "14",
           "as": "১৪"
         },
         {
           "en": "23",
           "as": "২৩"
+        },
+        {
+          "en": "6",
+          "as": "৬"
         }
       ],
       "answer": 0
@@ -235,23 +235,23 @@
       "as": "২০১১ চনৰ জনগণনা অনুসৰি অসমত Class-II চহৰ কিমানখন আছিল?",
       "options": [
         {
-          "en": "6",
-          "as": "৬"
-        },
-        {
-          "en": "7",
-          "as": "৭"
-        },
-        {
           "en": "51",
           "as": "৫১"
         },
         {
+          "en": "6",
+          "as": "৬"
+        },
+        {
           "en": "44",
           "as": "৪৪"
+        },
+        {
+          "en": "7",
+          "as": "৭"
         }
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

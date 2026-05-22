@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 4",
-    "as": "????? ?"
+    "as": "টেষ্ট ৪"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -32,12 +32,12 @@
           "as": "সাবৰমতী আশ্ৰম"
         },
         {
-          "en": "Jallianwala Bagh",
-          "as": "জালিয়ানৱালা বাগ"
-        },
-        {
           "en": "Gowalia Tank",
           "as": "গোৱালিয়া টেংক"
+        },
+        {
+          "en": "Jallianwala Bagh",
+          "as": "জালিয়ানৱালা বাগ"
         },
         {
           "en": "Delhi",
@@ -51,69 +51,69 @@
       "as": "পাঠ্যপুথি অনুসৰি সাবৰমতীৰ পৰা ডাণ্ডীলৈ গান্ধীয়ে কিমান দূৰত্ব অতিক্ৰম কৰিছিল?",
       "options": [
         {
-          "en": "385 km",
-          "as": "৩৮৫ কিলোমিটাৰ"
-        },
-        {
-          "en": "240 km",
-          "as": "২৪০ কিলোমিটাৰ"
-        },
-        {
           "en": "100 km",
           "as": "১০০ কিলোমিটাৰ"
         },
         {
+          "en": "385 km",
+          "as": "৩৮৫ কিলোমিটাৰ"
+        },
+        {
           "en": "500 km",
           "as": "৫০০ কিলোমিটাৰ"
+        },
+        {
+          "en": "240 km",
+          "as": "২৪০ কিলোমিটাৰ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Who was known as Frontier Gandhi?",
       "as": "‘ফ্ৰণ্টিয়াৰ গান্ধী’ নামেৰে কোন জনা গৈছিল?",
       "options": [
         {
-          "en": "Khan Abdul Gaffar Khan",
-          "as": "খান আব্দুল গফ্ফাৰ খান"
-        },
-        {
           "en": "Mahatma Gandhi",
           "as": "মহাত্মা গান্ধী"
         },
         {
-          "en": "Jawaharlal Nehru",
-          "as": "জৱাহৰলাল নেহৰু"
-        },
-        {
           "en": "Subhas Chandra Bose",
           "as": "সুভাষ চন্দ্ৰ বসু"
+        },
+        {
+          "en": "Khan Abdul Gaffar Khan",
+          "as": "খান আব্দুল গফ্ফাৰ খান"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Red Shirts were associated with—",
       "as": "‘ৰেড শাৰ্টছ’ কাৰ সৈতে জড়িত আছিল?",
       "options": [
         {
-          "en": "Khudai Khidmatgars",
-          "as": "খুদাই খিদমতগাৰ"
-        },
-        {
           "en": "Azad Hind Fauz",
           "as": "আজাদ হিন্দ ফৌজ"
+        },
+        {
+          "en": "Harijan Sevak Sangh",
+          "as": "হৰিজন সেৱক সংঘ"
         },
         {
           "en": "Muslim League",
           "as": "মুছলিম লীগ"
         },
         {
-          "en": "Harijan Sevak Sangh",
-          "as": "হৰিজন সেৱক সংঘ"
+          "en": "Khudai Khidmatgars",
+          "as": "খুদাই খিদমতগাৰ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Gandhi-Irwin Pact was signed on—",
@@ -124,12 +124,12 @@
           "as": "৫ মাৰ্চ ১৯৩১"
         },
         {
-          "en": "12 March 1930",
-          "as": "১২ মাৰ্চ ১৯৩০"
-        },
-        {
           "en": "8 August 1942",
           "as": "৮ আগষ্ট ১৯৪২"
+        },
+        {
+          "en": "12 March 1930",
+          "as": "১২ মাৰ্চ ১৯৩০"
         },
         {
           "en": "20 February 1947",
@@ -143,6 +143,10 @@
       "as": "গান্ধী-আৰউইন চুক্তিৰ অধীনত কংগ্ৰেছে কি কৰিবলৈ সন্মত হৈছিল?",
       "options": [
         {
+          "en": "Support separate electorates",
+          "as": "পৃথক নিৰ্বাচনী ব্যৱস্থা সমৰ্থন কৰিবলৈ"
+        },
+        {
           "en": "Suspend the Civil Disobedience Movement",
           "as": "আইন অমান্য আন্দোলন স্থগিত কৰিবলৈ"
         },
@@ -153,26 +157,14 @@
         {
           "en": "Reject all talks",
           "as": "সকলো আলোচনা নাকচ কৰিবলৈ"
-        },
-        {
-          "en": "Support separate electorates",
-          "as": "পৃথক নিৰ্বাচনী ব্যৱস্থা সমৰ্থন কৰিবলৈ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Who represented Congress at the Second Round Table Conference?",
       "as": "দ্বিতীয় ৰাউণ্ড টেবুল সন্মিলনত কংগ্ৰেছৰ একমাত্ৰ প্ৰতিনিধি কোন আছিল?",
       "options": [
-        {
-          "en": "Mahatma Gandhi",
-          "as": "মহাত্মা গান্ধী"
-        },
-        {
-          "en": "Jawaharlal Nehru",
-          "as": "জৱাহৰলাল নেহৰু"
-        },
         {
           "en": "Sardar Patel",
           "as": "সৰদাৰ পেটেল"
@@ -180,22 +172,22 @@
         {
           "en": "Subhas Chandra Bose",
           "as": "সুভাষ চন্দ্ৰ বসু"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Communal Award was announced by—",
       "as": "কমিউনেল এৱাৰ্ড কোনে ঘোষণা কৰিছিল?",
       "options": [
-        {
-          "en": "Ramsay MacDonald",
-          "as": "ৰামজে মেকডোনাল্ড"
-        },
-        {
-          "en": "Lord Irwin",
-          "as": "লৰ্ড আৰউইন"
-        },
         {
           "en": "Lord Mountbatten",
           "as": "লৰ্ড মাউণ্টবেটেন"
@@ -203,9 +195,17 @@
         {
           "en": "Sir John Simon",
           "as": "ছাৰ জন সাইমন"
+        },
+        {
+          "en": "Lord Irwin",
+          "as": "লৰ্ড আৰউইন"
+        },
+        {
+          "en": "Ramsay MacDonald",
+          "as": "ৰামজে মেকডোনাল্ড"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Poona Pact of 1932 was related to—",
@@ -216,12 +216,12 @@
           "as": "দলিত শ্ৰেণীৰ বাবে হিন্দুৰ সৈতে যৌথ নিৰ্বাচন"
         },
         {
-          "en": "Partition of India",
-          "as": "ভাৰত বিভাজন"
-        },
-        {
           "en": "Salt tax",
           "as": "নিমখ কৰ"
+        },
+        {
+          "en": "Partition of India",
+          "as": "ভাৰত বিভাজন"
         },
         {
           "en": "Khilafat demand",
@@ -235,23 +235,23 @@
       "as": "গান্ধীৰ অস্পৃশ্যতা-বিৰোধী কামে কোন সংগঠন গঠনত সহায় কৰিছিল?",
       "options": [
         {
-          "en": "Harijan Sevak Sangh",
-          "as": "হৰিজন সেৱক সংঘ"
-        },
-        {
-          "en": "All India Muslim League",
-          "as": "অল ইণ্ডিয়া মুছলিম লীগ"
-        },
-        {
           "en": "Indian Independence League",
           "as": "ইণ্ডিয়ান ইণ্ডিপেণ্ডেন্স লীগ"
         },
         {
+          "en": "Harijan Sevak Sangh",
+          "as": "হৰিজন সেৱক সংঘ"
+        },
+        {
           "en": "Assam Association",
           "as": "অসম এছ’চিয়েচন"
+        },
+        {
+          "en": "All India Muslim League",
+          "as": "অল ইণ্ডিয়া মুছলিম লীগ"
         }
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

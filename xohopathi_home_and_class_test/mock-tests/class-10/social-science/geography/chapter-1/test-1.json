@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 1 - Economic Geography: Subject Matter and Resource",
-    "as": "অধ্যায় 1 - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
+    "as": "অধ্যায় ১ - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
   },
   "test": {
     "en": "Test 1",
-    "as": "????? ?"
+    "as": "টেষ্ট ১"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,35 +28,35 @@
       "as": "অৰ্থনৈতিক ভূগোল কোন ভূগোলৰ এটা গুৰুত্বপূর্ণ শাখা?",
       "options": [
         {
-          "en": "Physical Geography",
-          "as": "ভৌতিক ভূগোল"
-        },
-        {
-          "en": "Human Geography",
-          "as": "মানৱ ভূগোল"
-        },
-        {
           "en": "Mathematical Geography",
           "as": "গাণিতিক ভূগোল"
         },
         {
           "en": "Political Geography",
           "as": "ৰাজনৈতিক ভূগোল"
+        },
+        {
+          "en": "Physical Geography",
+          "as": "ভৌতিক ভূগোল"
+        },
+        {
+          "en": "Human Geography",
+          "as": "মানৱ ভূগোল"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "Economic Geography mainly studies human activities related to—",
       "as": "অৰ্থনৈতিক ভূগোলে মুখ্যতঃ মানুহৰ কোনবোৰ কাৰ্যকলাপ অধ্যয়ন কৰে?",
       "options": [
         {
-          "en": "Climate and weather",
-          "as": "জলবায়ু আৰু বতৰ"
-        },
-        {
           "en": "Production, distribution, consumption and exchange of resources",
           "as": "সম্পদৰ উৎপাদন, বিতৰণ, ভোগ আৰু বিনিময়"
+        },
+        {
+          "en": "Climate and weather",
+          "as": "জলবায়ু আৰু বতৰ"
         },
         {
           "en": "Earthquakes and volcanoes",
@@ -67,15 +67,15 @@
           "as": "তৰা আৰু গ্ৰহ"
         }
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "en": "Economic Geography studies economic activities in which contexts?",
       "as": "অৰ্থনৈতিক ভূগোলে অৰ্থনৈতিক কাৰ্যকলাপক কোন প্ৰেক্ষাপটত অধ্যয়ন কৰে?",
       "options": [
         {
-          "en": "Political and historical contexts",
-          "as": "ৰাজনৈতিক আৰু ঐতিহাসিক প্ৰেক্ষাপট"
+          "en": "Literary and artistic contexts",
+          "as": "সাহিত্যিক আৰু কলাত্মক প্ৰেক্ষাপট"
         },
         {
           "en": "Spatial and temporal contexts",
@@ -86,8 +86,8 @@
           "as": "ধর্মীয় আৰু সাংস্কৃতিক প্ৰেক্ষাপট"
         },
         {
-          "en": "Literary and artistic contexts",
-          "as": "সাহিত্যিক আৰু কলাত্মক প্ৰেক্ষাপট"
+          "en": "Political and historical contexts",
+          "as": "ৰাজনৈতিক আৰু ঐতিহাসিক প্ৰেক্ষাপট"
         }
       ],
       "answer": 1
@@ -97,20 +97,20 @@
       "as": "তলৰ কোনটো অৰ্থনৈতিক ভূগোলৰ বিষয়বস্তু?",
       "options": [
         {
-          "en": "Study of planets",
-          "as": "গ্ৰহৰ অধ্যয়ন"
-        },
-        {
           "en": "Study of grammar",
           "as": "ব্যাকৰণৰ অধ্যয়ন"
+        },
+        {
+          "en": "Study of ancient scripts",
+          "as": "প্ৰাচীন লিপিৰ অধ্যয়ন"
         },
         {
           "en": "Resources and human economic activities",
           "as": "সম্পদ আৰু মানুহৰ অৰ্থনৈতিক কাৰ্যকলাপ"
         },
         {
-          "en": "Study of ancient scripts",
-          "as": "প্ৰাচীন লিপিৰ অধ্যয়ন"
+          "en": "Study of planets",
+          "as": "গ্ৰহৰ অধ্যয়ন"
         }
       ],
       "answer": 2
@@ -120,23 +120,23 @@
       "as": "উৰ্বৰ মাটি থকা অঞ্চলত সাধাৰণতে কোনটো বিকশিত হয়?",
       "options": [
         {
-          "en": "Agriculture",
-          "as": "কৃষি"
-        },
-        {
-          "en": "Mining",
-          "as": "খনন"
-        },
-        {
           "en": "Desert tourism",
           "as": "মৰু পৰ্যটন"
         },
         {
           "en": "Polar research",
           "as": "মেৰু অঞ্চলৰ গৱেষণা"
+        },
+        {
+          "en": "Mining",
+          "as": "খনন"
+        },
+        {
+          "en": "Agriculture",
+          "as": "কৃষি"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Coastal areas are generally suitable for—",
@@ -151,12 +151,12 @@
           "as": "কেৱল কয়লা খনন"
         },
         {
-          "en": "Snow farming",
-          "as": "বৰফ খেতি"
-        },
-        {
           "en": "Desert agriculture",
           "as": "মৰু কৃষি"
+        },
+        {
+          "en": "Snow farming",
+          "as": "বৰফ খেতি"
         }
       ],
       "answer": 0
@@ -166,8 +166,8 @@
       "as": "খনিজ সম্পদেৰে সমৃদ্ধ অঞ্চলবোৰ প্ৰায়ে কেনেকুৱা হয়?",
       "options": [
         {
-          "en": "Agriculturally backward",
-          "as": "কৃষিত পিছপৰা"
+          "en": "Always desert regions",
+          "as": "সদায় মৰু অঞ্চল"
         },
         {
           "en": "Industrially advanced",
@@ -178,8 +178,8 @@
           "as": "কেৱল ঘাঁহনাৰে আবৃত"
         },
         {
-          "en": "Always desert regions",
-          "as": "সদায় মৰু অঞ্চল"
+          "en": "Agriculturally backward",
+          "as": "কৃষিত পিছপৰা"
         }
       ],
       "answer": 1
@@ -189,46 +189,46 @@
       "as": "ঘন ঘাঁহনিযুক্ত অঞ্চল কিহৰ বাবে উপযুক্ত?",
       "options": [
         {
-          "en": "Livestock rearing",
-          "as": "পশুপালন"
+          "en": "Petroleum extraction only",
+          "as": "কেৱল পেট্ৰোলিয়াম উত্তোলন"
         },
         {
           "en": "Shipbuilding only",
           "as": "কেৱল জাহাজ নিৰ্মাণ"
         },
         {
-          "en": "Petroleum extraction only",
-          "as": "কেৱল পেট্ৰোলিয়াম উত্তোলন"
+          "en": "Livestock rearing",
+          "as": "পশুপালন"
         },
         {
           "en": "Tea processing only",
           "as": "কেৱল চাহ প্ৰস্তুতকৰণ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The scope of Economic Geography mainly studies the distribution of—",
       "as": "অৰ্থনৈতিক ভূগোলৰ পৰিসৰে মুখ্যতঃ কিহৰ বিতৰণ অধ্যয়ন কৰে?",
       "options": [
         {
-          "en": "Stars",
-          "as": "তৰা"
+          "en": "Political parties",
+          "as": "ৰাজনৈতিক দল"
         },
         {
-          "en": "Economic activities of man",
-          "as": "মানুহৰ অৰ্থনৈতিক কাৰ্যকলাপ"
+          "en": "Stars",
+          "as": "তৰা"
         },
         {
           "en": "Languages",
           "as": "ভাষা"
         },
         {
-          "en": "Political parties",
-          "as": "ৰাজনৈতিক দল"
+          "en": "Economic activities of man",
+          "as": "মানুহৰ অৰ্থনৈতিক কাৰ্যকলাপ"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "Which question belongs to the scope of Economic Geography?",
@@ -239,16 +239,16 @@
           "as": "অৰ্থনৈতিক কাৰ্যকলাপ ক’ত অৱস্থিত?"
         },
         {
-          "en": "Who wrote the Constitution?",
-          "as": "সংবিধান কোনে লিখিছিল?"
-        },
-        {
           "en": "What is the capital of France?",
           "as": "ফ্ৰান্সৰ ৰাজধানী কি?"
         },
         {
           "en": "What is photosynthesis?",
           "as": "প্ৰকাশ সংশ্লেষণ কি?"
+        },
+        {
+          "en": "Who wrote the Constitution?",
+          "as": "সংবিধান কোনে লিখিছিল?"
         }
       ],
       "answer": 0

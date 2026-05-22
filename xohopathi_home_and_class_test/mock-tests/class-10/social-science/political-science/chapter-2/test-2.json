@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 2 - International Organization - UNO and Others",
+    "as": "অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ আৰু অন্যান্য"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট ২"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The UNO is established on the principle of what?",
+      "as": "ৰাষ্ট্ৰসংঘ কোন নীতিৰ ওপৰত প্ৰতিষ্ঠিত?",
+      "options": [
+        {
+          "en": "Secret voting only",
+          "as": "কেৱল গোপন ভোটদান"
+        },
+        {
+          "en": "Rule by one powerful state",
+          "as": "এখন শক্তিশালী ৰাষ্ট্ৰৰ শাসন"
+        },
+        {
+          "en": "Religious rule",
+          "as": "ধাৰ্মিক শাসন"
+        },
+        {
+          "en": "Equal sovereignty of all member states",
+          "as": "সকলো সদস্য ৰাষ্ট্ৰৰ সমান সাৰ্বভৌমত্ব"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "How should member states settle disputes according to UNO principles?",
+      "as": "ৰাষ্ট্ৰসংঘৰ নীতি অনুসৰি সদস্য ৰাষ্ট্ৰসমূহে বিবাদ কেনেকৈ নিষ্পত্তি কৰিব লাগে?",
+      "options": [
+        {
+          "en": "Peacefully",
+          "as": "শান্তিপূৰ্ণভাৱে"
+        },
+        {
+          "en": "By colonial control",
+          "as": "ঔপনিবেশিক নিয়ন্ত্ৰণেৰে"
+        },
+        {
+          "en": "By war only",
+          "as": "কেৱল যুদ্ধৰ দ্বাৰা"
+        },
+        {
+          "en": "By refusing dialogue",
+          "as": "আলোচনা অস্বীকাৰ কৰি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How many main organs does the UNO have?",
+      "as": "ৰাষ্ট্ৰসংঘৰ মুখ্য অংগ কিমানটা?",
+      "options": [
+        {
+          "en": "Ten",
+          "as": "দহটা"
+        },
+        {
+          "en": "Six",
+          "as": "ছটা"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰিটা"
+        },
+        {
+          "en": "Eight",
+          "as": "আঠটা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which is the biggest organ of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ আটাইতকৈ ডাঙৰ অংগ কোনটো?",
+      "options": [
+        {
+          "en": "Secretariat",
+          "as": "সচিবালয়"
+        },
+        {
+          "en": "Security Council",
+          "as": "নিৰাপত্তা পৰিষদ"
+        },
+        {
+          "en": "General Assembly",
+          "as": "সাধাৰণ সভা"
+        },
+        {
+          "en": "International Court of Justice",
+          "as": "আন্তঃৰাষ্ট্ৰীয় ন্যায়ালয়"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How many representatives can each member state send to the General Assembly?",
+      "as": "সাধাৰণ সভালৈ প্ৰতিখন সদস্য ৰাষ্ট্ৰই কিমানজন প্ৰতিনিধি পঠিয়াব পাৰে?",
+      "options": [
+        {
+          "en": "Fifteen",
+          "as": "পোন্ধৰজন"
+        },
+        {
+          "en": "One",
+          "as": "এজন"
+        },
+        {
+          "en": "Ten",
+          "as": "দহজন"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচজন"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which is regarded as the most important organ of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ আটাইতকৈ গুৰুত্বপূর্ণ অংগ কোনটো বুলি গণ্য কৰা হয়?",
+      "options": [
+        {
+          "en": "Security Council",
+          "as": "নিৰাপত্তা পৰিষদ"
+        },
+        {
+          "en": "UNICEF",
+          "as": "ইউনিচেফ"
+        },
+        {
+          "en": "General Assembly",
+          "as": "সাধাৰণ সভা"
+        },
+        {
+          "en": "Trusteeship Council",
+          "as": "ন্যাস পৰিষদ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How many permanent members are there in the UN Security Council?",
+      "as": "ৰাষ্ট্ৰসংঘৰ নিৰাপত্তা পৰিষদত স্থায়ী সদস্য কিমানজন?",
+      "options": [
+        {
+          "en": "Fifteen",
+          "as": "পোন্ধৰজন"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচজন"
+        },
+        {
+          "en": "Fifty-one",
+          "as": "এপঞ্চাছজন"
+        },
+        {
+          "en": "Ten",
+          "as": "দহজন"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which of the following is a permanent member of the Security Council?",
+      "as": "তলৰ কোনখন নিৰাপত্তা পৰিষদৰ স্থায়ী সদস্য?",
+      "options": [
+        {
+          "en": "Brazil",
+          "as": "ব্ৰাজিল"
+        },
+        {
+          "en": "Japan",
+          "as": "জাপান"
+        },
+        {
+          "en": "China",
+          "as": "চীন"
+        },
+        {
+          "en": "India",
+          "as": "ভাৰত"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which set lists all five permanent members of the Security Council as given in the textbook?",
+      "as": "পাঠ্যপুথিত দিয়া নিৰাপত্তা পৰিষদৰ পাঁচ স্থায়ী সদস্য কোন সমষ্টি?",
+      "options": [
+        {
+          "en": "India, Pakistan, Nepal, Bhutan and Bangladesh",
+          "as": "ভাৰত, পাকিস্তান, নেপাল, ভূটান আৰু বাংলাদেশ"
+        },
+        {
+          "en": "Japan, Germany, Italy, Spain and Canada",
+          "as": "জাপান, জাৰ্মানী, ইটালী, স্পেইন আৰু কানাডা"
+        },
+        {
+          "en": "Brazil, Argentina, Chile, Peru and Mexico",
+          "as": "ব্ৰাজিল, আর্জেণ্টিনা, চিলি, পেৰু আৰু মেক্সিকো"
+        },
+        {
+          "en": "USA, Great Britain, France, Russia and China",
+          "as": "আমেৰিকা, গ্ৰেট ব্ৰিটেইন, ফ্ৰান্স, ৰাছিয়া আৰু চীন"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "What special power does each permanent member of the Security Council have?",
+      "as": "নিৰাপত্তা পৰিষদৰ প্ৰতিজন স্থায়ী সদস্যৰ বিশেষ ক্ষমতা কি?",
+      "options": [
+        {
+          "en": "Veto power",
+          "as": "ভেটো ক্ষমতা"
+        },
+        {
+          "en": "Tax power",
+          "as": "কৰ ক্ষমতা"
+        },
+        {
+          "en": "Judicial power",
+          "as": "ন্যায়িক ক্ষমতা"
+        },
+        {
+          "en": "Election power",
+          "as": "নিৰ্বাচন ক্ষমতা"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

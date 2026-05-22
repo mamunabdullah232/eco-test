@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Money and Banking",
+    "as": "অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is current deposit?",
+      "as": "চলতি জমা কি?",
+      "options": [
+        {
+          "en": "Deposit with no bank account",
+          "as": "বেংক হিচাপ নথকা জমা"
+        },
+        {
+          "en": "Deposit that can never be withdrawn",
+          "as": "কেতিয়াও উলিয়াব নোৱাৰা জমা"
+        },
+        {
+          "en": "Deposit only in animals",
+          "as": "কেৱল প্ৰাণীত জমা"
+        },
+        {
+          "en": "Deposit that may be withdrawn at any time",
+          "as": "যিকোনো সময়ত উলিয়াব পৰা জমা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which banks provide loans at low interest to villagers and mobilise rural savings?",
+      "as": "কোন বেংকে গাঁওবাসীক কম সুদত ঋণ দিয়ে আৰু গ্ৰামীণ সঞ্চয় সংগ্ৰহ কৰে?",
+      "options": [
+        {
+          "en": "Regional Rural Banks",
+          "as": "আঞ্চলিক গ্ৰামীণ বেংক"
+        },
+        {
+          "en": "World Bank only",
+          "as": "কেৱল বিশ্ব বেংক"
+        },
+        {
+          "en": "Central Bank only",
+          "as": "কেৱল কেন্দ্ৰীয় বেংক"
+        },
+        {
+          "en": "NATO Bank",
+          "as": "NATO বেংক"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When were the first five Regional Rural Banks set up?",
+      "as": "প্ৰথম পাঁচটা আঞ্চলিক গ্ৰামীণ বেংক কেতিয়া স্থাপন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "1982",
+          "as": "১৯৮২"
+        },
+        {
+          "en": "1975",
+          "as": "১৯৭৫"
+        },
+        {
+          "en": "1990",
+          "as": "১৯৯০"
+        },
+        {
+          "en": "2014",
+          "as": "২০১৪"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "When was NABARD established?",
+      "as": "NABARD কেতিয়া স্থাপন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "1975",
+          "as": "১৯৭৫"
+        },
+        {
+          "en": "1935",
+          "as": "১৯৩৫"
+        },
+        {
+          "en": "1982",
+          "as": "১৯৮২"
+        },
+        {
+          "en": "1990",
+          "as": "১৯৯০"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is NABARD's role in rural areas?",
+      "as": "গ্ৰামীণ অঞ্চলত NABARDৰ ভূমিকা কি?",
+      "options": [
+        {
+          "en": "A human rights court",
+          "as": "মানৱ অধিকাৰ আদালত"
+        },
+        {
+          "en": "A political party",
+          "as": "ৰাজনৈতিক দল"
+        },
+        {
+          "en": "A sports federation",
+          "as": "ক্ৰীড়া সংস্থা"
+        },
+        {
+          "en": "Apex financial institution for rural investment and production",
+          "as": "গ্ৰামীণ বিনিয়োগ আৰু উৎপাদনৰ শীৰ্ষ বিত্তীয় প্ৰতিষ্ঠান"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "When did SIDBI start its operations?",
+      "as": "SIDBI কেতিয়া কাম আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "1990",
+          "as": "১৯৯০"
+        },
+        {
+          "en": "1982",
+          "as": "১৯৮২"
+        },
+        {
+          "en": "1975",
+          "as": "১৯৭৫"
+        },
+        {
+          "en": "1935",
+          "as": "১৯৩৫"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Where is the headquarters of SIDBI?",
+      "as": "SIDBIৰ মুখ্য কাৰ্যালয় ক'ত?",
+      "options": [
+        {
+          "en": "New Delhi",
+          "as": "নতুন দিল্লী"
+        },
+        {
+          "en": "Lucknow",
+          "as": "লখনৌ"
+        },
+        {
+          "en": "Mumbai",
+          "as": "মুম্বাই"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which is a function of SIDBI?",
+      "as": "SIDBIৰ এটা কাৰ্য কোনটো?",
+      "options": [
+        {
+          "en": "Managing elections",
+          "as": "নিৰ্বাচন পৰিচালনা কৰা"
+        },
+        {
+          "en": "Conducting UN peacekeeping",
+          "as": "ৰাষ্ট্ৰসংঘ শান্তিৰক্ষা কৰা"
+        },
+        {
+          "en": "Promoting modernisation and improved technology in small industries",
+          "as": "ক্ষুদ্র উদ্যোগত আধুনিকীকৰণ আৰু উন্নত প্ৰযুক্তি প্ৰচাৰ কৰা"
+        },
+        {
+          "en": "Issuing passports",
+          "as": "পাছপোৰ্ট জাৰি কৰা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How are NBFIs different from banks regarding cheque withdrawal?",
+      "as": "চেকৰ জৰিয়তে টকা উলিওৱাৰ ক্ষেত্ৰত NBFI বেংকৰ পৰা কেনেকৈ বেলেগ?",
+      "options": [
+        {
+          "en": "NBFIs are courts",
+          "as": "NBFI আদালত"
+        },
+        {
+          "en": "Banks cannot accept deposits",
+          "as": "বেংকে জমা গ্ৰহণ কৰিব নোৱাৰে"
+        },
+        {
+          "en": "NBFIs issue all currency notes",
+          "as": "NBFIয়ে সকলো মুদ্ৰা নোট জাৰি কৰে"
+        },
+        {
+          "en": "NBFI depositors cannot withdraw money through cheque",
+          "as": "NBFI জমাকাৰীয়ে চেকৰ জৰিয়তে টকা উলিয়াব নোৱাৰে"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "NBFIs are required to be registered with which institution?",
+      "as": "NBFIসমূহ কোন প্ৰতিষ্ঠানত পঞ্জীয়নভুক্ত হ'ব লাগে?",
+      "options": [
+        {
+          "en": "Reserve Bank of India",
+          "as": "ৰিজাৰ্ভ বেংক অৱ ইণ্ডিয়া"
+        },
+        {
+          "en": "FIFA",
+          "as": "FIFA"
+        },
+        {
+          "en": "UNO",
+          "as": "ৰাষ্ট্ৰসংঘ"
+        },
+        {
+          "en": "SAARC",
+          "as": "SAARC"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

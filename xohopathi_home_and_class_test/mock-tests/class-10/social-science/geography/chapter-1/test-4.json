@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 1 - Economic Geography: Subject Matter and Resource",
-    "as": "অধ্যায় 1 - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
+    "as": "অধ্যায় ১ - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
   },
   "test": {
     "en": "Test 4",
-    "as": "????? ?"
+    "as": "টেষ্ট ৪"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,23 +28,23 @@
       "as": "মানুহৰ জীৱনৰ বাবে প্ৰয়োজনীয় সকলো সামগ্ৰীক কি বোলে?",
       "options": [
         {
-          "en": "Wealth only",
-          "as": "কেৱল ধন-সম্পদ"
-        },
-        {
-          "en": "Resources",
-          "as": "সম্পদ"
-        },
-        {
           "en": "Resistance",
           "as": "প্ৰতিবন্ধক"
         },
         {
           "en": "Neutral stuff",
           "as": "নিৰপেক্ষ বস্তু"
+        },
+        {
+          "en": "Wealth only",
+          "as": "কেৱল ধন-সম্পদ"
+        },
+        {
+          "en": "Resources",
+          "as": "সম্পদ"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "Which of the following is a resource?",
@@ -59,12 +59,12 @@
           "as": "অব্যৱহার্য আৱৰ্জনা"
         },
         {
-          "en": "Harmful poison",
-          "as": "ক্ষতিকাৰক বিষ"
-        },
-        {
           "en": "None of these",
           "as": "ইয়াৰ এটাও নহয়"
+        },
+        {
+          "en": "Harmful poison",
+          "as": "ক্ষতিকাৰক বিষ"
         }
       ],
       "answer": 0
@@ -97,105 +97,97 @@
       "as": "সম্পদৰ মুখ্য বৈশিষ্ট্যসমূহ কি?",
       "options": [
         {
-          "en": "Utility, functionality and dynamism",
-          "as": "উপযোগিতা, কাৰ্যক্ষমতা আৰু গতিশীলতা"
+          "en": "Shape, price and sound",
+          "as": "আকৃতি, মূল্য আৰু শব্দ"
         },
         {
           "en": "Color, weight and size",
           "as": "ৰং, ওজন আৰু আকাৰ"
         },
         {
-          "en": "Shape, price and sound",
-          "as": "আকৃতি, মূল্য আৰু শব্দ"
+          "en": "Utility, functionality and dynamism",
+          "as": "উপযোগিতা, কাৰ্যক্ষমতা আৰু গতিশীলতা"
         },
         {
           "en": "Age, height and length",
           "as": "বয়স, উচ্চতা আৰু দৈৰ্ঘ্য"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Man is associated with resource as—",
       "as": "মানুহ সম্পদৰ সৈতে কেনেদৰে জড়িত?",
       "options": [
         {
-          "en": "Only consumer",
-          "as": "কেৱল ভোক্তা হিচাপে"
+          "en": "Neither producer nor consumer",
+          "as": "উৎপাদকো নহয়, ভোক্তাও নহয়"
         },
         {
           "en": "Only producer",
           "as": "কেৱল উৎপাদক হিচাপে"
         },
         {
-          "en": "Producer and consumer",
-          "as": "উৎপাদক আৰু ভোক্তা হিচাপে"
+          "en": "Only consumer",
+          "as": "কেৱল ভোক্তা হিচাপে"
         },
         {
-          "en": "Neither producer nor consumer",
-          "as": "উৎপাদকো নহয়, ভোক্তাও নহয়"
+          "en": "Producer and consumer",
+          "as": "উৎপাদক আৰু ভোক্তা হিচাপে"
         }
       ],
-      "answer": 2
+      "answer": 3
     },
     {
       "en": "Technology, roads, industries and schools are examples of—",
       "as": "প্ৰযুক্তি, পথ, উদ্যোগ আৰু বিদ্যালয় কিহৰ উদাহৰণ?",
       "options": [
         {
-          "en": "Natural resources",
-          "as": "প্ৰাকৃতিক সম্পদ"
-        },
-        {
           "en": "Man-made resources",
           "as": "মানৱসৃষ্ট সম্পদ"
         },
         {
-          "en": "Neutral stuff",
-          "as": "নিৰপেক্ষ বস্তু"
-        },
-        {
           "en": "Resistance",
           "as": "প্ৰতিবন্ধক"
+        },
+        {
+          "en": "Natural resources",
+          "as": "প্ৰাকৃতিক সম্পদ"
+        },
+        {
+          "en": "Neutral stuff",
+          "as": "নিৰপেক্ষ বস্তু"
         }
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "en": "Population is known as human resource because human beings have—",
       "as": "জনসংখ্যাক মানৱ সম্পদ বোলা হয়, কাৰণ মানুহৰ আছে—",
       "options": [
         {
-          "en": "Skill, education, technology and desire",
-          "as": "দক্ষতা, শিক্ষা, প্ৰযুক্তি আৰু ইচ্ছা"
-        },
-        {
           "en": "Only physical strength",
           "as": "কেৱল শাৰীৰিক শক্তি"
         },
         {
-          "en": "Only wealth",
-          "as": "কেৱল ধন-সম্পদ"
+          "en": "Skill, education, technology and desire",
+          "as": "দক্ষতা, শিক্ষা, প্ৰযুক্তি আৰু ইচ্ছা"
         },
         {
           "en": "Only land",
           "as": "কেৱল ভূমি"
+        },
+        {
+          "en": "Only wealth",
+          "as": "কেৱল ধন-সম্পদ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Resource is called dynamic because its meaning changes with—",
       "as": "সম্পদক গতিশীল বোলা হয়, কাৰণ ইয়াৰ অৰ্থ কিহৰ সৈতে সলনি হয়?",
       "options": [
-        {
-          "en": "Time and place",
-          "as": "সময় আৰু স্থান"
-        },
-        {
-          "en": "Color and weight",
-          "as": "ৰং আৰু ওজন"
-        },
         {
           "en": "Shape and size",
           "as": "আকৃতি আৰু আকাৰ"
@@ -203,22 +195,22 @@
         {
           "en": "Height and length",
           "as": "উচ্চতা আৰু দৈৰ্ঘ্য"
+        },
+        {
+          "en": "Time and place",
+          "as": "সময় আৰু স্থান"
+        },
+        {
+          "en": "Color and weight",
+          "as": "ৰং আৰু ওজন"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Materials found on the earth that are neither useful nor harmful to man are called—",
       "as": "পৃথিৱীত পোৱা যিবোৰ বস্তু মানুহৰ বাবে নে উপযোগী নে ক্ষতিকাৰক, সেইবোৰক কি বোলে?",
       "options": [
-        {
-          "en": "Wealth",
-          "as": "ধন-সম্পদ"
-        },
-        {
-          "en": "Neutral stuff",
-          "as": "নিৰপেক্ষ বস্তু"
-        },
         {
           "en": "National resource",
           "as": "ৰাষ্ট্ৰীয় সম্পদ"
@@ -226,14 +218,26 @@
         {
           "en": "Biotic resource",
           "as": "জৈৱিক সম্পদ"
+        },
+        {
+          "en": "Wealth",
+          "as": "ধন-সম্পদ"
+        },
+        {
+          "en": "Neutral stuff",
+          "as": "নিৰপেক্ষ বস্তু"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "Materials or phenomena harmful to man are called—",
       "as": "মানুহৰ বাবে ক্ষতিকাৰক বস্তু বা পৰিঘটনাক কি বোলে?",
       "options": [
+        {
+          "en": "Resistance",
+          "as": "প্ৰতিবন্ধক"
+        },
         {
           "en": "Resources",
           "as": "সম্পদ"
@@ -243,15 +247,11 @@
           "as": "ধন-সম্পদ"
         },
         {
-          "en": "Resistance",
-          "as": "প্ৰতিবন্ধক"
-        },
-        {
           "en": "Human resource",
           "as": "মানৱ সম্পদ"
         }
       ],
-      "answer": 2
+      "answer": 0
     }
   ]
 }

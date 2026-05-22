@@ -271,6 +271,38 @@ function normalizeTestSet(raw){
   };
 }
 
+function shuffleQuestionOptions(set){
+  if(!set || !Array.isArray(set.questions)) return set;
+  set.questions = set.questions.map(function(question){
+    const oldAnswer = Number(question.answer);
+    const choices = Array.isArray(question.options)
+      ? question.options.map(function(option, index){ return { option, originalIndex:index }; })
+      : [];
+
+    if(choices.length < 2 || !Number.isInteger(oldAnswer)){
+      return question;
+    }
+
+    for(let index = choices.length - 1; index > 0; index -= 1){
+      const randomIndex = Math.floor(Math.random() * (index + 1));
+      const current = choices[index];
+      choices[index] = choices[randomIndex];
+      choices[randomIndex] = current;
+    }
+
+    const newAnswer = choices.findIndex(function(choice){
+      return choice.originalIndex === oldAnswer;
+    });
+
+    return {
+      ...question,
+      options: choices.map(function(choice){ return choice.option; }),
+      answer: newAnswer >= 0 ? newAnswer : oldAnswer
+    };
+  });
+  return set;
+}
+
 async function loadTestSet(){
   const filePath = params.get("file");
   if(filePath){
@@ -278,13 +310,13 @@ async function loadTestSet(){
     try{
       const response = await fetch(filePath, { cache:"no-store" });
       if(!response.ok) return;
-      testSet = normalizeTestSet(await response.json());
+      testSet = shuffleQuestionOptions(normalizeTestSet(await response.json()));
     }catch(error){
       console.error("Could not load test file:", error);
     }
     return;
   }
-  testSet = window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")];
+  testSet = shuffleQuestionOptions(normalizeTestSet(window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")]));
 }
 
 function text(value){

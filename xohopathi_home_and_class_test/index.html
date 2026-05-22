@@ -234,14 +234,6 @@ main{
   color:#334155;
   font-size:1.03rem;
 }
-.fact-source{
-  display:inline-flex;
-  align-self:flex-start;
-  margin-top:16px;
-  color:var(--blue-dark);
-  font-size:.9rem;
-  font-weight:900;
-}
 .grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -725,7 +717,6 @@ footer{
           <h1 id="did-you-know-title"><span class="bi">Did you know?<span class="as">আপুনি জানেনে?</span></span></h1>
           <div class="fact-title" id="factTitle"></div>
           <p id="factText"></p>
-          <a class="fact-source" id="factSource" href="#" target="_blank" rel="noopener noreferrer">Read more / অধিক পঢ়ক &rarr;</a>
         </div>
       </article>
     </div>
@@ -911,8 +902,7 @@ const class10SocialScience = {
       name:{en:"Political Science", as:"ৰাজনীতি বিজ্ঞান"},
       chapters:[
         {en:"Chapter 1 - Indian Democracy", as:"অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"},
-        {en:"Chapter 2 - International Organization - The United Nations Organization", as:"অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ"},
-        {en:"Others", as:"অন্যান্য"}
+        {en:"Chapter 2 - International Organization - UNO and Others", as:"অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ আৰু অন্যান্য"}
       ]
     },
     {
@@ -1107,6 +1097,19 @@ const facts = [
   }
 ];
 
+const factImages = [
+  {src:"https://picsum.photos/seed/xohopathi-majuli/1000/700", alt:"River island landscape"},
+  {src:"https://picsum.photos/seed/xohopathi-silk/1000/700", alt:"Traditional weaving photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-muga/1000/700", alt:"Golden textile photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-ahom/1000/700", alt:"Historic architecture photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-bhaona/1000/700", alt:"Traditional performance photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-hajo/1000/700", alt:"Sacred place photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-wetland/1000/700", alt:"Wetland landscape photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-brahmaputra/1000/700", alt:"Large river photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-rangghar/1000/700", alt:"Historic monument photograph"},
+  {src:"https://picsum.photos/seed/xohopathi-bridge/1000/700", alt:"Bridge photograph"}
+];
+
 function labelEn(value){
   return typeof value === "string" ? value : value.en;
 }
@@ -1151,26 +1154,39 @@ function isClass10Geography(parts){
   return /^class-10__social-science__geography__chapter-[1-4]-/.test(parts.map(slugify).join("__"));
 }
 
-function historyTestFile(parts, test){
+function isClass10PoliticalScience(parts){
+  return /^class-10__social-science__political-science__chapter-[1-2]-/.test(parts.map(slugify).join("__"));
+}
+
+function isClass10Economics(parts){
+  return /^class-10__social-science__economics__chapter-[1-2]-/.test(parts.map(slugify).join("__"));
+}
+
+function class10SocialScienceTestFile(parts, subjectSlug, test){
   return [
     "mock-tests",
     "class-10",
     "social-science",
-    "history",
+    subjectSlug,
     "chapter-" + getNumberFromLabel(parts[3]),
     "test-" + getNumberFromLabel(test) + ".json"
   ].join("/");
 }
 
+function historyTestFile(parts, test){
+  return class10SocialScienceTestFile(parts, "history", test);
+}
+
 function geographyTestFile(parts, test){
-  return [
-    "mock-tests",
-    "class-10",
-    "social-science",
-    "geography",
-    "chapter-" + getNumberFromLabel(parts[3]),
-    "test-" + getNumberFromLabel(test) + ".json"
-  ].join("/");
+  return class10SocialScienceTestFile(parts, "geography", test);
+}
+
+function politicalScienceTestFile(parts, test){
+  return class10SocialScienceTestFile(parts, "political-science", test);
+}
+
+function economicsTestFile(parts, test){
+  return class10SocialScienceTestFile(parts, "economics", test);
 }
 
 function nestedTestLink(parts, test){
@@ -1180,6 +1196,12 @@ function nestedTestLink(parts, test){
   if(isClass10Geography(parts)){
     return "mock-test.html?file=" + encodeURIComponent(geographyTestFile(parts, test));
   }
+  if(isClass10PoliticalScience(parts)){
+    return "mock-test.html?file=" + encodeURIComponent(politicalScienceTestFile(parts, test));
+  }
+  if(isClass10Economics(parts)){
+    return "mock-test.html?file=" + encodeURIComponent(economicsTestFile(parts, test));
+  }
   return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));
 }
 
@@ -1188,6 +1210,12 @@ function isMockTestAvailable(parts, test){
     return /^Test [1-5]$/.test(labelEn(test));
   }
   if(isClass10Geography(parts)){
+    return /^Test [1-5]$/.test(labelEn(test));
+  }
+  if(isClass10PoliticalScience(parts)){
+    return /^Test [1-5]$/.test(labelEn(test));
+  }
+  if(isClass10Economics(parts)){
     return /^Test [1-5]$/.test(labelEn(test));
   }
   return false;
@@ -1442,11 +1470,14 @@ function renderFact(){
   const dayNumber = Math.floor((todayMidnight.getTime() - startDate.getTime()) / 86400000);
   const index = ((dayNumber % facts.length) + facts.length) % facts.length;
   const fact = facts[index];
+  const image = factImages[index % factImages.length];
   const dateLabel = today.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
-  document.getElementById("factDate").textContent = "Daily Fact - " + dateLabel + " - " + (index + 1) + " of 10";
+  const factImage = document.getElementById("factImage");
+  factImage.src = image.src;
+  factImage.alt = image.alt;
+  document.getElementById("factDate").textContent = "Daily Fact - " + dateLabel;
   document.getElementById("factTitle").innerHTML = `<span class="bi">${fact.title}<span class="as">${fact.titleAs}</span></span>`;
   document.getElementById("factText").innerHTML = `${fact.text}<br><span class="as">${fact.textAs}</span>`;
-  document.getElementById("factSource").href = fact.source;
 }
 
 function showPage(pageId, updateHash){

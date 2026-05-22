@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Economic Development",
+    "as": "অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট ২"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which is an indicator of human development mentioned in the chapter?",
+      "as": "অধ্যায়ত উল্লেখ কৰা মানৱ উন্নয়নৰ এটা সূচক কোনটো?",
+      "options": [
+        {
+          "en": "Amount of gold only",
+          "as": "কেৱল সোণৰ পৰিমাণ"
+        },
+        {
+          "en": "Number of banks only",
+          "as": "কেৱল বেংকৰ সংখ্যা"
+        },
+        {
+          "en": "Military expenditure only",
+          "as": "কেৱল সামৰিক ব্যয়"
+        },
+        {
+          "en": "Life expectancy",
+          "as": "জীৱন প্রত্যাশা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "What does life expectancy mean?",
+      "as": "জীৱন প্রত্যাশা মানে কি?",
+      "options": [
+        {
+          "en": "Number of years a child is expected to survive at birth",
+          "as": "জন্মৰ সময়ত শিশুৱে আশা কৰা মতে বাচি থাকিবলগীয়া বছৰৰ সংখ্যা"
+        },
+        {
+          "en": "Number of elections",
+          "as": "নিৰ্বাচনৰ সংখ্যা"
+        },
+        {
+          "en": "Number of schools in a district",
+          "as": "এখন জিলাৰ বিদ্যালয়ৰ সংখ্যা"
+        },
+        {
+          "en": "Total bank deposits",
+          "as": "মুঠ বেংক জমা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Human development means the expansion of what?",
+      "as": "মানৱ উন্নয়নৰ অৰ্থ কিহৰ বিস্তাৰ?",
+      "options": [
+        {
+          "en": "Only crop storage",
+          "as": "কেৱল ফচল সংৰক্ষণ"
+        },
+        {
+          "en": "Collective choice of the people",
+          "as": "জনসাধাৰণৰ সামূহিক পছন্দ"
+        },
+        {
+          "en": "Only military choice",
+          "as": "কেৱল সামৰিক পছন্দ"
+        },
+        {
+          "en": "Only government taxes",
+          "as": "কেৱল চৰকাৰী কৰ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which new concept was introduced in Human Development Report 2010?",
+      "as": "মানৱ উন্নয়ন প্ৰতিবেদন ২০১০ত কোন নতুন ধাৰণা প্ৰৱৰ্তন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Cabinet Mission",
+          "as": "কেবিনেট মিছন"
+        },
+        {
+          "en": "Gold standard",
+          "as": "সোণ মান"
+        },
+        {
+          "en": "Inequality adjusted Human Development Index",
+          "as": "অসমতা-সংশোধিত মানৱ উন্নয়ন সূচক"
+        },
+        {
+          "en": "Barter system",
+          "as": "বাৰ্টাৰ পদ্ধতি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is economic planning?",
+      "as": "অৰ্থনৈতিক পৰিকল্পনা কি?",
+      "options": [
+        {
+          "en": "A list of cricket matches",
+          "as": "ক্ৰিকেট খেলৰ তালিকা"
+        },
+        {
+          "en": "A form of military rule",
+          "as": "সামৰিক শাসনৰ ৰূপ"
+        },
+        {
+          "en": "A method of barter only",
+          "as": "কেৱল বাৰ্টাৰ পদ্ধতি"
+        },
+        {
+          "en": "An instrument to attain well-defined objectives within a definite time period",
+          "as": "নির্দিষ্ট সময়ত সুস্পষ্ট উদ্দেশ্য সাধনৰ উপায়"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which is an objective of planning in India?",
+      "as": "ভাৰতৰ পৰিকল্পনাৰ এটা উদ্দেশ্য কোনটো?",
+      "options": [
+        {
+          "en": "Remove poverty and socio-economic inequalities",
+          "as": "দৰিদ্ৰতা আৰু সামাজিক-অৰ্থনৈতিক অসমতা দূৰ কৰা"
+        },
+        {
+          "en": "Increase colonial rule",
+          "as": "ঔপনিবেশিক শাসন বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Reduce all employment opportunities",
+          "as": "সকলো নিয়োগ সুযোগ হ্ৰাস কৰা"
+        },
+        {
+          "en": "Damage the environment deliberately",
+          "as": "ইচ্ছাকৃতভাৱে পৰিৱেশ ক্ষতি কৰা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which body formulated plans from the First to the Twelfth Five Year Plan?",
+      "as": "প্ৰথমৰ পৰা দ্বাদশ পাঁচবছৰীয়া পৰিকল্পনালৈ কোন সংস্থাই পৰিকল্পনা প্ৰস্তুত কৰিছিল?",
+      "options": [
+        {
+          "en": "Security Council",
+          "as": "নিৰাপত্তা পৰিষদ"
+        },
+        {
+          "en": "Planning Commission of India",
+          "as": "ভাৰতৰ পৰিকল্পনা আয়োগ"
+        },
+        {
+          "en": "FIFA",
+          "as": "FIFA"
+        },
+        {
+          "en": "NATO",
+          "as": "NATO"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What has replaced the Planning Commission of India?",
+      "as": "ভাৰতৰ পৰিকল্পনা আয়োগক কি প্ৰতিস্থাপন কৰিছে?",
+      "options": [
+        {
+          "en": "SIDBI",
+          "as": "SIDBI"
+        },
+        {
+          "en": "NABARD",
+          "as": "NABARD"
+        },
+        {
+          "en": "NITI Aayog",
+          "as": "নিটি আয়োগ"
+        },
+        {
+          "en": "RBI",
+          "as": "RBI"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What does NITI stand for?",
+      "as": "NITIৰ সম্পূৰ্ণ ৰূপ কি?",
+      "options": [
+        {
+          "en": "New International Trade Initiative",
+          "as": "New International Trade Initiative"
+        },
+        {
+          "en": "National Institute of Taxation in India",
+          "as": "National Institute of Taxation in India"
+        },
+        {
+          "en": "National Investment and Tariff Institution",
+          "as": "National Investment and Tariff Institution"
+        },
+        {
+          "en": "National Institution for Transforming India",
+          "as": "National Institution for Transforming India"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "When did NITI Aayog come into operation?",
+      "as": "নিটি আয়োগ কেতিয়া কাৰ্যকৰী হৈছিল?",
+      "options": [
+        {
+          "en": "1 January 2015",
+          "as": "১ জানুৱাৰী ২০১৫"
+        },
+        {
+          "en": "31 March 2017",
+          "as": "৩১ মাৰ্চ ২০১৭"
+        },
+        {
+          "en": "8 February 2015",
+          "as": "৮ ফেব্ৰুৱাৰী ২০১৫"
+        },
+        {
+          "en": "1 April 1951",
+          "as": "১ এপ্ৰিল ১৯৫১"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

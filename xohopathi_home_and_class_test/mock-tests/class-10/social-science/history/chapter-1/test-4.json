@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
-    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+    "as": "অধ্যায় ১ - বঙ্গ বিভাজন আৰু স্বদেশী আন্দোলন"
   },
   "test": {
     "en": "Test 4",
-    "as": "????? ?"
+    "as": "টেষ্ট ৪"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,8 +28,8 @@
       "as": "‘বহিষ্কাৰ মানে দেশপ্ৰেম’ বুলি কোনে কৈছিল?",
       "options": [
         {
-          "en": "Aurobindo Ghose",
-          "as": "অৰবিন্দ ঘোষ"
+          "en": "Nawab Salimullah",
+          "as": "নৱাব ছালিমুল্লাহ"
         },
         {
           "en": "Lord Curzon",
@@ -40,11 +40,11 @@
           "as": "লৰ্ড মিণ্টো"
         },
         {
-          "en": "Nawab Salimullah",
-          "as": "নৱাব ছালিমুল্লাহ"
+          "en": "Aurobindo Ghose",
+          "as": "অৰবিন্দ ঘোষ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Which newspaper was edited by Surendranath Banerjee during the Swadeshi period?",
@@ -55,16 +55,16 @@
           "as": "দ্য বেংগলী"
         },
         {
-          "en": "Yugantar",
-          "as": "যুগান্তৰ"
+          "en": "Su-Prabhat",
+          "as": "সু-প্ৰভাত"
         },
         {
           "en": "Sandhya",
           "as": "সন্ধ্যা"
         },
         {
-          "en": "Su-Prabhat",
-          "as": "সু-প্ৰভাত"
+          "en": "Yugantar",
+          "as": "যুগান্তৰ"
         }
       ],
       "answer": 0
@@ -74,32 +74,28 @@
       "as": "সাপ্তাহিক ‘যুগান্তৰ’ কোনে সম্পাদনা কৰিছিল?",
       "options": [
         {
-          "en": "Bhupendra Dutta",
-          "as": "ভূপেন্দ্ৰ দত্ত"
-        },
-        {
           "en": "Krishna Kumar Mitra",
           "as": "কৃষ্ণ কুমাৰ মিত্ৰ"
         },
         {
-          "en": "Kumudini Mishra",
-          "as": "কুমুদিনী মিশ্ৰ"
+          "en": "Bhupendra Dutta",
+          "as": "ভূপেন্দ্ৰ দত্ত"
         },
         {
           "en": "Satish Chandra Mukherjee",
           "as": "সতীশ চন্দ্ৰ মুখাৰ্জী"
+        },
+        {
+          "en": "Kumudini Mishra",
+          "as": "কুমুদিনী মিশ্ৰ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which patriotic song later became the national anthem of Bangladesh?",
       "as": "কোন দেশপ্ৰেমমূলক গীত পিছত বাংলাদেশৰ ৰাষ্ট্ৰীয় সংগীত হয়?",
       "options": [
-        {
-          "en": "Amar Sonar Bangla",
-          "as": "আমাৰ সোনাৰ বাংলা"
-        },
         {
           "en": "Vande Mataram",
           "as": "বন্দে মাতৰম"
@@ -109,34 +105,38 @@
           "as": "জন গণ মন"
         },
         {
+          "en": "Amar Sonar Bangla",
+          "as": "আমাৰ সোনাৰ বাংলা"
+        },
+        {
           "en": "Ekla Cholo Re",
           "as": "একলা চলো ৰে"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Who painted 'Banga Mata'?",
       "as": "‘বংগ মাতা’ ছবি কোনে আঁকিছিল?",
       "options": [
         {
-          "en": "Abanindranath Tagore",
-          "as": "অবনীন্দ্ৰনাথ ঠাকুৰ"
-        },
-        {
-          "en": "Rabindranath Tagore",
-          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+          "en": "Raja Ravi Varma",
+          "as": "ৰাজা ৰবি বৰ্মা"
         },
         {
           "en": "Nandalal Bose",
           "as": "নন্দলাল বসু"
         },
         {
-          "en": "Raja Ravi Varma",
-          "as": "ৰাজা ৰবি বৰ্মা"
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
+          "en": "Abanindranath Tagore",
+          "as": "অবনীন্দ্ৰনাথ ঠাকুৰ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who transformed 'Banga Mata' into 'Bharat Mata'?",
@@ -147,16 +147,16 @@
           "as": "ছিস্টাৰ নিবেদিতা"
         },
         {
-          "en": "Sarala Devi",
-          "as": "সৰলা দেৱী"
-        },
-        {
           "en": "Kumudini Mishra",
           "as": "কুমুদিনী মিশ্ৰ"
         },
         {
           "en": "Bhabaneswari Devi",
           "as": "ভবানেশ্বৰী দেৱী"
+        },
+        {
+          "en": "Sarala Devi",
+          "as": "সৰলা দেৱী"
         }
       ],
       "answer": 0
@@ -166,69 +166,69 @@
       "as": "ছাত্ৰ-ছাত্ৰীক আন্দোলনত অংশ নল’বলৈ সতৰ্ক কৰা কাৰ্লাইল চাৰ্কুলাৰ কোনে জাৰি কৰিছিল?",
       "options": [
         {
-          "en": "R. W. Carlyle",
-          "as": "আৰ. ডব্লিউ. কাৰ্লাইল"
+          "en": "R. C. Dutt",
+          "as": "আৰ. চি. দত্ত"
         },
         {
-          "en": "Lord Curzon",
-          "as": "লৰ্ড কাৰ্জন"
+          "en": "R. W. Carlyle",
+          "as": "আৰ. ডব্লিউ. কাৰ্লাইল"
         },
         {
           "en": "Aga Khan",
           "as": "আগা খান"
         },
         {
-          "en": "R. C. Dutt",
-          "as": "আৰ. চি. দত্ত"
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "When was the Anti-Circular Society formed?",
       "as": "এণ্টি-চাৰ্কুলাৰ ছ’চাইটি কেতিয়া গঠন হৈছিল?",
       "options": [
         {
-          "en": "4 November 1905",
-          "as": "৪ নৱেম্বৰ ১৯০৫"
+          "en": "30 December 1906",
+          "as": "৩০ ডিচেম্বৰ ১৯০৬"
         },
         {
           "en": "7 August 1905",
           "as": "৭ আগষ্ট ১৯০৫"
         },
         {
-          "en": "30 December 1906",
-          "as": "৩০ ডিচেম্বৰ ১৯০৬"
+          "en": "4 November 1905",
+          "as": "৪ নৱেম্বৰ ১৯০৫"
         },
         {
           "en": "5 March 1931",
           "as": "৫ মাৰ্চ ১৯৩১"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The National Education Council was formed under the leadership of—",
       "as": "জাতীয় শিক্ষা পৰিষদ কাৰ নেতৃত্বত গঠন হৈছিল?",
       "options": [
         {
-          "en": "Rasbihari Bose",
-          "as": "ৰাসবিহাৰী বসু"
+          "en": "Aga Khan",
+          "as": "আগা খান"
         },
         {
           "en": "Lord Minto",
           "as": "লৰ্ড মিণ্টো"
         },
         {
-          "en": "Aga Khan",
-          "as": "আগা খান"
-        },
-        {
           "en": "J. B. Fuller",
           "as": "জে. বি. ফুলাৰ"
+        },
+        {
+          "en": "Rasbihari Bose",
+          "as": "ৰাসবিহাৰী বসু"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who was the first principal of Bengal National College?",
@@ -239,16 +239,16 @@
           "as": "অৰবিন্দ ঘোষ"
         },
         {
-          "en": "Rabindranath Tagore",
-          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
-        },
-        {
           "en": "Satish Chandra Mukherjee",
           "as": "সতীশ চন্দ্ৰ মুখাৰ্জী"
         },
         {
           "en": "Surendranath Banerjee",
           "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
         }
       ],
       "answer": 0

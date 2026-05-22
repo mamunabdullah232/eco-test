@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 2 - Environment and Environmental Problems",
-    "as": "অধ্যায় 2 - পৰিৱেশ আৰু পৰিৱেশীয় সমস্যা"
+    "as": "অধ্যায় ২ - পৰিৱেশ আৰু পৰিৱেশজনিত সমস্যা"
   },
   "test": {
     "en": "Test 4",
-    "as": "????? ?"
+    "as": "টেষ্ট ৪"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -36,12 +36,12 @@
           "as": "অক্সিজেন"
         },
         {
-          "en": "Argon",
-          "as": "আৰ্গন"
-        },
-        {
           "en": "Carbon dioxide",
           "as": "কাৰ্বন-ডাই-অক্সাইড"
+        },
+        {
+          "en": "Argon",
+          "as": "আৰ্গন"
         }
       ],
       "answer": 0
@@ -51,36 +51,28 @@
       "as": "বায়ুমণ্ডলত অক্সিজেনৰ পৰিমাণ প্ৰায় কিমান?",
       "options": [
         {
-          "en": "20.94%",
-          "as": "২০.৯৪%"
-        },
-        {
-          "en": "78.08%",
-          "as": "৭৮.০৮%"
-        },
-        {
           "en": "0.93%",
           "as": "০.৯৩%"
         },
         {
+          "en": "20.94%",
+          "as": "২০.৯৪%"
+        },
+        {
           "en": "0.035%",
           "as": "০.০৩৫%"
+        },
+        {
+          "en": "78.08%",
+          "as": "৭৮.০৮%"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which natural event can pollute the atmosphere?",
       "as": "কোন প্ৰাকৃতিক ঘটনাই বায়ুমণ্ডল প্ৰদূষিত কৰিব পাৰে?",
       "options": [
-        {
-          "en": "Volcanic eruption",
-          "as": "আগ্নেয়গিৰিৰ উদ্গীৰণ"
-        },
-        {
-          "en": "Organic farming",
-          "as": "জৈৱিক কৃষি"
-        },
         {
           "en": "Forest conservation",
           "as": "বন সংৰক্ষণ"
@@ -88,32 +80,40 @@
         {
           "en": "Rainwater harvesting",
           "as": "বৰষুণৰ পানী সংগ্ৰহ"
+        },
+        {
+          "en": "Volcanic eruption",
+          "as": "আগ্নেয়গিৰিৰ উদ্গীৰণ"
+        },
+        {
+          "en": "Organic farming",
+          "as": "জৈৱিক কৃষি"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Mount Pinatubo is cited as an example of—",
       "as": "মাউণ্ট পিনাটুবোক কিহৰ উদাহৰণ হিচাপে উল্লেখ কৰা হৈছে?",
       "options": [
         {
-          "en": "Volcanic eruption causing air pollution",
-          "as": "বায়ু প্ৰদূষণ ঘটোৱা আগ্নেয়গিৰিৰ উদ্গীৰণ"
-        },
-        {
           "en": "A major river",
           "as": "এখন প্ৰধান নদী"
+        },
+        {
+          "en": "A lake",
+          "as": "এখন হ্ৰদ"
         },
         {
           "en": "A desert",
           "as": "এখন মৰুভূমি"
         },
         {
-          "en": "A lake",
-          "as": "এখন হ্ৰদ"
+          "en": "Volcanic eruption causing air pollution",
+          "as": "বায়ু প্ৰদূষণ ঘটোৱা আগ্নেয়গিৰিৰ উদ্গীৰণ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Major man-made factors of air pollution include industries, urbanization, vehicular traffic and—",
@@ -128,12 +128,12 @@
           "as": "বনায়ন"
         },
         {
-          "en": "Organic farming",
-          "as": "জৈৱিক কৃষি"
-        },
-        {
           "en": "Rainwater harvesting",
           "as": "বৰষুণৰ পানী সংগ্ৰহ"
+        },
+        {
+          "en": "Organic farming",
+          "as": "জৈৱিক কৃষি"
         }
       ],
       "answer": 0
@@ -143,12 +143,12 @@
       "as": "অম্লবৰষুণ সাধাৰণতে ছালফাৰ-ডাই-অক্সাইড আৰু কিহৰ অধিক ঘনত্বৰ বাবে হয়?",
       "options": [
         {
-          "en": "Nitrogen dioxide",
-          "as": "নাইট্ৰোজেন-ডাই-অক্সাইড"
-        },
-        {
           "en": "Oxygen",
           "as": "অক্সিজেন"
+        },
+        {
+          "en": "Nitrogen dioxide",
+          "as": "নাইট্ৰোজেন-ডাই-অক্সাইড"
         },
         {
           "en": "Hydrogen",
@@ -159,12 +159,20 @@
           "as": "আৰ্গন"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The process of making water unusable by mixing pollutants is called—",
       "as": "প্ৰদূষক মিহলি হৈ পানীক ব্যৱহাৰৰ অযোগ্য কৰি তোলা প্ৰক্ৰিয়াক কি বোলে?",
       "options": [
+        {
+          "en": "Evaporation",
+          "as": "বাষ্পীভৱন"
+        },
+        {
+          "en": "Condensation",
+          "as": "ঘনীভৱন"
+        },
         {
           "en": "Water pollution",
           "as": "জল প্ৰদূষণ"
@@ -172,25 +180,17 @@
         {
           "en": "Irrigation",
           "as": "সিঞ্চন"
-        },
-        {
-          "en": "Condensation",
-          "as": "ঘনীভৱন"
-        },
-        {
-          "en": "Evaporation",
-          "as": "বাষ্পীভৱন"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Which river is mentioned as polluted due to urban and industrial wastes in Guwahati?",
       "as": "গুৱাহাটীত নগৰীয় আৰু ঔদ্যোগিক আৱৰ্জনাৰ বাবে কোনখন নদী প্ৰদূষিত বুলি উল্লেখ কৰা হৈছে?",
       "options": [
         {
-          "en": "Bharalu",
-          "as": "ভৰলু"
+          "en": "Volga",
+          "as": "ভল্গা"
         },
         {
           "en": "Nile",
@@ -201,11 +201,11 @@
           "as": "আমাজন"
         },
         {
-          "en": "Volga",
-          "as": "ভল্গা"
+          "en": "Bharalu",
+          "as": "ভৰলু"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Ganga is cited as an example of a river polluted mainly by—",
@@ -220,12 +220,12 @@
           "as": "হিমপাত"
         },
         {
-          "en": "Mountain glaciers only",
-          "as": "কেৱল পৰ্বতীয় হিমবাহ"
-        },
-        {
           "en": "Desert winds",
           "as": "মৰু বতাহ"
+        },
+        {
+          "en": "Mountain glaciers only",
+          "as": "কেৱল পৰ্বতীয় হিমবাহ"
         }
       ],
       "answer": 0
@@ -235,23 +235,23 @@
       "as": "মৰুভূমিয়ে পৃথিৱীৰ স্থলভাগৰ প্ৰায় কিমান অংশ আৱৰি আছে?",
       "options": [
         {
-          "en": "20%",
-          "as": "২০%"
+          "en": "71%",
+          "as": "৭১%"
         },
         {
-          "en": "35%",
-          "as": "৩৫%"
+          "en": "20%",
+          "as": "২০%"
         },
         {
           "en": "50%",
           "as": "৫০%"
         },
         {
-          "en": "71%",
-          "as": "৭১%"
+          "en": "35%",
+          "as": "৩৫%"
         }
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

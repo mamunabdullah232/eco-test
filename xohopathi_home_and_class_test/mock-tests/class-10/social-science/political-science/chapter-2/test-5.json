@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 2 - International Organization - UNO and Others",
+    "as": "অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ আৰু অন্যান্য"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "When was the National Human Rights Commission formed in India through an ordinance?",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় মানৱ অধিকাৰ আয়োগ অধ্যাদেশৰ জৰিয়তে কেতিয়া গঠন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "8 January 1994",
+          "as": "৮ জানুৱাৰী ১৯৯৪"
+        },
+        {
+          "en": "10 December 1948",
+          "as": "১০ ডিচেম্বৰ ১৯৪৮"
+        },
+        {
+          "en": "28 September 1993",
+          "as": "২৮ ছেপ্টেম্বৰ ১৯৯৩"
+        },
+        {
+          "en": "16 February 1946",
+          "as": "১৬ ফেব্ৰুৱাৰী ১৯৪৬"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "On which date did the Human Rights Protection Bill become an Act in India?",
+      "as": "ভাৰতত মানৱ অধিকাৰ সুৰক্ষা বিল কোন তাৰিখে আইনত পৰিণত হৈছিল?",
+      "options": [
+        {
+          "en": "18 December 1993",
+          "as": "১৮ ডিচেম্বৰ ১৯৯৩"
+        },
+        {
+          "en": "28 September 1993",
+          "as": "২৮ ছেপ্টেম্বৰ ১৯৯৩"
+        },
+        {
+          "en": "10 December 1948",
+          "as": "১০ ডিচেম্বৰ ১৯৪৮"
+        },
+        {
+          "en": "8 January 1994",
+          "as": "৮ জানুৱাৰী ১৯৯৪"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who should be the Chairman of the National Human Rights Commission of India?",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰীয় মানৱ অধিকাৰ আয়োগৰ অধ্যক্ষ কোন হ'ব লাগে?",
+      "options": [
+        {
+          "en": "A retired Chief Justice of the Supreme Court",
+          "as": "সৰ্বোচ্চ ন্যায়ালয়ৰ অৱসৰপ্ৰাপ্ত মুখ্য ন্যায়াধীশ"
+        },
+        {
+          "en": "A bank chairman",
+          "as": "এজন বেংক অধ্যক্ষ"
+        },
+        {
+          "en": "A district judge only",
+          "as": "কেৱল এজন জিলা ন্যায়াধীশ"
+        },
+        {
+          "en": "A serving Chief Minister",
+          "as": "এজন কাৰ্যৰত মুখ্যমন্ত্ৰী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who appoints the members of the National Human Rights Commission?",
+      "as": "ৰাষ্ট্ৰীয় মানৱ অধিকাৰ আয়োগৰ সদস্যসকলক কোনে নিযুক্তি দিয়ে?",
+      "options": [
+        {
+          "en": "Chief Election Commissioner",
+          "as": "মুখ্য নিৰ্বাচন আয়ুক্ত"
+        },
+        {
+          "en": "President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "Prime Minister only",
+          "as": "কেৱল প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "Governor only",
+          "as": "কেৱল ৰাজ্যপাল"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What is the tenure of members of the National Human Rights Commission according to the chapter?",
+      "as": "অধ্যায় অনুসৰি ৰাষ্ট্ৰীয় মানৱ অধিকাৰ আয়োগৰ সদস্যসকলৰ কাৰ্যকাল কিমান?",
+      "options": [
+        {
+          "en": "Ten years",
+          "as": "দহ বছৰ"
+        },
+        {
+          "en": "Three years",
+          "as": "তিনি বছৰ"
+        },
+        {
+          "en": "Five years",
+          "as": "পাঁচ বছৰ"
+        },
+        {
+          "en": "Two years",
+          "as": "দুবছৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Where is the headquarters of the Commonwealth of Nations?",
+      "as": "কমনৱেলথ অৱ নেশ্যনছৰ মুখ্য কাৰ্যালয় ক'ত?",
+      "options": [
+        {
+          "en": "Dubai",
+          "as": "ডুবাই"
+        },
+        {
+          "en": "Brussels",
+          "as": "ব্ৰাচেলছ"
+        },
+        {
+          "en": "Kathmandu",
+          "as": "কাঠমাণ্ডু"
+        },
+        {
+          "en": "London",
+          "as": "লণ্ডন"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Where is the headquarters of NATO?",
+      "as": "NATOৰ মুখ্য কাৰ্যালয় ক'ত?",
+      "options": [
+        {
+          "en": "Brussels",
+          "as": "ব্ৰাচেলছ"
+        },
+        {
+          "en": "Zurich",
+          "as": "জুৰিখ"
+        },
+        {
+          "en": "Singapore",
+          "as": "ছিংগাপুৰ"
+        },
+        {
+          "en": "London",
+          "as": "লণ্ডন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Where is the headquarters of ASEAN?",
+      "as": "ASEANৰ মুখ্য কাৰ্যালয় ক'ত?",
+      "options": [
+        {
+          "en": "Kathmandu",
+          "as": "কাঠমাণ্ডু"
+        },
+        {
+          "en": "Jakarta",
+          "as": "জাকাৰ্তা"
+        },
+        {
+          "en": "Dubai",
+          "as": "ডুবাই"
+        },
+        {
+          "en": "Geneva",
+          "as": "জেনেভা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Where is the headquarters of the International Cricket Council?",
+      "as": "আন্তঃৰাষ্ট্ৰীয় ক্ৰিকেট পৰিষদৰ মুখ্য কাৰ্যালয় ক'ত?",
+      "options": [
+        {
+          "en": "London",
+          "as": "লণ্ডন"
+        },
+        {
+          "en": "Zurich",
+          "as": "জুৰিখ"
+        },
+        {
+          "en": "Dubai",
+          "as": "ডুবাই"
+        },
+        {
+          "en": "New York",
+          "as": "নিউয়ৰ্ক"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Where is the headquarters of SAARC?",
+      "as": "SAARCৰ মুখ্য কাৰ্যালয় ক'ত?",
+      "options": [
+        {
+          "en": "Dubai, UAE",
+          "as": "ডুবাই, UAE"
+        },
+        {
+          "en": "Geneva, Switzerland",
+          "as": "জেনেভা, চুইজাৰলেণ্ড"
+        },
+        {
+          "en": "London, UK",
+          "as": "লণ্ডন, যুক্তৰাজ্য"
+        },
+        {
+          "en": "Kathmandu, Nepal",
+          "as": "কাঠমাণ্ডু, নেপাল"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 1 - Economic Geography: Subject Matter and Resource",
-    "as": "অধ্যায় 1 - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
+    "as": "অধ্যায় ১ - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
   },
   "test": {
     "en": "Test 5",
-    "as": "????? ?"
+    "as": "টেষ্ট ৫"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -32,70 +32,74 @@
           "as": "গংগা নদী"
         },
         {
+          "en": "Yamuna River",
+          "as": "যমুনা নদী"
+        },
+        {
           "en": "Damodar River",
           "as": "দামোদৰ নদী"
         },
         {
           "en": "Brahmaputra River",
           "as": "ব্ৰহ্মপুত্ৰ নদী"
-        },
-        {
-          "en": "Yamuna River",
-          "as": "যমুনা নদী"
         }
       ],
-      "answer": 1
+      "answer": 2
     },
     {
       "en": "According to Economics, materials that have exchange value are called—",
       "as": "অৰ্থনীতিৰ মতে বিনিময় মূল্য থকা সামগ্ৰীক কি বোলে?",
       "options": [
         {
-          "en": "Wealth",
-          "as": "ধন-সম্পদ"
-        },
-        {
-          "en": "Neutral stuff",
-          "as": "নিৰপেক্ষ বস্তু"
+          "en": "Abiotic resource",
+          "as": "অজৈৱিক সম্পদ"
         },
         {
           "en": "Resistance",
           "as": "প্ৰতিবন্ধক"
         },
         {
-          "en": "Abiotic resource",
-          "as": "অজৈৱিক সম্পদ"
+          "en": "Neutral stuff",
+          "as": "নিৰপেক্ষ বস্তু"
+        },
+        {
+          "en": "Wealth",
+          "as": "ধন-সম্পদ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Which statement is correct?",
       "as": "তলৰ কোনটো বাক্য সঠিক?",
       "options": [
         {
-          "en": "All resources are wealth",
-          "as": "সকলো সম্পদেই ধন-সম্পদ"
-        },
-        {
           "en": "All wealth is resources, but all resources may not be wealth",
           "as": "সকলো ধন-সম্পদ সম্পদ, কিন্তু সকলো সম্পদ ধন-সম্পদ নহ’বও পাৰে"
+        },
+        {
+          "en": "Resources have no utility",
+          "as": "সম্পদৰ কোনো উপযোগিতা নাই"
         },
         {
           "en": "Wealth and resources are always harmful",
           "as": "ধন-সম্পদ আৰু সম্পদ সদায় ক্ষতিকাৰক"
         },
         {
-          "en": "Resources have no utility",
-          "as": "সম্পদৰ কোনো উপযোগিতা নাই"
+          "en": "All resources are wealth",
+          "as": "সকলো সম্পদেই ধন-সম্পদ"
         }
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "en": "On the basis of origin, resources are broadly divided into—",
       "as": "উৎপত্তিৰ ভিত্তিত সম্পদক প্ৰধানকৈ কিমান ভাগত ভাগ কৰা হয়?",
       "options": [
+        {
+          "en": "Ancient and modern resources",
+          "as": "প্ৰাচীন আৰু আধুনিক সম্পদ"
+        },
         {
           "en": "Natural, man-made and human resources",
           "as": "প্ৰাকৃতিক, মানৱসৃষ্ট আৰু মানৱ সম্পদ"
@@ -107,68 +111,60 @@
         {
           "en": "Political and social resources",
           "as": "ৰাজনৈতিক আৰু সামাজিক সম্পদ"
-        },
-        {
-          "en": "Ancient and modern resources",
-          "as": "প্ৰাচীন আৰু আধুনিক সম্পদ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Sunshine, air, water, soil, plants and minerals are examples of—",
       "as": "সূৰ্যৰ পোহৰ, বায়ু, পানী, মাটি, উদ্ভিদ আৰু খনিজ কিহৰ উদাহৰণ?",
       "options": [
         {
-          "en": "Natural resources",
-          "as": "প্ৰাকৃতিক সম্পদ"
-        },
-        {
           "en": "Man-made resources",
           "as": "মানৱসৃষ্ট সম্পদ"
         },
         {
-          "en": "Human resources",
-          "as": "মানৱ সম্পদ"
-        },
-        {
           "en": "Neutral stuff only",
           "as": "কেৱল নিৰপেক্ষ বস্তু"
+        },
+        {
+          "en": "Natural resources",
+          "as": "প্ৰাকৃতিক সম্পদ"
+        },
+        {
+          "en": "Human resources",
+          "as": "মানৱ সম্পদ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Paper from bamboo and cloth from cotton are examples of—",
       "as": "বাঁহৰ পৰা কাগজ আৰু কপাহৰ পৰা কাপোৰ কিহৰ উদাহৰণ?",
       "options": [
         {
-          "en": "Natural resources",
-          "as": "প্ৰাকৃতিক সম্পদ"
+          "en": "Abiotic resources only",
+          "as": "কেৱল অজৈৱিক সম্পদ"
         },
         {
-          "en": "Man-made resources",
-          "as": "মানৱসৃষ্ট সম্পদ"
+          "en": "Natural resources",
+          "as": "প্ৰাকৃতিক সম্পদ"
         },
         {
           "en": "International resources",
           "as": "আন্তর্জাতিক সম্পদ"
         },
         {
-          "en": "Abiotic resources only",
-          "as": "কেৱল অজৈৱিক সম্পদ"
+          "en": "Man-made resources",
+          "as": "মানৱসৃষ্ট সম্পদ"
         }
       ],
-      "answer": 1
+      "answer": 3
     },
     {
       "en": "Resources having life are called—",
       "as": "জীৱন থকা সম্পদক কি বোলে?",
       "options": [
-        {
-          "en": "Abiotic resources",
-          "as": "অজৈৱিক সম্পদ"
-        },
         {
           "en": "Biotic resources",
           "as": "জৈৱিক সম্পদ"
@@ -178,16 +174,28 @@
           "as": "অনবীকৰণযোগ্য সম্পদ"
         },
         {
+          "en": "Abiotic resources",
+          "as": "অজৈৱিক সম্পদ"
+        },
+        {
           "en": "Neutral stuff",
           "as": "নিৰপেক্ষ বস্তু"
         }
       ],
-      "answer": 1
+      "answer": 0
     },
     {
       "en": "Which of the following is an abiotic resource?",
       "as": "তলৰ কোনটো অজৈৱিক সম্পদ?",
       "options": [
+        {
+          "en": "Crops",
+          "as": "শস্য"
+        },
+        {
+          "en": "Soil",
+          "as": "মাটি"
+        },
         {
           "en": "Plants",
           "as": "উদ্ভিদ"
@@ -195,26 +203,14 @@
         {
           "en": "Animals",
           "as": "জন্তু"
-        },
-        {
-          "en": "Soil",
-          "as": "মাটি"
-        },
-        {
-          "en": "Crops",
-          "as": "শস্য"
         }
       ],
-      "answer": 2
+      "answer": 1
     },
     {
       "en": "Resources that can be regenerated after use are called—",
       "as": "ব্যৱহাৰৰ পিছত পুনৰ সৃষ্টি কৰিব পৰা সম্পদক কি বোলে?",
       "options": [
-        {
-          "en": "Renewable resources",
-          "as": "নবীকৰণযোগ্য সম্পদ"
-        },
         {
           "en": "Non-renewable resources",
           "as": "অনবীকৰণযোগ্য সম্পদ"
@@ -224,24 +220,20 @@
           "as": "ক্ষয়িষ্ণু সম্পদ"
         },
         {
+          "en": "Renewable resources",
+          "as": "নবীকৰণযোগ্য সম্পদ"
+        },
+        {
           "en": "Localized resources",
           "as": "স্থানীয়কৃত সম্পদ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Coal, mineral oil, natural gas and minerals are examples of—",
       "as": "কয়লা, খনিজ তেল, প্ৰাকৃতিক গেছ আৰু খনিজ কিহৰ উদাহৰণ?",
       "options": [
-        {
-          "en": "Renewable resources",
-          "as": "নবীকৰণযোগ্য সম্পদ"
-        },
-        {
-          "en": "Non-renewable resources",
-          "as": "অনবীকৰণযোগ্য সম্পদ"
-        },
         {
           "en": "Human resources",
           "as": "মানৱ সম্পদ"
@@ -249,9 +241,17 @@
         {
           "en": "Ubiquitous resources",
           "as": "সৰ্বব্যাপী সম্পদ"
+        },
+        {
+          "en": "Renewable resources",
+          "as": "নবীকৰণযোগ্য সম্পদ"
+        },
+        {
+          "en": "Non-renewable resources",
+          "as": "অনবীকৰণযোগ্য সম্পদ"
         }
       ],
-      "answer": 1
+      "answer": 3
     }
   ]
 }

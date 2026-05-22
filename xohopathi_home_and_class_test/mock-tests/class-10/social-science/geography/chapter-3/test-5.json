@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 3 - Geography of the World",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 5",
-    "as": "????? ?"
+    "as": "টেষ্ট ৫"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -32,12 +32,12 @@
           "as": "৫১"
         },
         {
-          "en": "44",
-          "as": "৪৪"
-        },
-        {
           "en": "53",
           "as": "৫৩"
+        },
+        {
+          "en": "44",
+          "as": "৪৪"
         },
         {
           "en": "14",
@@ -51,32 +51,28 @@
       "as": "বিশ্বৰ সৰ্বোচ্চ পৰ্বতমালা কোনটো?",
       "options": [
         {
-          "en": "Himalayas",
-          "as": "হিমালয়"
+          "en": "Alps",
+          "as": "আল্পছ"
         },
         {
-          "en": "Andes",
-          "as": "আণ্ডিজ"
+          "en": "Himalayas",
+          "as": "হিমালয়"
         },
         {
           "en": "Rockies",
           "as": "ৰকীজ"
         },
         {
-          "en": "Alps",
-          "as": "আল্পছ"
+          "en": "Andes",
+          "as": "আণ্ডিজ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The highest peak of the Himalayas is—",
       "as": "হিমালয়ৰ সৰ্বোচ্চ শৃংগ কোনটো?",
       "options": [
-        {
-          "en": "Everest",
-          "as": "এভাৰেষ্ট"
-        },
         {
           "en": "K2",
           "as": "K2"
@@ -86,34 +82,38 @@
           "as": "মাউন্ট ব্লাঙ্ক"
         },
         {
+          "en": "Everest",
+          "as": "এভাৰেষ্ট"
+        },
+        {
           "en": "Kilimanjaro",
           "as": "কিলিমানজাৰো"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The height of Everest is—",
       "as": "এভাৰেষ্টৰ উচ্চতা কিমান?",
       "options": [
         {
-          "en": "8,848 meters",
-          "as": "৮,৮৪৮ মিটাৰ"
-        },
-        {
           "en": "8,611 meters",
           "as": "৮,৬১১ মিটাৰ"
+        },
+        {
+          "en": "4,807 meters",
+          "as": "৪,৮০৭ মিটাৰ"
         },
         {
           "en": "5,895 meters",
           "as": "৫,৮৯৫ মিটাৰ"
         },
         {
-          "en": "4,807 meters",
-          "as": "৪,৮০৭ মিটাৰ"
+          "en": "8,848 meters",
+          "as": "৮,৮৪৮ মিটাৰ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Godwin Austin or Mount K2 belongs to the—",
@@ -143,28 +143,36 @@
       "as": "আফ্ৰিকা বিশ্বৰ—",
       "options": [
         {
-          "en": "Second largest continent",
-          "as": "দ্বিতীয় বৃহত্তম মহাদেশ"
+          "en": "Third largest continent",
+          "as": "তৃতীয় বৃহত্তম মহাদেশ"
         },
         {
-          "en": "Smallest continent",
-          "as": "সৰ্বসৰু মহাদেশ"
+          "en": "Second largest continent",
+          "as": "দ্বিতীয় বৃহত্তম মহাদেশ"
         },
         {
           "en": "Largest continent",
           "as": "সৰ্ববৃহৎ মহাদেশ"
         },
         {
-          "en": "Third largest continent",
-          "as": "তৃতীয় বৃহত্তম মহাদেশ"
+          "en": "Smallest continent",
+          "as": "সৰ্বসৰু মহাদেশ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The world’s longest river, Nile, is located in—",
       "as": "বিশ্বৰ সৰ্বদীঘল নদী নীল ক’ত অৱস্থিত?",
       "options": [
+        {
+          "en": "North America",
+          "as": "উত্তৰ আমেৰিকা"
+        },
+        {
+          "en": "Oceania",
+          "as": "ওচেনিয়া"
+        },
         {
           "en": "Africa",
           "as": "আফ্ৰিকা"
@@ -172,40 +180,32 @@
         {
           "en": "Europe",
           "as": "ইউৰোপ"
-        },
-        {
-          "en": "Oceania",
-          "as": "ওচেনিয়া"
-        },
-        {
-          "en": "North America",
-          "as": "উত্তৰ আমেৰিকা"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "North America is the world’s—",
       "as": "উত্তৰ আমেৰিকা বিশ্বৰ—",
       "options": [
         {
-          "en": "Third largest continent",
-          "as": "তৃতীয় বৃহত্তম মহাদেশ"
+          "en": "Smallest continent",
+          "as": "সৰ্বসৰু মহাদেশ"
         },
         {
           "en": "Largest continent",
           "as": "সৰ্ববৃহৎ মহাদেশ"
         },
         {
-          "en": "Smallest continent",
-          "as": "সৰ্বসৰু মহাদেশ"
-        },
-        {
           "en": "Second largest continent",
           "as": "দ্বিতীয় বৃহত্তম মহাদেশ"
+        },
+        {
+          "en": "Third largest continent",
+          "as": "তৃতীয় বৃহত্তম মহাদেশ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The longest mountain system in the world is the—",
@@ -216,16 +216,16 @@
           "as": "আণ্ডিজ"
         },
         {
+          "en": "Alps",
+          "as": "আল্পছ"
+        },
+        {
           "en": "Himalayas",
           "as": "হিমালয়"
         },
         {
           "en": "Rockies",
           "as": "ৰকীজ"
-        },
-        {
-          "en": "Alps",
-          "as": "আল্পছ"
         }
       ],
       "answer": 0
@@ -235,23 +235,23 @@
       "as": "ব্ৰাজিল কোন মহাদেশৰ সৰ্ববৃহৎ দেশ?",
       "options": [
         {
-          "en": "South America",
-          "as": "দক্ষিণ আমেৰিকা"
-        },
-        {
           "en": "North America",
           "as": "উত্তৰ আমেৰিকা"
         },
         {
-          "en": "Africa",
-          "as": "আফ্ৰিকা"
+          "en": "South America",
+          "as": "দক্ষিণ আমেৰিকা"
         },
         {
           "en": "Oceania",
           "as": "ওচেনিয়া"
+        },
+        {
+          "en": "Africa",
+          "as": "আফ্ৰিকা"
         }
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

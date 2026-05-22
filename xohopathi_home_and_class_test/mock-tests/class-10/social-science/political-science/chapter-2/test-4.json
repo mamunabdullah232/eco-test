@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 2 - International Organization - UNO and Others",
+    "as": "অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ আৰু অন্যান্য"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which of the following is an agency related to the UNO?",
+      "as": "তলৰ কোনটো ৰাষ্ট্ৰসংঘৰ সৈতে জড়িত সংস্থা?",
+      "options": [
+        {
+          "en": "NATO",
+          "as": "NATO"
+        },
+        {
+          "en": "FIFA",
+          "as": "FIFA"
+        },
+        {
+          "en": "SAARC",
+          "as": "SAARC"
+        },
+        {
+          "en": "WHO",
+          "as": "WHO"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which commission did the UNO establish in January 1952 for disarmament?",
+      "as": "নিৰস্ত্ৰীকৰণৰ বাবে ১৯৫২ চনৰ জানুৱাৰীত ৰাষ্ট্ৰসংঘে কোন আয়োগ স্থাপন কৰিছিল?",
+      "options": [
+        {
+          "en": "Disarmament Commission",
+          "as": "নিৰস্ত্ৰীকৰণ আয়োগ"
+        },
+        {
+          "en": "Planning Commission",
+          "as": "পৰিকল্পনা আয়োগ"
+        },
+        {
+          "en": "Human Rights Commission",
+          "as": "মানৱ অধিকাৰ আয়োগ"
+        },
+        {
+          "en": "Finance Commission",
+          "as": "বিত্ত আয়োগ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which treaty was signed in 1963 according to the chapter?",
+      "as": "অধ্যায় অনুসৰি ১৯৬৩ চনত কোন চুক্তি স্বাক্ষৰিত হৈছিল?",
+      "options": [
+        {
+          "en": "CTBT",
+          "as": "সমগ্ৰ পৰীক্ষা নিষিদ্ধকৰণ চুক্তি"
+        },
+        {
+          "en": "Partial Nuclear Test Ban Treaty",
+          "as": "আংশিক পৰমাণু পৰীক্ষা নিষিদ্ধকৰণ চুক্তি"
+        },
+        {
+          "en": "Nuclear Non-Proliferation Treaty",
+          "as": "পৰমাণু অস্ত্ৰ বিস্তাৰ ৰোধ চুক্তি"
+        },
+        {
+          "en": "Outer Space Treaty",
+          "as": "মহাকাশ চুক্তি"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which treaty was signed in 1968?",
+      "as": "১৯৬৮ চনত কোন চুক্তি স্বাক্ষৰিত হৈছিল?",
+      "options": [
+        {
+          "en": "SALT-I",
+          "as": "SALT-I"
+        },
+        {
+          "en": "Partial Nuclear Test Ban Treaty",
+          "as": "আংশিক পৰমাণু পৰীক্ষা নিষিদ্ধকৰণ চুক্তি"
+        },
+        {
+          "en": "Nuclear Non-Proliferation Treaty",
+          "as": "পৰমাণু অস্ত্ৰ বিস্তাৰ ৰোধ চুক্তি"
+        },
+        {
+          "en": "START-II",
+          "as": "START-II"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "When did the UNO adopt Preventive Diplomacy according to the chapter?",
+      "as": "অধ্যায় অনুসৰি ৰাষ্ট্ৰসংঘে প্ৰিভেণ্টিভ ডিপ্লোমেচি কেতিয়া গ্ৰহণ কৰিছিল?",
+      "options": [
+        {
+          "en": "January 1952",
+          "as": "জানুৱাৰী ১৯৫২"
+        },
+        {
+          "en": "October 1945",
+          "as": "অক্টোবৰ ১৯৪৫"
+        },
+        {
+          "en": "December 1948",
+          "as": "ডিচেম্বৰ ১৯৪৮"
+        },
+        {
+          "en": "June 2007",
+          "as": "জুন ২০০৭"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "When was the Human Rights Commission of the UNO set up?",
+      "as": "ৰাষ্ট্ৰসংঘৰ মানৱ অধিকাৰ আয়োগ কেতিয়া গঠন হৈছিল?",
+      "options": [
+        {
+          "en": "16 February 1946",
+          "as": "১৬ ফেব্ৰুৱাৰী ১৯৪৬"
+        },
+        {
+          "en": "8 January 1994",
+          "as": "৮ জানুৱাৰী ১৯৯৪"
+        },
+        {
+          "en": "28 September 1993",
+          "as": "২৮ ছেপ্টেম্বৰ ১৯৯৩"
+        },
+        {
+          "en": "10 December 1948",
+          "as": "১০ ডিচেম্বৰ ১৯৪৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How many members did the UN Human Rights Commission have at its inception?",
+      "as": "ৰাষ্ট্ৰসংঘৰ মানৱ অধিকাৰ আয়োগ গঠনৰ সময়ত সদস্য সংখ্যা কিমান আছিল?",
+      "options": [
+        {
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "53",
+          "as": "৫৩"
+        },
+        {
+          "en": "21",
+          "as": "২১"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The Universal Declaration of Human Rights was adopted on which date?",
+      "as": "মানৱ অধিকাৰ ঘোষণা কোন তাৰিখে গ্ৰহণ কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "24 October 1945",
+          "as": "২৪ অক্টোবৰ ১৯৪৫"
+        },
+        {
+          "en": "11 December 1992",
+          "as": "১১ ডিচেম্বৰ ১৯৯২"
+        },
+        {
+          "en": "10 December 1948",
+          "as": "১০ ডিচেম্বৰ ১৯৪৮"
+        },
+        {
+          "en": "16 February 1946",
+          "as": "১৬ ফেব্ৰুৱাৰী ১৯৪৬"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which day is celebrated as World Human Rights Day?",
+      "as": "কোন দিনটো বিশ্ব মানৱ অধিকাৰ দিৱস হিচাপে পালন কৰা হয়?",
+      "options": [
+        {
+          "en": "24 October",
+          "as": "২৪ অক্টোবৰ"
+        },
+        {
+          "en": "26 January",
+          "as": "২৬ জানুৱাৰী"
+        },
+        {
+          "en": "1 January",
+          "as": "১ জানুৱাৰী"
+        },
+        {
+          "en": "10 December",
+          "as": "১০ ডিচেম্বৰ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "How many Articles are there in the Human Rights Declaration?",
+      "as": "মানৱ অধিকাৰ ঘোষণাত কিমানটা অনুচ্ছেদ আছে?",
+      "options": [
+        {
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "111",
+          "as": "১১১"
+        },
+        {
+          "en": "54",
+          "as": "৫৪"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

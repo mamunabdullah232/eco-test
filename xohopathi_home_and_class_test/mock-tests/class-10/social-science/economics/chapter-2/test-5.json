@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Economic Development",
+    "as": "অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is the target growth rate for Assam's economy in the Twelfth Plan?",
+      "as": "অসমৰ দ্বাদশ পৰিকল্পনাত অৰ্থনীতিৰ লক্ষ্য বৃদ্ধিৰ হাৰ কিমান?",
+      "options": [
+        {
+          "en": "2 percent",
+          "as": "২ শতাংশ"
+        },
+        {
+          "en": "50 percent",
+          "as": "৫০ শতাংশ"
+        },
+        {
+          "en": "100 percent",
+          "as": "১০০ শতাংশ"
+        },
+        {
+          "en": "10 percent",
+          "as": "১০ শতাংশ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The Twelfth Plan of Assam aimed to raise annual agricultural growth from 6 percent to what?",
+      "as": "অসমৰ দ্বাদশ পৰিকল্পনাই কৃষিৰ বাৰ্ষিক বৃদ্ধি ৬ শতাংশৰ পৰা কিমানলৈ বৃদ্ধি কৰাৰ লক্ষ্য লৈছিল?",
+      "options": [
+        {
+          "en": "8 percent",
+          "as": "৮ শতাংশ"
+        },
+        {
+          "en": "15 percent",
+          "as": "১৫ শতাংশ"
+        },
+        {
+          "en": "12 percent",
+          "as": "১২ শতাংশ"
+        },
+        {
+          "en": "10 percent",
+          "as": "১০ শতাংশ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which area receives emphasis for raising Assam's HDI in the Twelfth Plan?",
+      "as": "অসমৰ HDI বৃদ্ধি কৰিবলৈ দ্বাদশ পৰিকল্পনাত কোন ক্ষেত্ৰত বিনিয়োগ বৃদ্ধিৰ কথা কোৱা হৈছে?",
+      "options": [
+        {
+          "en": "Only military equipment",
+          "as": "কেৱল সামৰিক সঁজুলি"
+        },
+        {
+          "en": "Health and education",
+          "as": "স্বাস্থ্য আৰু শিক্ষা"
+        },
+        {
+          "en": "Only luxury goods",
+          "as": "কেৱল বিলাসী সামগ্ৰী"
+        },
+        {
+          "en": "Only foreign embassies",
+          "as": "কেৱল বিদেশী দূতাবাস"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which objective of Assam's Twelfth Plan relates to employment?",
+      "as": "অসমৰ দ্বাদশ পৰিকল্পনাৰ কোন উদ্দেশ্য নিয়োগৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Closing small industries",
+          "as": "ক্ষুদ্র উদ্যোগ বন্ধ কৰা"
+        },
+        {
+          "en": "Reducing education investment",
+          "as": "শিক্ষা বিনিয়োগ হ্ৰাস কৰা"
+        },
+        {
+          "en": "Skill formation and self-employment opportunities",
+          "as": "দক্ষতা গঠন আৰু স্বনিয়োগৰ সুযোগ"
+        },
+        {
+          "en": "Increasing flood damage",
+          "as": "বান ক্ষতি বৃদ্ধি কৰা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which environmental objective is included in Assam's Twelfth Plan?",
+      "as": "অসমৰ দ্বাদশ পৰিকল্পনাত কোন পৰিৱেশগত উদ্দেশ্য অন্তৰ্ভুক্ত?",
+      "options": [
+        {
+          "en": "Increase pollution",
+          "as": "প্ৰদূষণ বৃদ্ধি"
+        },
+        {
+          "en": "Avoid rural development",
+          "as": "গ্ৰামীণ উন্নয়ন এৰা"
+        },
+        {
+          "en": "Destroy forests only",
+          "as": "কেৱল বন ধ্বংস"
+        },
+        {
+          "en": "Preserve biodiversity and tackle climate change",
+          "as": "জৈৱ বৈচিত্ৰ্য সংৰক্ষণ আৰু জলবায়ু পৰিৱর্তনৰ মোকাবিলা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Assam's Twelfth Plan gives priority to which area?",
+      "as": "অসমৰ দ্বাদশ পৰিকল্পনাই কোন ক্ষেত্ৰক অগ্ৰাধিকাৰ দিছে?",
+      "options": [
+        {
+          "en": "Rural development",
+          "as": "গ্ৰামীণ উন্নয়ন"
+        },
+        {
+          "en": "Only urban luxury housing",
+          "as": "কেৱল চহৰৰ বিলাসী বাসগৃহ"
+        },
+        {
+          "en": "Only foreign military bases",
+          "as": "কেৱল বিদেশী সামৰিক ঘাটি"
+        },
+        {
+          "en": "Only cinema production",
+          "as": "কেৱল চিনেমা উৎপাদন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Rural development in Assam's Twelfth Plan includes which activities?",
+      "as": "অসমৰ দ্বাদশ পৰিকল্পনাত গ্ৰামীণ উন্নয়নত কোনবোৰ কাৰ্য অন্তৰ্ভুক্ত?",
+      "options": [
+        {
+          "en": "Only defence production",
+          "as": "কেৱল প্ৰতিৰক্ষা উৎপাদন"
+        },
+        {
+          "en": "Agriculture and allied activities, small and medium industries and cottage industries",
+          "as": "কৃষি আৰু সংলগ্ন কাৰ্য, ক্ষুদ্র-মধ্যম উদ্যোগ আৰু কুটীৰ উদ্যোগ"
+        },
+        {
+          "en": "Only urban malls",
+          "as": "কেৱল চহৰৰ মল"
+        },
+        {
+          "en": "Only international cricket",
+          "as": "কেৱল আন্তঃৰাষ্ট্ৰীয় ক্ৰিকেট"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which term indicates the overall development of a country in the chapter?",
+      "as": "অধ্যায়ত এখন দেশৰ সামগ্ৰিক উন্নয়ন সূচাবলৈ কোন শব্দ ব্যৱহাৰ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Veto Power",
+          "as": "ভেটো ক্ষমতা"
+        },
+        {
+          "en": "Legal Tender",
+          "as": "আইনি মুদ্ৰা"
+        },
+        {
+          "en": "Human Development Index",
+          "as": "মানৱ উন্নয়ন সূচক"
+        },
+        {
+          "en": "Barter System",
+          "as": "বাৰ্টাৰ পদ্ধতি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "HDI is derived from which three indices according to the side note?",
+      "as": "পাৰ্শ্ব-টোকা অনুসৰি HDI কোন তিনিটা সূচকৰ পৰা গঠিত?",
+      "options": [
+        {
+          "en": "Import, export and tariff",
+          "as": "আমদানি, ৰপ্তানি আৰু শুল্ক"
+        },
+        {
+          "en": "Tax, rent and wage",
+          "as": "কৰ, ভাড়া আৰু মজুৰি"
+        },
+        {
+          "en": "Gold, silver and copper",
+          "as": "সোণ, ৰূপ আৰু তাম"
+        },
+        {
+          "en": "Life expectancy, education and per capita income",
+          "as": "জীৱন প্রত্যাশা, শিক্ষা আৰু প্ৰতিজন ব্যক্তিৰ আয়"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which four pillars of human development are mentioned in the side note?",
+      "as": "পাৰ্শ্ব-টোকাত মানৱ উন্নয়নৰ কোন চাৰিটা স্তম্ভ উল্লেখ আছে?",
+      "options": [
+        {
+          "en": "Economic, social, cultural and political development",
+          "as": "অৰ্থনৈতিক, সামাজিক, সাংস্কৃতিক আৰু ৰাজনৈতিক উন্নয়ন"
+        },
+        {
+          "en": "War, tax, empire and army",
+          "as": "যুদ্ধ, কৰ, সাম্ৰাজ্য আৰু সেনা"
+        },
+        {
+          "en": "Land, water, fire and air",
+          "as": "মাটি, পানী, জুই আৰু বায়ু"
+        },
+        {
+          "en": "Gold, silver, copper and iron",
+          "as": "সোণ, ৰূপ, তাম আৰু লোহা"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

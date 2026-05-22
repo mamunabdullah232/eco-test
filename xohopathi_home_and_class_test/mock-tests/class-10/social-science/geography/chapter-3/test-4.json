@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 3 - Geography of the World",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 4",
-    "as": "????? ?"
+    "as": "টেষ্ট ৪"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,23 +28,23 @@
       "as": "মিড-আটলান্টিক ৰিজৰ উত্তৰ অংশক কি বোলে?",
       "options": [
         {
-          "en": "Dolphin Rise",
-          "as": "ডলফিন ৰাইজ"
-        },
-        {
-          "en": "Challenger Rise",
-          "as": "চেলেঞ্জাৰ ৰাইজ"
+          "en": "Pamir Rise",
+          "as": "পামিৰ ৰাইজ"
         },
         {
           "en": "Karakoram Rise",
           "as": "কাৰাকোৰাম ৰাইজ"
         },
         {
-          "en": "Pamir Rise",
-          "as": "পামিৰ ৰাইজ"
+          "en": "Challenger Rise",
+          "as": "চেলেঞ্জাৰ ৰাইজ"
+        },
+        {
+          "en": "Dolphin Rise",
+          "as": "ডলফিন ৰাইজ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The southern part of the Mid-Atlantic Ridge is called—",
@@ -55,16 +55,16 @@
           "as": "চেলেঞ্জাৰ ৰাইজ"
         },
         {
-          "en": "Dolphin Rise",
-          "as": "ডলফিন ৰাইজ"
-        },
-        {
           "en": "Ural Rise",
           "as": "ইউৰাল ৰাইজ"
         },
         {
           "en": "Andes Rise",
           "as": "আণ্ডিজ ৰাইজ"
+        },
+        {
+          "en": "Dolphin Rise",
+          "as": "ডলফিন ৰাইজ"
         }
       ],
       "answer": 0
@@ -74,55 +74,51 @@
       "as": "ভাৰত মহাসাগৰৰ উত্তৰে কিহে সীমাবদ্ধ কৰিছে?",
       "options": [
         {
-          "en": "Indian subcontinent and South-East Asia",
-          "as": "ভাৰতীয় উপমহাদেশ আৰু দক্ষিণ-পূব এছিয়া"
+          "en": "Europe",
+          "as": "ইউৰোপ"
         },
         {
-          "en": "Antarctica only",
-          "as": "কেৱল এন্টাৰ্কটিকা"
+          "en": "Indian subcontinent and South-East Asia",
+          "as": "ভাৰতীয় উপমহাদেশ আৰু দক্ষিণ-পূব এছিয়া"
         },
         {
           "en": "North America",
           "as": "উত্তৰ আমেৰিকা"
         },
         {
-          "en": "Europe",
-          "as": "ইউৰোপ"
+          "en": "Antarctica only",
+          "as": "কেৱল এন্টাৰ্কটিকা"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which sea is under the Indian Ocean?",
       "as": "তলৰ কোনখন সাগৰ ভাৰত মহাসাগৰৰ অন্তৰ্গত?",
       "options": [
         {
-          "en": "Arabian Sea",
-          "as": "আৰব সাগৰ"
-        },
-        {
           "en": "Baltic Sea",
           "as": "বল্টিক সাগৰ"
         },
         {
-          "en": "Bering Sea",
-          "as": "বেৰিং সাগৰ"
-        },
-        {
           "en": "Labrador Sea",
           "as": "লেব্ৰাডৰ সাগৰ"
+        },
+        {
+          "en": "Arabian Sea",
+          "as": "আৰব সাগৰ"
+        },
+        {
+          "en": "Bering Sea",
+          "as": "বেৰিং সাগৰ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Southern Ocean lies roughly to the south of—",
       "as": "দক্ষিণ মহাসাগৰ প্ৰায় কোন অক্ষাংশৰ দক্ষিণত অৱস্থিত?",
       "options": [
-        {
-          "en": "40° south latitude",
-          "as": "৪০° দক্ষিণ অক্ষাংশ"
-        },
         {
           "en": "40° north latitude",
           "as": "৪০° উত্তৰ অক্ষাংশ"
@@ -134,9 +130,13 @@
         {
           "en": "Tropic of Cancer",
           "as": "কৰ্কট ক্ৰান্তি ৰেখা"
+        },
+        {
+          "en": "40° south latitude",
+          "as": "৪০° দক্ষিণ অক্ষাংশ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Arctic Ocean surrounds the—",
@@ -147,16 +147,16 @@
           "as": "উত্তৰ মেৰু"
         },
         {
-          "en": "South Pole",
-          "as": "দক্ষিণ মেৰু"
-        },
-        {
           "en": "Equator",
           "as": "ভূ-মধ্য ৰেখা"
         },
         {
           "en": "Indian subcontinent",
           "as": "ভাৰতীয় উপমহাদেশ"
+        },
+        {
+          "en": "South Pole",
+          "as": "দক্ষিণ মেৰু"
         }
       ],
       "answer": 0
@@ -166,55 +166,51 @@
       "as": "ইউৰোপ আৰু আফ্ৰিকাৰ সীমা কিহে নিৰ্ধাৰণ কৰিছে?",
       "options": [
         {
-          "en": "Mediterranean Sea",
-          "as": "ভূ-মধ্য সাগৰ"
-        },
-        {
-          "en": "Red Sea",
-          "as": "ৰঙা সাগৰ"
-        },
-        {
           "en": "Ural Mountain",
           "as": "ইউৰাল পৰ্বত"
         },
         {
+          "en": "Mediterranean Sea",
+          "as": "ভূ-মধ্য সাগৰ"
+        },
+        {
           "en": "Panama Canal",
           "as": "পানামা খাল"
+        },
+        {
+          "en": "Red Sea",
+          "as": "ৰঙা সাগৰ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The boundary between Asia and Africa is determined by the—",
       "as": "এছিয়া আৰু আফ্ৰিকাৰ সীমা কিহে নিৰ্ধাৰণ কৰিছে?",
       "options": [
         {
-          "en": "Red Sea",
-          "as": "ৰঙা সাগৰ"
-        },
-        {
-          "en": "Mediterranean Sea",
-          "as": "ভূ-মধ্য সাগৰ"
+          "en": "Panama Canal",
+          "as": "পানামা খাল"
         },
         {
           "en": "Atlantic Ocean",
           "as": "আটলান্টিক মহাসাগৰ"
         },
         {
-          "en": "Panama Canal",
-          "as": "পানামা খাল"
+          "en": "Red Sea",
+          "as": "ৰঙা সাগৰ"
+        },
+        {
+          "en": "Mediterranean Sea",
+          "as": "ভূ-মধ্য সাগৰ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The boundary between Europe and Asia is determined by the—",
       "as": "ইউৰোপ আৰু এছিয়াৰ সীমা কিহে নিৰ্ধাৰণ কৰিছে?",
       "options": [
-        {
-          "en": "Ural Mountain Range",
-          "as": "ইউৰাল পৰ্বতমালা"
-        },
         {
           "en": "Andes",
           "as": "আণ্ডিজ"
@@ -226,9 +222,13 @@
         {
           "en": "Himalayas",
           "as": "হিমালয়"
+        },
+        {
+          "en": "Ural Mountain Range",
+          "as": "ইউৰাল পৰ্বতমালা"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The boundary between North America and South America is formed by the—",
@@ -239,16 +239,16 @@
           "as": "পানামা খাল"
         },
         {
-          "en": "Suez Canal",
-          "as": "চুৱেজ খাল"
-        },
-        {
           "en": "Red Sea",
           "as": "ৰঙা সাগৰ"
         },
         {
           "en": "Caspian Sea",
           "as": "কাছ্পিয়ান সাগৰ"
+        },
+        {
+          "en": "Suez Canal",
+          "as": "চুৱেজ খাল"
         }
       ],
       "answer": 0

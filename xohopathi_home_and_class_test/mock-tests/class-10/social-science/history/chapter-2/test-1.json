@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 1",
-    "as": "????? ?"
+    "as": "টেষ্ট ১"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -32,16 +32,16 @@
           "as": "পোৰবন্দৰ, গুজৰাট"
         },
         {
-          "en": "Amritsar, Punjab",
-          "as": "অমৃতসৰ, পঞ্জাব"
+          "en": "Champaran, Bihar",
+          "as": "চম্পাৰণ, বিহাৰ"
         },
         {
           "en": "Dandi, Gujarat",
           "as": "ডাণ্ডী, গুজৰাট"
         },
         {
-          "en": "Champaran, Bihar",
-          "as": "চম্পাৰণ, বিহাৰ"
+          "en": "Amritsar, Punjab",
+          "as": "অমৃতসৰ, পঞ্জাব"
         }
       ],
       "answer": 0
@@ -51,69 +51,69 @@
       "as": "মহাত্মা গান্ধীৰ জন্ম কেতিয়া হৈছিল?",
       "options": [
         {
-          "en": "2 October 1869",
-          "as": "২ অক্টোবৰ ১৮৬৯"
-        },
-        {
-          "en": "13 April 1919",
-          "as": "১৩ এপ্ৰিল ১৯১৯"
-        },
-        {
           "en": "15 August 1947",
           "as": "১৫ আগষ্ট ১৯৪৭"
         },
         {
+          "en": "2 October 1869",
+          "as": "২ অক্টোবৰ ১৮৬৯"
+        },
+        {
           "en": "30 January 1948",
           "as": "৩০ জানুৱাৰী ১৯৪৮"
+        },
+        {
+          "en": "13 April 1919",
+          "as": "১৩ এপ্ৰিল ১৯১৯"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "In which country did Gandhi first use Satyagraha?",
       "as": "গান্ধীয়ে প্ৰথমে সত্যাগ্ৰহ কোন দেশত ব্যৱহাৰ কৰিছিল?",
       "options": [
         {
-          "en": "South Africa",
-          "as": "দক্ষিণ আফ্ৰিকা"
-        },
-        {
           "en": "India",
           "as": "ভাৰত"
         },
         {
-          "en": "England",
-          "as": "ইংলেণ্ড"
-        },
-        {
           "en": "Japan",
           "as": "জাপান"
+        },
+        {
+          "en": "South Africa",
+          "as": "দক্ষিণ আফ্ৰিকা"
+        },
+        {
+          "en": "England",
+          "as": "ইংলেণ্ড"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The word Satyagraha means—",
       "as": "‘সত্যাগ্ৰহ’ শব্দৰ অৰ্থ হৈছে—",
       "options": [
         {
-          "en": "Holding on to truth",
-          "as": "সত্যত অটল থকা"
-        },
-        {
-          "en": "Armed rebellion",
-          "as": "সশস্ত্ৰ বিদ্ৰোহ"
+          "en": "Separate electorate",
+          "as": "পৃথক নিৰ্বাচনী ব্যৱস্থা"
         },
         {
           "en": "Tax collection",
           "as": "কৰ সংগ্ৰহ"
         },
         {
-          "en": "Separate electorate",
-          "as": "পৃথক নিৰ্বাচনী ব্যৱস্থা"
+          "en": "Armed rebellion",
+          "as": "সশস্ত্ৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Holding on to truth",
+          "as": "সত্যত অটল থকা"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Which principle formed the basis of Satyagraha?",
@@ -124,12 +124,12 @@
           "as": "অহিংসা"
         },
         {
-          "en": "Violence",
-          "as": "হিংসা"
-        },
-        {
           "en": "Imperialism",
           "as": "সাম্ৰাজ্যবাদ"
+        },
+        {
+          "en": "Violence",
+          "as": "হিংসা"
         },
         {
           "en": "Communalism",
@@ -143,12 +143,12 @@
       "as": "গান্ধী দক্ষিণ আফ্ৰিকাৰ পৰা ভাৰতলৈ কোন চনত উভতি আহে?",
       "options": [
         {
-          "en": "1915",
-          "as": "১৯১৫"
-        },
-        {
           "en": "1893",
           "as": "১৮৯৩"
+        },
+        {
+          "en": "1915",
+          "as": "১৯১৫"
         },
         {
           "en": "1920",
@@ -159,38 +159,38 @@
           "as": "১৯৩০"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which three local struggles made Gandhi an influential leader in India?",
       "as": "ভাৰতত কোন তিনিটা স্থানীয় সংগ্ৰামে গান্ধীক প্ৰভাৱশালী নেতা হিচাপে প্ৰতিষ্ঠা কৰিছিল?",
       "options": [
         {
-          "en": "Champaran, Kheda and Ahmedabad",
-          "as": "চম্পাৰণ, খেডা আৰু আহমেদাবাদ"
-        },
-        {
           "en": "Dandi, Lahore and Delhi",
           "as": "ডাণ্ডী, লাহোৰ আৰু দিল্লী"
         },
         {
-          "en": "Kohima, Imphal and Burma",
-          "as": "কোহিমা, ইম্ফল আৰু বুৰ্মা"
-        },
-        {
           "en": "Jorhat, Rangia and Lachima",
           "as": "যোৰহাট, ৰঙিয়া আৰু লছিমা"
+        },
+        {
+          "en": "Champaran, Kheda and Ahmedabad",
+          "as": "চম্পাৰণ, খেডা আৰু আহমেদাবাদ"
+        },
+        {
+          "en": "Kohima, Imphal and Burma",
+          "as": "কোহিমা, ইম্ফল আৰু বুৰ্মা"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "In Champaran, Gandhi took up the cause of—",
       "as": "চম্পাৰণত গান্ধীয়ে কাৰ বিষয় উত্থাপন কৰিছিল?",
       "options": [
         {
-          "en": "Peasants against landlords",
-          "as": "জমিদাৰৰ বিৰুদ্ধে কৃষক"
+          "en": "Students against universities",
+          "as": "বিশ্ববিদ্যালয়ৰ বিৰুদ্ধে ছাত্ৰ"
         },
         {
           "en": "Mill workers against mill owners",
@@ -201,11 +201,11 @@
           "as": "বিষয়াৰ বিৰুদ্ধে সৈনিক"
         },
         {
-          "en": "Students against universities",
-          "as": "বিশ্ববিদ্যালয়ৰ বিৰুদ্ধে ছাত্ৰ"
+          "en": "Peasants against landlords",
+          "as": "জমিদাৰৰ বিৰুদ্ধে কৃষক"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who chaired the committee that led to the Rowlatt Act?",
@@ -235,6 +235,10 @@
       "as": "ৰ’লাট আইনে চৰকাৰক কি কৰিবলৈ অনুমতি দিছিল?",
       "options": [
         {
+          "en": "Grant independence",
+          "as": "স্বাধীনতা দিবলৈ"
+        },
+        {
           "en": "Imprison a person without trial",
           "as": "বিচাৰ নোহোৱাকৈ ব্যক্তিক কাৰাগাৰত ৰাখিবলৈ"
         },
@@ -243,15 +247,11 @@
           "as": "নিমখ কৰ উঠাই দিবলৈ"
         },
         {
-          "en": "Grant independence",
-          "as": "স্বাধীনতা দিবলৈ"
-        },
-        {
           "en": "Create a constituent assembly",
           "as": "সংবিধান সভা গঠন কৰিবলৈ"
         }
       ],
-      "answer": 0
+      "answer": 1
     }
   ]
 }

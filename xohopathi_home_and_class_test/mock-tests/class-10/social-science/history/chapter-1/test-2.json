@@ -1,23 +1,23 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 1 - Partition of Bengal and Swadeshi Movement",
-    "as": "অধ্যায় ১ - বংগ বিভাজন আৰু স্বদেশী আন্দোলন"
+    "as": "অধ্যায় ১ - বঙ্গ বিভাজন আৰু স্বদেশী আন্দোলন"
   },
   "test": {
     "en": "Test 2",
-    "as": "????? ?"
+    "as": "টেষ্ট ২"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,6 +28,10 @@
       "as": "জে. বামফাইল্ড ফুলাৰ ক’ৰ চিফ কমিশনাৰ আছিল?",
       "options": [
         {
+          "en": "Punjab",
+          "as": "পঞ্জাব"
+        },
+        {
           "en": "Assam",
           "as": "অসম"
         },
@@ -36,51 +40,39 @@
           "as": "বংগ"
         },
         {
-          "en": "Punjab",
-          "as": "পঞ্জাব"
-        },
-        {
           "en": "Bombay",
           "as": "বোম্বাই"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which document was known as the 'Risley Papers'?",
       "as": "কোন নথি ‘ৰিজলি পেপাৰ্ছ’ নামেৰে জনা গৈছিল?",
       "options": [
         {
-          "en": "The official declaration of Bengal partition proposal",
-          "as": "বংগ বিভাজনৰ প্ৰস্তাৱৰ চৰকাৰী ঘোষণা"
+          "en": "The Queen's Proclamation",
+          "as": "ৰাণীৰ ঘোষণা"
         },
         {
           "en": "The Poona Pact",
           "as": "পুনা চুক্তি"
         },
         {
-          "en": "The Indian Independence Act",
-          "as": "ভাৰত স্বাধীনতা আইন"
+          "en": "The official declaration of Bengal partition proposal",
+          "as": "বংগ বিভাজনৰ প্ৰস্তাৱৰ চৰকাৰী ঘোষণা"
         },
         {
-          "en": "The Queen's Proclamation",
-          "as": "ৰাণীৰ ঘোষণা"
+          "en": "The Indian Independence Act",
+          "as": "ভাৰত স্বাধীনতা আইন"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "On which date was the partition proposal officially declared by Herbert Risley?",
       "as": "হাৰ্বাৰ্ট ৰিজলিয়ে বিভাজনৰ প্ৰস্তাৱ কোন তাৰিখে চৰকাৰীভাৱে ঘোষণা কৰিছিল?",
       "options": [
-        {
-          "en": "6 December 1903",
-          "as": "৬ ডিচেম্বৰ ১৯০৩"
-        },
-        {
-          "en": "7 August 1905",
-          "as": "৭ আগষ্ট ১৯০৫"
-        },
         {
           "en": "16 October 1905",
           "as": "১৬ অক্টোবৰ ১৯০৫"
@@ -88,9 +80,17 @@
         {
           "en": "30 December 1906",
           "as": "৩০ ডিচেম্বৰ ১৯০৬"
+        },
+        {
+          "en": "7 August 1905",
+          "as": "৭ আগষ্ট ১৯০৫"
+        },
+        {
+          "en": "6 December 1903",
+          "as": "৬ ডিচেম্বৰ ১৯০৩"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Which three territories were to be annexed to Assam under the partition plan?",
@@ -105,12 +105,12 @@
           "as": "পঞ্জাব, সিন্ধ আৰু বেলুচিস্তান"
         },
         {
-          "en": "Madras, Bombay and Bihar",
-          "as": "মাদ্ৰাজ, বোম্বাই আৰু বিহাৰ"
-        },
-        {
           "en": "Delhi, Agra and Lucknow",
           "as": "দিল্লী, আগ্ৰা আৰু লক্ষ্ণৌ"
+        },
+        {
+          "en": "Madras, Bombay and Bihar",
+          "as": "মাদ্ৰাজ, বোম্বাই আৰু বিহাৰ"
         }
       ],
       "answer": 0
@@ -120,12 +120,12 @@
       "as": "পূব বংগ আৰু অসমৰ ৰাজধানী কি হ’ব লাগিছিল?",
       "options": [
         {
-          "en": "Dhaka",
-          "as": "ঢাকা"
-        },
-        {
           "en": "Shillong",
           "as": "শ্বিলং"
+        },
+        {
+          "en": "Dhaka",
+          "as": "ঢাকা"
         },
         {
           "en": "Calcutta",
@@ -136,20 +136,12 @@
           "as": "ডিব্ৰুগড়"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "On which date was the Partition of Bengal implemented?",
       "as": "বংগ বিভাজন কোন তাৰিখে কার্যকৰী কৰা হৈছিল?",
       "options": [
-        {
-          "en": "16 October 1905",
-          "as": "১৬ অক্টোবৰ ১৯০৫"
-        },
-        {
-          "en": "19 July 1905",
-          "as": "১৯ জুলাই ১৯০৫"
-        },
         {
           "en": "30 December 1906",
           "as": "৩০ ডিচেম্বৰ ১৯০৬"
@@ -157,18 +149,22 @@
         {
           "en": "5 March 1931",
           "as": "৫ মাৰ্চ ১৯৩১"
+        },
+        {
+          "en": "16 October 1905",
+          "as": "১৬ অক্টোবৰ ১৯০৫"
+        },
+        {
+          "en": "19 July 1905",
+          "as": "১৯ জুলাই ১৯০৫"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "After partition, Calcutta was to remain the capital of which province?",
       "as": "বিভাজনৰ পিছত কলকাতা কোন প্ৰদেশৰ ৰাজধানী হিচাপে থাকিব লাগিছিল?",
       "options": [
-        {
-          "en": "New Bengal province",
-          "as": "নতুন বংগ প্ৰদেশ"
-        },
         {
           "en": "Eastern Bengal and Assam",
           "as": "পূব বংগ আৰু অসম"
@@ -180,9 +176,13 @@
         {
           "en": "Assam only",
           "as": "কেৱল অসম"
+        },
+        {
+          "en": "New Bengal province",
+          "as": "নতুন বংগ প্ৰদেশ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who wrote that 'United Bengal is a big force, the partition will destroy this big unity'?",
@@ -193,16 +193,16 @@
           "as": "হাৰ্বাৰ্ট ৰিজলি"
         },
         {
+          "en": "Dadabhai Naoroji",
+          "as": "দাদাভাই নওৰোজি"
+        },
+        {
           "en": "Rabindranath Tagore",
           "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
         },
         {
           "en": "Surendranath Banerjee",
           "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"
-        },
-        {
-          "en": "Dadabhai Naoroji",
-          "as": "দাদাভাই নওৰোজি"
         }
       ],
       "answer": 0
@@ -211,6 +211,10 @@
       "en": "Which leader was NOT among those who opposed the Partition of Bengal in the textbook list?",
       "as": "তলৰ কোনজন পাঠ্যপুথিৰ তালিকাত বংগ বিভাজনৰ বিৰোধী নেতা হিচাপে উল্লেখ নাই?",
       "options": [
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
         {
           "en": "Winston Churchill",
           "as": "উইনষ্টন চাৰ্চিল"
@@ -222,26 +226,14 @@
         {
           "en": "Bipin Chandra Pal",
           "as": "বিপিন চন্দ্ৰ পাল"
-        },
-        {
-          "en": "Rabindranath Tagore",
-          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "How many Indians signed the protest paper against the Partition of Bengal?",
       "as": "বংগ বিভাজনৰ বিৰোধী প্ৰতিবাদপত্ৰত কিমান ভাৰতীয়ে স্বাক্ষৰ কৰিছিল?",
       "options": [
-        {
-          "en": "70,000",
-          "as": "৭০,০০০"
-        },
-        {
-          "en": "7,000",
-          "as": "৭,০০০"
-        },
         {
           "en": "35,000",
           "as": "৩৫,০০০"
@@ -249,9 +241,17 @@
         {
           "en": "1,00,000",
           "as": "১,০০,০০০"
+        },
+        {
+          "en": "70,000",
+          "as": "৭০,০০০"
+        },
+        {
+          "en": "7,000",
+          "as": "৭,০০০"
         }
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 3 - Geography of the World",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 3",
-    "as": "????? ?"
+    "as": "টেষ্ট ৩"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,8 +28,8 @@
       "as": "বিশ্বৰ প্ৰায় ৯০ শতাংশ জনসংখ্যা কোন গোলাৰ্ধত বাস কৰে?",
       "options": [
         {
-          "en": "Northern Hemisphere",
-          "as": "উত্তৰ গোলাৰ্ধ"
+          "en": "Antarctica",
+          "as": "এন্টাৰ্কটিকা"
         },
         {
           "en": "Southern Hemisphere",
@@ -40,11 +40,11 @@
           "as": "প্ৰশান্ত মহাসাগৰীয় অঞ্চল"
         },
         {
-          "en": "Antarctica",
-          "as": "এন্টাৰ্কটিকা"
+          "en": "Northern Hemisphere",
+          "as": "উত্তৰ গোলাৰ্ধ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The shallow part of oceans and seas around coasts is called—",
@@ -59,12 +59,12 @@
           "as": "গভীৰ সাগৰীয় খাত"
         },
         {
-          "en": "Oceanic ridge",
-          "as": "মহাসাগৰীয় ৰিজ"
-        },
-        {
           "en": "Abyssal plain",
           "as": "গভীৰ সমুদ্ৰীয় সমতল"
+        },
+        {
+          "en": "Oceanic ridge",
+          "as": "মহাসাগৰীয় ৰিজ"
         }
       ],
       "answer": 0
@@ -74,32 +74,28 @@
       "as": "মহাদেশীয় তাকৰ গভীৰতা সাধাৰণতে প্ৰায় কিমান পৰ্যন্ত?",
       "options": [
         {
-          "en": "200 meters",
-          "as": "২০০ মিটাৰ"
+          "en": "8,000 meters",
+          "as": "৮,০০০ মিটাৰ"
         },
         {
-          "en": "2,000 meters",
-          "as": "২,০০০ মিটাৰ"
+          "en": "200 meters",
+          "as": "২০০ মিটাৰ"
         },
         {
           "en": "4,000 meters",
           "as": "৪,০০০ মিটাৰ"
         },
         {
-          "en": "8,000 meters",
-          "as": "৮,০০০ মিটাৰ"
+          "en": "2,000 meters",
+          "as": "২,০০০ মিটাৰ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The deep part after the continental shelf is called—",
       "as": "মহাদেশীয় তাকৰ পিছৰ গভীৰ অংশক কি বোলে?",
       "options": [
-        {
-          "en": "Continental slope",
-          "as": "মহাদেশীয় ঢাল"
-        },
         {
           "en": "Continental shelf",
           "as": "মহাদেশীয় তাক"
@@ -109,24 +105,20 @@
           "as": "দ্বীপ"
         },
         {
+          "en": "Continental slope",
+          "as": "মহাদেশীয় ঢাল"
+        },
+        {
           "en": "Delta",
           "as": "বদ্বীপ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The deepest oceanic trench is—",
       "as": "সৰ্বাধিক গভীৰ মহাসাগৰীয় খাত কোনটো?",
       "options": [
-        {
-          "en": "Mariana or Challenger Trench",
-          "as": "মেৰিয়ানা বা চেলেঞ্জাৰ খাত"
-        },
-        {
-          "en": "Puerto Rico Trench",
-          "as": "পুৱেৰ্টো ৰিকো খাত"
-        },
         {
           "en": "Sunda Trench",
           "as": "চুণ্ডা খাত"
@@ -134,9 +126,17 @@
         {
           "en": "Tonga Trench",
           "as": "টংগা খাত"
+        },
+        {
+          "en": "Puerto Rico Trench",
+          "as": "পুৱেৰ্টো ৰিকো খাত"
+        },
+        {
+          "en": "Mariana or Challenger Trench",
+          "as": "মেৰিয়ানা বা চেলেঞ্জাৰ খাত"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The depth of Mariana or Challenger Trench is about—",
@@ -147,16 +147,16 @@
           "as": "১১,০২২ মিটাৰ"
         },
         {
-          "en": "8,848 meters",
-          "as": "৮,৮৪৮ মিটাৰ"
-        },
-        {
           "en": "5,000 meters",
           "as": "৫,০০۰ মিটাৰ"
         },
         {
           "en": "3,000 meters",
           "as": "৩,০০০ মিটাৰ"
+        },
+        {
+          "en": "8,848 meters",
+          "as": "৮,৮৪৮ মিটাৰ"
         }
       ],
       "answer": 0
@@ -166,6 +166,10 @@
       "as": "প্ৰশান্ত মহাসাগৰে পৃথিৱীৰ পৃষ্ঠভাগৰ প্ৰায় কিমান অংশ আৱৰি আছে?",
       "options": [
         {
+          "en": "Only the Arctic region",
+          "as": "কেৱল আৰ্কটিক অঞ্চল"
+        },
+        {
           "en": "One-third of the earth’s surface area",
           "as": "পৃথিৱীৰ পৃষ্ঠভাগৰ এক-তৃতীয়াংশ"
         },
@@ -174,61 +178,57 @@
           "as": "পৃথিৱীৰ পৃষ্ঠভাগৰ এক-ষষ্ঠাংশ"
         },
         {
-          "en": "Only the Arctic region",
-          "as": "কেৱল আৰ্কটিক অঞ্চল"
-        },
-        {
           "en": "Only the Indian subcontinent",
           "as": "কেৱল ভাৰতীয় উপমহাদেশ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The average depth of the Pacific Ocean is about—",
       "as": "প্ৰশান্ত মহাসাগৰৰ গড় গভীৰতা প্ৰায় কিমান?",
       "options": [
         {
-          "en": "5,000 meters",
-          "as": "৫,০০۰ মিটাৰ"
+          "en": "1,000 meters",
+          "as": "১,০০০ মিটাৰ"
         },
         {
           "en": "3,000 meters",
           "as": "৩,০০০ মিটাৰ"
         },
         {
-          "en": "4,000 meters",
-          "as": "৪,০০০ মিটাৰ"
+          "en": "5,000 meters",
+          "as": "৫,০০۰ মিটাৰ"
         },
         {
-          "en": "1,000 meters",
-          "as": "১,০০০ মিটাৰ"
+          "en": "4,000 meters",
+          "as": "৪,০০০ মিটাৰ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Atlantic Ocean is shaped like the English letter—",
       "as": "আটলান্টিক মহাসাগৰৰ আকৃতি ইংৰাজী কোন আখৰৰ দৰে?",
       "options": [
         {
-          "en": "S",
-          "as": "S"
+          "en": "O",
+          "as": "O"
         },
         {
           "en": "A",
           "as": "A"
         },
         {
-          "en": "O",
-          "as": "O"
-        },
-        {
           "en": "V",
           "as": "V"
+        },
+        {
+          "en": "S",
+          "as": "S"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The ridge almost in the middle of the Atlantic Ocean is called—",
@@ -239,16 +239,16 @@
           "as": "মিড-আটলান্টিক ৰিজ"
         },
         {
-          "en": "Himalayan Ridge",
-          "as": "হিমালয়ান ৰিজ"
+          "en": "Ural Ridge",
+          "as": "ইউৰাল ৰিজ"
         },
         {
           "en": "Sunda Ridge",
           "as": "চুণ্ডা ৰিজ"
         },
         {
-          "en": "Ural Ridge",
-          "as": "ইউৰাল ৰিজ"
+          "en": "Himalayan Ridge",
+          "as": "হিমালয়ান ৰিজ"
         }
       ],
       "answer": 0

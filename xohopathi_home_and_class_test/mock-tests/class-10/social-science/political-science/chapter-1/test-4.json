@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Indian Democracy",
+    "as": "অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which country is regarded as the homeland of federation?",
+      "as": "কোন দেশক ফেডাৰেচনৰ জন্মভূমি বুলি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Canada",
+          "as": "কানাডা"
+        },
+        {
+          "en": "India",
+          "as": "ভাৰত"
+        },
+        {
+          "en": "United States of America",
+          "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+        },
+        {
+          "en": "England",
+          "as": "ইংলেণ্ড"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The makers of the Indian Constitution mainly followed which country's constitution for the federal system?",
+      "as": "ভাৰতৰ সংবিধান নিৰ্মাতাসকলে ফেডাৰেল ব্যৱস্থাৰ ক্ষেত্ৰত মূলত কোন দেশৰ সংবিধান অনুসৰণ কৰিছিল?",
+      "options": [
+        {
+          "en": "Japan",
+          "as": "জাপান"
+        },
+        {
+          "en": "United States of America",
+          "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+        },
+        {
+          "en": "France",
+          "as": "ফ্ৰান্স"
+        },
+        {
+          "en": "Canada",
+          "as": "কানাডা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "In which Article has India been declared a Union of States?",
+      "as": "কোন অনুচ্ছেদত ভাৰতক ৰাজ্যসমূহৰ সংঘ বুলি ঘোষণা কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Article 1",
+          "as": "অনুচ্ছেদ ১"
+        },
+        {
+          "en": "Article 32",
+          "as": "অনুচ্ছেদ ৩২"
+        },
+        {
+          "en": "Article 14",
+          "as": "অনুচ্ছেদ ১৪"
+        },
+        {
+          "en": "Article 370",
+          "as": "অনুচ্ছেদ ৩৭০"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which expression is used for the Indian federal system?",
+      "as": "ভাৰতীয় ফেডাৰেল ব্যৱস্থাৰ বাবে কোন প্ৰকাশ ব্যৱহাৰ কৰা হয়?",
+      "options": [
+        {
+          "en": "Absolute monarchy",
+          "as": "নিৰ্বিকল্প ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "Quasi-federal",
+          "as": "অৰ্ধ-ফেডাৰেল"
+        },
+        {
+          "en": "Military rule",
+          "as": "সামৰিক শাসন"
+        },
+        {
+          "en": "Confederation only",
+          "as": "কেৱল সংযুক্ত সংঘ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which feature shows the unitary tendency of Indian federalism?",
+      "as": "ভাৰতীয় ফেডাৰেল ব্যৱস্থাৰ এককেন্দ্ৰিক প্ৰৱণতা কোন বৈশিষ্ট্যই দেখুৱায়?",
+      "options": [
+        {
+          "en": "States have full right to secede",
+          "as": "ৰাজ্যসমূহৰ বিচ্ছিন্ন হোৱাৰ পূৰ্ণ অধিকাৰ আছে"
+        },
+        {
+          "en": "Each state has a separate constitution",
+          "as": "প্ৰতিখন ৰাজ্যৰ পৃথক সংবিধান আছে"
+        },
+        {
+          "en": "The central government is more powerful",
+          "as": "কেন্দ্ৰীয় চৰকাৰ অধিক শক্তিশালী"
+        },
+        {
+          "en": "States have separate citizenship",
+          "as": "ৰাজ্যসমূহৰ পৃথক নাগৰিকত্ব আছে"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Do Indian citizens have dual citizenship?",
+      "as": "ভাৰতীয় নাগৰিকে দ্বৈত নাগৰিকত্ব লাভ কৰে নেকি?",
+      "options": [
+        {
+          "en": "Only MPs have dual citizenship",
+          "as": "কেৱল সাংসদৰ দ্বৈত নাগৰিকত্ব আছে"
+        },
+        {
+          "en": "Only Governors have dual citizenship",
+          "as": "কেৱল ৰাজ্যপালৰ দ্বৈত নাগৰিকত্ব আছে"
+        },
+        {
+          "en": "Yes, every state has separate citizenship",
+          "as": "হয়, প্ৰতিখন ৰাজ্যৰ পৃথক নাগৰিকত্ব আছে"
+        },
+        {
+          "en": "No, there is single citizenship",
+          "as": "নহয়, একক নাগৰিকত্ব আছে"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Do the states of India have the right to secede from the Indian Union?",
+      "as": "ভাৰতৰ ৰাজ্যসমূহৰ ভাৰতীয় সংঘৰ পৰা বিচ্ছিন্ন হোৱাৰ অধিকাৰ আছে নেকি?",
+      "options": [
+        {
+          "en": "No",
+          "as": "নাই"
+        },
+        {
+          "en": "Only large states have it",
+          "as": "কেৱল ডাঙৰ ৰাজ্যৰ আছে"
+        },
+        {
+          "en": "Yes",
+          "as": "আছে"
+        },
+        {
+          "en": "Only border states have it",
+          "as": "কেৱল সীমান্তৱৰ্তী ৰাজ্যৰ আছে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which commission was set up in 1983 regarding centre-state relations?",
+      "as": "কেন্দ্ৰ-ৰাজ্য সম্পৰ্কৰ প্ৰেক্ষাপটত ১৯৮৩ চনত কোন আয়োগ গঠন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Finance Commission",
+          "as": "বিত্ত আয়োগ"
+        },
+        {
+          "en": "Sarkaria Commission",
+          "as": "সৰকাৰিয়া আয়োগ"
+        },
+        {
+          "en": "Mandal Commission",
+          "as": "মণ্ডল আয়োগ"
+        },
+        {
+          "en": "Election Commission",
+          "as": "নিৰ্বাচন আয়োগ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Indian federalism is also referred to as what?",
+      "as": "ভাৰতীয় ফেডাৰেল ব্যৱস্থাক আৰু কি নামেৰে কোৱা হয়?",
+      "options": [
+        {
+          "en": "Colonial Federation",
+          "as": "ঔপনিবেশিক ফেডাৰেচন"
+        },
+        {
+          "en": "Absolute Federation",
+          "as": "নিৰ্বিকল্প ফেডাৰেচন"
+        },
+        {
+          "en": "Cooperative Federation",
+          "as": "সহযোগী ফেডাৰেচন"
+        },
+        {
+          "en": "Military Federation",
+          "as": "সামৰিক ফেডাৰেচন"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "In parliamentary democracy, highest administrative powers are vested in which body?",
+      "as": "সংসদীয় গণতন্ত্ৰত সৰ্বোচ্চ প্ৰশাসনিক ক্ষমতা কোন সংস্থাত ন্যস্ত থাকে?",
+      "options": [
+        {
+          "en": "A military council only",
+          "as": "কেৱল সামৰিক পৰিষদ"
+        },
+        {
+          "en": "A hereditary king",
+          "as": "বংশানুক্ৰমিক ৰজা"
+        },
+        {
+          "en": "A foreign governor",
+          "as": "বিদেশী ৰাজ্যপাল"
+        },
+        {
+          "en": "A body of people's representatives",
+          "as": "জনপ্ৰতিনিধিৰে গঠিত সংস্থা"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

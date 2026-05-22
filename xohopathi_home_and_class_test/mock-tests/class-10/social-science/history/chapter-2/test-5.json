@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 5",
-    "as": "????? ?"
+    "as": "টেষ্ট ৫"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,23 +28,23 @@
       "as": "১৯৩৫ চনৰ ভাৰত চৰকাৰ আইনৰ অধীনত ভাৰতীয় প্ৰদেশসমূহক কি দিয়া হৈছিল?",
       "options": [
         {
-          "en": "Provincial autonomy",
-          "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
+          "en": "Separate Pakistan",
+          "as": "পৃথক পাকিস্তান"
         },
         {
           "en": "Complete independence",
           "as": "সম্পূৰ্ণ স্বাধীনতা"
         },
         {
-          "en": "Separate Pakistan",
-          "as": "পৃথক পাকিস্তান"
-        },
-        {
           "en": "Abolition of Congress",
           "as": "কংগ্ৰেছ বিলোপ"
+        },
+        {
+          "en": "Provincial autonomy",
+          "as": "প্ৰাদেশিক স্বায়ত্তশাসন"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Why did Congress ministries resign in 1939?",
@@ -55,16 +55,16 @@
           "as": "ভাৰতীয়সকলক নজনোৱাকৈ ভাৰতক যুদ্ধত জড়িত কৰা হৈছিল"
         },
         {
-          "en": "They supported the Rowlatt Act",
-          "as": "তেওঁলোকে ৰ’লাট আইন সমৰ্থন কৰিছিল"
-        },
-        {
           "en": "They lost all elections",
           "as": "তেওঁলোকে সকলো নিৰ্বাচনত পৰাজিত হৈছিল"
         },
         {
           "en": "The Civil Disobedience Movement began",
           "as": "আইন অমান্য আন্দোলন আৰম্ভ হৈছিল"
+        },
+        {
+          "en": "They supported the Rowlatt Act",
+          "as": "তেওঁলোকে ৰ’লাট আইন সমৰ্থন কৰিছিল"
         }
       ],
       "answer": 0
@@ -74,28 +74,36 @@
       "as": "১৯৪০ চনৰ মুছলিম লীগৰ লাহোৰ অধিৱেশনত পাকিস্তানৰ দাবী কোনে তুলিছিল?",
       "options": [
         {
-          "en": "M. A. Jinnah",
-          "as": "এম. এ. জিন্না"
+          "en": "Acharya Vinoba Bhave",
+          "as": "আচার্য বিনোবা ভাবে"
         },
         {
-          "en": "Mahatma Gandhi",
-          "as": "মহাত্মা গান্ধী"
+          "en": "M. A. Jinnah",
+          "as": "এম. এ. জিন্না"
         },
         {
           "en": "Jawaharlal Nehru",
           "as": "জৱাহৰলাল নেহৰু"
         },
         {
-          "en": "Acharya Vinoba Bhave",
-          "as": "আচার্য বিনোবা ভাবে"
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Who was the first individual satyagrahi in 1940?",
       "as": "১৯৪০ চনৰ ব্যক্তিগত সত্যাগ্ৰহৰ প্ৰথম সত্যাগ্ৰহী কোন আছিল?",
       "options": [
+        {
+          "en": "Lala Lajpat Rai",
+          "as": "লালা লাজপত ৰায়"
+        },
+        {
+          "en": "Khan Abdul Gaffar Khan",
+          "as": "খান আব্দুল গফ্ফাৰ খান"
+        },
         {
           "en": "Acharya Vinoba Bhave",
           "as": "আচার্য বিনোবা ভাবে"
@@ -103,40 +111,32 @@
         {
           "en": "Subhas Chandra Bose",
           "as": "সুভাষ চন্দ্ৰ বসু"
-        },
-        {
-          "en": "Khan Abdul Gaffar Khan",
-          "as": "খান আব্দুল গফ্ফাৰ খান"
-        },
-        {
-          "en": "Lala Lajpat Rai",
-          "as": "লালা লাজপত ৰায়"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Who led the Cripps Mission to India in 1942?",
       "as": "১৯৪২ চনত ক্ৰিপ্স মিছনৰ নেতৃত্ব কোনে দিছিল?",
       "options": [
         {
-          "en": "Sir Stafford Cripps",
-          "as": "ছাৰ ষ্টেফৰ্ড ক্ৰিপ্স"
-        },
-        {
-          "en": "Lord Wavell",
-          "as": "লৰ্ড ৱাভেল"
+          "en": "Sir John Simon",
+          "as": "ছাৰ জন সাইমন"
         },
         {
           "en": "Lord Mountbatten",
           "as": "লৰ্ড মাউণ্টবেটেন"
         },
         {
-          "en": "Sir John Simon",
-          "as": "ছাৰ জন সাইমন"
+          "en": "Lord Wavell",
+          "as": "লৰ্ড ৱাভেল"
+        },
+        {
+          "en": "Sir Stafford Cripps",
+          "as": "ছাৰ ষ্টেফৰ্ড ক্ৰিপ্স"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Quit India Movement was launched after the resolution passed on—",
@@ -147,16 +147,16 @@
           "as": "৮ আগষ্ট ১৯৪২"
         },
         {
-          "en": "12 March 1930",
-          "as": "১২ মাৰ্চ ১৯৩০"
-        },
-        {
           "en": "5 March 1931",
           "as": "৫ মাৰ্চ ১৯৩১"
         },
         {
           "en": "26 January 1930",
           "as": "২৬ জানুৱাৰী ১৯৩০"
+        },
+        {
+          "en": "12 March 1930",
+          "as": "১২ মাৰ্চ ১৯৩০"
         }
       ],
       "answer": 0
@@ -165,6 +165,10 @@
       "en": "Which slogan did Gandhi give during the Quit India Movement?",
       "as": "ভাৰত ত্যাগ আন্দোলনৰ সময়ত গান্ধীয়ে কোন শ্ল’গান দিছিল?",
       "options": [
+        {
+          "en": "Delhi Chalo",
+          "as": "দিল্লী চলো"
+        },
         {
           "en": "Do or Die",
           "as": "কৰো বা মৰো"
@@ -176,44 +180,40 @@
         {
           "en": "Jai Hind",
           "as": "জয় হিন্দ"
-        },
-        {
-          "en": "Delhi Chalo",
-          "as": "দিল্লী চলো"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The Indian National Army was also known as—",
       "as": "ভাৰতীয় ৰাষ্ট্ৰীয় সেনা আন কোন নামেৰে জনা গৈছিল?",
       "options": [
         {
-          "en": "Azad Hind Fauz",
-          "as": "আজাদ হিন্দ ফৌজ"
+          "en": "Ryot Sabha",
+          "as": "ৰায়ত সভা"
         },
         {
           "en": "Red Shirts",
           "as": "ৰেড শাৰ্টছ"
         },
         {
-          "en": "Harijan Sevak Sangh",
-          "as": "হৰিজন সেৱক সংঘ"
+          "en": "Azad Hind Fauz",
+          "as": "আজাদ হিন্দ ফৌজ"
         },
         {
-          "en": "Ryot Sabha",
-          "as": "ৰায়ত সভা"
+          "en": "Harijan Sevak Sangh",
+          "as": "হৰিজন সেৱক সংঘ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Who first conceived the idea of the INA?",
       "as": "আই.এন.এ.ৰ ধাৰণা প্ৰথমে কোনে দিছিল?",
       "options": [
         {
-          "en": "Captain Mohan Singh",
-          "as": "কেপ্টেইন মোহন সিং"
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
         },
         {
           "en": "Subhas Chandra Bose",
@@ -224,11 +224,11 @@
           "as": "ৰাসবিহাৰী বসু"
         },
         {
-          "en": "Jawaharlal Nehru",
-          "as": "জৱাহৰলাল নেহৰু"
+          "en": "Captain Mohan Singh",
+          "as": "কেপ্টেইন মোহন সিং"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Who formed the Provisional Government of Free India in Singapore on 21 October 1943?",
@@ -239,16 +239,16 @@
           "as": "সুভাষ চন্দ্ৰ বসু"
         },
         {
-          "en": "Rash Behari Bose",
-          "as": "ৰাসবিহাৰী বসু"
-        },
-        {
           "en": "Mahatma Gandhi",
           "as": "মহাত্মা গান্ধী"
         },
         {
           "en": "Clement Attlee",
           "as": "ক্লেমেণ্ট এটলি"
+        },
+        {
+          "en": "Rash Behari Bose",
+          "as": "ৰাসবিহাৰী বসু"
         }
       ],
       "answer": 0

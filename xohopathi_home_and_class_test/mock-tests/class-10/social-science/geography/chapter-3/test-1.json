@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 3 - Geography of the World",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 1",
-    "as": "????? ?"
+    "as": "টেষ্ট ১"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,36 +28,28 @@
       "as": "পৃথিৱীৰ মুঠ পৃষ্ঠভাগৰ ক্ষেত্ৰফল প্ৰায় কিমান?",
       "options": [
         {
-          "en": "510 million km²",
-          "as": "৫১০ মিলিয়ন বৰ্গ কিমি"
-        },
-        {
           "en": "361 million km²",
           "as": "৩৬১ মিলিয়ন বৰ্গ কিমি"
         },
         {
-          "en": "149 million km²",
-          "as": "১৪৯ মিলিয়ন বৰ্গ কিমি"
+          "en": "510 million km²",
+          "as": "৫১০ মিলিয়ন বৰ্গ কিমি"
         },
         {
           "en": "44.6 million km²",
           "as": "৪৪.৬ মিলিয়ন বৰ্গ কিমি"
+        },
+        {
+          "en": "149 million km²",
+          "as": "১৪৯ মিলিয়ন বৰ্গ কিমি"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "About what percentage of the earth’s surface is covered by land?",
       "as": "পৃথিৱীৰ পৃষ্ঠৰ প্ৰায় কিমান শতাংশ ভূমিয়ে আৱৰি আছে?",
       "options": [
-        {
-          "en": "29%",
-          "as": "২৯%"
-        },
-        {
-          "en": "71%",
-          "as": "৭১%"
-        },
         {
           "en": "50%",
           "as": "৫০%"
@@ -65,18 +57,22 @@
         {
           "en": "90%",
           "as": "৯০%"
+        },
+        {
+          "en": "29%",
+          "as": "২৯%"
+        },
+        {
+          "en": "71%",
+          "as": "৭১%"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "About what percentage of the earth’s surface is covered by water?",
       "as": "পৃথিৱীৰ পৃষ্ঠৰ প্ৰায় কিমান শতাংশ পানীয়ে আৱৰি আছে?",
       "options": [
-        {
-          "en": "71%",
-          "as": "৭১%"
-        },
         {
           "en": "29%",
           "as": "২৯%"
@@ -88,9 +84,13 @@
         {
           "en": "44%",
           "as": "৪৪%"
+        },
+        {
+          "en": "71%",
+          "as": "৭১%"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The earth’s lithosphere is formed by—",
@@ -101,16 +101,16 @@
           "as": "মহাদেশ"
         },
         {
-          "en": "Oceans",
-          "as": "মহাসাগৰ"
-        },
-        {
           "en": "Atmosphere",
           "as": "বায়ুমণ্ডল"
         },
         {
           "en": "Clouds",
           "as": "মেঘ"
+        },
+        {
+          "en": "Oceans",
+          "as": "মহাসাগৰ"
         }
       ],
       "answer": 0
@@ -120,6 +120,10 @@
       "as": "পৃথিৱীৰ জলমণ্ডল কিহেৰে গঠিত?",
       "options": [
         {
+          "en": "Plateaus",
+          "as": "মালভূমি"
+        },
+        {
           "en": "Oceans",
           "as": "মহাসাগৰ"
         },
@@ -128,51 +132,39 @@
           "as": "পৰ্বত"
         },
         {
-          "en": "Plateaus",
-          "as": "মালভূমি"
-        },
-        {
           "en": "Deserts",
           "as": "মৰুভূমি"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "According to the Continental Drift Theory, the single landmass of the early earth was called—",
       "as": "মহাদেশীয় স্খলন তত্ত্ব অনুসৰি আদিম পৃথিৱীৰ একক স্থলভাগটোক কি বোলা হৈছিল?",
       "options": [
         {
-          "en": "Pangaea",
-          "as": "পেঞ্জিয়া"
+          "en": "Laurasia",
+          "as": "লৰেছিয়া"
         },
         {
           "en": "Panthalassa",
           "as": "পেন্থালাছা"
         },
         {
-          "en": "Tethys",
-          "as": "টেথিছ"
+          "en": "Pangaea",
+          "as": "পেঞ্জিয়া"
         },
         {
-          "en": "Laurasia",
-          "as": "লৰেছিয়া"
+          "en": "Tethys",
+          "as": "টেথিছ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The hydrosphere surrounding Pangaea was known as—",
       "as": "পেঞ্জিয়াক আৱৰি থকা জলমণ্ডলটোক কি বুলি জনা গৈছিল?",
       "options": [
-        {
-          "en": "Panthalassa",
-          "as": "পেন্থালাছা"
-        },
-        {
-          "en": "Tethys Sea",
-          "as": "টেথিছ সাগৰ"
-        },
         {
           "en": "Gondwana Land",
           "as": "গণ্ডৱানা ভূমি"
@@ -180,9 +172,17 @@
         {
           "en": "Angaraland",
           "as": "আংগাৰালেণ্ড"
+        },
+        {
+          "en": "Tethys Sea",
+          "as": "টেথিছ সাগৰ"
+        },
+        {
+          "en": "Panthalassa",
+          "as": "পেন্থালাছা"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The narrow elongated sea formed in the middle of Pangaea was called—",
@@ -197,12 +197,12 @@
           "as": "আৰ্কটিক মহাসাগৰ"
         },
         {
-          "en": "Red Sea",
-          "as": "ৰঙা সাগৰ"
-        },
-        {
           "en": "Caspian Sea",
           "as": "কাছ্পিয়ান সাগৰ"
+        },
+        {
+          "en": "Red Sea",
+          "as": "ৰঙা সাগৰ"
         }
       ],
       "answer": 0
@@ -212,32 +212,28 @@
       "as": "পেঞ্জিয়াৰ উত্তৰ অংশক কি বোলা হৈছিল?",
       "options": [
         {
-          "en": "Angaraland or Laurasia",
-          "as": "আংগাৰালেণ্ড বা লৰেছিয়া"
+          "en": "Oceania",
+          "as": "ওচেনিয়া"
         },
         {
-          "en": "Gondwana Land",
-          "as": "গণ্ডৱানা ভূমি"
+          "en": "Angaraland or Laurasia",
+          "as": "আংগাৰালেণ্ড বা লৰেছিয়া"
         },
         {
           "en": "Panthalassa",
           "as": "পেন্থালাছা"
         },
         {
-          "en": "Oceania",
-          "as": "ওচেনিয়া"
+          "en": "Gondwana Land",
+          "as": "গণ্ডৱানা ভূমি"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "The southern part of Pangaea was called—",
       "as": "পেঞ্জিয়াৰ দক্ষিণ অংশক কি বোলা হৈছিল?",
       "options": [
-        {
-          "en": "Gondwana Land",
-          "as": "গণ্ডৱানা ভূমি"
-        },
         {
           "en": "Laurasia",
           "as": "লৰেছিয়া"
@@ -247,11 +243,15 @@
           "as": "পেন্থালাছা"
         },
         {
+          "en": "Gondwana Land",
+          "as": "গণ্ডৱানা ভূমি"
+        },
+        {
           "en": "Tethys",
           "as": "টেথিছ"
         }
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

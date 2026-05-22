@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 2",
-    "as": "????? ?"
+    "as": "টেষ্ট ২"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,23 +28,23 @@
       "as": "ৰ’লাট আইনৰ বিৰুদ্ধে সত্যাগ্ৰহ কেতিয়া আৰম্ভ হৈছিল?",
       "options": [
         {
-          "en": "6 April 1919",
-          "as": "৬ এপ্ৰিল ১৯১৯"
-        },
-        {
-          "en": "13 April 1919",
-          "as": "১৩ এপ্ৰিল ১৯১৯"
+          "en": "8 August 1942",
+          "as": "৮ আগষ্ট ১৯৪২"
         },
         {
           "en": "12 March 1930",
           "as": "১২ মাৰ্চ ১৯৩০"
         },
         {
-          "en": "8 August 1942",
-          "as": "৮ আগষ্ট ১৯৪২"
+          "en": "13 April 1919",
+          "as": "১৩ এপ্ৰিল ১৯১৯"
+        },
+        {
+          "en": "6 April 1919",
+          "as": "৬ এপ্ৰিল ১৯১৯"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Jallianwala Bagh Massacre took place on—",
@@ -74,32 +74,28 @@
       "as": "জালিয়ানৱালা বাগত ভিৰৰ ওপৰত গুলীচালনাৰ নিৰ্দেশ কোনে দিছিল?",
       "options": [
         {
-          "en": "General Dyer",
-          "as": "জেনেৰেল ডায়াৰ"
+          "en": "Ramsay MacDonald",
+          "as": "ৰামজে মেকডোনাল্ড"
         },
         {
-          "en": "Lord Irwin",
-          "as": "লৰ্ড আৰউইন"
+          "en": "General Dyer",
+          "as": "জেনেৰেল ডায়াৰ"
         },
         {
           "en": "Lord Mountbatten",
           "as": "লৰ্ড মাউণ্টবেটেন"
         },
         {
-          "en": "Ramsay MacDonald",
-          "as": "ৰামজে মেকডোনাল্ড"
+          "en": "Lord Irwin",
+          "as": "লৰ্ড আৰউইন"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Who renounced his Knighthood after the Jallianwala Bagh Massacre?",
       "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ডৰ পিছত নাইটহুড কোনে ত্যাগ কৰিছিল?",
       "options": [
-        {
-          "en": "Rabindranath Tagore",
-          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
-        },
         {
           "en": "Mahatma Gandhi",
           "as": "মহাত্মা গান্ধী"
@@ -109,34 +105,38 @@
           "as": "জৱাহৰলাল নেহৰু"
         },
         {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        },
+        {
           "en": "Subhas Chandra Bose",
           "as": "সুভাষ চন্দ্ৰ বসু"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "The Khilafat Movement aimed at restoring the position of—",
       "as": "খিলাফত আন্দোলনৰ উদ্দেশ্য আছিল কাৰ স্থান পুনৰুদ্ধাৰ কৰা?",
       "options": [
         {
-          "en": "The Sultan of Turkey as Khalifa",
-          "as": "তুৰস্কৰ সুলতানক খলিফা হিচাপে"
-        },
-        {
           "en": "The Mughal Emperor",
           "as": "মোগল সম্ৰাট"
+        },
+        {
+          "en": "The Viceroy of India",
+          "as": "ভাৰতৰ ভাইচৰয়"
         },
         {
           "en": "The British King",
           "as": "ব্ৰিটিছ ৰজা"
         },
         {
-          "en": "The Viceroy of India",
-          "as": "ভাৰতৰ ভাইচৰয়"
+          "en": "The Sultan of Turkey as Khalifa",
+          "as": "তুৰস্কৰ সুলতানক খলিফা হিচাপে"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The Khilafat Committee was led by—",
@@ -166,6 +166,10 @@
       "as": "অসহযোগ আন্দোলন কোন সময়লৈ চলিছিল?",
       "options": [
         {
+          "en": "1905 to 1911",
+          "as": "১৯০৫ৰ পৰা ১৯১১"
+        },
+        {
           "en": "1920 to 1922",
           "as": "১৯২০ৰ পৰা ১৯২২"
         },
@@ -176,59 +180,55 @@
         {
           "en": "1942 to 1945",
           "as": "১৯৪২ৰ পৰা ১৯৪৫"
-        },
-        {
-          "en": "1905 to 1911",
-          "as": "১৯০৫ৰ পৰা ১৯১১"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which Congress session ratified Gandhi's Non-Cooperation Movement?",
       "as": "গান্ধীৰ অসহযোগ আন্দোলন কোন কংগ্ৰেছ অধিৱেশনে অনুমোদন কৰিছিল?",
       "options": [
         {
-          "en": "Nagpur session, December 1920",
-          "as": "নাগপুৰ অধিৱেশন, ডিচেম্বৰ ১৯২০"
-        },
-        {
           "en": "Lahore session, 1929",
           "as": "লাহোৰ অধিৱেশন, ১৯২৯"
         },
         {
-          "en": "Calcutta session, 1906",
-          "as": "কলকাতা অধিৱেশন, ১৯০৬"
-        },
-        {
           "en": "Bombay session, 1942",
           "as": "বোম্বাই অধিৱেশন, ১৯৪২"
+        },
+        {
+          "en": "Nagpur session, December 1920",
+          "as": "নাগপুৰ অধিৱেশন, ডিচেম্বৰ ১৯২০"
+        },
+        {
+          "en": "Calcutta session, 1906",
+          "as": "কলকাতা অধিৱেশন, ১৯০৬"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Which was a negative programme of the Non-Cooperation Movement?",
       "as": "অসহযোগ আন্দোলনৰ নকাৰাত্মক কাৰ্যসূচীৰ এটা কি আছিল?",
       "options": [
         {
-          "en": "Boycott of legislatures, courts and schools",
-          "as": "বিধানসভা, আদালত আৰু বিদ্যালয় বর্জন"
-        },
-        {
-          "en": "Opening British shops",
-          "as": "ব্ৰিটিছ দোকান খোলা"
+          "en": "Supporting liquor shops",
+          "as": "মদৰ দোকান সমৰ্থন"
         },
         {
           "en": "Joining government services",
           "as": "চৰকাৰী চাকৰিত যোগদান"
         },
         {
-          "en": "Supporting liquor shops",
-          "as": "মদৰ দোকান সমৰ্থন"
+          "en": "Opening British shops",
+          "as": "ব্ৰিটিছ দোকান খোলা"
+        },
+        {
+          "en": "Boycott of legislatures, courts and schools",
+          "as": "বিধানসভা, আদালত আৰু বিদ্যালয় বর্জন"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Which was a positive programme of the Non-Cooperation Movement?",
@@ -239,16 +239,16 @@
           "as": "স্বদেশী আৰু খদ্দৰ প্ৰচাৰ"
         },
         {
+          "en": "Supporting the Rowlatt Act",
+          "as": "ৰ’লাট আইন সমৰ্থন"
+        },
+        {
           "en": "Paying more taxes",
           "as": "অধিক কৰ দিয়া"
         },
         {
           "en": "Buying foreign cloth",
           "as": "বিদেশী কাপোৰ কিনা"
-        },
-        {
-          "en": "Supporting the Rowlatt Act",
-          "as": "ৰ’লাট আইন সমৰ্থন"
         }
       ],
       "answer": 0

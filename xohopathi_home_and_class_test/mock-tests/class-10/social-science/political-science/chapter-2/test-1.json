@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 2 - International Organization - UNO and Others",
+    "as": "অধ্যায় ২ - আন্তঃৰাষ্ট্ৰীয় সংস্থা - ৰাষ্ট্ৰসংঘ আৰু অন্যান্য"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "After which war was the League of Nations formed?",
+      "as": "কোন যুদ্ধৰ পিছত লীগ অৱ নেশ্যনছ গঠন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Cold War",
+          "as": "শীতল যুদ্ধ"
+        },
+        {
+          "en": "World War II",
+          "as": "দ্বিতীয় বিশ্বযুদ্ধ"
+        },
+        {
+          "en": "Vietnam War",
+          "as": "ভিয়েতনাম যুদ্ধ"
+        },
+        {
+          "en": "World War I",
+          "as": "প্ৰথম বিশ্বযুদ্ধ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "In which year did World War II break out?",
+      "as": "দ্বিতীয় বিশ্বযুদ্ধ কোন বছৰত আৰম্ভ হৈছিল?",
+      "options": [
+        {
+          "en": "1939",
+          "as": "১৯৩৯"
+        },
+        {
+          "en": "1948",
+          "as": "১৯৪৮"
+        },
+        {
+          "en": "1945",
+          "as": "১৯৪৫"
+        },
+        {
+          "en": "1914",
+          "as": "১৯১৪"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When was the United Nations Organization formed?",
+      "as": "ৰাষ্ট্ৰসংঘ কেতিয়া গঠন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "16 February 1946",
+          "as": "১৬ ফেব্ৰুৱাৰী ১৯৪৬"
+        },
+        {
+          "en": "24 October 1945",
+          "as": "২৪ অক্টোবৰ ১৯৪৫"
+        },
+        {
+          "en": "10 December 1948",
+          "as": "১০ ডিচেম্বৰ ১৯৪৮"
+        },
+        {
+          "en": "28 September 1993",
+          "as": "২৮ ছেপ্টেম্বৰ ১৯৯৩"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "How many states signed the UN Charter at the San Francisco Conference?",
+      "as": "চান ফ্ৰান্সিস্কো সন্মিলনত কিমানখন ৰাষ্ট্ৰই ৰাষ্ট্ৰসংঘ চনদত স্বাক্ষৰ কৰিছিল?",
+      "options": [
+        {
+          "en": "193",
+          "as": "১৯৩"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "51",
+          "as": "৫১"
+        },
+        {
+          "en": "48",
+          "as": "৪৮"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which day is observed as UN Day?",
+      "as": "কোন দিনটো ৰাষ্ট্ৰসংঘ দিৱস হিচাপে পালন কৰা হয়?",
+      "options": [
+        {
+          "en": "15 August",
+          "as": "১৫ আগষ্ট"
+        },
+        {
+          "en": "10 December",
+          "as": "১০ ডিচেম্বৰ"
+        },
+        {
+          "en": "26 January",
+          "as": "২৬ জানুৱাৰী"
+        },
+        {
+          "en": "24 October",
+          "as": "২৪ অক্টোবৰ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Where is the head office of the UNO located?",
+      "as": "ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?",
+      "options": [
+        {
+          "en": "New York",
+          "as": "নিউয়ৰ্ক"
+        },
+        {
+          "en": "Paris",
+          "as": "পেৰিছ"
+        },
+        {
+          "en": "Geneva",
+          "as": "জেনেভা"
+        },
+        {
+          "en": "London",
+          "as": "লণ্ডন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How many Articles are there in the UN Charter according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি ৰাষ্ট্ৰসংঘ চনদত কিমানটা অনুচ্ছেদ আছে?",
+      "options": [
+        {
+          "en": "51",
+          "as": "৫১"
+        },
+        {
+          "en": "111",
+          "as": "১১১"
+        },
+        {
+          "en": "100",
+          "as": "১০০"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which Article of the UN Charter contains four objectives of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘ চনদৰ কোন অনুচ্ছেদত ৰাষ্ট্ৰসংঘৰ চাৰিটা উদ্দেশ্য অন্তৰ্ভুক্ত আছে?",
+      "options": [
+        {
+          "en": "Article 97",
+          "as": "অনুচ্ছেদ ৯৭"
+        },
+        {
+          "en": "Tenth Article",
+          "as": "দশম অনুচ্ছেদ"
+        },
+        {
+          "en": "First Article",
+          "as": "প্ৰথম অনুচ্ছেদ"
+        },
+        {
+          "en": "Article 55",
+          "as": "অনুচ্ছেদ ৫৫"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is one major objective of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ এটা প্ৰধান উদ্দেশ্য কোনটো?",
+      "options": [
+        {
+          "en": "To abolish human rights",
+          "as": "মানৱ অধিকাৰ বিলুপ্ত কৰা"
+        },
+        {
+          "en": "To start world wars",
+          "as": "বিশ্বযুদ্ধ আৰম্ভ কৰা"
+        },
+        {
+          "en": "To promote colonial rule",
+          "as": "ঔপনিবেশিক শাসন বৃদ্ধি কৰা"
+        },
+        {
+          "en": "To maintain international peace and security",
+          "as": "আন্তঃৰাষ্ট্ৰীয় শান্তি আৰু নিৰাপত্তা বজাই ৰখা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Friendship among nations in the UNO is based on which principle?",
+      "as": "ৰাষ্ট্ৰসংঘত দেশসমূহৰ বন্ধুত্ব কোন নীতিৰ ওপৰত ভিত্তি কৰি গঢ়া হয়?",
+      "options": [
+        {
+          "en": "Equal rights and self-determination",
+          "as": "সমঅধিকাৰ আৰু আত্মনিয়ন্ত্ৰণ"
+        },
+        {
+          "en": "Colonial domination",
+          "as": "ঔপনিবেশিক আধিপত্য"
+        },
+        {
+          "en": "Military superiority",
+          "as": "সামৰিক শ্ৰেষ্ঠতা"
+        },
+        {
+          "en": "Economic blockade",
+          "as": "অৰ্থনৈতিক অৱৰোধ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

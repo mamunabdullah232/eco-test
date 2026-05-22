@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Economic Development",
+    "as": "অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who is the Chairman of NITI Aayog?",
+      "as": "নিটি আয়োগৰ অধ্যক্ষ কোন?",
+      "options": [
+        {
+          "en": "Chief Justice of India",
+          "as": "ভাৰতৰ মুখ্য ন্যায়াধীশ"
+        },
+        {
+          "en": "RBI Governor",
+          "as": "RBIৰ গভৰ্ণৰ"
+        },
+        {
+          "en": "Prime Minister of India",
+          "as": "ভাৰতৰ প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is democratic planning?",
+      "as": "গণতান্ত্ৰিক পৰিকল্পনা কি?",
+      "options": [
+        {
+          "en": "Planning imposed only from the top",
+          "as": "কেৱল ওপৰৰ পৰা চাপাই দিয়া পৰিকল্পনা"
+        },
+        {
+          "en": "Planning without representatives",
+          "as": "প্ৰতিনিধি নথকা পৰিকল্পনা"
+        },
+        {
+          "en": "Planning only by foreign agencies",
+          "as": "কেৱল বিদেশী সংস্থাৰ পৰিকল্পনা"
+        },
+        {
+          "en": "Planning in which people participate at different stages",
+          "as": "য'ত জনসাধাৰণে বিভিন্ন পৰ্যায়ত অংশগ্ৰহণ কৰে সেই পৰিকল্পনা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Democratic planning ensures what?",
+      "as": "গণতান্ত্ৰিক পৰিকল্পনাই কি নিশ্চিত কৰে?",
+      "options": [
+        {
+          "en": "Decentralisation of power",
+          "as": "ক্ষমতাৰ বিকেন্দ্ৰীকৰণ"
+        },
+        {
+          "en": "Concentration of power only",
+          "as": "কেৱল ক্ষমতাৰ কেন্দ্ৰীকৰণ"
+        },
+        {
+          "en": "End of elections",
+          "as": "নিৰ্বাচনৰ অন্ত"
+        },
+        {
+          "en": "End of local bodies",
+          "as": "স্থানীয় সংস্থাৰ অন্ত"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Planning at the lowest level of local bodies is known as what?",
+      "as": "স্থানীয় সংস্থাৰ নিম্নতম স্তৰত পৰিকল্পনাক কি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Privatisation",
+          "as": "ব্যক্তিগতকৰণ"
+        },
+        {
+          "en": "Grassroot planning",
+          "as": "তৃণমূল পৰিকল্পনা"
+        },
+        {
+          "en": "Autarky",
+          "as": "স্বয়ংসম্পূর্ণ একাকীত্ব"
+        },
+        {
+          "en": "Globalisation",
+          "as": "গ্ল'বেলাইজেচন"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "In the first phase of planning in India, which sector was leading?",
+      "as": "ভাৰতৰ পৰিকল্পনাৰ প্ৰথম পৰ্যায়ত কোন খণ্ড আগশাৰীত আছিল?",
+      "options": [
+        {
+          "en": "Informal sector only",
+          "as": "কেৱল অনানুষ্ঠানিক খণ্ড"
+        },
+        {
+          "en": "Private sector only",
+          "as": "কেৱল ব্যক্তিগত খণ্ড"
+        },
+        {
+          "en": "Public sector",
+          "as": "ৰাজহুৱা খণ্ড"
+        },
+        {
+          "en": "Foreign sector only",
+          "as": "কেৱল বিদেশী খণ্ড"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The coexistence of public and private sectors is called what?",
+      "as": "ৰাজহুৱা আৰু ব্যক্তিগত খণ্ডৰ সহাৱস্থানক কি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Autarky",
+          "as": "স্বয়ংসম্পূর্ণ একাকীত্ব"
+        },
+        {
+          "en": "Black economy only",
+          "as": "কেৱল কালো অৰ্থনীতি"
+        },
+        {
+          "en": "Barter economy only",
+          "as": "কেৱল বিনিময় অৰ্থনীতি"
+        },
+        {
+          "en": "Mixed economy",
+          "as": "মিশ্ৰ অৰ্থনীতি"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "What increased in importance in the second phase of planning after 1991-92?",
+      "as": "১৯৯১-৯২ৰ পিছৰ দ্বিতীয় পৰ্যায়ত কিহৰ গুৰুত্ব বৃদ্ধি পালে?",
+      "options": [
+        {
+          "en": "Liberalisation, privatisation and globalisation",
+          "as": "উদাৰীকৰণ, ব্যক্তিগতকৰণ আৰু বিশ্বায়ন"
+        },
+        {
+          "en": "Only monarchy",
+          "as": "কেৱল ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "Only animal money",
+          "as": "কেৱল প্ৰাণী মুদ্ৰা"
+        },
+        {
+          "en": "Only barter system",
+          "as": "কেৱল বিনিময় পদ্ধতি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which factor led to economic reforms in India according to the chapter?",
+      "as": "অধ্যায় অনুসৰি ভাৰতত অৰ্থনৈতিক সংস্কাৰৰ কাৰণ কোনটো?",
+      "options": [
+        {
+          "en": "Excessive foreign exchange reserves in 1990-91",
+          "as": "১৯৯০-৯১ত অত্যধিক বিদেশী মুদ্ৰা ভাণ্ডাৰ"
+        },
+        {
+          "en": "Huge fiscal deficit",
+          "as": "বৃহৎ ৰাজকোষীয় ঘাটি"
+        },
+        {
+          "en": "No loss-making public units",
+          "as": "ক্ষতিগ্ৰস্ত ৰাজহুৱা একক নথকা"
+        },
+        {
+          "en": "Absence of inflation",
+          "as": "মুদ্ৰাস্ফীতিৰ অনুপস্থিতি"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which government introduced economic reform measures in India according to the chapter?",
+      "as": "অধ্যায় অনুসৰি ভাৰতত অৰ্থনৈতিক সংস্কাৰ কোন চৰকাৰে আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "Cabinet Mission government",
+          "as": "কেবিনেট মিছন চৰকাৰ"
+        },
+        {
+          "en": "Gandhi-Irwin government",
+          "as": "গান্ধী-আৰউইন চৰকাৰ"
+        },
+        {
+          "en": "Narasimha Rao government",
+          "as": "নৰসিংহ ৰাও চৰকাৰ"
+        },
+        {
+          "en": "Nehru government",
+          "as": "নেহৰু চৰকাৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is a benefit of economic reforms mentioned in the chapter?",
+      "as": "অধ্যায়ত উল্লেখ কৰা অৰ্থনৈতিক সংস্কাৰৰ এটা লাভ কোনটো?",
+      "options": [
+        {
+          "en": "Fall of all foreign reserves to zero",
+          "as": "বিদেশী ভাণ্ডাৰ শূন্যলৈ হ্ৰাস"
+        },
+        {
+          "en": "Complete end of competition",
+          "as": "প্ৰতিযোগিতাৰ সম্পূৰ্ণ অন্ত"
+        },
+        {
+          "en": "Abolition of all banks",
+          "as": "সকলো বেংকৰ বিলুপ্তি"
+        },
+        {
+          "en": "Rise in the rate of growth of the economy",
+          "as": "অৰ্থনীতিৰ বৃদ্ধিৰ হাৰ বৃদ্ধি"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

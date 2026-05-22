@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 5 - Cultural Heritage of India and North East Region",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 2",
-    "as": "????? ?"
+    "as": "টেষ্ট ২"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -28,69 +28,69 @@
       "as": "আৰ্য সংস্কৃতি সমগ্ৰ ভাৰতলৈ প্ৰায় কোন সময়লৈ বিস্তাৰিত হৈছিল?",
       "options": [
         {
-          "en": "400 BC",
-          "as": "৪০০ খ্ৰীষ্টপূৰ্ব"
-        },
-        {
           "en": "1500 BC",
           "as": "১৫০০ খ্ৰীষ্টপূৰ্ব"
         },
         {
-          "en": "1000 AD",
-          "as": "১০০০ খ্ৰীষ্টাব্দ"
+          "en": "400 BC",
+          "as": "৪০০ খ্ৰীষ্টপূৰ্ব"
         },
         {
           "en": "1947 AD",
           "as": "১৯৪৭ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1000 AD",
+          "as": "১০০০ খ্ৰীষ্টাব্দ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which pre-Aryan group contributed rice cultivation, molasses preparation and cotton cloth making?",
       "as": "ধান খেতি, গুড় তৈয়াৰ আৰু কপাহৰ কাপোৰ তৈয়াৰ কৰাত কোন প্ৰা-আৰ্য গোষ্ঠীৰ অৱদান আছিল?",
       "options": [
         {
-          "en": "Austrics",
-          "as": "অষ্ট্ৰিকসকল"
+          "en": "Dutch",
+          "as": "ডাচসকল"
         },
         {
           "en": "Greeks",
           "as": "গ্ৰীকসকল"
         },
         {
-          "en": "Mughals",
-          "as": "মোগলসকল"
+          "en": "Austrics",
+          "as": "অষ্ট্ৰিকসকল"
         },
         {
-          "en": "Dutch",
-          "as": "ডাচসকল"
+          "en": "Mughals",
+          "as": "মোগলসকল"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Use of sindoor, turmeric and taming of elephants are described as contributions of—",
       "as": "সিন্দুৰ, হালধি ব্যৱহাৰ আৰু হাতী পোহ মানোৱা কাৰ অৱদান বুলি উল্লেখ আছে?",
       "options": [
         {
-          "en": "Austrics",
-          "as": "অষ্ট্ৰিকসকল"
+          "en": "Portuguese",
+          "as": "পৰ্তুগীজসকল"
         },
         {
           "en": "British",
           "as": "ব্ৰিটিছসকল"
         },
         {
-          "en": "Portuguese",
-          "as": "পৰ্তুগীজসকল"
-        },
-        {
           "en": "French",
           "as": "ফৰাচীসকল"
+        },
+        {
+          "en": "Austrics",
+          "as": "অষ্ট্ৰিকসকল"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Ashoka's message of religious tolerance is found in which inscription?",
@@ -101,12 +101,12 @@
           "as": "গিৰ্নাৰৰ ১২ নম্বৰ মুখ্য শিলালিপি"
         },
         {
-          "en": "Da-Parbatia stone gate",
-          "as": "দা-পৰ্বতীয়াৰ শিলৰ দুৱাৰ"
-        },
-        {
           "en": "Radcliffe Line",
           "as": "ৰেডক্লিফ লাইন"
+        },
+        {
+          "en": "Da-Parbatia stone gate",
+          "as": "দা-পৰ্বতীয়াৰ শিলৰ দুৱাৰ"
         },
         {
           "en": "Yandaboo Treaty",
@@ -120,12 +120,12 @@
       "as": "ভাৰতীয় সংস্কৃতিৰ মুখ্য বৈশিষ্ট্য দুটা কি?",
       "options": [
         {
-          "en": "Multiculturalism and unity in diversity",
-          "as": "বহুসাংস্কৃতিকতা আৰু বৈচিত্ৰ্যৰ মাজত ঐক্য"
-        },
-        {
           "en": "Militarism and isolation",
           "as": "সামৰিকতা আৰু বিচ্ছিন্নতা"
+        },
+        {
+          "en": "Multiculturalism and unity in diversity",
+          "as": "বহুসাংস্কৃতিকতা আৰু বৈচিত্ৰ্যৰ মাজত ঐক্য"
         },
         {
           "en": "Uniformity and monarchy",
@@ -136,20 +136,12 @@
           "as": "ঔদ্যোগিকতা আৰু ঔপনিবেশিকতা"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Who popularized the term 'unity in diversity' during the freedom movement?",
       "as": "স্বাধীনতা আন্দোলনৰ সময়ত ‘বৈচিত্ৰ্যৰ মাজত ঐক্য’ ধাৰণাটো কোনসকলে জনপ্ৰিয় কৰিছিল?",
       "options": [
-        {
-          "en": "Gandhi, Nehru, Azad and Bose",
-          "as": "গান্ধী, নেহৰু, আজাদ আৰু ব’সে"
-        },
-        {
-          "en": "Curzon and Fuller",
-          "as": "কাৰ্জন আৰু ফুলাৰে"
-        },
         {
           "en": "Dyer and Hunter",
           "as": "ডায়াৰ আৰু হান্টাৰে"
@@ -157,18 +149,22 @@
         {
           "en": "Ukiang and Tikendrajit",
           "as": "উকিয়াং আৰু টিকেন্দ্ৰজিতে"
+        },
+        {
+          "en": "Gandhi, Nehru, Azad and Bose",
+          "as": "গান্ধী, নেহৰু, আজাদ আৰু ব’সে"
+        },
+        {
+          "en": "Curzon and Fuller",
+          "as": "কাৰ্জন আৰু ফুলাৰে"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Nehru used the term 'unity in diversity' in which book?",
       "as": "নেহৰুৱে ‘বৈচিত্ৰ্যৰ মাজত ঐক্য’ ধাৰণাটো কোন গ্ৰন্থত ব্যৱহাৰ কৰিছিল?",
       "options": [
-        {
-          "en": "Discovery of India",
-          "as": "ডিস্কভাৰী অৱ ইণ্ডিয়া"
-        },
         {
           "en": "Arthashastra",
           "as": "অৰ্থশাস্ত্ৰ"
@@ -180,9 +176,13 @@
         {
           "en": "Hemkosh",
           "as": "হেমকোষ"
+        },
+        {
+          "en": "Discovery of India",
+          "as": "ডিস্কভাৰী অৱ ইণ্ডিয়া"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The old Sanskrit literature of India is described as—",
@@ -193,16 +193,16 @@
           "as": "ভাৰতীয় সংস্কৃতি আৰু সভ্যতাৰ আত্মা"
         },
         {
-          "en": "Only a political record",
-          "as": "কেৱল ৰাজনৈতিক নথি"
-        },
-        {
           "en": "A British creation",
           "as": "ব্ৰিটিছ সৃষ্টি"
         },
         {
           "en": "A modern newspaper",
           "as": "আধুনিক বাতৰি কাকত"
+        },
+        {
+          "en": "Only a political record",
+          "as": "কেৱল ৰাজনৈতিক নথি"
         }
       ],
       "answer": 0
@@ -212,6 +212,10 @@
       "as": "অৰ্থশাস্ত্ৰ কোনে লিখিছিল?",
       "options": [
         {
+          "en": "Kalhan",
+          "as": "কলহন"
+        },
+        {
           "en": "Kautilya",
           "as": "কৌটিল্য"
         },
@@ -220,28 +224,16 @@
           "as": "কালিদাস"
         },
         {
-          "en": "Kalhan",
-          "as": "কলহন"
-        },
-        {
           "en": "Bharat Muni",
           "as": "ভৰত মুনি"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which book is associated with medicine in ancient India?",
       "as": "প্ৰাচীন ভাৰতৰ চিকিৎসা শাস্ত্ৰৰ সৈতে কোনখন গ্ৰন্থ জড়িত?",
       "options": [
-        {
-          "en": "Susruta Samhita",
-          "as": "সুশ্ৰুত সংহিতা"
-        },
-        {
-          "en": "Rajtarangini",
-          "as": "ৰাজতৰঙ্গিণী"
-        },
         {
           "en": "Sangam Sahitya",
           "as": "সঙ্গম সাহিত্য"
@@ -249,9 +241,17 @@
         {
           "en": "Natyashastra",
           "as": "নাট্যশাস্ত্ৰ"
+        },
+        {
+          "en": "Susruta Samhita",
+          "as": "সুশ্ৰুত সংহিতা"
+        },
+        {
+          "en": "Rajtarangini",
+          "as": "ৰাজতৰঙ্গিণী"
         }
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

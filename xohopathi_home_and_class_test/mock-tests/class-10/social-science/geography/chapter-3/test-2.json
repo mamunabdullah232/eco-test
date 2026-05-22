@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "Geography",
-    "as": "?????"
+    "as": "ভূগোল"
   },
   "chapter": {
     "en": "Chapter 3 - Geography of the World",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 2",
-    "as": "????? ?"
+    "as": "টেষ্ট ২"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -27,6 +27,10 @@
       "en": "How many continents are there in the world?",
       "as": "পৃথিৱীত মহাদেশ কিমানটা আছে?",
       "options": [
+        {
+          "en": "Eight",
+          "as": "আঠ"
+        },
         {
           "en": "Seven",
           "as": "সাত"
@@ -38,26 +42,14 @@
         {
           "en": "Six",
           "as": "ছয়"
-        },
-        {
-          "en": "Eight",
-          "as": "আঠ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which is the largest continent in the world?",
       "as": "পৃথিৱীৰ সৰ্ববৃহৎ মহাদেশ কোনটো?",
       "options": [
-        {
-          "en": "Asia",
-          "as": "এছিয়া"
-        },
-        {
-          "en": "Africa",
-          "as": "আফ্ৰিকা"
-        },
         {
           "en": "Europe",
           "as": "ইউৰোপ"
@@ -65,32 +57,40 @@
         {
           "en": "Oceania",
           "as": "ওচেনিয়া"
-        }
-      ],
-      "answer": 0
-    },
-    {
-      "en": "Which continent has no permanent human settlement?",
-      "as": "কোন মহাদেশত স্থায়ী মানৱ বসতি নাই?",
-      "options": [
-        {
-          "en": "Antarctica",
-          "as": "এন্টাৰ্কটিকা"
         },
         {
           "en": "Asia",
           "as": "এছিয়া"
         },
         {
-          "en": "Europe",
-          "as": "ইউৰোপ"
-        },
-        {
           "en": "Africa",
           "as": "আফ্ৰিকা"
         }
       ],
-      "answer": 0
+      "answer": 2
+    },
+    {
+      "en": "Which continent has no permanent human settlement?",
+      "as": "কোন মহাদেশত স্থায়ী মানৱ বসতি নাই?",
+      "options": [
+        {
+          "en": "Africa",
+          "as": "আফ্ৰিকা"
+        },
+        {
+          "en": "Europe",
+          "as": "ইউৰোপ"
+        },
+        {
+          "en": "Asia",
+          "as": "এছিয়া"
+        },
+        {
+          "en": "Antarctica",
+          "as": "এন্টাৰ্কটিকা"
+        }
+      ],
+      "answer": 3
     },
     {
       "en": "How many oceans are mentioned in the textbook?",
@@ -101,12 +101,12 @@
           "as": "পাঁচ"
         },
         {
-          "en": "Four",
-          "as": "চাৰি"
-        },
-        {
           "en": "Six",
           "as": "ছয়"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰি"
         },
         {
           "en": "Seven",
@@ -120,69 +120,69 @@
       "as": "পৃথিৱীৰ সৰ্ববৃহৎ মহাসাগৰ কোনটো?",
       "options": [
         {
-          "en": "Pacific Ocean",
-          "as": "প্ৰশান্ত মহাসাগৰ"
-        },
-        {
-          "en": "Atlantic Ocean",
-          "as": "আটলান্টিক মহাসাগৰ"
-        },
-        {
           "en": "Indian Ocean",
           "as": "ভাৰত মহাসাগৰ"
         },
         {
+          "en": "Pacific Ocean",
+          "as": "প্ৰশান্ত মহাসাগৰ"
+        },
+        {
           "en": "Arctic Ocean",
           "as": "আৰ্কটিক মহাসাগৰ"
+        },
+        {
+          "en": "Atlantic Ocean",
+          "as": "আটলান্টিক মহাসাগৰ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which is the second largest ocean?",
       "as": "দ্বিতীয় বৃহত্তম মহাসাগৰ কোনটো?",
       "options": [
         {
-          "en": "Atlantic Ocean",
-          "as": "আটলান্টিক মহাসাগৰ"
+          "en": "Southern Ocean",
+          "as": "দক্ষিণ মহাসাগৰ"
         },
         {
           "en": "Indian Ocean",
           "as": "ভাৰত মহাসাগৰ"
         },
         {
-          "en": "Pacific Ocean",
-          "as": "প্ৰশান্ত মহাসাগৰ"
+          "en": "Atlantic Ocean",
+          "as": "আটলান্টিক মহাসাগৰ"
         },
         {
-          "en": "Southern Ocean",
-          "as": "দক্ষিণ মহাসাগৰ"
+          "en": "Pacific Ocean",
+          "as": "প্ৰশান্ত মহাসাগৰ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Which is the third largest ocean?",
       "as": "তৃতীয় বৃহত্তম মহাসাগৰ কোনটো?",
       "options": [
         {
-          "en": "Indian Ocean",
-          "as": "ভাৰত মহাসাগৰ"
-        },
-        {
-          "en": "Arctic Ocean",
-          "as": "আৰ্কটিক মহাসাগৰ"
-        },
-        {
           "en": "Southern Ocean",
           "as": "দক্ষিণ মহাসাগৰ"
         },
         {
           "en": "Atlantic Ocean",
           "as": "আটলান্টিক মহাসাগৰ"
+        },
+        {
+          "en": "Arctic Ocean",
+          "as": "আৰ্কটিক মহাসাগৰ"
+        },
+        {
+          "en": "Indian Ocean",
+          "as": "ভাৰত মহাসাগৰ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Which is the smallest ocean?",
@@ -197,12 +197,12 @@
           "as": "প্ৰশান্ত মহাসাগৰ"
         },
         {
-          "en": "Atlantic Ocean",
-          "as": "আটলান্টিক মহাসাগৰ"
-        },
-        {
           "en": "Indian Ocean",
           "as": "ভাৰত মহাসাগৰ"
+        },
+        {
+          "en": "Atlantic Ocean",
+          "as": "আটলান্টিক মহাসাগৰ"
         }
       ],
       "answer": 0
@@ -212,46 +212,46 @@
       "as": "জলমণ্ডলৰ বৃহৎ অংশ কোন গোলাৰ্ধত অৱস্থিত?",
       "options": [
         {
-          "en": "Southern Hemisphere",
-          "as": "দক্ষিণ গোলাৰ্ধ"
-        },
-        {
           "en": "Northern Hemisphere",
           "as": "উত্তৰ গোলাৰ্ধ"
         },
         {
-          "en": "Eastern Hemisphere only",
-          "as": "কেৱল পূব গোলাৰ্ধ"
+          "en": "Southern Hemisphere",
+          "as": "দক্ষিণ গোলাৰ্ধ"
         },
         {
           "en": "Western Hemisphere only",
           "as": "কেৱল পশ্চিম গোলাৰ্ধ"
+        },
+        {
+          "en": "Eastern Hemisphere only",
+          "as": "কেৱল পূব গোলাৰ্ধ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "A large portion of the lithosphere is confined to the—",
       "as": "স্থলমণ্ডলৰ বৃহৎ অংশ কোন গোলাৰ্ধত অৱস্থিত?",
       "options": [
         {
-          "en": "Northern Hemisphere",
-          "as": "উত্তৰ গোলাৰ্ধ"
-        },
-        {
           "en": "Southern Hemisphere",
           "as": "দক্ষিণ গোলাৰ্ধ"
         },
         {
-          "en": "Pacific region",
-          "as": "প্ৰশান্ত অঞ্চল"
-        },
-        {
           "en": "Polar region only",
           "as": "কেৱল মেৰু অঞ্চল"
+        },
+        {
+          "en": "Northern Hemisphere",
+          "as": "উত্তৰ গোলাৰ্ধ"
+        },
+        {
+          "en": "Pacific region",
+          "as": "প্ৰশান্ত অঞ্চল"
         }
       ],
-      "answer": 0
+      "answer": 2
     }
   ]
 }

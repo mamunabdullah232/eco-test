@@ -1,15 +1,15 @@
 {
   "className": {
     "en": "Class 10",
-    "as": "?????? ??"
+    "as": "শ্ৰেণী ১০"
   },
   "subject": {
     "en": "Social Science",
-    "as": "???? ???????"
+    "as": "সমাজ বিজ্ঞান"
   },
   "section": {
     "en": "History",
-    "as": "??????"
+    "as": "ইতিহাস"
   },
   "chapter": {
     "en": "Chapter 5 - Cultural Heritage of India and North East Region",
@@ -17,7 +17,7 @@
   },
   "test": {
     "en": "Test 5",
-    "as": "????? ?"
+    "as": "টেষ্ট ৫"
   },
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -27,10 +27,6 @@
       "en": "Kirtan was written by—",
       "as": "কীৰ্তন কোনে লিখিছিল?",
       "options": [
-        {
-          "en": "Sankardeva",
-          "as": "শংকৰদেৱ"
-        },
         {
           "en": "Madhabdeva",
           "as": "মাধৱদেৱ"
@@ -42,9 +38,13 @@
         {
           "en": "Ajan Peer",
           "as": "আজান পীৰ"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Naamghosha was written by—",
@@ -59,12 +59,12 @@
           "as": "শংকৰদেৱ"
         },
         {
-          "en": "Madhab Kandali",
-          "as": "মাধৱ কন্দলী"
-        },
-        {
           "en": "Sukumar Borkaith",
           "as": "সুকুমাৰ বৰকাইথ"
+        },
+        {
+          "en": "Madhab Kandali",
+          "as": "মাধৱ কন্দলী"
         }
       ],
       "answer": 0
@@ -74,69 +74,69 @@
       "as": "পাঠ্যপুথিত উল্লেখিত প্ৰথম অসমীয়া গদ্য লেখক কোন?",
       "options": [
         {
-          "en": "Bhattadeva",
-          "as": "ভট্টদেৱ"
-        },
-        {
           "en": "Madhab Kandali",
           "as": "মাধৱ কন্দলী"
         },
         {
-          "en": "Sankardeva",
-          "as": "শংকৰদেৱ"
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
         },
         {
           "en": "Hem Saraswati",
           "as": "হেম সৰস্বতী"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Which famous textile design of Sankardeva is preserved in museums?",
       "as": "শংকৰদেৱৰ কোন বিখ্যাত বস্ত্ৰশিল্প সংগ্ৰহালয়ত সংৰক্ষিত আছে?",
       "options": [
         {
-          "en": "Brindabani Bastra",
-          "as": "বৃন্দাবনী বস্ত্ৰ"
+          "en": "Hastibidyarnava",
+          "as": "হস্তীবিদ্যাৰ্ণৱ"
         },
         {
           "en": "Banga Mata",
           "as": "বংগ মাতা"
         },
         {
-          "en": "Hastibidyarnava",
-          "as": "হস্তীবিদ্যাৰ্ণৱ"
+          "en": "Brindabani Bastra",
+          "as": "বৃন্দাবনী বস্ত্ৰ"
         },
         {
           "en": "Charyapada",
           "as": "চৰ্যাপদ"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Poa Macca in Hajo is a holy place of which community?",
       "as": "হাজোৰ পোৱামক্কা কোন ধৰ্মীয় সম্প্ৰদায়ৰ পবিত্ৰ স্থান?",
       "options": [
         {
-          "en": "Muslims",
-          "as": "মুছলমান"
+          "en": "Jains",
+          "as": "জৈন"
         },
         {
           "en": "Sikhs",
           "as": "শিখ"
         },
         {
-          "en": "Jains",
-          "as": "জৈন"
-        },
-        {
           "en": "Buddhists only",
           "as": "কেৱল বৌদ্ধ"
+        },
+        {
+          "en": "Muslims",
+          "as": "মুছলমান"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "Zikir and Zari were written by—",
@@ -151,12 +151,12 @@
           "as": "শংকৰদেৱ"
         },
         {
-          "en": "Madhabdeva",
-          "as": "মাধৱদেৱ"
-        },
-        {
           "en": "Bhattadeva",
           "as": "ভট্টদেৱ"
+        },
+        {
+          "en": "Madhabdeva",
+          "as": "মাধৱদেৱ"
         }
       ],
       "answer": 0
@@ -166,69 +166,69 @@
       "as": "আজান পীৰ অসমলৈ কাৰ শাসনকালত আহিছিল?",
       "options": [
         {
-          "en": "Gadadhar Singha",
-          "as": "গদাধৰ সিংহ"
-        },
-        {
-          "en": "Rudra Singha",
-          "as": "ৰুদ্ৰ সিংহ"
-        },
-        {
           "en": "Rajeshwar Singha",
           "as": "ৰাজেশ্বৰ সিংহ"
         },
         {
+          "en": "Gadadhar Singha",
+          "as": "গদাধৰ সিংহ"
+        },
+        {
           "en": "Chandrakanta Singha",
           "as": "চন্দ্ৰকান্ত সিংহ"
+        },
+        {
+          "en": "Rudra Singha",
+          "as": "ৰুদ্ৰ সিংহ"
         }
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "en": "Assamese pictorial books were commonly written on—",
       "as": "অসমৰ চিত্ৰিত পুথিসমূহ সাধাৰণতে কিহত লিখা হৈছিল?",
       "options": [
         {
-          "en": "Sanchipat",
-          "as": "সাঁচিপাত"
-        },
-        {
           "en": "Copper plates only",
           "as": "কেৱল তাম্ৰপত্ৰ"
         },
         {
-          "en": "Palm leaves only",
-          "as": "কেৱল তালপাত"
-        },
-        {
           "en": "Stone walls only",
           "as": "কেৱল শিলৰ দেৱাল"
+        },
+        {
+          "en": "Sanchipat",
+          "as": "সাঁচিপাত"
+        },
+        {
+          "en": "Palm leaves only",
+          "as": "কেৱল তালপাত"
         }
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "en": "Hastibidyarnava was written by—",
       "as": "হস্তীবিদ্যাৰ্ণৱ কোনে লিখিছিল?",
       "options": [
         {
-          "en": "Sukumar Borkaith",
-          "as": "সুকুমাৰ বৰকাইথ"
-        },
-        {
           "en": "Dilbar",
           "as": "দিলবৰ"
+        },
+        {
+          "en": "Madhab Kandali",
+          "as": "মাধৱ কন্দলী"
         },
         {
           "en": "Dosai",
           "as": "দোচাই"
         },
         {
-          "en": "Madhab Kandali",
-          "as": "মাধৱ কন্দলী"
+          "en": "Sukumar Borkaith",
+          "as": "সুকুমাৰ বৰকাইথ"
         }
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "en": "The pictures in Hastibidyarnava were drawn by—",
@@ -243,12 +243,12 @@
           "as": "শংকৰদেৱ আৰু মাধৱদেৱ"
         },
         {
-          "en": "Rudra and Rajeshwar",
-          "as": "ৰুদ্ৰ আৰু ৰাজেশ্বৰ"
-        },
-        {
           "en": "Kalhan and Kautilya",
           "as": "কলহন আৰু কৌটিল্য"
+        },
+        {
+          "en": "Rudra and Rajeshwar",
+          "as": "ৰুদ্ৰ আৰু ৰাজেশ্বৰ"
         }
       ],
       "answer": 0
