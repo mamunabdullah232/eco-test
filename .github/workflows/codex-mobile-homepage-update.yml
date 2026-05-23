@@ -1,0 +1,190 @@
+name: Apply mobile homepage navigation update
+
+on:
+  push:
+    paths:
+      - .github/workflows/codex-mobile-homepage-update.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-homepages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+      - name: Apply focused homepage changes
+        shell: python
+        run: |
+          from pathlib import Path
+
+          replacements = [
+              (
+                  '  font-size:1.35rem;\n  font-weight:900;\n  box-shadow:0 10px 22px rgba(37,99,235,.22);',
+                  '  font-family:"Nirmala UI","Noto Sans Bengali",Arial,sans-serif;\n  font-size:1.55rem;\n  font-weight:900;\n  box-shadow:0 10px 22px rgba(37,99,235,.22);'
+              ),
+              (
+                  '.menu-btn{\n  display:none;\n  border:1px solid var(--border);\n  background:#fff;\n  color:var(--ink);\n  border-radius:12px;\n  padding:9px 12px;\n  font-weight:900;\n  cursor:pointer;\n}\n',
+                  ''
+              ),
+              (
+                  '''@media(max-width:980px){
+            .menu-btn{display:inline-flex}
+            nav{
+              display:none;
+              position:absolute;
+              top:76px;
+              left:0;
+              width:100%;
+              background:#fff;
+              border-bottom:1px solid var(--border);
+              padding:16px 4%;
+              flex-direction:column;
+              align-items:stretch;
+              gap:10px;
+            }
+            nav.active{display:flex}
+            .nav-link{justify-content:center}
+            .fact-card{grid-template-columns:1fr}
+            .fact-media{min-height:260px}
+            .grid,.contact-grid{grid-template-columns:1fr}
+            .corner-actions{grid-template-columns:repeat(2,1fr)}
+            .rule-grid{grid-template-columns:1fr}
+          }'''.replace('          ', ''),
+                  '''@media(max-width:980px){
+            header{
+              position:static;
+              background:#fff;
+            }
+            .navbar{
+              flex-wrap:wrap;
+              padding:10px 0 12px;
+              gap:10px;
+            }
+            nav{
+              display:grid;
+              position:static;
+              width:100%;
+              grid-template-columns:repeat(3,minmax(0,1fr));
+              border-top:1px solid var(--border);
+              padding:10px 0 0;
+              gap:8px;
+            }
+            .nav-link{
+              align-items:flex-start;
+              justify-content:flex-start;
+              min-width:0;
+              min-height:57px;
+              padding:8px 9px;
+              font-size:.79rem;
+              background:color-mix(in srgb, var(--accent) 7%, white);
+              border-color:color-mix(in srgb, var(--accent) 18%, white);
+            }
+            .nav-link .as{font-size:.76em}
+            .nav-link.active{
+              box-shadow:inset 0 -3px 0 var(--accent);
+            }
+            main{
+              min-height:0;
+              padding-top:22px;
+            }
+            .home-shell{
+              min-height:0;
+              place-items:start center;
+            }
+            .fact-card{grid-template-columns:1fr}
+            .fact-media{
+              min-height:0;
+              aspect-ratio:16/8.5;
+            }
+            .grid,.contact-grid{grid-template-columns:1fr}
+            .corner-actions{grid-template-columns:repeat(2,1fr)}
+            .rule-grid{grid-template-columns:1fr}
+          }'''.replace('          ', '')
+              ),
+              (
+                  '''@media(max-width:640px){
+            .container{width:min(100% - 28px,1140px)}
+            .navbar{min-height:70px}
+            nav{top:70px}
+            .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
+            .logo-text strong{font-size:1.12rem}
+            .logo-text small{font-size:.68rem}
+            main{padding:24px 0 34px}
+            .fact-copy{padding:24px}
+            .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
+            .resource-row{grid-template-columns:42px 1fr}
+            .resource-row .badge{grid-column:2;justify-self:start}
+            .routine-modal{padding:10px}
+            .routine-dialog{padding:16px;max-height:95vh}
+            .routine-field{width:100%;min-width:100%}
+            .routine-legend{gap:10px}
+            .routine-table{min-width:520px}
+            .routine-time-grid{grid-template-columns:1fr}
+          }'''.replace('          ', ''),
+                  '''@media(max-width:640px){
+            .container{width:min(100% - 28px,1140px)}
+            .navbar{min-height:0}
+            .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
+            .logo-text strong{font-size:1.12rem}
+            .logo-text small{font-size:.68rem}
+            main{padding:18px 0 34px}
+            nav{gap:7px;padding-top:9px}
+            .nav-link{
+              min-height:55px;
+              padding:7px 8px;
+              font-size:.75rem;
+            }
+            .fact-card{
+              border-radius:18px;
+              box-shadow:0 12px 25px rgba(15,23,42,.1);
+            }
+            .fact-copy{padding:21px 18px 24px}
+            .fact-copy h1{font-size:1.7rem}
+            .fact-title{font-size:1.08rem}
+            .fact-copy p{font-size:.96rem}
+            .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
+            .resource-row{grid-template-columns:42px 1fr}
+            .resource-row .badge{grid-column:2;justify-self:start}
+            .routine-modal{padding:10px}
+            .routine-dialog{padding:16px;max-height:95vh}
+            .routine-field{width:100%;min-width:100%}
+            .routine-legend{gap:10px}
+            .routine-table{min-width:520px}
+            .routine-time-grid{grid-template-columns:1fr}
+          }'''.replace('          ', '')
+              ),
+              ('<span class="logo-mark">X</span>', '<span class="logo-mark">স</span>'),
+              ('    <button class="menu-btn" type="button" aria-controls="navMenu" aria-expanded="false" onclick="toggleMenu()">Menu</button>\n', ''),
+              (
+                  '''function toggleMenu(){
+            const nav = document.getElementById("navMenu");
+            const button = document.querySelector(".menu-btn");
+            const isOpen = nav.classList.toggle("active");
+            button.setAttribute("aria-expanded", String(isOpen));
+          }
+
+          '''.replace('          ', ''),
+                  ''
+              ),
+              ('    document.getElementById("navMenu").classList.remove("active");\n    document.querySelector(".menu-btn").setAttribute("aria-expanded","false");\n', '')
+          ]
+
+          for page in [Path('index.html'), Path('xohopathi_home_and_class_test/index.html')]:
+              text = page.read_text(encoding='utf-8')
+              for old, new in replacements:
+                  if old not in text:
+                      raise SystemExit(f'Expected homepage text not found in {page}: {old[:45]}')
+                  text = text.replace(old, new, 1)
+              page.write_text(text, encoding='utf-8', newline='\n')
+
+          Path('.github/workflows/codex-mobile-homepage-update.yml').unlink()
+      - name: Commit homepage update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html xohopathi_home_and_class_test/index.html .github/workflows/codex-mobile-homepage-update.yml
+          git commit -m "Refresh mobile homepage navigation and Assamese brand mark"
+          git push
