@@ -1,0 +1,97 @@
+name: Connect HSLC English mock test
+
+on:
+  push:
+    paths:
+      - '.github/hslc-english-test-trigger.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  connect-mock-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Add HSLC English mock-test route
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('xohopathi_home_and_class_test/index.html')
+          text = path.read_text(encoding='utf-8')
+
+          def replace_once(old, new, label):
+              global text
+              if new in text:
+                  return
+              if old not in text:
+                  raise SystemExit(f'Could not locate {label}')
+              text = text.replace(old, new, 1)
+
+          economics_detector = '''function isClass10Economics(parts){
+            return /^class-10__social-science__economics__chapter-[1-2]-/.test(parts.map(slugify).join("__"));
+          }
+          '''
+          english_detector = economics_detector + '''
+          function isClass10EnglishPaper(parts){
+            return /^class-10__english__english$/.test(parts.map(slugify).join("__"));
+          }
+          '''
+          replace_once(economics_detector, english_detector, 'English test detector insertion point')
+
+          nested_old = '''  if(isClass10Economics(parts)){
+            return "mock-test.html?file=" + encodeURIComponent(economicsTestFile(parts, test));
+          }
+          return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));'''
+          nested_new = '''  if(isClass10Economics(parts)){
+            return "mock-test.html?file=" + encodeURIComponent(economicsTestFile(parts, test));
+          }
+          if(isClass10EnglishPaper(parts)){
+            return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-final-2025.json");
+          }
+          return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));'''
+          replace_once(nested_old, nested_new, 'English test link insertion point')
+
+          available_old = '''  if(isClass10Economics(parts)){
+            return /^Test [1-5]$/.test(labelEn(test));
+          }
+          return false;'''
+          available_new = '''  if(isClass10Economics(parts)){
+            return /^Test [1-5]$/.test(labelEn(test));
+          }
+          if(isClass10EnglishPaper(parts)){
+            return labelEn(test) === "HSLC Final 2025 Mock Test";
+          }
+          return false;'''
+          replace_once(available_old, available_new, 'English availability insertion point')
+
+          list_old = '''function makeTestLevel(title, parts){
+            return {
+              title,
+              items:testNames.map(test => ({'''
+          list_new = '''function makeTestLevel(title, parts){
+            const availableTests = isClass10EnglishPaper(parts) ? [{en:"HSLC Final 2025 Mock Test"}] : testNames;
+            return {
+              title,
+              items:availableTests.map(test => ({'''
+          replace_once(list_old, list_new, 'English test label insertion point')
+
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Commit page change
+        shell: bash
+        run: |
+          if git diff --quiet -- xohopathi_home_and_class_test/index.html; then
+            echo "The route is already connected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add xohopathi_home_and_class_test/index.html
+          git commit -m "Connect HSLC Final 2025 English mock test"
+          git push
