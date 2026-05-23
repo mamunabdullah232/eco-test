@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>QR Labels | Xohopathi Plantation Drive 2026</title>
+<style>
+:root{--green:#166534;--line:#bdd8c5;--muted:#475569;--bg:#edf7ee}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#0f172a;font-family:Arial,Helvetica,sans-serif}
+.toolbar{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 18px;background:#fff;border-bottom:1px solid var(--line)}
+.toolbar h1{margin:0;color:var(--green);font-size:1.18rem}
+.toolbar p{margin:4px 0 0;color:var(--muted);font-size:.84rem}
+.print-button{border:0;border-radius:9px;padding:11px 17px;background:var(--green);color:#fff;font:inherit;font-weight:800;cursor:pointer}
+.sheets{width:210mm;margin:14px auto}
+.sheet{width:210mm;min-height:297mm;padding:10mm;margin:0 0 12px;background:#fff;display:grid;grid-template-columns:repeat(2,1fr);grid-auto-rows:89mm;gap:4mm;page-break-after:always}
+.sheet:last-child{page-break-after:auto}
+.label{display:grid;grid-template-columns:46mm 1fr;gap:4mm;align-items:center;min-height:89mm;border:1.2px dashed #86b69a;border-radius:4mm;padding:5mm}
+.label svg{width:46mm;height:46mm;display:block}
+.drive{color:var(--green);font-size:8.5pt;font-weight:800;text-transform:uppercase}
+.code{margin:2.5mm 0;color:#052e16;font-size:26pt;font-weight:900;letter-spacing:0}
+.place{font-size:10pt;font-weight:800;color:#334155}
+.date{margin-top:2mm;color:#475569;font-size:9pt;font-weight:700}
+.scan{margin-top:4mm;color:var(--green);font-size:8.5pt;font-weight:800}
+@page{size:A4 portrait;margin:0}
+@media print{body{background:#fff}.toolbar{display:none}.sheets{margin:0}.sheet{margin:0}}
+@media screen and (max-width:850px){.sheets{width:100%;margin:12px auto}.sheet{width:min(100% - 20px,680px);min-height:0;margin:0 auto 12px;padding:12px;display:block}.label{margin-bottom:10px}}
+</style>
+</head>
+<body>
+<header class="toolbar">
+  <div>
+    <h1>Xohopathi Plantation Drive | QR Labels</h1>
+    <p>25 permanent codes for the drive at Niz Baruajhar on 28 May 2026.</p>
+  </div>
+  <button class="print-button" type="button" onclick="window.print()">Print A4 Labels</button>
+</header>
+<main class="sheets" id="sheets"></main>
+<script src="qr-matrices.js"></script>
+<script>
+const plantIds = Array.from({length:25}, function(_, index){
+  return "ZG" + String(index + 1).padStart(2, "0");
+});
+function qrSvg(id){
+  const qr = window.XOHOPATHI_QR_MATRICES.find(function(item){ return item.id === id; });
+  if(!qr) return "";
+  const bytes = atob(qr.bits);
+  const border = 4;
+  let path = "";
+  function isDark(index){
+    return (bytes.charCodeAt(index >> 3) & (128 >> (index & 7))) !== 0;
+  }
+  for(let row = 0; row < qr.size; row += 1){
+    let column = 0;
+    while(column < qr.size){
+      if(!isDark(row * qr.size + column)){
+        column += 1;
+        continue;
+      }
+      const start = column;
+      while(column < qr.size && isDark(row * qr.size + column)) column += 1;
+      path += `M${start + border} ${row + border}h${column - start}v1h-${column - start}z`;
+    }
+  }
+  const dimension = qr.size + border * 2;
+  return `<svg viewBox="0 0 ${dimension} ${dimension}" aria-label="QR code for ${id}" xmlns="http://www.w3.org/2000/svg"><rect width="${dimension}" height="${dimension}" fill="#fff"/><path d="${path}" fill="#000"/></svg>`;
+}
+const sheets = document.getElementById("sheets");
+const groups = [];
+for(let index = 0; index < plantIds.length; index += 6){
+  groups.push(plantIds.slice(index, index + 6));
+}
+sheets.innerHTML = groups.map(function(group){
+  return `<section class="sheet">${group.map(function(id){
+    return `
+      <article class="label">
+        ${qrSvg(id)}
+        <div>
+          <div class="drive">Xohopathi Plantation Drive</div>
+          <div class="code">${id}</div>
+          <div class="place">Niz Baruajhar</div>
+          <div class="date">28 May 2026</div>
+          <div class="scan">Scan for plant record</div>
+        </div>
+      </article>
+    `;
+  }).join("")}</section>`;
+}).join("");
+</script>
+</body>
+</html>
