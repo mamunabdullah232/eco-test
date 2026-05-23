@@ -1,0 +1,239 @@
+{
+  "className": "Class 10",
+  "subject": "English",
+  "section": "English",
+  "chapter": "HSLC Final Practice",
+  "test": "HSLC 2025 Final English MCQ",
+  "displayTitle": "HSLC 2025 Final English MCQ",
+  "englishOnly": true,
+  "durationMinutes": 45,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "In \"A Letter to God\", whom does Lencho trust for help after his crop is destroyed?",
+      "options": ["The village headman", "The postmaster", "God", "His sons"],
+      "answer": 2
+    },
+    {
+      "en": "What destroys Lencho's ripe cornfield?",
+      "options": ["A flood", "A hailstorm", "A fire", "A swarm of birds"],
+      "answer": 1
+    },
+    {
+      "en": "Why does the postmaster arrange money for Lencho?",
+      "options": ["To repay an old loan", "To buy seeds for himself", "To punish his employees", "To preserve Lencho's faith"],
+      "answer": 3
+    },
+    {
+      "en": "Which expression shows Lencho's suspicion after he receives less money than expected?",
+      "options": ["He calls the post office employees crooks.", "He thanks the postmaster warmly.", "He blames the weather office.", "He gives up writing letters."],
+      "answer": 0
+    },
+    {
+      "en": "Nelson Mandela's inauguration celebrated the beginning of which kind of government in South Africa?",
+      "options": ["Military and temporary", "Royal and hereditary", "Democratic and non-racial", "Colonial and racial"],
+      "answer": 2
+    },
+    {
+      "en": "In \"Long Walk to Freedom\", apartheid was a system based on:",
+      "options": ["economic equality", "racial discrimination", "universal education", "religious freedom"],
+      "answer": 1
+    },
+    {
+      "en": "According to Mandela, courage means:",
+      "options": ["never experiencing fear", "avoiding every danger", "defeating an enemy", "overcoming fear"],
+      "answer": 3
+    },
+    {
+      "en": "Mandela's 'twin obligations' refer to duties towards:",
+      "options": ["family and country", "school and sports", "wealth and status", "law and punishment"],
+      "answer": 0
+    },
+    {
+      "en": "Who travel together in \"Tea from Assam\"?",
+      "options": ["Lencho and the postmaster", "Rajvir and Pranjol", "Mandela and Tembu", "Valli and her mother"],
+      "answer": 1
+    },
+    {
+      "en": "Why is Pranjol less excited than Rajvir on seeing tea gardens?",
+      "options": ["He dislikes tea.", "He is asleep.", "Tea gardens are familiar to him.", "He wants to return home."],
+      "answer": 2
+    },
+    {
+      "en": "Which period is described as the best tea-plucking season in \"Tea from Assam\"?",
+      "options": ["January to March", "August to October", "November to December", "May to July"],
+      "answer": 3
+    },
+    {
+      "en": "Coorg, also called Kodagu, is a district of:",
+      "options": ["Karnataka", "Assam", "Kerala", "Rajasthan"],
+      "answer": 0
+    },
+    {
+      "en": "Which river receives its water from the hills of Coorg?",
+      "options": ["Ganga", "Yamuna", "Kaveri", "Brahmaputra"],
+      "answer": 2
+    },
+    {
+      "en": "Which activity suits the adventurous landscape described in \"Coorg\"?",
+      "options": ["Ice skating only", "River rafting", "Desert camel racing", "Deep-sea diving"],
+      "answer": 1
+    },
+    {
+      "en": "What is Valli's full name in \"Madam Rides the Bus\"?",
+      "options": ["Valerie", "Vandana", "Vasundhara", "Valliammai"],
+      "answer": 3
+    },
+    {
+      "en": "How much is Valli's one-way bus fare?",
+      "options": ["Thirty paise", "Fifty paise", "One rupee", "Two rupees"],
+      "answer": 0
+    },
+    {
+      "en": "What sight makes Valli silent and sad on her return journey?",
+      "options": ["A broken bridge", "A quarrelling crowd", "The dead cow by the roadside", "A missed bus"],
+      "answer": 2
+    },
+    {
+      "en": "Why is Fowler initially disappointed on meeting Ausable in \"The Midnight Visitor\"?",
+      "options": ["Ausable cannot speak English.", "Ausable does not look like an exciting secret agent.", "Ausable refuses to enter the hotel.", "Ausable has lost the report."],
+      "answer": 1
+    },
+    {
+      "en": "How does Ausable frighten Max at the crucial moment?",
+      "options": ["He attacks him directly.", "He hides the report in a safe.", "He calls Fowler for help.", "He makes Max believe the police are at the door."],
+      "answer": 3
+    },
+    {
+      "en": "Fowler visits Ausable mainly because he wants:",
+      "options": ["an exciting story about espionage", "a job in a hotel", "a new apartment", "a train ticket"],
+      "answer": 0
+    },
+    {
+      "en": "What is Horace Danby's special interest in \"A Question of Trust\"?",
+      "options": ["Expensive cars", "Rare paintings", "Rare books", "Foreign stamps"],
+      "answer": 2
+    },
+    {
+      "en": "How does the young woman at Shotover Grange deceive Horace?",
+      "options": ["She pretends to be a police officer.", "She pretends to be the owner of the house.", "She offers him a job.", "She tells him the safe is empty."],
+      "answer": 1
+    },
+    {
+      "en": "Why can the police connect Horace with the burglary?",
+      "options": ["He writes his name on the safe.", "He leaves his hat in the garden.", "He confesses immediately.", "His fingerprints are found on the safe."],
+      "answer": 3
+    },
+    {
+      "en": "How does Griffin become invisible in \"Footprints without Feet\"?",
+      "options": ["By using a scientific discovery on the human body", "By wearing a magic cloak", "By hiding under bandages", "By entering a dark room"],
+      "answer": 0
+    },
+    {
+      "en": "Which strange incident alarms Mrs Hall at the inn?",
+      "options": ["The roof disappears.", "The inn catches fire.", "Furniture appears to move by itself.", "A train stops outside."],
+      "answer": 2
+    },
+    {
+      "en": "Why is Griffin described as lawless?",
+      "options": ["He refuses to study science.", "He uses his discovery for theft and violence.", "He reports crimes to the police.", "He becomes a village teacher."],
+      "answer": 1
+    },
+    {
+      "en": "In \"The Hack Driver\", the friendly driver Bill is actually:",
+      "options": ["the judge", "the lawyer's clerk", "the railway porter", "Oliver Lutkins"],
+      "answer": 3
+    },
+    {
+      "en": "Why is the young lawyer sent to New Mullion?",
+      "options": ["To serve a summons on Lutkins", "To buy a horse", "To interview a teacher", "To collect books"],
+      "answer": 0
+    },
+    {
+      "en": "What does the boy learn through the lost ball in \"The Ball Poem\"?",
+      "options": ["How to win a game", "How to buy toys cheaply", "How to accept loss and responsibility", "How to avoid playing outside"],
+      "answer": 2
+    },
+    {
+      "en": "Why does the poet not simply offer another ball to the boy?",
+      "options": ["The poet has no money.", "A replacement cannot restore the boy's emotional loss.", "The boy dislikes balls.", "The ball belongs to someone else."],
+      "answer": 1
+    },
+    {
+      "en": "What quality of animals does Walt Whitman admire in \"Animals\"?",
+      "options": ["Their desire for possessions", "Their pride in ancestors", "Their ability to complain", "Their calm and self-contained nature"],
+      "answer": 3
+    },
+    {
+      "en": "In the poem \"Amanda!\", Amanda's daydreams mainly express her wish for:",
+      "options": ["freedom and solitude", "new school lessons", "public praise", "household duties"],
+      "answer": 0
+    },
+    {
+      "en": "In \"A Tiger in the Zoo\", the tiger's strength is restricted by:",
+      "options": ["a mountain stream", "a forest fire", "the bars of a cage", "heavy rain"],
+      "answer": 2
+    },
+    {
+      "en": "Who acts bravely when the pirate appears in \"The Tale of Custard the Dragon\"?",
+      "options": ["Belinda", "Custard", "Ink", "Blink"],
+      "answer": 1
+    },
+    {
+      "en": "Before danger arrives, the other characters generally treat Custard as:",
+      "options": ["a wise leader", "a cruel monster", "a silent poet", "a coward"],
+      "answer": 3
+    },
+    {
+      "en": "Choose the correct question tag: \"They have completed the assignment, ____?\"",
+      "options": ["haven't they", "didn't they", "don't they", "aren't they"],
+      "answer": 0
+    },
+    {
+      "en": "Choose the correct conjunction pair: \"Rina is ____ intelligent ____ hardworking.\"",
+      "options": ["either / and", "neither / or", "both / and", "not / nor"],
+      "answer": 2
+    },
+    {
+      "en": "Fill in the blank: \"The train ____ before we reached the station.\"",
+      "options": ["leaves", "had left", "has leave", "will leaving"],
+      "answer": 1
+    },
+    {
+      "en": "Choose the correct determiner: \"She donated ____ money she had saved.\"",
+      "options": ["few", "many", "a few", "the little"],
+      "answer": 3
+    },
+    {
+      "en": "Choose the correct prepositions: \"____ the long run, listen ____ sound advice.\"",
+      "options": ["In / to", "On / at", "For / by", "At / with"],
+      "answer": 0
+    },
+    {
+      "en": "Select the correct passive voice: \"The principal distributed the prizes.\"",
+      "options": ["The principal was distributed by the prizes.", "The prizes distributed the principal.", "The prizes were distributed by the principal.", "The prizes are distributing by the principal."],
+      "answer": 2
+    },
+    {
+      "en": "Choose the correct indirect speech: Rina said to me, \"Are you ready?\"",
+      "options": ["Rina told me that are you ready.", "Rina asked me whether I was ready.", "Rina said me if I am ready.", "Rina asked that I ready."],
+      "answer": 1
+    },
+    {
+      "en": "Choose the correctly spelt word to complete the sentence: \"Please ____ the source of your information.\"",
+      "options": ["sight", "site", "cited", "cite"],
+      "answer": 3
+    },
+    {
+      "en": "Choose the word nearest in meaning to \"recount\" in the context of telling an incident.",
+      "options": ["narrate", "hide", "forget", "prevent"],
+      "answer": 0
+    },
+    {
+      "en": "Choose the antonym of \"crest\" when it means the top of a hill.",
+      "options": ["summit", "peak", "bottom", "ridge"],
+      "answer": 2
+    }
+  ]
+}

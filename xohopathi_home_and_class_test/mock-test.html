@@ -214,7 +214,7 @@ h1{
 <header>
   <div class="container topbar">
     <a class="brand" href="index.html#mock-tests"><span class="mark">X</span><span>Xohopathi Mock Test</span></a>
-    <a class="back" href="index.html#mock-tests">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
+    <a class="back" id="backLink" href="index.html#mock-tests">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
   </div>
 </header>
 
@@ -222,12 +222,12 @@ h1{
   <div class="container">
     <section class="panel">
       <div class="test-head">
-        <div class="kicker">Class 10 Social Science / শ্ৰেণী ১০ সমাজ বিজ্ঞান</div>
+        <div class="kicker" id="testKicker">Class 10 Social Science / শ্ৰেণী ১০ সমাজ বিজ্ঞান</div>
         <h1 id="testTitle">Mock Test</h1>
         <div class="subline" id="testMeta">Loading...</div>
       </div>
       <div class="controls">
-        <div class="language" aria-label="Choose medium">
+        <div class="language" id="languageControls" aria-label="Choose medium">
           <span>Medium / মাধ্যম:</span>
           <label><input type="radio" name="medium" value="en" checked> English</label>
           <label><input type="radio" name="medium" value="as"> Assamese / অসমীয়া</label>
@@ -264,6 +264,8 @@ function normalizeTestSet(raw){
     section: raw.section || { en:"Geography", as:"ভূগোল" },
     chapter: raw.chapter || raw.title || { en:"Chapter", as:"অধ্যায়" },
     test: raw.test || { en:"Test", as:"টেষ্ট" },
+    displayTitle: raw.displayTitle || "",
+    englishOnly: raw.englishOnly === true,
     durationMinutes: raw.durationMinutes || 10,
     correctMarks: raw.correctMarks ?? 1,
     wrongMarks: raw.wrongMarks ?? -0.25,
@@ -346,10 +348,19 @@ function setHeader(){
     content.innerHTML = '<div class="missing">This test is not available yet. / এই টেষ্ট এতিয়াও উপলব্ধ নহয়।</div>';
     return;
   }
+  if(testSet.englishOnly){
+    selectedMedium = "en";
+    document.getElementById("backLink").textContent = "Back to Mock Test";
+    document.getElementById("languageControls").innerHTML = "<span>Language:</span><strong>English only</strong>";
+  }
+  document.getElementById("testKicker").textContent = `${text(testSet.className)} ${text(testSet.subject)}`;
   document.title = text(testSet.test) + " | Xohopathi";
-  document.getElementById("testTitle").textContent = `${text(testSet.chapter)} - ${text(testSet.test)}`;
+  document.getElementById("testTitle").textContent = testSet.displayTitle || `${text(testSet.chapter)} - ${text(testSet.test)}`;
   document.getElementById("testMeta").textContent =
     `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | ${testSet.questions.length} Questions | +${testSet.correctMarks} correct, ${testSet.wrongMarks} wrong | ${testSet.durationMinutes} minutes`;
+  if(!started){
+    timer.textContent = formatTime(testSet.durationMinutes * 60);
+  }
 }
 
 function formatTime(seconds){
@@ -375,14 +386,18 @@ function startTimer(){
 }
 
 function renderStart(){
+  const questionCaption = testSet.englishOnly ? "" : "<span>১০টা প্ৰশ্ন</span>";
+  const minuteCaption = testSet.englishOnly ? "" : "<span>১০ মিনিট</span>";
+  const markingCaption = testSet.englishOnly ? "" : "<span>শুদ্ধত +১, ভুলত -০.২৫</span>";
+  const startButtonLabel = testSet.englishOnly ? "Start Test" : "Start Test / টেষ্ট আৰম্ভ কৰক";
   content.innerHTML = `
     <div class="start-card">
       <div class="rules">
-        <div class="rule"><strong>${testSet.questions.length} Questions</strong><span>১০টা প্ৰশ্ন</span></div>
-        <div class="rule"><strong>${testSet.durationMinutes} Minutes</strong><span>১০ মিনিট</span></div>
-        <div class="rule"><strong>+${testSet.correctMarks} / ${testSet.wrongMarks}</strong><span>শুদ্ধত +১, ভুলত -০.২৫</span></div>
+        <div class="rule"><strong>${testSet.questions.length} Questions</strong>${questionCaption}</div>
+        <div class="rule"><strong>${testSet.durationMinutes} Minutes</strong>${minuteCaption}</div>
+        <div class="rule"><strong>+${testSet.correctMarks} / ${testSet.wrongMarks}</strong>${markingCaption}</div>
       </div>
-      <button class="btn" type="button" id="startBtn">Start Test / টেষ্ট আৰম্ভ কৰক</button>
+      <button class="btn" type="button" id="startBtn">${startButtonLabel}</button>
     </div>
   `;
   document.getElementById("startBtn").addEventListener("click", startTest);
@@ -424,7 +439,9 @@ function renderQuestions(){
     ${resultHTML}
     <div class="questions">${questionHTML}</div>
     <div class="actions">
-      ${submitted ? '<a class="btn secondary" href="index.html#mock-tests">Back / উভতি যাওক</a>' : '<button class="btn" type="button" id="submitBtn">Submit Test / জমা দিয়ক</button>'}
+      ${submitted
+        ? `<a class="btn secondary" href="index.html#mock-tests">${testSet.englishOnly ? "Back" : "Back / উভতি যাওক"}</a>`
+        : `<button class="btn" type="button" id="submitBtn">${testSet.englishOnly ? "Submit Test" : "Submit Test / জমা দিয়ক"}</button>`}
     </div>
   `;
 
@@ -458,6 +475,16 @@ function calculateResult(){
 
 function renderResult(){
   const result = calculateResult();
+  if(testSet.englishOnly){
+    return `
+      <div class="result">
+        Result: Score ${result.score.toFixed(2)} |
+        Correct ${result.correct} |
+        Wrong ${result.wrong} |
+        Unanswered ${result.unanswered}
+      </div>
+    `;
+  }
   return `
     <div class="result">
       Result / ফলাফল: Score ${result.score.toFixed(2)} |

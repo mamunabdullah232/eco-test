@@ -1520,6 +1520,14 @@ function isClass10Economics(parts){
   return /^class-10__social-science__economics__chapter-[1-2]-/.test(parts.map(slugify).join("__"));
 }
 
+function isClass10EnglishSection(parts){
+  return parts.map(slugify).join("__") === "class-10__english__english";
+}
+
+function class10EnglishFinalTestLink(){
+  return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-2025-final-english-mcq.json");
+}
+
 function class10SocialScienceTestFile(parts, subjectSlug, test){
   return [
     "mock-tests",
@@ -1626,14 +1634,23 @@ function groupLabel(group){
 }
 
 function makeTestLevel(title, parts){
+  const tests = testNames.map(test => ({
+    label:test,
+    href:isMockTestAvailable(parts, test) ? nestedTestLink(parts, test) : "",
+    status:isMockTestAvailable(parts, test) ? "available" : "soon",
+    test:true
+  }));
+  if(isClass10EnglishSection(parts)){
+    tests.unshift({
+      label:{en:"HSLC 2025 Final English MCQ"},
+      href:class10EnglishFinalTestLink(),
+      status:"available",
+      test:true
+    });
+  }
   return {
     title,
-    items:testNames.map(test => ({
-      label:test,
-      href:isMockTestAvailable(parts, test) ? nestedTestLink(parts, test) : "",
-      status:isMockTestAvailable(parts, test) ? "available" : "soon",
-      test:true
-    }))
+    items:tests
   };
 }
 
