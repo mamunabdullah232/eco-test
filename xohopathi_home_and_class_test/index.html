@@ -1846,7 +1846,16 @@ function renderMockTree(){
   renderMockDrillLevel(makeMockHomeLevel());
 }
 
+const previousPaperLinks = {
+  "class-10__2025__english":"https://1drv.ms/b/c/349d115700558663/IQBkP9Nzz-hjTon0YA6GUlq9AekzLyJOGdOATXrdEDwq-Ss?e=rVz15x",
+  "class-10__2025__social-science":"https://1drv.ms/b/c/349d115700558663/IQDFGiB9jGDgRJLlhqTifpBDAU_9BxXcKPFxniPKPuMxFzc?e=0F4I31",
+  "class-10__2024__social-science":"https://site.sebaonline.org/photo/upload/2025/1752655937_9300.pdf",
+  "class-10__2024__english":"https://site.sebaonline.org/photo/upload/2025/1752655853_3181.pdf"
+};
+
 function paperLink(classGroup, year, subject){
+  const suppliedLink = previousPaperLinks[[slugify(classGroup.name), slugify(year), slugify(subject)].join("__")];
+  if(suppliedLink) return suppliedLink;
   return "previous-year-question-papers/" + slugify(classGroup.name) + "/" + slugify(year) + "/" + slugify(subject) + ".pdf";
 }
 
@@ -1879,7 +1888,8 @@ function renderPaperDrillLevel(level){
   const cards = level.items.length
     ? level.items.map((item, index) => {
       if(item.href){
-        return `<a class="drill-card test-link" href="${item.href}">${displayLabel(item.label)}</a>`;
+        const externalAttributes = /^https?:\/\//.test(item.href) ? ` target="_blank" rel="noopener noreferrer"` : "";
+        return `<a class="drill-card test-link" href="${item.href}"${externalAttributes}>${displayLabel(item.label)}</a>`;
       }
       return `<button class="drill-card" type="button" data-paper-index="${index}">${displayLabel(item.label)}</button>`;
     }).join("")
