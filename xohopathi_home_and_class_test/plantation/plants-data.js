@@ -1,15 +1,15 @@
-window.XOHOPATHI_PLANTS = [
-  {
-    id: "XPH-PLANT-001",
-    plantName: "Plant Name To Be Updated",
-    scientificName: "Scientific name to be updated",
+window.XOHOPATHI_PLANTS = Array.from({ length: 25 }, function(_, index){
+  return {
+    id: "ZG" + String(index + 1).padStart(2, "0"),
+    plantName: "Plant species to be updated",
+    scientificName: "Record after plantation",
     donorName: "To be updated",
     maintenancePerson: "To be updated",
-    plantationDate: "To be updated",
-    location: "JHSS Campus",
-    status: "Registration pending",
-    lastUpdated: "To be updated",
+    plantationDate: "28 May 2026",
+    location: "Niz Baruajhar",
+    status: "Planned for plantation",
+    lastUpdated: "23 May 2026",
     photo: "",
-    note: "This record is reserved for the first QR-labelled plant. Provide the actual plant and caretaker details to publish the completed record."
-  }
-];
+    note: "QR label prepared before the plantation drive. Plant species, caretaker and photograph will be recorded after planting."
+  };
+});
