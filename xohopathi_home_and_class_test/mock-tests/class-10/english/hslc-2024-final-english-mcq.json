@@ -1,0 +1,239 @@
+{
+  "className": "Class 10",
+  "subject": "English",
+  "section": "English",
+  "chapter": "HSLC Final Practice",
+  "test": "HSLC 2024 Final English MCQ",
+  "displayTitle": "HSLC 2024 Final English MCQ",
+  "englishOnly": true,
+  "durationMinutes": 45,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Read the statements about \"A Letter to God\". Statement 1: Lencho's house was in the middle of a populous town. Statement 2: Lencho was a good farmer. Choose the correct option.",
+      "options": ["Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 1
+    },
+    {
+      "en": "\"I hope it passes quickly.\" What is the 'it' referred to in \"A Letter to God\"?",
+      "options": ["A pack of wolves", "A swarm of locusts", "The hailstorm", "The storm of dust"],
+      "answer": 2
+    },
+    {
+      "en": "What was Lencho's immediate response when he received the letter that he believed was from God?",
+      "options": ["He began shouting at the postmaster.", "He was not surprised, but he became angry.", "He began laughing with joy.", "He was sad and silent."],
+      "answer": 1
+    },
+    {
+      "en": "In Mandela's account of the inauguration, he was accompanied by his daughter named:",
+      "options": ["Aunt", "Mother", "Wife", "Zenani"],
+      "answer": 3
+    },
+    {
+      "en": "When were two national anthems played in \"Nelson Mandela: Long Walk to Freedom\"?",
+      "options": ["At Mandela's swearing-in ceremony", "At the opening of World Peace Day", "At an international sports event", "On South Africa's New Year's Day"],
+      "answer": 0
+    },
+    {
+      "en": "Read the statements about Mandela. Statement 1: On inauguration day, he was overwhelmed with a sense of history. Statement 2: He learned that courage is triumph over fear, not the absence of fear. Choose the correct option.",
+      "options": ["Only Statement 1 is true", "Only Statement 2 is true", "Both statements are false", "Both statements are true"],
+      "answer": 3
+    },
+    {
+      "en": "During September to March, Coorg is described as having a season of:",
+      "options": ["sorrow", "lull", "joy", "pain"],
+      "answer": 2
+    },
+    {
+      "en": "The theory of Arab origin of the people of Coorg is based on:",
+      "options": ["the clothes they wear", "the festivals they celebrate", "the houses they live in", "the food they eat"],
+      "answer": 0
+    },
+    {
+      "en": "Read the statements about \"Coorg\". Statement 1: Visitors are fascinated by its adventurous activities. Statement 2: The people of Coorg are hostile and cowardly. Choose the correct option.",
+      "options": ["Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 0
+    },
+    {
+      "en": "In \"Tea from Assam\", what does the expression \"Pranjol buried his nose in his detective book\" mean?",
+      "options": ["He became deeply engrossed in reading.", "He caught a cold.", "He covered his nose.", "He tried to smell the book."],
+      "answer": 0
+    },
+    {
+      "en": "Read the statements about the tea legend. Statement 1: Bodhidharma was a lazy monk who loved to sleep. Statement 2: The legend of Bodhidharma originated in China. Choose the correct option.",
+      "options": ["Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 3
+    },
+    {
+      "en": "The second-flush or sprouting period is important because it:",
+      "options": ["produces only green tea", "yields the best tea", "requires no labour", "marks the beginning of winter"],
+      "answer": 1
+    },
+    {
+      "en": "Read the statements about \"Madam Rides the Bus\". Statement 1: Valli loved standing at the front door. Statement 2: Her playmates were of her age. Choose the correct option.",
+      "options": ["Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 0
+    },
+    {
+      "en": "In \"Madam Rides the Bus\", what was Valli planning and replanning carefully?",
+      "options": ["A birthday party", "A bus ride", "A picnic", "A school event"],
+      "answer": 1
+    },
+    {
+      "en": "In the line \"He stalks in his vivid stripes\", the word \"vivid\" means:",
+      "options": ["bright", "dull", "faded", "vague"],
+      "answer": 0
+    },
+    {
+      "en": "In the poem \"Amanda!\", Amanda is asked not to:",
+      "options": ["eat her food", "wear a red ribbon", "bite her nails", "go out and play"],
+      "answer": 2
+    },
+    {
+      "en": "In \"Animals\", Walt Whitman writes that animals do not discuss their duty to:",
+      "options": ["parents", "society", "God", "fellow animals"],
+      "answer": 2
+    },
+    {
+      "en": "In \"The Ball Poem\", the boy senses his first responsibility in a world of:",
+      "options": ["balls", "playthings", "people", "possessions"],
+      "answer": 3
+    },
+    {
+      "en": "Why does the speaker in \"The Ball Poem\" say that he would not intrude on the boy?",
+      "options": ["Another ball cannot replace the boy's loss.", "The boy will not listen to him.", "He does not want to disturb a game.", "He does not know how to speak."],
+      "answer": 0
+    },
+    {
+      "en": "In \"The Ball Poem\", choose the opposite of \"desperate\".",
+      "options": ["disciplined", "distressed", "dolorous", "cheerful"],
+      "answer": 3
+    },
+    {
+      "en": "According to \"The Tale of Custard the Dragon\", which colour pair is correct?",
+      "options": ["Dog: black, kitten: yellow", "Kitten: grey, dog: black", "Dog: black, mouse: grey", "Kitten: black, mouse: grey"],
+      "answer": 3
+    },
+    {
+      "en": "Read the statements about \"Footprints without Feet\". Statement 1: Griffin chose a bad time to be in London. Statement 2: It was a bad time because all shops in London were closed. Choose the correct option.",
+      "options": ["Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 0
+    },
+    {
+      "en": "What experiment had Griffin carried out in \"Footprints without Feet\"?",
+      "options": ["How to develop an artificial brain", "How to become invisible", "How to live without air", "How to become immortal"],
+      "answer": 1
+    },
+    {
+      "en": "In \"Footprints without Feet\", choose the word nearest in meaning to \"curious\" in \"a curious episode occurred\".",
+      "options": ["strange", "ordinary", "similar", "jubilant"],
+      "answer": 0
+    },
+    {
+      "en": "Read the statements about \"A Question of Trust\". Statement 1: Horace Danby loved to read books. Statement 2: Book lovers can be cheated easily by beautiful women. Choose the correct option.",
+      "options": ["Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 0
+    },
+    {
+      "en": "Horace Danby had been sent to prison fifteen years earlier because:",
+      "options": ["he murdered his landlady", "he tried to rob an old man", "he robbed a safe", "he pushed a traveller from a bus"],
+      "answer": 2
+    },
+    {
+      "en": "Horace gets angry when anyone discusses \"honour among _____.\"",
+      "options": ["gentlemen", "thieves", "shopkeepers", "women"],
+      "answer": 1
+    },
+    {
+      "en": "Read the sentences: (1) We have to be careful and alert. (2) Is that so, but why? Identify their sentence types.",
+      "options": ["Sentence 1 is imperative and Sentence 2 is exclamatory.", "Sentence 1 is assertive and Sentence 2 is interrogative.", "Both sentences are assertive.", "Both sentences are interrogative."],
+      "answer": 1
+    },
+    {
+      "en": "In the question \"Do you have any money?\", the word \"any\" functions as a:",
+      "options": ["pronoun", "noun", "adverb", "quantifier"],
+      "answer": 3
+    },
+    {
+      "en": "In the sentence \"I signed my name where father told me to do,\" the clause \"where father told me to do\" is an adverb clause of:",
+      "options": ["place", "manner", "condition", "time"],
+      "answer": 0
+    },
+    {
+      "en": "Identify the grammatically correct sentence.",
+      "options": ["This hotel offer fooding and lodging.", "This hotel offer food and lodging.", "This hotel offers food and lodge.", "This hotel offers food and lodging."],
+      "answer": 3
+    },
+    {
+      "en": "Choose the correct equivalent of \"I want to be free.\"",
+      "options": ["I wished for my freedoms.", "I want freedom.", "I wanted for my freedom.", "I wished for being freedom."],
+      "answer": 1
+    },
+    {
+      "en": "Complete the sentence: \"The train will stop _____ many stations.\"",
+      "options": ["on", "upon", "at", "by"],
+      "answer": 2
+    },
+    {
+      "en": "In the sentence \"We should speak the truth,\" the modal \"should\" implies:",
+      "options": ["probability", "certainty", "request", "duty"],
+      "answer": 3
+    },
+    {
+      "en": "Choose the correct passive form of \"He was writing a letter.\"",
+      "options": ["A letter was being written by him.", "A letter was wrote by him.", "He wrote a letter.", "He was being writing a letter."],
+      "answer": 0
+    },
+    {
+      "en": "Choose the correct active form of \"Let the door be closed.\"",
+      "options": ["You closed the door.", "Closed the door.", "Door closed please.", "Close the door."],
+      "answer": 3
+    },
+    {
+      "en": "Complete the sentence meaningfully: \"Raju used to earn by _____.\"",
+      "options": ["nick of time", "fits and starts", "ups and downs", "in and out"],
+      "answer": 1
+    },
+    {
+      "en": "In her imaginary world in \"Amanda!\", Amanda plays the role of:",
+      "options": ["a queen and a mermaid", "an orphan and a princess", "a mermaid and an orphan", "a queen and an orphan"],
+      "answer": 2
+    },
+    {
+      "en": "In \"Animals\", the speaker wonders where the animals got the _____ from.",
+      "options": ["laughter", "tokens", "food", "strength"],
+      "answer": 1
+    },
+    {
+      "en": "In the extract from \"Madam Rides the Bus\", Valli \"stifled\" her desire to spend her saved fare. The word \"stifled\" means:",
+      "options": ["removed", "allowed", "suppressed", "released"],
+      "answer": 2
+    },
+    {
+      "en": "In the village fair episode, why was it difficult for Valli to preserve her saved bus fare?",
+      "options": ["She had no friends at the fair.", "She was forced to leave early.", "She did not carry any money.", "She had to resist riding the merry-go-round though she could pay for it."],
+      "answer": 3
+    },
+    {
+      "en": "In the passage on displaced children with disabilities, their experiences vary widely according to individual:",
+      "options": ["needs and wants", "impairment and available accommodation", "money and shelter", "impairment and food habits"],
+      "answer": 1
+    },
+    {
+      "en": "A survey reports school attendance rates of 7.5% for self-care difficulty, 21% for cognitive difficulty, 23% for depression/confusion and 27% for walking difficulty. Choose the ascending order.",
+      "options": ["Self-care, Cognitive, Depression, Walking", "Depression, Self-care, Cognitive, Walking", "Walking, Depression, Cognitive, Self-care", "Depression, Cognitive, Self-care, Walking"],
+      "answer": 0
+    },
+    {
+      "en": "Read the statements from the disability-and-education passage. Statement 1: Access to education is difficult for children with disabilities. Statement 2: Children with disabilities in low and middle income countries suffer more. Choose the correct option.",
+      "options": ["Only Statement 1 is true", "Only Statement 2 is true", "Both statements are true", "Both statements are false"],
+      "answer": 2
+    },
+    {
+      "en": "In the 2011 survey described in the passage, children with difficulty in seeing were most likely to have access to:",
+      "options": ["games", "music", "education", "health"],
+      "answer": 2
+    }
+  ]
+}

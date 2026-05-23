@@ -392,6 +392,30 @@ main{
   line-height:1;
 }
 .routine-close:hover{background:#f1f5f9}
+.routine-modes{
+  display:inline-flex;
+  gap:4px;
+  margin-bottom:16px;
+  padding:4px;
+  border-radius:11px;
+  background:#e2e8f0;
+}
+.routine-mode{
+  min-height:42px;
+  border:0;
+  border-radius:8px;
+  padding:0 16px;
+  background:transparent;
+  color:#475569;
+  font:inherit;
+  font-weight:800;
+  cursor:pointer;
+}
+.routine-mode.active{
+  background:#fff;
+  color:var(--blue-dark);
+  box-shadow:0 2px 8px rgba(15,23,42,.08);
+}
 .routine-controls{
   display:flex;
   align-items:flex-end;
@@ -418,6 +442,7 @@ main{
   font:inherit;
   font-weight:700;
 }
+.routine-field[hidden]{display:none}
 .routine-legend{
   display:flex;
   align-items:center;
@@ -524,6 +549,52 @@ main{
   border-radius:12px;
   color:#64748b;
   text-align:center;
+  font-weight:700;
+}
+.routine-time-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+.routine-class-card{
+  min-height:90px;
+  border:1px solid #cbd5e1;
+  border-radius:10px;
+  padding:12px;
+  background:#f1f5f9;
+  color:#475569;
+}
+.routine-class-card.status-past{
+  border-color:#fca5a5;
+  background:#fee2e2;
+  color:#991b1b;
+}
+.routine-class-card.status-current{
+  border-color:#86efac;
+  background:#dcfce7;
+  color:#166534;
+}
+.routine-class-card.status-future{
+  border-color:#cbd5e1;
+  background:#f1f5f9;
+  color:#475569;
+}
+.routine-class-card strong{
+  display:block;
+  font-size:.96rem;
+  margin-bottom:4px;
+}
+.routine-class-card span{
+  display:block;
+  font-size:.87rem;
+  font-weight:800;
+  line-height:1.35;
+}
+.routine-class-card small{
+  display:block;
+  margin-top:5px;
+  color:inherit;
+  font-size:.8rem;
   font-weight:700;
 }
 body.routine-open{overflow:hidden}
@@ -879,6 +950,7 @@ footer{
   .routine-field{width:100%;min-width:100%}
   .routine-legend{gap:10px}
   .routine-table{min-width:520px}
+  .routine-time-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -1075,17 +1147,26 @@ footer{
     <div class="routine-head">
       <div>
         <h2 id="routineTitle">Class Routine JHSS / শ্ৰেণী সূচী</h2>
-        <p>Select a teacher to view the assigned periods. / শিক্ষক বাছি লৈ নিৰ্ধাৰিত পিৰিয়ড চাওক।</p>
+        <p>View assigned periods by teacher or by class time. / শিক্ষক অথবা সময় অনুসৰি নিৰ্ধাৰিত পিৰিয়ড চাওক।</p>
       </div>
       <button class="routine-close" id="routineCloseBtn" type="button" aria-label="Close">&times;</button>
     </div>
 
+    <div class="routine-modes" aria-label="Routine view">
+      <button class="routine-mode active" id="routineTeacherModeBtn" type="button">By Teacher / শিক্ষক অনুসৰি</button>
+      <button class="routine-mode" id="routineTimeModeBtn" type="button">By Time / সময় অনুসৰি</button>
+    </div>
+
     <div class="routine-controls">
-      <label class="routine-field">
+      <label class="routine-field" id="routineTeacherField">
         Teacher / শিক্ষক
         <select id="routineTeacherSelect">
           <option value="">Select teacher / শিক্ষক বাছক</option>
         </select>
+      </label>
+      <label class="routine-field" id="routinePeriodField" hidden>
+        Class Time / পিৰিয়ডৰ সময়
+        <select id="routinePeriodSelect"></select>
       </label>
       <label class="routine-field">
         Day / দিন
@@ -1524,8 +1605,8 @@ function isClass10EnglishSection(parts){
   return parts.map(slugify).join("__") === "class-10__english__english";
 }
 
-function class10EnglishFinalTestLink(){
-  return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-2025-final-english-mcq.json");
+function class10EnglishFinalTestLink(year){
+  return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-" + year + "-final-english-mcq.json");
 }
 
 function class10SocialScienceTestFile(parts, subjectSlug, test){
@@ -1641,12 +1722,20 @@ function makeTestLevel(title, parts){
     test:true
   }));
   if(isClass10EnglishSection(parts)){
-    tests.unshift({
-      label:{en:"HSLC 2025 Final English MCQ"},
-      href:class10EnglishFinalTestLink(),
-      status:"available",
-      test:true
-    });
+    tests.unshift(
+      {
+        label:{en:"HSLC 2025 Final English MCQ"},
+        href:class10EnglishFinalTestLink("2025"),
+        status:"available",
+        test:true
+      },
+      {
+        label:{en:"HSLC 2024 Final English MCQ"},
+        href:class10EnglishFinalTestLink("2024"),
+        status:"available",
+        test:true
+      }
+    );
   }
   return {
     title,
@@ -1856,6 +1945,7 @@ function renderFact(){
 }
 
 let routineRefreshTimer = null;
+let routineViewMode = "teacher";
 
 function routineText(value){
   return String(value).replace(/[&<>"']/g, function(character){
@@ -1885,12 +1975,56 @@ function populateRoutineTeachers(){
   }).join(""));
 }
 
+function populateRoutinePeriods(){
+  const periodSelect = document.getElementById("routinePeriodSelect");
+  periodSelect.innerHTML = routinePeriods.map(function(period){
+    return `<option value="${period.number}">${routineText(period.label)} - ${routineText(period.time)}</option>`;
+  }).join("");
+}
+
+function renderRoutineByTime(output, day){
+  const periodNumber = Number(document.getElementById("routinePeriodSelect").value || 1);
+  const period = routinePeriods.find(function(item){ return item.number === periodNumber; }) || routinePeriods[0];
+  const allocations = jhssRoutineRows.map(function(row){
+    const entry = row.periods[period.number - 1];
+    if(!entry) return null;
+    return {
+      className:row.className,
+      subject:entry[0],
+      teachers:entry[1]
+    };
+  }).filter(Boolean);
+  const status = routinePeriodStatus(period);
+  const cards = allocations.map(function(item){
+    return `
+      <div class="routine-class-card status-${status}">
+        <strong>Class ${routineText(item.className)}</strong>
+        <span>${routineText(item.subject)}</span>
+        <small>${routineText(item.teachers.join(" / "))}</small>
+      </div>
+    `;
+  }).join("");
+
+  output.innerHTML = `
+    <div class="routine-summary">
+      <h3>${routineText(period.label)} - ${routineText(period.time)}</h3>
+      <span>${routineText(day)} | ${allocations.length} class allocation${allocations.length === 1 ? "" : "s"}</span>
+    </div>
+    <div class="routine-time-grid">${cards || `<div class="routine-empty">No named teacher allocation is listed for this period.</div>`}</div>
+  `;
+}
+
 function renderRoutine(){
   const output = document.getElementById("routineOutput");
-  const teacher = document.getElementById("routineTeacherSelect").value;
   const daySelect = document.getElementById("routineDaySelect");
   const day = daySelect.options[daySelect.selectedIndex].text;
 
+  if(routineViewMode === "time"){
+    renderRoutineByTime(output, day);
+    return;
+  }
+
+  const teacher = document.getElementById("routineTeacherSelect").value;
   if(!teacher){
     output.innerHTML = `<div class="routine-empty">Choose a teacher to display assigned periods. / নিৰ্ধাৰিত পিৰিয়ড চাবলৈ শিক্ষক বাছক।</div>`;
     return;
@@ -1937,12 +2071,23 @@ function renderRoutine(){
   `;
 }
 
+function setRoutineViewMode(mode){
+  routineViewMode = mode === "time" ? "time" : "teacher";
+  const isTimeMode = routineViewMode === "time";
+  document.getElementById("routineTeacherModeBtn").classList.toggle("active", !isTimeMode);
+  document.getElementById("routineTimeModeBtn").classList.toggle("active", isTimeMode);
+  document.getElementById("routineTeacherField").hidden = isTimeMode;
+  document.getElementById("routinePeriodField").hidden = !isTimeMode;
+  renderRoutine();
+  (isTimeMode ? document.getElementById("routinePeriodSelect") : document.getElementById("routineTeacherSelect")).focus();
+}
+
 function openRoutineModal(){
   const modal = document.getElementById("routineModal");
   modal.hidden = false;
   document.body.classList.add("routine-open");
   renderRoutine();
-  document.getElementById("routineTeacherSelect").focus();
+  (routineViewMode === "time" ? document.getElementById("routinePeriodSelect") : document.getElementById("routineTeacherSelect")).focus();
   window.clearInterval(routineRefreshTimer);
   routineRefreshTimer = window.setInterval(renderRoutine, 30000);
 }
@@ -1995,7 +2140,10 @@ document.querySelectorAll(".nav-route").forEach(function(link){
 
 document.getElementById("routineOpenBtn").addEventListener("click", openRoutineModal);
 document.getElementById("routineCloseBtn").addEventListener("click", closeRoutineModal);
+document.getElementById("routineTeacherModeBtn").addEventListener("click", function(){ setRoutineViewMode("teacher"); });
+document.getElementById("routineTimeModeBtn").addEventListener("click", function(){ setRoutineViewMode("time"); });
 document.getElementById("routineTeacherSelect").addEventListener("change", renderRoutine);
+document.getElementById("routinePeriodSelect").addEventListener("change", renderRoutine);
 document.getElementById("routineDaySelect").addEventListener("change", renderRoutine);
 document.getElementById("routineModal").addEventListener("click", function(event){
   if(event.target === this) closeRoutineModal();
@@ -2050,6 +2198,7 @@ window.addEventListener("popstate", function(){
 });
 
 populateRoutineTeachers();
+populateRoutinePeriods();
 renderFact();
 renderMockTree();
 renderPaperTree();
