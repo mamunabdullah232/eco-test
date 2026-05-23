@@ -1,0 +1,108 @@
+name: Publish HSLC Social Science previous year tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/codex-social-science-final-tests-direct.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Generate JSON files and connect menu
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import base64, gzip, re
+          source = Path('.github/workflows/codex-social-science-final-tests.yml').read_text(encoding='utf-8')
+          def extract(name):
+              found = re.search(name + r" = '''\n(.*?)\n'''", source, re.S)
+              if not found:
+                  raise RuntimeError('Missing source data: ' + name)
+              return found.group(1)
+          papers = {
+              'hslc-2025-final-social-science-mock-test.json': extract('b64_2025'),
+              'hslc-2024-final-social-science-mock-test.json': extract('b64_2024')
+          }
+          economics = ('    {\n'
+              '      name:{en:"Economics", as:"অৰ্থনীতি"},\n'
+              '      chapters:[\n'
+              '        {en:"Chapter 1 - Money and Banking", as:"অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"},\n'
+              '        {en:"Chapter 2 - Economic Development", as:"অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"}\n'
+              '      ]\n'
+              '    }')
+          papers_menu = (economics + ',\n'
+              '    {\n'
+              '      name:{en:"Mock Test on Previous Year MCQ", as:"পূৰ্বৱৰ্ষৰ MCQ-ভিত্তিক মক টেষ্ট"},\n'
+              '      finalPapers:[\n'
+              '        {\n'
+              '          label:{en:"HSLC 2025 Final Social Science Mock Test", as:"HSLC ২০২৫ চূড়ান্ত সমাজ বিজ্ঞান মক টেষ্ট"},\n'
+              '          file:"mock-tests/class-10/social-science/previous-year-mcq/hslc-2025-final-social-science-mock-test.json"\n'
+              '        },\n'
+              '        {\n'
+              '          label:{en:"HSLC 2024 Final Social Science Mock Test", as:"HSLC ২০২৪ চূড়ান্ত সমাজ বিজ্ঞান মক টেষ্ট"},\n'
+              '          file:"mock-tests/class-10/social-science/previous-year-mcq/hslc-2024-final-social-science-mock-test.json"\n'
+              '        }\n'
+              '      ]\n'
+              '    }')
+          helper = ('function class10EnglishFinalTestLink(year){\n'
+              '  return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-" + year + "-final-english-mcq.json");\n'
+              '}\n\n')
+          added_helper = helper + ('function jsonMockTestLink(file){\n'
+              '  return "mock-test.html?file=" + encodeURIComponent(file);\n'
+              '}\n\n')
+          old_items = '        items:makeChapterItems(group, subject, chapterGroup)'
+          new_items = ('        items:chapterGroup.finalPapers\n'
+              '          ? chapterGroup.finalPapers.map(paper => ({\n'
+              '              label:paper.label,\n'
+              '              href:jsonMockTestLink(paper.file),\n'
+              '              status:"available",\n'
+              '              test:true\n'
+              '            }))\n'
+              '          : makeChapterItems(group, subject, chapterGroup)')
+          time_fn = ('function formatTime(seconds){\n'
+              '  const mins = Math.floor(seconds / 60).toString().padStart(2, "0");\n'
+              '  const secs = (seconds % 60).toString().padStart(2, "0");\n'
+              '  return `${mins}:${secs}`;\n'
+              '}\n\n')
+          number_fn = time_fn + ('function assameseNumber(value){\n'
+              '  const digits = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];\n'
+              '  return String(value).replace(/\\d/g, digit => digits[Number(digit)]);\n'
+              '}\n\n')
+          for prefix in ('', 'xohopathi_home_and_class_test/'):
+              folder = Path(prefix) / 'mock-tests/class-10/social-science/previous-year-mcq'
+              folder.mkdir(parents=True, exist_ok=True)
+              for name, encoded in papers.items():
+                  (folder / name).write_bytes(gzip.decompress(base64.b64decode(encoded)))
+              index_file = Path(prefix) / 'index.html'
+              index = index_file.read_text(encoding='utf-8')
+              if 'HSLC 2025 Final Social Science Mock Test' not in index:
+                  assert economics in index and helper in index and old_items in index, str(index_file)
+                  index = index.replace(economics, papers_menu, 1).replace(helper, added_helper, 1).replace(old_items, new_items, 1)
+                  index_file.write_text(index, encoding='utf-8')
+              quiz_file = Path(prefix) / 'mock-test.html'
+              quiz = quiz_file.read_text(encoding='utf-8')
+              if 'function assameseNumber(value)' not in quiz:
+                  assert time_fn in quiz, str(quiz_file)
+                  quiz = quiz.replace(time_fn, number_fn, 1)
+                  quiz = quiz.replace('  const questionCaption = testSet.englishOnly ? "" : "<span>১০টা প্ৰশ্ন</span>";', '  const questionCaption = testSet.englishOnly ? "" : `<span>${assameseNumber(testSet.questions.length)}টা প্ৰশ্ন</span>`;', 1)
+                  quiz = quiz.replace('  const minuteCaption = testSet.englishOnly ? "" : "<span>১০ মিনিট</span>";', '  const minuteCaption = testSet.englishOnly ? "" : `<span>${assameseNumber(testSet.durationMinutes)} মিনিট</span>`;', 1)
+                  quiz_file.write_text(quiz, encoding='utf-8')
+          PY
+      - name: Commit website files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/codex-social-science-final-tests.yml .github/workflows/codex-social-science-final-tests-run.yml .github/workflows/codex-social-science-final-tests-direct.yml
+          git add -A
+          git commit -m "Add HSLC Social Science previous year mock tests"
+          git push
