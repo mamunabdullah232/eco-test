@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Economic Development",
+    "as": "অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which problem is associated with economic reforms according to the chapter?",
+      "as": "অধ্যায় অনুসৰি অৰ্থনৈতিক সংস্কাৰৰ সৈতে জড়িত এটা সমস্যা কোনটো?",
+      "options": [
+        {
+          "en": "All prices become zero",
+          "as": "সকলো দাম শূন্য হয়"
+        },
+        {
+          "en": "No competition exists",
+          "as": "প্ৰতিযোগিতা একেবাৰে নাই"
+        },
+        {
+          "en": "Excessive consumerism may erode social values",
+          "as": "অত্যধিক ভোগবাদে সামাজিক মূল্যবোধ ক্ষয় কৰিব পাৰে"
+        },
+        {
+          "en": "Foreign reserves disappear immediately",
+          "as": "বিদেশী ভাণ্ডাৰ লগে লগে নাইকিয়া হয়"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What does liberalisation mean?",
+      "as": "উদাৰীকৰণ মানে কি?",
+      "options": [
+        {
+          "en": "Increasing only military control",
+          "as": "কেৱল সামৰিক নিয়ন্ত্ৰণ বৃদ্ধি"
+        },
+        {
+          "en": "Closing foreign banks forever",
+          "as": "বিদেশী বেংক চিৰদিনৰ বাবে বন্ধ কৰা"
+        },
+        {
+          "en": "Abolishing all markets",
+          "as": "সকলো বজাৰ বিলুপ্তি"
+        },
+        {
+          "en": "Lessening the degree of state control in the economy",
+          "as": "অৰ্থনীতিত ৰাষ্ট্ৰীয় নিয়ন্ত্ৰণৰ মাত্ৰা হ্ৰাস কৰা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Before 1991, which policy was an important instrument of government control?",
+      "as": "১৯৯১ৰ আগতে চৰকাৰী নিয়ন্ত্ৰণৰ গুৰুত্বপূর্ণ উপায় কোনটো আছিল?",
+      "options": [
+        {
+          "en": "Permit and licence policy",
+          "as": "অনুমতি আৰু লাইচেন্স নীতি"
+        },
+        {
+          "en": "Free trade without licence",
+          "as": "লাইচেন্স নোহোৱাকৈ মুক্ত বাণিজ্য"
+        },
+        {
+          "en": "Only globalisation",
+          "as": "কেৱল বিশ্বায়ন"
+        },
+        {
+          "en": "Complete privatisation",
+          "as": "সম্পূৰ্ণ ব্যক্তিগতকৰণ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What is privatisation?",
+      "as": "ব্যক্তিগতকৰণ কি?",
+      "options": [
+        {
+          "en": "Making all private firms public",
+          "as": "সকলো ব্যক্তিগত প্ৰতিষ্ঠান ৰাজহুৱা কৰা"
+        },
+        {
+          "en": "Opening up public sector units to the private sector",
+          "as": "ৰাজহুৱা খণ্ডৰ একক ব্যক্তিগত খণ্ডৰ বাবে মুকলি কৰা"
+        },
+        {
+          "en": "Closing all industries",
+          "as": "সকলো উদ্যোগ বন্ধ কৰা"
+        },
+        {
+          "en": "Returning to animal money",
+          "as": "প্ৰাণী মুদ্ৰালৈ ঘূৰি যোৱা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What is disinvestment?",
+      "as": "ডিছইনভেষ্টমেণ্ট কি?",
+      "options": [
+        {
+          "en": "Printing new currency only",
+          "as": "কেৱল নতুন মুদ্ৰা ছপা কৰা"
+        },
+        {
+          "en": "Buying all private property by state",
+          "as": "সকলো ব্যক্তিগত সম্পত্তি চৰকাৰে ক্ৰয় কৰা"
+        },
+        {
+          "en": "Sale of shares of public sector units to private parties",
+          "as": "ৰাজহুৱা খণ্ডৰ শ্বেয়াৰ ব্যক্তিগত পক্ষক বিক্ৰী কৰা"
+        },
+        {
+          "en": "Closing banks",
+          "as": "বেংক বন্ধ কৰা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is globalisation?",
+      "as": "বিশ্বায়ন কি?",
+      "options": [
+        {
+          "en": "Complete isolation from world economy",
+          "as": "বিশ্ব অৰ্থনীতিৰ পৰা সম্পূৰ্ণ বিচ্ছিন্নতা"
+        },
+        {
+          "en": "Only village trade",
+          "as": "কেৱল গাঁও বাণিজ্য"
+        },
+        {
+          "en": "Only barter between farmers",
+          "as": "কেৱল কৃষকৰ মাজত বিনিময়"
+        },
+        {
+          "en": "Integration of a nation's economy with the economies of the rest of the world",
+          "as": "এখন দেশৰ অৰ্থনীতিক বিশ্বৰ আন অৰ্থনীতিসমূহৰ সৈতে একত্ৰিত কৰা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "A country avoiding integration with the world economy is called what?",
+      "as": "বিশ্ব অৰ্থনীতিৰ সৈতে একত্ৰিকৰণ এৰাই চলা দেশক কি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Inward looking country",
+          "as": "অন্তর্মুখী দেশ"
+        },
+        {
+          "en": "Democratic federation",
+          "as": "গণতান্ত্ৰিক ফেডাৰেচন"
+        },
+        {
+          "en": "Open economy only",
+          "as": "কেৱল মুক্ত অৰ্থনীতি"
+        },
+        {
+          "en": "Global country",
+          "as": "বিশ্বায়িত দেশ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Economic isolationism is known as what?",
+      "as": "অৰ্থনৈতিক একাকীত্বক কি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Inflation",
+          "as": "মুদ্ৰাস্ফীতি"
+        },
+        {
+          "en": "Autarky",
+          "as": "অটাৰ্কি/স্বয়ংসম্পূর্ণ একাকীত্ব"
+        },
+        {
+          "en": "Credit creation",
+          "as": "ঋণ সৃষ্টি"
+        },
+        {
+          "en": "Liquidity",
+          "as": "তাৰল্য"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which technology has speeded up globalisation according to the chapter?",
+      "as": "অধ্যায় অনুসৰি কোন প্ৰযুক্তিয়ে বিশ্বায়ন ত্বৰান্বিত কৰিছে?",
+      "options": [
+        {
+          "en": "Handwritten cheques only",
+          "as": "কেৱল হাতে লিখা চেক"
+        },
+        {
+          "en": "Gold bars",
+          "as": "সোণৰ দণ্ড"
+        },
+        {
+          "en": "Information technology and the internet",
+          "as": "তথ্য প্ৰযুক্তি আৰু ইণ্টাৰনেট"
+        },
+        {
+          "en": "Animal standard",
+          "as": "প্ৰাণী মান"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What must globalisation not sacrifice according to the chapter?",
+      "as": "অধ্যায় অনুসৰি বিশ্বায়নে কি বলিদান দিব নালাগে?",
+      "options": [
+        {
+          "en": "Only market price",
+          "as": "কেৱল বজাৰ দাম"
+        },
+        {
+          "en": "Only transport cost",
+          "as": "কেৱল পৰিবহণ ব্যয়"
+        },
+        {
+          "en": "Only higher imports",
+          "as": "কেৱল অধিক আমদানি"
+        },
+        {
+          "en": "Economic sovereignty, language, literature and culture",
+          "as": "অৰ্থনৈতিক সাৰ্বভৌমত্ব, ভাষা, সাহিত্য আৰু সংস্কৃতি"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "ভূগোল"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Economic Geography: Subject Matter and Resource",
+    "as": "অধ্যায় ১ - অৰ্থনৈতিক ভূগোল: বিষয়বস্তু আৰু সম্পদ"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Banking and financial institutions are examples of—",
+      "as": "বেংকিং আৰু বিত্তীয় প্ৰতিষ্ঠান কিহৰ উদাহৰণ?",
+      "options": [
+        {
+          "en": "Quaternary occupation",
+          "as": "চতুৰ্থক বৃত্তি"
+        },
+        {
+          "en": "Primary occupation",
+          "as": "প্ৰাথমিক বৃত্তি"
+        },
+        {
+          "en": "Secondary occupation",
+          "as": "গৌণ বৃত্তি"
+        },
+        {
+          "en": "Tertiary occupation",
+          "as": "তৃতীয়ক বৃত্তি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Education and research are included under—",
+      "as": "শিক্ষা আৰু গৱেষণা কোন বৃত্তিৰ অন্তর্গত?",
+      "options": [
+        {
+          "en": "Secondary occupation",
+          "as": "গৌণ বৃত্তি"
+        },
+        {
+          "en": "Quaternary occupation",
+          "as": "চতুৰ্থক বৃত্তি"
+        },
+        {
+          "en": "Primary occupation",
+          "as": "প্ৰাথমিক বৃত্তি"
+        },
+        {
+          "en": "Tertiary occupation",
+          "as": "তৃতীয়ক বৃত্তি"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which of the following is an approach used in Economic Geography?",
+      "as": "তলৰ কোনটো অৰ্থনৈতিক ভূগোলত ব্যৱহৃত এক পদ্ধতি?",
+      "options": [
+        {
+          "en": "Grammatical Approach",
+          "as": "ব্যাকৰণমূলক পদ্ধতি"
+        },
+        {
+          "en": "Mythological Approach",
+          "as": "পৌৰাণিক পদ্ধতি"
+        },
+        {
+          "en": "Regional Approach",
+          "as": "আঞ্চলিক পদ্ধতি"
+        },
+        {
+          "en": "Poetic Approach",
+          "as": "কবিতামূলক পদ্ধতি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "In contemporary applied Economic Geography, which technology is used?",
+      "as": "সমকালীন প্ৰয়োগমূলক অৰ্থনৈতিক ভূগোলত কোন প্ৰযুক্তি ব্যৱহাৰ কৰা হয়?",
+      "options": [
+        {
+          "en": "Typewriter",
+          "as": "টাইপৰাইটাৰ"
+        },
+        {
+          "en": "Compass only",
+          "as": "কেৱল কম্পাছ"
+        },
+        {
+          "en": "Telescope only",
+          "as": "কেৱল দূৰবীক্ষণ যন্ত্ৰ"
+        },
+        {
+          "en": "GIS",
+          "as": "জিআইএছ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which of the following is a major branch of Economic Geography?",
+      "as": "তলৰ কোনটো অৰ্থনৈতিক ভূগোলৰ এটা প্ৰধান শাখা?",
+      "options": [
+        {
+          "en": "Agricultural Geography",
+          "as": "কৃষি ভূগোল"
+        },
+        {
+          "en": "Algebraic Geography",
+          "as": "বীজগাণিতিক ভূগোল"
+        },
+        {
+          "en": "Musical Geography",
+          "as": "সাংগীতিক ভূগোল"
+        },
+        {
+          "en": "Literary Geography",
+          "as": "সাহিত্যিক ভূগোল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Industrial Geography studies factors associated with—",
+      "as": "ঔদ্যোগিক ভূগোলে কিহৰ সৈতে জড়িত কাৰকসমূহ অধ্যয়ন কৰে?",
+      "options": [
+        {
+          "en": "Ancient poetry",
+          "as": "প্ৰাচীন কবিতা"
+        },
+        {
+          "en": "Establishment of industry",
+          "as": "উদ্যোগ স্থাপন"
+        },
+        {
+          "en": "Formation of stars",
+          "as": "তৰা সৃষ্টি"
+        },
+        {
+          "en": "Grammar rules",
+          "as": "ব্যাকৰণৰ নিয়ম"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Geography of Resources studies—",
+      "as": "সম্পদ ভূগোলে কি অধ্যয়ন কৰে?",
+      "options": [
+        {
+          "en": "Only political history",
+          "as": "কেৱল ৰাজনৈতিক ইতিহাস"
+        },
+        {
+          "en": "Only population growth",
+          "as": "কেৱল জনসংখ্যা বৃদ্ধি"
+        },
+        {
+          "en": "Types and distribution of resources",
+          "as": "সম্পদৰ প্ৰকাৰ আৰু বিতৰণ"
+        },
+        {
+          "en": "Only grammar",
+          "as": "কেৱল ব্যাকৰণ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Transport Geography studies the role of transport in—",
+      "as": "পৰিবহণ ভূগোলে পৰিবহণৰ ভূমিকা কিহত অধ্যয়ন কৰে?",
+      "options": [
+        {
+          "en": "Astronomy",
+          "as": "জ্যোতির্বিজ্ঞান"
+        },
+        {
+          "en": "Poetry writing",
+          "as": "কবিতা ৰচনা"
+        },
+        {
+          "en": "Animal classification only",
+          "as": "কেৱল জন্তুৰ শ্রেণীবিভাজন"
+        },
+        {
+          "en": "Resource distribution and economic activities",
+          "as": "সম্পদ বিতৰণ আৰু অৰ্থনৈতিক কাৰ্যকলাপ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Geography of Tourism studies—",
+      "as": "পৰ্যটন ভূগোলে কি অধ্যয়ন কৰে?",
+      "options": [
+        {
+          "en": "Tourism and factors associated with its growth",
+          "as": "পৰ্যটন আৰু ইয়াৰ বৃদ্ধিৰ সৈতে জড়িত কাৰক"
+        },
+        {
+          "en": "Soil erosion only",
+          "as": "কেৱল মাটি ক্ষয়"
+        },
+        {
+          "en": "Political speeches",
+          "as": "ৰাজনৈতিক ভাষণ"
+        },
+        {
+          "en": "Volcanoes only",
+          "as": "কেৱল আগ্নেয়গিৰি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Economic development of any country greatly depends on the quality and availability of—",
+      "as": "কোনো দেশৰ অৰ্থনৈতিক উন্নয়ন মুখ্যতঃ কিহৰ গুণগত মান আৰু উপলব্ধতাৰ ওপৰত নিৰ্ভৰ কৰে?",
+      "options": [
+        {
+          "en": "Paintings",
+          "as": "চিত্ৰ"
+        },
+        {
+          "en": "Resources",
+          "as": "সম্পদ"
+        },
+        {
+          "en": "Songs",
+          "as": "গান"
+        },
+        {
+          "en": "Festivals only",
+          "as": "কেৱল উৎসৱ"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Indian Democracy",
+    "as": "অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which political party won the election held in England in 1945?",
+      "as": "১৯৪৫ চনত ইংলেণ্ডত অনুষ্ঠিত নিৰ্বাচনত কোন ৰাজনৈতিক দলে জয়লাভ কৰিছিল?",
+      "options": [
+        {
+          "en": "Liberal Party",
+          "as": "লিবাৰেল পাৰ্টি"
+        },
+        {
+          "en": "Labour Party",
+          "as": "লেবাৰ পাৰ্টি"
+        },
+        {
+          "en": "Conservative Party",
+          "as": "কনজাৰভেটিভ পাৰ্টি"
+        },
+        {
+          "en": "Communist Party",
+          "as": "কমিউনিষ্ট পাৰ্টি"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "When did India get freedom from British rule?",
+      "as": "ভাৰত কেতিয়া ব্ৰিটিছ শাসনৰ পৰা স্বাধীনতা লাভ কৰিছিল?",
+      "options": [
+        {
+          "en": "26 November 1949",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯"
+        },
+        {
+          "en": "9 December 1946",
+          "as": "৯ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "26 January 1950",
+          "as": "২৬ জানুৱাৰী ১৯৫০"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Why did the British government send the Cabinet Mission to India?",
+      "as": "ব্ৰিটিছ চৰকাৰে কিয় কেবিনেট মিছন ভাৰতলৈ পঠিয়াইছিল?",
+      "options": [
+        {
+          "en": "To divide Assam",
+          "as": "অসম বিভাজন কৰিবলৈ"
+        },
+        {
+          "en": "To collect taxes",
+          "as": "কৰ সংগ্ৰহ কৰিবলৈ"
+        },
+        {
+          "en": "To start a war",
+          "as": "যুদ্ধ আৰম্ভ কৰিবলৈ"
+        },
+        {
+          "en": "To prepare for framing a new constitution",
+          "as": "নতুন সংবিধান ৰচনাৰ প্ৰস্তুতিৰ বাবে"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "In which month and year did the Cabinet Mission come to India?",
+      "as": "কেবিনেট মিছন কেতিয়া ভাৰতলৈ আহিছিল?",
+      "options": [
+        {
+          "en": "March 1946",
+          "as": "মাৰ্চ ১৯৪৬"
+        },
+        {
+          "en": "August 1947",
+          "as": "আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "January 1950",
+          "as": "জানুৱাৰী ১৯৫০"
+        },
+        {
+          "en": "December 1948",
+          "as": "ডিচেম্বৰ ১৯৪৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Cabinet Mission consisted of how many cabinet ministers of England?",
+      "as": "কেবিনেট মিছনত ইংলেণ্ডৰ কিমানজন কেবিনেট মন্ত্ৰী আছিল?",
+      "options": [
+        {
+          "en": "Seven",
+          "as": "সাতজন"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিজন"
+        },
+        {
+          "en": "Eleven",
+          "as": "এঘাৰজন"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচজন"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "When was the first sitting of the Constituent Assembly held?",
+      "as": "সংবিধান সভাৰ প্ৰথম অধিৱেশন কেতিয়া অনুষ্ঠিত হৈছিল?",
+      "options": [
+        {
+          "en": "13 December 1946",
+          "as": "১৩ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "22 January 1947",
+          "as": "২২ জানুৱাৰী ১৯৪৭"
+        },
+        {
+          "en": "9 December 1946",
+          "as": "৯ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "29 August 1947",
+          "as": "২৯ আগষ্ট ১৯৪৭"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Who presided over the first sitting of the Constituent Assembly?",
+      "as": "সংবিধান সভাৰ প্ৰথম অধিৱেশনত কোনে সভাপতিত্ব কৰিছিল?",
+      "options": [
+        {
+          "en": "Pandit Jawaharlal Nehru",
+          "as": "পণ্ডিত জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Dr. B. R. Ambedkar",
+          "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+        },
+        {
+          "en": "Dr. Rajendra Prasad",
+          "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+        },
+        {
+          "en": "Dr. Sachchidananda Sinha",
+          "as": "ড০ সচ্চিদানন্দ সিনহা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who was elected the permanent President of the Constituent Assembly?",
+      "as": "সংবিধান সভাৰ স্থায়ী সভাপতি হিচাপে কোন নিৰ্বাচিত হৈছিল?",
+      "options": [
+        {
+          "en": "Dr. Rajendra Prasad",
+          "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+        },
+        {
+          "en": "Dr. B. R. Ambedkar",
+          "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+        },
+        {
+          "en": "N. Madhava Rao",
+          "as": "এন. মাধৱ ৰাও"
+        },
+        {
+          "en": "K. M. Munshi",
+          "as": "কে. এম. মুন্সী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "How many sittings of the Constituent Assembly were held for preparing the Constitution?",
+      "as": "সংবিধান প্ৰস্তুতৰ বাবে সংবিধান সভাৰ মুঠ কিমানটা অধিৱেশন হৈছিল?",
+      "options": [
+        {
+          "en": "Seven",
+          "as": "সাতটা"
+        },
+        {
+          "en": "Eleven",
+          "as": "এঘাৰটা"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিটা"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচটা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "When was the Drafting Committee constituted?",
+      "as": "খচৰা সমিতি কেতিয়া গঠন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "26 November 1949",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯"
+        },
+        {
+          "en": "29 August 1947",
+          "as": "২৯ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "26 January 1950",
+          "as": "২৬ জানুৱাৰী ১৯৫০"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}

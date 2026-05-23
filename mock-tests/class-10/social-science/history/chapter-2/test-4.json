@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Rise of Gandhi and the Freedom Movement of India",
+    "as": "অধ্যায় ২ - গান্ধীৰ উত্থান আৰু ভাৰতৰ স্বাধীনতা আন্দোলন"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Where did Gandhi start the Dandi March from?",
+      "as": "গান্ধীয়ে ডাণ্ডী যাত্ৰা ক’ৰ পৰা আৰম্ভ কৰিছিল?",
+      "options": [
+        {
+          "en": "Sabarmati Ashram",
+          "as": "সাবৰমতী আশ্ৰম"
+        },
+        {
+          "en": "Gowalia Tank",
+          "as": "গোৱালিয়া টেংক"
+        },
+        {
+          "en": "Jallianwala Bagh",
+          "as": "জালিয়ানৱালা বাগ"
+        },
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What distance did Gandhi cover from Sabarmati to Dandi according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি সাবৰমতীৰ পৰা ডাণ্ডীলৈ গান্ধীয়ে কিমান দূৰত্ব অতিক্ৰম কৰিছিল?",
+      "options": [
+        {
+          "en": "100 km",
+          "as": "১০০ কিলোমিটাৰ"
+        },
+        {
+          "en": "385 km",
+          "as": "৩৮৫ কিলোমিটাৰ"
+        },
+        {
+          "en": "500 km",
+          "as": "৫০০ কিলোমিটাৰ"
+        },
+        {
+          "en": "240 km",
+          "as": "২৪০ কিলোমিটাৰ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who was known as Frontier Gandhi?",
+      "as": "‘ফ্ৰণ্টিয়াৰ গান্ধী’ নামেৰে কোন জনা গৈছিল?",
+      "options": [
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "as": "সুভাষ চন্দ্ৰ বসু"
+        },
+        {
+          "en": "Khan Abdul Gaffar Khan",
+          "as": "খান আব্দুল গফ্ফাৰ খান"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The Red Shirts were associated with—",
+      "as": "‘ৰেড শাৰ্টছ’ কাৰ সৈতে জড়িত আছিল?",
+      "options": [
+        {
+          "en": "Azad Hind Fauz",
+          "as": "আজাদ হিন্দ ফৌজ"
+        },
+        {
+          "en": "Harijan Sevak Sangh",
+          "as": "হৰিজন সেৱক সংঘ"
+        },
+        {
+          "en": "Muslim League",
+          "as": "মুছলিম লীগ"
+        },
+        {
+          "en": "Khudai Khidmatgars",
+          "as": "খুদাই খিদমতগাৰ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The Gandhi-Irwin Pact was signed on—",
+      "as": "গান্ধী-আৰউইন চুক্তি কেতিয়া স্বাক্ষৰিত হৈছিল?",
+      "options": [
+        {
+          "en": "5 March 1931",
+          "as": "৫ মাৰ্চ ১৯৩১"
+        },
+        {
+          "en": "8 August 1942",
+          "as": "৮ আগষ্ট ১৯৪২"
+        },
+        {
+          "en": "12 March 1930",
+          "as": "১২ মাৰ্চ ১৯৩০"
+        },
+        {
+          "en": "20 February 1947",
+          "as": "২০ ফেব্ৰুৱাৰী ১৯৪৭"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Under the Gandhi-Irwin Pact, the Congress agreed to—",
+      "as": "গান্ধী-আৰউইন চুক্তিৰ অধীনত কংগ্ৰেছে কি কৰিবলৈ সন্মত হৈছিল?",
+      "options": [
+        {
+          "en": "Support separate electorates",
+          "as": "পৃথক নিৰ্বাচনী ব্যৱস্থা সমৰ্থন কৰিবলৈ"
+        },
+        {
+          "en": "Suspend the Civil Disobedience Movement",
+          "as": "আইন অমান্য আন্দোলন স্থগিত কৰিবলৈ"
+        },
+        {
+          "en": "Start Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন আৰম্ভ কৰিবলৈ"
+        },
+        {
+          "en": "Reject all talks",
+          "as": "সকলো আলোচনা নাকচ কৰিবলৈ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who represented Congress at the Second Round Table Conference?",
+      "as": "দ্বিতীয় ৰাউণ্ড টেবুল সন্মিলনত কংগ্ৰেছৰ একমাত্ৰ প্ৰতিনিধি কোন আছিল?",
+      "options": [
+        {
+          "en": "Sardar Patel",
+          "as": "সৰদাৰ পেটেল"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "as": "সুভাষ চন্দ্ৰ বসু"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The Communal Award was announced by—",
+      "as": "কমিউনেল এৱাৰ্ড কোনে ঘোষণা কৰিছিল?",
+      "options": [
+        {
+          "en": "Lord Mountbatten",
+          "as": "লৰ্ড মাউণ্টবেটেন"
+        },
+        {
+          "en": "Sir John Simon",
+          "as": "ছাৰ জন সাইমন"
+        },
+        {
+          "en": "Lord Irwin",
+          "as": "লৰ্ড আৰউইন"
+        },
+        {
+          "en": "Ramsay MacDonald",
+          "as": "ৰামজে মেকডোনাল্ড"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The Poona Pact of 1932 was related to—",
+      "as": "১৯৩২ চনৰ পুনা চুক্তি কিহৰ সৈতে জড়িত আছিল?",
+      "options": [
+        {
+          "en": "Joint electorates for depressed classes with Hindus",
+          "as": "দলিত শ্ৰেণীৰ বাবে হিন্দুৰ সৈতে যৌথ নিৰ্বাচন"
+        },
+        {
+          "en": "Salt tax",
+          "as": "নিমখ কৰ"
+        },
+        {
+          "en": "Partition of India",
+          "as": "ভাৰত বিভাজন"
+        },
+        {
+          "en": "Khilafat demand",
+          "as": "খিলাফত দাবী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which organization did Gandhi's anti-untouchability work lead to?",
+      "as": "গান্ধীৰ অস্পৃশ্যতা-বিৰোধী কামে কোন সংগঠন গঠনত সহায় কৰিছিল?",
+      "options": [
+        {
+          "en": "Indian Independence League",
+          "as": "ইণ্ডিয়ান ইণ্ডিপেণ্ডেন্স লীগ"
+        },
+        {
+          "en": "Harijan Sevak Sangh",
+          "as": "হৰিজন সেৱক সংঘ"
+        },
+        {
+          "en": "Assam Association",
+          "as": "অসম এছ’চিয়েচন"
+        },
+        {
+          "en": "All India Muslim League",
+          "as": "অল ইণ্ডিয়া মুছলিম লীগ"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

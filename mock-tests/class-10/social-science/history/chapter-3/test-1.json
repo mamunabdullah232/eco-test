@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Anti-British Rising and Peasant Revolts in Assam",
+    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ বিৰোধী বিদ্ৰোহ আৰু কৃষক আন্দোলন"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which system introduced by the British deepened resentment among Assamese peasants?",
+      "as": "ব্ৰিটিছে প্ৰৱৰ্তন কৰা কোন ব্যৱস্থাই অসমীয়া কৃষকৰ অসন্তোষ বৃদ্ধি কৰিছিল?",
+      "options": [
+        {
+          "en": "Village self-rule only",
+          "as": "কেৱল গাঁও স্বশাসন"
+        },
+        {
+          "en": "Abolition of all taxes",
+          "as": "সকলো কৰ বিলোপ"
+        },
+        {
+          "en": "New land revenue policy and money economy",
+          "as": "নতুন ভূমি ৰাজহ নীতি আৰু নগদ অৰ্থনীতি"
+        },
+        {
+          "en": "Free education policy",
+          "as": "বিনামূলীয়া শিক্ষা নীতি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Who were called Keyas in Assam?",
+      "as": "অসমত ‘কেয়া’ বুলি কাক কোৱা হৈছিল?",
+      "options": [
+        {
+          "en": "Ahom princes",
+          "as": "আহোম ৰাজকোঁৱৰ"
+        },
+        {
+          "en": "Tea garden workers",
+          "as": "চাহ বাগিচাৰ শ্ৰমিক"
+        },
+        {
+          "en": "British soldiers",
+          "as": "ব্ৰিটিছ সৈনিক"
+        },
+        {
+          "en": "Immigrant Marwari businessmen",
+          "as": "বহিৰাগত মাৰোৱাৰী ব্যৱসায়ী"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who wrote to Moffat Mills about the burden of land revenue in 1853?",
+      "as": "১৮৫৩ চনত ভূমি ৰাজহৰ বোজা সম্পৰ্কে মফাট মিলছলৈ কোনে লিখিছিল?",
+      "options": [
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        },
+        {
+          "en": "Kandarpeswar Singha",
+          "as": "কন্দৰ্পেশ্বৰ সিংহ"
+        },
+        {
+          "en": "Piyoli Barua",
+          "as": "পিয়লি বৰুৱা"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In which year did the British stop slavery in Assam?",
+      "as": "অসমত ব্ৰিটিছে দাসপ্ৰথা কোন চনত বন্ধ কৰিছিল?",
+      "options": [
+        {
+          "en": "1861",
+          "as": "১৮৬১"
+        },
+        {
+          "en": "1843",
+          "as": "১৮৪৩"
+        },
+        {
+          "en": "1857",
+          "as": "১৮৫৭"
+        },
+        {
+          "en": "1894",
+          "as": "১৮৯৪"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "According to H. K. Barpujari, why did many Brahmin priests join the revolt of 1857?",
+      "as": "এইচ. কে. বৰপূজাৰীৰ মতে, বহু ব্ৰাহ্মণ পুৰোহিতে ১৮৫৭ৰ বিদ্ৰোহত কিয় যোগ দিছিল?",
+      "options": [
+        {
+          "en": "Because opium was free",
+          "as": "আফিম বিনামূলীয়া হোৱাৰ বাবে"
+        },
+        {
+          "en": "Because they wanted British jobs",
+          "as": "তেওঁলোকে ব্ৰিটিছ চাকৰি বিচৰাৰ বাবে"
+        },
+        {
+          "en": "Because the British took away excess Lakheraj lands",
+          "as": "ব্ৰিটিছে অতিৰিক্ত লাখেৰাজ মাটি কেঢ়ি লোৱাৰ বাবে"
+        },
+        {
+          "en": "Because tea gardens were closed",
+          "as": "চাহ বাগিচা বন্ধ হোৱাৰ বাবে"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The Revolt of 1857 broke out in North India on—",
+      "as": "উত্তৰ ভাৰতত ১৮৫৭ৰ বিদ্ৰোহ কেতিয়া আৰম্ভ হৈছিল?",
+      "options": [
+        {
+          "en": "28 January 1894",
+          "as": "২৮ জানুৱাৰী ১৮৯৪"
+        },
+        {
+          "en": "26 February 1858",
+          "as": "২৬ ফেব্ৰুৱাৰী ১৮৫৮"
+        },
+        {
+          "en": "17 September 1861",
+          "as": "১৭ ছেপ্টেম্বৰ ১৮৬১"
+        },
+        {
+          "en": "10 May 1857",
+          "as": "১০ মে’ ১৮৫৭"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which Mughal emperor was associated with the Revolt of 1857?",
+      "as": "১৮৫৭ৰ বিদ্ৰোহৰ সৈতে কোন মোগল সম্ৰাট জড়িত আছিল?",
+      "options": [
+        {
+          "en": "Bahadur Shah Zafar II",
+          "as": "বাহাদুৰ শ্বাহ জাফৰ দ্বিতীয়"
+        },
+        {
+          "en": "Akbar",
+          "as": "আকবৰ"
+        },
+        {
+          "en": "Shah Alam II",
+          "as": "শ্বাহ আলম দ্বিতীয়"
+        },
+        {
+          "en": "Aurangzeb",
+          "as": "ঔৰংজেব"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In Assam, the rebels wanted to re-establish which monarchy?",
+      "as": "অসমত বিদ্ৰোহীসকলে কোন ৰাজতন্ত্ৰ পুনঃস্থাপন কৰিব বিচাৰিছিল?",
+      "options": [
+        {
+          "en": "Mughal monarchy",
+          "as": "মোগল ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "Ahom monarchy",
+          "as": "আহোম ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "British monarchy",
+          "as": "ব্ৰিটিছ ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "Maratha monarchy",
+          "as": "মৰাঠা ৰাজতন্ত্ৰ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who was planned to be installed as king of Assam during the 1857 conspiracy?",
+      "as": "১৮৫৭ৰ ষড়যন্ত্ৰত অসমত কাক ৰজা হিচাপে বহুৱাবলৈ পৰিকল্পনা কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Gomdhar Konwar",
+          "as": "গোমধৰ কুঁৱৰ"
+        },
+        {
+          "en": "Kulachandra",
+          "as": "কুলচন্দ্ৰ"
+        },
+        {
+          "en": "Kandarpeswar Singha",
+          "as": "কন্দৰ্পেশ্বৰ সিংহ"
+        },
+        {
+          "en": "Surachandra",
+          "as": "সুৰচন্দ্ৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Maniram Barbhandar Barua was popularly known as—",
+      "as": "মণিৰাম বৰভাণ্ডাৰ বৰুৱা সাধাৰণতে কোন নামেৰে জনা গৈছিল?",
+      "options": [
+        {
+          "en": "Tikendrajit",
+          "as": "টিকেন্দ্ৰজিৎ"
+        },
+        {
+          "en": "Piyoli Phukan",
+          "as": "পিয়লি ফুকন"
+        },
+        {
+          "en": "Ukiang Nongbah",
+          "as": "উকিয়াং নংবা"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

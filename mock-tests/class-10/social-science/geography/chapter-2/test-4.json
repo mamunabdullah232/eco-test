@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "ভূগোল"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Environment and Environmental Problems",
+    "as": "অধ্যায় ২ - পৰিৱেশ আৰু পৰিৱেশজনিত সমস্যা"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which gas forms the largest proportion of the atmosphere?",
+      "as": "বায়ুমণ্ডলত সৰ্বাধিক পৰিমাণে থকা গেছ কোনটো?",
+      "options": [
+        {
+          "en": "Nitrogen",
+          "as": "নাইট্ৰোজেন"
+        },
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Carbon dioxide",
+          "as": "কাৰ্বন-ডাই-অক্সাইড"
+        },
+        {
+          "en": "Argon",
+          "as": "আৰ্গন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The percentage of oxygen in the atmosphere is about—",
+      "as": "বায়ুমণ্ডলত অক্সিজেনৰ পৰিমাণ প্ৰায় কিমান?",
+      "options": [
+        {
+          "en": "0.93%",
+          "as": "০.৯৩%"
+        },
+        {
+          "en": "20.94%",
+          "as": "২০.৯৪%"
+        },
+        {
+          "en": "0.035%",
+          "as": "০.০৩৫%"
+        },
+        {
+          "en": "78.08%",
+          "as": "৭৮.০৮%"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which natural event can pollute the atmosphere?",
+      "as": "কোন প্ৰাকৃতিক ঘটনাই বায়ুমণ্ডল প্ৰদূষিত কৰিব পাৰে?",
+      "options": [
+        {
+          "en": "Forest conservation",
+          "as": "বন সংৰক্ষণ"
+        },
+        {
+          "en": "Rainwater harvesting",
+          "as": "বৰষুণৰ পানী সংগ্ৰহ"
+        },
+        {
+          "en": "Volcanic eruption",
+          "as": "আগ্নেয়গিৰিৰ উদ্গীৰণ"
+        },
+        {
+          "en": "Organic farming",
+          "as": "জৈৱিক কৃষি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Mount Pinatubo is cited as an example of—",
+      "as": "মাউণ্ট পিনাটুবোক কিহৰ উদাহৰণ হিচাপে উল্লেখ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "A major river",
+          "as": "এখন প্ৰধান নদী"
+        },
+        {
+          "en": "A lake",
+          "as": "এখন হ্ৰদ"
+        },
+        {
+          "en": "A desert",
+          "as": "এখন মৰুভূমি"
+        },
+        {
+          "en": "Volcanic eruption causing air pollution",
+          "as": "বায়ু প্ৰদূষণ ঘটোৱা আগ্নেয়গিৰিৰ উদ্গীৰণ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Major man-made factors of air pollution include industries, urbanization, vehicular traffic and—",
+      "as": "বায়ু প্ৰদূষণৰ প্ৰধান মানৱসৃষ্ট কাৰকবোৰৰ ভিতৰত উদ্যোগ, নগৰীকৰণ, যানবাহন আৰু—",
+      "options": [
+        {
+          "en": "Nuclear explosions",
+          "as": "পাৰমাণৱিক বিস্ফোৰণ"
+        },
+        {
+          "en": "Afforestation",
+          "as": "বনায়ন"
+        },
+        {
+          "en": "Rainwater harvesting",
+          "as": "বৰষুণৰ পানী সংগ্ৰহ"
+        },
+        {
+          "en": "Organic farming",
+          "as": "জৈৱিক কৃষি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Acid rain generally occurs due to high concentration of sulphur dioxide and—",
+      "as": "অম্লবৰষুণ সাধাৰণতে ছালফাৰ-ডাই-অক্সাইড আৰু কিহৰ অধিক ঘনত্বৰ বাবে হয়?",
+      "options": [
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Nitrogen dioxide",
+          "as": "নাইট্ৰোজেন-ডাই-অক্সাইড"
+        },
+        {
+          "en": "Hydrogen",
+          "as": "হাইড্ৰোজেন"
+        },
+        {
+          "en": "Argon",
+          "as": "আৰ্গন"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The process of making water unusable by mixing pollutants is called—",
+      "as": "প্ৰদূষক মিহলি হৈ পানীক ব্যৱহাৰৰ অযোগ্য কৰি তোলা প্ৰক্ৰিয়াক কি বোলে?",
+      "options": [
+        {
+          "en": "Evaporation",
+          "as": "বাষ্পীভৱন"
+        },
+        {
+          "en": "Condensation",
+          "as": "ঘনীভৱন"
+        },
+        {
+          "en": "Water pollution",
+          "as": "জল প্ৰদূষণ"
+        },
+        {
+          "en": "Irrigation",
+          "as": "সিঞ্চন"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which river is mentioned as polluted due to urban and industrial wastes in Guwahati?",
+      "as": "গুৱাহাটীত নগৰীয় আৰু ঔদ্যোগিক আৱৰ্জনাৰ বাবে কোনখন নদী প্ৰদূষিত বুলি উল্লেখ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Volga",
+          "as": "ভল্গা"
+        },
+        {
+          "en": "Nile",
+          "as": "নীল"
+        },
+        {
+          "en": "Amazon",
+          "as": "আমাজন"
+        },
+        {
+          "en": "Bharalu",
+          "as": "ভৰলু"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The Ganga is cited as an example of a river polluted mainly by—",
+      "as": "গংগা নদী মুখ্যতঃ কিহৰ বাবে প্ৰদূষিত নদীৰ উদাহৰণ হিচাপে উল্লেখ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Urban and industrial wastes",
+          "as": "নগৰীয় আৰু ঔদ্যোগিক আৱৰ্জনা"
+        },
+        {
+          "en": "Snowfall",
+          "as": "হিমপাত"
+        },
+        {
+          "en": "Desert winds",
+          "as": "মৰু বতাহ"
+        },
+        {
+          "en": "Mountain glaciers only",
+          "as": "কেৱল পৰ্বতীয় হিমবাহ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Deserts cover about how much of the world’s land surface?",
+      "as": "মৰুভূমিয়ে পৃথিৱীৰ স্থলভাগৰ প্ৰায় কিমান অংশ আৱৰি আছে?",
+      "options": [
+        {
+          "en": "71%",
+          "as": "৭১%"
+        },
+        {
+          "en": "20%",
+          "as": "২০%"
+        },
+        {
+          "en": "50%",
+          "as": "৫০%"
+        },
+        {
+          "en": "35%",
+          "as": "৩৫%"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

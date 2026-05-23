@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Money and Banking",
+    "as": "অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which function of money expresses the value of goods and services in prices?",
+      "as": "মুদ্ৰাৰ কোন কাৰ্যই সামগ্ৰী আৰু সেৱাৰ মূল্য দামৰ ৰূপত প্ৰকাশ কৰে?",
+      "options": [
+        {
+          "en": "Measure of value",
+          "as": "মূল্যৰ মাপক"
+        },
+        {
+          "en": "Store of value",
+          "as": "মূল্য সংৰক্ষণ"
+        },
+        {
+          "en": "Banker's bank",
+          "as": "বেংকৰ বেংক"
+        },
+        {
+          "en": "Hot money",
+          "as": "হট মানি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What are deferred payments?",
+      "as": "স্থগিত পৰিশোধ কি?",
+      "options": [
+        {
+          "en": "Payments made before birth",
+          "as": "জন্মৰ আগতে কৰা পৰিশোধ"
+        },
+        {
+          "en": "Payments made later after goods or services are received",
+          "as": "সামগ্ৰী বা সেৱা পোৱাৰ পিছত পৰৱৰ্তী সময়ত কৰা পৰিশোধ"
+        },
+        {
+          "en": "Payments made only in goats",
+          "as": "কেৱল ছাগলীৰে কৰা পৰিশোধ"
+        },
+        {
+          "en": "Payments without any account",
+          "as": "কোনো হিচাপ নথকা পৰিশোধ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which two functions are called the primary functions of money?",
+      "as": "মুদ্ৰাৰ কোন দুটা কাৰ্যক প্ৰাথমিক কাৰ্য কোৱা হয়?",
+      "options": [
+        {
+          "en": "Store of value and standard of deferred payment",
+          "as": "মূল্য সংৰক্ষণ আৰু স্থগিত পৰিশোধৰ মান"
+        },
+        {
+          "en": "Token money and hot money",
+          "as": "টোকেন মানি আৰু হট মানি"
+        },
+        {
+          "en": "Medium of exchange and measure of value",
+          "as": "বিনিময়ৰ মাধ্যম আৰু মূল্যৰ মাপক"
+        },
+        {
+          "en": "Banking and taxation",
+          "as": "বেংকিং আৰু কৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is legal tender money?",
+      "as": "আইনি মুদ্ৰা কি?",
+      "options": [
+        {
+          "en": "Only cheques",
+          "as": "কেৱল চেক"
+        },
+        {
+          "en": "Money that no one must accept",
+          "as": "কোনেও গ্ৰহণ কৰিব নালাগে সেই মুদ্ৰা"
+        },
+        {
+          "en": "Only gold bars",
+          "as": "কেৱল সোণৰ দণ্ড"
+        },
+        {
+          "en": "Money whose acceptability is supported by law",
+          "as": "যাৰ গ্ৰহণযোগ্যতা আইনে সমৰ্থন কৰে সেই মুদ্ৰা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which is an example of non-legal tender money in the chapter?",
+      "as": "অধ্যায়ত অ-আইনি মুদ্ৰাৰ উদাহৰণ কোনটো?",
+      "options": [
+        {
+          "en": "Cheque money",
+          "as": "চেক মুদ্ৰা"
+        },
+        {
+          "en": "Rupee coin",
+          "as": "টকাৰ মুদ্ৰা"
+        },
+        {
+          "en": "One hundred rupee note",
+          "as": "এশ টকাৰ নোট"
+        },
+        {
+          "en": "Legal tender coin",
+          "as": "আইনি মুদ্ৰা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What does “fiat” mean in fiat money?",
+      "as": "ফিয়াট মানিত “ফিয়াট”ৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Market price",
+          "as": "বজাৰৰ দাম"
+        },
+        {
+          "en": "Authority or power of the state",
+          "as": "ৰাষ্ট্ৰৰ কৰ্তৃত্ব বা ক্ষমতা"
+        },
+        {
+          "en": "Bank interest",
+          "as": "বেংকৰ সুদ"
+        },
+        {
+          "en": "Weight of gold",
+          "as": "সোণৰ ওজন"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What is token money?",
+      "as": "টোকেন মানি কি?",
+      "options": [
+        {
+          "en": "Money without any face value",
+          "as": "লিখিত মূল্য নথকা মুদ্ৰা"
+        },
+        {
+          "en": "Money made only of goats",
+          "as": "কেৱল ছাগলীৰে তৈয়াৰ মুদ্ৰা"
+        },
+        {
+          "en": "Money whose face value is higher than intrinsic value",
+          "as": "যাৰ লিখিত মূল্য ধাতব/আন্তৰিক মূল্যতকৈ বেছি"
+        },
+        {
+          "en": "Money used only outside the country",
+          "as": "কেৱল দেশৰ বাহিৰত ব্যৱহৃত মুদ্ৰা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is a bank?",
+      "as": "বেংক কি?",
+      "options": [
+        {
+          "en": "A place only for political meetings",
+          "as": "কেৱল ৰাজনৈতিক বৈঠকৰ স্থান"
+        },
+        {
+          "en": "A court of law",
+          "as": "আইন আদালত"
+        },
+        {
+          "en": "A market for vegetables only",
+          "as": "কেৱল শাক-পাচলিৰ বজাৰ"
+        },
+        {
+          "en": "A financial institution that deals in loans",
+          "as": "ঋণৰ সৈতে লেনদেন কৰা বিত্তীয় প্ৰতিষ্ঠান"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "How does a bank earn profit according to the chapter?",
+      "as": "অধ্যায় অনুসৰি বেংকে কেনেকৈ লাভ কৰে?",
+      "options": [
+        {
+          "en": "By charging higher interest on loans than it pays to savers",
+          "as": "সঞ্চয়কাৰীক দিয়া সুদতকৈ ঋণত বেছি সুদ লৈ"
+        },
+        {
+          "en": "By never giving loans",
+          "as": "কেতিয়াও ঋণ নিদি"
+        },
+        {
+          "en": "By selling only gold",
+          "as": "কেৱল সোণ বিক্ৰী কৰি"
+        },
+        {
+          "en": "By abolishing deposits",
+          "as": "জমা বিলুপ্ত কৰি"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who are described as ancestors of banks by Geoffrey Crowther?",
+      "as": "জেফ্ৰি ক্ৰাউদাৰে বেংকৰ পূৰ্বসূৰী হিচাপে কাক বৰ্ণনা কৰিছে?",
+      "options": [
+        {
+          "en": "Teachers, farmers and poets",
+          "as": "শিক্ষক, কৃষক আৰু কবি"
+        },
+        {
+          "en": "Businessmen, gold merchants and money lenders",
+          "as": "ব্যৱসায়ী, সোণ ব্যৱসায়ী আৰু মহাজন"
+        },
+        {
+          "en": "Judges, doctors and engineers",
+          "as": "ন্যায়াধীশ, চিকিৎসক আৰু অভিযন্তা"
+        },
+        {
+          "en": "Kings, soldiers and priests",
+          "as": "ৰজা, সৈনিক আৰু পুৰোহিত"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

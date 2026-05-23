@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Indian Democracy",
+    "as": "অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What does “Secular” mean in the Indian context?",
+      "as": "ভাৰতীয় প্ৰেক্ষাপটত “ধৰ্মনিৰপেক্ষ” মানে কি?",
+      "options": [
+        {
+          "en": "The state has no official religion and treats all religions equally",
+          "as": "ৰাষ্ট্ৰৰ কোনো চৰকাৰী ধৰ্ম নাই আৰু সকলো ধৰ্মক সমানে গণ্য কৰে"
+        },
+        {
+          "en": "Only majority religion is protected",
+          "as": "কেৱল সংখ্যাগৰিষ্ঠ ধৰ্ম সুৰক্ষিত"
+        },
+        {
+          "en": "The state supports only one religion",
+          "as": "ৰাষ্ট্ৰই কেৱল এটা ধৰ্মক সমৰ্থন কৰে"
+        },
+        {
+          "en": "Religion is banned",
+          "as": "ধৰ্ম নিষিদ্ধ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What does “Republic” mean in India?",
+      "as": "ভাৰতত “গণৰাজ্য”ৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "The army elects the Head of State",
+          "as": "সেনাই ৰাষ্ট্ৰপ্ৰধান নিৰ্বাচন কৰে"
+        },
+        {
+          "en": "The Head of State is elected and not hereditary",
+          "as": "ৰাষ্ট্ৰপ্ৰধান নিৰ্বাচিত, বংশানুক্ৰমে নহয়"
+        },
+        {
+          "en": "Only nobles can rule",
+          "as": "কেৱল অভিজাতসকলে শাসন কৰে"
+        },
+        {
+          "en": "The Head of State is a king",
+          "as": "ৰাষ্ট্ৰপ্ৰধান ৰজা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Through which amendment were “Socialist” and “Secular” incorporated in the Preamble?",
+      "as": "কোন সংশোধনীৰ জৰিয়তে “সমাজতান্ত্ৰিক” আৰু “ধৰ্মনিৰপেক্ষ” শব্দ প্ৰস্তাৱনাত অন্তৰ্ভুক্ত হয়?",
+      "options": [
+        {
+          "en": "1st Constitutional Amendment",
+          "as": "১ম সংবিধান সংশোধনী"
+        },
+        {
+          "en": "44th Constitutional Amendment",
+          "as": "৪৪তম সংবিধান সংশোধনী"
+        },
+        {
+          "en": "42nd Constitutional Amendment",
+          "as": "৪২তম সংবিধান সংশোধনী"
+        },
+        {
+          "en": "73rd Constitutional Amendment",
+          "as": "৭৩তম সংবিধান সংশোধনী"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "In which year were “Socialist” and “Secular” incorporated in the Preamble?",
+      "as": "“সমাজতান্ত্ৰিক” আৰু “ধৰ্মনিৰপেক্ষ” শব্দ কোন বছৰত প্ৰস্তাৱনাত অন্তৰ্ভুক্ত কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "1949",
+          "as": "১৯৪৯"
+        },
+        {
+          "en": "1983",
+          "as": "১৯৮৩"
+        },
+        {
+          "en": "1950",
+          "as": "১৯৫০"
+        },
+        {
+          "en": "1976",
+          "as": "১৯৭৬"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who put forward the Objective Resolutions in the Constituent Assembly?",
+      "as": "সংবিধান সভাত উদ্দেশ্য প্ৰস্তাৱ কোনে উত্থাপন কৰিছিল?",
+      "options": [
+        {
+          "en": "Pandit Jawaharlal Nehru",
+          "as": "পণ্ডিত জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Sardar Patel",
+          "as": "সৰ্দাৰ পেটেল"
+        },
+        {
+          "en": "Dr. B. R. Ambedkar",
+          "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "On which date did Nehru put forward the Objective Resolutions?",
+      "as": "নেহৰুৱে উদ্দেশ্য প্ৰস্তাৱ কোন তাৰিখে উত্থাপন কৰিছিল?",
+      "options": [
+        {
+          "en": "29 August 1947",
+          "as": "২৯ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "13 December 1946",
+          "as": "১৩ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "26 January 1950",
+          "as": "২৬ জানুৱাৰী ১৯৫০"
+        },
+        {
+          "en": "22 January 1947",
+          "as": "২২ জানুৱাৰী ১৯৪৭"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "When did the Constituent Assembly accept the Objective Resolutions?",
+      "as": "সংবিধান সভাই উদ্দেশ্য প্ৰস্তাৱ কেতিয়া গ্ৰহণ কৰিছিল?",
+      "options": [
+        {
+          "en": "18 December 1976",
+          "as": "১৮ ডিচেম্বৰ ১৯৭৬"
+        },
+        {
+          "en": "13 December 1946",
+          "as": "১৩ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "22 January 1947",
+          "as": "২২ জানুৱাৰী ১৯৪৭"
+        },
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which idea is included in Nehru's Objective Resolutions?",
+      "as": "নেহৰুৰ উদ্দেশ্য প্ৰস্তাৱত কোন ধাৰণা অন্তৰ্ভুক্ত আছিল?",
+      "options": [
+        {
+          "en": "India will have a hereditary monarchy",
+          "as": "ভাৰতত বংশানুক্ৰমিক ৰাজতন্ত্ৰ হ'ব"
+        },
+        {
+          "en": "States may leave India freely",
+          "as": "ৰাজ্যসমূহে সহজে ভাৰত ত্যাগ কৰিব পাৰিব"
+        },
+        {
+          "en": "Only the British Parliament will be the source of power",
+          "as": "কেৱল ব্ৰিটিছ সংসদ ক্ষমতাৰ উৎস হ'ব"
+        },
+        {
+          "en": "The people of India shall be the source of all powers",
+          "as": "ভাৰতৰ জনসাধাৰণ সকলো ক্ষমতাৰ উৎস হ'ব"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "From which Latin word is “Federation” derived?",
+      "as": "“ফেডাৰেচন” শব্দ কোন লেটিন শব্দৰ পৰা আহিছে?",
+      "options": [
+        {
+          "en": "Foedus",
+          "as": "Foedus"
+        },
+        {
+          "en": "Forum",
+          "as": "Forum"
+        },
+        {
+          "en": "Fides",
+          "as": "Fides"
+        },
+        {
+          "en": "Fiscus",
+          "as": "Fiscus"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "What is the literal meaning of the Latin word “Foedus”?",
+      "as": "লেটিন শব্দ “Foedus”ৰ আক্ষৰিক অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Kingdom",
+          "as": "ৰাজ্য"
+        },
+        {
+          "en": "Agreement or treaty",
+          "as": "চুক্তি বা সন্ধি"
+        },
+        {
+          "en": "Law court",
+          "as": "আইন আদালত"
+        },
+        {
+          "en": "Tax",
+          "as": "কৰ"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

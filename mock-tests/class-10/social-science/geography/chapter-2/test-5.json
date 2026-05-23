@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "ভূগোল"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Environment and Environmental Problems",
+    "as": "অধ্যায় ২ - পৰিৱেশ আৰু পৰিৱেশজনিত সমস্যা"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The snow-covered areas of the polar regions are called—",
+      "as": "মেৰু অঞ্চলৰ বৰফে আৱৰা অঞ্চলবোৰক কি বোলে?",
+      "options": [
+        {
+          "en": "Grasslands",
+          "as": "ঘাঁহনি"
+        },
+        {
+          "en": "Tropical forests",
+          "as": "উষ্ণমণ্ডলীয় বনাঞ্চল"
+        },
+        {
+          "en": "Cold deserts",
+          "as": "শীতল মৰুভূমি"
+        },
+        {
+          "en": "Wetlands",
+          "as": "জলাভূমি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The meeting on desertification held under United Nations patronage in 1977 took place at—",
+      "as": "ৰাষ্ট্ৰসংঘৰ পৃষ্ঠপোষকতাত ১৯৭৭ চনত মৰুকৰণ সম্পৰ্কীয় বৈঠক ক’ত অনুষ্ঠিত হৈছিল?",
+      "options": [
+        {
+          "en": "Tokyo",
+          "as": "টকিঅ’"
+        },
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        },
+        {
+          "en": "Paris",
+          "as": "পেৰিছ"
+        },
+        {
+          "en": "Nairobi",
+          "as": "নাইৰোবি"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Around how much of the world’s land surface is affected by desertification?",
+      "as": "পৃথিৱীৰ স্থলভাগৰ প্ৰায় কিমান অংশ মৰুকৰণৰ দ্বাৰা প্ৰভাৱিত?",
+      "options": [
+        {
+          "en": "35%",
+          "as": "৩৫%"
+        },
+        {
+          "en": "71%",
+          "as": "৭১%"
+        },
+        {
+          "en": "5%",
+          "as": "৫%"
+        },
+        {
+          "en": "10%",
+          "as": "১০%"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which is a natural factor of desertification?",
+      "as": "মৰুকৰণৰ এটা প্ৰাকৃতিক কাৰক কোনটো?",
+      "options": [
+        {
+          "en": "Expansion of agriculture",
+          "as": "কৃষিৰ বিস্তাৰ"
+        },
+        {
+          "en": "Drought",
+          "as": "খৰাং"
+        },
+        {
+          "en": "Overgrazing",
+          "as": "অতিচৰণ"
+        },
+        {
+          "en": "Deforestation",
+          "as": "বনধ্বংস"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which is a human factor of desertification?",
+      "as": "মৰুকৰণৰ এটা মানৱসৃষ্ট কাৰক কোনটো?",
+      "options": [
+        {
+          "en": "Solar eclipse",
+          "as": "সূৰ্যগ্ৰহণ"
+        },
+        {
+          "en": "Earth rotation",
+          "as": "পৃথিৱীৰ ঘূৰণ"
+        },
+        {
+          "en": "Overgrazing",
+          "as": "অতিচৰণ"
+        },
+        {
+          "en": "Tides",
+          "as": "জোৱাৰ-ভাটা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which gas has the most significant role in global warming according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি গোলকীয় উষ্ণতা বৃদ্ধিত কোন গেছৰ ভূমিকা সৰ্বাধিক?",
+      "options": [
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Argon",
+          "as": "আৰ্গন"
+        },
+        {
+          "en": "Helium",
+          "as": "হিলিয়াম"
+        },
+        {
+          "en": "Carbon dioxide",
+          "as": "কাৰ্বন-ডাই-অক্সাইড"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Greenhouse gases trap energy reflected by—",
+      "as": "সেউজগৃহ গেছসমূহে কিহৰ পৰা প্ৰতিফলিত শক্তি আবদ্ধ কৰি ৰাখে?",
+      "options": [
+        {
+          "en": "The earth’s surface",
+          "as": "পৃথিৱীৰ পৃষ্ঠ"
+        },
+        {
+          "en": "The moon",
+          "as": "চন্দ্ৰ"
+        },
+        {
+          "en": "Volcanic rocks only",
+          "as": "কেৱল আগ্নেয় শিলা"
+        },
+        {
+          "en": "The ocean floor only",
+          "as": "কেৱল মহাসাগৰৰ তল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which of the following is a greenhouse gas?",
+      "as": "তলৰ কোনটো সেউজগৃহ গেছ?",
+      "options": [
+        {
+          "en": "Argon",
+          "as": "আৰ্গন"
+        },
+        {
+          "en": "Methane",
+          "as": "মিথেন"
+        },
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Nitrogen",
+          "as": "নাইট্ৰোজেন"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "During about 150 years, Carbon dioxide in the atmosphere increased by about—",
+      "as": "প্ৰায় ১৫০ বছৰত বায়ুমণ্ডলত কাৰ্বন-ডাই-অক্সাইড প্ৰায় কিমান শতাংশ বৃদ্ধি পাইছে?",
+      "options": [
+        {
+          "en": "71%",
+          "as": "৭১%"
+        },
+        {
+          "en": "100%",
+          "as": "১০০%"
+        },
+        {
+          "en": "30%",
+          "as": "৩০%"
+        },
+        {
+          "en": "5%",
+          "as": "৫%"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "A probable consequence of global warming is—",
+      "as": "গোলকীয় উষ্ণতা বৃদ্ধিৰ এটা সম্ভাব্য ফল কোনটো?",
+      "options": [
+        {
+          "en": "End of all deserts",
+          "as": "সকলো মৰুভূমিৰ অন্ত"
+        },
+        {
+          "en": "Decrease of atmospheric temperature",
+          "as": "বায়ুমণ্ডলীয় তাপমাত্রা হ্ৰাস"
+        },
+        {
+          "en": "Decrease of sea level everywhere",
+          "as": "সকলো ঠাইতে সমুদ্ৰপৃষ্ঠ হ্ৰাস"
+        },
+        {
+          "en": "Melting of polar snow and rise of sea level",
+          "as": "মেৰু অঞ্চলৰ বৰফ গলা আৰু সমুদ্ৰপৃষ্ঠ বৃদ্ধি"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

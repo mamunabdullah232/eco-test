@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Economic Development",
+    "as": "অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Economic growth is basically what type of concept?",
+      "as": "অৰ্থনৈতিক বৃদ্ধি মূলত কি ধৰণৰ ধাৰণা?",
+      "options": [
+        {
+          "en": "Quantitative concept",
+          "as": "পৰিমাণগত ধাৰণা"
+        },
+        {
+          "en": "Purely religious concept",
+          "as": "সম্পূৰ্ণ ধৰ্মীয় ধাৰণা"
+        },
+        {
+          "en": "No concept",
+          "as": "কোনো ধাৰণা নহয়"
+        },
+        {
+          "en": "Only political concept",
+          "as": "কেৱল ৰাজনৈতিক ধাৰণা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Economic growth relates especially to growth in what?",
+      "as": "অৰ্থনৈতিক বৃদ্ধি বিশেষকৈ কিহৰ বৃদ্ধিৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Only land area",
+          "as": "কেৱল ভূমিৰ আয়তন"
+        },
+        {
+          "en": "Output and per capita income",
+          "as": "উৎপাদন আৰু প্ৰতিজন ব্যক্তিৰ আয়"
+        },
+        {
+          "en": "Only population decline",
+          "as": "কেৱল জনসংখ্যা হ্ৰাস"
+        },
+        {
+          "en": "Only military power",
+          "as": "কেৱল সামৰিক শক্তি"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "How is per capita income calculated?",
+      "as": "প্ৰতিজন ব্যক্তিৰ আয় কেনেকৈ গণনা কৰা হয়?",
+      "options": [
+        {
+          "en": "Tax divided by land area",
+          "as": "কৰক ভূমিৰ আয়তনেৰে ভাগ কৰি"
+        },
+        {
+          "en": "Exports minus imports only",
+          "as": "কেৱল ৰপ্তানি বিয়োগ আমদানি"
+        },
+        {
+          "en": "National income divided by total population",
+          "as": "ৰাষ্ট্ৰীয় আয়ক মুঠ জনসংখ্যাৰে ভাগ কৰি"
+        },
+        {
+          "en": "Total population divided by national income",
+          "as": "মুঠ জনসংখ্যাক ৰাষ্ট্ৰীয় আয়েৰে ভাগ কৰি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Economic development is basically what type of concept?",
+      "as": "অৰ্থনৈতিক উন্নয়ন মূলত কি ধৰণৰ ধাৰণা?",
+      "options": [
+        {
+          "en": "Only a weather concept",
+          "as": "কেৱল বতৰৰ ধাৰণা"
+        },
+        {
+          "en": "Only a sports concept",
+          "as": "কেৱল ক্ৰীড়াৰ ধাৰণা"
+        },
+        {
+          "en": "Only a counting concept",
+          "as": "কেৱল গণনাগত ধাৰণা"
+        },
+        {
+          "en": "Qualitative concept",
+          "as": "গুণগত ধাৰণা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which statement is correct?",
+      "as": "কোন বক্তব্য সঠিক?",
+      "options": [
+        {
+          "en": "Economic growth is narrower than economic development",
+          "as": "অৰ্থনৈতিক বৃদ্ধি অৰ্থনৈতিক উন্নয়নতকৈ সংকীৰ্ণ"
+        },
+        {
+          "en": "Human development means only tax collection",
+          "as": "মানৱ উন্নয়ন মানে কেৱল কৰ সংগ্ৰহ"
+        },
+        {
+          "en": "Economic development is narrower than economic growth",
+          "as": "অৰ্থনৈতিক উন্নয়ন অৰ্থনৈতিক বৃদ্ধিতকৈ সংকীৰ্ণ"
+        },
+        {
+          "en": "Growth and development are exactly the same",
+          "as": "বৃদ্ধি আৰু উন্নয়ন একেবাৰে একে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Can there be economic development without economic growth according to the chapter?",
+      "as": "অধ্যায় অনুসৰি অৰ্থনৈতিক বৃদ্ধি নোহোৱাকৈ অৰ্থনৈতিক উন্নয়ন হ'ব পাৰেনে?",
+      "options": [
+        {
+          "en": "Yes, always",
+          "as": "সদায় পাৰে"
+        },
+        {
+          "en": "No",
+          "as": "নোৱাৰে"
+        },
+        {
+          "en": "Only with no income",
+          "as": "কেৱল আয় নোহোৱাকৈ"
+        },
+        {
+          "en": "Only without production",
+          "as": "কেৱল উৎপাদন নোহোৱাকৈ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which concern is included in economic development but not simply in economic growth?",
+      "as": "অৰ্থনৈতিক উন্নয়নত অন্তৰ্ভুক্ত কিন্তু সৰল অৰ্থনৈতিক বৃদ্ধিত নহয় কোন চিন্তা?",
+      "options": [
+        {
+          "en": "Only increase in total output",
+          "as": "কেৱল মুঠ উৎপাদন বৃদ্ধি"
+        },
+        {
+          "en": "Only market price of gold",
+          "as": "কেৱল সোণৰ বজাৰ দাম"
+        },
+        {
+          "en": "Distribution of increased income",
+          "as": "বৃদ্ধিপ্ৰাপ্ত আয়ৰ বিতৰণ"
+        },
+        {
+          "en": "Only counting coins",
+          "as": "কেৱল মুদ্ৰা গণনা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Growth at the cost of environment is not what type of development?",
+      "as": "পৰিৱেশৰ ক্ষতি কৰি হোৱা বৃদ্ধি কি ধৰণৰ উন্নয়ন নহয়?",
+      "options": [
+        {
+          "en": "Economic isolation",
+          "as": "অৰ্থনৈতিক একাকীত্ব"
+        },
+        {
+          "en": "Autarky",
+          "as": "স্বয়ংসম্পূর্ণ একাকীত্ব"
+        },
+        {
+          "en": "Monetary development",
+          "as": "মুদ্ৰাগত উন্নয়ন"
+        },
+        {
+          "en": "Sustainable development",
+          "as": "টেকসই উন্নয়ন"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "When was the first Human Development Report published?",
+      "as": "প্ৰথম মানৱ উন্নয়ন প্ৰতিবেদন কেতিয়া প্ৰকাশ পাইছিল?",
+      "options": [
+        {
+          "en": "1990",
+          "as": "১৯৯০"
+        },
+        {
+          "en": "2015",
+          "as": "২০১৫"
+        },
+        {
+          "en": "1951",
+          "as": "১৯৫১"
+        },
+        {
+          "en": "2010",
+          "as": "২০১০"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which organization publishes the Human Development Report?",
+      "as": "মানৱ উন্নয়ন প্ৰতিবেদন কোন সংস্থাই প্ৰকাশ কৰে?",
+      "options": [
+        {
+          "en": "NABARD",
+          "as": "NABARD"
+        },
+        {
+          "en": "UNDP",
+          "as": "UNDP"
+        },
+        {
+          "en": "SIDBI",
+          "as": "SIDBI"
+        },
+        {
+          "en": "RBI",
+          "as": "RBI"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Economics",
+    "as": "অৰ্থনীতি"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Money and Banking",
+    "as": "অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is barter?",
+      "as": "বাৰ্টাৰ বা বিনিময় পদ্ধতি কি?",
+      "options": [
+        {
+          "en": "Banking through cheque only",
+          "as": "কেৱল চেকৰ দ্বাৰা বেংকিং"
+        },
+        {
+          "en": "Borrowing from the central bank",
+          "as": "কেন্দ্ৰীয় বেংকৰ পৰা ঋণ লোৱা"
+        },
+        {
+          "en": "Direct exchange of commodities against commodities",
+          "as": "সামগ্ৰীৰ সৈতে সামগ্ৰীৰ প্ৰত্যক্ষ বিনিময়"
+        },
+        {
+          "en": "Exchange through paper money only",
+          "as": "কেৱল কাগজী মুদ্ৰাৰ দ্বাৰা বিনিময়"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is a major disadvantage of the barter system?",
+      "as": "বাৰ্টাৰ পদ্ধতিৰ এটা মুখ্য অসুবিধা কোনটো?",
+      "options": [
+        {
+          "en": "Universal common unit of account",
+          "as": "সৰ্বজনীন সাধাৰণ হিচাপ একক"
+        },
+        {
+          "en": "Easy store of value",
+          "as": "মূল্য সংৰক্ষণৰ সহজতা"
+        },
+        {
+          "en": "Perfect divisibility",
+          "as": "সম্পূৰ্ণ বিভাজ্যতা"
+        },
+        {
+          "en": "Lack of double coincidence of wants",
+          "as": "দ্বৈত আকাংক্ষাৰ মিলৰ অভাৱ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "What does lack of double coincidence of wants mean?",
+      "as": "দ্বৈত আকাংক্ষাৰ মিলৰ অভাৱৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Both parties do not want each other's goods at the same time",
+          "as": "দুয়োপক্ষই একে সময়ত পৰস্পৰৰ সামগ্ৰী নিবিচাৰে"
+        },
+        {
+          "en": "Both parties have the same currency",
+          "as": "দুয়োপক্ষৰ একে মুদ্ৰা আছে"
+        },
+        {
+          "en": "Both parties use cheques",
+          "as": "দুয়োপক্ষই চেক ব্যৱহাৰ কৰে"
+        },
+        {
+          "en": "Both parties save in banks",
+          "as": "দুয়োপক্ষই বেংকত সঞ্চয় কৰে"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Why does indivisibility create a problem in barter?",
+      "as": "অবিভাজ্যতাই বাৰ্টাৰত কিয় সমস্যা সৃষ্টি কৰে?",
+      "options": [
+        {
+          "en": "Prices never change",
+          "as": "দাম কেতিয়াও সলনি নহয়"
+        },
+        {
+          "en": "Some goods cannot be divided to match small values",
+          "as": "কিছু সামগ্ৰী সৰু মূল্যৰ সৈতে মিলাবলৈ ভাগ কৰিব নোৱাৰি"
+        },
+        {
+          "en": "All goods are always divisible",
+          "as": "সকলো সামগ্ৰী সদায় ভাগ কৰিব পাৰি"
+        },
+        {
+          "en": "Money has no denominations",
+          "as": "মুদ্ৰাৰ কোনো মাত্ৰা নাই"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which problem of barter makes saving difficult?",
+      "as": "বাৰ্টাৰৰ কোন সমস্যাই সঞ্চয় কঠিন কৰে?",
+      "options": [
+        {
+          "en": "Excess of paper money",
+          "as": "কাগজী মুদ্ৰাৰ আধিক্য"
+        },
+        {
+          "en": "High liquidity of money",
+          "as": "মুদ্ৰাৰ উচ্চ তাৰল্য"
+        },
+        {
+          "en": "Lack of store of value",
+          "as": "মূল্য সংৰক্ষণৰ অভাৱ"
+        },
+        {
+          "en": "Low interest rate",
+          "as": "কম সুদৰ হাৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How many stages are mentioned in the evolution of money?",
+      "as": "মুদ্ৰাৰ বিকাশৰ কিমানটা পৰ্যায় উল্লেখ আছে?",
+      "options": [
+        {
+          "en": "Two",
+          "as": "দুটা"
+        },
+        {
+          "en": "Seven",
+          "as": "সাতটা"
+        },
+        {
+          "en": "Ten",
+          "as": "দহটা"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচটা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which was the first stage in the evolution of money?",
+      "as": "মুদ্ৰাৰ বিকাশৰ প্ৰথম পৰ্যায় কোনটো আছিল?",
+      "options": [
+        {
+          "en": "Barter system",
+          "as": "বাৰ্টাৰ পদ্ধতি"
+        },
+        {
+          "en": "Metallic standard",
+          "as": "ধাতব মান"
+        },
+        {
+          "en": "Coinage",
+          "as": "মুদ্ৰা নিৰ্মাণ"
+        },
+        {
+          "en": "Paper money",
+          "as": "কাগজী মুদ্ৰা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In the animal standard, which animal is specifically mentioned as money?",
+      "as": "প্ৰাণী মানত কোন প্ৰাণীক বিশেষকৈ মুদ্ৰা হিচাপে উল্লেখ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Elephant",
+          "as": "হাতী"
+        },
+        {
+          "en": "Goat",
+          "as": "ছাগলী"
+        },
+        {
+          "en": "Cow",
+          "as": "গৰু"
+        },
+        {
+          "en": "Horse",
+          "as": "ঘোঁৰা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which metals were used in the metallic standard?",
+      "as": "ধাতব মানত কোন ধাতু ব্যৱহাৰ কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Iron and copper only",
+          "as": "কেৱল লোহা আৰু তাম"
+        },
+        {
+          "en": "Tin and lead",
+          "as": "টিন আৰু সীসা"
+        },
+        {
+          "en": "Gold and silver",
+          "as": "সোণ আৰু ৰূপ"
+        },
+        {
+          "en": "Aluminium and zinc",
+          "as": "এলুমিনিয়াম আৰু জিংক"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "What is representative paper money?",
+      "as": "প্ৰতিনিধিত্বমূলক কাগজী মুদ্ৰা কি?",
+      "options": [
+        {
+          "en": "A cheque drawn on a bank",
+          "as": "বেংকৰ ওপৰত টনা চেক"
+        },
+        {
+          "en": "A metal coin only",
+          "as": "কেৱল ধাতব মুদ্ৰা"
+        },
+        {
+          "en": "Paper money with no legal support",
+          "as": "আইনি সমৰ্থন নথকা কাগজী মুদ্ৰা"
+        },
+        {
+          "en": "Paper money convertible into gold or silver of equivalent value",
+          "as": "সমমূল্যৰ সোণ বা ৰূপলৈ ৰূপান্তৰযোগ্য কাগজী মুদ্ৰা"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

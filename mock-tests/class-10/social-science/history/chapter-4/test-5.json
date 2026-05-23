@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "chapter": {
+    "en": "Chapter 4 - Indian Freedom Movement and National Awakening in Assam",
+    "as": "অধ্যায় ৪ - ভাৰতীয় স্বাধীনতা আন্দোলন আৰু অসমত জাতীয় জাগৰণ"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Mahatma Gandhi visited Assam during the Non-Cooperation Movement in—",
+      "as": "অসহযোগ আন্দোলনৰ সময়ত মহাত্মা গান্ধীয়ে অসম ভ্ৰমণ কৰিছিল—",
+      "options": [
+        {
+          "en": "March 1930",
+          "as": "মাৰ্চ ১৯৩০"
+        },
+        {
+          "en": "January 1948",
+          "as": "জানুৱাৰী ১৯৪৮"
+        },
+        {
+          "en": "August 1921",
+          "as": "আগষ্ট ১৯২১"
+        },
+        {
+          "en": "August 1942",
+          "as": "আগষ্ট ১৯৪২"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The first national school in Assam was established at Gauhati in February 1921 and was named—",
+      "as": "অসমৰ প্ৰথম জাতীয় বিদ্যালয় ১৯২১ চনৰ ফেব্ৰুৱাৰীত গুৱাহাটীত স্থাপন হৈছিল আৰু ইয়াৰ নাম আছিল—",
+      "options": [
+        {
+          "en": "Assam Medical College",
+          "as": "অসম মেডিকেল কলেজ"
+        },
+        {
+          "en": "Gauhati University",
+          "as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+        },
+        {
+          "en": "Milan School",
+          "as": "মিলন বিদ্যালয়"
+        },
+        {
+          "en": "Tilak Memorial School",
+          "as": "তিলক স্মৃতি বিদ্যালয়"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "One major impact of the Non-Cooperation Movement in Assam was—",
+      "as": "অসমত অসহযোগ আন্দোলনৰ এটা মুখ্য প্ৰভাৱ আছিল—",
+      "options": [
+        {
+          "en": "Fall in opium consumption",
+          "as": "আফিম সেৱনৰ হ্ৰাস"
+        },
+        {
+          "en": "Increase in opium revenue only",
+          "as": "কেৱল আফিম ৰাজহ বৃদ্ধি"
+        },
+        {
+          "en": "End of tea gardens",
+          "as": "চাহ বাগিচাৰ অন্ত"
+        },
+        {
+          "en": "Partition of Assam",
+          "as": "অসম বিভাজন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In Assam, who assembled at Judges' Field, Guwahati to express solidarity with Gandhi's Salt Satyagraha?",
+      "as": "অসমত গান্ধীৰ নিমখ সত্যাগ্ৰহৰ সৈতে একাত্মতা প্ৰকাশ কৰিবলৈ গুৱাহাটীৰ জাজেচ ফিল্ডত কোনসকল একত্ৰিত হৈছিল?",
+      "options": [
+        {
+          "en": "Curzon, Fuller and Risley",
+          "as": "কাৰ্জন, ফুলাৰ আৰু ৰিজলি"
+        },
+        {
+          "en": "Hem Chandra Baruah, M. Tayebullah, Bishnuram Medhi and Ambikagiri",
+          "as": "হেমচন্দ্ৰ বৰুৱা, এম. তাইয়েবুল্লাহ, বিষ্ণুৰাম মেধি আৰু অম্বিকাগিৰি"
+        },
+        {
+          "en": "Jinnah and Aga Khan",
+          "as": "জিন্না আৰু আগা খান"
+        },
+        {
+          "en": "Mountbatten and Wavell",
+          "as": "মাউণ্টবেটেন আৰু ৱাভেল"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What was the Cunningham Circular related to?",
+      "as": "কানিংহাম চাৰ্কুলাৰ কিহৰ সৈতে জড়িত আছিল?",
+      "options": [
+        {
+          "en": "Formation of INA",
+          "as": "আই.এন.এ. গঠন"
+        },
+        {
+          "en": "Salt tax abolition",
+          "as": "নিমখ কৰ বিলোপ"
+        },
+        {
+          "en": "Students' participation in political activities",
+          "as": "ছাত্ৰৰ ৰাজনৈতিক কাৰ্যকলাপত অংশগ্ৰহণ"
+        },
+        {
+          "en": "Partition of Bengal",
+          "as": "বংগ বিভাজন"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How many students left their institutions in Assam between July and August 1930?",
+      "as": "১৯৩০ চনৰ জুলাই-আগষ্টৰ মাজত অসমত কিমানজন ছাত্ৰই শিক্ষানুষ্ঠান ত্যাগ কৰিছিল?",
+      "options": [
+        {
+          "en": "58",
+          "as": "৫৮"
+        },
+        {
+          "en": "15,186",
+          "as": "১৫,১৮৬"
+        },
+        {
+          "en": "8,000",
+          "as": "৮,০০০"
+        },
+        {
+          "en": "3,117",
+          "as": "৩,১১৭"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The Quit India resolution was passed at Bombay on—",
+      "as": "বোম্বাইত ভাৰত ত্যাগ প্ৰস্তাৱ কেতিয়া গ্ৰহণ কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "8 August 1942",
+          "as": "৮ আগষ্ট ১৯৪২"
+        },
+        {
+          "en": "3 November 1947",
+          "as": "৩ নৱেম্বৰ ১৯৪৭"
+        },
+        {
+          "en": "5 May 1930",
+          "as": "৫ মে’ ১৯৩০"
+        },
+        {
+          "en": "26 January 1948",
+          "as": "২৬ জানুৱাৰী ১৯৪৮"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who was hanged in connection with the derailment of a train at Sarupathar?",
+      "as": "সৰুপথাৰত ৰেলগাড়ী লাইনচ্যুত কৰাৰ ঘটনাৰ সৈতে জড়িত হৈ কাক ফাঁচি দিয়া হৈছিল?",
+      "options": [
+        {
+          "en": "Omeo Kumar Das",
+          "as": "ওমিও কুমাৰ দাস"
+        },
+        {
+          "en": "Kushal Konwar",
+          "as": "কুশল কোঁৱৰ"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Kanaklata Barua",
+          "as": "কনকলতা বৰুৱা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which 14-year-old girl martyr of Gohpur is mentioned in the Quit India Movement in Assam?",
+      "as": "অসমৰ ভাৰত ত্যাগ আন্দোলনত গহপুৰৰ কোন ১৪ বছৰীয়া কিশোৰী শ্বহীদৰ উল্লেখ আছে?",
+      "options": [
+        {
+          "en": "Pratima Pande Baruah",
+          "as": "প্ৰতিমা পাণ্ডে বৰুৱা"
+        },
+        {
+          "en": "Sister Nivedita",
+          "as": "ছিস্টাৰ নিবেদিতা"
+        },
+        {
+          "en": "Kanaklata Barua",
+          "as": "কনকলতা বৰুৱা"
+        },
+        {
+          "en": "Sarala Devi",
+          "as": "সৰলা দেৱী"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "In the 1946 elections, the Congress won how many seats out of 108 in Assam?",
+      "as": "১৯৪৬ৰ নিৰ্বাচনত অসমত কংগ্ৰেছে ১০৮খনৰ ভিতৰত কিমানখন আসন লাভ কৰিছিল?",
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "108",
+          "as": "১০৮"
+        },
+        {
+          "en": "17",
+          "as": "১৭"
+        },
+        {
+          "en": "58",
+          "as": "৫৮"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

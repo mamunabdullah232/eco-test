@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "ভূগোল"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Environment and Environmental Problems",
+    "as": "অধ্যায় ২ - পৰিৱেশ আৰু পৰিৱেশজনিত সমস্যা"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট ২"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The gaseous layer extending upward from the earth’s surface is called—",
+      "as": "পৃথিৱীৰ পৃষ্ঠৰ ওপৰলৈ বিস্তৃত গেছীয় স্তৰটোক কি বোলে?",
+      "options": [
+        {
+          "en": "Lithosphere",
+          "as": "স্থলমণ্ডল"
+        },
+        {
+          "en": "Atmosphere",
+          "as": "বায়ুমণ্ডল"
+        },
+        {
+          "en": "Biosphere",
+          "as": "জীৱমণ্ডল"
+        },
+        {
+          "en": "Hydrosphere",
+          "as": "জলমণ্ডল"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The atmosphere broadly extends to a height of about—",
+      "as": "বায়ুমণ্ডল প্ৰায় কিমান উচ্চতালৈ বিস্তৃত?",
+      "options": [
+        {
+          "en": "20,000 km",
+          "as": "২০,০০০ কিমি"
+        },
+        {
+          "en": "1,000 km",
+          "as": "১,০০০ কিমি"
+        },
+        {
+          "en": "10,000 km",
+          "as": "১০,০০০ কিমি"
+        },
+        {
+          "en": "5,000 km",
+          "as": "৫,০০০ কিমি"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The biosphere includes those parts of the earth where—",
+      "as": "জীৱমণ্ডলে পৃথিৱীৰ সেই অংশসমূহ অন্তর্ভুক্ত কৰে য’ত—",
+      "options": [
+        {
+          "en": "Only industries occur",
+          "as": "কেৱল উদ্যোগ পোৱা যায়"
+        },
+        {
+          "en": "Only deserts occur",
+          "as": "কেৱল মৰুভূমি পোৱা যায়"
+        },
+        {
+          "en": "Only rocks occur",
+          "as": "কেৱল শিলা পোৱা যায়"
+        },
+        {
+          "en": "Life forms occur",
+          "as": "জীৱজগৎ পোৱা যায়"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "How many species of plants and animals have been identified in the biosphere according to the textbook?",
+      "as": "পাঠ্যপুথি অনুসৰি জীৱমণ্ডলত উদ্ভিদ আৰু প্ৰাণীৰ কিমান প্ৰজাতি চিনাক্ত কৰা হৈছে?",
+      "options": [
+        {
+          "en": "1.75 million",
+          "as": "১.৭৫ মিলিয়ন"
+        },
+        {
+          "en": "10 million",
+          "as": "১০ মিলিয়ন"
+        },
+        {
+          "en": "0.75 million",
+          "as": "০.৭৫ মিলিয়ন"
+        },
+        {
+          "en": "100 million",
+          "as": "১০০ মিলিয়ন"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Human beings belong to which species?",
+      "as": "মানুহ কোন প্ৰজাতিৰ অন্তর্গত?",
+      "options": [
+        {
+          "en": "Felis catus",
+          "as": "ফেলিছ কেটাছ"
+        },
+        {
+          "en": "Homo sapiens",
+          "as": "হোমো চেপিয়েন্স"
+        },
+        {
+          "en": "Canis lupus",
+          "as": "কেনিছ লুপাছ"
+        },
+        {
+          "en": "Panthera leo",
+          "as": "পেংথেৰা লিঅ’"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which factor is responsible for rapid change of the earth’s environment?",
+      "as": "পৃথিৱীৰ পৰিৱেশৰ দ্ৰুত পৰিৱর্তনৰ বাবে কোন কাৰক দায়ী?",
+      "options": [
+        {
+          "en": "Only rainfall",
+          "as": "কেৱল বৰষুণ"
+        },
+        {
+          "en": "Only sunrise",
+          "as": "কেৱল সূৰ্যোদয়"
+        },
+        {
+          "en": "Population growth",
+          "as": "জনসংখ্যা বৃদ্ধি"
+        },
+        {
+          "en": "Only rotation of the earth",
+          "as": "কেৱল পৃথিৱীৰ ঘূৰণ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which of the following has a negative impact on the biosphere and atmosphere?",
+      "as": "তলৰ কোনটোৱে জীৱমণ্ডল আৰু বায়ুমণ্ডলত ঋণাত্মক প্ৰভাৱ পেলায়?",
+      "options": [
+        {
+          "en": "Decrease in pollution",
+          "as": "প্ৰদূষণ হ্ৰাস"
+        },
+        {
+          "en": "Expansion of forests",
+          "as": "বনাঞ্চলৰ বিস্তাৰ"
+        },
+        {
+          "en": "Increase in wetlands",
+          "as": "জলাভূমি বৃদ্ধি"
+        },
+        {
+          "en": "Shrinkage in forest cover",
+          "as": "বনাঞ্চলৰ হ্ৰাস"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Environmental problems arise when the balance among environmental elements is—",
+      "as": "পৰিৱেশীয় উপাদানসমূহৰ মাজৰ ভাৰসাম্য কেতিয়া ভংগ হয় তেতিয়া পৰিৱেশীয় সমস্যা উদ্ভৱ হয়?",
+      "options": [
+        {
+          "en": "Disturbed",
+          "as": "ভংগ হোৱা"
+        },
+        {
+          "en": "Unchanged",
+          "as": "অপৰিৱৰ্তিত থকা"
+        },
+        {
+          "en": "Maintained",
+          "as": "ৰক্ষা পোৱা"
+        },
+        {
+          "en": "Strengthened",
+          "as": "শক্তিশালী হোৱা"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "During the last three hundred years, environmental relations became abnormal mainly due to increased—",
+      "as": "শেষ তিনিশ বছৰত পৰিৱেশীয় সম্পৰ্ক অস্বাভাবিক হোৱাৰ মুখ্য কাৰণ কি?",
+      "options": [
+        {
+          "en": "Rainfall only",
+          "as": "কেৱল বৰষুণ"
+        },
+        {
+          "en": "Population and demand for resources",
+          "as": "জনসংখ্যা আৰু সম্পদৰ চাহিদা"
+        },
+        {
+          "en": "Snowfall only",
+          "as": "কেৱল হিমপাত"
+        },
+        {
+          "en": "Forest cover only",
+          "as": "কেৱল বন আৱৰণ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "In normal condition, Carbon dioxide content in the atmosphere is about—",
+      "as": "সাধাৰণ অৱস্থাত বায়ুমণ্ডলত কাৰ্বন-ডাই-অক্সাইডৰ পৰিমাণ প্ৰায় কিমান?",
+      "options": [
+        {
+          "en": "20.94%",
+          "as": "২০.৯৪%"
+        },
+        {
+          "en": "1%",
+          "as": "১%"
+        },
+        {
+          "en": "0.035%",
+          "as": "০.০৩৫%"
+        },
+        {
+          "en": "78.08%",
+          "as": "৭৮.০৮%"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}

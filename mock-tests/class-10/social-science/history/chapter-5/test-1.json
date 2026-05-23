@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "chapter": {
+    "en": "Chapter 5 - Cultural Heritage of India and North East Region",
+    "as": "অধ্যায় ৫ - ভাৰত আৰু উত্তৰ-পূব অঞ্চলৰ সাংস্কৃতিক ঐতিহ্য"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "To study the source of Indian cultural heritage, the textbook begins with which civilization?",
+      "as": "ভাৰতীয় সাংস্কৃতিক ঐতিহ্যৰ উৎস অধ্যয়নত পাঠ্যপুথিয়ে কোন সভ্যতাৰ পৰা আৰম্ভ কৰিছে?",
+      "options": [
+        {
+          "en": "Greek civilization",
+          "as": "গ্ৰীক সভ্যতা"
+        },
+        {
+          "en": "Chinese civilization",
+          "as": "চীনা সভ্যতা"
+        },
+        {
+          "en": "Roman civilization",
+          "as": "ৰোমান সভ্যতা"
+        },
+        {
+          "en": "Indus Valley civilization",
+          "as": "সিন্ধু উপত্যকা সভ্যতা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Around which period was the Indus Valley civilization formed?",
+      "as": "সিন্ধু উপত্যকা সভ্যতা প্ৰায় কোন সময়ত গঢ় লৈ উঠিছিল?",
+      "options": [
+        {
+          "en": "Around 4000 BC",
+          "as": "প্ৰায় ৪০০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "Around 1500 AD",
+          "as": "প্ৰায় ১৫০০ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "Around 600 AD",
+          "as": "প্ৰায় ৬০০ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "Around 1947 AD",
+          "as": "প্ৰায় ১৯৪৭ খ্ৰীষ্টাব্দ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which two major towns are associated with the Indus Valley civilization?",
+      "as": "সিন্ধু উপত্যকা সভ্যতাৰ সৈতে কোন দুইখন মুখ্য নগৰ জড়িত?",
+      "options": [
+        {
+          "en": "Jorhat and Sivasagar",
+          "as": "যোৰহাট আৰু শিৱসাগৰ"
+        },
+        {
+          "en": "Harappa and Mohenjo-daro",
+          "as": "হৰপ্পা আৰু মহেঞ্জোদাৰো"
+        },
+        {
+          "en": "Delhi and Agra",
+          "as": "দিল্লী আৰু আগ্ৰা"
+        },
+        {
+          "en": "Pataliputra and Nalanda",
+          "as": "পাটলিপুত্ৰ আৰু নালন্দা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who, according to many experts, were the main architects of Sindhu civilization?",
+      "as": "বহু বিশেষজ্ঞৰ মতে সিন্ধু সভ্যতাৰ মুখ্য নিৰ্মাতা কোনসকল আছিল?",
+      "options": [
+        {
+          "en": "British",
+          "as": "ব্ৰিটিছসকল"
+        },
+        {
+          "en": "Aryans only",
+          "as": "কেৱল আৰ্যসকল"
+        },
+        {
+          "en": "Dravidians",
+          "as": "দ্ৰাবিড়সকল"
+        },
+        {
+          "en": "Mughals",
+          "as": "মোগলসকল"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which historian believed that the Indus Valley civilization left its mark on Indian cultural heritage?",
+      "as": "কোন ইতিহাসবিদে সিন্ধু সভ্যতাই ভাৰতীয় সাংস্কৃতিক ঐতিহ্যত ছাপ ৰাখিছিল বুলি মত প্ৰকাশ কৰিছিল?",
+      "options": [
+        {
+          "en": "Kalhan",
+          "as": "কলহন"
+        },
+        {
+          "en": "Bharat Muni",
+          "as": "ভৰত মুনি"
+        },
+        {
+          "en": "Kautilya",
+          "as": "কৌটিল্য"
+        },
+        {
+          "en": "R. C. Majumdar",
+          "as": "আৰ. চি. মজুমদাৰ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The Vedic era started after the fall of the Sindhu civilization around—",
+      "as": "সিন্ধু সভ্যতাৰ পতনৰ পিছত বেদিক যুগ প্ৰায় কেতিয়া আৰম্ভ হৈছিল?",
+      "options": [
+        {
+          "en": "1500 BC",
+          "as": "১৫০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "400 BC",
+          "as": "৪০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "1830 AD",
+          "as": "১৮৩০ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "600 AD",
+          "as": "৬০০ খ্ৰীষ্টাব্দ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The early Vedic period is considered to be—",
+      "as": "প্ৰাৰম্ভিক বেদিক যুগ কোন সময়ৰ বুলি গণ্য কৰা হয়?",
+      "options": [
+        {
+          "en": "400 BC to 100 BC",
+          "as": "৪০০ খ্ৰীষ্টপূৰ্বৰ পৰা ১০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "1500 BC to 1000 BC",
+          "as": "১৫০০ খ্ৰীষ্টপূৰ্বৰ পৰা ১০০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "600 AD to 1200 AD",
+          "as": "৬০০ খ্ৰীষ্টাব্দৰ পৰা ১২০০ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1000 BC to 600 BC",
+          "as": "১০০০ খ্ৰীষ্টপূৰ্বৰ পৰা ৬০০ খ্ৰীষ্টপূৰ্ব"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The later Vedic period is considered to be—",
+      "as": "পৰৱৰ্তী বেদিক যুগ কোন সময়ৰ বুলি গণ্য কৰা হয়?",
+      "options": [
+        {
+          "en": "1905 AD to 1911 AD",
+          "as": "১৯০৫ খ্ৰীষ্টাব্দৰ পৰা ১৯১১ খ্ৰীষ্টাব্দ"
+        },
+        {
+          "en": "1500 BC to 1000 BC",
+          "as": "১৫০০ খ্ৰীষ্টপূৰ্বৰ পৰা ১০০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "1000 BC to 600 BC",
+          "as": "১০০০ খ্ৰীষ্টপূৰ্বৰ পৰা ৬০০ খ্ৰীষ্টপূৰ্ব"
+        },
+        {
+          "en": "1830 AD to 1900 AD",
+          "as": "১৮৩০ খ্ৰীষ্টাব্দৰ পৰা ১৯০০ খ্ৰীষ্টাব্দ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is the oldest written religious book mentioned in the textbook?",
+      "as": "পাঠ্যপুথিত উল্লেখিত আটাইতকৈ পুৰণি লিখিত ধৰ্মীয় গ্ৰন্থ কোনখন?",
+      "options": [
+        {
+          "en": "Rajtarangini",
+          "as": "ৰাজতৰঙ্গিণী"
+        },
+        {
+          "en": "Natyashastra",
+          "as": "নাট্যশাস্ত্ৰ"
+        },
+        {
+          "en": "Arthashastra",
+          "as": "অৰ্থশাস্ত্ৰ"
+        },
+        {
+          "en": "Rig Veda",
+          "as": "ঋগ্বেদ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which of the following is one of the four Vedas?",
+      "as": "তলৰ কোনখন চাৰিবেদৰ এখন?",
+      "options": [
+        {
+          "en": "Yajurveda",
+          "as": "যজুৰ্বেদ"
+        },
+        {
+          "en": "Hemkosh",
+          "as": "হেমকোষ"
+        },
+        {
+          "en": "Arthashastra",
+          "as": "অৰ্থশাস্ত্ৰ"
+        },
+        {
+          "en": "Saptakanda Ramayana",
+          "as": "সপ্তকাণ্ড ৰামায়ণ"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

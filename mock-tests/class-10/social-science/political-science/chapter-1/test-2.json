@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Indian Democracy",
+    "as": "অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট ২"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who was the Chairman of the Drafting Committee of the Indian Constitution?",
+      "as": "ভাৰতীয় সংবিধানৰ খচৰা সমিতিৰ সভাপতি কোন আছিল?",
+      "options": [
+        {
+          "en": "Dr. Rajendra Prasad",
+          "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+        },
+        {
+          "en": "Dr. B. R. Ambedkar",
+          "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+        },
+        {
+          "en": "Dr. Sachchidananda Sinha",
+          "as": "ড০ সচ্চিদানন্দ সিনহা"
+        },
+        {
+          "en": "Alladi Krishnaswami Iyer",
+          "as": "আল্লাদি কৃষ্ণস্বামী আয়াৰ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "How many members were in the Drafting Committee mentioned in the textbook?",
+      "as": "পাঠ্যপুথিত উল্লেখ কৰা অনুসৰি খচৰা সমিতিত কিমানজন সদস্য আছিল?",
+      "options": [
+        {
+          "en": "Nine",
+          "as": "নজন"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচজন"
+        },
+        {
+          "en": "Seven",
+          "as": "সাতজন"
+        },
+        {
+          "en": "Eleven",
+          "as": "এঘাৰজন"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "On which date was the draft Constitution handed over to Dr. Rajendra Prasad?",
+      "as": "খচৰা সংবিধান ড০ ৰাজেন্দ্ৰ প্ৰসাদক কোন তাৰিখে দিয়া হৈছিল?",
+      "options": [
+        {
+          "en": "9 December 1946",
+          "as": "৯ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "26 January 1950",
+          "as": "২৬ জানুৱাৰী ১৯৫০"
+        },
+        {
+          "en": "26 November 1949",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "When did the Constitution of India come into force?",
+      "as": "ভাৰতীয় সংবিধান কেতিয়া কাৰ্যকৰী হৈছিল?",
+      "options": [
+        {
+          "en": "26 January 1950",
+          "as": "২৬ জানুৱাৰী ১৯৫০"
+        },
+        {
+          "en": "18 December 1976",
+          "as": "১৮ ডিচেম্বৰ ১৯৭৬"
+        },
+        {
+          "en": "15 August 1947",
+          "as": "১৫ আগষ্ট ১৯৪৭"
+        },
+        {
+          "en": "26 November 1949",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "India was governed under which Act from 15 August 1947 to 26 January 1950?",
+      "as": "১৫ আগষ্ট ১৯৪৭ৰ পৰা ২৬ জানুৱাৰী ১৯৫০লৈ ভাৰত কোন আইন অনুসৰি শাসিত হৈছিল?",
+      "options": [
+        {
+          "en": "Charter Act, 1833",
+          "as": "চাৰ্টাৰ আইন, ১৮৩৩"
+        },
+        {
+          "en": "Government of India Act, 1935",
+          "as": "ভাৰত শাসন আইন, ১৯৩৫"
+        },
+        {
+          "en": "Pitt's India Act, 1784",
+          "as": "পিটৰ ভাৰত আইন, ১৭৮৪"
+        },
+        {
+          "en": "Indian Councils Act, 1909",
+          "as": "ভাৰতীয় পৰিষদ আইন, ১৯০৯"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What is the Preamble of the Constitution?",
+      "as": "সংবিধানৰ প্ৰস্তাৱনা কি?",
+      "options": [
+        {
+          "en": "A tax law",
+          "as": "কৰ আইন"
+        },
+        {
+          "en": "A list of districts",
+          "as": "জিলাৰ তালিকা"
+        },
+        {
+          "en": "The introduction to the Constitution",
+          "as": "সংবিধানৰ ভূমিকা"
+        },
+        {
+          "en": "A court judgment",
+          "as": "আদালতৰ ৰায়"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The Preamble begins with which words?",
+      "as": "প্ৰস্তাৱনা কোন শব্দৰে আৰম্ভ হয়?",
+      "options": [
+        {
+          "en": "Union of States",
+          "as": "ৰাজ্যসমূহৰ সংঘ"
+        },
+        {
+          "en": "Fundamental Duties",
+          "as": "মৌলিক কৰ্তব্য"
+        },
+        {
+          "en": "Directive Principles",
+          "as": "নিৰ্দেশমূলক নীতি"
+        },
+        {
+          "en": "We the people of India",
+          "as": "আমি ভাৰতৰ জনসাধাৰণ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which of the following is a significant word in the Preamble?",
+      "as": "তলৰ কোনটো প্ৰস্তাৱনাৰ এটা গুৰুত্বপূর্ণ শব্দ?",
+      "options": [
+        {
+          "en": "Sovereign",
+          "as": "সাৰ্বভৌম"
+        },
+        {
+          "en": "District",
+          "as": "জিলা"
+        },
+        {
+          "en": "Village",
+          "as": "গাঁও"
+        },
+        {
+          "en": "Market",
+          "as": "বজাৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which set of words reflects the ideals of the Indian Constitution?",
+      "as": "কোন শব্দসমষ্টিয়ে ভাৰতীয় সংবিধানৰ আদৰ্শ প্ৰকাশ কৰে?",
+      "options": [
+        {
+          "en": "Province, District, Block, Village, Town",
+          "as": "প্ৰদেশ, জিলা, খণ্ড, গাঁও, চহৰ"
+        },
+        {
+          "en": "Sovereign, Socialist, Secular, Democratic, Republic",
+          "as": "সাৰ্বভৌম, সমাজতান্ত্ৰিক, ধৰ্মনিৰপেক্ষ, গণতান্ত্ৰিক, গণৰাজ্য"
+        },
+        {
+          "en": "Coin, Note, Bank, Cheque, Loan",
+          "as": "মুদ্ৰা, নোট, বেংক, চেক, ঋণ"
+        },
+        {
+          "en": "War, Tax, Trade, Army, Empire",
+          "as": "যুদ্ধ, কৰ, বাণিজ্য, সেনা, সাম্ৰাজ্য"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What does “Sovereign” mean in the Preamble?",
+      "as": "প্ৰস্তাৱনাত “সাৰ্বভৌম” শব্দৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Foreign control",
+          "as": "বিদেশী নিয়ন্ত্ৰণ"
+        },
+        {
+          "en": "A state religion",
+          "as": "ৰাষ্ট্ৰীয় ধৰ্ম"
+        },
+        {
+          "en": "Supreme and independent power of the state",
+          "as": "ৰাষ্ট্ৰৰ সৰ্বোচ্চ আৰু স্বাধীন ক্ষমতা"
+        },
+        {
+          "en": "Rule by a king only",
+          "as": "কেৱল ৰজাৰ শাসন"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}

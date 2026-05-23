@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Geography",
+    "as": "ভূগোল"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Environment and Environmental Problems",
+    "as": "অধ্যায় ২ - পৰিৱেশ আৰু পৰিৱেশজনিত সমস্যা"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "In a broad sense, environment means the condition around—",
+      "as": "বহল অৰ্থত, পৰিৱেশ বুলিলে কিহৰ চাৰিওফালৰ অৱস্থাক বুজায়?",
+      "options": [
+        {
+          "en": "Only industries",
+          "as": "কেৱল উদ্যোগ"
+        },
+        {
+          "en": "Only mountains",
+          "as": "কেৱল পৰ্বত"
+        },
+        {
+          "en": "An organism or a community of organisms",
+          "as": "এটা জীৱ বা জীৱসমষ্টি"
+        },
+        {
+          "en": "Only oceans",
+          "as": "কেৱল মহাসাগৰ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The elements necessary for survival are broadly divided into—",
+      "as": "জীয়াই থাকিবলৈ প্ৰয়োজনীয় উপাদানসমূহ মুখ্যতঃ কোন দুটা ভাগত ভাগ কৰা হয়?",
+      "options": [
+        {
+          "en": "Physical and political elements",
+          "as": "ভৌতিক আৰু ৰাজনৈতিক উপাদান"
+        },
+        {
+          "en": "Local and global elements",
+          "as": "স্থানীয় আৰু বিশ্বব্যাপী উপাদান"
+        },
+        {
+          "en": "Rural and urban elements",
+          "as": "গ্ৰামাঞ্চলীয় আৰু চহৰীয়া উপাদান"
+        },
+        {
+          "en": "Biotic and abiotic elements",
+          "as": "জৈৱিক আৰু অজৈৱিক উপাদান"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which of the following is a biotic element of environment?",
+      "as": "তলৰ কোনটো পৰিৱেশৰ জৈৱিক উপাদান?",
+      "options": [
+        {
+          "en": "Plants",
+          "as": "উদ্ভিদ"
+        },
+        {
+          "en": "Rock",
+          "as": "শিলা"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Air",
+          "as": "বায়ু"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which of the following is an abiotic element of environment?",
+      "as": "তলৰ কোনটো পৰিৱেশৰ অজৈৱিক উপাদান?",
+      "options": [
+        {
+          "en": "Microbes",
+          "as": "অণুজীৱ"
+        },
+        {
+          "en": "Land",
+          "as": "ভূমি"
+        },
+        {
+          "en": "Animals",
+          "as": "জন্তু"
+        },
+        {
+          "en": "Birds",
+          "as": "চৰাই"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "According to Peter Haggett, environment is the outcome of interaction among—",
+      "as": "পিটাৰ হেগেটৰ মতে, পৰিৱেশ কিহৰ আন্তঃক্রিয়াৰ ফল?",
+      "options": [
+        {
+          "en": "Sun, moon, stars and planets",
+          "as": "সূৰ্য, চন্দ্ৰ, তৰা আৰু গ্ৰহ"
+        },
+        {
+          "en": "Trade, transport, industry and tourism",
+          "as": "বাণিজ্য, পৰিবহণ, উদ্যোগ আৰু পৰ্যটন"
+        },
+        {
+          "en": "Land, water, air and life",
+          "as": "ভূমি, পানী, বায়ু আৰু জীৱন"
+        },
+        {
+          "en": "Soil, crops, markets and banks",
+          "as": "মাটি, শস্য, বজাৰ আৰু বেংক"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How many major spheres of the earth determine its environment?",
+      "as": "পৃথিৱীৰ পৰিৱেশ নিৰ্ধাৰণ কৰা প্ৰধান মণ্ডল কেইটা?",
+      "options": [
+        {
+          "en": "Two",
+          "as": "দুই"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচ"
+        },
+        {
+          "en": "Three",
+          "as": "তিনি"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰি"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "The land component of the earth is called—",
+      "as": "পৃথিৱীৰ স্থলীয় অংশক কি বোলে?",
+      "options": [
+        {
+          "en": "Lithosphere",
+          "as": "স্থলমণ্ডল"
+        },
+        {
+          "en": "Atmosphere",
+          "as": "বায়ুমণ্ডল"
+        },
+        {
+          "en": "Hydrosphere",
+          "as": "জলমণ্ডল"
+        },
+        {
+          "en": "Biosphere",
+          "as": "জীৱমণ্ডল"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The lithosphere is mainly composed of—",
+      "as": "স্থলমণ্ডল মুখ্যতঃ কিহেৰে গঠিত?",
+      "options": [
+        {
+          "en": "Only water",
+          "as": "কেৱল পানী"
+        },
+        {
+          "en": "Rocks, soils and minerals",
+          "as": "শিলা, মাটি আৰু খনিজ"
+        },
+        {
+          "en": "Only plants",
+          "as": "কেৱল উদ্ভিদ"
+        },
+        {
+          "en": "Only gases",
+          "as": "কেৱল গেছ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The hydrosphere is formed mainly by—",
+      "as": "জলমণ্ডল মুখ্যতঃ কিহেৰে গঠিত?",
+      "options": [
+        {
+          "en": "Mountains and plateaus",
+          "as": "পৰ্বত আৰু মালভূমি"
+        },
+        {
+          "en": "Roads and buildings",
+          "as": "পথ আৰু ভবন"
+        },
+        {
+          "en": "Seas and oceans",
+          "as": "সাগৰ আৰু মহাসাগৰ"
+        },
+        {
+          "en": "Forests and wildlife",
+          "as": "বনাঞ্চল আৰু বন্যপ্ৰাণী"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The hydrosphere covers about how much of the earth’s surface?",
+      "as": "জলমণ্ডলে পৃথিৱীৰ পৃষ্ঠৰ প্ৰায় কিমান অংশ আৱৰি আছে?",
+      "options": [
+        {
+          "en": "29%",
+          "as": "২৯%"
+        },
+        {
+          "en": "90%",
+          "as": "৯০%"
+        },
+        {
+          "en": "50%",
+          "as": "৫০%"
+        },
+        {
+          "en": "71%",
+          "as": "৭১%"
+        }
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Indian Democracy",
+    "as": "অধ্যায় ১ - ভাৰতীয় গণতন্ত্ৰ"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "In India, the body of people's representatives is called what?",
+      "as": "ভাৰতত জনপ্ৰতিনিধিৰ সংস্থাক কি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Parliament",
+          "as": "সংসদ"
+        },
+        {
+          "en": "Congress of USA",
+          "as": "আমেৰিকাৰ কংগ্ৰেছ"
+        },
+        {
+          "en": "Monarchy",
+          "as": "ৰাজতন্ত্ৰ"
+        },
+        {
+          "en": "House of Lords",
+          "as": "হাউছ অৱ লৰ্ডছ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which are the two Houses of the Indian Parliament?",
+      "as": "ভাৰতীয় সংসদৰ দুটা সদন কোন দুটা?",
+      "options": [
+        {
+          "en": "House of Commons and House of Lords",
+          "as": "হাউছ অৱ কমন্স আৰু হাউছ অৱ লৰ্ডছ"
+        },
+        {
+          "en": "Lok Sabha and Rajya Sabha",
+          "as": "লোকসভা আৰু ৰাজ্যসভা"
+        },
+        {
+          "en": "Vidhan Sabha and Panchayat",
+          "as": "বিধানসভা আৰু পঞ্চায়ত"
+        },
+        {
+          "en": "Senate and Congress",
+          "as": "চেনেট আৰু কংগ্ৰেছ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who is a part of the Indian Parliament along with the two Houses?",
+      "as": "দুটা সদনৰ লগতে ভাৰতীয় সংসদৰ অংশ কোন?",
+      "options": [
+        {
+          "en": "Chief Justice of India",
+          "as": "ভাৰতৰ মুখ্য ন্যায়াধীশ"
+        },
+        {
+          "en": "Governor of Assam",
+          "as": "অসমৰ ৰাজ্যপাল"
+        },
+        {
+          "en": "President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "Prime Minister only",
+          "as": "কেৱল প্ৰধানমন্ত্ৰী"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "India followed which country's constitution while adopting parliamentary government?",
+      "as": "সংসদীয় চৰকাৰ গ্ৰহণৰ সময়ত ভাৰত মূলত কোন দেশৰ সংবিধান অনুসৰণ কৰিছিল?",
+      "options": [
+        {
+          "en": "Switzerland",
+          "as": "চুইজাৰলেণ্ড"
+        },
+        {
+          "en": "China",
+          "as": "চীন"
+        },
+        {
+          "en": "Russia",
+          "as": "ৰাছিয়া"
+        },
+        {
+          "en": "England",
+          "as": "ইংলেণ্ড"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which Act introduced parliamentary government in pre-independence India in a limited form?",
+      "as": "স্বাধীনতাৰ আগতে সীমিত ৰূপত সংসদীয় চৰকাৰ কোন আইনে প্ৰৱৰ্তন কৰিছিল?",
+      "options": [
+        {
+          "en": "Government of India Act, 1935",
+          "as": "ভাৰত শাসন আইন, ১৯৩৫"
+        },
+        {
+          "en": "Indian Independence Act, 1947",
+          "as": "ভাৰত স্বাধীনতা আইন, ১৯৪৭"
+        },
+        {
+          "en": "Charter Act, 1813",
+          "as": "চাৰ্টাৰ আইন, ১৮১৩"
+        },
+        {
+          "en": "Regulating Act, 1773",
+          "as": "ৰেগুলেটিং আইন, ১৭৭৩"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which statement correctly distinguishes India from England in parliamentary democracy?",
+      "as": "সংসদীয় গণতন্ত্ৰত ভাৰত আৰু ইংলেণ্ডৰ মাজৰ পাৰ্থক্য কোনটো সঠিক?",
+      "options": [
+        {
+          "en": "India has no Parliament",
+          "as": "ভাৰতত সংসদ নাই"
+        },
+        {
+          "en": "India is a republic; England is not a republic",
+          "as": "ভাৰত গণৰাজ্য; ইংলেণ্ড গণৰাজ্য নহয়"
+        },
+        {
+          "en": "England has an elected President like India",
+          "as": "ইংলেণ্ডত ভাৰতৰ দৰে নিৰ্বাচিত ৰাষ্ট্ৰপতি আছে"
+        },
+        {
+          "en": "India has a hereditary Head of State",
+          "as": "ভাৰতত বংশানুক্ৰমিক ৰাষ্ট্ৰপ্ৰধান আছে"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "What is the Upper House of the Indian Parliament called?",
+      "as": "ভাৰতীয় সংসদৰ উচ্চ সদনক কি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Lok Sabha",
+          "as": "লোকসভা"
+        },
+        {
+          "en": "House of Commons",
+          "as": "হাউছ অৱ কমন্স"
+        },
+        {
+          "en": "Rajya Sabha",
+          "as": "ৰাজ্যসভা"
+        },
+        {
+          "en": "Vidhan Sabha",
+          "as": "বিধানসভা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which English Upper House is compared with India's Rajya Sabha in the chapter?",
+      "as": "অধ্যায়ত ভাৰতৰ ৰাজ্যসভাৰ সৈতে ইংলেণ্ডৰ কোন উচ্চ সদনৰ তুলনা কৰা হৈছে?",
+      "options": [
+        {
+          "en": "National Assembly",
+          "as": "ৰাষ্ট্ৰীয় সভা"
+        },
+        {
+          "en": "House of Commons",
+          "as": "হাউছ অৱ কমন্স"
+        },
+        {
+          "en": "Senate",
+          "as": "চেনেট"
+        },
+        {
+          "en": "House of Lords",
+          "as": "হাউছ অৱ লৰ্ডছ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which of the following is a member of the Drafting Committee?",
+      "as": "তলৰ কোনজন খচৰা সমিতিৰ সদস্য আছিল?",
+      "options": [
+        {
+          "en": "K. M. Munshi",
+          "as": "কে. এম. মুন্সী"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "Lord Mountbatten",
+          "as": "লৰ্ড মাউণ্টবেটেন"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "as": "সুভাষ চন্দ্ৰ বসু"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The Indian Constitution gives formal recognition to which ideals through the Objective Resolutions?",
+      "as": "উদ্দেশ্য প্ৰস্তাৱৰ জৰিয়তে ভাৰতীয় সংবিধানে কোন আদৰ্শক স্বীকৃতি দিছে?",
+      "options": [
+        {
+          "en": "Empire, conquest and aristocracy",
+          "as": "সাম্ৰাজ্য, বিজয় আৰু অভিজাততন্ত্র"
+        },
+        {
+          "en": "Equality, liberty, democracy and sovereignty",
+          "as": "সমতা, স্বাধীনতা, গণতন্ত্ৰ আৰু সাৰ্বভৌমত্ব"
+        },
+        {
+          "en": "Only military discipline",
+          "as": "কেৱল সামৰিক শৃংখলা"
+        },
+        {
+          "en": "Only economic taxation",
+          "as": "কেৱল অৰ্থনৈতিক কৰ"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}

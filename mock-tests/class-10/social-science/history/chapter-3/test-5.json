@@ -1,0 +1,257 @@
+{
+  "className": {
+    "en": "Class 10",
+    "as": "শ্ৰেণী ১০"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Anti-British Rising and Peasant Revolts in Assam",
+    "as": "অধ্যায় ৩ - অসমত ব্ৰিটিছ বিৰোধী বিদ্ৰোহ আৰু কৃষক আন্দোলন"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who led the Jaintia revolt?",
+      "as": "জয়ন্তীয়া বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?",
+      "options": [
+        {
+          "en": "Tikendrajit",
+          "as": "টিকেন্দ্ৰজিৎ"
+        },
+        {
+          "en": "Ukiang Nongbah",
+          "as": "উকিয়াং নংবা"
+        },
+        {
+          "en": "Sambhudhan Kachari",
+          "as": "শম্ভুধন কছাৰী"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The Jaintias attacked the British camp at Jowai on—",
+      "as": "জয়ন্তীয়াসকলে জোৱাইত ব্ৰিটিছ শিবিৰত আক্ৰমণ কেতিয়া কৰিছিল?",
+      "options": [
+        {
+          "en": "28 January 1894",
+          "as": "২৮ জানুৱাৰী ১৮৯৪"
+        },
+        {
+          "en": "26 February 1858",
+          "as": "২৬ ফেব্ৰুৱাৰী ১৮৫৮"
+        },
+        {
+          "en": "17 January 1862",
+          "as": "১৭ জানুৱাৰী ১৮৬২"
+        },
+        {
+          "en": "21 September 1890",
+          "as": "২১ ছেপ্টেম্বৰ ১৮৯০"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Where was Ukiang Nongbah hanged?",
+      "as": "উকিয়াং নংবাক ক’ত ফাঁচি দিয়া হৈছিল?",
+      "options": [
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Kohima",
+          "as": "কোহিমা"
+        },
+        {
+          "en": "Maibang",
+          "as": "মাইবং"
+        },
+        {
+          "en": "Jowai",
+          "as": "জোৱাই"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who led the North Cachar revolt of 1881-82?",
+      "as": "১৮৮১-৮২ৰ উত্তৰ কাছাৰ বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?",
+      "options": [
+        {
+          "en": "Sambhudhan Kachari",
+          "as": "শম্ভুধন কছাৰী"
+        },
+        {
+          "en": "Piyoli Barua",
+          "as": "পিয়লি বৰুৱা"
+        },
+        {
+          "en": "Ukiang Nongbah",
+          "as": "উকিয়াং নংবা"
+        },
+        {
+          "en": "Tikendrajit",
+          "as": "টিকেন্দ্ৰজিৎ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The centre of the North Cachar revolt was—",
+      "as": "উত্তৰ কাছাৰ বিদ্ৰোহৰ কেন্দ্ৰ আছিল—",
+      "options": [
+        {
+          "en": "Rangia",
+          "as": "ৰঙিয়া"
+        },
+        {
+          "en": "Maibang",
+          "as": "মাইবং"
+        },
+        {
+          "en": "Jowai",
+          "as": "জোৱাই"
+        },
+        {
+          "en": "Patharughat",
+          "as": "পাথৰুঘাট"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which British officer was seriously injured in the North Cachar revolt and later died?",
+      "as": "উত্তৰ কাছাৰ বিদ্ৰোহত কোন ব্ৰিটিছ বিষয়া গুৰুতৰভাৱে আহত হৈ পিছত মৃত্যু হৈছিল?",
+      "options": [
+        {
+          "en": "J. W. Quinton",
+          "as": "জে. ডব্লিউ. কুইণ্টন"
+        },
+        {
+          "en": "Captain Holroyd",
+          "as": "কেপ্টেইন হলৰয়েড"
+        },
+        {
+          "en": "Major Boyd",
+          "as": "মেজৰ বয়েড"
+        },
+        {
+          "en": "Colonel Johnston",
+          "as": "কৰ্নেল জনষ্টন"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which Naga group killed British officer Damante in 1878?",
+      "as": "১৮৭৮ চনত ব্ৰিটিছ বিষয়া ডামান্টেক কোন নগা গোটে হত্যা কৰিছিল?",
+      "options": [
+        {
+          "en": "Jaintias",
+          "as": "জয়ন্তীয়া"
+        },
+        {
+          "en": "Khasi people",
+          "as": "খাছী লোক"
+        },
+        {
+          "en": "Mizos",
+          "as": "মিজো"
+        },
+        {
+          "en": "Angami Nagas",
+          "as": "আঙ্গামী নগা"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who crushed the Angami Naga revolt?",
+      "as": "আঙ্গামী নগা বিদ্ৰোহ কোনে দমন কৰিছিল?",
+      "options": [
+        {
+          "en": "Colonel Johnston",
+          "as": "কৰ্নেল জনষ্টন"
+        },
+        {
+          "en": "J. D. Anderson",
+          "as": "জে. ডি. এণ্ডাৰচন"
+        },
+        {
+          "en": "Moffat Mills",
+          "as": "মফাট মিলছ"
+        },
+        {
+          "en": "G. D. Showers",
+          "as": "জি. ডি. শাওৱাৰ্ছ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "en": "In 1890, which Manipuri prince dethroned King Surachandra?",
+      "as": "১৮৯০ চনত কোন মণিপুৰী ৰাজকোঁৱৰে ৰজা সুৰচন্দ্ৰক সিংহাসনৰ পৰা আঁতৰাইছিল?",
+      "options": [
+        {
+          "en": "Kandarpeswar",
+          "as": "কন্দৰ্পেশ্বৰ"
+        },
+        {
+          "en": "Kulachandra",
+          "as": "কুলচন্দ্ৰ"
+        },
+        {
+          "en": "Churachandra",
+          "as": "চুৰচন্দ্ৰ"
+        },
+        {
+          "en": "Tikendrajit",
+          "as": "টিকেন্দ্ৰজিৎ"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who was the main leader of the anti-British revolt in Manipur?",
+      "as": "মণিপুৰৰ ব্ৰিটিছ-বিৰোধী বিদ্ৰোহৰ মুখ্য নেতা কোন আছিল?",
+      "options": [
+        {
+          "en": "Surachandra",
+          "as": "সুৰচন্দ্ৰ"
+        },
+        {
+          "en": "R. H. Keatings",
+          "as": "আৰ. এইচ. কিটিংছ"
+        },
+        {
+          "en": "Tikendrajit",
+          "as": "টিকেন্দ্ৰজিৎ"
+        },
+        {
+          "en": "Kulachandra",
+          "as": "কুলচন্দ্ৰ"
+        }
+      ],
+      "answer": 2
+    }
+  ]
+}
