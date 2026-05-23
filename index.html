@@ -76,7 +76,8 @@ header{
   color:#fff;
   display:grid;
   place-items:center;
-  font-size:1.35rem;
+  font-family:"Nirmala UI","Noto Sans Bengali",Arial,sans-serif;
+  font-size:1.55rem;
   font-weight:900;
   box-shadow:0 10px 22px rgba(37,99,235,.22);
 }
@@ -134,16 +135,6 @@ nav{
   color:var(--accent);
   background:color-mix(in srgb, var(--accent) 10%, white);
   border-color:color-mix(in srgb, var(--accent) 25%, white);
-}
-.menu-btn{
-  display:none;
-  border:1px solid var(--border);
-  background:#fff;
-  color:var(--ink);
-  border-radius:12px;
-  padding:9px 12px;
-  font-weight:900;
-  cursor:pointer;
 }
 main{
   min-height:calc(100vh - 76px);
@@ -911,37 +902,76 @@ footer{
   font-size:.9rem;
 }
 @media(max-width:980px){
-  .menu-btn{display:inline-flex}
-  nav{
-    display:none;
-    position:absolute;
-    top:76px;
-    left:0;
-    width:100%;
+  header{
+    position:static;
     background:#fff;
-    border-bottom:1px solid var(--border);
-    padding:16px 4%;
-    flex-direction:column;
-    align-items:stretch;
+  }
+  .navbar{
+    flex-wrap:wrap;
+    padding:10px 0 12px;
     gap:10px;
   }
-  nav.active{display:flex}
-  .nav-link{justify-content:center}
+  nav{
+    display:grid;
+    position:static;
+    width:100%;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    border-top:1px solid var(--border);
+    padding:10px 0 0;
+    gap:8px;
+  }
+  .nav-link{
+    align-items:flex-start;
+    justify-content:flex-start;
+    min-width:0;
+    min-height:57px;
+    padding:8px 9px;
+    font-size:.79rem;
+    background:color-mix(in srgb, var(--accent) 7%, white);
+    border-color:color-mix(in srgb, var(--accent) 18%, white);
+  }
+  .nav-link .as{font-size:.76em}
+  .nav-link.active{
+    box-shadow:inset 0 -3px 0 var(--accent);
+  }
+  main{
+    min-height:0;
+    padding-top:22px;
+  }
+  .home-shell{
+    min-height:0;
+    place-items:start center;
+  }
   .fact-card{grid-template-columns:1fr}
-  .fact-media{min-height:260px}
+  .fact-media{
+    min-height:0;
+    aspect-ratio:16/8.5;
+  }
   .grid,.contact-grid{grid-template-columns:1fr}
   .corner-actions{grid-template-columns:repeat(2,1fr)}
   .rule-grid{grid-template-columns:1fr}
 }
 @media(max-width:640px){
   .container{width:min(100% - 28px,1140px)}
-  .navbar{min-height:70px}
-  nav{top:70px}
+  .navbar{min-height:0}
   .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
   .logo-text strong{font-size:1.12rem}
   .logo-text small{font-size:.68rem}
-  main{padding:24px 0 34px}
-  .fact-copy{padding:24px}
+  main{padding:18px 0 34px}
+  nav{gap:7px;padding-top:9px}
+  .nav-link{
+    min-height:55px;
+    padding:7px 8px;
+    font-size:.75rem;
+  }
+  .fact-card{
+    border-radius:18px;
+    box-shadow:0 12px 25px rgba(15,23,42,.1);
+  }
+  .fact-copy{padding:21px 18px 24px}
+  .fact-copy h1{font-size:1.7rem}
+  .fact-title{font-size:1.08rem}
+  .fact-copy p{font-size:.96rem}
   .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
   .resource-row{grid-template-columns:42px 1fr}
   .resource-row .badge{grid-column:2;justify-self:start}
@@ -960,10 +990,9 @@ footer{
 <header>
   <div class="container navbar">
     <a href="#home" class="logo nav-route" data-page="home" aria-label="Xohopathi Home">
-      <span class="logo-mark">X</span>
+      <span class="logo-mark">স</span>
       <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
     </a>
-    <button class="menu-btn" type="button" aria-controls="navMenu" aria-expanded="false" onclick="toggleMenu()">Menu</button>
     <nav id="navMenu" aria-label="Primary navigation">
       <a class="nav-link home nav-route" href="#home" data-page="home"><span class="bi">Home<span class="as">মুখ্য পৃষ্ঠা</span></span></a>
       <a class="nav-link teacher nav-route" href="#teacher-corner" data-page="teacher-corner"><span class="bi">Teacher Corner<span class="as">শিক্ষক কোণ</span></span></a>
@@ -2132,18 +2161,9 @@ function showPage(pageId, updateHash){
   }
 }
 
-function toggleMenu(){
-  const nav = document.getElementById("navMenu");
-  const button = document.querySelector(".menu-btn");
-  const isOpen = nav.classList.toggle("active");
-  button.setAttribute("aria-expanded", String(isOpen));
-}
-
 document.querySelectorAll(".nav-route").forEach(function(link){
   link.addEventListener("click",function(event){
     event.preventDefault();
-    document.getElementById("navMenu").classList.remove("active");
-    document.querySelector(".menu-btn").setAttribute("aria-expanded","false");
     showPage(link.dataset.page, true);
   });
 });
