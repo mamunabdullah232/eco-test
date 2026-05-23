@@ -1,6 +1,9 @@
 name: Connect HSLC English mock test
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
   push:
     paths:
       - '.github/hslc-english-test-trigger.txt'
