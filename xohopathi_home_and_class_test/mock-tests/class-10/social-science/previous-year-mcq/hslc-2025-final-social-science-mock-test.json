@@ -1,0 +1,507 @@
+{
+  "className": {"en": "Class 10", "as": "শ্ৰেণী ১০"},
+  "subject": {"en": "Social Science", "as": "সমাজ বিজ্ঞান"},
+  "section": {"en": "Previous Year MCQ", "as": "পূৰ্বৱৰ্ষৰ MCQ"},
+  "chapter": {"en": "HSLC 2025 Final Social Science", "as": "HSLC ২০২৫ চূড়ান্ত সমাজ বিজ্ঞান"},
+  "test": {"en": "Mock Test", "as": "মক টেষ্ট"},
+  "durationMinutes": 45,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which statements are true about the Partition of Bengal in 1905? (i) It resulted in the second important political upheaval in India after the 1857 Revolt. (ii) It was executed to suppress the growing national consciousness in Bengal. (iii) Shillong was made the capital of Eastern Bengal and Assam. (iv) It led to the Swadeshi Movement.",
+      "as": "১৯০৫ চনৰ বঙ্গ বিভাজন সম্পৰ্কে তলৰ কোনবোৰ উক্তি সত্য? (i) ই ১৮৫৭ চনৰ বিদ্ৰোহৰ পিছত ভাৰতৰ ৰাজনৈতিক ইতিহাসৰ দ্বিতীয় উল্লেখযোগ্য ঘটনাৰ সূচনা কৰিছিল। (ii) বঙ্গত বৃদ্ধি পোৱা জাতীয় চেতনাক দমন কৰিবলৈ ইয়াক কাৰ্যকৰী কৰা হৈছিল। (iii) শ্বিলংক পূৰ্ববঙ্গ আৰু অসমৰ ৰাজধানী কৰা হৈছিল। (iv) ইয়াৰ ফলত স্বদেশী আন্দোলনৰ সূচনা হৈছিল।",
+      "options": [
+        {"en": "(i), (ii), (iv)", "as": "(i), (ii), (iv)"},
+        {"en": "(i), (iii), (iv)", "as": "(i), (iii), (iv)"},
+        {"en": "(ii), (iii), (iv)", "as": "(ii), (iii), (iv)"},
+        {"en": "(i), (ii), (iii), (iv)", "as": "(i), (ii), (iii), (iv)"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which best explains why Gopal Krishna Gokhale returned his \"Knighthood\" title to the British Government?",
+      "as": "গোপাল কৃষ্ণ গোখলেই ব্ৰিটিছ চৰকাৰক \"Knighthood\" উপাধি ঘূৰাই দিয়াৰ কাৰণ তলৰ কোনটোৱে সৰ্বাধিক ভালকৈ ব্যাখ্যা কৰে?",
+      "options": [
+        {"en": "He felt the British Government was failing to provide adequate governance.", "as": "তেওঁ ভাবিছিল যে ব্ৰিটিছ চৰকাৰে যথোচিত শাসন প্ৰদান কৰাত ব্যৰ্থ হৈছিল।"},
+        {"en": "He was dissatisfied with his position in the British administration.", "as": "তেওঁ ব্ৰিটিছ প্ৰশাসনত পোৱা নিজৰ স্থানক লৈ অসন্তুষ্ট আছিল।"},
+        {"en": "He disagreed with the British policy of partitioning Bengal.", "as": "তেওঁ ব্ৰিটিছৰ বঙ্গ বিভাজন নীতিৰ সৈতে অসন্মত আছিল।"},
+        {"en": "He sought to retire from public life and focus on personal matters.", "as": "তেওঁ ৰাজহুৱা জীৱনৰ পৰা অৱসৰ লৈ ব্যক্তিগত কামত মনোনিৱেশ কৰিব বিচাৰিছিল।"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Read the Assertion (A) and Reason (R). Assertion (A): The Swadeshi Movement aimed to promote indigenous goods and reduce dependency on British products. Reason (R): It primarily aimed to protest against British taxes and government loans.",
+      "as": "দাবী (A) আৰু কাৰণ (R) পঢ়ি সঠিক বিকল্প বাছনি কৰা। দাবী (A): স্বদেশী আন্দোলনৰ লক্ষ্য আছিল দেশীয় সামগ্ৰীৰ ব্যৱহাৰ বৃদ্ধি কৰা আৰু ব্ৰিটিছ সামগ্ৰীৰ ওপৰত নিৰ্ভৰতা হ্ৰাস কৰা। কাৰণ (R): স্বদেশী আন্দোলনৰ মুখ্য লক্ষ্য আছিল ব্ৰিটিছ কৰ আৰু চৰকাৰী ঋণৰ বিৰুদ্ধে প্ৰতিবাদ কৰা।",
+      "options": [
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "(A) is true, but (R) is false.", "as": "(A) সত্য, কিন্তু (R) অসত্য।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"},
+        {"en": "(A) is false, but (R) is true.", "as": "(A) অসত্য, কিন্তু (R) সত্য।"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who edited the magazine Vande Mataram during the Swadeshi Movement in India?",
+      "as": "ভাৰতৰ স্বদেশী আন্দোলনৰ সময়ত বন্দে মাতৰম নামৰ আলোচনীখন কোনে সম্পাদনা কৰিছিল?",
+      "options": [
+        {"en": "Arabinda Ghose", "as": "অৰবিন্দ ঘোষ"},
+        {"en": "Krishna Kumar Mitra", "as": "কৃষ্ণ কুমাৰ মিত্ৰ"},
+        {"en": "Surendranath Banerjee", "as": "সুৰেন্দ্ৰনাথ বেনাৰ্জী"},
+        {"en": "Kumudini Mishra", "as": "কুমুদিনী মিশ্ৰ"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Consider the statements about the Non-Cooperation Movement. (i) Salt laws were challenged. (ii) Students left government schools. (iii) There was unity among Hindus and Muslims. (iv) Women did not participate. Which option is correct?",
+      "as": "অসহযোগ আন্দোলন সম্পৰ্কে তলৰ উক্তিসমূহ বিবেচনা কৰা। (i) লোণ আইনক প্ৰত্যাহ্বান জনোৱা হৈছিল। (ii) ছাত্ৰ-ছাত্ৰীয়ে চৰকাৰী বিদ্যালয় ত্যাগ কৰিছিল। (iii) হিন্দু আৰু মুছলমানৰ মাজত একতা আছিল। (iv) মহিলাসকলে অংশগ্ৰহণ কৰা নাছিল। কোনটো বিকল্প সঠিক?",
+      "options": [
+        {"en": "(i) and (iv)", "as": "(i) আৰু (iv)"},
+        {"en": "(ii) and (iii)", "as": "(ii) আৰু (iii)"},
+        {"en": "(i) and (ii)", "as": "(i) আৰু (ii)"},
+        {"en": "(i), (ii), (iii) and (iv)", "as": "(i), (ii), (iii) আৰু (iv)"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which were provisions of the Indian Independence Act, 1947? (i) India and Pakistan were to become independent on August 15, 1947. (ii) Each dominion was to have a Prime Minister appointed by the king. (iii) Two dominions were to be established, and their Constituent Assemblies would decide whether to remain within the British Commonwealth. (iv) Their legislatures were restricted to making laws only under British Parliament supervision.",
+      "as": "১৯৪৭ চনৰ ভাৰত স্বাধীনতা আইনৰ ধাৰাসমূহৰ ভিতৰত তলৰ কোনবোৰ আছিল? (i) ১৯৪৭ চনৰ ১৫ আগষ্টত ভাৰত আৰু পাকিস্তানে স্বাধীনতা লাভ কৰিব। (ii) প্ৰতিটো ডমিনিয়নত ৰজাই নিযুক্তি দিয়া প্ৰধানমন্ত্ৰী থাকিব। (iii) ভাৰত আৰু পাকিস্তান নামেৰে দুটা ডমিনিয়ন গঠন হ’ব, আৰু সংবিধান সভাই ব্ৰিটিছ কমনৱেলথত থাকিব নে নাথাকিব সিদ্ধান্ত ল’ব। (iv) দুয়োখন দেশৰ বিধানমণ্ডলে কেৱল ব্ৰিটিছ সংসদৰ তত্ত্বাৱধানতহে আইন প্ৰণয়ন কৰিব পাৰিব।",
+      "options": [
+        {"en": "(i) and (ii)", "as": "(i) আৰু (ii)"},
+        {"en": "(i) and (iii)", "as": "(i) আৰু (iii)"},
+        {"en": "(i) and (iv)", "as": "(i) আৰু (iv)"},
+        {"en": "(ii) and (iv)", "as": "(ii) আৰু (iv)"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Arrange the historical events from old to new: (i) August Revolution, (ii) Direct Action Day, (iii) Simon Commission, (iv) Demand for Complete Independence.",
+      "as": "তলৰ ঐতিহাসিক ঘটনাসমূহ পুৰণিৰ পৰা নতুনলৈ ক্ৰমত সজোৱা: (i) আগষ্ট বিপ্লৱ, (ii) প্ৰত্যক্ষ কাৰ্যসূচী দিৱস, (iii) চাইমন কমিছন, (iv) পূৰ্ণ স্বাধীনতাৰ দাবী।",
+      "options": [
+        {"en": "(i) - (ii) - (iii) - (iv)", "as": "(i) - (ii) - (iii) - (iv)"},
+        {"en": "(iii) - (iv) - (ii) - (i)", "as": "(iii) - (iv) - (ii) - (i)"},
+        {"en": "(i) - (ii) - (iv) - (iii)", "as": "(i) - (ii) - (iv) - (iii)"},
+        {"en": "(iii) - (iv) - (i) - (ii)", "as": "(iii) - (iv) - (i) - (ii)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Assertion (A): In the last decades of the 19th century, Assam witnessed a series of peasant revolts. Reason (R): Peasants organized themselves through the Raij Mels.",
+      "as": "দাবী (A): ঊনবিংশ শতিকাৰ শেষ দশকসমূহত অসমত কৃষক বিদ্ৰোহৰ এক শৃংখলা দেখা গৈছিল। কাৰণ (R): কৃষকসকলে ৰাইজ মেলৰ জৰিয়তে নিজকে সংগঠিত কৰিছিল।",
+      "options": [
+        {"en": "(A) is true, but (R) is false.", "as": "(A) সত্য, কিন্তু (R) অসত্য।"},
+        {"en": "(A) is false, but (R) is true.", "as": "(A) অসত্য, কিন্তু (R) সত্য।"},
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "How did the British Government's treatment of the leaders of the revolt of Manipur affect later resistance movements in the region?",
+      "as": "মণিপুৰৰ বিদ্ৰোহৰ নেতাসকলৰ প্ৰতি ব্ৰিটিছ চৰকাৰৰ ব্যৱহাৰে অঞ্চলটোৰ পৰৱৰ্তী প্ৰতিবাদী আন্দোলনসমূহত কেনে প্ৰভাৱ পেলাইছিল?",
+      "options": [
+        {"en": "It encouraged further resistance by showing that British authority could be contested.", "as": "ই ব্ৰিটিছ কৰ্তৃত্বক প্ৰত্যাহ্বান জনাব পাৰি বুলি দেখুৱাই অধিক প্ৰতিবাদক উৎসাহিত কৰিছিল।"},
+        {"en": "It led to a decline in local resistance due to increased repression.", "as": "বৃদ্ধি পোৱা দমননীতিৰ বাবে স্থানীয় প্ৰতিবাদ হ্ৰাস পাইছিল।"},
+        {"en": "It created cooperation between British authorities and local leaders.", "as": "ই ব্ৰিটিছ কৰ্তৃপক্ষ আৰু স্থানীয় নেতাৰ মাজত সহযোগিতাৰ মনোভাৱ সৃষ্টি কৰিছিল।"},
+        {"en": "It had no significant impact on future resistance movements.", "as": "ইয়াৰ ভৱিষ্যতৰ প্ৰতিবাদী আন্দোলনসমূহত কোনো উল্লেখযোগ্য প্ৰভাৱ নপৰিছিল।"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "According to Heramba Kanta Borpujari, why did several Brahmin Purohits of Upper Assam join the 1857 Revolt?",
+      "as": "হেৰম্বকান্ত বৰপূজাৰীৰ মতে, উজনি অসমৰ কেইবাজনো ব্ৰাহ্মণ পুৰোহিতে ১৮৫৭ চনৰ বিদ্ৰোহত যোগ দিয়াৰ সঠিক কাৰণ কি আছিল?",
+      "options": [
+        {"en": "They supported the cause of Ahom aristocracy.", "as": "তেওঁলোকে আহোম অভিজাত শ্ৰেণীক সমৰ্থন কৰিছিল।"},
+        {"en": "They lost their jobs after the British annexation of Assam.", "as": "ব্ৰিটিছসকলে অসম দখল কৰাৰ পিছত তেওঁলোকে জীৱিকা হেৰুৱাইছিল।"},
+        {"en": "The British took away their excess Lakheraj lands.", "as": "ব্ৰিটিছসকলে তেওঁলোকৰ অতিৰিক্ত লাখেৰাজ ভূমি কাঢ়ি লৈছিল।"},
+        {"en": "They wanted to free India from the British.", "as": "তেওঁলোকে ভাৰতক ব্ৰিটিছৰ পৰা স্বাধীন কৰিব বিচাৰিছিল।"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "The consumption of Abkari opium in Assam fell from 1615 maunds in 1920-21 to 993 maunds in 1922-23. Which statement correctly explains this fall?",
+      "as": "অসমত আবকাৰী আফিমৰ সেৱন ১৯২০-২১ চনত ১৬১৫ মণৰ পৰা ১৯২২-২৩ চনত ৯৯৩ মণলৈ হ্ৰাস পাইছিল। এই হ্ৰাসৰ সঠিক কাৰণ কোনটো?",
+      "options": [
+        {"en": "The British Government restricted its sale after recognizing its ill effects.", "as": "ব্ৰিটিছ চৰকাৰে ইয়াৰ কু-প্ৰভাৱ বুজি বিক্ৰী সীমিত কৰিছিল।"},
+        {"en": "People understood the ill effects of opium consumption.", "as": "জনসাধাৰণে আফিম সেৱনৰ কু-প্ৰভাৱ বুজি পাইছিল।"},
+        {"en": "There was a fall in demand for opium among the people.", "as": "জনসাধাৰণৰ মাজত আফিমৰ চাহিদা হ্ৰাস পাইছিল।"},
+        {"en": "A vigorous anti-opium campaign was led by Congress workers.", "as": "কংগ্ৰেছ কৰ্মীসকলৰ নেতৃত্বত শক্তিশালী আফিম-বিৰোধী অভিযান চলিছিল।"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Choose the programme and freedom movement led by Mahatma Gandhi in which Leeladhar Baruah from Assam joined.",
+      "as": "মহাত্মা গান্ধীৰ নেতৃত্বত চলা যি কাৰ্যসূচী আৰু স্বাধীনতা আন্দোলনত অসমৰ লীলাধৰ বৰুৱাই যোগ দিছিল, সেইটো বাছনি কৰা।",
+      "options": [
+        {"en": "Dandi March, Non-Cooperation Movement", "as": "দাণ্ডী যাত্ৰা, অসহযোগ আন্দোলন"},
+        {"en": "Dandi March, Civil Disobedience Movement", "as": "দাণ্ডী যাত্ৰা, আইন অমান্য আন্দোলন"},
+        {"en": "Collection of funds through Tilak Swarajya Fund, Non-Cooperation Movement", "as": "তিলক স্বৰাজ্য পুঁজিৰ জৰিয়তে পুঁজি সংগ্ৰহ, অসহযোগ আন্দোলন"},
+        {"en": "Historic August Meeting in Bombay, Quit India Movement", "as": "বোম্বাইৰ ঐতিহাসিক আগষ্ট সভা, ভাৰত ত্যাগ আন্দোলন"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Match the following: (i) Ambikagiri Raychoudhury, (ii) Padmanath Gohain Baruah, (iii) Lakshminath Bezbarua, (iv) Anandaram Dhekial Phukan; with (a) Gyan Pradayini Sabha, (b) Bandini Bharat, (c) Ahom Sabha, (d) Been Boragi.",
+      "as": "তলৰবোৰ মিলাই সঠিক উত্তৰ বাছনি কৰা: (i) অম্বিকাগিৰী ৰায়চৌধুৰী, (ii) পদ্মনাথ গোহাঞি বৰুৱা, (iii) লক্ষ্মীনাথ বেজবৰুৱা, (iv) আনন্দৰাম ঢেকিয়াল ফুকন; (a) জ্ঞান প্ৰদায়িনী সভা, (b) বন্দিনী ভাৰত, (c) আহোম সভা, (d) বীণ বৰাগী।",
+      "options": [
+        {"en": "(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)", "as": "(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)"},
+        {"en": "(i)-(d), (ii)-(a), (iii)-(c), (iv)-(b)", "as": "(i)-(d), (ii)-(a), (iii)-(c), (iv)-(b)"},
+        {"en": "(i)-(b), (ii)-(c), (iii)-(a), (iv)-(d)", "as": "(i)-(b), (ii)-(c), (iii)-(a), (iv)-(d)"},
+        {"en": "(i)-(d), (ii)-(a), (iii)-(b), (iv)-(c)", "as": "(i)-(d), (ii)-(a), (iii)-(b), (iv)-(c)"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which is true about the Gandhara style?",
+      "as": "গান্ধাৰ শৈলী সম্পৰ্কে তলৰ কোনটো সত্য?",
+      "options": [
+        {"en": "The central theme was Hindu deities.", "as": "মুখ্য বিষয় আছিল হিন্দু দেৱ-দেৱী।"},
+        {"en": "It developed mainly in Western Uttar Pradesh.", "as": "ই মুখ্যতঃ পশ্চিম উত্তৰ প্ৰদেশত বিকশিত হৈছিল।"},
+        {"en": "It was influenced by the Mathura style only.", "as": "ই কেৱল মথুৰা শৈলীৰ দ্বাৰা প্ৰভাৱিত হৈছিল।"},
+        {"en": "It is associated with the Greco-Roman style.", "as": "ই গ্ৰীক-ৰোমান শৈলীৰ সৈতে জড়িত।"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "How does the cultural heritage of India reflect its historical diversity?",
+      "as": "ভাৰতৰ সাংস্কৃতিক ঐতিহ্যই ইয়াৰ ঐতিহাসিক বৈচিত্ৰ্য কেনেদৰে প্ৰকাশ কৰে?",
+      "options": [
+        {"en": "Through uniform political history", "as": "একে ধৰণৰ ৰাজনৈতিক ইতিহাসৰ জৰিয়তে"},
+        {"en": "Through various languages, festivals and arts representing different regions", "as": "ভিন্ন অঞ্চলক প্ৰতিনিধিত্ব কৰা বিভিন্ন ভাষা, উৎসৱ আৰু কলাৰ জৰিয়তে"},
+        {"en": "Through a unified national language", "as": "এটা একক ৰাষ্ট্ৰীয় ভাষাৰ জৰিয়তে"},
+        {"en": "Through a single style of architecture", "as": "এটা একক স্থাপত্য শৈলীৰ জৰিয়তে"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Match the dance forms with their regions: (i) Kathakali, (ii) Bharatanatyam, (iii) Kathak, (iv) Kuchipudi; (a) Andhra Pradesh, (b) Kerala, (c) Tamil Nadu, (d) Northern India.",
+      "as": "তলৰ নৃত্যসমূহ অঞ্চলৰ সৈতে মিলাই সঠিক উত্তৰ বাছনি কৰা: (i) কথাকলি, (ii) ভাৰতনাট্যম, (iii) কথক, (iv) কুচিপুড়ী; (a) অন্ধ্ৰ প্ৰদেশ, (b) কেৰালা, (c) তামিলনাডু, (d) উত্তৰ ভাৰত।",
+      "options": [
+        {"en": "(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)", "as": "(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)"},
+        {"en": "(i)-(b), (ii)-(d), (iii)-(a), (iv)-(c)", "as": "(i)-(b), (ii)-(d), (iii)-(a), (iv)-(c)"},
+        {"en": "(i)-(c), (ii)-(a), (iii)-(b), (iv)-(d)", "as": "(i)-(c), (ii)-(a), (iii)-(b), (iv)-(d)"},
+        {"en": "(i)-(a), (ii)-(c), (iii)-(d), (iv)-(b)", "as": "(i)-(a), (ii)-(c), (iii)-(d), (iv)-(b)"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Assertion (A): During the Indus Valley Civilization, diverse ways of worshipping and various deities were observed. Reason (R): India's ancient religious tradition accepted tolerance, co-existence and assimilation among new traditions or religions.",
+      "as": "দাবী (A): সিন্ধু সভ্যতাৰ সময়ত উপাসনাৰ বিভিন্ন ধৰণ দেখা গৈছিল, আৰু মানুহে বিভিন্ন দেৱ-দেৱীৰ পূজা কৰিছিল। কাৰণ (R): ভাৰতৰ প্ৰাচীন ধৰ্মীয় পৰম্পৰাই নতুন পৰম্পৰা বা ধৰ্মৰ মাজত সহনশীলতা, সহ-অস্তিত্ব আৰু সমন্বয়ৰ নীতি গ্ৰহণ কৰিছিল।",
+      "options": [
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"},
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "(A) is true, (R) is false.", "as": "(A) সত্য, (R) অসত্য।"},
+        {"en": "(A) is false, (R) is true.", "as": "(A) অসত্য, (R) সত্য।"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Choose the correct set of statements about the IUCN. (i) IUCN was formed in 1948. (ii) Its full form is Indian Union for Conservation of Nature. (iii) WWF and World Conservation Monitoring Centre were established with its initiative. (iv) George Chisholm was its founder Director-General.",
+      "as": "IUCN সম্পৰ্কে সঠিক উক্তিসমূহ বাছনি কৰা। (i) IUCN ১৯৪৮ চনত গঠন কৰা হৈছিল। (ii) IUCN-ৰ পূৰ্ণৰূপ Indian Union for Conservation of Nature। (iii) IUCN-ৰ উদ্যোগত WWF আৰু World Conservation Monitoring Centre স্থাপন কৰা হৈছিল। (iv) জৰ্জ চিশোল্ম IUCN-ৰ প্ৰতিষ্ঠাপক সঞ্চালক-প্ৰধান আছিল।",
+      "options": [
+        {"en": "(i), (ii), (iii)", "as": "(i), (ii), (iii)"},
+        {"en": "(ii), (iii), (iv)", "as": "(ii), (iii), (iv)"},
+        {"en": "(ii), (iv)", "as": "(ii), (iv)"},
+        {"en": "(i), (iii)", "as": "(i), (iii)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which option is correct for the quaternary sector of the economy?",
+      "as": "অৰ্থনীতিৰ চতুৰ্থক খণ্ডৰ ক্ষেত্ৰত কোনটো বিকল্প সঠিক?",
+      "options": [
+        {"en": "Community-based tourism", "as": "সম্প্ৰদায়ভিত্তিক পৰ্যটন"},
+        {"en": "Innovative research on modern eco-friendly technology", "as": "আধুনিক পৰিৱেশ-অনুকূল প্ৰযুক্তিৰ ওপৰত উদ্ভাৱনীমূলক গৱেষণা"},
+        {"en": "Sales executive of a shopping mall", "as": "শ্বপিং মলৰ বিক্ৰী কাৰ্যবাহী বিষয়া"},
+        {"en": "Green bus service for public transportation", "as": "ৰাজহুৱা পৰিবহণৰ বাবে সেউজ বাছ সেৱা"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Assertion (A): With changes in society, the concept, collection and use of resources change. Reason (R): With expanding knowledge and developing science and technology, many neutral materials and resistances are transformed into resources.",
+      "as": "দাবী (A): সমাজৰ পৰিৱর্তনৰ লগে লগে সম্পদৰ ধাৰণা সলনি হয়, আৰু সম্পদ সংগ্ৰহ তথা ব্যৱহাৰো সলনি হয়। কাৰণ (R): মানুহৰ জ্ঞানৰ বিস্তাৰ আৰু বিজ্ঞান-প্ৰযুক্তিৰ বিকাশৰ ফলত বহু নিৰপেক্ষ বস্তু আৰু বাধা সম্পদলৈ ৰূপান্তৰিত হয়।",
+      "options": [
+        {"en": "Both (A) and (R) are correct.", "as": "(A) আৰু (R) দুয়োটা সঠিক।"},
+        {"en": "(A) is correct, (R) is incorrect.", "as": "(A) সঠিক, (R) ভুল।"},
+        {"en": "(A) is incorrect, (R) is correct.", "as": "(A) ভুল, (R) সঠিক।"},
+        {"en": "Both (A) and (R) are incorrect.", "as": "(A) আৰু (R) দুয়োটা ভুল।"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which statements are correct regarding conservation of resources? (i) Economic use considering long-lasting development. (ii) More use of non-renewable instead of renewable resources. (iii) Optimum utilization without destruction and misuse. (iv) Preservation for the future without any use.",
+      "as": "সম্পদ সংৰক্ষণ সম্পৰ্কে তলৰ কোনবোৰ সঠিক? (i) দীৰ্ঘকালীন উন্নয়ন প্ৰক্ৰিয়া বিবেচনা কৰি সম্পদৰ মিতব্যয়ী ব্যৱহাৰ। (ii) নবীকৰণযোগ্য সম্পদৰ সলনি অনবীকৰণযোগ্য সম্পদ অধিক ব্যৱহাৰ কৰা। (iii) ধ্বংস আৰু অপব্যৱহাৰ নকৰাকৈ সম্পদৰ সম্ভৱপৰ সৰ্বোত্তম ব্যৱহাৰ। (iv) কোনো ব্যৱহাৰ নকৰাকৈ ভবিষ্যতৰ বাবে সম্পদ সংৰক্ষণ।",
+      "options": [
+        {"en": "(i), (iv)", "as": "(i), (iv)"},
+        {"en": "(i), (ii)", "as": "(i), (ii)"},
+        {"en": "(ii), (iv)", "as": "(ii), (iv)"},
+        {"en": "(i), (iii)", "as": "(i), (iii)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Assertion (A): Economic Geography studies human activities associated with production, distribution, consumption and exchange of resources in spatial and temporal contexts. Reason (R): Human ways of life and economic activities differ according to spatio-temporal variations.",
+      "as": "দাবী (A): অৰ্থনৈতিক ভূগোলে স্থানিক আৰু কালিক প্ৰেক্ষাপটত সম্পদৰ উৎপাদন, বিতৰণ, ভোগ আৰু বিনিময়ৰ সৈতে জড়িত মানৱীয় কাৰ্যকলাপ অধ্যয়ন কৰে। কাৰণ (R): স্থান-কালৰ ভিন্নতাৰ অনুসৰি মানুহৰ জীৱনধাৰা আৰু অৰ্থনৈতিক কাৰ্যকলাপ বেলেগ হয়।",
+      "options": [
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"},
+        {"en": "(A) is true, (R) is false.", "as": "(A) সত্য, (R) অসত্য।"},
+        {"en": "(A) is false, (R) is true.", "as": "(A) অসত্য, (R) সত্য।"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which sources of energy do not produce carbon dioxide? (i) Wind energy, (ii) Geothermal energy, (iii) Hydroelectric energy, (iv) Fossil fuel.",
+      "as": "তলৰ কোনবোৰ শক্তিৰ উৎসই কাৰ্বন-ডাই-অক্সাইড উৎপন্ন নকৰে? (i) বতাহ শক্তি, (ii) ভূ-তাপীয় শক্তি, (iii) জলবিদ্যুৎ শক্তি, (iv) জীৱাশ্ম ইন্ধন।",
+      "options": [
+        {"en": "(i)", "as": "(i)"},
+        {"en": "(i), (ii), (iii)", "as": "(i), (ii), (iii)"},
+        {"en": "(i), (iv)", "as": "(i), (iv)"},
+        {"en": "(i), (ii), (iii), (iv)", "as": "(i), (ii), (iii), (iv)"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Assertion (A): Acid rain occurs when there is a high concentration of Sulphur dioxide and Nitrogen dioxide in the atmosphere. Reason (R): Such rains destroy forests and pollute water in wetlands.",
+      "as": "দাবী (A): বায়ুমণ্ডলত ছালফাৰ ডাই-অক্সাইড আৰু নাইট্ৰ’জেন ডাই-অক্সাইডৰ ঘনত্ব বেছি হ’লে অম্ল বৰষুণ হয়। কাৰণ (R): এনে বৰষুণে বন-জংঘল ধ্বংস কৰে আৰু জলাশয়ৰ পানী প্ৰদূষিত কৰে।",
+      "options": [
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "(A) is true, (R) is false.", "as": "(A) সত্য, (R) অসত্য।"},
+        {"en": "(A) is false, (R) is true.", "as": "(A) অসত্য, (R) সত্য।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "What will be adverse effects of melting glaciers in high-altitude mountains and polar regions? (i) Rise of sea level. (ii) Large coastal areas submerged. (iii) Water scarcity resolved. (iv) Biodiversity protected.",
+      "as": "উচ্চ পৰ্বত অঞ্চল আৰু মেৰু অঞ্চলত থকা হিমবাহ গলিলে কেনে বিৰূপ প্ৰভাৱ পৰিব? (i) সাগৰৰ জলস্তৰ বৃদ্ধি। (ii) বৃহৎ উপকূলীয় অঞ্চল পানীত ডুব যাব। (iii) পানীৰ অভাৱৰ সমস্যা সমাধান হ’ব। (iv) জৈৱ-বৈচিত্ৰ্য সুৰক্ষিত হ’ব।",
+      "options": [
+        {"en": "(i), (ii), (iii), (iv)", "as": "(i), (ii), (iii), (iv)"},
+        {"en": "(i), (iii)", "as": "(i), (iii)"},
+        {"en": "(ii), (iii)", "as": "(ii), (iii)"},
+        {"en": "(i), (ii)", "as": "(i), (ii)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Consider statements about pollution of urban centres located on river banks: (i) Urban garbage and industrial waste pollute rivers flowing through or beside urban centres. (ii) About 55% of the total length of America's rivers is polluted by agriculture-related pollutants like chemical fertilizers.",
+      "as": "নদীৰ পাৰত অৱস্থিত নগৰ কেন্দ্ৰৰ প্ৰদূষণ সম্পৰ্কে উক্তিসমূহ বিবেচনা কৰা: (i) নগৰৰ পেলনীয়া বস্তু আৰু ঔদ্যোগিক আৱৰ্জনাই নগৰ কেন্দ্ৰৰ মাজেৰে বা কাষেৰে বৈ যোৱা নদীৰ পানী প্ৰদূষিত কৰে। (ii) আমেৰিকাৰ নদীৰ মুঠ দৈৰ্ঘ্যৰ প্ৰায় ৫৫% ৰাসায়নিক সাৰৰ দৰে কৃষিজনিত প্ৰদূষকদ্বাৰা প্ৰদূষিত।",
+      "options": [
+        {"en": "Both (i) and (ii) are true", "as": "(i) আৰু (ii) দুয়োটা সত্য"},
+        {"en": "Both (i) and (ii) are false", "as": "(i) আৰু (ii) দুয়োটা অসত্য"},
+        {"en": "(i) is true, (ii) is false", "as": "(i) সত্য, (ii) অসত্য"},
+        {"en": "(i) is false, (ii) is true", "as": "(i) অসত্য, (ii) সত্য"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Consider statements about regional environmental problems: (i) Cities like Delhi, Bengaluru, Guwahati and Pune face shortage of underground water. (ii) River bank soil erosion is a serious environmental problem in states like West Bengal and Assam.",
+      "as": "আঞ্চলিক পৰিৱেশগত সমস্যা সম্পৰ্কে উক্তিসমূহ বিবেচনা কৰা: (i) দিল্লী, বেংগালুৰু, গুৱাহাটী, পুনে আদি চহৰত ভূগৰ্ভস্থ পানীৰ অভাৱ দেখা যায়। (ii) পশ্চিমবংগ আৰু অসমৰ দৰে ৰাজ্যত নদীৰ গৰাখহনীয়া এক গুৰুতৰ পৰিৱেশগত সমস্যা।",
+      "options": [
+        {"en": "(i) is true, (ii) is false", "as": "(i) সত্য, (ii) অসত্য"},
+        {"en": "(i) is false, (ii) is true", "as": "(i) অসত্য, (ii) সত্য"},
+        {"en": "Both (i) and (ii) are true", "as": "(i) আৰু (ii) দুয়োটা সত্য"},
+        {"en": "Both (i) and (ii) are false", "as": "(i) আৰু (ii) দুয়োটা অসত্য"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which statements are correct about the Northern Hemisphere? (i) 67% land is confined in this region. (ii) 90% of the world's population lives in this region. (iii) 57% land is confined in this region. (iv) 40% of the world's population lives in this region.",
+      "as": "উত্তৰ গোলাৰ্ধ সম্পৰ্কে কোনবোৰ উক্তি সঠিক? (i) পৃথিৱীৰ ৬৭% ভূমি এই অঞ্চলত অৱস্থিত। (ii) পৃথিৱীৰ ৯০% জনসংখ্যা এই অঞ্চলত বাস কৰে। (iii) পৃথিৱীৰ ৫৭% ভূমি এই অঞ্চলত অৱস্থিত। (iv) পৃথিৱীৰ ৪০% জনসংখ্যা এই অঞ্চলত বাস কৰে।",
+      "options": [
+        {"en": "(i), (ii)", "as": "(i), (ii)"},
+        {"en": "(i), (iv)", "as": "(i), (iv)"},
+        {"en": "(ii), (iii)", "as": "(ii), (iii)"},
+        {"en": "(iii), (iv)", "as": "(iii), (iv)"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Identify the ocean: (i) It covers about one-third of the earth's surface. (ii) Its average depth is about 5000 metres. (iii) Mariana, Aleutian, Kurile, Philippine, Tonga and Peru-Chile trenches are important here.",
+      "as": "তলৰ বৈশিষ্ট্যসমূহৰ পৰা মহাসাগৰটো চিনাক্ত কৰা: (i) ই পৃথিৱীৰ প্ৰায় এক-তৃতীয়াংশ অঞ্চল আবৰি আছে। (ii) ইয়াৰ গড় গভীৰতা প্ৰায় ৫০০০ মিটাৰ। (iii) মেৰিয়ানা, এলেউচিয়ান, কুৰাইল, ফিলিপাইন, টোংগা আৰু পেৰু-চিলি খাদ ইয়াত উল্লেখযোগ্য।",
+      "options": [
+        {"en": "Indian Ocean", "as": "ভাৰত মহাসাগৰ"},
+        {"en": "Pacific Ocean", "as": "প্ৰশান্ত মহাসাগৰ"},
+        {"en": "Atlantic Ocean", "as": "আটলাণ্টিক মহাসাগৰ"},
+        {"en": "Arctic Ocean", "as": "উত্তৰ মহাসাগৰ"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which pair is correctly matched?",
+      "as": "তলৰ কোনটো যোৰ সঠিকভাৱে মিলিছে?",
+      "options": [
+        {"en": "South America : Sahara Desert", "as": "দক্ষিণ আমেৰিকা : চাহাৰা মৰুভূমি"},
+        {"en": "Atlantic Ocean : Mariana Trench", "as": "আটলাণ্টিক মহাসাগৰ : মেৰিয়ানা খাদ"},
+        {"en": "Asia : Bering Strait", "as": "এছিয়া : বেৰিং প্ৰণালী"},
+        {"en": "North America : Death Valley", "as": "উত্তৰ আমেৰিকা : ডেথ ভেলী"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Assertion (A): Except for narrow coastal plains, the major part of Africa is a large plateau, and there is no high mountain range in the continent. Reason (R): Kilimanjaro peak in the east is the highest place in Africa.",
+      "as": "দাবী (A): সংকীৰ্ণ উপকূলীয় সমভূমিৰ বাহিৰে আফ্ৰিকা মহাদেশৰ অধিকাংশ অংশ এক বৃহৎ মালভূমি, আৰু মহাদেশখনত উচ্চ পৰ্বতমালা নাই। কাৰণ (R): পূব দিশত অৱস্থিত কিলিমান্জাৰো শৃংগ আফ্ৰিকাৰ সৰ্বোচ্চ স্থান।",
+      "options": [
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "(A) is true, (R) is false.", "as": "(A) সত্য, (R) অসত্য।"},
+        {"en": "(A) is false, (R) is true.", "as": "(A) অসত্য, (R) সত্য।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Arrange geographical divisions of the oceanic floor in increasing depth.",
+      "as": "মহাসাগৰৰ তলিভাগৰ ভূ-প্ৰাকৃতিক অংশসমূহ বৃদ্ধি পোৱা গভীৰতাৰ ক্ৰমত সজোৱা।",
+      "options": [
+        {"en": "Deep Sea Trench - Oceanic Ridge - Oceanic Canyon - Deep Sea Plain - Continental Slope - Continental Shelf", "as": "গভীৰ সমুদ্ৰ খাদ - সামুদ্ৰিক শৈলশিৰা - সমুদ্ৰতলীয় গিৰিখাত - গভীৰ সমুদ্ৰতল - মহীঢাল - মহীসোপান"},
+        {"en": "Continental Shelf - Continental Slope - Deep Sea Plain - Oceanic Canyon - Oceanic Ridge - Deep Sea Trench", "as": "মহীসোপান - মহীঢাল - গভীৰ সমুদ্ৰতল - সমুদ্ৰতলীয় গিৰিখাত - সামুদ্ৰিক শৈলশিৰা - গভীৰ সমুদ্ৰ খাদ"},
+        {"en": "Continental Slope - Continental Shelf - Oceanic Canyon - Deep Sea Plain - Deep Sea Trench - Oceanic Ridge", "as": "মহীঢাল - মহীসোপান - সমুদ্ৰতলীয় গিৰিখাত - গভীৰ সমুদ্ৰতল - গভীৰ সমুদ্ৰ খাদ - সামুদ্ৰিক শৈলশিৰা"},
+        {"en": "Continental Shelf - Continental Slope - Deep Sea Plain - Oceanic Ridge - Deep Sea Trench - Oceanic Canyon", "as": "মহীসোপান - মহীঢাল - গভীৰ সমুদ্ৰতল - সামুদ্ৰিক শৈলশিৰা - গভীৰ সমুদ্ৰ খাদ - সমুদ্ৰতলীয় গিৰিখাত"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Arrange the chronological flow of migration to Assam: (i) Mongoloid, (ii) Austric, (iii) Aryan, (iv) Ahom.",
+      "as": "তলৰ জনগোষ্ঠীসমূহৰ অসমলৈ হোৱা প্ৰব্ৰজনৰ ক্ৰম সজোৱা: (i) মংগোলীয়, (ii) অষ্ট্ৰিক, (iii) আৰ্য, (iv) আহোম।",
+      "options": [
+        {"en": "(i) - (ii) - (iii) - (iv)", "as": "(i) - (ii) - (iii) - (iv)"},
+        {"en": "(ii) - (iii) - (i) - (iv)", "as": "(ii) - (iii) - (i) - (iv)"},
+        {"en": "(i) - (iv) - (iii) - (ii)", "as": "(i) - (iv) - (iii) - (ii)"},
+        {"en": "(ii) - (i) - (iii) - (iv)", "as": "(ii) - (i) - (iii) - (iv)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "During which decade did Assam witness a lower population growth rate compared to India?",
+      "as": "কোনটো দশকত অসমৰ জনসংখ্যা বৃদ্ধিৰ হাৰ ভাৰততকৈ কম আছিল?",
+      "options": [
+        {"en": "1901-1911", "as": "১৯০১-১৯১১"},
+        {"en": "1981-1991", "as": "১৯৮১-১৯৯১"},
+        {"en": "1991-2001", "as": "১৯৯১-২০০১"},
+        {"en": "1941-1951", "as": "১৯৪১-১৯৫১"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Why is a democratic government regarded as a better choice than other forms of government? (i) It promotes equality among citizens. (ii) It ensures economic development. (iii) It provides a method of resolving conflict.",
+      "as": "গণতান্ত্ৰিক চৰকাৰক কিয় অন্য চৰকাৰৰ তুলনাত উত্তম বুলি গণ্য কৰা হয়? (i) ই নাগৰিকসকলৰ মাজত সমতা বৃদ্ধি কৰে। (ii) ই অৰ্থনৈতিক উন্নয়ন নিশ্চিত কৰে। (iii) ই সংঘাত সমাধানৰ পদ্ধতি প্ৰদান কৰে।",
+      "options": [
+        {"en": "(i), (ii)", "as": "(i), (ii)"},
+        {"en": "(i), (iii)", "as": "(i), (iii)"},
+        {"en": "(ii), (iii)", "as": "(ii), (iii)"},
+        {"en": "(i), (ii), (iii)", "as": "(i), (ii), (iii)"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Assertion (A): To grasp the inner spirit of the Constitution, one should go through the Preamble. Reason (R): Each word in the Preamble carries the ideals, philosophy and objectives of the Constitution.",
+      "as": "দাবী (A): সংবিধানৰ অন্তৰ্নিহিত আত্মা বুজিবলৈ সংবিধানৰ প্ৰস্তাৱনা পঢ়িব লাগে। কাৰণ (R): প্ৰস্তাৱনাৰ প্ৰতিটো শব্দই সংবিধানৰ আদৰ্শ, দৰ্শন আৰু উদ্দেশ্য বহন কৰে।",
+      "options": [
+        {"en": "(A) is true, but (R) is false.", "as": "(A) সত্য, কিন্তু (R) অসত্য।"},
+        {"en": "(A) is false, but (R) is true.", "as": "(A) অসত্য, কিন্তু (R) সত্য।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"},
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who can be the Chairman of the National Human Rights Commission?",
+      "as": "ৰাষ্ট্ৰীয় মানৱ অধিকাৰ আয়োগৰ অধ্যক্ষ কোন হ’ব পাৰে?",
+      "options": [
+        {"en": "Retired Chief Justice of a High Court", "as": "উচ্চ ন্যায়ালয়ৰ অৱসৰপ্ৰাপ্ত মুখ্য ন্যায়াধীশ"},
+        {"en": "Retired Chief Justice of the Supreme Court", "as": "উচ্চতম ন্যায়ালয়ৰ অৱসৰপ্ৰাপ্ত মুখ্য ন্যায়াধীশ"},
+        {"en": "A retired judge of a High Court", "as": "উচ্চ ন্যায়ালয়ৰ অৱসৰপ্ৰাপ্ত ন্যায়াধীশ"},
+        {"en": "A retired judge of the Supreme Court", "as": "উচ্চতম ন্যায়ালয়ৰ অৱসৰপ্ৰাপ্ত ন্যায়াধীশ"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Find the agencies or organs of the UNO: (i) Secretariat, (ii) United Nations Human Rights Commission, (iii) General Assembly, (iv) International Monetary Fund.",
+      "as": "ৰাষ্ট্ৰসংঘৰ সংস্থা বা অংগসমূহ বাছনি কৰা: (i) সচিবালয়, (ii) ৰাষ্ট্ৰসংঘ মানৱ অধিকাৰ আয়োগ, (iii) সাধাৰণ সভা, (iv) আন্তঃৰাষ্ট্ৰীয় মুদ্ৰা নিধি।",
+      "options": [
+        {"en": "(iii), (iv)", "as": "(iii), (iv)"},
+        {"en": "(ii), (iv)", "as": "(ii), (iv)"},
+        {"en": "(i), (iv)", "as": "(i), (iv)"},
+        {"en": "(i), (iii)", "as": "(i), (iii)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which statements are true about the General Assembly of the United Nations Organization? (i) It is the biggest organ of the UNO. (ii) It has ten temporary and five permanent members. (iii) Its main function is to settle cases filed by affected member states.",
+      "as": "ৰাষ্ট্ৰসংঘৰ সাধাৰণ সভা সম্পৰ্কে কোনবোৰ উক্তি সত্য? (i) ই ৰাষ্ট্ৰসংঘৰ সৰ্ববৃহৎ অংগ। (ii) ইয়াত দহজন অস্থায়ী আৰু পাঁচজন স্থায়ী সদস্য আছে। (iii) ইয়াৰ মুখ্য কাম হৈছে ক্ষতিগ্ৰস্ত সদস্য ৰাষ্ট্ৰসমূহে দাখিল কৰা গোচৰ মীমাংসা কৰা।",
+      "options": [
+        {"en": "Only (i) is true", "as": "কেৱল (i) সত্য"},
+        {"en": "(i) and (ii) are true", "as": "(i) আৰু (ii) সত্য"},
+        {"en": "(ii) and (iii) are true", "as": "(ii) আৰু (iii) সত্য"},
+        {"en": "(i) and (iii) are true", "as": "(i) আৰু (iii) সত্য"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Identify the incorrect statements relating to cheque money. (i) A cheque has general acceptability as a medium of exchange. (ii) Refusal to accept cheque money means violation of law. (iii) Cheque money is generated through economic offence. (iv) A cheque is a claim against money and can be encashed at a bank counter. (v) Only the Central Bank has the right to print and circulate cheque money.",
+      "as": "চেক মুদ্ৰা সম্পৰ্কে তলৰ ভুল উক্তিসমূহ চিনাক্ত কৰা। (i) বিনিময়ৰ মাধ্যম হিচাপে চেকৰ সাধাৰণ গ্ৰহণযোগ্যতা আছে। (ii) চেক মুদ্ৰা গ্ৰহণ কৰিবলৈ অস্বীকাৰ কৰাটো আইন ভংগ বুজায়। (iii) চেক মুদ্ৰা অৰ্থনৈতিক অপৰাধৰ জৰিয়তে সৃষ্টি হয়। (iv) চেক হৈছে মুদ্ৰাৰ দাবীৰ আদেশ আৰু বেংকৰ কাউণ্টাৰত নগদীকৰণ কৰিব পাৰি। (v) কেৱল কেন্দ্ৰীয় বেংকেহে চেক মুদ্ৰা ছপা আৰু প্ৰচলন কৰিব পাৰে।",
+      "options": [
+        {"en": "(i), (ii), (iii), (v)", "as": "(i), (ii), (iii), (v)"},
+        {"en": "(i), (ii), (iv), (v)", "as": "(i), (ii), (iv), (v)"},
+        {"en": "(ii), (iii), (iv), (v)", "as": "(ii), (iii), (iv), (v)"},
+        {"en": "(i), (iii), (iv), (v)", "as": "(i), (iii), (iv), (v)"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Romen opens an account with Rs. 20,000. After three months, he deposits Rs. 3,000 again. At the end of the financial year, the bank credits Rs. 550 as interest. What type of bank account does he have?",
+      "as": "ৰমেনে ২০,০০০ টকাৰে এটা একাউণ্ট খোলে। তিনিমাহৰ পিছত তেওঁ পুনৰ ৩,০০০ টকা জমা দিয়ে। বিত্তীয় বৰ্ষৰ শেষত বেংকে ৫৫০ টকা সুদ জমা কৰে। তেওঁৰ একাউণ্টটো কোন ধৰণৰ?",
+      "options": [
+        {"en": "Current Deposit Account", "as": "চলিত জমা একাউণ্ট"},
+        {"en": "Fixed Deposit Account", "as": "স্থায়ী জমা একাউণ্ট"},
+        {"en": "Recurring Deposit Account", "as": "পুনৰাবৃত্তি জমা একাউণ্ট"},
+        {"en": "Savings Deposit Account", "as": "সঞ্চয় জমা একাউণ্ট"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Assertion (A): Money is the most liquid asset. Reason (R): Money can be converted directly and immediately into goods and services that the holder wants.",
+      "as": "দাবী (A): মুদ্ৰা হৈছে আটাইতকৈ তৰল সম্পদ। কাৰণ (R): মুদ্ৰাক ধাৰকে বিচৰা সামগ্ৰী আৰু সেৱালৈ তৎক্ষণাৎ আৰু প্ৰত্যক্ষভাৱে ৰূপান্তৰ কৰিব পাৰি।",
+      "options": [
+        {"en": "(A) is true, but (R) is false.", "as": "(A) সত্য, কিন্তু (R) অসত্য।"},
+        {"en": "Both (A) and (R) are true; and (R) is the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; আৰু (R), (A)-ৰ সঠিক ব্যাখ্যা।"},
+        {"en": "(A) is false, but (R) is true.", "as": "(A) অসত্য, কিন্তু (R) সত্য।"},
+        {"en": "Both (A) and (R) are true; but (R) is not the correct explanation of (A).", "as": "(A) আৰু (R) দুয়োটা সত্য; কিন্তু (R), (A)-ৰ সঠিক ব্যাখ্যা নহয়।"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Consider the statements: (i) Economic development is a qualitative concept, but economic growth is a quantitative concept. (ii) Economic development is a narrow concept, whereas economic growth is broader.",
+      "as": "উক্তিসমূহ বিবেচনা কৰি সঠিক উত্তৰ বাছনি কৰা: (i) অৰ্থনৈতিক উন্নয়ন গুণগত ধাৰণা, কিন্তু অৰ্থনৈতিক বৃদ্ধি পৰিমাণগত ধাৰণা। (ii) অৰ্থনৈতিক উন্নয়ন সংকীৰ্ণ ধাৰণা, কিন্তু অৰ্থনৈতিক বৃদ্ধি বহল ধাৰণা।",
+      "options": [
+        {"en": "(i) is true, (ii) is true", "as": "(i) সত্য, (ii) সত্য"},
+        {"en": "(i) is true, (ii) is false", "as": "(i) সত্য, (ii) অসত্য"},
+        {"en": "(i) is false, (ii) is false", "as": "(i) অসত্য, (ii) অসত্য"},
+        {"en": "(i) is false, (ii) is true", "as": "(i) অসত্য, (ii) সত্য"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The Chairman of NITI Aayog is:",
+      "as": "নীতি আয়োগৰ অধ্যক্ষ হৈছে:",
+      "options": [
+        {"en": "The President", "as": "ৰাষ্ট্ৰপতি"},
+        {"en": "The Union Finance Minister", "as": "কেন্দ্ৰীয় বিত্তমন্ত্ৰী"},
+        {"en": "The Prime Minister", "as": "প্ৰধানমন্ত্ৰী"},
+        {"en": "The Vice President", "as": "উপ-ৰাষ্ট্ৰপতি"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Match the planning types: (i) Democratic Planning, (ii) Economic Planning, (iii) Grassroot Planning; with (a) involves the lowest level of administration, (b) people participate at different stages, (c) attaining well-defined developmental objectives.",
+      "as": "তলৰবোৰ মিলাই সঠিক উত্তৰ বাছনি কৰা: (i) গণতান্ত্ৰিক পৰিকল্পনা, (ii) অৰ্থনৈতিক পৰিকল্পনা, (iii) তৃণমূল পৰিকল্পনা; (a) পৰিকল্পনাত প্ৰশাসনৰ নিম্নতম স্তৰক জড়িত কৰে, (b) পৰিকল্পনা প্ৰস্তুতিৰ বিভিন্ন স্তৰত জনসাধাৰণে অংশগ্ৰহণ কৰে, (c) নিৰ্দিষ্ট উন্নয়নমূলক উদ্দেশ্যসমূহ লাভ কৰা।",
+      "options": [
+        {"en": "(i)-(a), (ii)-(c), (iii)-(b)", "as": "(i)-(a), (ii)-(c), (iii)-(b)"},
+        {"en": "(i)-(c), (ii)-(a), (iii)-(b)", "as": "(i)-(c), (ii)-(a), (iii)-(b)"},
+        {"en": "(i)-(c), (ii)-(b), (iii)-(a)", "as": "(i)-(c), (ii)-(b), (iii)-(a)"},
+        {"en": "(i)-(b), (ii)-(c), (iii)-(a)", "as": "(i)-(b), (ii)-(c), (iii)-(a)"}
+      ],
+      "answer": 3
+    }
+  ]
+}

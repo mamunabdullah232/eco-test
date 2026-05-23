@@ -1388,6 +1388,19 @@ const class10SocialScience = {
         {en:"Chapter 1 - Money and Banking", as:"অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"},
         {en:"Chapter 2 - Economic Development", as:"অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"}
       ]
+    },
+    {
+      name:{en:"Mock Test on Previous Year MCQ", as:"পূৰ্বৱৰ্ষৰ MCQ-ভিত্তিক মক টেষ্ট"},
+      finalPapers:[
+        {
+          label:{en:"HSLC 2025 Final Social Science Mock Test", as:"HSLC ২০২৫ চূড়ান্ত সমাজ বিজ্ঞান মক টেষ্ট"},
+          file:"mock-tests/class-10/social-science/previous-year-mcq/hslc-2025-final-social-science-mock-test.json"
+        },
+        {
+          label:{en:"HSLC 2024 Final Social Science Mock Test", as:"HSLC ২০২৪ চূড়ান্ত সমাজ বিজ্ঞান মক টেষ্ট"},
+          file:"mock-tests/class-10/social-science/previous-year-mcq/hslc-2024-final-social-science-mock-test.json"
+        }
+      ]
     }
   ]
 };
@@ -1638,6 +1651,10 @@ function class10EnglishFinalTestLink(year){
   return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-" + year + "-final-english-mcq.json");
 }
 
+function jsonMockTestLink(file){
+  return "mock-test.html?file=" + encodeURIComponent(file);
+}
+
 function class10SocialScienceTestFile(parts, subjectSlug, test){
   return [
     "mock-tests",
@@ -1785,7 +1802,14 @@ function makeSubjectItems(group, subject){
       label:chapterGroup.name,
       next:{
         title:chapterGroup.name,
-        items:makeChapterItems(group, subject, chapterGroup)
+        items:chapterGroup.finalPapers
+          ? chapterGroup.finalPapers.map(paper => ({
+              label:paper.label,
+              href:jsonMockTestLink(paper.file),
+              status:"available",
+              test:true
+            }))
+          : makeChapterItems(group, subject, chapterGroup)
       }
     }));
   }

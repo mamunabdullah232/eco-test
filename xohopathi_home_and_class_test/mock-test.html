@@ -369,6 +369,11 @@ function formatTime(seconds){
   return `${mins}:${secs}`;
 }
 
+function assameseNumber(value){
+  const digits = ["০","১","২","৩","৪","৫","৬","৭","৮","৯"];
+  return String(value).replace(/\d/g, digit => digits[Number(digit)]);
+}
+
 function updateTimer(){
   timer.textContent = formatTime(remainingSeconds);
   if(remainingSeconds <= 0){
@@ -386,8 +391,8 @@ function startTimer(){
 }
 
 function renderStart(){
-  const questionCaption = testSet.englishOnly ? "" : "<span>১০টা প্ৰশ্ন</span>";
-  const minuteCaption = testSet.englishOnly ? "" : "<span>১০ মিনিট</span>";
+  const questionCaption = testSet.englishOnly ? "" : `<span>${assameseNumber(testSet.questions.length)}টা প্ৰশ্ন</span>`;
+  const minuteCaption = testSet.englishOnly ? "" : `<span>${assameseNumber(testSet.durationMinutes)} মিনিট</span>`;
   const markingCaption = testSet.englishOnly ? "" : "<span>শুদ্ধত +১, ভুলত -০.২৫</span>";
   const startButtonLabel = testSet.englishOnly ? "Start Test" : "Start Test / টেষ্ট আৰম্ভ কৰক";
   content.innerHTML = `

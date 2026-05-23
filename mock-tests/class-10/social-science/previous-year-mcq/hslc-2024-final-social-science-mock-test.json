@@ -1,0 +1,507 @@
+{
+  "className": {"en": "Class 10", "as": "শ্ৰেণী ১০"},
+  "subject": {"en": "Social Science", "as": "সমাজ বিজ্ঞান"},
+  "section": {"en": "Previous Year MCQ", "as": "পূৰ্বৱৰ্ষৰ MCQ"},
+  "chapter": {"en": "HSLC 2024 Final Social Science", "as": "HSLC ২০২৪ চূড়ান্ত সমাজ বিজ্ঞান"},
+  "test": {"en": "Mock Test", "as": "মক টেষ্ট"},
+  "durationMinutes": 45,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "\"The United Bengal is a big force; the partition will destroy this big unity.\" Whose quote was this?",
+      "as": "\"একত্ৰিত বংগ এক বৃহৎ শক্তি; বিভাজনে এই বৃহৎ ঐক্য ধ্বংস কৰিব।\" এই উক্তিটো কাৰ আছিল?",
+      "options": [
+        {"en": "Secretary of State for India, Herbert Risley", "as": "ভাৰত সচিব হাৰ্বাৰ্ট ৰিজলী"},
+        {"en": "Lord Curzon", "as": "লৰ্ড কাৰ্জন"},
+        {"en": "William Ward", "as": "উইলিয়াম ৱাৰ্ড"},
+        {"en": "Lord William Bentinck", "as": "লৰ্ড উইলিয়াম বেণ্টিংক"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which decisions were announced in the Royal Proclamation of Delhi on 12 December, 1911? (i) Reunification of Bengal. (ii) Shifting India's capital from Calcutta to Delhi. (iii) Assam's capital was again shifted to Shillong. (iv) Assam came under the Chief Commissioner.",
+      "as": "১৯১১ চনৰ ১২ ডিচেম্বৰত দিল্লীত ঘোষিত ৰাজ-ঘোষণাত কোনবোৰ সিদ্ধান্ত ঘোষণা কৰা হৈছিল? (i) বংগৰ পুনৰ একত্ৰীকৰণ। (ii) ভাৰতৰ ৰাজধানী কলকাতাৰ পৰা দিল্লীলৈ স্থানান্তৰ। (iii) অসমৰ ৰাজধানী পুনৰ শ্বিলংলৈ স্থানান্তৰ। (iv) অসমৰ প্ৰশাসন মুখ্য আয়ুক্তৰ অধীনলৈ যায়।",
+      "options": [
+        {"en": "(i), (ii)", "as": "(i), (ii)"},
+        {"en": "(iii), (iv)", "as": "(iii), (iv)"},
+        {"en": "(i), (ii), (iv)", "as": "(i), (ii), (iv)"},
+        {"en": "(i), (ii), (iii), (iv)", "as": "(i), (ii), (iii), (iv)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "In which country did Gandhi first apply the technique of Satyagraha?",
+      "as": "গান্ধীয়ে সত্যাগ্ৰহৰ কৌশল প্ৰথমে কোন দেশত প্ৰয়োগ কৰিছিল?",
+      "options": [
+        {"en": "India", "as": "ভাৰত"},
+        {"en": "South Africa", "as": "দক্ষিণ আফ্ৰিকা"},
+        {"en": "England", "as": "ইংলেণ্ড"},
+        {"en": "Egypt", "as": "ইজিপ্ত"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "\"Give me blood and I shall give you freedom.\" This famous quote is attributed to which Indian leader?",
+      "as": "\"তোমালোকে মোক তেজ দিয়া, মই তোমালোকক স্বাধীনতা দিম।\" এই বিখ্যাত উক্তিটো কোন ভাৰতীয় নেতাৰ?",
+      "options": [
+        {"en": "Mahatma Gandhi", "as": "মহাত্মা গান্ধী"},
+        {"en": "Bal Gangadhar Tilak", "as": "বাল গংগাধৰ তিলক"},
+        {"en": "Dadabhai Naoroji", "as": "দাদাভাই নৌৰোজী"},
+        {"en": "Netaji Subhas Chandra Bose", "as": "নেতাজী সুভাষ চন্দ্ৰ বসু"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "On which date was Direct Action Day observed?",
+      "as": "প্ৰত্যক্ষ কাৰ্যসূচী দিৱস কোন তাৰিখে পালন কৰা হৈছিল?",
+      "options": [
+        {"en": "16 August, 1946", "as": "১৬ আগষ্ট, ১৯৪৬"},
+        {"en": "16 October, 1946", "as": "১৬ অক্টোবৰ, ১৯৪৬"},
+        {"en": "16 July, 1946", "as": "১৬ জুলাই, ১৯৪৬"},
+        {"en": "20 February, 1947", "as": "২০ ফেব্ৰুৱাৰী, ১৯৪৭"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "When was slavery banned in Assam?",
+      "as": "অসমত দাস প্ৰথা কেতিয়া নিষিদ্ধ কৰা হৈছিল?",
+      "options": [
+        {"en": "In 1829", "as": "১৮২৯ চনত"},
+        {"en": "In 1843", "as": "১৮৪৩ চনত"},
+        {"en": "In 1856", "as": "১৮৫৬ চনত"},
+        {"en": "In 1870", "as": "১৮৭০ চনত"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The peasant revolt that took place in 1861 was:",
+      "as": "১৮৬১ চনত সংঘটিত কৃষক বিদ্ৰোহটো আছিল:",
+      "options": [
+        {"en": "Peasant Revolt of Rangia", "as": "ৰঙিয়াৰ কৃষক বিদ্ৰোহ"},
+        {"en": "Peasant Revolt of Lachima", "as": "লাচিমাৰ কৃষক বিদ্ৰোহ"},
+        {"en": "Peasant Revolt of Patharughat", "as": "পথৰুঘাটৰ কৃষক বিদ্ৰোহ"},
+        {"en": "Phulaguri Dhawa", "as": "ফুলগুৰি ধেৱা"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Who led the revolt of the ethnic tribes of North Cachar in 1881?",
+      "as": "১৮৮১ চনত উত্তৰ কাছাৰৰ জনজাতীয় বিদ্ৰোহৰ নেতৃত্ব কোনে দিছিল?",
+      "options": [
+        {"en": "Veer Tikendrajit", "as": "বীৰ টিকেন্দ্ৰজিত"},
+        {"en": "Sambhudhan Phonglosa", "as": "শম্ভুধন ফংলচা"},
+        {"en": "Ukiang Nongbah", "as": "উকিয়াং নংবাহ"},
+        {"en": "Raja Kulachandra", "as": "ৰজা কুলচন্দ্ৰ"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Assam Chatra Sanmilan was formed in the year:",
+      "as": "অসম ছাত্ৰ সন্মিলন কোন চনত গঠিত হৈছিল?",
+      "options": [
+        {"en": "1916", "as": "১৯১৬"},
+        {"en": "1917", "as": "১৯১৭"},
+        {"en": "1918", "as": "১৯১৮"},
+        {"en": "1920", "as": "১৯২০"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Where was the first medical college of North-East India established?",
+      "as": "উত্তৰ-পূব ভাৰতৰ প্ৰথমখন চিকিৎসা মহাবিদ্যালয় ক’ত স্থাপন কৰা হৈছিল?",
+      "options": [
+        {"en": "Guwahati", "as": "গুৱাহাটী"},
+        {"en": "Silchar", "as": "শিলচৰ"},
+        {"en": "Jorhat", "as": "যোৰহাট"},
+        {"en": "Dibrugarh", "as": "ডিব্ৰুগড়"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which litterateurs are known as the Trimurti of the Jonaki Age? (i) Gunabhiram Barua, (ii) Hemchandra Goswami, (iii) Lakshminath Bezbarua, (iv) Chandra Kumar Agarwala.",
+      "as": "জোনাকী যুগৰ \"ত্ৰিমূৰ্তি\" বুলি কোনকেইজন সাহিত্যিকক জনা যায়? (i) গুণাভিৰাম বৰুৱা, (ii) হেমচন্দ্ৰ গোস্বামী, (iii) লক্ষ্মীনাথ বেজবৰুৱা, (iv) চন্দ্ৰকুমাৰ আগৰৱালা।",
+      "options": [
+        {"en": "(i), (ii), (iii)", "as": "(i), (ii), (iii)"},
+        {"en": "(ii), (iii), (iv)", "as": "(ii), (iii), (iv)"},
+        {"en": "(i), (iii), (iv)", "as": "(i), (iii), (iv)"},
+        {"en": "(i), (ii), (iv)", "as": "(i), (ii), (iv)"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who wrote the Rajatarangini?",
+      "as": "ৰাজতৰঙ্গিণী কোনে ৰচনা কৰিছিল?",
+      "options": [
+        {"en": "Kautilya", "as": "কৌটিল্য"},
+        {"en": "Aryabhatta", "as": "আৰ্যভট্ট"},
+        {"en": "Kalhana", "as": "কলহন"},
+        {"en": "Patanjali", "as": "পতঞ্জলি"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "To which ethnic group does the Khasi tribe of Meghalaya belong?",
+      "as": "মেঘালয়ৰ খাছি জনজাতি কোন নৃগোষ্ঠীৰ অন্তৰ্গত?",
+      "options": [
+        {"en": "Negrito group", "as": "নিগ্ৰিটো গোষ্ঠী"},
+        {"en": "Austric group", "as": "অষ্ট্ৰিক গোষ্ঠী"},
+        {"en": "Dravidian group", "as": "দ্ৰাবিড় গোষ্ঠী"},
+        {"en": "Mongoloid group", "as": "মংগোলীয় গোষ্ঠী"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Chapchar Kut is a traditional festival of which state?",
+      "as": "চাপচাৰ কুট কোন ৰাজ্যৰ পৰম্পৰাগত উৎসৱ?",
+      "options": [
+        {"en": "Manipur", "as": "মণিপুৰ"},
+        {"en": "Tripura", "as": "ত্ৰিপুৰা"},
+        {"en": "Mizoram", "as": "মিজোৰাম"},
+        {"en": "Meghalaya", "as": "মেঘালয়"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Who first introduced prose literature in Assamese?",
+      "as": "অসমীয়া গদ্য সাহিত্যৰ সূচনা কোনে কৰিছিল?",
+      "options": [
+        {"en": "Bhattadeva", "as": "ভট্টদেৱ"},
+        {"en": "Sankardeva", "as": "শংকৰদেৱ"},
+        {"en": "Madhab Kandali", "as": "মাধৱ কন্দলি"},
+        {"en": "Ananta Kandali", "as": "অনন্ত কন্দলি"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Which one of the following is a non-renewable resource?",
+      "as": "তলৰ কোনটো অনবীকৰণযোগ্য সম্পদ?",
+      "options": [
+        {"en": "Crop", "as": "শস্য"},
+        {"en": "Mineral oil", "as": "খনিজ তেল"},
+        {"en": "Water", "as": "পানী"},
+        {"en": "Forest", "as": "অৰণ্য"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which one of the following is not included in tertiary occupation?",
+      "as": "তলৰ কোনটো তৃতীয়ক বৃত্তিৰ অন্তৰ্গত নহয়?",
+      "options": [
+        {"en": "Transport", "as": "পৰিবহণ"},
+        {"en": "Communication", "as": "যোগাযোগ"},
+        {"en": "Mineral resource collection", "as": "খনিজ সম্পদ আহৰণ"},
+        {"en": "Tourism", "as": "পৰ্যটন"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which one of the following animals is about to be extinct?",
+      "as": "তলৰ কোনটো প্ৰাণী বিলুপ্তপ্ৰায়?",
+      "options": [
+        {"en": "One-horned Rhino", "as": "এশিঙীয়া গঁড়"},
+        {"en": "Gayal or Mithun", "as": "মিথুন"},
+        {"en": "Greater Adjutant Stork", "as": "হাড়গিলা"},
+        {"en": "Elephant", "as": "হাতী"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which of the following is not an example of greenhouse gas?",
+      "as": "তলৰ কোনটো সেউজগৃহ গেছৰ উদাহৰণ নহয়?",
+      "options": [
+        {"en": "Carbon dioxide", "as": "কাৰ্বন ডাই-অক্সাইড"},
+        {"en": "Methane", "as": "মিথেন"},
+        {"en": "Nitrous oxide", "as": "নাইট্ৰাছ অক্সাইড"},
+        {"en": "Oxygen", "as": "অক্সিজেন"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "An example of a local environmental problem is:",
+      "as": "স্থানীয় পৰিৱেশগত সমস্যাৰ এটা উদাহৰণ হৈছে:",
+      "options": [
+        {"en": "Rise of sea level", "as": "সাগৰৰ জলস্তৰ বৃদ্ধি"},
+        {"en": "Flood problem of Brahmaputra Valley", "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ বানপানীৰ সমস্যা"},
+        {"en": "Limited land pollution caused by a small-scale industry", "as": "ক্ষুদ্ৰ উদ্যোগৰ ফলত হোৱা সীমিত ভূমি প্ৰদূষণ"},
+        {"en": "Desertification problem in North America", "as": "উত্তৰ আমেৰিকাৰ মৰুকৰণ সমস্যা"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is the largest country in the world in terms of land area?",
+      "as": "ভূমিৰ ক্ষেত্ৰফলৰ হিচাপত পৃথিৱীৰ সৰ্ববৃহৎ দেশ কোনখন?",
+      "options": [
+        {"en": "Australia", "as": "অষ্ট্ৰেলিয়া"},
+        {"en": "Canada", "as": "কানাডা"},
+        {"en": "Russia", "as": "ৰাছিয়া"},
+        {"en": "China", "as": "চীন"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which sea has separated the continents of Asia and Africa?",
+      "as": "এছিয়া আৰু আফ্ৰিকা মহাদেশক কোন সাগৰে পৃথক কৰিছে?",
+      "options": [
+        {"en": "Mediterranean Sea", "as": "ভূমধ্য সাগৰ"},
+        {"en": "Red Sea", "as": "লোহিত সাগৰ"},
+        {"en": "Caspian Sea", "as": "কাস্পিয়ান সাগৰ"},
+        {"en": "Arabian Sea", "as": "আৰব সাগৰ"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Cairo is the capital of which country?",
+      "as": "কায়ৰো কোন দেশৰ ৰাজধানী?",
+      "options": [
+        {"en": "Israel", "as": "ইজৰাইল"},
+        {"en": "Egypt", "as": "ইজিপ্ত"},
+        {"en": "Japan", "as": "জাপান"},
+        {"en": "Ukraine", "as": "ইউক্ৰেইন"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "As per the Census of India, 2011, what was the literacy rate in Assam?",
+      "as": "২০১১ চনৰ ভাৰতৰ লোকপিয়ল অনুসৰি অসমৰ সাক্ষৰতাৰ হাৰ কিমান আছিল?",
+      "options": [
+        {"en": "63.25%", "as": "৬৩.২৫%"},
+        {"en": "72.19%", "as": "৭২.১৯%"},
+        {"en": "87.10%", "as": "৮৭.১০%"},
+        {"en": "85.90%", "as": "৮৫.৯০%"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "As per the 2011 Census, arrange the first-class towns of Assam from higher to gradually lower population.",
+      "as": "২০১১ চনৰ লোকপিয়ল অনুসৰি, অধিক জনসংখ্যাৰ পৰা ক্ৰমে কম জনসংখ্যালৈ অসমৰ প্ৰথম শ্ৰেণীৰ নগৰসমূহ সজোৱা।",
+      "options": [
+        {"en": "Guwahati - Silchar - Dibrugarh - Jorhat", "as": "গুৱাহাটী - শিলচৰ - ডিব্ৰুগড় - যোৰহাট"},
+        {"en": "Guwahati - Silchar - Jorhat - Dibrugarh", "as": "গুৱাহাটী - শিলচৰ - যোৰহাট - ডিব্ৰুগড়"},
+        {"en": "Guwahati - Silchar - Dibrugarh - Nagaon", "as": "গুৱাহাটী - শিলচৰ - ডিব্ৰুগড় - নগাঁও"},
+        {"en": "Guwahati - Dibrugarh - Silchar - Jorhat", "as": "গুৱাহাটী - ডিব্ৰুগড় - শিলচৰ - যোৰহাট"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The first, second and third largest tribes of Assam by population are:",
+      "as": "জনসংখ্যাৰ ভিত্তিত অসমৰ প্ৰথম, দ্বিতীয় আৰু তৃতীয় বৃহত্তম জনজাতিসমূহ হৈছে:",
+      "options": [
+        {"en": "Mishings - Bodos - Karbis", "as": "মিচিং - বড়ো - কাৰ্বি"},
+        {"en": "Bodos - Mishings - Karbis", "as": "বড়ো - মিচিং - কাৰ্বি"},
+        {"en": "Karbis - Mishings - Bodos", "as": "কাৰ্বি - মিচিং - বড়ো"},
+        {"en": "Bodos - Karbis - Mishings", "as": "বড়ো - কাৰ্বি - মিচিং"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The longest National Highway in Assam is:",
+      "as": "অসমৰ ভিতৰত সৰ্বাধিক দীঘল ৰাষ্ট্ৰীয় ঘাইপথটো হৈছে:",
+      "options": [
+        {"en": "National Highway 31", "as": "ৰাষ্ট্ৰীয় ঘাইপথ ৩১"},
+        {"en": "National Highway 37", "as": "ৰাষ্ট্ৰীয় ঘাইপথ ৩৭"},
+        {"en": "National Highway 52", "as": "ৰাষ্ট্ৰীয় ঘাইপথ ৫২"},
+        {"en": "National Highway 54", "as": "ৰাষ্ট্ৰীয় ঘাইপথ ৫৪"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Which is the largest agro-based industry in Assam?",
+      "as": "অসমৰ সৰ্ববৃহৎ কৃষিভিত্তিক উদ্যোগ কোনটো?",
+      "options": [
+        {"en": "Rubber industry", "as": "ৰবৰ উদ্যোগ"},
+        {"en": "Silk industry", "as": "ৰেচম উদ্যোগ"},
+        {"en": "Paper industry", "as": "কাগজ উদ্যোগ"},
+        {"en": "Tea industry", "as": "চাহ উদ্যোগ"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which person was a member of the Drafting Committee of the Constitution of India?",
+      "as": "তলৰ কোনজন ব্যক্তি ভাৰতৰ সংবিধান খচৰা কমিটীৰ সদস্য আছিল?",
+      "options": [
+        {"en": "Dr. Rajendra Prasad", "as": "ড° ৰাজেন্দ্ৰ প্ৰসাদ"},
+        {"en": "Dr. Sachchidananda Sinha", "as": "ড° সচ্চিদানন্দ সিনহা"},
+        {"en": "Syed Muhammad Sadulla", "as": "ছৈয়দ মুহাম্মদ ছাদুল্লা"},
+        {"en": "Gopinath Bordoloi", "as": "গোপীনাথ বৰদলৈ"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Find the features of the federal system of India. (i) Provision of separate constitution for constituent states. (ii) Dual citizenship.",
+      "as": "ভাৰতৰ যুক্তৰাষ্ট্ৰীয় ব্যৱস্থাৰ বৈশিষ্ট্য বাছনি কৰা। (i) অংগৰাজ্যসমূহৰ বাবে পৃথক সংবিধানৰ ব্যৱস্থা। (ii) দ্বৈত নাগৰিকত্ব।",
+      "options": [
+        {"en": "Only (i) is correct", "as": "কেৱল (i) সঠিক"},
+        {"en": "Only (ii) is correct", "as": "কেৱল (ii) সঠিক"},
+        {"en": "Both (i) and (ii) are correct", "as": "(i) আৰু (ii) দুয়োটা সঠিক"},
+        {"en": "Both (i) and (ii) are incorrect", "as": "(i) আৰু (ii) দুয়োটা ভুল"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "On which date is UN Day celebrated?",
+      "as": "ৰাষ্ট্ৰসংঘ দিৱস কোন তাৰিখে পালন কৰা হয়?",
+      "options": [
+        {"en": "24 August", "as": "২৪ আগষ্ট"},
+        {"en": "24 October", "as": "২৪ অক্টোবৰ"},
+        {"en": "21 June", "as": "২১ জুন"},
+        {"en": "5 September", "as": "৫ ছেপ্টেম্বৰ"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "How many member states are there in the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ সদস্য ৰাষ্ট্ৰৰ সংখ্যা কিমান?",
+      "options": [
+        {"en": "183", "as": "১৮৩"},
+        {"en": "193", "as": "১৯৩"},
+        {"en": "200", "as": "২০০"},
+        {"en": "173", "as": "১৭৩"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Who is the present Secretary-General of the UNO?",
+      "as": "ৰাষ্ট্ৰসংঘৰ বৰ্তমান সচিব প্ৰধান কোন?",
+      "options": [
+        {"en": "Trygve Halvdan Lie", "as": "ট্ৰিগভে হালভদান লী"},
+        {"en": "Antonio Guterres", "as": "এন্টোনিঅ' গুটেৰেছ"},
+        {"en": "Kofi Annan", "as": "কোফি আন্নান"},
+        {"en": "Ban Ki-moon", "as": "বান কি-মুন"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "Find the incorrect pair of International Organization and Headquarters.",
+      "as": "আন্তঃৰাষ্ট্ৰীয় সংস্থা আৰু মুখ্য কাৰ্যালয়ৰ ভুল যোৰটো বাছনি কৰা।",
+      "options": [
+        {"en": "NATO - Brussels", "as": "নাটো - ব্ৰাছেলছ"},
+        {"en": "International Cricket Council - New Delhi", "as": "আন্তঃৰাষ্ট্ৰীয় ক্ৰিকেট পৰিষদ - নতুন দিল্লী"},
+        {"en": "SAARC - Kathmandu", "as": "ছাৰ্ক - কাঠমাণ্ডু"},
+        {"en": "UNO - New York", "as": "ৰাষ্ট্ৰসংঘ - নিউয়ৰ্ক"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "On the recommendation of which organ of the UNO does the General Assembly appoint the Secretary-General?",
+      "as": "ৰাষ্ট্ৰসংঘৰ কোন অংগৰ পৰামৰ্শ অনুসৰি সাধাৰণ সভাই সচিব প্ৰধানক নিযুক্তি দিয়ে?",
+      "options": [
+        {"en": "International Court of Justice", "as": "আন্তঃৰাষ্ট্ৰীয় ন্যায়ালয়"},
+        {"en": "Economic and Social Council", "as": "অৰ্থনৈতিক আৰু সামাজিক পৰিষদ"},
+        {"en": "Trusteeship Council", "as": "ন্যাসৰক্ষী পৰিষদ"},
+        {"en": "Security Council", "as": "নিৰাপত্তা পৰিষদ"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Which are characteristics of money? (i) General acceptability. (ii) Homogeneity. (iii) Liquidity. (iv) Stability of value.",
+      "as": "তলৰ কোনবোৰ মুদ্ৰাৰ বৈশিষ্ট্য? (i) সাধাৰণ গ্ৰহণযোগ্যতা। (ii) একৰূপতা। (iii) তৰলতা। (iv) মূল্যৰ স্থিৰতা।",
+      "options": [
+        {"en": "(i), (ii), (iv)", "as": "(i), (ii), (iv)"},
+        {"en": "(ii), (iii), (iv)", "as": "(ii), (iii), (iv)"},
+        {"en": "(i), (iii), (iv)", "as": "(i), (iii), (iv)"},
+        {"en": "(i), (ii), (iii), (iv)", "as": "(i), (ii), (iii), (iv)"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Identify two primary functions of money. (i) Medium of exchange. (ii) Standard of measurement of values of goods and services. (iii) Standard of deferred payments. (iv) Store of value.",
+      "as": "মুদ্ৰাৰ দুটা মুখ্য কাৰ্য চিনাক্ত কৰা। (i) মুদ্ৰা বিনিময়ৰ মাধ্যম। (ii) মুদ্ৰাই সামগ্ৰী আৰু সেৱাৰ মূল্য মাপৰ মানদণ্ড হিচাপে কাম কৰে। (iii) মুদ্ৰাই স্থগিত পৰিশোধৰ মানদণ্ড হিচাপে কাম কৰে। (iv) মুদ্ৰাই মূল্য সংৰক্ষণৰ মাধ্যম হিচাপে কাম কৰে।",
+      "options": [
+        {"en": "(i) and (ii)", "as": "(i) আৰু (ii)"},
+        {"en": "(i) and (iii)", "as": "(i) আৰু (iii)"},
+        {"en": "(iii) and (iv)", "as": "(iii) আৰু (iv)"},
+        {"en": "(ii) and (iv)", "as": "(ii) আৰু (iv)"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "The name of the Central Bank of India is:",
+      "as": "ভাৰতৰ কেন্দ্ৰীয় বেংকৰ নাম হৈছে:",
+      "options": [
+        {"en": "State Bank of India", "as": "ভাৰতীয় ষ্টেট বেংক"},
+        {"en": "Bank of Hindustan", "as": "বেংক অৱ হিন্দুস্তান"},
+        {"en": "Reserve Bank of India", "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"},
+        {"en": "United Bank of India", "as": "ইউনাইটেড বেংক অৱ ইণ্ডিয়া"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Which is not a function of commercial banks?",
+      "as": "তলৰ কোনটো বাণিজ্যিক বেংকৰ কাৰ্য নহয়?",
+      "options": [
+        {"en": "Commercial banks mobilise savings.", "as": "বাণিজ্যিক বেংকে সঞ্চয় সংগ্ৰহ কৰে।"},
+        {"en": "Commercial banks offer loans.", "as": "বাণিজ্যিক বেংকে ঋণ প্ৰদান কৰে।"},
+        {"en": "Commercial banks can create credit money.", "as": "বাণিজ্যিক বেংকে ঋণ মুদ্ৰা সৃষ্টি কৰিব পাৰে।"},
+        {"en": "Commercial banks issue paper currency.", "as": "বাণিজ্যিক বেংকে কাগজী মুদ্ৰা জাৰি কৰে।"}
+      ],
+      "answer": 3
+    },
+    {
+      "en": "Where is the headquarters of NABARD situated?",
+      "as": "NABARD-ৰ মুখ্য কাৰ্যালয় ক’ত অৱস্থিত?",
+      "options": [
+        {"en": "Kolkata", "as": "কলকাতা"},
+        {"en": "Mumbai", "as": "মুম্বাই"},
+        {"en": "Chennai", "as": "চেন্নাই"},
+        {"en": "New Delhi", "as": "নতুন দিল্লী"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The period covered by the First Five-Year Plan in India was:",
+      "as": "ভাৰতৰ প্ৰথম পঞ্চবাৰ্ষিক পৰিকল্পনাই সামৰি লোৱা সময়কাল আছিল:",
+      "options": [
+        {"en": "1 April, 1951 - 31 March, 1956", "as": "১ এপ্ৰিল, ১৯৫১ - ৩১ মাৰ্চ, ১৯৫৬"},
+        {"en": "1 April, 1950 - 31 March, 1955", "as": "১ এপ্ৰিল, ১৯৫০ - ৩১ মাৰ্চ, ১৯৫৫"},
+        {"en": "1 April, 1956 - 31 March, 1961", "as": "১ এপ্ৰিল, ১৯৫৬ - ৩১ মাৰ্চ, ১৯৬১"},
+        {"en": "1 April, 1961 - 31 March, 1966", "as": "১ এপ্ৰিল, ১৯৬১ - ৩১ মাৰ্চ, ১৯৬৬"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "Who is the Chairman of NITI Aayog, formed in 2015?",
+      "as": "২০১৫ চনত গঠিত নীতি আয়োগৰ অধ্যক্ষ কোন?",
+      "options": [
+        {"en": "President of India", "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"},
+        {"en": "Prime Minister of India", "as": "ভাৰতৰ প্ৰধানমন্ত্ৰী"},
+        {"en": "Governor of RBI", "as": "ভাৰতীয় ৰিজাৰ্ভ বেংকৰ গৱৰ্ণৰ"},
+        {"en": "Vice-President of India", "as": "ভাৰতৰ উপ-ৰাষ্ট্ৰপতি"}
+      ],
+      "answer": 1
+    },
+    {
+      "en": "The act of lessening the degree of state control in the economic system of a country is called:",
+      "as": "দেশৰ অৰ্থনৈতিক ব্যৱস্থাত ৰাষ্ট্ৰীয় নিয়ন্ত্ৰণৰ মাত্ৰা হ্ৰাস কৰা কাৰ্যক কোৱা হয়:",
+      "options": [
+        {"en": "Financial inclusion", "as": "বিত্তীয় অন্তৰ্ভুক্তি"},
+        {"en": "Privatisation", "as": "ব্যক্তিগতকৰণ"},
+        {"en": "Liberalisation", "as": "উদাৰীকৰণ"},
+        {"en": "Globalisation", "as": "গোলকীকৰণ"}
+      ],
+      "answer": 2
+    },
+    {
+      "en": "Privatisation means:",
+      "as": "ব্যক্তিগতকৰণৰ অৰ্থ হৈছে:",
+      "options": [
+        {"en": "Opening up government sector units to the private sector", "as": "চৰকাৰী খণ্ডৰ প্ৰতিষ্ঠানসমূহ ব্যক্তিগত খণ্ডৰ বাবে মুকলি কৰি দিয়া"},
+        {"en": "Integration of a nation's economy with the world economy", "as": "দেশৰ অৰ্থনীতিৰ সৈতে বিশ্ব অৰ্থনীতিৰ সংযোগ স্থাপন"},
+        {"en": "Lessening state control in the economic system", "as": "অৰ্থনৈতিক ব্যৱস্থাত ৰাষ্ট্ৰীয় নিয়ন্ত্ৰণ হ্ৰাস কৰা"},
+        {"en": "Ensuring benefits of economic growth to all sections of society", "as": "অৰ্থনৈতিক উন্নয়নৰ সুফল সমাজৰ সকলো শ্ৰেণীৰ লোকলৈ নিশ্চিত কৰা"}
+      ],
+      "answer": 0
+    },
+    {
+      "en": "By dividing national income by the total population of a country, we get:",
+      "as": "দেশৰ মুঠ জাতীয় আয়ক মুঠ জনসংখ্যাৰে ভাগ কৰিলে পোৱা যায়:",
+      "options": [
+        {"en": "Per capita income", "as": "জনমূৰি আয়"},
+        {"en": "Human Development Index", "as": "মানৱ উন্নয়ন সূচক"},
+        {"en": "Life expectancy", "as": "প্ৰত্যাশিত আয়ু"},
+        {"en": "Gross Domestic Product", "as": "মুঠ ঘৰুৱা উৎপাদন"}
+      ],
+      "answer": 0
+    }
+  ]
+}
