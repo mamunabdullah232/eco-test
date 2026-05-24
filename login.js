@@ -4,6 +4,7 @@ import {
   googleProvider,
   signInWithRedirect,
   getRedirectResult,
+  onAuthStateChanged,
   doc,
   setDoc,
   serverTimestamp,
@@ -48,18 +49,37 @@ function finishLogin(role) {
 
 rememberRedirect();
 
+let loginFinished = false;
+
+async function handleSignedInUser(user) {
+  if (!user || loginFinished) return;
+  loginFinished = true;
+  statusText.textContent = "Login successful. Opening dashboard...";
+  const role = await saveUser(user);
+  finishLogin(role);
+}
+
 getRedirectResult(auth)
   .then(async (result) => {
     if (!result || !result.user) return;
-    statusText.textContent = "Login successful. Opening dashboard...";
-    const role = await saveUser(result.user);
-    finishLogin(role);
+    await handleSignedInUser(result.user);
   })
   .catch((error) => {
     console.error(error);
     statusText.textContent = "Login failed. Please check Google sign-in and authorized domains.";
     googleLoginBtn.disabled = false;
   });
+
+onAuthStateChanged(auth, async (user) => {
+  try {
+    await handleSignedInUser(user);
+  } catch (error) {
+    console.error(error);
+    loginFinished = false;
+    statusText.textContent = "Login successful, but dashboard could not open. Please try again.";
+    googleLoginBtn.disabled = false;
+  }
+});
 
 googleLoginBtn.addEventListener("click", async () => {
   statusText.textContent = "Opening Google sign-in...";
