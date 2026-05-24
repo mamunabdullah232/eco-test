@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xohopathi Login</title>
+  <style>
+    :root{--primary:#2563eb;--dark:#0f172a;--muted:#64748b;--bg:#f8fafc;--card:#fff;--border:#e2e8f0}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;font-family:Arial,sans-serif;background:linear-gradient(135deg,#eff6ff,#f8fafc);color:var(--dark);display:flex;align-items:center;justify-content:center;padding:24px}
+    .card{width:100%;max-width:420px;background:var(--card);border:1px solid var(--border);border-radius:22px;padding:32px;box-shadow:0 20px 45px rgba(15,23,42,.12);text-align:center}
+    .logo{width:64px;height:64px;border-radius:18px;display:inline-grid;place-items:center;background:#dbeafe;color:var(--primary);font-size:30px;font-weight:900;margin-bottom:14px}
+    h1{margin:0 0 8px;font-size:28px}
+    p{margin:0 0 24px;color:var(--muted);line-height:1.5}
+    button{width:100%;border:0;border-radius:14px;padding:14px 18px;font-size:16px;font-weight:700;cursor:pointer;background:var(--primary);color:white}
+    button:hover{background:#1d4ed8}
+    button:disabled{opacity:.65;cursor:wait}
+    .status{min-height:22px;margin-top:16px;color:#b91c1c;font-size:14px}
+    .home{display:inline-block;margin-top:18px;color:var(--primary);text-decoration:none;font-weight:700}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo">স</div>
+    <h1>Login to Xohopathi</h1>
+    <p>Students can sign in with Google to take protected mock tests and save scores.</p>
+    <button id="googleLoginBtn">Continue with Google</button>
+    <div class="status" id="statusText"></div>
+    <a class="home" href="/index.html">Back to Home</a>
+  </main>
+  <script type="module" src="/login.js"></script>
+</body>
+</html>
