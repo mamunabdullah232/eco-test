@@ -9,6 +9,8 @@ import {
   signInWithPopup,
   signInWithRedirect,
   getRedirectResult,
+  setPersistence,
+  browserLocalPersistence,
   onAuthStateChanged,
   signOut
 } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-auth.js";
@@ -57,6 +59,8 @@ export {
   signInWithPopup,
   signInWithRedirect,
   getRedirectResult,
+  setPersistence,
+  browserLocalPersistence,
   onAuthStateChanged,
   signOut,
   collection,
