@@ -44,6 +44,11 @@ async function saveUser(user) {
   return role;
 }
 
+function getUserRole(user) {
+  const email = (user.email || "").toLowerCase();
+  return email === ADMIN_EMAIL.toLowerCase() ? "admin" : "student";
+}
+
 function finishLogin(role) {
   const redirect = getRedirectUrl();
   sessionStorage.removeItem("xohopathiLoginRedirect");
@@ -59,7 +64,10 @@ async function handleSignedInUser(user) {
   if (!user || loginFinished) return;
   loginFinished = true;
   statusText.textContent = "Login successful. Opening dashboard...";
-  const role = await saveUser(user);
+  const role = getUserRole(user);
+  saveUser(user).catch((error) => {
+    console.warn("User profile could not be saved before redirect:", error);
+  });
   finishLogin(role);
 }
 
