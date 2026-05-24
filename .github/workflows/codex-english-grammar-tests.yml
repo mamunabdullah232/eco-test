@@ -21,10 +21,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          base64 -d english-grammar-tests.b64 > grammar.zip
           python - <<'PY'
           from pathlib import Path
+          import base64
           import zipfile
+
+          raw = Path('english-grammar-tests.b64').read_text(encoding='utf-8', errors='ignore')
+          alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
+          clean = ''.join(ch for ch in raw if ch in alphabet)
+          Path('grammar.zip').write_bytes(base64.b64decode(clean))
 
           def patch_index(path):
               if not path.exists():
