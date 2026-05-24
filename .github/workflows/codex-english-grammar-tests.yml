@@ -29,6 +29,7 @@ jobs:
           raw = Path('english-grammar-tests.b64').read_text(encoding='utf-8', errors='ignore')
           alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
           clean = ''.join(ch for ch in raw if ch in alphabet)
+          clean += '=' * (-len(clean) % 4)
           Path('grammar.zip').write_bytes(base64.b64decode(clean))
 
           def patch_index(path):
