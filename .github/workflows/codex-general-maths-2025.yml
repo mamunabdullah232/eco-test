@@ -1,0 +1,165 @@
+name: Publish HSLC General Mathematics mock test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/codex-general-maths-2025.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Add General Mathematics mock test and navigation
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import base64, gzip
+
+          b64_json = '''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'''
+
+          subject_code = '''const class10GeneralMathematics = {
+            name:{en:"General Mathematics", as:"সাধাৰণ গণিত"},
+            finalPapers:[
+              {
+                label:{en:"HSLC 2025 Final General Mathematics Mock Test", as:"HSLC ২০২৫ চূড়ান্ত সাধাৰণ গণিত মক টেষ্ট"},
+                file:"mock-tests/class-10/general-mathematics/hslc-2025-final-general-mathematics-mcq.json"
+              }
+            ]
+          };
+          '''
+
+          subject_final_papers = '''function makeSubjectItems(group, subject){
+            if(subject.finalPapers){
+              return subject.finalPapers.map(paper => ({
+                label:paper.label,
+                href:jsonMockTestLink(paper.file),
+                status:"available",
+                test:true
+              }));
+            }
+
+            if(subject.chapterGroups){'''
+
+          old_shuffle = '''function shuffleQuestionOptions(set){
+            if(!set || !Array.isArray(set.questions)) return set;
+            set.questions = set.questions.map(function(question){
+              const oldAnswer = Number(question.answer);
+              const choices = Array.isArray(question.options)
+                ? question.options.map(function(option, index){ return { option, originalIndex:index }; })
+                : [];
+
+              if(choices.length < 2 || !Number.isInteger(oldAnswer)){
+                return question;
+              }
+
+              for(let index = choices.length - 1; index > 0; index -= 1){
+                const randomIndex = Math.floor(Math.random() * (index + 1));
+                const current = choices[index];
+                choices[index] = choices[randomIndex];
+                choices[randomIndex] = current;
+              }
+
+              const newAnswer = choices.findIndex(function(choice){
+                return choice.originalIndex === oldAnswer;
+              });
+
+              return {
+                ...question,
+                options: choices.map(function(choice){ return choice.option; }),
+                answer: newAnswer >= 0 ? newAnswer : oldAnswer
+              };
+            });
+            return set;
+          }'''
+
+          new_shuffle = '''function shuffleQuestionOptions(set){
+            if(!set || !Array.isArray(set.questions)) return set;
+            set.questions = set.questions.map(function(question){
+              const originalAnswers = Array.isArray(question.answer)
+                ? question.answer.map(Number)
+                : [Number(question.answer)];
+              const choices = Array.isArray(question.options)
+                ? question.options.map(function(option, index){ return { option, originalIndex:index }; })
+                : [];
+
+              if(choices.length < 2 || originalAnswers.some(function(answer){ return !Number.isInteger(answer); })){
+                return question;
+              }
+
+              for(let index = choices.length - 1; index > 0; index -= 1){
+                const randomIndex = Math.floor(Math.random() * (index + 1));
+                const current = choices[index];
+                choices[index] = choices[randomIndex];
+                choices[randomIndex] = current;
+              }
+
+              const newAnswers = originalAnswers.map(function(oldAnswer){
+                return choices.findIndex(function(choice){
+                  return choice.originalIndex === oldAnswer;
+                });
+              }).filter(function(answer){ return answer >= 0; });
+
+              const normalizedAnswers = newAnswers.length ? newAnswers : originalAnswers;
+
+              return {
+                ...question,
+                options: choices.map(function(choice){ return choice.option; }),
+                answer:Array.isArray(question.answer) ? normalizedAnswers : normalizedAnswers[0]
+              };
+            });
+            return set;
+          }
+
+          function isCorrectAnswer(question, optionIndex){
+            const answers = Array.isArray(question.answer) ? question.answer : [question.answer];
+            return answers.map(Number).includes(optionIndex);
+          }'''
+
+          for prefix in ('', 'xohopathi_home_and_class_test/'):
+            json_path = Path(prefix) / 'mock-tests/class-10/general-mathematics/hslc-2025-final-general-mathematics-mcq.json'
+            json_path.parent.mkdir(parents=True, exist_ok=True)
+            json_path.write_bytes(gzip.decompress(base64.b64decode(b64_json)))
+
+            index_path = Path(prefix) / 'index.html'
+            index = index_path.read_text(encoding='utf-8')
+            if 'class10GeneralMathematics' not in index:
+              anchor = 'const class9SocialScience = {\n'
+              if anchor not in index:
+                raise RuntimeError('Class 9 anchor missing in ' + str(index_path))
+              index = index.replace(anchor, subject_code + anchor, 1)
+            index = index.replace('      ? [juniorMockSubjects[0], class10SocialScience]\n', '      ? [juniorMockSubjects[0], class10GeneralMathematics, class10SocialScience]\n', 1)
+            if 'if(subject.finalPapers){\n    return subject.finalPapers.map' not in index and 'if(subject.finalPapers){\n              return subject.finalPapers.map' not in index:
+              anchor = 'function makeSubjectItems(group, subject){\n  if(subject.chapterGroups){'
+              if anchor not in index:
+                raise RuntimeError('Subject items anchor missing in ' + str(index_path))
+              index = index.replace(anchor, subject_final_papers, 1)
+            index_path.write_text(index, encoding='utf-8')
+
+            quiz_path = Path(prefix) / 'mock-test.html'
+            quiz = quiz_path.read_text(encoding='utf-8')
+            if 'function isCorrectAnswer(question, optionIndex)' not in quiz:
+              if old_shuffle not in quiz:
+                raise RuntimeError('Shuffle anchor missing in ' + str(quiz_path))
+              quiz = quiz.replace(old_shuffle, new_shuffle, 1)
+              quiz = quiz.replace('submitted && optionIndex === question.answer', 'submitted && isCorrectAnswer(question, optionIndex)', 1)
+              quiz = quiz.replace('submitted && answers[qIndex] === optionIndex && answers[qIndex] !== question.answer', 'submitted && answers[qIndex] === optionIndex && !isCorrectAnswer(question, answers[qIndex])', 1)
+              quiz = quiz.replace('}else if(answers[index] === question.answer){', '}else if(isCorrectAnswer(question, answers[index])){', 1)
+            quiz_path.write_text(quiz, encoding='utf-8')
+          PY
+      - name: Commit published files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/codex-general-maths-2025.yml
+          git add -A
+          git commit -m "Add HSLC General Mathematics final mock test"
+          git push
