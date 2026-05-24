@@ -1404,6 +1404,15 @@ const class10SocialScience = {
     }
   ]
 };
+const class10GeneralMathematics = {
+  name:{en:"General Mathematics", as:"সাধাৰণ গণিত"},
+  finalPapers:[
+    {
+      label:{en:"HSLC 2025 Final General Mathematics Mock Test", as:"HSLC ২০২৫ চূড়ান্ত সাধাৰণ গণিত মক টেষ্ট"},
+      file:"mock-tests/class-10/general-mathematics/hslc-2025-final-general-mathematics-mcq.json"
+    }
+  ]
+};
 const class9SocialScience = {
   name:{en:"Social Science", as:"সমাজ বিজ্ঞান"},
   chapterGroups:[
@@ -1455,7 +1464,7 @@ const mockClassGroups = [
   ...juniorMockClasses.map(className => ({
     name:className,
     subjects:className === "Class 10"
-      ? [juniorMockSubjects[0], class10SocialScience]
+      ? [juniorMockSubjects[0], class10GeneralMathematics, class10SocialScience]
       : className === "Class 9"
         ? [juniorMockSubjects[0], class9SocialScience]
         : juniorMockSubjects
@@ -1797,6 +1806,15 @@ function makeChapterItems(group, subject, chapterGroup){
 }
 
 function makeSubjectItems(group, subject){
+  if(subject.finalPapers){
+    return subject.finalPapers.map(paper => ({
+      label:paper.label,
+      href:jsonMockTestLink(paper.file),
+      status:"available",
+      test:true
+    }));
+  }
+
   if(subject.chapterGroups){
     return subject.chapterGroups.map(chapterGroup => ({
       label:chapterGroup.name,

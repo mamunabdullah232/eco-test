@@ -1,0 +1,282 @@
+{
+  "className": {"en": "Class 10", "as": "শ্ৰেণী ১০"},
+  "subject": {"en": "General Mathematics", "as": "সাধাৰণ গণিত"},
+  "section": {"en": "Previous Year MCQ", "as": "পূৰ্বৱৰ্ষৰ MCQ"},
+  "chapter": {"en": "HSLC 2025 Final General Mathematics", "as": "HSLC ২০২৫ চূড়ান্ত সাধাৰণ গণিত"},
+  "test": {"en": "Mock Test", "as": "মক টেষ্ট"},
+  "durationMinutes": 45,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "If p ∝ q, and when p = 6, then q = 30. Now if p = 2, what is the value of q?",
+      "as": "যদি p ∝ q, আৰু p = 6 হ’লে q = 30, তেন্তে p = 2 হ’লে q-ৰ মান কিমান?",
+      "options": [{"en":"12","as":"12"},{"en":"20","as":"20"},{"en":"10","as":"10"},{"en":"15","as":"15"}],
+      "answer": 2
+    },
+    {
+      "en": "Which of the following is a perfect cube?",
+      "as": "তলৰ কোনটো পূৰ্ণ ঘন?",
+      "options": [{"en":"652","as":"652"},{"en":"933","as":"933"},{"en":"343","as":"343"},{"en":"1002","as":"1002"}],
+      "answer": 2
+    },
+    {
+      "en": "Which of the following is a square of an odd natural number?",
+      "as": "তলৰ কোনটো অযুগ্ম স্বাভাৱিক সংখ্যাৰ বৰ্গ?",
+      "options": [{"en":"256","as":"256"},{"en":"169","as":"169"},{"en":"546","as":"546"},{"en":"754","as":"754"}],
+      "answer": 1
+    },
+    {
+      "en": "Which of the following rational numbers have terminating decimals? (i) 17/8 (ii) 17/125 (iii) 17/(2^3 × 5^2) (iv) 17/3",
+      "as": "তলৰ কোনবোৰ পৰিমেয় সংখ্যাৰ দশমিক বিস্তৃতি সমাপ্ত? (i) 17/8 (ii) 17/125 (iii) 17/(2^3 × 5^2) (iv) 17/3",
+      "options": [{"en":"(i), (ii), (iii)","as":"(i), (ii), (iii)"},{"en":"(i), (ii), (iv)","as":"(i), (ii), (iv)"},{"en":"(i), (iii), (iv)","as":"(i), (iii), (iv)"},{"en":"(ii), (iii), (iv)","as":"(ii), (iii), (iv)"}],
+      "answer": 0
+    },
+    {
+      "en": "For any prime numbers p and q, p² and q² are: (X) Prime numbers (Y) Composite numbers (Z) Co-prime numbers.",
+      "as": "যিকোনো মৌলিক সংখ্যা p আৰু q-ৰ বাবে p² আৰু q² হৈছে: (X) মৌলিক সংখ্যা (Y) যৌগিক সংখ্যা (Z) সহ-মৌলিক সংখ্যা।",
+      "options": [{"en":"Y and Z are true","as":"Y আৰু Z সত্য"},{"en":"Only X is true","as":"কেৱল X সত্য"},{"en":"Only Z is true","as":"কেৱল Z সত্য"},{"en":"X and Z are true","as":"X আৰু Z সত্য"}],
+      "answer": 0
+    },
+    {
+      "en": "A quadratic polynomial p(x) = x² + bx + c has zeroes α and β. If α + β = 7 and α² + β² = 29, what are the values of b and c?",
+      "as": "p(x) = x² + bx + c দ্বিঘাত বহুপদৰ শূন্য দুটা α আৰু β। যদি α + β = 7 আৰু α² + β² = 29, তেন্তে b আৰু c-ৰ মান কিমান?",
+      "options": [{"en":"b = 7, c = 20","as":"b = 7, c = 20"},{"en":"b = -7, c = 10","as":"b = -7, c = 10"},{"en":"b = 7, c = 10","as":"b = 7, c = 10"},{"en":"b = -7, c = 20","as":"b = -7, c = 20"}],
+      "answer": 1
+    },
+    {
+      "en": "If the value of p(x) = ax³ + bx² + cx + d is 10 for x = 0 and 15 for x = 1, what is the value of a + b + c?",
+      "as": "যদি p(x) = ax³ + bx² + cx + d বহুপদৰ মান x = 0-ত 10 আৰু x = 1-ত 15 হয়, তেন্তে a + b + c-ৰ মান কিমান?",
+      "options": [{"en":"25","as":"25"},{"en":"10","as":"10"},{"en":"5","as":"5"},{"en":"15","as":"15"}],
+      "answer": 2
+    },
+    {
+      "en": "What are the vertices of the triangle formed by the graphs of 4x - y - 8 = 0 and 2x - 3y + 6 = 0 with the x-axis?",
+      "as": "4x - y - 8 = 0 আৰু 2x - 3y + 6 = 0 সমীকৰণৰ লেখ দুটাৰ x-অক্ষৰ সৈতে গঠিত ত্ৰিভুজটোৰ শীৰ্ষবিন্দুসমূহ কি?",
+      "options": [{"en":"(2,0), (3,4), (3,0)","as":"(2,0), (3,4), (3,0)"},{"en":"(-3,0), (3,4), (2,0)","as":"(-3,0), (3,4), (2,0)"},{"en":"(0,-2), (3,4), (0,8)","as":"(0,-2), (3,4), (0,8)"},{"en":"(0,-8), (3,4), (0,2)","as":"(0,-8), (3,4), (0,2)"}],
+      "answer": 1
+    },
+    {
+      "en": "If the lines x = 2, y = 3, and px + 2y - 10p = 0 meet at a point, what is the value of p?",
+      "as": "যদি x = 2, y = 3, আৰু px + 2y - 10p = 0 ৰেখাসমূহ এটা বিন্দুত মিলিত হয়, তেন্তে p-ৰ মান কিমান?",
+      "options": [{"en":"1/3","as":"1/3"},{"en":"-1/3","as":"-1/3"},{"en":"-3/4","as":"-3/4"},{"en":"3/4","as":"3/4"}],
+      "answer": 3
+    },
+    {
+      "en": "If α and β are the zeroes of p(x) = 4x² + 2bx + 9, such that α + β = 0, then the value of b is:",
+      "as": "যদি p(x) = 4x² + 2bx + 9 বহুপদৰ শূন্য দুটা α আৰু β হয়, আৰু α + β = 0, তেন্তে b-ৰ মান কিমান?",
+      "options": [{"en":"6","as":"6"},{"en":"4","as":"4"},{"en":"2","as":"2"},{"en":"0","as":"0"}],
+      "answer": 3
+    },
+    {
+      "en": "Which term of the AP -49, -42, -35, ... is 0?",
+      "as": "-49, -42, -35, ... সমান্তৰ প্ৰগতিৰ কোনটো পদ 0 হ’ব?",
+      "options": [{"en":"9th","as":"9ম"},{"en":"7th","as":"7ম"},{"en":"8th","as":"8ম"},{"en":"6th","as":"6ম"}],
+      "answer": 2
+    },
+    {
+      "en": "In the figure, △ODC ∼ △OBA, ∠BOC = 125°, and ∠CDO = 70°. Find ∠DOC and ∠OAB.",
+      "as": "চিত্ৰত △ODC ∼ △OBA, ∠BOC = 125°, আৰু ∠CDO = 70°। ∠DOC আৰু ∠OAB উলিওৱা।",
+      "options": [{"en":"50°, 50°","as":"50°, 50°"},{"en":"55°, 55°","as":"55°, 55°"},{"en":"60°, 60°","as":"60°, 60°"},{"en":"65°, 65°","as":"65°, 65°"}],
+      "answer": 1
+    },
+    {
+      "en": "To divide a line segment PQ in the ratio 5:7, what is the minimum number of points to be marked at equal intervals on the ray drawn from P?",
+      "as": "PQ ৰেখাখণ্ডক 5:7 অনুপাতত ভাগ কৰিবলৈ P বিন্দুৰ পৰা অঁকা ৰশ্মিত সমান অন্তৰালত কমেও কিমানটা বিন্দু চিহ্নিত কৰিব লাগিব?",
+      "options": [{"en":"7","as":"7"},{"en":"5","as":"5"},{"en":"12","as":"12"},{"en":"2","as":"2"}],
+      "answer": 2
+    },
+    {
+      "en": "The area of a triangle whose vertices are (3,0), (3,4), and (x,0) is 6 square units. What is the value of x?",
+      "as": "(3,0), (3,4), আৰু (x,0) শীৰ্ষবিন্দুযুক্ত ত্ৰিভুজৰ ক্ষেত্ৰফল 6 বৰ্গ একক হ’লে x-ৰ মান কিমান?",
+      "options": [{"en":"0","as":"0"},{"en":"4","as":"4"},{"en":"6","as":"6"},{"en":"9","as":"9"}],
+      "answer": [0, 2]
+    },
+    {
+      "en": "The line segment joining the points of contact of two parallel tangents of a circle is:",
+      "as": "এটা বৃত্তৰ দুটা সমান্তৰাল স্পৰ্শকৰ স্পৰ্শবিন্দু সংযোগ কৰা ৰেখাখণ্ড হৈছে:",
+      "options": [{"en":"Radius of the circle","as":"বৃত্তৰ ব্যাসাৰ্ধ"},{"en":"Diameter of the circle","as":"বৃত্তৰ ব্যাস"},{"en":"Secant of the circle","as":"বৃত্তৰ ছেদক"},{"en":"Arc of the circle","as":"বৃত্তৰ চাপ"}],
+      "answer": 1
+    },
+    {
+      "en": "If sinθ + cosθ = √3, which of the following is correct?",
+      "as": "যদি sinθ + cosθ = √3, তেন্তে তলৰ কোনটো শুদ্ধ?",
+      "options": [{"en":"sinθ = cosθ","as":"sinθ = cosθ"},{"en":"sinθ · cosθ = 1","as":"sinθ · cosθ = 1"},{"en":"sinθ · tanθ = 1","as":"sinθ · tanθ = 1"},{"en":"sinθ · cotθ = 1","as":"sinθ · cotθ = 1"}],
+      "answer": 1
+    },
+    {
+      "en": "In the figure, if XA = 7 cm and YB = 5 cm, then XY = ?",
+      "as": "চিত্ৰত যদি XA = 7 cm আৰু YB = 5 cm হয়, তেন্তে XY = ?",
+      "options": [{"en":"17 cm","as":"17 cm"},{"en":"10 cm","as":"10 cm"},{"en":"12 cm","as":"12 cm"},{"en":"14 cm","as":"14 cm"}],
+      "answer": 2
+    },
+    {
+      "en": "The heights of a cylinder and a cone are in the ratio 2:3, and their volumes are in the ratio 9:8. Then the ratio of their radii is:",
+      "as": "এটা বেলন আৰু এটা শংকুৰ উচ্চতাৰ অনুপাত 2:3, আৰু আয়তনৰ অনুপাত 9:8। তেন্তে সিহঁতৰ ব্যাসাৰ্ধৰ অনুপাত কিমান?",
+      "options": [{"en":"27:16","as":"27:16"},{"en":"9:16","as":"9:16"},{"en":"4:3","as":"4:3"},{"en":"3:4","as":"3:4"}],
+      "answer": 3
+    },
+    {
+      "en": "If 21 is removed from the data 11, 12, 14, 14, 15, 17, 19, 20, 21, then the median of the new data is decreased by:",
+      "as": "11, 12, 14, 14, 15, 17, 19, 20, 21 তথ্যসমূহৰ পৰা 21 আঁতৰালে, নতুন তথ্যসমূহৰ মধ্যমা কিমান হ্ৰাস পাব?",
+      "options": [{"en":"2","as":"2"},{"en":"1","as":"1"},{"en":"0.5","as":"0.5"},{"en":"1.5","as":"1.5"}],
+      "answer": 2
+    },
+    {
+      "en": "If three coins are tossed at the same time, how many outcomes will there be?",
+      "as": "যদি তিনিটা মুদ্ৰা একেলগে টছ কৰা হয়, তেন্তে ফলাফলৰ সংখ্যা কিমান হ’ব?",
+      "options": [{"en":"6","as":"6"},{"en":"3","as":"3"},{"en":"9","as":"9"},{"en":"8","as":"8"}],
+      "answer": 3
+    },
+    {
+      "en": "The value of ∛8 + ∛27 + ∛64 is:",
+      "as": "∛8 + ∛27 + ∛64-ৰ মান কিমান?",
+      "options": [{"en":"6","as":"6"},{"en":"7","as":"7"},{"en":"8","as":"8"},{"en":"9","as":"9"}],
+      "answer": 3
+    },
+    {
+      "en": "Which of the following is an irrational number?",
+      "as": "তলৰ কোনটো অপৰিমেয় সংখ্যা?",
+      "options": [{"en":"√8 / √2","as":"√8 / √2"},{"en":"√5 / √3","as":"√5 / √3"},{"en":"√20 / √5","as":"√20 / √5"},{"en":"√7 / √63","as":"√7 / √63"}],
+      "answer": 1
+    },
+    {
+      "en": "When p(x) = x³ + 4x² - 3x + 2 is divided by x + 1, what is the remainder?",
+      "as": "p(x) = x³ + 4x² - 3x + 2 বহুপদটোক x + 1-ৰে ভাগ কৰিলে ভাগশেষ কিমান হ’ব?",
+      "options": [{"en":"4","as":"4"},{"en":"-4","as":"-4"},{"en":"8","as":"8"},{"en":"-8","as":"-8"}],
+      "answer": 2
+    },
+    {
+      "en": "If the graph of a polynomial cuts the x-axis at two points and the y-axis at one point, then the number of zeroes of the polynomial is:",
+      "as": "এটা বহুপদৰ লেখে x-অক্ষক দুটা বিন্দুত আৰু y-অক্ষক এটা বিন্দুত কাটিলে, বহুপদটোৰ শূন্যৰ সংখ্যা হ’ব:",
+      "options": [{"en":"At least 1","as":"কমেও 1"},{"en":"At least 2","as":"কমেও 2"},{"en":"At most 1","as":"সৰ্বাধিক 1"},{"en":"At most 2","as":"সৰ্বাধিক 2"}],
+      "answer": 1
+    },
+    {
+      "en": "Which of the following is a linear equation in two variables?",
+      "as": "তলৰ কোনটো দুটা চলকযুক্ত ৰৈখিক সমীকৰণ?",
+      "options": [{"en":"5x - 2y = 0","as":"5x - 2y = 0"},{"en":"x + x² - 2y + 8 = 0","as":"x + x² - 2y + 8 = 0"},{"en":"x + 2y + 10 = x² + y","as":"x + 2y + 10 = x² + y"},{"en":"3x - 2y² + 1 = 3x","as":"3x - 2y² + 1 = 3x"}],
+      "answer": 0
+    },
+    {
+      "en": "For which value(s) of p does the pair of equations 4x + py + 8 = 0 and 2x + 2y + 2 = 0 have a unique solution?",
+      "as": "4x + py + 8 = 0 আৰু 2x + 2y + 2 = 0 সমীকৰণ-যোৰৰ একক সমাধান p-ৰ কোন মানৰ বাবে থাকিব?",
+      "options": [{"en":"For all values of p, except 4","as":"p = 4-ৰ বাহিৰে সকলো মানৰ বাবে"},{"en":"For all values of p, except 2","as":"p = 2-ৰ বাহিৰে সকলো মানৰ বাবে"},{"en":"For p = 4 only","as":"কেৱল p = 4-ৰ বাবে"},{"en":"For p = 2 only","as":"কেৱল p = 2-ৰ বাবে"}],
+      "answer": 0
+    },
+    {
+      "en": "For what value of p is the equation (p - 2)x² + 3x + 5 = 0 not quadratic?",
+      "as": "p-ৰ কোন মানৰ বাবে (p - 2)x² + 3x + 5 = 0 সমীকৰণটো দ্বিঘাত নহয়?",
+      "options": [{"en":"1","as":"1"},{"en":"2","as":"2"},{"en":"-2","as":"-2"},{"en":"0","as":"0"}],
+      "answer": 1
+    },
+    {
+      "en": "The roots of ax² + bx + c = 0, a ≠ 0, are real and unequal. Which is true about the discriminant D?",
+      "as": "ax² + bx + c = 0, a ≠ 0 সমীকৰণৰ মূলবোৰ বাস্তৱ আৰু অসমান। বিভেদক D-ৰ ক্ষেত্ৰত কোনটো সত্য?",
+      "options": [{"en":"D < 0","as":"D < 0"},{"en":"D > 0","as":"D > 0"},{"en":"D = 0","as":"D = 0"},{"en":"D ≤ 0","as":"D ≤ 0"}],
+      "answer": 1
+    },
+    {
+      "en": "Which expression gives the 70th term of the sequence 4, 9, 14, 19, 24, ...?",
+      "as": "4, 9, 14, 19, 24, ... শ্ৰেণীটোৰ 70তম পদৰ বাবে কোনটো প্ৰকাশ শুদ্ধ?",
+      "options": [{"en":"4 + (70 × 5)","as":"4 + (70 × 5)"},{"en":"4 + (69 × 5)","as":"4 + (69 × 5)"},{"en":"5 + (70 × 4)","as":"5 + (70 × 4)"},{"en":"5 + (69 × 4)","as":"5 + (69 × 4)"}],
+      "answer": 1
+    },
+    {
+      "en": "The first term of an AP is -20 and the sum of the first 20 terms is -350. Which is the last term of this AP?",
+      "as": "এটা সমান্তৰ প্ৰগতিৰ প্ৰথম পদ -20 আৰু প্ৰথম 20টা পদৰ যোগফল -350। এই AP-টোৰ শেষৰ পদ কোনটো?",
+      "options": [{"en":"15","as":"15"},{"en":"55","as":"55"},{"en":"-15","as":"-15"},{"en":"-55","as":"-55"}],
+      "answer": 2
+    },
+    {
+      "en": "In △ABC, AB = 6 cm and DE ∥ BC, such that AE = 1/5 AC. What is AD?",
+      "as": "△ABC-ত AB = 6 cm আৰু DE ∥ BC, লগতে AE = 1/5 AC। তেন্তে AD-ৰ দৈৰ্ঘ্য কিমান?",
+      "options": [{"en":"1.5 cm","as":"1.5 cm"},{"en":"0.9 cm","as":"0.9 cm"},{"en":"1.2 cm","as":"1.2 cm"},{"en":"0.6 cm","as":"0.6 cm"}],
+      "answer": 2
+    },
+    {
+      "en": "If AB/QR = AC/PQ, XZ/QP = XY/PR, and ∠A = ∠Q = ∠Z, which is true?",
+      "as": "যদি AB/QR = AC/PQ, XZ/QP = XY/PR, আৰু ∠A = ∠Q = ∠Z, তেন্তে কোনটো সত্য?",
+      "options": [{"en":"△ABC ∼ △QRP ∼ △XYZ","as":"△ABC ∼ △QRP ∼ △XYZ"},{"en":"△BAC ∼ △QPR ∼ △YZX","as":"△BAC ∼ △QPR ∼ △YZX"},{"en":"△ABC ∼ △PQR ∼ △XYZ","as":"△ABC ∼ △PQR ∼ △XYZ"},{"en":"△ABC ∼ △QRP ∼ △ZYX","as":"△ABC ∼ △QRP ∼ △ZYX"}],
+      "answer": 3
+    },
+    {
+      "en": "For which value of k are the points (7, -2), (5, 1), and (3, k) collinear?",
+      "as": "k-ৰ কোন মানৰ বাবে (7, -2), (5, 1), আৰু (3, k) বিন্দুকেইটা একৰেখীয় হ’ব?",
+      "options": [{"en":"2","as":"2"},{"en":"4","as":"4"},{"en":"6","as":"6"},{"en":"8","as":"8"}],
+      "answer": 1
+    },
+    {
+      "en": "For what value of a will the distance between A(a, 4) and B(2, 7) be 5 units?",
+      "as": "a-ৰ কোন মানৰ বাবে A(a, 4) আৰু B(2, 7) বিন্দু দুটাৰ মাজৰ দূৰত্ব 5 একক হ’ব?",
+      "options": [{"en":"6","as":"6"},{"en":"-2","as":"-2"},{"en":"6 or -2","as":"6 বা -2"},{"en":"2 or -6","as":"2 বা -6"}],
+      "answer": 2
+    },
+    {
+      "en": "What is the value of cot25° cot35° cot45° cot55° cot65°?",
+      "as": "cot25° cot35° cot45° cot55° cot65°-ৰ মান কিমান?",
+      "options": [{"en":"1/3","as":"1/3"},{"en":"3","as":"3"},{"en":"3/2","as":"3/2"},{"en":"1","as":"1"}],
+      "answer": 3
+    },
+    {
+      "en": "If secA + tanA = 1/x, then x + 1/x = ?",
+      "as": "যদি secA + tanA = 1/x, তেন্তে x + 1/x = ?",
+      "options": [{"en":"2tanA","as":"2tanA"},{"en":"2secA","as":"2secA"},{"en":"secA","as":"secA"},{"en":"tanA","as":"tanA"}],
+      "answer": 1
+    },
+    {
+      "en": "In the figure, if ∠QOR = 100°, what is ∠OPR?",
+      "as": "চিত্ৰত যদি ∠QOR = 100°, তেন্তে ∠OPR-ৰ মান কিমান?",
+      "options": [{"en":"100°","as":"100°"},{"en":"80°","as":"80°"},{"en":"60°","as":"60°"},{"en":"40°","as":"40°"}],
+      "answer": 3
+    },
+    {
+      "en": "The area of a sector of a circle with radius R and central angle 30° is:",
+      "as": "R ব্যাসাৰ্ধৰ বৃত্তৰ কেন্দ্ৰত 30° কোণযুক্ত বৃত্তকলাৰ ক্ষেত্ৰফল কিমান?",
+      "options": [{"en":"πR/6","as":"πR/6"},{"en":"πR/12","as":"πR/12"},{"en":"πR²/12","as":"πR²/12"},{"en":"πR²/13","as":"πR²/13"}],
+      "answer": 2
+    },
+    {
+      "en": "From a point Q, the length of the tangent to a circle is 24 cm and the distance of Q from the center is 25 cm. The radius of the circle is:",
+      "as": "Q বিন্দুৰ পৰা এটা বৃত্তলৈ অঁকা স্পৰ্শকৰ দৈৰ্ঘ্য 24 cm আৰু কেন্দ্ৰৰ পৰা Q-ৰ দূৰত্ব 25 cm। বৃত্তটোৰ ব্যাসাৰ্ধ কিমান?",
+      "options": [{"en":"24.5 cm","as":"24.5 cm"},{"en":"15 cm","as":"15 cm"},{"en":"12 cm","as":"12 cm"},{"en":"7 cm","as":"7 cm"}],
+      "answer": 3
+    },
+    {
+      "en": "If the perimeter and area of a circle are numerically equal, then the radius of the circle is:",
+      "as": "যদি এটা বৃত্তৰ পৰিসীমা আৰু ক্ষেত্ৰফল সংখ্যাগতভাৱে সমান হয়, তেন্তে বৃত্তটোৰ ব্যাসাৰ্ধ কিমান?",
+      "options": [{"en":"2 units","as":"2 একক"},{"en":"π units","as":"π একক"},{"en":"4 units","as":"4 একক"},{"en":"7 units","as":"7 একক"}],
+      "answer": 0
+    },
+    {
+      "en": "Three identical solid cubes of side k units are joined end-to-end horizontally. What is the volume of the resulting cuboid?",
+      "as": "k একক বাহুযুক্ত তিনিটা সমান ঘনক মূৰে-মূৰে সংযোগ কৰা হ’ল। গঠিত আয়তীয় ঘনকটোৰ আয়তন কিমান?",
+      "options": [{"en":"27k³","as":"27k³"},{"en":"18k³","as":"18k³"},{"en":"9k³","as":"9k³"},{"en":"3k³","as":"3k³"}],
+      "answer": 3
+    },
+    {
+      "en": "If the curved surface areas of a cylinder and a cone of the same radii are numerically equal, and the height of the cylinder is 2 cm, then the slant height of the cone is:",
+      "as": "সমান ব্যাসাৰ্ধৰ বেলন আৰু শংকুৰ বক্ৰপৃষ্ঠৰ ক্ষেত্ৰফল সংখ্যাগতভাৱে সমান। যদি বেলনটোৰ উচ্চতা 2 cm হয়, তেন্তে শংকুৰ হেলনীয়া উচ্চতা কিমান?",
+      "options": [{"en":"2 cm","as":"2 cm"},{"en":"4 cm","as":"4 cm"},{"en":"6 cm","as":"6 cm"},{"en":"8 cm","as":"8 cm"}],
+      "answer": 1
+    },
+    {
+      "en": "What are the mean and median, respectively, of the first 5 prime numbers?",
+      "as": "প্ৰথম 5টা মৌলিক সংখ্যাৰ গড় আৰু মধ্যমা ক্ৰমে কিমান?",
+      "options": [{"en":"5, 5","as":"5, 5"},{"en":"5.2, 5","as":"5.2, 5"},{"en":"5.6, 5","as":"5.6, 5"},{"en":"3.6, 5","as":"3.6, 5"}],
+      "answer": 2
+    },
+    {
+      "en": "Two fair dice are thrown together. What is the probability of not getting the same number on both dice?",
+      "as": "দুটা সমান সম্ভাৱনাযুক্ত পাশা একেলগে নিক্ষেপ কৰিলে, দুয়োটাত একে সংখ্যা নোপোৱাৰ সম্ভাৱনা কিমান?",
+      "options": [{"en":"1/6","as":"1/6"},{"en":"1/36","as":"1/36"},{"en":"5/6","as":"5/6"},{"en":"1","as":"1"}],
+      "answer": 2
+    },
+    {
+      "en": "A letter is chosen at random from the English alphabet. What is the probability that the letter chosen lies between i and x?",
+      "as": "ইংৰাজী বৰ্ণমালাৰ পৰা এটা আখৰ যাদৃচ্ছিকভাৱে বাছনি কৰিলে, বাছনি কৰা আখৰটো i আৰু x-ৰ মাজত থকাৰ সম্ভাৱনা কিমান?",
+      "options": [{"en":"7/26","as":"7/26"},{"en":"15/26","as":"15/26"},{"en":"7/13","as":"7/13"},{"en":"8/13","as":"8/13"}],
+      "answer": 2
+    }
+  ]
+}
