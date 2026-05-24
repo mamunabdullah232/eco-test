@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 9",
+                 "as":  "টেষ্ট 9"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Make negative without changing the meaning: Man is mortal.",
+                          "as":  "অৰ্থ নসলোৱাকৈ negative কৰা: Man is mortal.",
+                          "options":  [
+                                          {
+                                              "en":  "Man is not immortal.",
+                                              "as":  "Man is not immortal."
+                                          },
+                                          {
+                                              "en":  "Man is not mortal.",
+                                              "as":  "Man is not mortal."
+                                          },
+                                          {
+                                              "en":  "No man is mortal.",
+                                              "as":  "No man is mortal."
+                                          },
+                                          {
+                                              "en":  "Man cannot be mortal.",
+                                              "as":  "Man cannot be mortal."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Make assertive: Well done!",
+                          "as":  "assertive sentence-লৈ ৰূপান্তৰ কৰা: Well done!",
+                          "options":  [
+                                          {
+                                              "en":  "You have done well.",
+                                              "as":  "You have done well."
+                                          },
+                                          {
+                                              "en":  "Have you done well?",
+                                              "as":  "Have you done well?"
+                                          },
+                                          {
+                                              "en":  "Do well.",
+                                              "as":  "Do well."
+                                          },
+                                          {
+                                              "en":  "What a good work!",
+                                              "as":  "What a good work!"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Make interrogative: Social media is deceptive.",
+                          "as":  "interrogative sentence-লৈ ৰূপান্তৰ কৰা: Social media is deceptive.",
+                          "options":  [
+                                          {
+                                              "en":  "Is social media deceptive?",
+                                              "as":  "Is social media deceptive?"
+                                          },
+                                          {
+                                              "en":  "Social media is not deceptive.",
+                                              "as":  "Social media is not deceptive."
+                                          },
+                                          {
+                                              "en":  "How social media is deceptive.",
+                                              "as":  "How social media is deceptive."
+                                          },
+                                          {
+                                              "en":  "Social media deceptive?",
+                                              "as":  "Social media deceptive?"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into a compound sentence: Though he was old, he was energetic.",
+                          "as":  "compound sentence-লৈ ৰূপান্তৰ কৰা: Though he was old, he was energetic.",
+                          "options":  [
+                                          {
+                                              "en":  "He was old, but he was energetic.",
+                                              "as":  "He was old, but he was energetic."
+                                          },
+                                          {
+                                              "en":  "Being old, he was energetic.",
+                                              "as":  "Being old, he was energetic."
+                                          },
+                                          {
+                                              "en":  "He was energetic because he was old.",
+                                              "as":  "He was energetic because he was old."
+                                          },
+                                          {
+                                              "en":  "Though old, energetic he was.",
+                                              "as":  "Though old, energetic he was."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into positive degree: Rina is taller than Mina.",
+                          "as":  "positive degree-লৈ ৰূপান্তৰ কৰা: Rina is taller than Mina.",
+                          "options":  [
+                                          {
+                                              "en":  "Mina is not so tall as Rina.",
+                                              "as":  "Mina is not so tall as Rina."
+                                          },
+                                          {
+                                              "en":  "Rina is as tall as Mina.",
+                                              "as":  "Rina is as tall as Mina."
+                                          },
+                                          {
+                                              "en":  "Mina is taller than Rina.",
+                                              "as":  "Mina is taller than Rina."
+                                          },
+                                          {
+                                              "en":  "Rina is the tallest of all.",
+                                              "as":  "Rina is the tallest of all."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into comparative degree: No other city in Assam is as large as Guwahati.",
+                          "as":  "comparative degree-লৈ ৰূপান্তৰ কৰা: No other city in Assam is as large as Guwahati.",
+                          "options":  [
+                                          {
+                                              "en":  "Guwahati is larger than any other city in Assam.",
+                                              "as":  "Guwahati is larger than any other city in Assam."
+                                          },
+                                          {
+                                              "en":  "Guwahati is as large as any city in Assam.",
+                                              "as":  "Guwahati is as large as any city in Assam."
+                                          },
+                                          {
+                                              "en":  "Any city in Assam is larger than Guwahati.",
+                                              "as":  "Any city in Assam is larger than Guwahati."
+                                          },
+                                          {
+                                              "en":  "Guwahati is very large.",
+                                              "as":  "Guwahati is very large."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into negative: Everyone likes honesty.",
+                          "as":  "negative sentence-লৈ ৰূপান্তৰ কৰা: Everyone likes honesty.",
+                          "options":  [
+                                          {
+                                              "en":  "No one dislikes honesty.",
+                                              "as":  "No one dislikes honesty."
+                                          },
+                                          {
+                                              "en":  "Everyone does not like honesty.",
+                                              "as":  "Everyone does not like honesty."
+                                          },
+                                          {
+                                              "en":  "No one likes honesty.",
+                                              "as":  "No one likes honesty."
+                                          },
+                                          {
+                                              "en":  "Honesty is not liked by everyone.",
+                                              "as":  "Honesty is not liked by everyone."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into exclamatory: It is a very beautiful flower.",
+                          "as":  "exclamatory sentence-লৈ ৰূপান্তৰ কৰা: It is a very beautiful flower.",
+                          "options":  [
+                                          {
+                                              "en":  "What a beautiful flower it is!",
+                                              "as":  "What a beautiful flower it is!"
+                                          },
+                                          {
+                                              "en":  "How beautiful flower it is!",
+                                              "as":  "How beautiful flower it is!"
+                                          },
+                                          {
+                                              "en":  "Is it a beautiful flower?",
+                                              "as":  "Is it a beautiful flower?"
+                                          },
+                                          {
+                                              "en":  "A beautiful flower it is.",
+                                              "as":  "A beautiful flower it is."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into assertive: How kind he is!",
+                          "as":  "assertive sentence-লৈ ৰূপান্তৰ কৰা: How kind he is!",
+                          "options":  [
+                                          {
+                                              "en":  "He is very kind.",
+                                              "as":  "He is very kind."
+                                          },
+                                          {
+                                              "en":  "Is he very kind?",
+                                              "as":  "Is he very kind?"
+                                          },
+                                          {
+                                              "en":  "Be kind.",
+                                              "as":  "Be kind."
+                                          },
+                                          {
+                                              "en":  "He is not kind.",
+                                              "as":  "He is not kind."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      },
+                      {
+                          "en":  "Change into simple sentence: As he was ill, he could not attend school.",
+                          "as":  "simple sentence-লৈ ৰূপান্তৰ কৰা: As he was ill, he could not attend school.",
+                          "options":  [
+                                          {
+                                              "en":  "Being ill, he could not attend school.",
+                                              "as":  "Being ill, he could not attend school."
+                                          },
+                                          {
+                                              "en":  "He was ill and he could not attend school.",
+                                              "as":  "He was ill and he could not attend school."
+                                          },
+                                          {
+                                              "en":  "He could not attend school because he was ill.",
+                                              "as":  "He could not attend school because he was ill."
+                                          },
+                                          {
+                                              "en":  "Though ill, he attended school.",
+                                              "as":  "Though ill, he attended school."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Transformation"
+                      }
+                  ]
+}
+

@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 10",
+                 "as":  "টেষ্ট 10"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Identify the correct sentence.",
+                          "as":  "সঠিক বাক্য চিনাক্ত কৰা।",
+                          "options":  [
+                                          {
+                                              "en":  "This hotel offer fooding and lodging.",
+                                              "as":  "This hotel offer fooding and lodging."
+                                          },
+                                          {
+                                              "en":  "This hotel offers food and lodging.",
+                                              "as":  "This hotel offers food and lodging."
+                                          },
+                                          {
+                                              "en":  "This hotel offers food and lodge.",
+                                              "as":  "This hotel offers food and lodge."
+                                          },
+                                          {
+                                              "en":  "This hotel offer food and lodging.",
+                                              "as":  "This hotel offer food and lodging."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Correct Usage"
+                      },
+                      {
+                          "en":  "Choose the correct word: Did you _____ the lines from the poem?",
+                          "as":  "সঠিক শব্দ বাছনি কৰা: Did you _____ the lines from the poem?",
+                          "options":  [
+                                          {
+                                              "en":  "site",
+                                              "as":  "site"
+                                          },
+                                          {
+                                              "en":  "cite",
+                                              "as":  "cite"
+                                          },
+                                          {
+                                              "en":  "sight",
+                                              "as":  "sight"
+                                          },
+                                          {
+                                              "en":  "cited",
+                                              "as":  "cited"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Homophone"
+                      },
+                      {
+                          "en":  "In the sentence “Do you have any money?”, the word “any” is a:",
+                          "as":  "“Do you have any money?” বাক্যত “any” শব্দটো হৈছে:",
+                          "options":  [
+                                          {
+                                              "en":  "pronoun",
+                                              "as":  "pronoun"
+                                          },
+                                          {
+                                              "en":  "noun",
+                                              "as":  "noun"
+                                          },
+                                          {
+                                              "en":  "adverb",
+                                              "as":  "adverb"
+                                          },
+                                          {
+                                              "en":  "quantifier",
+                                              "as":  "quantifier"
+                                          }
+                                      ],
+                          "answer":  3,
+                          "topic":  "Part of Speech"
+                      },
+                      {
+                          "en":  "Choose the correct noun form: I want to be free.",
+                          "as":  "সঠিক noun form বাছনি কৰা: I want to be free.",
+                          "options":  [
+                                          {
+                                              "en":  "I want freedom.",
+                                              "as":  "I want freedom."
+                                          },
+                                          {
+                                              "en":  "I want freely.",
+                                              "as":  "I want freely."
+                                          },
+                                          {
+                                              "en":  "I want freed.",
+                                              "as":  "I want freed."
+                                          },
+                                          {
+                                              "en":  "I want freeful.",
+                                              "as":  "I want freeful."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Noun Form"
+                      },
+                      {
+                          "en":  "Choose the correct option: Lina is _____ careful than her sister.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: Lina is _____ careful than her sister.",
+                          "options":  [
+                                          {
+                                              "en":  "more",
+                                              "as":  "more"
+                                          },
+                                          {
+                                              "en":  "most",
+                                              "as":  "most"
+                                          },
+                                          {
+                                              "en":  "least",
+                                              "as":  "least"
+                                          },
+                                          {
+                                              "en":  "many",
+                                              "as":  "many"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Comparison"
+                      },
+                      {
+                          "en":  "Choose the correct option: This is the _____ book in the library.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: This is the _____ book in the library.",
+                          "options":  [
+                                          {
+                                              "en":  "good",
+                                              "as":  "good"
+                                          },
+                                          {
+                                              "en":  "better",
+                                              "as":  "better"
+                                          },
+                                          {
+                                              "en":  "best",
+                                              "as":  "best"
+                                          },
+                                          {
+                                              "en":  "more good",
+                                              "as":  "more good"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Comparison"
+                      },
+                      {
+                          "en":  "Choose the correct sentence.",
+                          "as":  "সঠিক বাক্য বাছনি কৰা।",
+                          "options":  [
+                                          {
+                                              "en":  "He did not went to school.",
+                                              "as":  "He did not went to school."
+                                          },
+                                          {
+                                              "en":  "He does not went to school.",
+                                              "as":  "He does not went to school."
+                                          },
+                                          {
+                                              "en":  "He did not go to school.",
+                                              "as":  "He did not go to school."
+                                          },
+                                          {
+                                              "en":  "He not go to school.",
+                                              "as":  "He not go to school."
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Correct Usage"
+                      },
+                      {
+                          "en":  "Choose the correct sentence.",
+                          "as":  "সঠিক বাক্য বাছনি কৰা।",
+                          "options":  [
+                                          {
+                                              "en":  "The news are true.",
+                                              "as":  "The news are true."
+                                          },
+                                          {
+                                              "en":  "The news is true.",
+                                              "as":  "The news is true."
+                                          },
+                                          {
+                                              "en":  "News are true.",
+                                              "as":  "News are true."
+                                          },
+                                          {
+                                              "en":  "These news is true.",
+                                              "as":  "These news is true."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Correct Usage"
+                      },
+                      {
+                          "en":  "Choose the correct word: The teacher gave us useful _____.",
+                          "as":  "সঠিক শব্দ বাছনি কৰা: The teacher gave us useful _____.",
+                          "options":  [
+                                          {
+                                              "en":  "advice",
+                                              "as":  "advice"
+                                          },
+                                          {
+                                              "en":  "advise",
+                                              "as":  "advise"
+                                          },
+                                          {
+                                              "en":  "adviced",
+                                              "as":  "adviced"
+                                          },
+                                          {
+                                              "en":  "advices",
+                                              "as":  "advices"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Homophone"
+                      },
+                      {
+                          "en":  "Choose the correct sentence.",
+                          "as":  "সঠিক বাক্য বাছনি কৰা।",
+                          "options":  [
+                                          {
+                                              "en":  "Neither Raju nor his friends is present.",
+                                              "as":  "Neither Raju nor his friends is present."
+                                          },
+                                          {
+                                              "en":  "Neither Raju nor his friends are present.",
+                                              "as":  "Neither Raju nor his friends are present."
+                                          },
+                                          {
+                                              "en":  "Neither Raju or his friends are present.",
+                                              "as":  "Neither Raju or his friends are present."
+                                          },
+                                          {
+                                              "en":  "Neither Raju nor his friends was present.",
+                                              "as":  "Neither Raju nor his friends was present."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Correct Usage"
+                      }
+                  ]
+}
+

@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 8",
+                 "as":  "টেষ্ট 8"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Identify the type of clause: I signed my name where my father told me to do.",
+                          "as":  "clause-ৰ প্ৰকাৰ চিনাক্ত কৰা: I signed my name where my father told me to do.",
+                          "options":  [
+                                          {
+                                              "en":  "Adverb clause of place",
+                                              "as":  "Adverb clause of place"
+                                          },
+                                          {
+                                              "en":  "Adverb clause of time",
+                                              "as":  "Adverb clause of time"
+                                          },
+                                          {
+                                              "en":  "Adverb clause of reason",
+                                              "as":  "Adverb clause of reason"
+                                          },
+                                          {
+                                              "en":  "Noun clause",
+                                              "as":  "Noun clause"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Clause"
+                      },
+                      {
+                          "en":  "Identify the type of clause: I will call you when I reach home.",
+                          "as":  "clause-ৰ প্ৰকাৰ চিনাক্ত কৰা: I will call you when I reach home.",
+                          "options":  [
+                                          {
+                                              "en":  "Adverb clause of place",
+                                              "as":  "Adverb clause of place"
+                                          },
+                                          {
+                                              "en":  "Adverb clause of time",
+                                              "as":  "Adverb clause of time"
+                                          },
+                                          {
+                                              "en":  "Adjective clause",
+                                              "as":  "Adjective clause"
+                                          },
+                                          {
+                                              "en":  "Noun clause",
+                                              "as":  "Noun clause"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Clause"
+                      },
+                      {
+                          "en":  "Identify the type of clause: He failed because he was careless.",
+                          "as":  "clause-ৰ প্ৰকাৰ চিনাক্ত কৰা: He failed because he was careless.",
+                          "options":  [
+                                          {
+                                              "en":  "Adverb clause of reason",
+                                              "as":  "Adverb clause of reason"
+                                          },
+                                          {
+                                              "en":  "Adverb clause of manner",
+                                              "as":  "Adverb clause of manner"
+                                          },
+                                          {
+                                              "en":  "Noun clause",
+                                              "as":  "Noun clause"
+                                          },
+                                          {
+                                              "en":  "Adjective clause",
+                                              "as":  "Adjective clause"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Clause"
+                      },
+                      {
+                          "en":  "Identify the type of clause: The book that you gave me is interesting.",
+                          "as":  "clause-ৰ প্ৰকাৰ চিনাক্ত কৰা: The book that you gave me is interesting.",
+                          "options":  [
+                                          {
+                                              "en":  "Noun clause",
+                                              "as":  "Noun clause"
+                                          },
+                                          {
+                                              "en":  "Adverb clause",
+                                              "as":  "Adverb clause"
+                                          },
+                                          {
+                                              "en":  "Adjective clause",
+                                              "as":  "Adjective clause"
+                                          },
+                                          {
+                                              "en":  "Independent clause only",
+                                              "as":  "Independent clause only"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Clause"
+                      },
+                      {
+                          "en":  "Identify the noun clause: I know that he is honest.",
+                          "as":  "noun clause চিনাক্ত কৰা: I know that he is honest.",
+                          "options":  [
+                                          {
+                                              "en":  "I know",
+                                              "as":  "I know"
+                                          },
+                                          {
+                                              "en":  "that he is honest",
+                                              "as":  "that he is honest"
+                                          },
+                                          {
+                                              "en":  "he is",
+                                              "as":  "he is"
+                                          },
+                                          {
+                                              "en":  "is honest",
+                                              "as":  "is honest"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Clause"
+                      },
+                      {
+                          "en":  "Join using a relative pronoun: I met a boy. He won the prize.",
+                          "as":  "relative pronoun ব্যৱহাৰ কৰি যোগ কৰা: I met a boy. He won the prize.",
+                          "options":  [
+                                          {
+                                              "en":  "I met a boy who won the prize.",
+                                              "as":  "I met a boy who won the prize."
+                                          },
+                                          {
+                                              "en":  "I met a boy which won the prize.",
+                                              "as":  "I met a boy which won the prize."
+                                          },
+                                          {
+                                              "en":  "I met a boy whom won the prize.",
+                                              "as":  "I met a boy whom won the prize."
+                                          },
+                                          {
+                                              "en":  "I met a boy when won the prize.",
+                                              "as":  "I met a boy when won the prize."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Sentence Combining"
+                      },
+                      {
+                          "en":  "Join using “neither...nor”: He has no money. He has no job.",
+                          "as":  "“neither...nor” ব্যৱহাৰ কৰি যোগ কৰা: He has no money. He has no job.",
+                          "options":  [
+                                          {
+                                              "en":  "He has neither money nor job.",
+                                              "as":  "He has neither money nor job."
+                                          },
+                                          {
+                                              "en":  "He has neither money and job.",
+                                              "as":  "He has neither money and job."
+                                          },
+                                          {
+                                              "en":  "He has no money nor no job.",
+                                              "as":  "He has no money nor no job."
+                                          },
+                                          {
+                                              "en":  "He has neither money or job.",
+                                              "as":  "He has neither money or job."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Sentence Combining"
+                      },
+                      {
+                          "en":  "Join using “though”: He was poor. He was honest.",
+                          "as":  "“though” ব্যৱহাৰ কৰি যোগ কৰা: He was poor. He was honest.",
+                          "options":  [
+                                          {
+                                              "en":  "Though he was poor, he was honest.",
+                                              "as":  "Though he was poor, he was honest."
+                                          },
+                                          {
+                                              "en":  "Though he was honest, but he was poor.",
+                                              "as":  "Though he was honest, but he was poor."
+                                          },
+                                          {
+                                              "en":  "He was poor though but honest.",
+                                              "as":  "He was poor though but honest."
+                                          },
+                                          {
+                                              "en":  "Though poor but honest he was.",
+                                              "as":  "Though poor but honest he was."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Sentence Combining"
+                      },
+                      {
+                          "en":  "Join using “so...that”: The tea is very hot. I cannot drink it.",
+                          "as":  "“so...that” ব্যৱহাৰ কৰি যোগ কৰা: The tea is very hot. I cannot drink it.",
+                          "options":  [
+                                          {
+                                              "en":  "The tea is so hot that I cannot drink it.",
+                                              "as":  "The tea is so hot that I cannot drink it."
+                                          },
+                                          {
+                                              "en":  "The tea is too hot that I cannot drink it.",
+                                              "as":  "The tea is too hot that I cannot drink it."
+                                          },
+                                          {
+                                              "en":  "The tea is so hot to drink.",
+                                              "as":  "The tea is so hot to drink."
+                                          },
+                                          {
+                                              "en":  "The tea is very hot that I cannot drink.",
+                                              "as":  "The tea is very hot that I cannot drink."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Sentence Combining"
+                      },
+                      {
+                          "en":  "Join using “as soon as”: The bell rang. The students entered the classroom.",
+                          "as":  "“as soon as” ব্যৱহাৰ কৰি যোগ কৰা: The bell rang. The students entered the classroom.",
+                          "options":  [
+                                          {
+                                              "en":  "As soon as the bell rang, the students entered the classroom.",
+                                              "as":  "As soon as the bell rang, the students entered the classroom."
+                                          },
+                                          {
+                                              "en":  "As soon the bell rang, students entered.",
+                                              "as":  "As soon the bell rang, students entered."
+                                          },
+                                          {
+                                              "en":  "As soon as the students entered, the bell rang.",
+                                              "as":  "As soon as the students entered, the bell rang."
+                                          },
+                                          {
+                                              "en":  "The bell rang as soon as students entering.",
+                                              "as":  "The bell rang as soon as students entering."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Sentence Combining"
+                      }
+                  ]
+}
+

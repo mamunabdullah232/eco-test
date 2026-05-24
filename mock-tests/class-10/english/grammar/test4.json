@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 4",
+                 "as":  "টেষ্ট 4"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Choose the correct indirect speech: He said, “I am busy.”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: He said, “I am busy.”",
+                          "options":  [
+                                          {
+                                              "en":  "He said that I am busy.",
+                                              "as":  "He said that I am busy."
+                                          },
+                                          {
+                                              "en":  "He said that he was busy.",
+                                              "as":  "He said that he was busy."
+                                          },
+                                          {
+                                              "en":  "He told that he is busy.",
+                                              "as":  "He told that he is busy."
+                                          },
+                                          {
+                                              "en":  "He said that he has busy.",
+                                              "as":  "He said that he has busy."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: Rita said to me, “Are you ready?”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: Rita said to me, “Are you ready?”",
+                          "options":  [
+                                          {
+                                              "en":  "Rita asked me if I was ready.",
+                                              "as":  "Rita asked me if I was ready."
+                                          },
+                                          {
+                                              "en":  "Rita told me if I am ready.",
+                                              "as":  "Rita told me if I am ready."
+                                          },
+                                          {
+                                              "en":  "Rita asked me that I was ready.",
+                                              "as":  "Rita asked me that I was ready."
+                                          },
+                                          {
+                                              "en":  "Rita said me if I was ready.",
+                                              "as":  "Rita said me if I was ready."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: The teacher said, “Today we will learn a poem.”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: The teacher said, “Today we will learn a poem.”",
+                          "options":  [
+                                          {
+                                              "en":  "The teacher said that that day they would learn a poem.",
+                                              "as":  "The teacher said that that day they would learn a poem."
+                                          },
+                                          {
+                                              "en":  "The teacher said that today we would learn a poem.",
+                                              "as":  "The teacher said that today we would learn a poem."
+                                          },
+                                          {
+                                              "en":  "The teacher said that that day we will learn a poem.",
+                                              "as":  "The teacher said that that day we will learn a poem."
+                                          },
+                                          {
+                                              "en":  "The teacher told that that day they learn a poem.",
+                                              "as":  "The teacher told that that day they learn a poem."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct direct speech: Father told me not to waste my time.",
+                          "as":  "সঠিক direct speech বাছনি কৰা: Father told me not to waste my time.",
+                          "options":  [
+                                          {
+                                              "en":  "Father said to me, “Do not waste your time.”",
+                                              "as":  "Father said to me, “Do not waste your time.”"
+                                          },
+                                          {
+                                              "en":  "Father said to me, “Do not waste my time.”",
+                                              "as":  "Father said to me, “Do not waste my time.”"
+                                          },
+                                          {
+                                              "en":  "Father told me, “Do not waste your time.”",
+                                              "as":  "Father told me, “Do not waste your time.”"
+                                          },
+                                          {
+                                              "en":  "Father said me, “Do not waste your time.”",
+                                              "as":  "Father said me, “Do not waste your time.”"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: He said to me, “What is your name?”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: He said to me, “What is your name?”",
+                          "options":  [
+                                          {
+                                              "en":  "He asked me what my name was.",
+                                              "as":  "He asked me what my name was."
+                                          },
+                                          {
+                                              "en":  "He told me what my name was.",
+                                              "as":  "He told me what my name was."
+                                          },
+                                          {
+                                              "en":  "He asked me what was my name.",
+                                              "as":  "He asked me what was my name."
+                                          },
+                                          {
+                                              "en":  "He said me what my name was.",
+                                              "as":  "He said me what my name was."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: She said, “I have finished my work.”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: She said, “I have finished my work.”",
+                          "options":  [
+                                          {
+                                              "en":  "She said that she had finished her work.",
+                                              "as":  "She said that she had finished her work."
+                                          },
+                                          {
+                                              "en":  "She said that she has finished her work.",
+                                              "as":  "She said that she has finished her work."
+                                          },
+                                          {
+                                              "en":  "She told that she finished her work.",
+                                              "as":  "She told that she finished her work."
+                                          },
+                                          {
+                                              "en":  "She said that I had finished my work.",
+                                              "as":  "She said that I had finished my work."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: The boy said, “Hurrah! We have won the match.”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: The boy said, “Hurrah! We have won the match.”",
+                          "options":  [
+                                          {
+                                              "en":  "The boy exclaimed with joy that they had won the match.",
+                                              "as":  "The boy exclaimed with joy that they had won the match."
+                                          },
+                                          {
+                                              "en":  "The boy exclaimed that hurrah they won the match.",
+                                              "as":  "The boy exclaimed that hurrah they won the match."
+                                          },
+                                          {
+                                              "en":  "The boy said joyfully that we have won the match.",
+                                              "as":  "The boy said joyfully that we have won the match."
+                                          },
+                                          {
+                                              "en":  "The boy told with joy that they win the match.",
+                                              "as":  "The boy told with joy that they win the match."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: The man said to me, “Please help me.”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: The man said to me, “Please help me.”",
+                          "options":  [
+                                          {
+                                              "en":  "The man requested me to help him.",
+                                              "as":  "The man requested me to help him."
+                                          },
+                                          {
+                                              "en":  "The man ordered me to help me.",
+                                              "as":  "The man ordered me to help me."
+                                          },
+                                          {
+                                              "en":  "The man said me to help him.",
+                                              "as":  "The man said me to help him."
+                                          },
+                                          {
+                                              "en":  "The man asked that I help him please.",
+                                              "as":  "The man asked that I help him please."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct direct speech: She asked me if I had taken my breakfast.",
+                          "as":  "সঠিক direct speech বাছনি কৰা: She asked me if I had taken my breakfast.",
+                          "options":  [
+                                          {
+                                              "en":  "She said to me, “Did you take your breakfast?”",
+                                              "as":  "She said to me, “Did you take your breakfast?”"
+                                          },
+                                          {
+                                              "en":  "She said to me, “Have you taken your breakfast?”",
+                                              "as":  "She said to me, “Have you taken your breakfast?”"
+                                          },
+                                          {
+                                              "en":  "She said to me, “Had you taken your breakfast?”",
+                                              "as":  "She said to me, “Had you taken your breakfast?”"
+                                          },
+                                          {
+                                              "en":  "She said me, “Have you taken your breakfast?”",
+                                              "as":  "She said me, “Have you taken your breakfast?”"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Narration"
+                      },
+                      {
+                          "en":  "Choose the correct indirect speech: He said, “May God bless you.”",
+                          "as":  "সঠিক indirect speech বাছনি কৰা: He said, “May God bless you.”",
+                          "options":  [
+                                          {
+                                              "en":  "He prayed that God might bless me.",
+                                              "as":  "He prayed that God might bless me."
+                                          },
+                                          {
+                                              "en":  "He said that God may bless me.",
+                                              "as":  "He said that God may bless me."
+                                          },
+                                          {
+                                              "en":  "He told that God bless me.",
+                                              "as":  "He told that God bless me."
+                                          },
+                                          {
+                                              "en":  "He wished God bless you.",
+                                              "as":  "He wished God bless you."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Narration"
+                      }
+                  ]
+}
+

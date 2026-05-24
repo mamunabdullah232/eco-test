@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 3",
+                 "as":  "টেষ্ট 3"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Choose the correct passive voice: He writes a letter.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: He writes a letter.",
+                          "options":  [
+                                          {
+                                              "en":  "A letter is written by him.",
+                                              "as":  "A letter is written by him."
+                                          },
+                                          {
+                                              "en":  "A letter was written by him.",
+                                              "as":  "A letter was written by him."
+                                          },
+                                          {
+                                              "en":  "A letter has written by him.",
+                                              "as":  "A letter has written by him."
+                                          },
+                                          {
+                                              "en":  "A letter is writing by him.",
+                                              "as":  "A letter is writing by him."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: She was cooking rice.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: She was cooking rice.",
+                          "options":  [
+                                          {
+                                              "en":  "Rice cooked by her.",
+                                              "as":  "Rice cooked by her."
+                                          },
+                                          {
+                                              "en":  "Rice was cooked by her.",
+                                              "as":  "Rice was cooked by her."
+                                          },
+                                          {
+                                              "en":  "Rice was being cooked by her.",
+                                              "as":  "Rice was being cooked by her."
+                                          },
+                                          {
+                                              "en":  "Rice has been cooked by her.",
+                                              "as":  "Rice has been cooked by her."
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: They have completed the project.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: They have completed the project.",
+                          "options":  [
+                                          {
+                                              "en":  "The project has completed by them.",
+                                              "as":  "The project has completed by them."
+                                          },
+                                          {
+                                              "en":  "The project has been completed by them.",
+                                              "as":  "The project has been completed by them."
+                                          },
+                                          {
+                                              "en":  "The project was completed by them.",
+                                              "as":  "The project was completed by them."
+                                          },
+                                          {
+                                              "en":  "The project is completed by them.",
+                                              "as":  "The project is completed by them."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct active voice: Let the work be done at once.",
+                          "as":  "সঠিক active voice বাছনি কৰা: Let the work be done at once.",
+                          "options":  [
+                                          {
+                                              "en":  "Do the work at once.",
+                                              "as":  "Do the work at once."
+                                          },
+                                          {
+                                              "en":  "The work is done at once.",
+                                              "as":  "The work is done at once."
+                                          },
+                                          {
+                                              "en":  "The work was done at once.",
+                                              "as":  "The work was done at once."
+                                          },
+                                          {
+                                              "en":  "Let doing the work at once.",
+                                              "as":  "Let doing the work at once."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: The teacher praised the student.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: The teacher praised the student.",
+                          "options":  [
+                                          {
+                                              "en":  "The student is praised by the teacher.",
+                                              "as":  "The student is praised by the teacher."
+                                          },
+                                          {
+                                              "en":  "The student was praised by the teacher.",
+                                              "as":  "The student was praised by the teacher."
+                                          },
+                                          {
+                                              "en":  "The student has praised by the teacher.",
+                                              "as":  "The student has praised by the teacher."
+                                          },
+                                          {
+                                              "en":  "The student praised by the teacher.",
+                                              "as":  "The student praised by the teacher."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: Someone stole my bag.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: Someone stole my bag.",
+                          "options":  [
+                                          {
+                                              "en":  "My bag is stolen.",
+                                              "as":  "My bag is stolen."
+                                          },
+                                          {
+                                              "en":  "My bag was stolen.",
+                                              "as":  "My bag was stolen."
+                                          },
+                                          {
+                                              "en":  "My bag has stolen.",
+                                              "as":  "My bag has stolen."
+                                          },
+                                          {
+                                              "en":  "My bag was being stole.",
+                                              "as":  "My bag was being stole."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: Do not waste time.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: Do not waste time.",
+                          "options":  [
+                                          {
+                                              "en":  "Let time not be wasted.",
+                                              "as":  "Let time not be wasted."
+                                          },
+                                          {
+                                              "en":  "Time do not be wasted.",
+                                              "as":  "Time do not be wasted."
+                                          },
+                                          {
+                                              "en":  "Let time not wasted.",
+                                              "as":  "Let time not wasted."
+                                          },
+                                          {
+                                              "en":  "Time is not waste.",
+                                              "as":  "Time is not waste."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct active voice: A song was sung by Raju.",
+                          "as":  "সঠিক active voice বাছনি কৰা: A song was sung by Raju.",
+                          "options":  [
+                                          {
+                                              "en":  "Raju sings a song.",
+                                              "as":  "Raju sings a song."
+                                          },
+                                          {
+                                              "en":  "Raju sang a song.",
+                                              "as":  "Raju sang a song."
+                                          },
+                                          {
+                                              "en":  "Raju has sung a song.",
+                                              "as":  "Raju has sung a song."
+                                          },
+                                          {
+                                              "en":  "Raju was singing a song.",
+                                              "as":  "Raju was singing a song."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: We will help the poor.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: We will help the poor.",
+                          "options":  [
+                                          {
+                                              "en":  "The poor will helped by us.",
+                                              "as":  "The poor will helped by us."
+                                          },
+                                          {
+                                              "en":  "The poor will be helped by us.",
+                                              "as":  "The poor will be helped by us."
+                                          },
+                                          {
+                                              "en":  "The poor are helped by us.",
+                                              "as":  "The poor are helped by us."
+                                          },
+                                          {
+                                              "en":  "The poor have been helped by us.",
+                                              "as":  "The poor have been helped by us."
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Voice"
+                      },
+                      {
+                          "en":  "Choose the correct passive voice: Shut the gate.",
+                          "as":  "সঠিক passive voice বাছনি কৰা: Shut the gate.",
+                          "options":  [
+                                          {
+                                              "en":  "Let the gate be shut.",
+                                              "as":  "Let the gate be shut."
+                                          },
+                                          {
+                                              "en":  "The gate is shut by you.",
+                                              "as":  "The gate is shut by you."
+                                          },
+                                          {
+                                              "en":  "The gate was shut.",
+                                              "as":  "The gate was shut."
+                                          },
+                                          {
+                                              "en":  "Let gate shut.",
+                                              "as":  "Let gate shut."
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Voice"
+                      }
+                  ]
+}
+

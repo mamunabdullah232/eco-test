@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 2",
+                 "as":  "টেষ্ট 2"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Choose the correct tense form: The sun _____ in the east.",
+                          "as":  "সঠিক tense form বাছনি কৰা: The sun _____ in the east.",
+                          "options":  [
+                                          {
+                                              "en":  "rise",
+                                              "as":  "rise"
+                                          },
+                                          {
+                                              "en":  "rises",
+                                              "as":  "rises"
+                                          },
+                                          {
+                                              "en":  "rose",
+                                              "as":  "rose"
+                                          },
+                                          {
+                                              "en":  "is rising",
+                                              "as":  "is rising"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: When I reached the station, the train _____.",
+                          "as":  "সঠিক tense form বাছনি কৰা: When I reached the station, the train _____.",
+                          "options":  [
+                                          {
+                                              "en":  "left",
+                                              "as":  "left"
+                                          },
+                                          {
+                                              "en":  "has left",
+                                              "as":  "has left"
+                                          },
+                                          {
+                                              "en":  "had left",
+                                              "as":  "had left"
+                                          },
+                                          {
+                                              "en":  "will leave",
+                                              "as":  "will leave"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: She _____ a book when I called her.",
+                          "as":  "সঠিক tense form বাছনি কৰা: She _____ a book when I called her.",
+                          "options":  [
+                                          {
+                                              "en":  "reads",
+                                              "as":  "reads"
+                                          },
+                                          {
+                                              "en":  "read",
+                                              "as":  "read"
+                                          },
+                                          {
+                                              "en":  "was reading",
+                                              "as":  "was reading"
+                                          },
+                                          {
+                                              "en":  "has read",
+                                              "as":  "has read"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: We _____ in Guwahati since 2022.",
+                          "as":  "সঠিক tense form বাছনি কৰা: We _____ in Guwahati since 2022.",
+                          "options":  [
+                                          {
+                                              "en":  "live",
+                                              "as":  "live"
+                                          },
+                                          {
+                                              "en":  "lived",
+                                              "as":  "lived"
+                                          },
+                                          {
+                                              "en":  "are living",
+                                              "as":  "are living"
+                                          },
+                                          {
+                                              "en":  "have lived",
+                                              "as":  "have lived"
+                                          }
+                                      ],
+                          "answer":  3,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: Hari usually _____ novels at night.",
+                          "as":  "সঠিক tense form বাছনি কৰা: Hari usually _____ novels at night.",
+                          "options":  [
+                                          {
+                                              "en":  "read",
+                                              "as":  "read"
+                                          },
+                                          {
+                                              "en":  "reads",
+                                              "as":  "reads"
+                                          },
+                                          {
+                                              "en":  "reading",
+                                              "as":  "reading"
+                                          },
+                                          {
+                                              "en":  "has read",
+                                              "as":  "has read"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: By next Monday, I _____ the work.",
+                          "as":  "সঠিক tense form বাছনি কৰা: By next Monday, I _____ the work.",
+                          "options":  [
+                                          {
+                                              "en":  "finish",
+                                              "as":  "finish"
+                                          },
+                                          {
+                                              "en":  "finished",
+                                              "as":  "finished"
+                                          },
+                                          {
+                                              "en":  "will have finished",
+                                              "as":  "will have finished"
+                                          },
+                                          {
+                                              "en":  "have finished",
+                                              "as":  "have finished"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: The children _____ in the field now.",
+                          "as":  "সঠিক tense form বাছনি কৰা: The children _____ in the field now.",
+                          "options":  [
+                                          {
+                                              "en":  "play",
+                                              "as":  "play"
+                                          },
+                                          {
+                                              "en":  "played",
+                                              "as":  "played"
+                                          },
+                                          {
+                                              "en":  "are playing",
+                                              "as":  "are playing"
+                                          },
+                                          {
+                                              "en":  "have played",
+                                              "as":  "have played"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: He _____ his homework before he went to bed.",
+                          "as":  "সঠিক tense form বাছনি কৰা: He _____ his homework before he went to bed.",
+                          "options":  [
+                                          {
+                                              "en":  "completed",
+                                              "as":  "completed"
+                                          },
+                                          {
+                                              "en":  "had completed",
+                                              "as":  "had completed"
+                                          },
+                                          {
+                                              "en":  "has completed",
+                                              "as":  "has completed"
+                                          },
+                                          {
+                                              "en":  "will complete",
+                                              "as":  "will complete"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: I _____ him yesterday.",
+                          "as":  "সঠিক tense form বাছনি কৰা: I _____ him yesterday.",
+                          "options":  [
+                                          {
+                                              "en":  "meet",
+                                              "as":  "meet"
+                                          },
+                                          {
+                                              "en":  "met",
+                                              "as":  "met"
+                                          },
+                                          {
+                                              "en":  "have met",
+                                              "as":  "have met"
+                                          },
+                                          {
+                                              "en":  "had meet",
+                                              "as":  "had meet"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Tense"
+                      },
+                      {
+                          "en":  "Choose the correct tense form: The match _____ before the rain started.",
+                          "as":  "সঠিক tense form বাছনি কৰা: The match _____ before the rain started.",
+                          "options":  [
+                                          {
+                                              "en":  "begins",
+                                              "as":  "begins"
+                                          },
+                                          {
+                                              "en":  "began",
+                                              "as":  "began"
+                                          },
+                                          {
+                                              "en":  "had begun",
+                                              "as":  "had begun"
+                                          },
+                                          {
+                                              "en":  "has begun",
+                                              "as":  "has begun"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Tense"
+                      }
+                  ]
+}
+

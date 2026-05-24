@@ -1482,6 +1482,9 @@ const testNames = [
   {en:"Test 4", as:"টেষ্ট ৪"},
   {en:"Test 5", as:"টেষ্ট ৫"}
 ];
+const grammarTestNames = Array.from({length:10}, function(_, index){
+  return {en:"Test " + (index + 1), as:"টেষ্ট " + (index + 1)};
+});
 const materialTopics = [
   {en:"Notes PDF", as:"নোট PDF"},
   {en:"Question Bank", as:"প্ৰশ্ন ভঁৰাল"},
@@ -1656,6 +1659,10 @@ function isClass10EnglishSection(parts){
   return parts.map(slugify).join("__") === "class-10__english__english";
 }
 
+function isClass10EnglishGrammarSection(parts){
+  return parts.map(slugify).join("__") === "class-10__english__grammar";
+}
+
 function class10EnglishFinalTestLink(year){
   return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-" + year + "-final-english-mcq.json");
 }
@@ -1691,6 +1698,10 @@ function economicsTestFile(parts, test){
   return class10SocialScienceTestFile(parts, "economics", test);
 }
 
+function class10EnglishGrammarTestFile(test){
+  return "mock-tests/class-10/english/grammar/test" + getNumberFromLabel(test) + ".json";
+}
+
 function nestedTestLink(parts, test){
   if(isClass10History(parts)){
     return "mock-test.html?file=" + encodeURIComponent(historyTestFile(parts, test));
@@ -1703,6 +1714,9 @@ function nestedTestLink(parts, test){
   }
   if(isClass10Economics(parts)){
     return "mock-test.html?file=" + encodeURIComponent(economicsTestFile(parts, test));
+  }
+  if(isClass10EnglishGrammarSection(parts)){
+    return "mock-test.html?file=" + encodeURIComponent(class10EnglishGrammarTestFile(test));
   }
   return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));
 }
@@ -1719,6 +1733,9 @@ function isMockTestAvailable(parts, test){
   }
   if(isClass10Economics(parts)){
     return /^Test [1-5]$/.test(labelEn(test));
+  }
+  if(isClass10EnglishGrammarSection(parts)){
+    return /^Test ([1-9]|10)$/.test(labelEn(test));
   }
   return false;
 }
@@ -1770,7 +1787,8 @@ function groupLabel(group){
 }
 
 function makeTestLevel(title, parts){
-  const tests = testNames.map(test => ({
+  const levelTestNames = isClass10EnglishGrammarSection(parts) ? grammarTestNames : testNames;
+  const tests = levelTestNames.map(test => ({
     label:test,
     href:isMockTestAvailable(parts, test) ? nestedTestLink(parts, test) : "",
     status:isMockTestAvailable(parts, test) ? "available" : "soon",

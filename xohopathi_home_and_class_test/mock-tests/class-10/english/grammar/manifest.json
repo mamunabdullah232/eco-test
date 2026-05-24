@@ -1,0 +1,93 @@
+﻿{
+    "courseId":  "class10-english-grammar",
+    "title":  {
+                  "en":  "Class 10 English Grammar MCQ Tests",
+                  "as":  "দশম শ্ৰেণী ইংৰাজী ব্যাকৰণ MCQ টেষ্ট"
+              },
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "folderPath":  "/mock-tests/class-10/english/grammar/",
+    "tests":  [
+                  {
+                      "id":  "test1",
+                      "title":  "Test 1",
+                      "file":  "test1.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test2",
+                      "title":  "Test 2",
+                      "file":  "test2.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test3",
+                      "title":  "Test 3",
+                      "file":  "test3.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test4",
+                      "title":  "Test 4",
+                      "file":  "test4.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test5",
+                      "title":  "Test 5",
+                      "file":  "test5.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test6",
+                      "title":  "Test 6",
+                      "file":  "test6.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test7",
+                      "title":  "Test 7",
+                      "file":  "test7.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test8",
+                      "title":  "Test 8",
+                      "file":  "test8.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test9",
+                      "title":  "Test 9",
+                      "file":  "test9.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  },
+                  {
+                      "id":  "test10",
+                      "title":  "Test 10",
+                      "file":  "test10.json",
+                      "questions":  10,
+                      "durationMinutes":  10
+                  }
+              ]
+}
+

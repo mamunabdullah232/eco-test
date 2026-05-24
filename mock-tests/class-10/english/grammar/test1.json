@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 1",
+                 "as":  "টেষ্ট 1"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Choose the correct question tag: She is your sister, _____?",
+                          "as":  "সঠিক question tag বাছনি কৰা: She is your sister, _____?",
+                          "options":  [
+                                          {
+                                              "en":  "is she?",
+                                              "as":  "is she?"
+                                          },
+                                          {
+                                              "en":  "isn\u0027t she?",
+                                              "as":  "isn\u0027t she?"
+                                          },
+                                          {
+                                              "en":  "was she?",
+                                              "as":  "was she?"
+                                          },
+                                          {
+                                              "en":  "doesn\u0027t she?",
+                                              "as":  "doesn\u0027t she?"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Question Tag"
+                      },
+                      {
+                          "en":  "Choose the correct question tag: They have finished the work, _____?",
+                          "as":  "সঠিক question tag বাছনি কৰা: They have finished the work, _____?",
+                          "options":  [
+                                          {
+                                              "en":  "haven\u0027t they?",
+                                              "as":  "haven\u0027t they?"
+                                          },
+                                          {
+                                              "en":  "have they?",
+                                              "as":  "have they?"
+                                          },
+                                          {
+                                              "en":  "didn\u0027t they?",
+                                              "as":  "didn\u0027t they?"
+                                          },
+                                          {
+                                              "en":  "don\u0027t they?",
+                                              "as":  "don\u0027t they?"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Question Tag"
+                      },
+                      {
+                          "en":  "Choose the correct question tag: Let us go for a walk, _____?",
+                          "as":  "সঠিক question tag বাছনি কৰা: Let us go for a walk, _____?",
+                          "options":  [
+                                          {
+                                              "en":  "shall we?",
+                                              "as":  "shall we?"
+                                          },
+                                          {
+                                              "en":  "will you?",
+                                              "as":  "will you?"
+                                          },
+                                          {
+                                              "en":  "do we?",
+                                              "as":  "do we?"
+                                          },
+                                          {
+                                              "en":  "don\u0027t we?",
+                                              "as":  "don\u0027t we?"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Question Tag"
+                      },
+                      {
+                          "en":  "Choose the correct question tag: Rina does not like tea, _____?",
+                          "as":  "সঠিক question tag বাছনি কৰা: Rina does not like tea, _____?",
+                          "options":  [
+                                          {
+                                              "en":  "does she?",
+                                              "as":  "does she?"
+                                          },
+                                          {
+                                              "en":  "doesn\u0027t she?",
+                                              "as":  "doesn\u0027t she?"
+                                          },
+                                          {
+                                              "en":  "did she?",
+                                              "as":  "did she?"
+                                          },
+                                          {
+                                              "en":  "is she?",
+                                              "as":  "is she?"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Question Tag"
+                      },
+                      {
+                          "en":  "Choose the correct question tag: I am late, _____?",
+                          "as":  "সঠিক question tag বাছনি কৰা: I am late, _____?",
+                          "options":  [
+                                          {
+                                              "en":  "amn\u0027t I?",
+                                              "as":  "amn\u0027t I?"
+                                          },
+                                          {
+                                              "en":  "aren\u0027t I?",
+                                              "as":  "aren\u0027t I?"
+                                          },
+                                          {
+                                              "en":  "isn\u0027t I?",
+                                              "as":  "isn\u0027t I?"
+                                          },
+                                          {
+                                              "en":  "don\u0027t I?",
+                                              "as":  "don\u0027t I?"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Question Tag"
+                      },
+                      {
+                          "en":  "Identify the type of sentence: Please shut the window.",
+                          "as":  "বাক্যৰ প্ৰকাৰ চিনাক্ত কৰা: Please shut the window.",
+                          "options":  [
+                                          {
+                                              "en":  "Assertive",
+                                              "as":  "Assertive"
+                                          },
+                                          {
+                                              "en":  "Interrogative",
+                                              "as":  "Interrogative"
+                                          },
+                                          {
+                                              "en":  "Imperative",
+                                              "as":  "Imperative"
+                                          },
+                                          {
+                                              "en":  "Exclamatory",
+                                              "as":  "Exclamatory"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Sentence Type"
+                      },
+                      {
+                          "en":  "Identify the type of sentence: What a beautiful morning it is!",
+                          "as":  "বাক্যৰ প্ৰকাৰ চিনাক্ত কৰা: What a beautiful morning it is!",
+                          "options":  [
+                                          {
+                                              "en":  "Assertive",
+                                              "as":  "Assertive"
+                                          },
+                                          {
+                                              "en":  "Interrogative",
+                                              "as":  "Interrogative"
+                                          },
+                                          {
+                                              "en":  "Imperative",
+                                              "as":  "Imperative"
+                                          },
+                                          {
+                                              "en":  "Exclamatory",
+                                              "as":  "Exclamatory"
+                                          }
+                                      ],
+                          "answer":  3,
+                          "topic":  "Sentence Type"
+                      },
+                      {
+                          "en":  "Identify the type of sentence: Does he play football every evening?",
+                          "as":  "বাক্যৰ প্ৰকাৰ চিনাক্ত কৰা: Does he play football every evening?",
+                          "options":  [
+                                          {
+                                              "en":  "Assertive",
+                                              "as":  "Assertive"
+                                          },
+                                          {
+                                              "en":  "Interrogative",
+                                              "as":  "Interrogative"
+                                          },
+                                          {
+                                              "en":  "Imperative",
+                                              "as":  "Imperative"
+                                          },
+                                          {
+                                              "en":  "Exclamatory",
+                                              "as":  "Exclamatory"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Sentence Type"
+                      },
+                      {
+                          "en":  "Identify the type of sentence: The Brahmaputra is a mighty river.",
+                          "as":  "বাক্যৰ প্ৰকাৰ চিনাক্ত কৰা: The Brahmaputra is a mighty river.",
+                          "options":  [
+                                          {
+                                              "en":  "Assertive",
+                                              "as":  "Assertive"
+                                          },
+                                          {
+                                              "en":  "Interrogative",
+                                              "as":  "Interrogative"
+                                          },
+                                          {
+                                              "en":  "Imperative",
+                                              "as":  "Imperative"
+                                          },
+                                          {
+                                              "en":  "Exclamatory",
+                                              "as":  "Exclamatory"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Sentence Type"
+                      },
+                      {
+                          "en":  "Choose the correct question tag: Open the door, _____?",
+                          "as":  "সঠিক question tag বাছনি কৰা: Open the door, _____?",
+                          "options":  [
+                                          {
+                                              "en":  "will you?",
+                                              "as":  "will you?"
+                                          },
+                                          {
+                                              "en":  "do you?",
+                                              "as":  "do you?"
+                                          },
+                                          {
+                                              "en":  "won\u0027t you?",
+                                              "as":  "won\u0027t you?"
+                                          },
+                                          {
+                                              "en":  "shall we?",
+                                              "as":  "shall we?"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Question Tag"
+                      }
+                  ]
+}
+

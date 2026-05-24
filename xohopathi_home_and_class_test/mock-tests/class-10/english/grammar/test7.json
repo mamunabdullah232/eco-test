@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 7",
+                 "as":  "টেষ্ট 7"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "The modal “should” in “We should speak the truth” implies:",
+                          "as":  "“We should speak the truth” বাক্যত “should” modal-এ কি বুজাইছে?",
+                          "options":  [
+                                          {
+                                              "en":  "probability",
+                                              "as":  "probability"
+                                          },
+                                          {
+                                              "en":  "certainty",
+                                              "as":  "certainty"
+                                          },
+                                          {
+                                              "en":  "request",
+                                              "as":  "request"
+                                          },
+                                          {
+                                              "en":  "duty",
+                                              "as":  "duty"
+                                          }
+                                      ],
+                          "answer":  3,
+                          "topic":  "Modal"
+                      },
+                      {
+                          "en":  "Choose the correct modal: You _____ respect your parents.",
+                          "as":  "সঠিক modal বাছনি কৰা: You _____ respect your parents.",
+                          "options":  [
+                                          {
+                                              "en":  "must",
+                                              "as":  "must"
+                                          },
+                                          {
+                                              "en":  "may",
+                                              "as":  "may"
+                                          },
+                                          {
+                                              "en":  "might",
+                                              "as":  "might"
+                                          },
+                                          {
+                                              "en":  "could",
+                                              "as":  "could"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Modal"
+                      },
+                      {
+                          "en":  "Choose the correct modal: _____ I come in, Sir?",
+                          "as":  "সঠিক modal বাছনি কৰা: _____ I come in, Sir?",
+                          "options":  [
+                                          {
+                                              "en":  "Should",
+                                              "as":  "Should"
+                                          },
+                                          {
+                                              "en":  "May",
+                                              "as":  "May"
+                                          },
+                                          {
+                                              "en":  "Must",
+                                              "as":  "Must"
+                                          },
+                                          {
+                                              "en":  "Need",
+                                              "as":  "Need"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Modal"
+                      },
+                      {
+                          "en":  "Choose the correct modal: It _____ rain today; the sky is cloudy.",
+                          "as":  "সঠিক modal বাছনি কৰা: It _____ rain today; the sky is cloudy.",
+                          "options":  [
+                                          {
+                                              "en":  "must",
+                                              "as":  "must"
+                                          },
+                                          {
+                                              "en":  "may",
+                                              "as":  "may"
+                                          },
+                                          {
+                                              "en":  "should",
+                                              "as":  "should"
+                                          },
+                                          {
+                                              "en":  "need",
+                                              "as":  "need"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Modal"
+                      },
+                      {
+                          "en":  "Choose the correct option: All tickets have been _____.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: All tickets have been _____.",
+                          "options":  [
+                                          {
+                                              "en":  "sold out",
+                                              "as":  "sold out"
+                                          },
+                                          {
+                                              "en":  "sold away",
+                                              "as":  "sold away"
+                                          },
+                                          {
+                                              "en":  "sold up",
+                                              "as":  "sold up"
+                                          },
+                                          {
+                                              "en":  "sold in",
+                                              "as":  "sold in"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Phrasal Verb"
+                      },
+                      {
+                          "en":  "Choose the correct option: The meeting was _____ due to rain.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: The meeting was _____ due to rain.",
+                          "options":  [
+                                          {
+                                              "en":  "called on",
+                                              "as":  "called on"
+                                          },
+                                          {
+                                              "en":  "called off",
+                                              "as":  "called off"
+                                          },
+                                          {
+                                              "en":  "called at",
+                                              "as":  "called at"
+                                          },
+                                          {
+                                              "en":  "called in",
+                                              "as":  "called in"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Phrasal Verb"
+                      },
+                      {
+                          "en":  "Choose the correct option: Please _____ the lights before leaving.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: Please _____ the lights before leaving.",
+                          "options":  [
+                                          {
+                                              "en":  "put off",
+                                              "as":  "put off"
+                                          },
+                                          {
+                                              "en":  "switch off",
+                                              "as":  "switch off"
+                                          },
+                                          {
+                                              "en":  "take off",
+                                              "as":  "take off"
+                                          },
+                                          {
+                                              "en":  "give off",
+                                              "as":  "give off"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Phrasal Verb"
+                      },
+                      {
+                          "en":  "Choose the correct meaning of “by fits and starts”.",
+                          "as":  "“by fits and starts”-ৰ সঠিক অৰ্থ বাছনি কৰা।",
+                          "options":  [
+                                          {
+                                              "en":  "regularly",
+                                              "as":  "regularly"
+                                          },
+                                          {
+                                              "en":  "irregularly",
+                                              "as":  "irregularly"
+                                          },
+                                          {
+                                              "en":  "quickly",
+                                              "as":  "quickly"
+                                          },
+                                          {
+                                              "en":  "silently",
+                                              "as":  "silently"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Idiom"
+                      },
+                      {
+                          "en":  "Choose the correct meaning of “in the nick of time”.",
+                          "as":  "“in the nick of time”-ৰ সঠিক অৰ্থ বাছনি কৰা।",
+                          "options":  [
+                                          {
+                                              "en":  "too late",
+                                              "as":  "too late"
+                                          },
+                                          {
+                                              "en":  "just in time",
+                                              "as":  "just in time"
+                                          },
+                                          {
+                                              "en":  "slowly",
+                                              "as":  "slowly"
+                                          },
+                                          {
+                                              "en":  "without time",
+                                              "as":  "without time"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Idiom"
+                      },
+                      {
+                          "en":  "Choose the correct option: The old man _____ after a long illness.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: The old man _____ after a long illness.",
+                          "options":  [
+                                          {
+                                              "en":  "passed away",
+                                              "as":  "passed away"
+                                          },
+                                          {
+                                              "en":  "passed out",
+                                              "as":  "passed out"
+                                          },
+                                          {
+                                              "en":  "passed by",
+                                              "as":  "passed by"
+                                          },
+                                          {
+                                              "en":  "passed on",
+                                              "as":  "passed on"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Phrasal Verb"
+                      }
+                  ]
+}
+

@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 6",
+                 "as":  "টেষ্ট 6"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Choose the correct option: She gave _____ money she had to the beggar.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: She gave _____ money she had to the beggar.",
+                          "options":  [
+                                          {
+                                              "en":  "the little",
+                                              "as":  "the little"
+                                          },
+                                          {
+                                              "en":  "the few",
+                                              "as":  "the few"
+                                          },
+                                          {
+                                              "en":  "many",
+                                              "as":  "many"
+                                          },
+                                          {
+                                              "en":  "few",
+                                              "as":  "few"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct option: I have _____ friends in this town.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: I have _____ friends in this town.",
+                          "options":  [
+                                          {
+                                              "en":  "much",
+                                              "as":  "much"
+                                          },
+                                          {
+                                              "en":  "a few",
+                                              "as":  "a few"
+                                          },
+                                          {
+                                              "en":  "little",
+                                              "as":  "little"
+                                          },
+                                          {
+                                              "en":  "any much",
+                                              "as":  "any much"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct option: There is _____ milk in the glass.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: There is _____ milk in the glass.",
+                          "options":  [
+                                          {
+                                              "en":  "many",
+                                              "as":  "many"
+                                          },
+                                          {
+                                              "en":  "few",
+                                              "as":  "few"
+                                          },
+                                          {
+                                              "en":  "some",
+                                              "as":  "some"
+                                          },
+                                          {
+                                              "en":  "a few",
+                                              "as":  "a few"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct option: Do you have _____ money?",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: Do you have _____ money?",
+                          "options":  [
+                                          {
+                                              "en":  "some",
+                                              "as":  "some"
+                                          },
+                                          {
+                                              "en":  "any",
+                                              "as":  "any"
+                                          },
+                                          {
+                                              "en":  "many",
+                                              "as":  "many"
+                                          },
+                                          {
+                                              "en":  "few",
+                                              "as":  "few"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct article: He is _____ honest man.",
+                          "as":  "সঠিক article বাছনি কৰা: He is _____ honest man.",
+                          "options":  [
+                                          {
+                                              "en":  "a",
+                                              "as":  "a"
+                                          },
+                                          {
+                                              "en":  "an",
+                                              "as":  "an"
+                                          },
+                                          {
+                                              "en":  "the",
+                                              "as":  "the"
+                                          },
+                                          {
+                                              "en":  "no article",
+                                              "as":  "no article"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Article"
+                      },
+                      {
+                          "en":  "Choose the correct article: The Ganga is _____ sacred river.",
+                          "as":  "সঠিক article বাছনি কৰা: The Ganga is _____ sacred river.",
+                          "options":  [
+                                          {
+                                              "en":  "a",
+                                              "as":  "a"
+                                          },
+                                          {
+                                              "en":  "an",
+                                              "as":  "an"
+                                          },
+                                          {
+                                              "en":  "the",
+                                              "as":  "the"
+                                          },
+                                          {
+                                              "en":  "no article",
+                                              "as":  "no article"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Article"
+                      },
+                      {
+                          "en":  "Choose the correct option: _____ of the two boys is taller?",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: _____ of the two boys is taller?",
+                          "options":  [
+                                          {
+                                              "en":  "Who",
+                                              "as":  "Who"
+                                          },
+                                          {
+                                              "en":  "Which",
+                                              "as":  "Which"
+                                          },
+                                          {
+                                              "en":  "What",
+                                              "as":  "What"
+                                          },
+                                          {
+                                              "en":  "Whom",
+                                              "as":  "Whom"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct option: He has _____ patience.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: He has _____ patience.",
+                          "options":  [
+                                          {
+                                              "en":  "few",
+                                              "as":  "few"
+                                          },
+                                          {
+                                              "en":  "a few",
+                                              "as":  "a few"
+                                          },
+                                          {
+                                              "en":  "little",
+                                              "as":  "little"
+                                          },
+                                          {
+                                              "en":  "many",
+                                              "as":  "many"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct option: _____ students were present in the class.",
+                          "as":  "সঠিক বিকল্প বাছনি কৰা: _____ students were present in the class.",
+                          "options":  [
+                                          {
+                                              "en":  "Much",
+                                              "as":  "Much"
+                                          },
+                                          {
+                                              "en":  "Many",
+                                              "as":  "Many"
+                                          },
+                                          {
+                                              "en":  "A little",
+                                              "as":  "A little"
+                                          },
+                                          {
+                                              "en":  "Any much",
+                                              "as":  "Any much"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Determiner"
+                      },
+                      {
+                          "en":  "Choose the correct article: We saw _____ elephant in the forest.",
+                          "as":  "সঠিক article বাছনি কৰা: We saw _____ elephant in the forest.",
+                          "options":  [
+                                          {
+                                              "en":  "a",
+                                              "as":  "a"
+                                          },
+                                          {
+                                              "en":  "an",
+                                              "as":  "an"
+                                          },
+                                          {
+                                              "en":  "the",
+                                              "as":  "the"
+                                          },
+                                          {
+                                              "en":  "no article",
+                                              "as":  "no article"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Article"
+                      }
+                  ]
+}
+

@@ -1,0 +1,268 @@
+﻿{
+    "className":  {
+                      "en":  "Class 10",
+                      "as":  "শ্ৰেণী ১০"
+                  },
+    "subject":  {
+                    "en":  "English",
+                    "as":  "ইংৰাজী"
+                },
+    "section":  {
+                    "en":  "Grammar",
+                    "as":  "ব্যাকৰণ"
+                },
+    "chapter":  {
+                    "en":  "Class 10 English Grammar",
+                    "as":  "শ্ৰেণী ১০ ইংৰাজী ব্যাকৰণ"
+                },
+    "test":  {
+                 "en":  "Test 5",
+                 "as":  "টেষ্ট 5"
+             },
+    "durationMinutes":  10,
+    "correctMarks":  1,
+    "wrongMarks":  -0.25,
+    "questions":  [
+                      {
+                          "en":  "Choose the correct preposition: The train will stop _____ many stations.",
+                          "as":  "সঠিক preposition বাছনি কৰা: The train will stop _____ many stations.",
+                          "options":  [
+                                          {
+                                              "en":  "on",
+                                              "as":  "on"
+                                          },
+                                          {
+                                              "en":  "upon",
+                                              "as":  "upon"
+                                          },
+                                          {
+                                              "en":  "at",
+                                              "as":  "at"
+                                          },
+                                          {
+                                              "en":  "by",
+                                              "as":  "by"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: We should listen _____ our elders.",
+                          "as":  "সঠিক preposition বাছনি কৰা: We should listen _____ our elders.",
+                          "options":  [
+                                          {
+                                              "en":  "to",
+                                              "as":  "to"
+                                          },
+                                          {
+                                              "en":  "at",
+                                              "as":  "at"
+                                          },
+                                          {
+                                              "en":  "for",
+                                              "as":  "for"
+                                          },
+                                          {
+                                              "en":  "with",
+                                              "as":  "with"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: He is good _____ mathematics.",
+                          "as":  "সঠিক preposition বাছনি কৰা: He is good _____ mathematics.",
+                          "options":  [
+                                          {
+                                              "en":  "in",
+                                              "as":  "in"
+                                          },
+                                          {
+                                              "en":  "at",
+                                              "as":  "at"
+                                          },
+                                          {
+                                              "en":  "on",
+                                              "as":  "on"
+                                          },
+                                          {
+                                              "en":  "for",
+                                              "as":  "for"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: The cat jumped _____ the table.",
+                          "as":  "সঠিক preposition বাছনি কৰা: The cat jumped _____ the table.",
+                          "options":  [
+                                          {
+                                              "en":  "at",
+                                              "as":  "at"
+                                          },
+                                          {
+                                              "en":  "on",
+                                              "as":  "on"
+                                          },
+                                          {
+                                              "en":  "of",
+                                              "as":  "of"
+                                          },
+                                          {
+                                              "en":  "with",
+                                              "as":  "with"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: He has been absent _____ Monday.",
+                          "as":  "সঠিক preposition বাছনি কৰা: He has been absent _____ Monday.",
+                          "options":  [
+                                          {
+                                              "en":  "for",
+                                              "as":  "for"
+                                          },
+                                          {
+                                              "en":  "since",
+                                              "as":  "since"
+                                          },
+                                          {
+                                              "en":  "from",
+                                              "as":  "from"
+                                          },
+                                          {
+                                              "en":  "during",
+                                              "as":  "during"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: I have lived here _____ ten years.",
+                          "as":  "সঠিক preposition বাছনি কৰা: I have lived here _____ ten years.",
+                          "options":  [
+                                          {
+                                              "en":  "since",
+                                              "as":  "since"
+                                          },
+                                          {
+                                              "en":  "from",
+                                              "as":  "from"
+                                          },
+                                          {
+                                              "en":  "for",
+                                              "as":  "for"
+                                          },
+                                          {
+                                              "en":  "by",
+                                              "as":  "by"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: She is fond _____ music.",
+                          "as":  "সঠিক preposition বাছনি কৰা: She is fond _____ music.",
+                          "options":  [
+                                          {
+                                              "en":  "of",
+                                              "as":  "of"
+                                          },
+                                          {
+                                              "en":  "for",
+                                              "as":  "for"
+                                          },
+                                          {
+                                              "en":  "in",
+                                              "as":  "in"
+                                          },
+                                          {
+                                              "en":  "on",
+                                              "as":  "on"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: It is wise to depend _____ hard work.",
+                          "as":  "সঠিক preposition বাছনি কৰা: It is wise to depend _____ hard work.",
+                          "options":  [
+                                          {
+                                              "en":  "in",
+                                              "as":  "in"
+                                          },
+                                          {
+                                              "en":  "on",
+                                              "as":  "on"
+                                          },
+                                          {
+                                              "en":  "at",
+                                              "as":  "at"
+                                          },
+                                          {
+                                              "en":  "for",
+                                              "as":  "for"
+                                          }
+                                      ],
+                          "answer":  1,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: The boy is afraid _____ snakes.",
+                          "as":  "সঠিক preposition বাছনি কৰা: The boy is afraid _____ snakes.",
+                          "options":  [
+                                          {
+                                              "en":  "from",
+                                              "as":  "from"
+                                          },
+                                          {
+                                              "en":  "with",
+                                              "as":  "with"
+                                          },
+                                          {
+                                              "en":  "of",
+                                              "as":  "of"
+                                          },
+                                          {
+                                              "en":  "by",
+                                              "as":  "by"
+                                          }
+                                      ],
+                          "answer":  2,
+                          "topic":  "Preposition"
+                      },
+                      {
+                          "en":  "Choose the correct preposition: The book is divided _____ ten chapters.",
+                          "as":  "সঠিক preposition বাছনি কৰা: The book is divided _____ ten chapters.",
+                          "options":  [
+                                          {
+                                              "en":  "into",
+                                              "as":  "into"
+                                          },
+                                          {
+                                              "en":  "in",
+                                              "as":  "in"
+                                          },
+                                          {
+                                              "en":  "by",
+                                              "as":  "by"
+                                          },
+                                          {
+                                              "en":  "with",
+                                              "as":  "with"
+                                          }
+                                      ],
+                          "answer":  0,
+                          "topic":  "Preposition"
+                      }
+                  ]
+}
+
