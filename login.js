@@ -2,8 +2,11 @@ import {
   auth,
   db,
   googleProvider,
+  signInWithPopup,
   signInWithRedirect,
   getRedirectResult,
+  setPersistence,
+  browserLocalPersistence,
   onAuthStateChanged,
   doc,
   setDoc,
@@ -50,6 +53,7 @@ function finishLogin(role) {
 rememberRedirect();
 
 let loginFinished = false;
+let authChecked = false;
 
 async function handleSignedInUser(user) {
   if (!user || loginFinished) return;
@@ -71,6 +75,7 @@ getRedirectResult(auth)
   });
 
 onAuthStateChanged(auth, async (user) => {
+  authChecked = true;
   try {
     await handleSignedInUser(user);
   } catch (error) {
@@ -86,10 +91,28 @@ googleLoginBtn.addEventListener("click", async () => {
   googleLoginBtn.disabled = true;
   try {
     rememberRedirect();
-    await signInWithRedirect(auth, googleProvider);
+    await setPersistence(auth, browserLocalPersistence);
+    const result = await signInWithPopup(auth, googleProvider);
+    await handleSignedInUser(result.user);
   } catch (error) {
     console.error(error);
-    statusText.textContent = "Login failed. Please check Google sign-in and authorized domains.";
+    const code = error && error.code ? error.code : "";
+    if (code.includes("popup") || code.includes("cancelled") || code.includes("blocked")) {
+      try {
+        statusText.textContent = "Popup blocked. Opening Google sign-in in this tab...";
+        await signInWithRedirect(auth, googleProvider);
+        return;
+      } catch (redirectError) {
+        console.error(redirectError);
+      }
+    }
+    statusText.textContent = "Login failed. Please try again in Chrome and allow pop-ups for this site.";
     googleLoginBtn.disabled = false;
   }
 });
+
+setTimeout(() => {
+  if (!authChecked && !loginFinished) {
+    statusText.textContent = "Preparing login...";
+  }
+}, 1200);
