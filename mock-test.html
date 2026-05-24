@@ -523,7 +523,7 @@ function currentTestId(){
 }
 
 async function saveAttemptResult(result, autoSubmitted){
-  if(!isEnglishGrammarTest() || typeof window.saveXohopathiAttempt !== "function") return;
+  if(typeof window.saveXohopathiAttempt !== "function") return;
   const selectedAnswers = testSet.questions.map((question, index) => {
     if(answers[index] === undefined) return null;
     const option = question.options[answers[index]];
@@ -539,7 +539,7 @@ async function saveAttemptResult(result, autoSubmitted){
     answer:question.answer
   }));
   try{
-    await window.saveXohopathiAttempt({
+    const saveInfo = await window.saveXohopathiAttempt({
       className:text(testSet.className) || "Class 10",
       subject:text(testSet.subject) || "English",
       topic:text(testSet.section) || "Grammar",
@@ -558,7 +558,7 @@ async function saveAttemptResult(result, autoSubmitted){
       }
     });
     const resultBox = content.querySelector(".result");
-    if(resultBox){
+    if(resultBox && saveInfo && saveInfo.saved){
       resultBox.insertAdjacentHTML("beforeend", "<br><span>Attempt saved to dashboard.</span>");
     }
   }catch(error){

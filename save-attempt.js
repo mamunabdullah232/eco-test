@@ -1,5 +1,5 @@
-// Saves protected Xohopathi mock-test attempts to Firestore.
-// Currently protects Class 10 English Grammar tests loaded through mock-test.html.
+// Saves Xohopathi mock-test attempts to Firestore when a student is logged in.
+// Tests remain open to everyone; login is only needed for saving/viewing results.
 
 import { auth, db, onAuthStateChanged, collection, addDoc, serverTimestamp } from "./firebase-config.js";
 
@@ -10,24 +10,10 @@ const authReady = new Promise((resolve) => {
   resolveAuthReady = resolve;
 });
 
-function isProtectedGrammarTest() {
-  const params = new URLSearchParams(window.location.search);
-  const file = params.get("file") || "";
-  return file.includes("mock-tests/class-10/english/grammar/");
-}
-
-function redirectToLogin() {
-  const redirect = encodeURIComponent(window.location.pathname + window.location.search);
-  window.location.href = `/login.html?redirect=${redirect}`;
-}
-
 onAuthStateChanged(auth, (user) => {
   currentUser = user;
   authResolved = true;
   resolveAuthReady(user);
-  if (!user && isProtectedGrammarTest()) {
-    redirectToLogin();
-  }
 });
 
 window.saveXohopathiAttempt = async function saveXohopathiAttempt({
@@ -44,8 +30,7 @@ window.saveXohopathiAttempt = async function saveXohopathiAttempt({
 }) {
   const user = authResolved ? currentUser : await authReady;
   if (!user) {
-    redirectToLogin();
-    throw new Error("User is not logged in.");
+    return { saved: false, reason: "not-logged-in" };
   }
 
   const attempt = {
@@ -67,5 +52,5 @@ window.saveXohopathiAttempt = async function saveXohopathiAttempt({
   };
 
   const docRef = await addDoc(collection(db, "testAttempts"), attempt);
-  return docRef.id;
+  return { saved: true, id: docRef.id };
 };

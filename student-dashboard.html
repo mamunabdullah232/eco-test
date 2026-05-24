@@ -25,18 +25,13 @@
 <body>
   <header>
     <div><h1>Student Dashboard</h1><div class="muted" id="studentInfo">Loading...</div></div>
-    <button class="btn secondary" id="logoutBtn">Logout</button>
+    <div class="actions">
+      <a class="btn secondary" href="/index.html">Home</a>
+      <button class="btn secondary" id="logoutBtn">Logout</button>
+    </div>
   </header>
   <main class="grid">
-    <section class="card">
-      <h2>Available Tests</h2>
-      <p class="muted">Start your Class 10 English Grammar mock tests.</p>
-      <div class="actions">
-        <a class="btn" href="/mock-test.html?file=mock-tests%2Fclass-10%2Fenglish%2Fgrammar%2Ftest1.json">Start Grammar Test 1</a>
-        <a class="btn secondary" href="/index.html#mock-tests">Browse Mock Tests</a>
-      </div>
-    </section>
-    <section class="card"><h2>My Previous Attempts</h2><div id="attemptsArea" class="muted">Loading attempts...</div></section>
+    <section class="card"><h2>My Previous Attempts</h2><p class="muted">Results are saved here when you are logged in before submitting a mock test.</p><div id="attemptsArea" class="muted">Loading attempts...</div></section>
   </main>
   <script type="module" src="/student-dashboard.js"></script>
 </body>
