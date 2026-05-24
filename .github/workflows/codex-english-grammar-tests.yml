@@ -26,11 +26,9 @@ jobs:
           import base64
           import zipfile
 
-          raw = Path('english-grammar-tests.b64').read_text(encoding='utf-8', errors='ignore')
-          alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
-          clean = ''.join(ch for ch in raw if ch in alphabet)
-          clean += '=' * (-len(clean) % 4)
-          Path('grammar.zip').write_bytes(base64.b64decode(clean))
+          payload_dir = Path('.tmp-grammar-payload')
+          clean = ''.join(p.read_text(encoding='ascii').strip() for p in sorted(payload_dir.glob('part*.b64')))
+          Path('grammar.zip').write_bytes(base64.b64decode(clean, validate=True))
 
           def patch_index(path):
               if not path.exists():
@@ -99,7 +97,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -f grammar.zip english-grammar-tests.b64 .github/workflows/codex-english-grammar-tests.yml
+          rm -rf grammar.zip english-grammar-tests.b64 .tmp-grammar-parts .tmp-grammar-payload .github/workflows/codex-english-grammar-tests.yml
           git add -A
           git commit -m "Add Class 10 English grammar mock tests"
           git push
