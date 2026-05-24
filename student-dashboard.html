@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xohopathi Student Dashboard</title>
+  <style>
+    :root{--primary:#2563eb;--dark:#0f172a;--muted:#64748b;--bg:#f8fafc;--card:#fff;--border:#e2e8f0}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--dark)}
+    header{background:#fff;border-bottom:1px solid var(--border);padding:18px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+    h1,h2{margin:0}
+    main{max-width:1100px;margin:0 auto;padding:28px 18px}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:0 10px 28px rgba(15,23,42,.06)}
+    .muted{color:var(--muted)}
+    .btn{display:inline-block;border:0;border-radius:12px;padding:11px 14px;background:var(--primary);color:white;text-decoration:none;font-weight:700;cursor:pointer}
+    .btn.secondary{background:#e2e8f0;color:var(--dark)}
+    table{width:100%;border-collapse:collapse;margin-top:14px}
+    th,td{text-align:left;border-bottom:1px solid var(--border);padding:10px 8px;font-size:14px}
+    th{color:var(--muted)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div><h1>Student Dashboard</h1><div class="muted" id="studentInfo">Loading...</div></div>
+    <button class="btn secondary" id="logoutBtn">Logout</button>
+  </header>
+  <main class="grid">
+    <section class="card">
+      <h2>Available Tests</h2>
+      <p class="muted">Start your Class 10 English Grammar mock tests.</p>
+      <div class="actions">
+        <a class="btn" href="/mock-test.html?file=mock-tests%2Fclass-10%2Fenglish%2Fgrammar%2Ftest1.json">Start Grammar Test 1</a>
+        <a class="btn secondary" href="/index.html#mock-tests">Browse Mock Tests</a>
+      </div>
+    </section>
+    <section class="card"><h2>My Previous Attempts</h2><div id="attemptsArea" class="muted">Loading attempts...</div></section>
+  </main>
+  <script type="module" src="/student-dashboard.js"></script>
+</body>
+</html>
