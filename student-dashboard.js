@@ -33,7 +33,7 @@ async function loadAttempts(user) {
 
 onAuthStateChanged(auth, async (user) => {
   if (!user) {
-    window.location.href = "/login.html?redirect=/student-dashboard.html";
+    window.location.href = "./login.html?redirect=./student-dashboard.html";
     return;
   }
   studentInfo.textContent = `${user.displayName || "Student"} - ${user.email || ""}`;
@@ -47,5 +47,5 @@ onAuthStateChanged(auth, async (user) => {
 
 logoutBtn.addEventListener("click", async () => {
   await signOut(auth);
-  window.location.href = "/login.html";
+  window.location.href = "./login.html";
 });
