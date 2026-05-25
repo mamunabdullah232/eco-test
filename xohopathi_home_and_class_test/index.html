@@ -1012,8 +1012,8 @@ footer{
           <img id="factImage" src="https://commons.wikimedia.org/wiki/Special:FilePath/Majuli%2C_the_River_Island.jpg?width=1000" alt="Majuli river island landscape in Assam" />
         </figure>
         <div class="fact-copy">
-          <span class="fact-date" id="factDate">Today</span>
-          <h1 id="did-you-know-title"><span class="bi">Did you know?<span class="as">আপুনি জানেনে?</span></span></h1>
+          <span class="fact-date" id="factDate">প্ৰতি ৫ মিনিটত নতুন তথ্য</span>
+          <h1 id="did-you-know-title">তুমি জানানে?</h1>
           <div class="fact-title" id="factTitle"></div>
           <p id="factText"></p>
         </div>
@@ -1038,7 +1038,7 @@ footer{
           </div>
           <button class="resource-row routine-launch" id="routineOpenBtn" type="button">
             <span class="resource-mark">RT</span>
-            <span><strong>Class Routine JHSS / শ্ৰেণী সূচী</strong><small>Teacher-wise assigned periods / শিক্ষকভিত্তিক পাঠদানৰ সময়সূচী</small></span>
+            <span><strong>Jaluguti HS School (Class Routine)</strong></span>
             <span class="badge green">View / চাওক</span>
           </button>
           <a class="resource-row" href="https://sikshasetu.assam.gov.in/" target="_blank" rel="noopener noreferrer">
@@ -1175,7 +1175,7 @@ footer{
   <section class="routine-dialog" role="dialog" aria-modal="true" aria-labelledby="routineTitle">
     <div class="routine-head">
       <div>
-        <h2 id="routineTitle">Class Routine JHSS / শ্ৰেণী সূচী</h2>
+        <h2 id="routineTitle">Jaluguti HS School (Class Routine)</h2>
         <p>View assigned periods by teacher or by class time. / শিক্ষক অথবা সময় অনুসৰি নিৰ্ধাৰিত পিৰিয়ড চাওক।</p>
       </div>
       <button class="routine-close" id="routineCloseBtn" type="button" aria-label="Close">&times;</button>
@@ -1336,11 +1336,37 @@ const jhssRoutineRows = [
     ]
   }
 ];
+const teacherAliasMap = {
+  "PD":"P. Devi",
+  "P.D.":"P. Devi",
+  "P.D":"P. Devi",
+  "AH":"A. Hoque",
+  "A.H.":"A. Hoque",
+  "A.H":"A. Hoque",
+  "BS":"B. Saikia",
+  "B.S.":"B. Saikia",
+  "B.S":"B. Saikia",
+  "MS":"M. Saikia",
+  "M.S.":"M. Saikia",
+  "M.S":"M. Saikia"
+};
+
+function expandTeacherName(name){
+  const normalized = String(name).trim();
+  const compact = normalized.replace(/\s+/g, "");
+  const noDots = compact.replace(/\./g, "");
+  return teacherAliasMap[compact] || teacherAliasMap[noDots] || normalized;
+}
+
+function teacherListText(teachers){
+  return teachers.map(expandTeacherName).join(" / ");
+}
+
 const jhssAssignments = jhssRoutineRows.flatMap(function(row){
   return row.periods.flatMap(function(period, index){
     if(!period) return [];
     return period[1].map(function(teacher){
-      return {teacher:teacher, className:row.className, period:index + 1, subject:period[0]};
+      return {teacher:expandTeacherName(teacher), className:row.className, period:index + 1, subject:period[0]};
     });
   });
 });
@@ -1518,89 +1544,29 @@ const previousPaperGroups = [
   }
 ];
 const facts = [
-  {
-    title:"Majuli became India's first island district.",
-    text:"Majuli in Assam was declared a district in 2016, making it India's first river island district.",
-    titleAs:"মাজুলী ভাৰতৰ প্ৰথম নদী দ্বীপ জিলা হৈছিল।",
-    textAs:"২০১৬ চনত অসমৰ মাজুলীক জিলা ঘোষণা কৰা হয়, যাৰ ফলত ই ভাৰতৰ প্ৰথম নদী দ্বীপ জিলা হয়।",
-    source:"https://majuli.assam.gov.in/index.php/about-district/district-glance"
-  },
-  {
-    title:"Sualkuchi is famous for silk weaving.",
-    text:"Sualkuchi is often called the Manchester of Assam because of its long tradition of weaving silk textiles.",
-    titleAs:"সুৱালকুছি ৰেচম বোৱাৰ বাবে বিখ্যাত।",
-    textAs:"ৰেচম বস্ত্ৰ বোৱাৰ দীৰ্ঘ পৰম্পৰাৰ বাবে সুৱালকুছিক অসমীয়া Manchester বুলিও কোৱা হয়।",
-    source:"https://assam.gov.in/about-us/396"
-  },
-  {
-    title:"Muga silk has a natural golden shine.",
-    text:"Assam's muga silk is valued because its golden-yellow colour is natural, not added by dye.",
-    titleAs:"মুগা ৰেচমৰ স্বাভাৱিক সোণালী আভা আছে।",
-    textAs:"অসমৰ মুগা ৰেচমৰ সোণালী-হালধীয়া ৰং প্ৰাকৃতিক, ৰং দি সৃষ্টি কৰা নহয়।",
-    source:"https://assam.gov.in/about-us/396"
-  },
-  {
-    title:"The Ahom kingdom lasted nearly 600 years.",
-    text:"The Ahoms ruled large parts of Assam from 1228 until the Treaty of Yandabo in 1826.",
-    titleAs:"আহোম ৰাজ্য প্ৰায় ৬০০ বছৰ ধৰি আছিল।",
-    textAs:"আহোমসকলে ১২২৮ চনৰ পৰা ১৮২৬ চনৰ ইয়ান্দাবু সন্ধিলৈকে অসমৰ বৃহৎ অংশ শাসন কৰিছিল।",
-    source:"https://en.wikipedia.org/wiki/Ahom_kingdom"
-  },
-  {
-    title:"Bhaona is a theatre tradition from Assam.",
-    text:"Bhaona, associated with Srimanta Sankardev, uses drama, music, and dialogue to present moral and spiritual stories.",
-    titleAs:"ভাওনা অসমৰ এক নাট্য পৰম্পৰা।",
-    textAs:"শ্ৰীমন্ত শংকৰদেৱৰ সৈতে জড়িত ভাওনাত নাটক, সংগীত আৰু সংলাপৰ জৰিয়তে নৈতিক আৰু আধ্যাত্মিক কাহিনী উপস্থাপন কৰা হয়।",
-    source:"https://en.wikipedia.org/wiki/Bhaona"
-  },
-  {
-    title:"Hajo is important to three faith traditions.",
-    text:"Hajo near Guwahati has sacred sites associated with Hinduism, Islam, and Buddhism.",
-    titleAs:"হাজো তিনিটা ধৰ্মীয় পৰম্পৰাৰ বাবে গুৰুত্বপূৰ্ণ।",
-    textAs:"গুৱাহাটীৰ ওচৰৰ হাজোত হিন্দু, ইছলাম আৰু বৌদ্ধ ধৰ্মৰ সৈতে জড়িত পবিত্ৰ স্থান আছে।",
-    source:"https://en.wikipedia.org/wiki/Hajo"
-  },
-  {
-    title:"Deepor Beel is a Ramsar wetland.",
-    text:"Deepor Beel near Guwahati is internationally recognised as a wetland of importance under the Ramsar Convention.",
-    titleAs:"দীপৰ বিল এটা Ramsar জলাভূমি।",
-    textAs:"গুৱাহাটীৰ ওচৰৰ দীপৰ বিল Ramsar Convention অনুসৰি আন্তঃৰাষ্ট্ৰীয় গুৰুত্বসম্পন্ন জলাভূমি হিচাপে স্বীকৃত।",
-    source:"https://rsis.ramsar.org/ris/1207"
-  },
-  {
-    title:"The Brahmaputra is known by different names.",
-    text:"The same great river is known as Yarlung Tsangpo in Tibet, Siang or Dihang in Arunachal Pradesh, and Brahmaputra in Assam.",
-    titleAs:"ব্ৰহ্মপুত্ৰ নদী বিভিন্ন নামেৰে জনাজাত।",
-    textAs:"একেখন মহান নদী তিব্বতত Yarlung Tsangpo, অৰুণাচল প্ৰদেশত Siang বা Dihang, আৰু অসমত ব্ৰহ্মপুত্ৰ নামেৰে জনাজাত।",
-    source:"https://en.wikipedia.org/wiki/Brahmaputra_River"
-  },
-  {
-    title:"Rang Ghar is an early sports pavilion.",
-    text:"Rang Ghar in Sivasagar is often described as one of Asia's oldest surviving amphitheatre-style sports pavilions.",
-    titleAs:"ৰংঘৰ এক প্ৰাচীন ক্ৰীড়া মণ্ডপ।",
-    textAs:"শিৱসাগৰৰ ৰংঘৰক এছিয়াৰ আটাইতকৈ পুৰণি টিকি থকা amphitheatre-ধৰণৰ ক্ৰীড়া মণ্ডপসমূহৰ ভিতৰত গণ্য কৰা হয়।",
-    source:"https://en.wikipedia.org/wiki/Rang_Ghar"
-  },
-  {
-    title:"Dhola-Sadiya Bridge connects two northeastern states.",
-    text:"The Bhupen Hazarika Setu, also called Dhola-Sadiya Bridge, links Assam with Arunachal Pradesh across the Lohit river.",
-    titleAs:"ঢোলা-সদিয়া দলঙে দুটা উত্তৰ-পূৰ্বাঞ্চলীয় ৰাজ্য সংযোগ কৰে।",
-    textAs:"ভূপেন হাজৰিকা সেতু, যাক ঢোলা-সদিয়া দলং বুলিও কোৱা হয়, লোহিত নদীৰ ওপৰেৰে অসমক অৰুণাচল প্ৰদেশৰ সৈতে সংযোগ কৰে।",
-    source:"https://en.wikipedia.org/wiki/Dhola%E2%80%93Sadiya_Bridge"
-  }
+  "অক্টোপাছৰ তিনিটা হৃদয় থাকে, আৰু ইয়াৰ তেজ নীলা ৰঙৰ।",
+  "শুক্ৰ গ্ৰহত এটা দিন, শুক্ৰ গ্ৰহৰ এটা বছৰতকৈও দীঘল।",
+  "গ্ৰীষ্মকালত আইফেল টাৱাৰ অলপ ওখ হৈ যায়, কাৰণ তাপত ধাতু প্ৰসাৰিত হয়।",
+  "পখিলাই নিজৰ ভৰিৰে সোৱাদ অনুভৱ কৰিব পাৰে।",
+  "শব্দ বায়ুতকৈ পানীত প্ৰায় চাৰি গুণ বেছি বেগেৰে গতি কৰে।",
+  "কাটি থোৱা ঘাঁহৰ সতেজ গোন্ধটো আচলতে উদ্ভিদৰ এক প্ৰকাৰৰ বিপদ সংকেত।",
+  "নীলা তিমিৰ হৃদয় ইমান ডাঙৰ যে ইয়াৰ ৰক্তনলীৰ ভিতৰে এটা সৰু শিশু সোমাই যাব পাৰে।",
+  "প্ৰথম কম্পিউটাৰ মাউছ কাঠেৰে বনোৱা হৈছিল।",
+  "বিজুলী সূৰ্যৰ পৃষ্ঠতকৈও অধিক উষ্ণ।",
+  "চন্দ্ৰ বছৰি অলপ অলপকৈ পৃথিৱীৰ পৰা আঁতৰি গৈ আছে।"
 ];
 
 const factImages = [
-  {src:"https://picsum.photos/seed/xohopathi-majuli/1000/700", alt:"River island landscape"},
-  {src:"https://picsum.photos/seed/xohopathi-silk/1000/700", alt:"Traditional weaving photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-muga/1000/700", alt:"Golden textile photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-ahom/1000/700", alt:"Historic architecture photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-bhaona/1000/700", alt:"Traditional performance photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-hajo/1000/700", alt:"Sacred place photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-wetland/1000/700", alt:"Wetland landscape photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-brahmaputra/1000/700", alt:"Large river photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-rangghar/1000/700", alt:"Historic monument photograph"},
-  {src:"https://picsum.photos/seed/xohopathi-bridge/1000/700", alt:"Bridge photograph"}
+  {src:"https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?auto=format&fit=crop&w=1000&q=80", alt:"অক্টোপাছ"},
+  {src:"https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&w=1000&q=80", alt:"শুক্ৰ গ্ৰহ"},
+  {src:"https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1000&q=80", alt:"আইফেল টাৱাৰ"},
+  {src:"https://images.unsplash.com/photo-1552410260-0fd9b577afa6?auto=format&fit=crop&w=1000&q=80", alt:"পখিলা"},
+  {src:"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80", alt:"পানীৰ ঢৌ"},
+  {src:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80", alt:"ঘাঁহনি"},
+  {src:"https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1000&q=80", alt:"নীলা তিমি"},
+  {src:"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80", alt:"কম্পিউটাৰ"},
+  {src:"https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1000&q=80", alt:"বিজুলী"},
+  {src:"https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=80", alt:"চন্দ্ৰ"}
 ];
 
 function labelEn(value){
@@ -2027,20 +1993,16 @@ function renderMaterialsTree(){
 }
 
 function renderFact(){
-  const startDate = new Date(2026, 4, 21);
-  const today = new Date();
-  const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-  const dayNumber = Math.floor((todayMidnight.getTime() - startDate.getTime()) / 86400000);
-  const index = ((dayNumber % facts.length) + facts.length) % facts.length;
+  const intervalMs = 5 * 60 * 1000;
+  const index = Math.floor(Date.now() / intervalMs) % facts.length;
   const fact = facts[index];
   const image = factImages[index % factImages.length];
-  const dateLabel = today.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
   const factImage = document.getElementById("factImage");
   factImage.src = image.src;
   factImage.alt = image.alt;
-  document.getElementById("factDate").textContent = "Daily Fact - " + dateLabel;
-  document.getElementById("factTitle").innerHTML = `<span class="bi">${fact.title}<span class="as">${fact.titleAs}</span></span>`;
-  document.getElementById("factText").innerHTML = `${fact.text}<br><span class="as">${fact.textAs}</span>`;
+  document.getElementById("factDate").textContent = "প্ৰতি ৫ মিনিটত নতুন তথ্য";
+  document.getElementById("factTitle").textContent = "তুমি জানানে?";
+  document.getElementById("factText").textContent = fact;
 }
 
 let routineRefreshTimer = null;
@@ -2099,7 +2061,7 @@ function renderRoutineByTime(output, day){
       <div class="routine-class-card status-${status}">
         <strong>Class ${routineText(item.className)}</strong>
         <span>${routineText(item.subject)}</span>
-        <small>${routineText(item.teachers.join(" / "))}</small>
+        <small>${routineText(teacherListText(item.teachers))}</small>
       </div>
     `;
   }).join("");
@@ -2290,6 +2252,7 @@ window.addEventListener("popstate", function(){
 populateRoutineTeachers();
 populateRoutinePeriods();
 renderFact();
+window.setInterval(renderFact, 5 * 60 * 1000);
 renderMockTree();
 renderPaperTree();
 renderMaterialsTree();
