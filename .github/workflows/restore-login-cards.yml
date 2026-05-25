@@ -1,0 +1,66 @@
+name: Restore login cards
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/restore-login-cards.yml
+      - .github/login-card-trigger.txt
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Restore student and admin login cards
+        shell: python
+        run: |
+          from pathlib import Path
+
+          index = Path('xohopathi_home_and_class_test/index.html')
+          text = index.read_text(encoding='utf-8')
+
+          student_card = '''        <a class="student-action" href="../login.html">
+          <strong>Student Login</strong>
+          <p>Sign in with Google to take protected tests and save/view results.</p>
+          <span class="badge green">Login / Dashboard</span>
+        </a>
+'''
+          admin_card = '''        <a class="student-action" href="../login.html?redirect=./admin-dashboard.html">
+          <strong>Admin Login</strong>
+          <p>Admin can view student participation, scores, and submitted answers.</p>
+          <span class="badge green">Admin Dashboard</span>
+        </a>
+'''
+
+          if 'Student Login' not in text:
+              marker = '        <a class="student-action nav-route" href="#study-materials" data-page="study-materials">\n'
+              text = text.replace(marker, student_card + marker, 1)
+
+          if 'Admin Login' not in text:
+              marker = '        <a class="student-action nav-route" href="#previous-papers" data-page="previous-papers">\n'
+              text = text.replace(marker, admin_card + marker, 1)
+
+          text = text.replace('  .corner-actions{grid-template-columns:repeat(2,1fr)}', '  .corner-actions{grid-template-columns:repeat(2,1fr)}')
+          index.write_text(text, encoding='utf-8')
+      - name: Commit restored cards
+        shell: bash
+        run: |
+          set -e
+          if git diff --quiet; then
+            echo "No changes needed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add xohopathi_home_and_class_test/index.html
+          git commit -m "Restore student and admin login cards"
+          git push
