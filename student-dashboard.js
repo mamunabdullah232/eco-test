@@ -24,11 +24,37 @@ function renderAttempts(attempts) {
   attemptsArea.innerHTML = `<table><thead><tr><th>Test</th><th>Subject</th><th>Topic</th><th>Score</th><th>Submitted</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
+function mergeAttempts(groups) {
+  const merged = new Map();
+  groups.flat().forEach(item => {
+    const key = item.id || item.attemptId || `${item.testId || ""}-${item.submittedAt?.seconds || ""}-${item.score || ""}`;
+    merged.set(key, item);
+  });
+  return Array.from(merged.values());
+}
+
+async function readQuerySafely(queryRef) {
+  try {
+    const snapshot = await getDocs(queryRef);
+    return snapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+  } catch (error) {
+    console.warn("Attempt query failed:", error);
+    return [];
+  }
+}
+
 async function loadAttempts(user) {
   attemptsArea.textContent = "Loading attempts...";
-  const q = query(collection(db, "testAttempts"), where("uid", "==", user.uid));
-  const snapshot = await getDocs(q);
-  renderAttempts(snapshot.docs.map(d => ({ id: d.id, ...d.data() })));
+  const email = (user.email || "").toLowerCase();
+  const byUid = query(collection(db, "testAttempts"), where("uid", "==", user.uid));
+  const byEmail = email ? query(collection(db, "testAttempts"), where("email", "==", email)) : null;
+  const ownCopy = collection(db, "users", user.uid, "testAttempts");
+  const attempts = await Promise.all([
+    readQuerySafely(byUid),
+    byEmail ? readQuerySafely(byEmail) : Promise.resolve([]),
+    readQuerySafely(ownCopy)
+  ]);
+  renderAttempts(mergeAttempts(attempts));
 }
 
 onAuthStateChanged(auth, async (user) => {

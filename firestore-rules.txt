@@ -6,7 +6,10 @@ service cloud.firestore {
       return request.auth != null;
     }
     function isAdmin() {
-      return signedIn() && request.auth.token.email == "mamunabdullah262@gmail.com";
+      return signedIn() && request.auth.token.email in [
+        "mamunabdullah262@gmail.com",
+        "mamunabdullah232@gmail.com"
+      ];
     }
     match /users/{userId} {
       allow create, update: if signedIn() && request.auth.uid == userId;
@@ -17,6 +20,11 @@ service cloud.firestore {
       allow create: if signedIn() && request.resource.data.uid == request.auth.uid;
       allow read: if isAdmin() || (signedIn() && resource.data.uid == request.auth.uid);
       allow update, delete: if isAdmin();
+    }
+    match /users/{userId}/testAttempts/{attemptId} {
+      allow create, update: if signedIn() && request.auth.uid == userId;
+      allow read: if isAdmin() || (signedIn() && request.auth.uid == userId);
+      allow delete: if isAdmin();
     }
     match /{document=**} {
       allow read, write: if false;

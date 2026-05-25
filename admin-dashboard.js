@@ -1,4 +1,4 @@
-import { auth, db, onAuthStateChanged, signOut, collection, getDocs, ADMIN_EMAIL } from "./firebase-config.js";
+import { auth, db, onAuthStateChanged, signOut, collection, getDocs, ADMIN_EMAILS } from "./firebase-config.js";
 
 const adminInfo = document.getElementById("adminInfo");
 const adminArea = document.getElementById("adminArea");
@@ -42,7 +42,7 @@ onAuthStateChanged(auth, async (user) => {
   }
   const email = (user.email || "").toLowerCase();
   adminInfo.textContent = `${user.displayName || "Admin"} - ${user.email || ""}`;
-  if (email !== ADMIN_EMAIL.toLowerCase()) {
+  if (!ADMIN_EMAILS.map(item => item.toLowerCase()).includes(email)) {
     adminArea.innerHTML = `<p class="danger">Access denied. This page is only for the Xohopathi admin account.</p>`;
     return;
   }

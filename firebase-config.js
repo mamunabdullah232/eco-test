@@ -37,7 +37,11 @@ const firebaseConfig = {
   measurementId: "G-5VQC8RR8LC"
 };
 
-export const ADMIN_EMAIL = "mamunabdullah262@gmail.com";
+export const ADMIN_EMAILS = [
+  "mamunabdullah262@gmail.com",
+  "mamunabdullah232@gmail.com"
+];
+export const ADMIN_EMAIL = ADMIN_EMAILS[0];
 
 export const app = initializeApp(firebaseConfig);
 

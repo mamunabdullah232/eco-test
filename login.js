@@ -11,7 +11,7 @@ import {
   doc,
   setDoc,
   serverTimestamp,
-  ADMIN_EMAIL
+  ADMIN_EMAILS
 } from "./firebase-config.js";
 
 const googleLoginBtn = document.getElementById("googleLoginBtn");
@@ -30,7 +30,7 @@ function rememberRedirect() {
 
 async function saveUser(user) {
   const email = (user.email || "").toLowerCase();
-  const role = email === ADMIN_EMAIL.toLowerCase() ? "admin" : "student";
+  const role = ADMIN_EMAILS.map(item => item.toLowerCase()).includes(email) ? "admin" : "student";
   await setDoc(doc(db, "users", user.uid), {
     uid: user.uid,
     name: user.displayName || "",
@@ -46,7 +46,7 @@ async function saveUser(user) {
 
 function getUserRole(user) {
   const email = (user.email || "").toLowerCase();
-  return email === ADMIN_EMAIL.toLowerCase() ? "admin" : "student";
+  return ADMIN_EMAILS.map(item => item.toLowerCase()).includes(email) ? "admin" : "student";
 }
 
 function finishLogin(role) {

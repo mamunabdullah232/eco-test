@@ -1,7 +1,7 @@
 // Saves Xohopathi mock-test attempts to Firestore when a student is logged in.
 // Tests remain open to everyone; login is only needed for saving/viewing results.
 
-import { auth, db, onAuthStateChanged, collection, addDoc, serverTimestamp } from "./firebase-config.js";
+import { auth, db, onAuthStateChanged, collection, doc, addDoc, setDoc, serverTimestamp } from "./firebase-config.js";
 
 let currentUser = null;
 let authResolved = false;
@@ -52,5 +52,11 @@ window.saveXohopathiAttempt = async function saveXohopathiAttempt({
   };
 
   const docRef = await addDoc(collection(db, "testAttempts"), attempt);
+  setDoc(doc(db, "users", user.uid, "testAttempts", docRef.id), {
+    ...attempt,
+    attemptId: docRef.id
+  }).catch((error) => {
+    console.warn("Student attempt copy could not be saved:", error);
+  });
   return { saved: true, id: docRef.id };
 };
