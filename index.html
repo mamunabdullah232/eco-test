@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Xohopathi | Your Digital Companion</title>
-<meta name="description" content="Xohopathi home dashboard with teacher, student, study material, question paper, contact, and login access." />
+<meta name="description" content="Xohopathi dashboard for teachers, students, study materials, login, and contact." />
 <style>
 :root{
   --blue:#2563eb;
@@ -13,6 +13,7 @@
   --orange:#c2410c;
   --rose:#be123c;
   --violet:#6d28d9;
+  --amber:#b45309;
   --ink:#0f172a;
   --text:#334155;
   --muted:#64748b;
@@ -26,65 +27,21 @@ body{
   min-height:100vh;
   font-family:Arial,Helvetica,sans-serif;
   color:var(--text);
-  background:linear-gradient(135deg,#f8fafc 0%,#eef6ff 34%,#fff7ed 67%,#ecfdf5 100%);
+  background:linear-gradient(135deg,#f8fafc 0%,#eef6ff 28%,#fff7ed 58%,#ecfdf5 100%);
   line-height:1.6;
 }
-a{text-decoration:none;color:inherit}
-.container{width:min(1120px,92%);margin:0 auto}
-header{padding:22px 0}
-.navbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.logo{display:flex;align-items:center;gap:12px}
-.logo-mark{width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;display:grid;place-items:center;font-family:"Nirmala UI","Noto Sans Bengali",Arial,sans-serif;font-size:1.55rem;font-weight:900;box-shadow:0 10px 22px rgba(37,99,235,.22)}
-.logo-text{display:flex;flex-direction:column;line-height:1.1}
-.logo-text strong{font-size:1.38rem;color:var(--ink);font-weight:900;letter-spacing:-.03em}
-.logo-text small{color:var(--muted);font-weight:800;font-size:.78rem;margin-top:4px}
-.top-links{display:flex;gap:8px;flex-wrap:wrap}
-.top-links a{border:1px solid var(--border);background:rgba(255,255,255,.86);border-radius:999px;padding:9px 13px;color:var(--ink);font-size:.86rem;font-weight:900}
-.hero{padding:34px 0 18px;text-align:center}
-.hero .mini{color:var(--blue);font-size:.82rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;margin-bottom:8px}
-h1{max-width:850px;margin:0 auto;color:var(--ink);font-size:clamp(2rem,4.7vw,3.75rem);line-height:1.05;letter-spacing:-.05em}
-.hero p{max-width:760px;margin:16px auto 0;color:#475569;font-size:1.05rem}
-.quick-logins{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:26px auto 0;max-width:760px}
-.login-card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:18px;text-align:left;box-shadow:0 10px 26px rgba(15,23,42,.06);border-top:5px solid var(--blue)}
-.login-card.admin{border-top-color:var(--violet)}
-.login-card strong{display:block;color:var(--ink);font-size:1.08rem;margin-bottom:6px}
-.login-card p{margin:0 0 12px;color:var(--muted);font-size:.94rem}
-.badge{display:inline-flex;align-items:center;justify-content:center;min-height:28px;padding:5px 10px;border-radius:999px;background:#dcfce7;color:#166534;font-size:.78rem;font-weight:900}
-.dashboard{padding:26px 0 48px}
-.section-head{text-align:center;margin-bottom:18px}
-.section-head h2{color:var(--ink);font-size:clamp(1.45rem,2.6vw,2.05rem);line-height:1.2;letter-spacing:-.03em}
-.section-head p{color:var(--muted);margin-top:5px}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:19px;padding:21px;box-shadow:var(--shadow);transition:transform .18s ease,border-color .18s ease,background .18s ease;border-top:6px solid var(--blue);min-height:178px;display:flex;flex-direction:column;justify-content:space-between}
-.card:hover{transform:translateY(-2px);border-color:#bfdbfe;background:#f8fbff}
-.card.teacher{border-top-color:var(--green)}
-.card.students{border-top-color:var(--orange)}
-.card.materials{border-top-color:var(--teal)}
-.card.papers{border-top-color:var(--rose)}
-.card.contact{border-top-color:var(--violet)}
-.card.login{border-top-color:var(--blue)}
-.card-mark{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:#eff6ff;color:#1d4ed8;font-weight:900;margin-bottom:13px}
-.card h3{color:var(--ink);font-size:1.14rem;line-height:1.25;margin-bottom:8px}
-.card p{color:var(--muted);font-size:.95rem;margin-bottom:15px}
-.open{color:#1d4ed8;font-weight:900;font-size:.9rem}
-.note{margin-top:18px;text-align:center;color:var(--muted);font-size:.9rem}
-footer{background:var(--ink);color:#94a3b8;padding:18px 0;font-size:.9rem}
-.footer-line{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:860px){
-  .top-links{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
-  .top-links a{text-align:center}
-  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
-@media(max-width:620px){
-  .container{width:min(100% - 28px,1120px)}
-  header{padding:16px 0}
-  .logo-mark{width:42px;height:42px;font-size:1.25rem}
-  .logo-text strong{font-size:1.13rem}
-  .logo-text small{font-size:.68rem}
-  .hero{padding-top:22px}
-  .quick-logins,.grid,.top-links{grid-template-columns:1fr}
-  .card{min-height:auto}
-}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:0 auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.navbar{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px}.logo-mark{width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;display:grid;place-items:center;font-family:"Nirmala UI","Noto Sans Bengali",Arial,sans-serif;font-size:1.55rem;font-weight:900;box-shadow:0 10px 22px rgba(37,99,235,.22)}
+.logo-text{display:flex;flex-direction:column;line-height:1.1}.logo-text strong{font-size:1.38rem;color:var(--ink);font-weight:900;letter-spacing:-.03em}.logo-text small{color:var(--muted);font-weight:800;font-size:.78rem;margin-top:4px}
+.top-links{display:flex;gap:8px;flex-wrap:wrap}.top-links a{border:1px solid var(--border);background:#fff;border-radius:999px;padding:9px 13px;color:var(--ink);font-size:.86rem;font-weight:900}.top-links a:hover{border-color:#bfdbfe;background:#eff6ff;color:#1d4ed8}
+.hero{padding:34px 0 18px;text-align:center}.hero .mini{color:var(--blue);font-size:.82rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase;margin-bottom:8px}h1{max-width:850px;margin:0 auto;color:var(--ink);font-size:clamp(2rem,4.7vw,3.75rem);line-height:1.05;letter-spacing:-.04em}.hero p{max-width:760px;margin:16px auto 0;color:#475569;font-size:1.05rem}
+.dashboard{padding:26px 0 30px}.section-head{text-align:center;margin-bottom:18px}.section-head h2{color:var(--ink);font-size:clamp(1.45rem,2.6vw,2.05rem);line-height:1.2;letter-spacing:-.03em}.section-head p{color:var(--muted);margin-top:5px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:21px;box-shadow:var(--shadow);transition:transform .18s ease,border-color .18s ease,background .18s ease;border-top:6px solid var(--blue);min-height:166px;display:flex;flex-direction:column;justify-content:space-between}.card:hover{transform:translateY(-2px);border-color:#bfdbfe;background:#f8fbff}.card.home{border-top-color:var(--blue);background:linear-gradient(135deg,#eff6ff,#fff)}.card.teacher{border-top-color:var(--green);background:linear-gradient(135deg,#ecfdf5,#fff)}.card.students{border-top-color:var(--orange);background:linear-gradient(135deg,#fff7ed,#fff)}.card.materials{border-top-color:var(--teal);background:linear-gradient(135deg,#f0fdfa,#fff)}.card.student-login{border-top-color:#0891b2;background:linear-gradient(135deg,#ecfeff,#fff)}.card.admin-login{border-top-color:var(--violet);background:linear-gradient(135deg,#f5f3ff,#fff)}.card.contact{border-top-color:var(--rose);background:linear-gradient(135deg,#fff1f2,#fff)}.card-mark{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:#fff;color:#1d4ed8;font-weight:900;margin-bottom:13px;border:1px solid var(--border)}.card h3{color:var(--ink);font-size:1.14rem;line-height:1.25;margin-bottom:8px}.card p{color:var(--muted);font-size:.95rem;margin-bottom:15px}.open{color:#1d4ed8;font-weight:900;font-size:.9rem}
+.fact-section{padding:18px 0 52px}.fact-card{overflow:hidden;background:#fff;border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow);display:grid;grid-template-columns:.95fr 1.05fr;border-top:7px solid transparent;border-image:linear-gradient(90deg,var(--blue),var(--green),var(--orange),var(--rose)) 1}.fact-media{min-height:360px;background:#dbeafe}.fact-media img{width:100%;height:100%;object-fit:cover}.fact-copy{padding:32px;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(135deg,#ffffff 0%,#f8fbff 52%,#fff7ed 100%)}.fact-date{display:inline-flex;align-self:flex-start;background:#dcfce7;color:#166534;padding:7px 11px;border-radius:999px;font-size:.8rem;font-weight:900;margin-bottom:12px}.fact-copy h2{color:var(--green);font-size:clamp(1.9rem,3.4vw,2.7rem);line-height:1.08;letter-spacing:-.02em;margin-bottom:12px}.fact-title{color:var(--ink);font-size:1.18rem;font-weight:900;margin-bottom:8px}.fact-copy p{color:#334155;font-size:1.08rem;font-family:"Nirmala UI","Noto Sans Bengali",Arial,sans-serif}
+footer{background:var(--ink);color:#94a3b8;padding:18px 0;font-size:.9rem}.footer-line{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:960px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fact-card{grid-template-columns:1fr}.fact-media{min-height:280px}}
+@media(max-width:620px){.container{width:min(100% - 28px,1120px)}.navbar{min-height:auto;padding:14px 0;align-items:flex-start}.logo-mark{width:42px;height:42px;font-size:1.25rem}.logo-text strong{font-size:1.13rem}.logo-text small{font-size:.68rem}.top-links{width:100%;display:grid;grid-template-columns:1fr 1fr}.top-links a{text-align:center;border-radius:14px}.hero{padding-top:22px}.grid{grid-template-columns:1fr}.card{min-height:auto}.fact-copy{padding:24px}.fact-media{min-height:220px}}
 </style>
 </head>
 <body>
@@ -95,9 +52,12 @@ footer{background:var(--ink);color:#94a3b8;padding:18px 0;font-size:.9rem}
       <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
     </a>
     <nav class="top-links" aria-label="Quick access">
+      <a href="./index.html">Home</a>
       <a href="./xohopathi_home_and_class_test/index.html#teacher-corner">Teacher Corner</a>
-      <a href="./xohopathi_home_and_class_test/index.html#students-corner">Students Corner</a>
+      <a href="./xohopathi_home_and_class_test/index.html#students-corner">Student Corner</a>
       <a href="./xohopathi_home_and_class_test/index.html#study-materials">Study Materials</a>
+      <a href="./login.html?redirect=/student-dashboard.html">Student Login</a>
+      <a href="./login.html?redirect=/admin-dashboard.html">Admin Login</a>
       <a href="./xohopathi_home_and_class_test/index.html#contact">Contact</a>
     </nav>
   </div>
@@ -107,20 +67,8 @@ footer{background:var(--ink);color:#94a3b8;padding:18px 0;font-size:.9rem}
   <section class="hero">
     <div class="container">
       <div class="mini">Home Dashboard</div>
-      <h1>All Xohopathi sections in one place</h1>
-      <p>Students visiting xohopathi.in can now see the main sections directly on the home page, with clear access to study resources, question papers, contact details, and dashboards.</p>
-      <div class="quick-logins" aria-label="Login shortcuts">
-        <a class="login-card" href="./login.html">
-          <strong>Student Login</strong>
-          <p>Sign in with Google to save and view your test attempts.</p>
-          <span class="badge">Login / Dashboard</span>
-        </a>
-        <a class="login-card admin" href="./login.html?redirect=./admin-dashboard.html">
-          <strong>Admin Login</strong>
-          <p>Admin can view participation, scores, and submitted answers.</p>
-          <span class="badge">Admin Dashboard</span>
-        </a>
-      </div>
+      <h1>Xohopathi</h1>
+      <p>Teacher links, student resources, study materials, login access, and contact details in one clean dashboard.</p>
     </div>
   </section>
 
@@ -128,59 +76,33 @@ footer{background:var(--ink);color:#94a3b8;padding:18px 0;font-size:.9rem}
     <div class="container">
       <div class="section-head">
         <h2 id="dashboard-title">Choose A Section</h2>
-        <p>Open the section you need. The detailed pages remain connected to the full Xohopathi app.</p>
+        <p>Mock Test is available inside Student Corner.</p>
       </div>
       <div class="grid">
-        <a class="card teacher" href="./xohopathi_home_and_class_test/index.html#teacher-corner">
-          <div>
-            <div class="card-mark">TC</div>
-            <h3>Teacher Corner</h3>
-            <p>Official teacher links, class routine, notifications, and education portals.</p>
-          </div>
-          <span class="open">Open Teacher Corner</span>
-        </a>
-        <a class="card students" href="./xohopathi_home_and_class_test/index.html#students-corner">
-          <div>
-            <div class="card-mark">SC</div>
-            <h3>Students Corner</h3>
-            <p>Student resources, dictionary, study help, question papers, and practice access.</p>
-          </div>
-          <span class="open">Open Students Corner</span>
-        </a>
-        <a class="card materials" href="./xohopathi_home_and_class_test/index.html#study-materials">
-          <div>
-            <div class="card-mark">SM</div>
-            <h3>Study Materials</h3>
-            <p>Class-wise and subject-wise resources for learning and revision.</p>
-          </div>
-          <span class="open">Open Study Materials</span>
-        </a>
-        <a class="card papers" href="./xohopathi_home_and_class_test/index.html#previous-papers">
-          <div>
-            <div class="card-mark">QP</div>
-            <h3>Previous Year Question Papers</h3>
-            <p>Browse exam and class question paper links in one place.</p>
-          </div>
-          <span class="open">Open Question Papers</span>
-        </a>
-        <a class="card contact" href="./xohopathi_home_and_class_test/index.html#contact">
-          <div>
-            <div class="card-mark">CT</div>
-            <h3>Contact</h3>
-            <p>Phone, WhatsApp, email, and website contact details for support.</p>
-          </div>
-          <span class="open">Open Contact</span>
-        </a>
-        <a class="card login" href="./student-dashboard.html">
-          <div>
-            <div class="card-mark">DB</div>
-            <h3>Student Dashboard</h3>
-            <p>View saved test attempts after logging in with your Google account.</p>
-          </div>
-          <span class="open">Open Dashboard</span>
-        </a>
+        <a class="card home" href="./index.html"><div><div class="card-mark">H</div><h3>Home</h3><p>Return to the main Xohopathi dashboard.</p></div><span class="open">Open Home</span></a>
+        <a class="card teacher" href="./xohopathi_home_and_class_test/index.html#teacher-corner"><div><div class="card-mark">TC</div><h3>Teacher Corner</h3><p>Official teacher links and Jaluguti HS School class routine.</p></div><span class="open">Open Teacher Corner</span></a>
+        <a class="card students" href="./xohopathi_home_and_class_test/index.html#students-corner"><div><div class="card-mark">SC</div><h3>Student Corner</h3><p>Student resources, dictionary, question papers, and mock tests.</p></div><span class="open">Open Student Corner</span></a>
+        <a class="card materials" href="./xohopathi_home_and_class_test/index.html#study-materials"><div><div class="card-mark">SM</div><h3>Study Materials</h3><p>Class-wise and subject-wise resources for learning and revision.</p></div><span class="open">Open Study Materials</span></a>
+        <a class="card student-login" href="./login.html?redirect=/student-dashboard.html"><div><div class="card-mark">SL</div><h3>Student Login</h3><p>Sign in to save and view your test attempts.</p></div><span class="open">Student Login</span></a>
+        <a class="card admin-login" href="./login.html?redirect=/admin-dashboard.html"><div><div class="card-mark">AL</div><h3>Admin Login</h3><p>View participation, scores, and student submissions.</p></div><span class="open">Admin Login</span></a>
+        <a class="card contact" href="./xohopathi_home_and_class_test/index.html#contact"><div><div class="card-mark">CT</div><h3>Contact</h3><p>Phone, WhatsApp, email, and website contact details.</p></div><span class="open">Open Contact</span></a>
       </div>
-      <p class="note">Practice content is available inside Students Corner, so it is intentionally not repeated on this home dashboard.</p>
+    </div>
+  </section>
+
+  <section class="fact-section" aria-labelledby="did-you-know-title">
+    <div class="container">
+      <article class="fact-card">
+        <figure class="fact-media">
+          <img id="factImage" src="https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?auto=format&fit=crop&w=1000&q=80" alt="অক্টোপাছ" />
+        </figure>
+        <div class="fact-copy">
+          <span class="fact-date" id="factDate">প্ৰতি ৫ মিনিটত নতুন তথ্য</span>
+          <h2 id="did-you-know-title">তুমি জানানে?</h2>
+          <div class="fact-title" id="factTitle">তুমি জানানে?</div>
+          <p id="factText">অক্টোপাছৰ তিনিটা হৃদয় থাকে, আৰু ইয়াৰ তেজ নীলা ৰঙৰ।</p>
+        </div>
+      </article>
     </div>
   </section>
 </main>
@@ -191,5 +113,41 @@ footer{background:var(--ink);color:#94a3b8;padding:18px 0;font-size:.9rem}
     <span>Created by Dr. Abdullah Al Mamun</span>
   </div>
 </footer>
+<script>
+const facts = [
+  "অক্টোপাছৰ তিনিটা হৃদয় থাকে, আৰু ইয়াৰ তেজ নীলা ৰঙৰ।",
+  "শুক্ৰ গ্ৰহত এটা দিন, শুক্ৰ গ্ৰহৰ এটা বছৰতকৈও দীঘল।",
+  "গ্ৰীষ্মকালত আইফেল টাৱাৰ অলপ ওখ হৈ যায়, কাৰণ তাপত ধাতু প্ৰসাৰিত হয়।",
+  "পখিলাই নিজৰ ভৰিৰে সোৱাদ অনুভৱ কৰিব পাৰে।",
+  "শব্দ বায়ুতকৈ পানীত প্ৰায় চাৰি গুণ বেছি বেগেৰে গতি কৰে।",
+  "কাটি থোৱা ঘাঁহৰ সতেজ গোন্ধটো আচলতে উদ্ভিদৰ এক প্ৰকাৰৰ বিপদ সংকেত।",
+  "নীলা তিমিৰ হৃদয় ইমান ডাঙৰ যে ইয়াৰ ৰক্তনলীৰ ভিতৰে এটা সৰু শিশু সোমাই যাব পাৰে।",
+  "প্ৰথম কম্পিউটাৰ মাউছ কাঠেৰে বনোৱা হৈছিল।",
+  "বিজুলী সূৰ্যৰ পৃষ্ঠতকৈও অধিক উষ্ণ।",
+  "চন্দ্ৰ বছৰি অলপ অলপকৈ পৃথিৱীৰ পৰা আঁতৰি গৈ আছে।"
+];
+const factImages = [
+  {src:"https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?auto=format&fit=crop&w=1000&q=80", alt:"অক্টোপাছ"},
+  {src:"https://images.unsplash.com/photo-1614732414444-096e5f1122d5?auto=format&fit=crop&w=1000&q=80", alt:"শুক্ৰ গ্ৰহ"},
+  {src:"https://images.unsplash.com/photo-1543349689-9a4d426bee8e?auto=format&fit=crop&w=1000&q=80", alt:"আইফেল টাৱাৰ"},
+  {src:"https://images.unsplash.com/photo-1552410260-0fd9b577afa6?auto=format&fit=crop&w=1000&q=80", alt:"পখিলা"},
+  {src:"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80", alt:"পানীৰ ঢৌ"},
+  {src:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80", alt:"ঘাঁহনি"},
+  {src:"https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1000&q=80", alt:"নীলা তিমি"},
+  {src:"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80", alt:"কম্পিউটাৰ"},
+  {src:"https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=1000&q=80", alt:"বিজুলী"},
+  {src:"https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1000&q=80", alt:"চন্দ্ৰ"}
+];
+function renderFact(){
+  const index = Math.floor(Date.now() / (5 * 60 * 1000)) % facts.length;
+  const image = factImages[index % factImages.length];
+  document.getElementById("factImage").src = image.src;
+  document.getElementById("factImage").alt = image.alt;
+  document.getElementById("factTitle").textContent = "তুমি জানানে?";
+  document.getElementById("factText").textContent = facts[index];
+}
+renderFact();
+window.setInterval(renderFact, 5 * 60 * 1000);
+</script>
 </body>
 </html>
