@@ -76,8 +76,7 @@ header{
   color:#fff;
   display:grid;
   place-items:center;
-  font-family:"Nirmala UI","Noto Sans Bengali",Arial,sans-serif;
-  font-size:1.55rem;
+  font-size:1.35rem;
   font-weight:900;
   box-shadow:0 10px 22px rgba(37,99,235,.22);
 }
@@ -126,6 +125,7 @@ nav{
 .nav-link.home{--accent:var(--blue)}
 .nav-link.teacher{--accent:var(--green)}
 .nav-link.students{--accent:var(--orange)}
+.nav-link.mock{--accent:var(--rose)}
 .nav-link.materials{--accent:var(--teal)}
 .nav-link.contact{--accent:var(--violet)}
 .nav-link:hover,
@@ -134,6 +134,16 @@ nav{
   color:var(--accent);
   background:color-mix(in srgb, var(--accent) 10%, white);
   border-color:color-mix(in srgb, var(--accent) 25%, white);
+}
+.menu-btn{
+  display:none;
+  border:1px solid var(--border);
+  background:#fff;
+  color:var(--ink);
+  border-radius:12px;
+  padding:9px 12px;
+  font-weight:900;
+  cursor:pointer;
 }
 main{
   min-height:calc(100vh - 76px);
@@ -167,7 +177,6 @@ main{
   display:grid;
   place-items:center;
   min-height:calc(100vh - 170px);
-  gap:20px;
 }
 .fact-card{
   width:min(920px,100%);
@@ -224,38 +233,6 @@ main{
 .fact-copy p{
   color:#334155;
   font-size:1.03rem;
-}
-.home-dashboard{
-  width:min(920px,100%);
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:16px;
-}
-.home-login-card{
-  display:grid;
-  gap:8px;
-  min-height:96px;
-  padding:22px;
-  border:1px solid var(--border);
-  border-radius:18px;
-  background:#fff;
-  box-shadow:0 10px 26px rgba(15,23,42,.065);
-  border-top:6px solid var(--blue);
-  align-content:center;
-  text-align:center;
-}
-.home-login-card.admin{border-top-color:var(--violet)}
-.home-login-card strong{
-  color:var(--ink);
-  font-size:1.12rem;
-  line-height:1.25;
-}
-.home-login-card p{
-  color:var(--muted);
-  font-size:.94rem;
-}
-.home-login-card span{
-  justify-self:center;
 }
 .grid{
   display:grid;
@@ -934,76 +911,37 @@ footer{
   font-size:.9rem;
 }
 @media(max-width:980px){
-  header{
-    position:static;
+  .menu-btn{display:inline-flex}
+  nav{
+    display:none;
+    position:absolute;
+    top:76px;
+    left:0;
+    width:100%;
     background:#fff;
-  }
-  .navbar{
-    flex-wrap:wrap;
-    padding:10px 0 12px;
+    border-bottom:1px solid var(--border);
+    padding:16px 4%;
+    flex-direction:column;
+    align-items:stretch;
     gap:10px;
   }
-  nav{
-    display:grid;
-    position:static;
-    width:100%;
-    grid-template-columns:repeat(3,minmax(0,1fr));
-    border-top:1px solid var(--border);
-    padding:10px 0 0;
-    gap:8px;
-  }
-  .nav-link{
-    align-items:flex-start;
-    justify-content:flex-start;
-    min-width:0;
-    min-height:57px;
-    padding:8px 9px;
-    font-size:.79rem;
-    background:color-mix(in srgb, var(--accent) 7%, white);
-    border-color:color-mix(in srgb, var(--accent) 18%, white);
-  }
-  .nav-link .as{font-size:.76em}
-  .nav-link.active{
-    box-shadow:inset 0 -3px 0 var(--accent);
-  }
-  main{
-    min-height:0;
-    padding-top:22px;
-  }
-  .home-shell{
-    min-height:0;
-    place-items:start center;
-  }
-  .fact-card,.home-dashboard{grid-template-columns:1fr}
-  .fact-media{
-    min-height:0;
-    aspect-ratio:16/8.5;
-  }
+  nav.active{display:flex}
+  .nav-link{justify-content:center}
+  .fact-card{grid-template-columns:1fr}
+  .fact-media{min-height:260px}
   .grid,.contact-grid{grid-template-columns:1fr}
   .corner-actions{grid-template-columns:repeat(2,1fr)}
   .rule-grid{grid-template-columns:1fr}
 }
 @media(max-width:640px){
   .container{width:min(100% - 28px,1140px)}
-  .navbar{min-height:0}
+  .navbar{min-height:70px}
+  nav{top:70px}
   .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
   .logo-text strong{font-size:1.12rem}
   .logo-text small{font-size:.68rem}
-  main{padding:18px 0 34px}
-  nav{gap:7px;padding-top:9px}
-  .nav-link{
-    min-height:55px;
-    padding:7px 8px;
-    font-size:.75rem;
-  }
-  .fact-card{
-    border-radius:18px;
-    box-shadow:0 12px 25px rgba(15,23,42,.1);
-  }
-  .fact-copy{padding:21px 18px 24px}
-  .fact-copy h1{font-size:1.7rem}
-  .fact-title{font-size:1.08rem}
-  .fact-copy p{font-size:.96rem}
+  main{padding:24px 0 34px}
+  .fact-copy{padding:24px}
   .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
   .resource-row{grid-template-columns:42px 1fr}
   .resource-row .badge{grid-column:2;justify-self:start}
@@ -1022,13 +960,15 @@ footer{
 <header>
   <div class="container navbar">
     <a href="#home" class="logo nav-route" data-page="home" aria-label="Xohopathi Home">
-      <span class="logo-mark">স</span>
+      <span class="logo-mark">X</span>
       <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
     </a>
+    <button class="menu-btn" type="button" aria-controls="navMenu" aria-expanded="false" onclick="toggleMenu()">Menu</button>
     <nav id="navMenu" aria-label="Primary navigation">
       <a class="nav-link home nav-route" href="#home" data-page="home"><span class="bi">Home<span class="as">মুখ্য পৃষ্ঠা</span></span></a>
       <a class="nav-link teacher nav-route" href="#teacher-corner" data-page="teacher-corner"><span class="bi">Teacher Corner<span class="as">শিক্ষক কোণ</span></span></a>
       <a class="nav-link students nav-route" href="#students-corner" data-page="students-corner"><span class="bi">Students Corner<span class="as">শিক্ষাৰ্থী কোণ</span></span></a>
+      <a class="nav-link mock nav-route" href="#mock-tests" data-page="mock-tests"><span class="bi">Mock Test<span class="as">মক টেষ্ট</span></span></a>
       <a class="nav-link materials nav-route" href="#study-materials" data-page="study-materials"><span class="bi">Study Materials<span class="as">অধ্যয়ন সামগ্ৰী</span></span></a>
       <a class="nav-link contact nav-route" href="#contact" data-page="contact"><span class="bi">Contact<span class="as">যোগাযোগ</span></span></a>
     </nav>
@@ -1049,14 +989,6 @@ footer{
           <p id="factText"></p>
         </div>
       </article>
-      <div class="home-dashboard" aria-label="Login dashboard">
-        <a class="home-login-card" href="/login.html?redirect=/student-dashboard.html">
-          <strong>Student Login / শিক্ষাৰ্থী লগইন</strong>
-        </a>
-        <a class="home-login-card admin" href="/login.html?redirect=/admin-dashboard.html">
-          <strong>Admin Login / এডমিন লগইন</strong>
-        </a>
-      </div>
     </div>
   </section>
 
@@ -1294,14 +1226,14 @@ const jhssRoutineRows = [
     className:"X-A",
     periods:[
       ["G. Maths",["A. Kataki"]],["G. Science",["P.K. Nath"]],["Eng.",["R.L. Das"]],["MIL",["K. Borah"]],
-      ["S. Science",["P. Das"]],["Elective",["P.D.","A.H.","B.S."]],["Eng.",["D. Gogoi"]],null
+      ["S. Science",["P. Das"]],["Elective",["P. Devi.","A. Hoque","B.Saikia."]],["Eng.",["D. Gogoi"]],null
     ]
   },
   {
     className:"X-B",
     periods:[
       ["Eng.",["R.L. Das"]],["G. Science",["M. Islam"]],["G. Maths",["A. Kataki"]],["S. Science",["P. Das"]],
-      ["MIL",["K. Borah"]],["Elective",["M.S.","N. Dutta"]],["Ass.",["I. Yogi"]],null
+      ["MIL",["K. Borah"]],["Elective",["M.Saikia.","N. Dutta"]],["Ass.",["I. Yogi"]],null
     ]
   },
   {
@@ -1427,28 +1359,6 @@ const class10SocialScience = {
         {en:"Chapter 1 - Money and Banking", as:"অধ্যায় ১ - মুদ্ৰা আৰু বেংকিং"},
         {en:"Chapter 2 - Economic Development", as:"অধ্যায় ২ - অৰ্থনৈতিক উন্নয়ন"}
       ]
-    },
-    {
-      name:{en:"Mock Test on Previous Year MCQ", as:"পূৰ্বৱৰ্ষৰ MCQ-ভিত্তিক মক টেষ্ট"},
-      finalPapers:[
-        {
-          label:{en:"HSLC 2025 Final Social Science Mock Test", as:"HSLC ২০২৫ চূড়ান্ত সমাজ বিজ্ঞান মক টেষ্ট"},
-          file:"mock-tests/class-10/social-science/previous-year-mcq/hslc-2025-final-social-science-mock-test.json"
-        },
-        {
-          label:{en:"HSLC 2024 Final Social Science Mock Test", as:"HSLC ২০২৪ চূড়ান্ত সমাজ বিজ্ঞান মক টেষ্ট"},
-          file:"mock-tests/class-10/social-science/previous-year-mcq/hslc-2024-final-social-science-mock-test.json"
-        }
-      ]
-    }
-  ]
-};
-const class10GeneralMathematics = {
-  name:{en:"General Mathematics", as:"সাধাৰণ গণিত"},
-  finalPapers:[
-    {
-      label:{en:"HSLC 2025 Final General Mathematics Mock Test", as:"HSLC ২০২৫ চূড়ান্ত সাধাৰণ গণিত মক টেষ্ট"},
-      file:"mock-tests/class-10/general-mathematics/hslc-2025-final-general-mathematics-mcq.json"
     }
   ]
 };
@@ -1503,7 +1413,7 @@ const mockClassGroups = [
   ...juniorMockClasses.map(className => ({
     name:className,
     subjects:className === "Class 10"
-      ? [juniorMockSubjects[0], class10GeneralMathematics, class10SocialScience]
+      ? [juniorMockSubjects[0], class10SocialScience]
       : className === "Class 9"
         ? [juniorMockSubjects[0], class9SocialScience]
         : juniorMockSubjects
@@ -1521,9 +1431,6 @@ const testNames = [
   {en:"Test 4", as:"টেষ্ট ৪"},
   {en:"Test 5", as:"টেষ্ট ৫"}
 ];
-const grammarTestNames = Array.from({length:10}, function(_, index){
-  return {en:"Test " + (index + 1), as:"টেষ্ট " + (index + 1)};
-});
 const materialTopics = [
   {en:"Notes PDF", as:"নোট PDF"},
   {en:"Question Bank", as:"প্ৰশ্ন ভঁৰাল"},
@@ -1698,16 +1605,8 @@ function isClass10EnglishSection(parts){
   return parts.map(slugify).join("__") === "class-10__english__english";
 }
 
-function isClass10EnglishGrammarSection(parts){
-  return parts.map(slugify).join("__") === "class-10__english__grammar";
-}
-
 function class10EnglishFinalTestLink(year){
   return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-" + year + "-final-english-mcq.json");
-}
-
-function jsonMockTestLink(file){
-  return "mock-test.html?file=" + encodeURIComponent(file);
 }
 
 function class10SocialScienceTestFile(parts, subjectSlug, test){
@@ -1737,10 +1636,6 @@ function economicsTestFile(parts, test){
   return class10SocialScienceTestFile(parts, "economics", test);
 }
 
-function class10EnglishGrammarTestFile(test){
-  return "mock-tests/class-10/english/grammar/test" + getNumberFromLabel(test) + ".json";
-}
-
 function nestedTestLink(parts, test){
   if(isClass10History(parts)){
     return "mock-test.html?file=" + encodeURIComponent(historyTestFile(parts, test));
@@ -1753,9 +1648,6 @@ function nestedTestLink(parts, test){
   }
   if(isClass10Economics(parts)){
     return "mock-test.html?file=" + encodeURIComponent(economicsTestFile(parts, test));
-  }
-  if(isClass10EnglishGrammarSection(parts)){
-    return "mock-test.html?file=" + encodeURIComponent(class10EnglishGrammarTestFile(test));
   }
   return "mock-test.html?set=" + encodeURIComponent(mockSetId(parts, test));
 }
@@ -1772,9 +1664,6 @@ function isMockTestAvailable(parts, test){
   }
   if(isClass10Economics(parts)){
     return /^Test [1-5]$/.test(labelEn(test));
-  }
-  if(isClass10EnglishGrammarSection(parts)){
-    return /^Test ([1-9]|10)$/.test(labelEn(test));
   }
   return false;
 }
@@ -1826,8 +1715,7 @@ function groupLabel(group){
 }
 
 function makeTestLevel(title, parts){
-  const levelTestNames = isClass10EnglishGrammarSection(parts) ? grammarTestNames : testNames;
-  const tests = levelTestNames.map(test => ({
+  const tests = testNames.map(test => ({
     label:test,
     href:isMockTestAvailable(parts, test) ? nestedTestLink(parts, test) : "",
     status:isMockTestAvailable(parts, test) ? "available" : "soon",
@@ -1863,28 +1751,12 @@ function makeChapterItems(group, subject, chapterGroup){
 }
 
 function makeSubjectItems(group, subject){
-  if(subject.finalPapers){
-    return subject.finalPapers.map(paper => ({
-      label:paper.label,
-      href:jsonMockTestLink(paper.file),
-      status:"available",
-      test:true
-    }));
-  }
-
   if(subject.chapterGroups){
     return subject.chapterGroups.map(chapterGroup => ({
       label:chapterGroup.name,
       next:{
         title:chapterGroup.name,
-        items:chapterGroup.finalPapers
-          ? chapterGroup.finalPapers.map(paper => ({
-              label:paper.label,
-              href:jsonMockTestLink(paper.file),
-              status:"available",
-              test:true
-            }))
-          : makeChapterItems(group, subject, chapterGroup)
+        items:makeChapterItems(group, subject, chapterGroup)
       }
     }));
   }
@@ -2260,9 +2132,18 @@ function showPage(pageId, updateHash){
   }
 }
 
+function toggleMenu(){
+  const nav = document.getElementById("navMenu");
+  const button = document.querySelector(".menu-btn");
+  const isOpen = nav.classList.toggle("active");
+  button.setAttribute("aria-expanded", String(isOpen));
+}
+
 document.querySelectorAll(".nav-route").forEach(function(link){
   link.addEventListener("click",function(event){
     event.preventDefault();
+    document.getElementById("navMenu").classList.remove("active");
+    document.querySelector(".menu-btn").setAttribute("aria-expanded","false");
     showPage(link.dataset.page, true);
   });
 });
