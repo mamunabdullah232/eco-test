@@ -1,0 +1,24 @@
+name: Fix Friday routine and Class 9 class test
+on:
+  push:
+    paths:
+      - '.codex-friday-class9.py'
+      - '.github/workflows/codex-friday-class9.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch Friday routine and Class 9 class test
+        run: python .codex-friday-class9.py
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .codex-friday-class9.py .github/workflows/codex-friday-class9.yml
+          git add index.html class-tests/class-9/index.html
+          git commit -m "Fix Friday routine and add Class 9 class test" || echo "No changes to commit"
+          git push
