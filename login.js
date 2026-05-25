@@ -52,7 +52,7 @@ function getUserRole(user) {
 function finishLogin(role) {
   const redirect = getRedirectUrl();
   sessionStorage.removeItem("xohopathiLoginRedirect");
-  window.location.href = redirect || (role === "admin" ? "/admin-dashboard.html" : "/student-dashboard.html");
+  window.location.href = redirect || (role === "admin" ? "./admin-dashboard.html" : "./student-dashboard.html");
 }
 
 rememberRedirect();
@@ -118,9 +118,3 @@ googleLoginBtn.addEventListener("click", async () => {
     googleLoginBtn.disabled = false;
   }
 });
-
-setTimeout(() => {
-  if (!authChecked && !loginFinished) {
-    statusText.textContent = "Preparing login...";
-  }
-}, 1200);
