@@ -1,7 +1,7 @@
 {
   "className": {
-    "en": "Class 10 CBSE",
-    "as": "শ্ৰেণী ১০ CBSE"
+    "en": "Class 8 CBSE",
+    "as": "শ্ৰেণী ৮ CBSE"
   },
   "subject": {
     "en": "Social Science",
@@ -19,7 +19,7 @@
     "en": "Test 5",
     "as": "টেষ্ট 5"
   },
-  "displayTitle": "CBSE Class 10 Social Science - Chapter 1 Test 5",
+  "displayTitle": "CBSE Class 8 Social Science - Chapter 1 Test 5",
   "englishOnly": true,
   "durationMinutes": 10,
   "correctMarks": 1,
