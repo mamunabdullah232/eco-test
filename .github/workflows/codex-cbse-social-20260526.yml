@@ -36,3 +36,5 @@ jobs:
             .github/workflows/codex-cbse-social-20260526.yml
           git commit -m "Add Class 10 CBSE Social Science mock tests" || echo "No changes to commit"
           git push
+
+# Triggered by Codex after workflow creation.
