@@ -1,0 +1,26 @@
+name: Move CBSE Social Science Tests To Class 8
+
+on:
+  push:
+    paths:
+      - '.codex-move-cbse-class8.py'
+      - '.github/workflows/codex-move-cbse-class8.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  move-cbse-class8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move CBSE tests to Class 8
+        run: python .codex-move-cbse-class8.py
+      - name: Commit moved files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Move CBSE Social Science mock tests to Class 8" || echo "No changes to commit"
+          git push
