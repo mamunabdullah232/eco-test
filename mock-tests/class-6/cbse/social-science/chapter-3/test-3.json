@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Landforms and Life",
+    "as": "Chapter 3 - Landforms and Life"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট 3"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 3 Test 3",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which is described as the Indian name of the largest river originating in the Himalayas?",
+      "options": [
+        {
+          "en": "Zambezi"
+        },
+        {
+          "en": "Amazon"
+        },
+        {
+          "en": "Nile"
+        },
+        {
+          "en": "Ganga"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter states that Ganga is the Indian name of the largest river originating in the Himalayas."
+      }
+    },
+    {
+      "en": "Which of the following tributaries of the Ganga also originates in the Himalayas?",
+      "options": [
+        {
+          "en": "Narmada"
+        },
+        {
+          "en": "Godavari"
+        },
+        {
+          "en": "Yamuna"
+        },
+        {
+          "en": "Son or Sone"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter states that some tributaries such as the Yamuna and Ghagara originate in the Himalayas."
+      }
+    },
+    {
+      "en": "What is terrace farming?",
+      "options": [
+        {
+          "en": "Cultivation on slopes by cutting steps into the slope"
+        },
+        {
+          "en": "Fishing in the sea"
+        },
+        {
+          "en": "Farming only in deserts"
+        },
+        {
+          "en": "Mining on plateaus"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter explains that cultivation on mountain slopes by cutting steps into the slope is called terrace farming."
+      }
+    },
+    {
+      "en": "Why is regular farming difficult in many mountain regions?",
+      "options": [
+        {
+          "en": "There is no sunlight anywhere"
+        },
+        {
+          "en": "The terrain is rugged and slopes are steep"
+        },
+        {
+          "en": "All mountains are deserts"
+        },
+        {
+          "en": "Mountains have no water at all"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter says mountain terrain is usually rugged or rough, with steep slopes, so regular farming is possible mainly in some valleys."
+      }
+    },
+    {
+      "en": "Which occupation is often preferred over agriculture in many mountainous regions?",
+      "options": [
+        {
+          "en": "Deep-sea fishing"
+        },
+        {
+          "en": "Herding"
+        },
+        {
+          "en": "Shipbuilding"
+        },
+        {
+          "en": "Coral mining"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter notes that herding is the preferred occupation over agriculture in many mountainous regions."
+      }
+    },
+    {
+      "en": "Which of these is a mountain tourism activity?",
+      "options": [
+        {
+          "en": "Coral diving only"
+        },
+        {
+          "en": "Skiing"
+        },
+        {
+          "en": "Island hopping only"
+        },
+        {
+          "en": "Ocean trawling"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter lists skiing, hiking, mountaineering and paragliding as tourism activities in mountains."
+      }
+    },
+    {
+      "en": "What can excessive inflow of visitors do to mountain environments?",
+      "options": [
+        {
+          "en": "End all landslides"
+        },
+        {
+          "en": "Stop all rivers"
+        },
+        {
+          "en": "Make all glaciers grow faster"
+        },
+        {
+          "en": "Put the fragile mountain environment under pressure"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter warns that excessive tourism can put fragile mountain environments under pressure."
+      }
+    },
+    {
+      "en": "Who was the first Indian woman to climb Mount Everest?",
+      "options": [
+        {
+          "en": "P. V. Sindhu"
+        },
+        {
+          "en": "Bachendri Pal"
+        },
+        {
+          "en": "Arunima Sinha"
+        },
+        {
+          "en": "Kalpana Chawla"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that Bachendri Pal was the first Indian woman to climb Mount Everest in 1984."
+      }
+    },
+    {
+      "en": "What is an avalanche?",
+      "options": [
+        {
+          "en": "Sudden fall of snow, ice or rocks from a mountainside"
+        },
+        {
+          "en": "A dry desert wind"
+        },
+        {
+          "en": "A gentle river plain"
+        },
+        {
+          "en": "A huge wave from the ocean"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter defines an avalanche as the sudden fall of snow, ice or rocks from a mountainside."
+      }
+    },
+    {
+      "en": "What is a landslide?",
+      "options": [
+        {
+          "en": "A river meeting point"
+        },
+        {
+          "en": "Sudden collapse of a mass of earth or rock from a mountainside"
+        },
+        {
+          "en": "A wave caused by an earthquake"
+        },
+        {
+          "en": "A type of mountain forest"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter defines a landslide as the sudden collapse of a mass of earth or rock from a mountainside."
+      }
+    }
+  ]
+}

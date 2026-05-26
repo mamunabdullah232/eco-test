@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Landforms and Life",
+    "as": "Chapter 3 - Landforms and Life"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট 5"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 3 Test 5",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Plains are generally not more than how many metres above sea level?",
+      "options": [
+        {
+          "en": "30 metres only"
+        },
+        {
+          "en": "13,000 metres"
+        },
+        {
+          "en": "3,000 metres"
+        },
+        {
+          "en": "300 metres"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter states that plains are generally not more than 300 metres above sea level."
+      }
+    },
+    {
+      "en": "How are floodplains formed?",
+      "options": [
+        {
+          "en": "By mountains rising suddenly"
+        },
+        {
+          "en": "By ocean waves freezing permanently"
+        },
+        {
+          "en": "By deserts receiving no rain"
+        },
+        {
+          "en": "By rivers depositing sediments such as rock particles, sand and silt"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Floodplains form when rivers carry sediments from mountains and deposit them in plains."
+      }
+    },
+    {
+      "en": "Why are floodplains good for agriculture?",
+      "options": [
+        {
+          "en": "They are always covered with snow"
+        },
+        {
+          "en": "River deposits make the soil fertile"
+        },
+        {
+          "en": "They have no water access"
+        },
+        {
+          "en": "They have only rocks"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Sediments deposited by rivers make floodplain soil very fertile, making them ideal for crops."
+      }
+    },
+    {
+      "en": "About how many people live in India’s Ganga plain according to the chapter?",
+      "options": [
+        {
+          "en": "About 40 crore"
+        },
+        {
+          "en": "About 40 lakh"
+        },
+        {
+          "en": "About 4 crore"
+        },
+        {
+          "en": "About 400 crore"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that about 40 crore people live in India’s Ganga plain."
+      }
+    },
+    {
+      "en": "Which food crops are grown in the Gangetic plain?",
+      "options": [
+        {
+          "en": "Only coconut and rubber"
+        },
+        {
+          "en": "Rice, wheat, maize, barley and millets"
+        },
+        {
+          "en": "Only grapes and apples"
+        },
+        {
+          "en": "Only tea and coffee"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter lists rice, wheat, maize, barley and millets as food crops grown in the Gangetic plain."
+      }
+    },
+    {
+      "en": "What challenge has increased irrigation created in the Ganga plain?",
+      "options": [
+        {
+          "en": "Increase of glaciers"
+        },
+        {
+          "en": "Formation of mountains"
+        },
+        {
+          "en": "Complete end of agriculture"
+        },
+        {
+          "en": "Depletion of groundwater"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter explains that irrigation has increased production but also contributed to groundwater depletion."
+      }
+    },
+    {
+      "en": "Why is river navigation easier in plains?",
+      "options": [
+        {
+          "en": "Plains have a gentle slope"
+        },
+        {
+          "en": "Plains have only waterfalls"
+        },
+        {
+          "en": "Plains have steep cliffs everywhere"
+        },
+        {
+          "en": "Plains are always frozen"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that because plains have a gentle slope, river navigation is easy."
+      }
+    },
+    {
+      "en": "What is a confluence?",
+      "options": [
+        {
+          "en": "The meeting point of two or more rivers"
+        },
+        {
+          "en": "A desert storm"
+        },
+        {
+          "en": "The highest point of a mountain"
+        },
+        {
+          "en": "A type of mineral"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The glossary defines confluence as the meeting point of two or more rivers."
+      }
+    },
+    {
+      "en": "Which landform is described as a large and dry expanse with very little precipitation?",
+      "options": [
+        {
+          "en": "Floodplain"
+        },
+        {
+          "en": "Montane forest"
+        },
+        {
+          "en": "Lava plateau"
+        },
+        {
+          "en": "Desert"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter explains that deserts are large dry expanses with very little precipitation."
+      }
+    },
+    {
+      "en": "In the ancient Tamil tiṇai classification, which landscape is associated with hunting and gathering?",
+      "options": [
+        {
+          "en": "Marudam"
+        },
+        {
+          "en": "Neydal"
+        },
+        {
+          "en": "Kuriñji"
+        },
+        {
+          "en": "Mullai"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter’s tiṇai table associates Kuriñji with mountainous regions and hunting and gathering."
+      }
+    }
+  ]
+}

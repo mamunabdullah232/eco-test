@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Landforms and Life",
+    "as": "Chapter 3 - Landforms and Life"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট 2"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 3 Test 2",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which mountain range is located in Asia?",
+      "options": [
+        {
+          "en": "Himalayas"
+        },
+        {
+          "en": "Alps"
+        },
+        {
+          "en": "Atlas only"
+        },
+        {
+          "en": "Andes"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter lists the Himalayas as a mountain range in Asia."
+      }
+    },
+    {
+      "en": "Where is Mount Everest located according to the chapter?",
+      "options": [
+        {
+          "en": "In eastern Africa"
+        },
+        {
+          "en": "In Western Europe"
+        },
+        {
+          "en": "In Kerala"
+        },
+        {
+          "en": "Between Tibet (China) and Nepal"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter states that Mount Everest lies between Tibet (China) and Nepal."
+      }
+    },
+    {
+      "en": "Which mountain is an isolated mountain in eastern Africa?",
+      "options": [
+        {
+          "en": "Kanchenjunga"
+        },
+        {
+          "en": "Anamudi"
+        },
+        {
+          "en": "Mount Kilimanjaro"
+        },
+        {
+          "en": "Mount Everest"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter identifies Mount Kilimanjaro as an isolated mountain in eastern Africa."
+      }
+    },
+    {
+      "en": "Which is the highest mountain in south India?",
+      "options": [
+        {
+          "en": "Anamudi or Anai Peak"
+        },
+        {
+          "en": "Mount Everest"
+        },
+        {
+          "en": "Kanchenjunga"
+        },
+        {
+          "en": "Kilimanjaro"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says Anamudi in Kerala, also known as Anai Peak, is the highest mountain in south India."
+      }
+    },
+    {
+      "en": "Why are the Himalayas described as relatively young mountains?",
+      "options": [
+        {
+          "en": "They are made of water"
+        },
+        {
+          "en": "They are lower than hills"
+        },
+        {
+          "en": "They were formed recently in Earth’s history and have tall, sharp peaks"
+        },
+        {
+          "en": "They have no snow"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter explains that tall, sharp peaks like the Himalayas are relatively young in Earth’s history."
+      }
+    },
+    {
+      "en": "Which mountain range is mentioned as older and rounded by erosion?",
+      "options": [
+        {
+          "en": "Alps only"
+        },
+        {
+          "en": "Andes only"
+        },
+        {
+          "en": "Himalayas only"
+        },
+        {
+          "en": "Aravalli Range"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter states that shorter, rounded mountains and hills like the Aravalli Range are much older and have been rounded by erosion."
+      }
+    },
+    {
+      "en": "What is a montane forest?",
+      "options": [
+        {
+          "en": "A type of forest that grows in mountainous regions"
+        },
+        {
+          "en": "A forest made only of grass"
+        },
+        {
+          "en": "A forest found only underwater"
+        },
+        {
+          "en": "A desert plant community"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The glossary defines montane forest as a type of forest that grows in mountainous regions."
+      }
+    },
+    {
+      "en": "Which trees are common in montane forests?",
+      "options": [
+        {
+          "en": "Coconut trees only"
+        },
+        {
+          "en": "Cactus only"
+        },
+        {
+          "en": "Conifer trees such as pine, fir, spruce and deodar"
+        },
+        {
+          "en": "Mangroves only"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter says conifer trees such as pines, firs, spruce and deodar are common in montane forests."
+      }
+    },
+    {
+      "en": "At higher mountain altitudes, trees may give way to what?",
+      "options": [
+        {
+          "en": "Grasses, mosses and lichen"
+        },
+        {
+          "en": "Only coconut trees"
+        },
+        {
+          "en": "Rice fields"
+        },
+        {
+          "en": "Coral reefs"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter explains that at higher altitudes, trees give way to grasses, mosses and lichen."
+      }
+    },
+    {
+      "en": "Which of the following is a mountain animal mentioned in the chapter?",
+      "options": [
+        {
+          "en": "Himalayan tahr"
+        },
+        {
+          "en": "Bonaire sea turtle"
+        },
+        {
+          "en": "Sperm whale"
+        },
+        {
+          "en": "Dolphin"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter lists mountain animals including the Himalayan tahr, yak, ibex, golden eagle and others."
+      }
+    }
+  ]
+}

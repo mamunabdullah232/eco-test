@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Landforms and Life",
+    "as": "Chapter 3 - Landforms and Life"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট 1"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 3 Test 1",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is a landform?",
+      "options": [
+        {
+          "en": "A type of ocean current"
+        },
+        {
+          "en": "A physical feature on the surface of Earth"
+        },
+        {
+          "en": "A man-made building only"
+        },
+        {
+          "en": "A form of rainfall"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter defines a landform as a physical feature on the surface of Earth."
+      }
+    },
+    {
+      "en": "Which three broad categories of landforms are discussed in the chapter?",
+      "options": [
+        {
+          "en": "Clouds, rain and snow"
+        },
+        {
+          "en": "Mountains, plateaus and plains"
+        },
+        {
+          "en": "Oceans, seas and bays"
+        },
+        {
+          "en": "Forests, rivers and deserts only"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that landforms can broadly be divided into mountains, plateaus and plains."
+      }
+    },
+    {
+      "en": "Which journey in the chapter introduces three different landforms?",
+      "options": [
+        {
+          "en": "Jaipur to Jaisalmer to Bikaner"
+        },
+        {
+          "en": "Chhota Nagpur to Prayagraj to Almora"
+        },
+        {
+          "en": "Kolkata to Puri to Cuttack"
+        },
+        {
+          "en": "Delhi to Mumbai to Chennai"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter asks students to imagine travelling from Chhota Nagpur to Prayagraj and then to Almora, encountering different landscapes."
+      }
+    },
+    {
+      "en": "What are mountains?",
+      "options": [
+        {
+          "en": "Only forests with trees"
+        },
+        {
+          "en": "Flat landforms below sea level only"
+        },
+        {
+          "en": "Small water bodies"
+        },
+        {
+          "en": "Landforms much higher than the surrounding landscape"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Mountains are landforms that are much higher than the surrounding landscape."
+      }
+    },
+    {
+      "en": "Which features help us recognise mountains?",
+      "options": [
+        {
+          "en": "Only sandy soil"
+        },
+        {
+          "en": "Flat surface and no slopes"
+        },
+        {
+          "en": "Broad base, steep slopes and narrow summit"
+        },
+        {
+          "en": "Only river deposits"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter says mountains can be recognised by a broad base, steep slopes and a narrow summit."
+      }
+    },
+    {
+      "en": "What happens to snow on mountains at lower altitudes during summer?",
+      "options": [
+        {
+          "en": "It turns into desert sand"
+        },
+        {
+          "en": "It often melts and feeds rivers"
+        },
+        {
+          "en": "It becomes coal"
+        },
+        {
+          "en": "It never changes"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "At lower altitudes, mountain snow melts every summer and turns into water that feeds rivers."
+      }
+    },
+    {
+      "en": "What are hills?",
+      "options": [
+        {
+          "en": "The highest peaks of mountain ranges"
+        },
+        {
+          "en": "Highlands with lower height, less steep slopes and rounded tops"
+        },
+        {
+          "en": "Flat plains near rivers"
+        },
+        {
+          "en": "Deep parts of oceans"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter describes hills as highlands lower than mountains, with less steep slopes and rounded tops."
+      }
+    },
+    {
+      "en": "What is precipitation?",
+      "options": [
+        {
+          "en": "Only ocean water"
+        },
+        {
+          "en": "A kind of mountain animal"
+        },
+        {
+          "en": "Water from the atmosphere reaching the ground in any form"
+        },
+        {
+          "en": "Only groundwater"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Precipitation means water from the atmosphere reaching the ground as rain, snow, hail and similar forms."
+      }
+    },
+    {
+      "en": "Snow and hailstones are examples of water in which state?",
+      "options": [
+        {
+          "en": "Gaseous state only"
+        },
+        {
+          "en": "Solid state"
+        },
+        {
+          "en": "Plasma state"
+        },
+        {
+          "en": "Liquid state only"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter explains that snow and hailstones are precipitation of water in a solid state."
+      }
+    },
+    {
+      "en": "Most mountains of the world are grouped in what?",
+      "options": [
+        {
+          "en": "Deserts"
+        },
+        {
+          "en": "Island chains only"
+        },
+        {
+          "en": "River deltas"
+        },
+        {
+          "en": "Mountain ranges"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter says most of the world’s mountains are grouped in mountain ranges."
+      }
+    }
+  ]
+}

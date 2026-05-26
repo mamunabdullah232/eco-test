@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 3 - Landforms and Life",
+    "as": "Chapter 3 - Landforms and Life"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট 4"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 3 Test 4",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is a cloudburst?",
+      "options": [
+        {
+          "en": "A permanent snowfall"
+        },
+        {
+          "en": "A sudden violent rainstorm"
+        },
+        {
+          "en": "A flat landform"
+        },
+        {
+          "en": "A kind of mineral"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter defines a cloudburst as a sudden violent rainstorm."
+      }
+    },
+    {
+      "en": "Which name for Mount Everest means 'Mother Goddess of the World'?",
+      "options": [
+        {
+          "en": "Sagarmatha"
+        },
+        {
+          "en": "Mont Blanc"
+        },
+        {
+          "en": "Anamudi"
+        },
+        {
+          "en": "Chomolungma"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter states that Tibetans call Mount Everest Chomolungma, meaning 'Mother Goddess of the World'."
+      }
+    },
+    {
+      "en": "What is a plateau?",
+      "options": [
+        {
+          "en": "A landform rising from surrounding land with a more or less flat surface"
+        },
+        {
+          "en": "A cloud formation"
+        },
+        {
+          "en": "A small island"
+        },
+        {
+          "en": "A deep ocean trench"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter defines a plateau as a landform that rises from surrounding land and has a more or less flat surface."
+      }
+    },
+    {
+      "en": "Which plateau is nicknamed the 'Roof of the World'?",
+      "options": [
+        {
+          "en": "Tibetan Plateau"
+        },
+        {
+          "en": "Deccan Plateau"
+        },
+        {
+          "en": "Cherrapunji Plateau"
+        },
+        {
+          "en": "Chhota Nagpur Plateau"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The Tibetan Plateau is called the 'Roof of the World' because of its high average altitude."
+      }
+    },
+    {
+      "en": "Which Indian plateau is one of the oldest plateaus in the world and was formed through volcanic activity?",
+      "options": [
+        {
+          "en": "East African Plateau"
+        },
+        {
+          "en": "Patagonian Plateau"
+        },
+        {
+          "en": "Deccan Plateau"
+        },
+        {
+          "en": "Tibetan Plateau"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter says the Deccan Plateau of central and south India is one of the oldest plateaus, formed through volcanic activity."
+      }
+    },
+    {
+      "en": "Why are plateaus called 'storehouses of minerals'?",
+      "options": [
+        {
+          "en": "They have no rocks"
+        },
+        {
+          "en": "They have only freshwater lakes"
+        },
+        {
+          "en": "They are made only of sand"
+        },
+        {
+          "en": "They are rich in mineral deposits"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter explains that plateaus, like mountains, are rich in mineral deposits."
+      }
+    },
+    {
+      "en": "Which resources are found in huge reserves in the Chhota Nagpur Plateau?",
+      "options": [
+        {
+          "en": "Saltwater and coral"
+        },
+        {
+          "en": "Iron, coal and manganese"
+        },
+        {
+          "en": "Snow and glaciers"
+        },
+        {
+          "en": "Coconut and seaweed"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that huge reserves of iron, coal and manganese are found in the Chhota Nagpur Plateau."
+      }
+    },
+    {
+      "en": "Which type of plateau often has rich black soil?",
+      "options": [
+        {
+          "en": "Ice plateau"
+        },
+        {
+          "en": "Lava plateau"
+        },
+        {
+          "en": "Sandy plateau"
+        },
+        {
+          "en": "Coral plateau"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter explains that lava plateaus formed through volcanic activity often have rich black soil."
+      }
+    },
+    {
+      "en": "Which waterfall drops down 340 metres from the Cherrapunji Plateau?",
+      "options": [
+        {
+          "en": "Nohkalikai Falls"
+        },
+        {
+          "en": "Hundru Falls"
+        },
+        {
+          "en": "Jog Falls"
+        },
+        {
+          "en": "Victoria Falls"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that Nohkalikai Falls drops 340 metres from the Cherrapunji Plateau in Meghalaya."
+      }
+    },
+    {
+      "en": "What are plains?",
+      "options": [
+        {
+          "en": "Large bodies of saltwater"
+        },
+        {
+          "en": "Very high landforms with narrow summits"
+        },
+        {
+          "en": "Only volcanic surfaces"
+        },
+        {
+          "en": "Landforms with extensive flat or gently undulating surfaces"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter defines plains as landforms with an extensive flat or gently undulating surface."
+      }
+    }
+  ]
+}

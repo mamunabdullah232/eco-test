@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Oceans and Continents",
+    "as": "Chapter 2 - Oceans and Continents"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট 5"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 2 Test 5",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which is the largest island in the world?",
+      "options": [
+        {
+          "en": "Lakshadweep"
+        },
+        {
+          "en": "Sri Lanka"
+        },
+        {
+          "en": "Greenland"
+        },
+        {
+          "en": "Madagascar"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter states that Greenland is the largest island in the world."
+      }
+    },
+    {
+      "en": "Approximately how many small islands does India have according to the chapter?",
+      "options": [
+        {
+          "en": "More than 1,300"
+        },
+        {
+          "en": "More than 130"
+        },
+        {
+          "en": "More than 13,000"
+        },
+        {
+          "en": "More than 13"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says India has more than 1,300 small islands."
+      }
+    },
+    {
+      "en": "When did the Indian Antarctica Programme begin?",
+      "options": [
+        {
+          "en": "2004"
+        },
+        {
+          "en": "1981"
+        },
+        {
+          "en": "1965"
+        },
+        {
+          "en": "1947"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that the Indian Antarctica Programme has been exploring Antarctica since 1981."
+      }
+    },
+    {
+      "en": "What was India’s first scientific base station in Antarctica called?",
+      "options": [
+        {
+          "en": "Varuna"
+        },
+        {
+          "en": "Chomolungma"
+        },
+        {
+          "en": "Dakshin Gangotri"
+        },
+        {
+          "en": "Sagarmatha"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter mentions that India established its first Antarctic base station, Dakshin Gangotri, in 1983."
+      }
+    },
+    {
+      "en": "Why are oceans called the 'planet’s lungs'?",
+      "options": [
+        {
+          "en": "They have no life"
+        },
+        {
+          "en": "They make all continents smaller"
+        },
+        {
+          "en": "They produce more than half of the world’s oxygen through ocean flora"
+        },
+        {
+          "en": "They contain all deserts"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter explains that more than half of the world’s oxygen is produced by the oceans’ flora."
+      }
+    },
+    {
+      "en": "Which process links oceans to rainfall on continents?",
+      "options": [
+        {
+          "en": "Water cycle"
+        },
+        {
+          "en": "Mining cycle"
+        },
+        {
+          "en": "Rock cycle only"
+        },
+        {
+          "en": "Island cycle"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that oceans send rain to continents as part of Earth’s water cycle."
+      }
+    },
+    {
+      "en": "How have humans used oceans from early times?",
+      "options": [
+        {
+          "en": "For migration, trade, military campaigns and fishing"
+        },
+        {
+          "en": "Only for farming wheat"
+        },
+        {
+          "en": "Only for drawing maps"
+        },
+        {
+          "en": "Only for drinking salty water"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter lists migration, trade, military campaigns and fishing as human uses of oceans and seas."
+      }
+    },
+    {
+      "en": "When is World Oceans Day observed?",
+      "options": [
+        {
+          "en": "August 15"
+        },
+        {
+          "en": "December 26"
+        },
+        {
+          "en": "June 8"
+        },
+        {
+          "en": "January 26"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter states that the United Nations has designated June 8 as World Oceans Day."
+      }
+    },
+    {
+      "en": "Which human activity is a major threat to oceans mentioned in the chapter?",
+      "options": [
+        {
+          "en": "Planting trees"
+        },
+        {
+          "en": "Studying ocean life"
+        },
+        {
+          "en": "Throwing plastic waste into oceans"
+        },
+        {
+          "en": "Using maps in class"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter explains that millions of tonnes of plastic waste enter oceans and choke marine life."
+      }
+    },
+    {
+      "en": "What does overfishing mean?",
+      "options": [
+        {
+          "en": "Excessive fishing that contributes to decline of marine life"
+        },
+        {
+          "en": "Growing fish in ponds"
+        },
+        {
+          "en": "Fishing only once a year"
+        },
+        {
+          "en": "Protecting fish during breeding"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter identifies overfishing as excessive fishing and a cause of the decline of marine life."
+      }
+    }
+  ]
+}

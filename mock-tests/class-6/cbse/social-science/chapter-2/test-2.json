@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Oceans and Continents",
+    "as": "Chapter 2 - Oceans and Continents"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট 2"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 2 Test 2",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Why is seawater not usually fit for human consumption?",
+      "options": [
+        {
+          "en": "It is salty"
+        },
+        {
+          "en": "It contains no oxygen"
+        },
+        {
+          "en": "It is too cold everywhere"
+        },
+        {
+          "en": "It is always frozen"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter explains that oceans hold most of Earth’s water, but seawater is salty and unfit for consumption by most land animals, including humans."
+      }
+    },
+    {
+      "en": "Where is freshwater found according to the chapter?",
+      "options": [
+        {
+          "en": "In glaciers, rivers, lakes, the atmosphere and underground"
+        },
+        {
+          "en": "Only in oceans"
+        },
+        {
+          "en": "Only in seas"
+        },
+        {
+          "en": "Only in deserts"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Freshwater forms only a small proportion of Earth’s water and is found in these places."
+      }
+    },
+    {
+      "en": "What is groundwater?",
+      "options": [
+        {
+          "en": "Water stored only in clouds"
+        },
+        {
+          "en": "Water inside mountains only"
+        },
+        {
+          "en": "Water in ocean waves"
+        },
+        {
+          "en": "Water found underground"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter identifies underground freshwater as groundwater."
+      }
+    },
+    {
+      "en": "Which of the following is NOT one of the five oceans named in the chapter?",
+      "options": [
+        {
+          "en": "Pacific Ocean"
+        },
+        {
+          "en": "Indian Ocean"
+        },
+        {
+          "en": "Atlantic Ocean"
+        },
+        {
+          "en": "Mediterranean Ocean"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The five oceans listed are Pacific, Atlantic, Indian, Arctic and Southern (or Antarctic) Ocean."
+      }
+    },
+    {
+      "en": "Which is the largest ocean?",
+      "options": [
+        {
+          "en": "Pacific Ocean"
+        },
+        {
+          "en": "Indian Ocean"
+        },
+        {
+          "en": "Atlantic Ocean"
+        },
+        {
+          "en": "Arctic Ocean"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that the Pacific Ocean is the largest of all oceans."
+      }
+    },
+    {
+      "en": "Which ocean is the second largest?",
+      "options": [
+        {
+          "en": "Atlantic Ocean"
+        },
+        {
+          "en": "Arctic Ocean"
+        },
+        {
+          "en": "Indian Ocean"
+        },
+        {
+          "en": "Southern Ocean"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says the Pacific Ocean is largest, followed by the Atlantic Ocean."
+      }
+    },
+    {
+      "en": "Which ocean is the third largest?",
+      "options": [
+        {
+          "en": "Southern Ocean"
+        },
+        {
+          "en": "Atlantic Ocean"
+        },
+        {
+          "en": "Indian Ocean"
+        },
+        {
+          "en": "Arctic Ocean"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter ranks the Indian Ocean as the third largest ocean."
+      }
+    },
+    {
+      "en": "Which is the smallest ocean?",
+      "options": [
+        {
+          "en": "Indian Ocean"
+        },
+        {
+          "en": "Arctic Ocean"
+        },
+        {
+          "en": "Southern Ocean"
+        },
+        {
+          "en": "Atlantic Ocean"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that the Arctic Ocean is the smallest ocean."
+      }
+    },
+    {
+      "en": "Why are the lines dividing oceans on maps called conventions?",
+      "options": [
+        {
+          "en": "Because oceans are made of land"
+        },
+        {
+          "en": "Because the natural world does not follow those fixed boundaries"
+        },
+        {
+          "en": "Because oceans are not naturally connected"
+        },
+        {
+          "en": "Because maps cannot show water"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter explains that the lines are conventions because seawater flows across different oceans and the natural world does not follow map boundaries."
+      }
+    },
+    {
+      "en": "What does the term 'marine' mean?",
+      "options": [
+        {
+          "en": "Related to mountains"
+        },
+        {
+          "en": "Related to or found in oceans and seas"
+        },
+        {
+          "en": "Related to deserts"
+        },
+        {
+          "en": "Related to only freshwater lakes"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The glossary in the chapter defines marine as related to or found in oceans and seas."
+      }
+    }
+  ]
+}

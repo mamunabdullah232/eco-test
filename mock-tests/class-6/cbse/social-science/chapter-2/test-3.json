@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Oceans and Continents",
+    "as": "Chapter 2 - Oceans and Continents"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট 3"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 2 Test 3",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is marine flora?",
+      "options": [
+        {
+          "en": "Only coral rocks"
+        },
+        {
+          "en": "Only large fish"
+        },
+        {
+          "en": "Animal life in oceans"
+        },
+        {
+          "en": "Plant life in oceans, such as algae and seaweeds"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter says marine flora includes tiny plants called algae and all kinds of seaweeds."
+      }
+    },
+    {
+      "en": "Which of the following is an example of marine fauna?",
+      "options": [
+        {
+          "en": "Deodar tree"
+        },
+        {
+          "en": "Dolphin"
+        },
+        {
+          "en": "Yak"
+        },
+        {
+          "en": "Camel"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter lists dolphins, whales and fish as examples of marine fauna."
+      }
+    },
+    {
+      "en": "What are the main limits of the Indian Ocean?",
+      "options": [
+        {
+          "en": "Only India on all sides"
+        },
+        {
+          "en": "Asia to the north, Africa to the west, Australia to the east and the Southern Ocean to the south"
+        },
+        {
+          "en": "South America to the north and Africa to the east"
+        },
+        {
+          "en": "Europe, North America and Antarctica"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states these as the main limits of the Indian Ocean."
+      }
+    },
+    {
+      "en": "Which two parts of the Indian Ocean lie on either side of India?",
+      "options": [
+        {
+          "en": "Pacific Ocean and Atlantic Ocean"
+        },
+        {
+          "en": "Red Sea and Black Sea"
+        },
+        {
+          "en": "Arctic Ocean and Southern Ocean"
+        },
+        {
+          "en": "Arabian Sea and Bay of Bengal"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter mentions the Arabian Sea to India’s west and the Bay of Bengal to its east."
+      }
+    },
+    {
+      "en": "Where are the Andaman and Nicobar Islands located?",
+      "options": [
+        {
+          "en": "Bay of Bengal"
+        },
+        {
+          "en": "Arabian Sea"
+        },
+        {
+          "en": "Mediterranean Sea"
+        },
+        {
+          "en": "Atlantic Ocean"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter identifies the Andaman and Nicobar Islands as a major island group in the Bay of Bengal."
+      }
+    },
+    {
+      "en": "Where are the Lakshadweep Islands located?",
+      "options": [
+        {
+          "en": "Bay of Bengal"
+        },
+        {
+          "en": "Southern Ocean"
+        },
+        {
+          "en": "Arabian Sea"
+        },
+        {
+          "en": "Arctic Ocean"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter identifies Lakshadweep Islands as a major island group in the Arabian Sea."
+      }
+    },
+    {
+      "en": "What do the large white shapes seen from space often represent?",
+      "options": [
+        {
+          "en": "Deserts"
+        },
+        {
+          "en": "Mountains only"
+        },
+        {
+          "en": "Only glaciers"
+        },
+        {
+          "en": "Large masses of clouds"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter explains that the white shapes visible across the globe are large masses of clouds."
+      }
+    },
+    {
+      "en": "From where do India’s monsoon rains originate?",
+      "options": [
+        {
+          "en": "Only from deserts"
+        },
+        {
+          "en": "From underground water"
+        },
+        {
+          "en": "From the ocean"
+        },
+        {
+          "en": "Only from mountains"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter says the monsoon rains India expects every summer originate in the ocean."
+      }
+    },
+    {
+      "en": "What is a cyclone?",
+      "options": [
+        {
+          "en": "A violent event with extreme rainfall or very strong winds"
+        },
+        {
+          "en": "A type of continent"
+        },
+        {
+          "en": "A calm ocean current"
+        },
+        {
+          "en": "A small island"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter describes storms such as cyclones as violent events with extreme rainfall or very strong winds."
+      }
+    },
+    {
+      "en": "What is a tsunami?",
+      "options": [
+        {
+          "en": "A huge and powerful wave generally caused by an undersea earthquake or volcanic eruption"
+        },
+        {
+          "en": "A small freshwater stream"
+        },
+        {
+          "en": "A type of seaweed"
+        },
+        {
+          "en": "A permanent ocean boundary"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter defines a tsunami as a huge and powerful ocean wave, usually caused by a strong earthquake or volcanic eruption at the ocean bottom."
+      }
+    }
+  ]
+}

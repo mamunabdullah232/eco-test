@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Oceans and Continents",
+    "as": "Chapter 2 - Oceans and Continents"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট 1"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 2 Test 1",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Why is the Earth often called the 'blue planet'?",
+      "options": [
+        {
+          "en": "Because the sky gives it a blue shadow"
+        },
+        {
+          "en": "Because all continents are surrounded by ice"
+        },
+        {
+          "en": "Because almost three-fourths of its surface is covered with water"
+        },
+        {
+          "en": "Because most of its mountains are blue"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter explains that water covers almost three-fourths of Earth’s surface, so Earth looks mostly blue from outer space."
+      }
+    },
+    {
+      "en": "What is an ocean?",
+      "options": [
+        {
+          "en": "The largest type of water body seen on the globe"
+        },
+        {
+          "en": "A raised portion of land"
+        },
+        {
+          "en": "A piece of land surrounded by water"
+        },
+        {
+          "en": "A small body of freshwater"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter defines the largest water bodies on Earth as oceans."
+      }
+    },
+    {
+      "en": "What is a continent?",
+      "options": [
+        {
+          "en": "A narrow part of an ocean"
+        },
+        {
+          "en": "A river joining the sea"
+        },
+        {
+          "en": "A small island"
+        },
+        {
+          "en": "A large continuous expanse of land"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A continent is described as a large continuous expanse of land."
+      }
+    },
+    {
+      "en": "Approximately how much of the Earth’s surface is land?",
+      "options": [
+        {
+          "en": "Almost three-fourths"
+        },
+        {
+          "en": "A little over one-fourth"
+        },
+        {
+          "en": "About one-half"
+        },
+        {
+          "en": "Almost the whole surface"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that land covers a little over one-fourth of the globe."
+      }
+    },
+    {
+      "en": "Which statement best explains the importance of oceans and continents?",
+      "options": [
+        {
+          "en": "They are useful only for ships"
+        },
+        {
+          "en": "They have no connection with culture"
+        },
+        {
+          "en": "They affect only maps, not life"
+        },
+        {
+          "en": "They shape climate and affect plants, animals and human life"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter says both oceans and continents play a vital role in shaping Earth’s climate and all aspects of life."
+      }
+    },
+    {
+      "en": "What does the Indian Navy motto 'Sam noh Varunah' invoke?",
+      "options": [
+        {
+          "en": "Surya, the sun deity"
+        },
+        {
+          "en": "Indra, associated with rainfall only"
+        },
+        {
+          "en": "Varuna, associated with oceans, sky and water"
+        },
+        {
+          "en": "Agni, the fire deity"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter mentions that the motto invokes Varuna, a Vedic deity associated with oceans, sky and water."
+      }
+    },
+    {
+      "en": "Are oceans and continents distributed equally between the Northern and Southern Hemispheres?",
+      "options": [
+        {
+          "en": "Only continents are equal, oceans are not"
+        },
+        {
+          "en": "No, they are not equally distributed"
+        },
+        {
+          "en": "Yes, exactly equally"
+        },
+        {
+          "en": "Only oceans are equal, continents are not"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter clearly says oceans and continents are not distributed equally between the two hemispheres."
+      }
+    },
+    {
+      "en": "Which hemisphere has more land according to the chapter summary?",
+      "options": [
+        {
+          "en": "Southern Hemisphere"
+        },
+        {
+          "en": "Neither hemisphere has land"
+        },
+        {
+          "en": "Both have the same amount of land"
+        },
+        {
+          "en": "Northern Hemisphere"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The 'Before we move on' section states that the Northern Hemisphere has more land than the Southern Hemisphere."
+      }
+    },
+    {
+      "en": "Which hemisphere holds more water?",
+      "options": [
+        {
+          "en": "Southern Hemisphere"
+        },
+        {
+          "en": "Eastern Hemisphere only"
+        },
+        {
+          "en": "Northern Hemisphere"
+        },
+        {
+          "en": "Western Hemisphere only"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Since the Northern Hemisphere has more land, the Southern Hemisphere has a greater share of water."
+      }
+    },
+    {
+      "en": "What are seas, bays and gulfs in relation to oceans?",
+      "options": [
+        {
+          "en": "Smaller extensions or parts of oceans"
+        },
+        {
+          "en": "Types of continents"
+        },
+        {
+          "en": "Kinds of islands"
+        },
+        {
+          "en": "Names of mountain ranges"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that blue areas include oceans and their smaller extensions, such as seas, bays and gulfs."
+      }
+    }
+  ]
+}

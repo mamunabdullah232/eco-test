@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 6 CBSE",
+    "as": "শ্ৰেণী ৬ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Oceans and Continents",
+    "as": "Chapter 2 - Oceans and Continents"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট 4"
+  },
+  "displayTitle": "CBSE Class 6 Social Science - Chapter 2 Test 4",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Which event caused the 26 December 2004 tsunami mentioned in the chapter?",
+      "options": [
+        {
+          "en": "A cloudburst in the Himalayas"
+        },
+        {
+          "en": "A cyclone in India"
+        },
+        {
+          "en": "A drought in Australia"
+        },
+        {
+          "en": "An earthquake in Indonesia"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter states that the 2004 tsunami was caused by an earthquake in Indonesia."
+      }
+    },
+    {
+      "en": "Which Indian regions were severely affected by the 2004 tsunami?",
+      "options": [
+        {
+          "en": "Rajasthan and Gujarat only"
+        },
+        {
+          "en": "Himachal Pradesh and Uttarakhand"
+        },
+        {
+          "en": "Punjab and Haryana"
+        },
+        {
+          "en": "Andaman and Nicobar Islands, and the coasts of Tamil Nadu and Kerala"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter specifically names the Andaman and Nicobar Islands and the coasts of Tamil Nadu and Kerala."
+      }
+    },
+    {
+      "en": "What is the purpose of an early warning system for tsunamis?",
+      "options": [
+        {
+          "en": "To increase fishing activities"
+        },
+        {
+          "en": "To detect danger in advance and help protect lives and property"
+        },
+        {
+          "en": "To divide oceans on maps"
+        },
+        {
+          "en": "To stop all ocean waves permanently"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter says early warning systems help countries take measures to protect lives and property."
+      }
+    },
+    {
+      "en": "Which authority in India handles different kinds of disasters?",
+      "options": [
+        {
+          "en": "Survey of India only"
+        },
+        {
+          "en": "National Disaster Management Authority"
+        },
+        {
+          "en": "Indian Navy only"
+        },
+        {
+          "en": "Olympic Committee"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter mentions India’s National Disaster Management Authority for dealing with disasters."
+      }
+    },
+    {
+      "en": "Why can continents be counted in different ways?",
+      "options": [
+        {
+          "en": "Because islands are always counted as continents"
+        },
+        {
+          "en": "Because maps never show land"
+        },
+        {
+          "en": "Because landmasses can be grouped differently for geographical, historical or cultural reasons"
+        },
+        {
+          "en": "Because continents change every day"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter explains that some landmasses can be seen together or separately, such as Europe and Asia or the Americas."
+      }
+    },
+    {
+      "en": "Which continent-count list is most widely adopted in practice?",
+      "options": [
+        {
+          "en": "Four continents"
+        },
+        {
+          "en": "Seven continents"
+        },
+        {
+          "en": "Six continents"
+        },
+        {
+          "en": "Five continents"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter says the seven-continent list is the most widely adopted and used."
+      }
+    },
+    {
+      "en": "Which pair is often regarded by geologists as a single continent called Eurasia?",
+      "options": [
+        {
+          "en": "Europe and Asia"
+        },
+        {
+          "en": "Africa and Europe"
+        },
+        {
+          "en": "Australia and Antarctica"
+        },
+        {
+          "en": "North America and South America"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that geologists often regard Europe and Asia as a single continent called Eurasia."
+      }
+    },
+    {
+      "en": "What do the five Olympic rings represent according to the chapter?",
+      "options": [
+        {
+          "en": "Five inhabited continents"
+        },
+        {
+          "en": "Five island groups"
+        },
+        {
+          "en": "Five oceans"
+        },
+        {
+          "en": "Five largest countries"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says the five rings symbolise the gathering of sportspeople from five inhabited continents."
+      }
+    },
+    {
+      "en": "What is an island?",
+      "options": [
+        {
+          "en": "A mountain range"
+        },
+        {
+          "en": "A landmass surrounded by water on all sides"
+        },
+        {
+          "en": "A large river plain"
+        },
+        {
+          "en": "A deep part of the ocean"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter defines islands as smaller pieces of land surrounded by water on all sides."
+      }
+    },
+    {
+      "en": "Why are continents not usually considered islands?",
+      "options": [
+        {
+          "en": "Because they are made of freshwater"
+        },
+        {
+          "en": "Because they are too small"
+        },
+        {
+          "en": "Because they are not surrounded by water"
+        },
+        {
+          "en": "Because they are extremely large landmasses, though surrounded by water"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter notes that continents are surrounded by water, but because they are so large, they are not considered islands."
+      }
+    }
+  ]
+}
