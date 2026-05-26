@@ -1,0 +1,298 @@
+{
+  "className": {
+    "en": "Kids",
+    "as": "শিশু"
+  },
+  "subject": {
+    "en": "English Grammar",
+    "as": "ইংৰাজী ব্যাকৰণ"
+  },
+  "section": {
+    "en": "English Grammar",
+    "as": "ইংৰাজী ব্যাকৰণ"
+  },
+  "chapter": {
+    "en": "Basic English Grammar",
+    "as": "মৌলিক ইংৰাজী ব্যাকৰণ"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "displayTitle": "Kids English Grammar - Test 3",
+  "questions": [
+    {
+      "en": "Choose the correct sentence.",
+      "as": "সঠিক বাক্যটো বাছি লোৱা।",
+      "options": [
+        {
+          "en": "My mother cooks food.",
+          "as": "My mother cooks food."
+        },
+        {
+          "en": "Cooks food my mother.",
+          "as": "Cooks food my mother."
+        },
+        {
+          "en": "Food cooks my mother.",
+          "as": "Food cooks my mother."
+        },
+        {
+          "en": "My cooks mother food.",
+          "as": "My cooks mother food."
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The subject My mother comes first, then the verb cooks, and then the object food.",
+        "as": "Subject My mother আগতে আহিছে, তাৰ পিছত verb cooks, আৰু তাৰ পিছত object food।"
+      }
+    },
+    {
+      "en": "Which word is a noun?",
+      "as": "কোনটো শব্দ noun?",
+      "options": [
+        {
+          "en": "jump",
+          "as": "jump"
+        },
+        {
+          "en": "flower",
+          "as": "flower"
+        },
+        {
+          "en": "fast",
+          "as": "fast"
+        },
+        {
+          "en": "sweetly",
+          "as": "sweetly"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Flower is the name of a thing. So, it is a noun.",
+        "as": "Flower এটা বস্তুৰ নাম। সেয়েহে ই noun।"
+      }
+    },
+    {
+      "en": "Which one is a common noun?",
+      "as": "কোনটো common noun?",
+      "options": [
+        {
+          "en": "Mamun Sir",
+          "as": "Mamun Sir"
+        },
+        {
+          "en": "Delhi",
+          "as": "Delhi"
+        },
+        {
+          "en": "month",
+          "as": "month"
+        },
+        {
+          "en": "Friday",
+          "as": "Friday"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Month is a general name. It does not name any particular month.",
+        "as": "Month হৈছে সাধাৰণ নাম। ই কোনো বিশেষ মাহৰ নাম নহয়।"
+      }
+    },
+    {
+      "en": "Which one is a proper noun?",
+      "as": "কোনটো proper noun?",
+      "options": [
+        {
+          "en": "girl",
+          "as": "girl"
+        },
+        {
+          "en": "river",
+          "as": "river"
+        },
+        {
+          "en": "teacher",
+          "as": "teacher"
+        },
+        {
+          "en": "Ganga",
+          "as": "Ganga"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Ganga is the special name of a river. So, it is a proper noun.",
+        "as": "Ganga এখন বিশেষ নদীৰ নাম। সেয়েহে ই proper noun।"
+      }
+    },
+    {
+      "en": "Choose the correct word order.",
+      "as": "সঠিক word order বাছি লোৱা।",
+      "options": [
+        {
+          "en": "They football play.",
+          "as": "They football play."
+        },
+        {
+          "en": "Football they play.",
+          "as": "Football they play."
+        },
+        {
+          "en": "They play football.",
+          "as": "They play football."
+        },
+        {
+          "en": "Play they football.",
+          "as": "Play they football."
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The correct order is Subject + Verb + Object. They is the subject, play is the verb, and football is the object.",
+        "as": "সঠিক ক্ৰম হৈছে Subject + Verb + Object। They subject, play verb, আৰু football object।"
+      }
+    },
+    {
+      "en": "Which one is a countable noun?",
+      "as": "কোনটো countable noun?",
+      "options": [
+        {
+          "en": "flour",
+          "as": "flour"
+        },
+        {
+          "en": "water",
+          "as": "water"
+        },
+        {
+          "en": "banana",
+          "as": "banana"
+        },
+        {
+          "en": "tea",
+          "as": "tea"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Banana can be counted. We can say one banana, two bananas.",
+        "as": "Banana গণনা কৰিব পাৰি। আমি one banana, two bananas বুলি ক’ব পাৰোঁ।"
+      }
+    },
+    {
+      "en": "Which one is an uncountable noun?",
+      "as": "কোনটো uncountable noun?",
+      "options": [
+        {
+          "en": "apple",
+          "as": "apple"
+        },
+        {
+          "en": "cup",
+          "as": "cup"
+        },
+        {
+          "en": "water",
+          "as": "water"
+        },
+        {
+          "en": "doll",
+          "as": "doll"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Water cannot be counted directly. We say some water or a glass of water.",
+        "as": "Water সরাসৰি গণনা কৰিব নোৱাৰি। আমি some water বা a glass of water বুলি কওঁ।"
+      }
+    },
+    {
+      "en": "Identify the nouns in the sentence: “The bird flies in the sky.”",
+      "as": "“The bird flies in the sky.” বাক্যত nouns চিনাক্ত কৰা।",
+      "options": [
+        {
+          "en": "bird and sky",
+          "as": "bird and sky"
+        },
+        {
+          "en": "flies",
+          "as": "flies"
+        },
+        {
+          "en": "in",
+          "as": "in"
+        },
+        {
+          "en": "the",
+          "as": "the"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Bird is the name of an animal, and sky is the name of a place or thing. Both are nouns.",
+        "as": "Bird এটা জন্তুৰ নাম, আৰু sky এটা ঠাই/বস্তুৰ নাম। দুয়োটাই noun।"
+      }
+    },
+    {
+      "en": "Which sentence has correct word order?",
+      "as": "কোনটো বাক্যৰ word order সঠিক?",
+      "options": [
+        {
+          "en": "Is my friend he.",
+          "as": "Is my friend he."
+        },
+        {
+          "en": "He is my friend.",
+          "as": "He is my friend."
+        },
+        {
+          "en": "My friend he is.",
+          "as": "My friend he is."
+        },
+        {
+          "en": "Friend my he is.",
+          "as": "Friend my he is."
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The subject He comes first, followed by is my friend.",
+        "as": "Subject He আগতে আহিছে, তাৰ পিছত is my friend আহিছে।"
+      }
+    },
+    {
+      "en": "Which one is a countable noun?",
+      "as": "কোনটো countable noun?",
+      "options": [
+        {
+          "en": "rice",
+          "as": "rice"
+        },
+        {
+          "en": "milk",
+          "as": "milk"
+        },
+        {
+          "en": "chair",
+          "as": "chair"
+        },
+        {
+          "en": "sugar",
+          "as": "sugar"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Chair can be counted. We can say one chair, two chairs, three chairs.",
+        "as": "Chair গণনা কৰিব পাৰি। আমি one chair, two chairs, three chairs বুলি ক’ব পাৰোঁ।"
+      }
+    }
+  ]
+}

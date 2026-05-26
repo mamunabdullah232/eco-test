@@ -1,0 +1,298 @@
+{
+  "className": {
+    "en": "Kids",
+    "as": "শিশু"
+  },
+  "subject": {
+    "en": "English Grammar",
+    "as": "ইংৰাজী ব্যাকৰণ"
+  },
+  "section": {
+    "en": "English Grammar",
+    "as": "ইংৰাজী ব্যাকৰণ"
+  },
+  "chapter": {
+    "en": "Basic English Grammar",
+    "as": "মৌলিক ইংৰাজী ব্যাকৰণ"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "displayTitle": "Kids English Grammar - Test 1",
+  "questions": [
+    {
+      "en": "Choose the correct sentence.",
+      "as": "সঠিক বাক্যটো বাছি লোৱা।",
+      "options": [
+        {
+          "en": "Is playing Rahul.",
+          "as": "Is playing Rahul."
+        },
+        {
+          "en": "Rahul is playing.",
+          "as": "Rahul is playing."
+        },
+        {
+          "en": "Playing is Rahul.",
+          "as": "Playing is Rahul."
+        },
+        {
+          "en": "Is Rahul playing football.",
+          "as": "Is Rahul playing football."
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "In a simple sentence, the subject usually comes first. Rahul is the subject, and is playing tells what Rahul is doing.",
+        "as": "সৰল বাক্যত সাধাৰণতে subject আগতে থাকে। ইয়াত Rahul subject আৰু is playing-এ Rahul-এ কি কৰি আছে জনাইছে।"
+      }
+    },
+    {
+      "en": "Which word is a noun?",
+      "as": "কোনটো শব্দ noun?",
+      "options": [
+        {
+          "en": "run",
+          "as": "run"
+        },
+        {
+          "en": "beautiful",
+          "as": "beautiful"
+        },
+        {
+          "en": "table",
+          "as": "table"
+        },
+        {
+          "en": "quickly",
+          "as": "quickly"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A noun is the name of a person, place, animal, or thing. Table is the name of a thing.",
+        "as": "Noun হৈছে ব্যক্তি, ঠাই, জন্তু বা বস্তুৰ নাম। Table এটা বস্তুৰ নাম।"
+      }
+    },
+    {
+      "en": "Which one is a proper noun?",
+      "as": "কোনটো proper noun?",
+      "options": [
+        {
+          "en": "city",
+          "as": "city"
+        },
+        {
+          "en": "girl",
+          "as": "girl"
+        },
+        {
+          "en": "Guwahati",
+          "as": "Guwahati"
+        },
+        {
+          "en": "school",
+          "as": "school"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A proper noun is the special name of a person, place, or thing. Guwahati is the name of a particular city.",
+        "as": "Proper noun হৈছে কোনো ব্যক্তি, ঠাই বা বস্তুৰ বিশেষ নাম। Guwahati এখন বিশেষ চহৰৰ নাম।"
+      }
+    },
+    {
+      "en": "Which one is a common noun?",
+      "as": "কোনটো common noun?",
+      "options": [
+        {
+          "en": "India",
+          "as": "India"
+        },
+        {
+          "en": "Monday",
+          "as": "Monday"
+        },
+        {
+          "en": "teacher",
+          "as": "teacher"
+        },
+        {
+          "en": "Rina",
+          "as": "Rina"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A common noun is a general name. Teacher is a general name for a person who teaches.",
+        "as": "Common noun হৈছে সাধাৰণ নাম। Teacher হৈছে পাঠদান কৰা ব্যক্তিৰ সাধাৰণ নাম।"
+      }
+    },
+    {
+      "en": "Choose the correct word order.",
+      "as": "সঠিক word order বাছি লোৱা।",
+      "options": [
+        {
+          "en": "I mango eat.",
+          "as": "I mango eat."
+        },
+        {
+          "en": "Eat I mango.",
+          "as": "Eat I mango."
+        },
+        {
+          "en": "I eat a mango.",
+          "as": "I eat a mango."
+        },
+        {
+          "en": "Mango I eat.",
+          "as": "Mango I eat."
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The correct order is Subject + Verb + Object. I is the subject, eat is the verb, and a mango is the object.",
+        "as": "সঠিক ক্ৰম হৈছে Subject + Verb + Object। I subject, eat verb, আৰু a mango object।"
+      }
+    },
+    {
+      "en": "Which one is a countable noun?",
+      "as": "কোনটো countable noun?",
+      "options": [
+        {
+          "en": "milk",
+          "as": "milk"
+        },
+        {
+          "en": "rice",
+          "as": "rice"
+        },
+        {
+          "en": "book",
+          "as": "book"
+        },
+        {
+          "en": "water",
+          "as": "water"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A countable noun can be counted. We can say one book, two books, three books.",
+        "as": "Countable noun গণনা কৰিব পাৰি। আমি one book, two books বুলি ক’ব পাৰোঁ।"
+      }
+    },
+    {
+      "en": "Which one is an uncountable noun?",
+      "as": "কোনটো uncountable noun?",
+      "options": [
+        {
+          "en": "pencil",
+          "as": "pencil"
+        },
+        {
+          "en": "chair",
+          "as": "chair"
+        },
+        {
+          "en": "sugar",
+          "as": "sugar"
+        },
+        {
+          "en": "apple",
+          "as": "apple"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "An uncountable noun cannot be counted directly. We usually say some sugar.",
+        "as": "Uncountable noun সরাসৰি গণনা কৰিব নোৱাৰি। আমি সাধাৰণতে some sugar বুলি কওঁ।"
+      }
+    },
+    {
+      "en": "Identify the noun in the sentence: “The cat is sleeping.”",
+      "as": "“The cat is sleeping.” বাক্যত noun চিনাক্ত কৰা।",
+      "options": [
+        {
+          "en": "The",
+          "as": "The"
+        },
+        {
+          "en": "cat",
+          "as": "cat"
+        },
+        {
+          "en": "is",
+          "as": "is"
+        },
+        {
+          "en": "sleeping",
+          "as": "sleeping"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Cat is the name of an animal. So, it is a noun.",
+        "as": "Cat এটা জন্তুৰ নাম। সেয়েহে ই noun।"
+      }
+    },
+    {
+      "en": "Which sentence has correct word order?",
+      "as": "কোনটো বাক্যৰ word order সঠিক?",
+      "options": [
+        {
+          "en": "She reads a book.",
+          "as": "She reads a book."
+        },
+        {
+          "en": "Reads she a book.",
+          "as": "Reads she a book."
+        },
+        {
+          "en": "A book she reads.",
+          "as": "A book she reads."
+        },
+        {
+          "en": "She a book reads.",
+          "as": "She a book reads."
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The correct order is Subject + Verb + Object. She is the subject, reads is the verb, and a book is the object.",
+        "as": "সঠিক ক্ৰম হৈছে Subject + Verb + Object। She subject, reads verb, আৰু a book object।"
+      }
+    },
+    {
+      "en": "Which one is a proper noun?",
+      "as": "কোনটো proper noun?",
+      "options": [
+        {
+          "en": "river",
+          "as": "river"
+        },
+        {
+          "en": "Brahmaputra",
+          "as": "Brahmaputra"
+        },
+        {
+          "en": "boy",
+          "as": "boy"
+        },
+        {
+          "en": "animal",
+          "as": "animal"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Brahmaputra is the special name of a river. So, it is a proper noun.",
+        "as": "Brahmaputra এখন বিশেষ নদীৰ নাম। সেয়েহে ই proper noun।"
+      }
+    }
+  ]
+}

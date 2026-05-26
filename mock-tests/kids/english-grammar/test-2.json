@@ -1,0 +1,298 @@
+{
+  "className": {
+    "en": "Kids",
+    "as": "শিশু"
+  },
+  "subject": {
+    "en": "English Grammar",
+    "as": "ইংৰাজী ব্যাকৰণ"
+  },
+  "section": {
+    "en": "English Grammar",
+    "as": "ইংৰাজী ব্যাকৰণ"
+  },
+  "chapter": {
+    "en": "Basic English Grammar",
+    "as": "মৌলিক ইংৰাজী ব্যাকৰণ"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট ২"
+  },
+  "displayTitle": "Kids English Grammar - Test 2",
+  "questions": [
+    {
+      "en": "Choose the correct sentence.",
+      "as": "সঠিক বাক্যটো বাছি লোৱা।",
+      "options": [
+        {
+          "en": "The dog barks.",
+          "as": "The dog barks."
+        },
+        {
+          "en": "Barks the dog.",
+          "as": "Barks the dog."
+        },
+        {
+          "en": "Dog the barks.",
+          "as": "Dog the barks."
+        },
+        {
+          "en": "The barks dog.",
+          "as": "The barks dog."
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The subject The dog comes first, and the verb barks comes after it.",
+        "as": "Subject The dog আগতে আহিছে, আৰু verb barks তাৰ পিছত আহিছে।"
+      }
+    },
+    {
+      "en": "Which word is a noun?",
+      "as": "কোনটো শব্দ noun?",
+      "options": [
+        {
+          "en": "school",
+          "as": "school"
+        },
+        {
+          "en": "sing",
+          "as": "sing"
+        },
+        {
+          "en": "slowly",
+          "as": "slowly"
+        },
+        {
+          "en": "happy",
+          "as": "happy"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "School is the name of a place. So, it is a noun.",
+        "as": "School এখন ঠাইৰ নাম। সেয়েহে ই noun।"
+      }
+    },
+    {
+      "en": "Which one is a common noun?",
+      "as": "কোনটো common noun?",
+      "options": [
+        {
+          "en": "Assam",
+          "as": "Assam"
+        },
+        {
+          "en": "Sunday",
+          "as": "Sunday"
+        },
+        {
+          "en": "boy",
+          "as": "boy"
+        },
+        {
+          "en": "Sita",
+          "as": "Sita"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Boy is a general name for a male child. So, it is a common noun.",
+        "as": "Boy হৈছে এজন ল’ৰাৰ সাধাৰণ নাম। সেয়েহে ই common noun।"
+      }
+    },
+    {
+      "en": "Which one is a proper noun?",
+      "as": "কোনটো proper noun?",
+      "options": [
+        {
+          "en": "country",
+          "as": "country"
+        },
+        {
+          "en": "India",
+          "as": "India"
+        },
+        {
+          "en": "village",
+          "as": "village"
+        },
+        {
+          "en": "river",
+          "as": "river"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "India is the special name of a country. So, it is a proper noun.",
+        "as": "India এখন বিশেষ দেশৰ নাম। সেয়েহে ই proper noun।"
+      }
+    },
+    {
+      "en": "Choose the correct word order.",
+      "as": "সঠিক word order বাছি লোৱা।",
+      "options": [
+        {
+          "en": "We in school study.",
+          "as": "We in school study."
+        },
+        {
+          "en": "Study we in school.",
+          "as": "Study we in school."
+        },
+        {
+          "en": "We study in school.",
+          "as": "We study in school."
+        },
+        {
+          "en": "In school study we.",
+          "as": "In school study we."
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The sentence begins with the subject We, followed by the verb study.",
+        "as": "বাক্যটো subject We-ৰে আৰম্ভ হৈছে, তাৰ পিছত verb study আহিছে।"
+      }
+    },
+    {
+      "en": "Which one is a countable noun?",
+      "as": "কোনটো countable noun?",
+      "options": [
+        {
+          "en": "water",
+          "as": "water"
+        },
+        {
+          "en": "milk",
+          "as": "milk"
+        },
+        {
+          "en": "pen",
+          "as": "pen"
+        },
+        {
+          "en": "oil",
+          "as": "oil"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Pen can be counted. We can say one pen, two pens, three pens.",
+        "as": "Pen গণনা কৰিব পাৰি। আমি one pen, two pens বুলি ক’ব পাৰোঁ।"
+      }
+    },
+    {
+      "en": "Which one is an uncountable noun?",
+      "as": "কোনটো uncountable noun?",
+      "options": [
+        {
+          "en": "orange",
+          "as": "orange"
+        },
+        {
+          "en": "sand",
+          "as": "sand"
+        },
+        {
+          "en": "bag",
+          "as": "bag"
+        },
+        {
+          "en": "egg",
+          "as": "egg"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Sand cannot be counted directly. We say some sand, not one sand.",
+        "as": "Sand সরাসৰি গণনা কৰিব নোৱাৰি। আমি one sand নহয়, some sand বুলি কওঁ।"
+      }
+    },
+    {
+      "en": "Identify the nouns in the sentence: “Raju has a ball.”",
+      "as": "“Raju has a ball.” বাক্যত nouns চিনাক্ত কৰা।",
+      "options": [
+        {
+          "en": "has",
+          "as": "has"
+        },
+        {
+          "en": "a",
+          "as": "a"
+        },
+        {
+          "en": "ball",
+          "as": "ball"
+        },
+        {
+          "en": "Raju and ball",
+          "as": "Raju and ball"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Raju is the name of a person, and ball is the name of a thing. Both are nouns.",
+        "as": "Raju এজন ব্যক্তিৰ নাম, আৰু ball এটা বস্তুৰ নাম। দুয়োটাই noun।"
+      }
+    },
+    {
+      "en": "Which one is a proper noun?",
+      "as": "কোনটো proper noun?",
+      "options": [
+        {
+          "en": "school",
+          "as": "school"
+        },
+        {
+          "en": "Jaluguti H.S. School",
+          "as": "Jaluguti H.S. School"
+        },
+        {
+          "en": "teacher",
+          "as": "teacher"
+        },
+        {
+          "en": "student",
+          "as": "student"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Jaluguti H.S. School is the special name of a particular school. So, it is a proper noun.",
+        "as": "Jaluguti H.S. School এখন বিশেষ বিদ্যালয়ৰ নাম। সেয়েহে ই proper noun।"
+      }
+    },
+    {
+      "en": "Which sentence is correct?",
+      "as": "কোনটো বাক্য সঠিক?",
+      "options": [
+        {
+          "en": "I am a student.",
+          "as": "I am a student."
+        },
+        {
+          "en": "Student a am I.",
+          "as": "Student a am I."
+        },
+        {
+          "en": "Am I student a.",
+          "as": "Am I student a."
+        },
+        {
+          "en": "A student I am.",
+          "as": "A student I am."
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "This sentence has the correct word order: I + am + a student.",
+        "as": "এই বাক্যত সঠিক word order আছে: I + am + a student।"
+      }
+    }
+  ]
+}

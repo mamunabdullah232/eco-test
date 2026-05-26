@@ -203,6 +203,40 @@ h1{
   padding:16px;
   font-weight:900;
 }
+
+.explanation{
+  margin-top:14px;
+  border:1px solid #bae6fd;
+  background:linear-gradient(135deg,#f0f9ff 0%,#fff7ed 100%);
+  border-radius:14px;
+  padding:12px 13px;
+  color:#0f172a;
+}
+.explanation-title{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:4px 9px;
+  border-radius:999px;
+  background:#dbeafe;
+  color:#1d4ed8;
+  font-size:.86rem;
+  font-weight:900;
+}
+.explanation p{margin-top:8px;color:#334155;font-weight:700}
+body.kid-mode{
+  background:linear-gradient(135deg,#fff7ad 0%,#e0f2fe 34%,#fce7f3 68%,#dcfce7 100%);
+}
+body.kid-mode .panel{border:2px solid #facc15;box-shadow:0 18px 38px rgba(249,115,22,.16)}
+body.kid-mode .test-head{background:linear-gradient(135deg,#fff7ed 0%,#ecfeff 48%,#fdf2f8 100%)}
+body.kid-mode .kicker{color:#be123c}
+body.kid-mode .question-card{border:2px solid #bfdbfe;background:linear-gradient(135deg,#ffffff 0%,#f8fbff 100%)}
+body.kid-mode .question-card:nth-child(4n+1){border-color:#fed7aa}
+body.kid-mode .question-card:nth-child(4n+2){border-color:#bbf7d0}
+body.kid-mode .question-card:nth-child(4n+3){border-color:#fbcfe8}
+body.kid-mode .btn{background:linear-gradient(135deg,#f97316,#2563eb)}
+body.kid-mode .timer{background:#fef3c7;color:#92400e}
+
 @media(max-width:680px){
   .topbar{align-items:flex-start;flex-direction:column;padding:12px 0}
   .controls{align-items:flex-start}
@@ -242,6 +276,10 @@ h1{
 <script src="mock-test-data.js"></script>
 <script>
 const params = new URLSearchParams(location.search);
+const activeFilePath = params.get("file") || "";
+if(activeFilePath.includes("mock-tests/kids/")){
+  document.body.classList.add("kid-mode");
+}
 let testSet = null;
 const content = document.getElementById("content");
 const timer = document.getElementById("timer");
@@ -254,7 +292,7 @@ let timerHandle = null;
 
 function isEnglishGrammarTest(){
   const filePath = params.get("file") || "";
-  return filePath.includes("mock-tests/class-10/english/grammar/");
+  return filePath.includes("mock-tests/class-10/english/grammar/") || filePath.includes("mock-tests/kids/english-grammar/");
 }
 
 function safeTestFilePath(filePath){
@@ -356,6 +394,20 @@ function label(value){
   return escapeHTML(text(value));
 }
 
+function renderExplanation(question){
+  if(!submitted || !question.explanation) return "";
+  const explanation = question.explanation;
+  const english = typeof explanation === "string" ? explanation : explanation.en || "";
+  const assamese = typeof explanation === "string" ? "" : explanation.as || "";
+  return `
+    <div class="explanation">
+      <span class="explanation-title">Explanation / ব্যাখ্যা</span>
+      ${english ? `<p><strong>English:</strong> ${escapeHTML(english)}</p>` : ""}
+      ${assamese ? `<p><strong>অসমীয়া:</strong> ${escapeHTML(assamese)}</p>` : ""}
+    </div>
+  `;
+}
+
 function setHeader(){
   if(!testSet){
     document.getElementById("testTitle").textContent = "Test not available";
@@ -453,6 +505,7 @@ function renderQuestions(){
           `;
         }).join("")}
       </div>
+      ${renderExplanation(question)}
     </div>
   `).join("");
 
