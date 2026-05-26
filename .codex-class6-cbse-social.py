@@ -12,41 +12,12 @@ if not payload_files:
     raise SystemExit("No payload files found")
 
 payload = "".join(path.read_text(encoding="utf-8").strip() for path in payload_files)
-chapters = json.loads(zlib.decompress(base64.b64decode(payload)).decode("utf-8"))
+files = json.loads(zlib.decompress(base64.b64decode(payload)).decode("utf-8"))
 
-out_root = ROOT / "mock-tests" / "class-6" / "cbse" / "social-science"
-for chapter in chapters:
-    chapter_dir = out_root / f"chapter-{chapter['number']}"
-    chapter_dir.mkdir(parents=True, exist_ok=True)
-    for test in chapter["tests"]:
-        questions = []
-        for item in test["questions"]:
-            questions.append({
-                "en": item["question"],
-                "options": [{"en": option} for option in item["options"]],
-                "answer": item["answer"],
-                "explanation": {"en": item["explanation"]},
-            })
-        data = {
-            "className": {"en": "Class 6 CBSE", "as": "শ্ৰেণী ৬ CBSE"},
-            "subject": {"en": "Social Science", "as": "সমাজ বিজ্ঞান"},
-            "section": {"en": "CBSE", "as": "CBSE"},
-            "chapter": {
-                "en": f"Chapter {chapter['number']} - {chapter['title']}",
-                "as": f"Chapter {chapter['number']} - {chapter['title']}",
-            },
-            "test": {"en": f"Test {test['number']}", "as": f"টেষ্ট {test['number']}"},
-            "displayTitle": f"CBSE Class 6 Social Science - Chapter {chapter['number']} Test {test['number']}",
-            "englishOnly": True,
-            "durationMinutes": 10,
-            "correctMarks": 1,
-            "wrongMarks": -0.25,
-            "questions": questions,
-        }
-        (chapter_dir / f"test-{test['number']}.json").write_text(
-            json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+for item in files:
+    target = ROOT / item["path"]
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(item["content"], encoding="utf-8")
 
 index_path = ROOT / "index.html"
 html = index_path.read_text(encoding="utf-8")
