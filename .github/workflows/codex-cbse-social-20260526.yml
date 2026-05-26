@@ -1,0 +1,38 @@
+name: Add CBSE Social Science Mock Tests
+
+on:
+  push:
+    paths:
+      - '.codex-cbse-social-20260526.py'
+      - '.github/workflows/codex-cbse-social-20260526.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cbse-social:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply CBSE Social Science update
+        run: python .codex-cbse-social-20260526.py
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html \
+            mock-tests/class-10/cbse/social-science/chapter-1/test-1.json \
+            mock-tests/class-10/cbse/social-science/chapter-1/test-2.json \
+            mock-tests/class-10/cbse/social-science/chapter-1/test-3.json \
+            mock-tests/class-10/cbse/social-science/chapter-1/test-4.json \
+            mock-tests/class-10/cbse/social-science/chapter-1/test-5.json \
+            mock-tests/class-10/cbse/social-science/chapter-2/test-1.json \
+            mock-tests/class-10/cbse/social-science/chapter-2/test-2.json \
+            mock-tests/class-10/cbse/social-science/chapter-2/test-3.json \
+            mock-tests/class-10/cbse/social-science/chapter-2/test-4.json \
+            mock-tests/class-10/cbse/social-science/chapter-2/test-5.json \
+            .codex-cbse-social-20260526.py \
+            .github/workflows/codex-cbse-social-20260526.yml
+          git commit -m "Add Class 10 CBSE Social Science mock tests" || echo "No changes to commit"
+          git push
