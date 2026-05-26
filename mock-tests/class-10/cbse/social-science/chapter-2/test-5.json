@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Reshaping India's Political Map",
+    "as": "Chapter 2 - Reshaping India's Political Map"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট 5"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 2 Test 5",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "The Ahoms migrated into the Brahmaputra Valley from:",
+      "options": [
+        {
+          "en": "Present-day Myanmar"
+        },
+        {
+          "en": "Portugal"
+        },
+        {
+          "en": "Central Europe"
+        },
+        {
+          "en": "Arabia"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says the Ahom ethnic group migrated from present-day Myanmar."
+      }
+    },
+    {
+      "en": "The Ahom paik system required:",
+      "options": [
+        {
+          "en": "Every able-bodied adult to provide service to the state"
+        },
+        {
+          "en": "Only gold payment from merchants"
+        },
+        {
+          "en": "Only temple donations"
+        },
+        {
+          "en": "Only foreign soldiers"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The paik system called on every able-bodied adult to provide service."
+      }
+    },
+    {
+      "en": "At the Battle of Saraighat in 1671, the Ahoms defeated the Mughals under the leadership of:",
+      "options": [
+        {
+          "en": "Lachit Borphukan"
+        },
+        {
+          "en": "Todar Mal"
+        },
+        {
+          "en": "Sher Shah Suri"
+        },
+        {
+          "en": "Rana Sanga"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Lachit Borphukan led the Ahoms at Saraighat."
+      }
+    },
+    {
+      "en": "Guru Nanak’s message emphasized:",
+      "options": [
+        {
+          "en": "Devotion, equality, and ethical living"
+        },
+        {
+          "en": "Only military conquest"
+        },
+        {
+          "en": "Only taxation"
+        },
+        {
+          "en": "Only fort building"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The Sikh tradition began with Guru Nanak’s message of devotion and equality."
+      }
+    },
+    {
+      "en": "The Guru Granth Sahib stresses that:",
+      "options": [
+        {
+          "en": "There is one God for all"
+        },
+        {
+          "en": "Only kings can pray"
+        },
+        {
+          "en": "Trade is impossible"
+        },
+        {
+          "en": "Rivers are political borders"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that the Sikh sacred text stresses one God for all."
+      }
+    },
+    {
+      "en": "Guru Tegh Bahadur is remembered for standing with:",
+      "options": [
+        {
+          "en": "Kashmiri Pandits facing persecution"
+        },
+        {
+          "en": "Portuguese horse traders"
+        },
+        {
+          "en": "Mughal tax collectors"
+        },
+        {
+          "en": "Bahmani governors"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says Kashmiri Pandits approached Guru Tegh Bahadur for protection."
+      }
+    },
+    {
+      "en": "The Khalsa was established in 1699 by:",
+      "options": [
+        {
+          "en": "Guru Gobind Singh"
+        },
+        {
+          "en": "Guru Nanak"
+        },
+        {
+          "en": "Akbar"
+        },
+        {
+          "en": "Krishnadevaraya"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The timeline and text identify Guru Gobind Singh as forming the Khalsa in 1699."
+      }
+    },
+    {
+      "en": "In the Delhi Sultanate, the iqta system assigned territories to nobles called:",
+      "options": [
+        {
+          "en": "Iqtadars"
+        },
+        {
+          "en": "Mansabdars"
+        },
+        {
+          "en": "Paiks"
+        },
+        {
+          "en": "Tarafdars"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Iqtadars collected taxes from assigned territories and sent revenue to the Sultan’s treasury after expenses."
+      }
+    },
+    {
+      "en": "In Akbar’s mansabdari system, mansabdars were expected to maintain:",
+      "options": [
+        {
+          "en": "Troops and animals according to their rank"
+        },
+        {
+          "en": "Only temples"
+        },
+        {
+          "en": "Only river boats"
+        },
+        {
+          "en": "Only school records"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Mansabdars maintained elephants, horses, camels, and troops according to their mansab or rank."
+      }
+    },
+    {
+      "en": "A hundi was:",
+      "options": [
+        {
+          "en": "A written instruction to make payment, helping financial transactions across borders"
+        },
+        {
+          "en": "A type of cannon"
+        },
+        {
+          "en": "A fort in Rajasthan"
+        },
+        {
+          "en": "A tax on farmers"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter describes hundi as a payment instruction and a precursor to modern banking."
+      }
+    }
+  ]
+}

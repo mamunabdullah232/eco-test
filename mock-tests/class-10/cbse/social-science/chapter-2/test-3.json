@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Reshaping India's Political Map",
+    "as": "Chapter 2 - Reshaping India's Political Map"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট 3"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 2 Test 3",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Who established the kingdom that grew into the Vijayanagara Empire?",
+      "options": [
+        {
+          "en": "Harihara and Bukka"
+        },
+        {
+          "en": "Babur and Humayun"
+        },
+        {
+          "en": "Ala-ud-din and Malik Kafur"
+        },
+        {
+          "en": "Guru Nanak and Guru Arjan"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Harihara and Bukka rejected Delhi’s authority and founded the independent kingdom."
+      }
+    },
+    {
+      "en": "According to popular folklore, the capital at Hampi was inspired by the sight of:",
+      "options": [
+        {
+          "en": "A hare chasing a pack of hounds"
+        },
+        {
+          "en": "A lion flying in the sky"
+        },
+        {
+          "en": "A river turning into gold"
+        },
+        {
+          "en": "A fort disappearing"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The folklore says Harihara and Bukka saw a hare chasing hounds, symbolising courage."
+      }
+    },
+    {
+      "en": "The Bahmani Sultanate later fragmented into five states called:",
+      "options": [
+        {
+          "en": "The Deccan Sultanates"
+        },
+        {
+          "en": "The Sikh Misls"
+        },
+        {
+          "en": "The Rajput Confederacy"
+        },
+        {
+          "en": "The Persian Provinces"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Bijapur, Golconda, Berar, Ahmednagar, and Bidar were the Deccan Sultanates."
+      }
+    },
+    {
+      "en": "Vijayanagara reached its peak under:",
+      "options": [
+        {
+          "en": "Krishnadevaraya"
+        },
+        {
+          "en": "Muhammad bin Tughlaq"
+        },
+        {
+          "en": "Ibrahim Lodi"
+        },
+        {
+          "en": "Rani Durgavati"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter presents Krishnadevaraya as the celebrated ruler under whom Vijayanagara reached its peak."
+      }
+    },
+    {
+      "en": "Krishnadevaraya composed the Telugu epic poem:",
+      "options": [
+        {
+          "en": "Āmuktamālyada"
+        },
+        {
+          "en": "Baburnama"
+        },
+        {
+          "en": "Ain-i-Akbari"
+        },
+        {
+          "en": "Guru Granth Sahib"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Krishnadevaraya wrote Āmuktamālyada in Telugu."
+      }
+    },
+    {
+      "en": "Which foreign traveller left a detailed record of Vijayanagara and described its markets and abundance?",
+      "options": [
+        {
+          "en": "Domingo Paes"
+        },
+        {
+          "en": "Abul Fazl"
+        },
+        {
+          "en": "Timur"
+        },
+        {
+          "en": "Todar Mal"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Domingo Paes, a Portuguese traveller, wrote a detailed account of Vijayanagara."
+      }
+    },
+    {
+      "en": "The Battle of Talikota took place in:",
+      "options": [
+        {
+          "en": "1565"
+        },
+        {
+          "en": "1526"
+        },
+        {
+          "en": "1206"
+        },
+        {
+          "en": "1799"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The timeline and text identify 1565 as the Battle of Talikota."
+      }
+    },
+    {
+      "en": "Babur defeated Ibrahim Lodi in the First Battle of Panipat in:",
+      "options": [
+        {
+          "en": "1526"
+        },
+        {
+          "en": "1556"
+        },
+        {
+          "en": "1671"
+        },
+        {
+          "en": "1336"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Babur’s victory in 1526 founded the Mughal Empire."
+      }
+    },
+    {
+      "en": "The First Battle of Panipat relied heavily on:",
+      "options": [
+        {
+          "en": "Gunpowder, field artillery, and matchlock guns"
+        },
+        {
+          "en": "Only elephants and bows"
+        },
+        {
+          "en": "Only naval ships"
+        },
+        {
+          "en": "Only hill forts"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter notes the use of gunpowder, field artillery, and matchlocks."
+      }
+    },
+    {
+      "en": "Himu briefly ruled Delhi under the royal name:",
+      "options": [
+        {
+          "en": "Hemchandra Vikramaditya"
+        },
+        {
+          "en": "Sikander Sani"
+        },
+        {
+          "en": "Chhatrapati"
+        },
+        {
+          "en": "Narapati"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Himu or Hemu captured Delhi and briefly ruled as Hemchandra Vikramaditya."
+      }
+    }
+  ]
+}

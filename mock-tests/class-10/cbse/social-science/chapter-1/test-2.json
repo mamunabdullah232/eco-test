@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Natural Resources and Their Use",
+    "as": "Chapter 1 - Natural Resources and Their Use"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট 2"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 1 Test 2",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is restoration in Nature?",
+      "options": [
+        {
+          "en": "Returning something degraded or damaged to its healthy state"
+        },
+        {
+          "en": "Changing all forests into factories"
+        },
+        {
+          "en": "Using fossil fuels faster"
+        },
+        {
+          "en": "Removing all living organisms"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Restoration means bringing something back to a healthy state after damage or degradation."
+      }
+    },
+    {
+      "en": "How is regeneration different from restoration?",
+      "options": [
+        {
+          "en": "It only repairs old machines"
+        },
+        {
+          "en": "It is Nature’s ability to create new life and conditions for thriving"
+        },
+        {
+          "en": "It means permanent depletion"
+        },
+        {
+          "en": "It means using only minerals"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Regeneration goes beyond repair; it creates new life and supports thriving conditions."
+      }
+    },
+    {
+      "en": "Which set contains only renewable resources as discussed in the chapter?",
+      "options": [
+        {
+          "en": "Coal, petroleum, gold"
+        },
+        {
+          "en": "Solar energy, wind energy, flowing water"
+        },
+        {
+          "en": "Iron, copper, coal"
+        },
+        {
+          "en": "Petroleum, natural gas, gold"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Solar energy, wind energy, and flowing water are renewable when managed sustainably."
+      }
+    },
+    {
+      "en": "For a renewable resource to remain renewable, what must not be disturbed?",
+      "options": [
+        {
+          "en": "The natural rhythm of restoration and regeneration"
+        },
+        {
+          "en": "The price of minerals"
+        },
+        {
+          "en": "The number of cities"
+        },
+        {
+          "en": "The use of maps"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Renewability depends on not disturbing Nature’s restoration and regeneration cycles."
+      }
+    },
+    {
+      "en": "What happens if timber is harvested faster than forests can regrow?",
+      "options": [
+        {
+          "en": "The forest will eventually be depleted"
+        },
+        {
+          "en": "More trees will automatically appear overnight"
+        },
+        {
+          "en": "Coal reserves will increase"
+        },
+        {
+          "en": "The river will become deeper"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Over-harvesting timber breaks the regeneration cycle and can deplete forests."
+      }
+    },
+    {
+      "en": "Which of the following is a non-renewable resource?",
+      "options": [
+        {
+          "en": "Wind energy"
+        },
+        {
+          "en": "Solar energy"
+        },
+        {
+          "en": "Petroleum"
+        },
+        {
+          "en": "Flowing water"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Petroleum is a fossil fuel formed over very long periods and cannot be replenished at the rate we use it."
+      }
+    },
+    {
+      "en": "According to the chapter, India’s coal reserves have been estimated to last approximately:",
+      "options": [
+        {
+          "en": "5 years"
+        },
+        {
+          "en": "50 years"
+        },
+        {
+          "en": "500 years"
+        },
+        {
+          "en": "Forever"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter states that India’s coal reserves may last another 50 years, so they must be used judiciously."
+      }
+    },
+    {
+      "en": "Traditional fishing restrictions during the spawning season were meant to:",
+      "options": [
+        {
+          "en": "Increase overfishing"
+        },
+        {
+          "en": "Maintain fish population"
+        },
+        {
+          "en": "Stop all food production"
+        },
+        {
+          "en": "Create coal reserves"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Restricting fishing during spawning helps fish populations reproduce and remain balanced."
+      }
+    },
+    {
+      "en": "Industrial wastes discharged into rivers often disturb Nature’s cycle because they:",
+      "options": [
+        {
+          "en": "Always become food for lifeforms"
+        },
+        {
+          "en": "May not decay and can poison the river"
+        },
+        {
+          "en": "Immediately become drinking water"
+        },
+        {
+          "en": "Increase glacier formation"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter notes that some wastes cannot decay into food for lifeforms and can make rivers poisonous."
+      }
+    },
+    {
+      "en": "When humans benefit from a forest’s natural ability to filter water, prevent soil erosion, and support pollination, these benefits are called:",
+      "options": [
+        {
+          "en": "Ecosystem services"
+        },
+        {
+          "en": "Token currency"
+        },
+        {
+          "en": "Jizya"
+        },
+        {
+          "en": "Mansabs"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Natural processes are ecosystem functions; when they benefit humans, they are ecosystem services."
+      }
+    }
+  ]
+}

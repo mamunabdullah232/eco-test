@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Natural Resources and Their Use",
+    "as": "Chapter 1 - Natural Resources and Their Use"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট 1"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 1 Test 1",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "When do elements of Nature become resources?",
+      "options": [
+        {
+          "en": "When they are never used by humans"
+        },
+        {
+          "en": "When humans use them for sustenance or to create useful things"
+        },
+        {
+          "en": "Only when they are found underground"
+        },
+        {
+          "en": "Only when they are sold in markets"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Elements of Nature become resources when human beings use them for life, consumption, production, or other useful purposes."
+      }
+    },
+    {
+      "en": "Which condition is NOT mentioned as necessary for something to be called a resource?",
+      "options": [
+        {
+          "en": "Technological accessibility"
+        },
+        {
+          "en": "Economic feasibility"
+        },
+        {
+          "en": "Cultural acceptability"
+        },
+        {
+          "en": "Political popularity"
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The chapter explains that a resource should be technologically accessible, economically feasible, and culturally acceptable."
+      }
+    },
+    {
+      "en": "In this chapter, the word ‘exploitation’ mainly means:",
+      "options": [
+        {
+          "en": "wasting natural resources"
+        },
+        {
+          "en": "extracting, utilising, and consuming natural resources"
+        },
+        {
+          "en": "protecting resources from humans"
+        },
+        {
+          "en": "worshipping Nature"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Here, exploitation is used in a neutral sense: extraction, utilisation, and consumption of natural resources."
+      }
+    },
+    {
+      "en": "Which of the following is an example of a resource essential for life?",
+      "options": [
+        {
+          "en": "Marble"
+        },
+        {
+          "en": "Gold"
+        },
+        {
+          "en": "Air"
+        },
+        {
+          "en": "Petroleum"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Air, water, soil, and food are presented as resources essential for life."
+      }
+    },
+    {
+      "en": "A piece of wood used to make a chair is an example of which category?",
+      "options": [
+        {
+          "en": "Resource for materials"
+        },
+        {
+          "en": "Resource for political power"
+        },
+        {
+          "en": "Only non-renewable resource"
+        },
+        {
+          "en": "A mineral resource"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Wood is used to create physical objects, so it belongs to resources for materials."
+      }
+    },
+    {
+      "en": "Coal, water, petroleum, natural gas, sunlight, and wind are mentioned mainly as sources of:",
+      "options": [
+        {
+          "en": "Energy"
+        },
+        {
+          "en": "Sacred tradition"
+        },
+        {
+          "en": "Currency"
+        },
+        {
+          "en": "Political boundaries"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter describes these as natural sources from which energy can be obtained."
+      }
+    },
+    {
+      "en": "Why do we categorise natural resources?",
+      "options": [
+        {
+          "en": "To make every resource look the same"
+        },
+        {
+          "en": "To communicate and discuss ideas more effectively"
+        },
+        {
+          "en": "To stop using resources"
+        },
+        {
+          "en": "To remove their economic value"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Categorisation uses shared criteria and names so that people can communicate more clearly."
+      }
+    },
+    {
+      "en": "Cutting trees in sacred groves may prevent them from being considered usable resources because it may be:",
+      "options": [
+        {
+          "en": "Technologically impossible"
+        },
+        {
+          "en": "Culturally unacceptable"
+        },
+        {
+          "en": "Always economically profitable"
+        },
+        {
+          "en": "Scientifically unnecessary"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter gives sacred groves as an example where use may be culturally unacceptable."
+      }
+    },
+    {
+      "en": "A microhydel plant converts which natural force into electricity?",
+      "options": [
+        {
+          "en": "The force of flowing water"
+        },
+        {
+          "en": "The heat of coal"
+        },
+        {
+          "en": "The weight of marble"
+        },
+        {
+          "en": "The value of gold"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A microhydel plant uses flowing water to produce electricity."
+      }
+    },
+    {
+      "en": "The chapter reminds us that even a plastic button ultimately has its origin in:",
+      "options": [
+        {
+          "en": "A political decision"
+        },
+        {
+          "en": "Nature"
+        },
+        {
+          "en": "A city market only"
+        },
+        {
+          "en": "A religious text"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter asks students to trace the origin of things around them and notes that they ultimately lead to Nature."
+      }
+    }
+  ]
+}

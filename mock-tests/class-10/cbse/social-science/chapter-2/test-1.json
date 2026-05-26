@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Reshaping India's Political Map",
+    "as": "Chapter 2 - Reshaping India's Political Map"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট 1"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 2 Test 1",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "In this chapter, the medieval period in India broadly means:",
+      "options": [
+        {
+          "en": "11th to 17th centuries"
+        },
+        {
+          "en": "1st to 5th centuries"
+        },
+        {
+          "en": "18th to 20th centuries"
+        },
+        {
+          "en": "Only the 19th century"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter uses medieval for the period from the 11th to the 17th centuries."
+      }
+    },
+    {
+      "en": "Many invaders who entered India from beyond the Hindu Kush were mainly:",
+      "options": [
+        {
+          "en": "Central Asian Turkic or Afghan groups"
+        },
+        {
+          "en": "Only Portuguese traders"
+        },
+        {
+          "en": "Only Chinese monks"
+        },
+        {
+          "en": "Only South Indian kings"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter describes many invaders as Central Asian, Turkic, or Afghan."
+      }
+    },
+    {
+      "en": "The Delhi Sultanate was established in:",
+      "options": [
+        {
+          "en": "1206"
+        },
+        {
+          "en": "1336"
+        },
+        {
+          "en": "1526"
+        },
+        {
+          "en": "1799"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The timeline marks 1206 as the establishment of the Delhi Sultanate."
+      }
+    },
+    {
+      "en": "The Delhi Sultanate formed after the defeat of which king in 1192?",
+      "options": [
+        {
+          "en": "Prithviraj Chauhan"
+        },
+        {
+          "en": "Krishnadevaraya"
+        },
+        {
+          "en": "Rana Kumbha"
+        },
+        {
+          "en": "Lachit Borphukan"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter begins the Sultanate story after the defeat of King Prithviraj Chauhan in 1192."
+      }
+    },
+    {
+      "en": "Which sequence names the five dynasties of the Delhi Sultanate?",
+      "options": [
+        {
+          "en": "Mamluks, Khiljis, Tughlaqs, Sayyids, Lodis"
+        },
+        {
+          "en": "Mauryas, Guptas, Cholas, Palas, Senas"
+        },
+        {
+          "en": "Ahoms, Sikhs, Marathas, Rajputs, Gonds"
+        },
+        {
+          "en": "Portuguese, Dutch, French, British, Danish"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The Sultanate saw five Turkic-Afghan dynasties: Mamluks, Khiljis, Tughlaqs, Sayyids, and Lodis."
+      }
+    },
+    {
+      "en": "Which kingdoms resisted the advance of the Delhi Sultanate and became centres of art, culture, and administration?",
+      "options": [
+        {
+          "en": "Eastern Gangas and Hoysalas"
+        },
+        {
+          "en": "Only the Mughals"
+        },
+        {
+          "en": "Only the Portuguese"
+        },
+        {
+          "en": "Only the Sikhs"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The Eastern Gangas and Hoysalas are specifically mentioned as resisting the Sultanate."
+      }
+    },
+    {
+      "en": "The Sultanate period was marked by:",
+      "options": [
+        {
+          "en": "Political instability and efforts at territorial expansion"
+        },
+        {
+          "en": "Complete peace and no warfare"
+        },
+        {
+          "en": "Only ocean trade"
+        },
+        {
+          "en": "A permanent end to taxation"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The text presents the Sultanate period as unstable and expansionist."
+      }
+    },
+    {
+      "en": "Successions in the Sultanate were often violent because:",
+      "options": [
+        {
+          "en": "Many sultans seized power by eliminating predecessors"
+        },
+        {
+          "en": "All rulers were elected peacefully"
+        },
+        {
+          "en": "No ruler wanted power"
+        },
+        {
+          "en": "The capital was always outside India"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says almost two sultans out of three seized power by eliminating predecessors."
+      }
+    },
+    {
+      "en": "Ala-ud-din Khilji called himself ‘Sikander Sani’, meaning:",
+      "options": [
+        {
+          "en": "The second Alexander"
+        },
+        {
+          "en": "The lord of horses"
+        },
+        {
+          "en": "The king of rivers"
+        },
+        {
+          "en": "The protector of Sikhs"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The coin in the chapter bears the Persian inscription Sikander Sani, or the second Alexander."
+      }
+    },
+    {
+      "en": "Who expanded the Sultanate’s reach southward as Ala-ud-din Khilji’s slave-general?",
+      "options": [
+        {
+          "en": "Malik Kafur"
+        },
+        {
+          "en": "Todar Mal"
+        },
+        {
+          "en": "Guru Nanak"
+        },
+        {
+          "en": "Rana Sanga"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Malik Kafur led southern campaigns and expanded the Sultanate’s reach."
+      }
+    }
+  ]
+}

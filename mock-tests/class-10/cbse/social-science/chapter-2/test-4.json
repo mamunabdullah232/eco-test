@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Reshaping India's Political Map",
+    "as": "Chapter 2 - Reshaping India's Political Map"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট 4"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 2 Test 4",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Akbar was declared emperor at the age of:",
+      "options": [
+        {
+          "en": "13"
+        },
+        {
+          "en": "30"
+        },
+        {
+          "en": "49"
+        },
+        {
+          "en": "80"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Akbar became emperor at age 13 after Humayun’s death."
+      }
+    },
+    {
+      "en": "Akbar’s policy toward many Rajput rulers helped him to:",
+      "options": [
+        {
+          "en": "Expand and stabilise the empire"
+        },
+        {
+          "en": "End all administration"
+        },
+        {
+          "en": "Abandon North India"
+        },
+        {
+          "en": "Stop all trade"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter links Akbar’s reforms and Rajput support with imperial stability."
+      }
+    },
+    {
+      "en": "Which texts were translated or studied under Akbar’s interest in knowledge?",
+      "options": [
+        {
+          "en": "Ramayana, Mahabharata, Bhagavad Gita, and Panchatantra"
+        },
+        {
+          "en": "Only modern newspapers"
+        },
+        {
+          "en": "Only European novels"
+        },
+        {
+          "en": "Only trade receipts"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter mentions Persian translations of major Sanskrit works at Akbar’s court."
+      }
+    },
+    {
+      "en": "The Taj Mahal is associated with which Mughal ruler?",
+      "options": [
+        {
+          "en": "Shah Jahan"
+        },
+        {
+          "en": "Babur"
+        },
+        {
+          "en": "Ibrahim Lodi"
+        },
+        {
+          "en": "Rana Kumbha"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter discusses the Taj Mahal under Shah Jahan’s period."
+      }
+    },
+    {
+      "en": "Aurangzeb came to power after defeating which brother?",
+      "options": [
+        {
+          "en": "Dara Shikoh"
+        },
+        {
+          "en": "Guru Hargobind"
+        },
+        {
+          "en": "Lachit Borphukan"
+        },
+        {
+          "en": "Domingo Paes"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Aurangzeb defeated Dara Shikoh in a series of battles."
+      }
+    },
+    {
+      "en": "Aurangzeb’s reign lasted about:",
+      "options": [
+        {
+          "en": "49 years"
+        },
+        {
+          "en": "9 years"
+        },
+        {
+          "en": "13 years"
+        },
+        {
+          "en": "5 years"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter notes that Aurangzeb ruled for about 49 years."
+      }
+    },
+    {
+      "en": "Although Aurangzeb expanded the Mughal Empire, his rule faced:",
+      "options": [
+        {
+          "en": "Significant rebellions"
+        },
+        {
+          "en": "No opposition anywhere"
+        },
+        {
+          "en": "Only oceanic storms"
+        },
+        {
+          "en": "No military campaigns"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The empire reached a large territorial extent but faced major rebellions."
+      }
+    },
+    {
+      "en": "Rani Durgavati is remembered as a ruler of:",
+      "options": [
+        {
+          "en": "Gondwana"
+        },
+        {
+          "en": "Vijayanagara"
+        },
+        {
+          "en": "Delhi Sultanate"
+        },
+        {
+          "en": "Bahmani Sultanate"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter presents Rani Durgavati as a brave ruler of Gondwana in central India."
+      }
+    },
+    {
+      "en": "Maharana Pratap became a symbol of Rajput resistance because he:",
+      "options": [
+        {
+          "en": "Refused to accept Mughal suzerainty"
+        },
+        {
+          "en": "Served as Akbar’s finance minister"
+        },
+        {
+          "en": "Founded the Mughal Empire"
+        },
+        {
+          "en": "Introduced token currency"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Maharana Pratap is shown as refusing Mughal dominance and resisting Akbar."
+      }
+    },
+    {
+      "en": "Guerrilla warfare refers to:",
+      "options": [
+        {
+          "en": "Mobile, surprise attacks using terrain advantages"
+        },
+        {
+          "en": "Only palace ceremonies"
+        },
+        {
+          "en": "A written payment instruction"
+        },
+        {
+          "en": "A tax on non-Muslims"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Guerrilla warfare involves mobile, irregular tactics, often using difficult terrain."
+      }
+    }
+  ]
+}

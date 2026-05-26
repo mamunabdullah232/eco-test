@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Natural Resources and Their Use",
+    "as": "Chapter 1 - Natural Resources and Their Use"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট 4"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 1 Test 4",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Stewardship of natural resources means:",
+      "options": [
+        {
+          "en": "Using resources responsibly while supporting restoration, regeneration, and sustainability"
+        },
+        {
+          "en": "Extracting everything immediately"
+        },
+        {
+          "en": "Using only non-renewables"
+        },
+        {
+          "en": "Avoiding all human knowledge"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Stewardship involves responsible and wise use of resources for sustainability."
+      }
+    },
+    {
+      "en": "Irresponsible treatment of natural resources has contributed to:",
+      "options": [
+        {
+          "en": "Pollution, biodiversity loss, and climate change"
+        },
+        {
+          "en": "Unlimited groundwater"
+        },
+        {
+          "en": "Permanent glacier growth"
+        },
+        {
+          "en": "Zero waste in factories"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter identifies pollution, biodiversity loss, and climate change as major consequences."
+      }
+    },
+    {
+      "en": "Why is over-extraction of groundwater dangerous?",
+      "options": [
+        {
+          "en": "Extraction may exceed replenishment, raising costs and eventually causing unavailability"
+        },
+        {
+          "en": "It immediately creates more water"
+        },
+        {
+          "en": "It reduces all farming needs"
+        },
+        {
+          "en": "It makes coal renewable"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When extraction is faster than replenishment, groundwater levels fall and access becomes harder."
+      }
+    },
+    {
+      "en": "Which method is mentioned as a strategy to raise groundwater levels?",
+      "options": [
+        {
+          "en": "Traditional water harvesting and rejuvenation of ponds and tanks"
+        },
+        {
+          "en": "Cutting all trees"
+        },
+        {
+          "en": "Burning fossil fuels"
+        },
+        {
+          "en": "Increasing wasteful water consumption"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter lists water harvesting, pond/tank rejuvenation, reducing waste, and water reuse."
+      }
+    },
+    {
+      "en": "Improper use of chemical fertilisers and pesticides can lead to:",
+      "options": [
+        {
+          "en": "Soil degradation"
+        },
+        {
+          "en": "Instant forest regeneration"
+        },
+        {
+          "en": "More sacred groves"
+        },
+        {
+          "en": "Permanent river purification"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter states that improper use of chemical inputs has degraded soil."
+      }
+    },
+    {
+      "en": "Which practice is part of holistic soil management?",
+      "options": [
+        {
+          "en": "Use of cow dung and natural fertilisers"
+        },
+        {
+          "en": "Only concrete construction"
+        },
+        {
+          "en": "Over-pumping groundwater"
+        },
+        {
+          "en": "Untreated industrial discharge"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Traditional soil care used cow dung, natural fertilisers, mulching, and multi-cropping."
+      }
+    },
+    {
+      "en": "In Punjab, the shift to high-yielding wheat and paddy increased the demand for:",
+      "options": [
+        {
+          "en": "Water"
+        },
+        {
+          "en": "Gold"
+        },
+        {
+          "en": "Stone"
+        },
+        {
+          "en": "Textiles"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "High-yielding varieties required more water, increasing groundwater extraction."
+      }
+    },
+    {
+      "en": "Free power supply contributed to groundwater problems by encouraging:",
+      "options": [
+        {
+          "en": "Over-pumping of groundwater"
+        },
+        {
+          "en": "Manual water harvesting only"
+        },
+        {
+          "en": "Reduced irrigation"
+        },
+        {
+          "en": "Less chemical use"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter identifies free power as a factor behind over-pumping."
+      }
+    },
+    {
+      "en": "In large parts of Punjab, groundwater became inaccessible until depths of about:",
+      "options": [
+        {
+          "en": "3 metres"
+        },
+        {
+          "en": "30 metres"
+        },
+        {
+          "en": "300 metres"
+        },
+        {
+          "en": "1 metre"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The caselet states that groundwater in large parts of Punjab became inaccessible until around 30 metres."
+      }
+    },
+    {
+      "en": "About how much of Punjab’s area is classified as over-exploited?",
+      "options": [
+        {
+          "en": "Almost 8%"
+        },
+        {
+          "en": "Almost 18%"
+        },
+        {
+          "en": "Almost 80%"
+        },
+        {
+          "en": "Almost 100%"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter states that almost 80% of Punjab’s area has been classified as over-exploited."
+      }
+    }
+  ]
+}

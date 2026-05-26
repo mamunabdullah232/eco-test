@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Natural Resources and Their Use",
+    "as": "Chapter 1 - Natural Resources and Their Use"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট 3"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 1 Test 3",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Natural resources are distributed:",
+      "options": [
+        {
+          "en": "Equally everywhere on Earth"
+        },
+        {
+          "en": "Unevenly across the planet and within countries"
+        },
+        {
+          "en": "Only in cities"
+        },
+        {
+          "en": "Only near political capitals"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The chapter emphasizes that natural resources are unevenly distributed."
+      }
+    },
+    {
+      "en": "Uneven distribution of resources can shape:",
+      "options": [
+        {
+          "en": "Settlements, trade patterns, international relations, and conflicts"
+        },
+        {
+          "en": "Only school holidays"
+        },
+        {
+          "en": "Only language pronunciation"
+        },
+        {
+          "en": "Only clothing styles"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter links resource distribution to settlements, trade, international relations, and conflict."
+      }
+    },
+    {
+      "en": "Industries located near natural resources often create:",
+      "options": [
+        {
+          "en": "Employment and townships"
+        },
+        {
+          "en": "Only deserts"
+        },
+        {
+          "en": "No economic activity"
+        },
+        {
+          "en": "Only religious conflicts"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Industries near resources can generate local employment and lead to township growth."
+      }
+    },
+    {
+      "en": "Which is a possible cost of resource-based development mentioned in the chapter?",
+      "options": [
+        {
+          "en": "Displacement of people from their homes"
+        },
+        {
+          "en": "Immediate end of all conflicts"
+        },
+        {
+          "en": "No change in society"
+        },
+        {
+          "en": "Disappearance of trade"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter notes that people in resource-rich areas may be displaced for development projects."
+      }
+    },
+    {
+      "en": "Wootz steel is used in the chapter to show that natural resources combined with human knowledge can create:",
+      "options": [
+        {
+          "en": "Unique products"
+        },
+        {
+          "en": "Non-existent minerals"
+        },
+        {
+          "en": "Political maps"
+        },
+        {
+          "en": "Rainfall"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Wootz steel illustrates how resources plus human skill can create valuable products."
+      }
+    },
+    {
+      "en": "The sharing of Kaveri River water is an example of tension over resources among:",
+      "options": [
+        {
+          "en": "Karnataka, Tamil Nadu, Kerala, and Puducherry"
+        },
+        {
+          "en": "Punjab, Assam, Bihar, and Odisha"
+        },
+        {
+          "en": "Delhi, Agra, Jaipur, and Patna"
+        },
+        {
+          "en": "Only two foreign countries"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter gives Kaveri water sharing among these states/territories as an example."
+      }
+    },
+    {
+      "en": "The ‘natural resource curse’ is also called:",
+      "options": [
+        {
+          "en": "The paradox of plenty"
+        },
+        {
+          "en": "The solar alliance"
+        },
+        {
+          "en": "The water tower"
+        },
+        {
+          "en": "The crop cycle"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Economists also call the natural resource curse the paradox of plenty."
+      }
+    },
+    {
+      "en": "What does the natural resource curse mean in simple terms?",
+      "options": [
+        {
+          "en": "Having many resources always makes a region rich"
+        },
+        {
+          "en": "Having plenty of resources does not automatically guarantee prosperity"
+        },
+        {
+          "en": "All resources are renewable"
+        },
+        {
+          "en": "Only poor countries have minerals"
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Resource abundance alone does not ensure economic growth or development."
+      }
+    },
+    {
+      "en": "According to the chapter, India has generally avoided the resource curse by investing in:",
+      "options": [
+        {
+          "en": "Technology and industries to meet growing needs"
+        },
+        {
+          "en": "Ignoring natural resources"
+        },
+        {
+          "en": "Stopping all trade"
+        },
+        {
+          "en": "Removing all factories"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The text states that India avoided the curse by developing industries and capacities around resources."
+      }
+    },
+    {
+      "en": "The mineral distribution map in the chapter includes which resource categories?",
+      "options": [
+        {
+          "en": "Coal, oil, iron ore, and bauxite"
+        },
+        {
+          "en": "Only gold and diamonds"
+        },
+        {
+          "en": "Only water and air"
+        },
+        {
+          "en": "Only solar and wind"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The map legend marks coal, oil, iron ore, and bauxite."
+      }
+    }
+  ]
+}

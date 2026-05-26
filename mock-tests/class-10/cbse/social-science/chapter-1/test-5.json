@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 1 - Natural Resources and Their Use",
+    "as": "Chapter 1 - Natural Resources and Their Use"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট 5"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 1 Test 5",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Why is cement production discussed as an environmental concern?",
+      "options": [
+        {
+          "en": "It releases fine dust and causes air, soil, and water pollution"
+        },
+        {
+          "en": "It produces only oxygen"
+        },
+        {
+          "en": "It is never used in buildings"
+        },
+        {
+          "en": "It prevents all pollution"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Cement production releases fine dust and contributes to several forms of pollution."
+      }
+    },
+    {
+      "en": "Which organisation has created guidelines for cement factories to minimise or eliminate pollution?",
+      "options": [
+        {
+          "en": "Central Pollution Control Board"
+        },
+        {
+          "en": "Election Commission of India"
+        },
+        {
+          "en": "Reserve Bank of India"
+        },
+        {
+          "en": "Archaeological Survey of India"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter mentions Central Pollution Control Board guidelines for cement factories."
+      }
+    },
+    {
+      "en": "Which is mentioned as an alternative material to reduce pollution from construction?",
+      "options": [
+        {
+          "en": "Mud or stone"
+        },
+        {
+          "en": "Only more cement"
+        },
+        {
+          "en": "Untreated chemical waste"
+        },
+        {
+          "en": "Imported coal ash only"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Traditional materials like stone and mud are mentioned as alternatives, along with plant-based and recycled materials."
+      }
+    },
+    {
+      "en": "Sustainable new materials should be designed considering:",
+      "options": [
+        {
+          "en": "Local climate and lower pollution"
+        },
+        {
+          "en": "Only high price"
+        },
+        {
+          "en": "Only foreign demand"
+        },
+        {
+          "en": "Only decoration"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says sustainable materials should be less polluting, provide local employment, and suit the local climate."
+      }
+    },
+    {
+      "en": "Vṛikshāyurveda refers to:",
+      "options": [
+        {
+          "en": "An ancient Indian botanical science focused on the care of plants and trees"
+        },
+        {
+          "en": "A system of token currency"
+        },
+        {
+          "en": "A medieval fort"
+        },
+        {
+          "en": "A river water dispute"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Vṛikshāyurveda is described as an ancient Indian science of plant and tree care."
+      }
+    },
+    {
+      "en": "Which practice is promoted in Vṛikshāyurveda to maintain soil health?",
+      "options": [
+        {
+          "en": "Crop rotation and mixed cropping"
+        },
+        {
+          "en": "Overuse of chemical pesticides"
+        },
+        {
+          "en": "Over-pumping groundwater"
+        },
+        {
+          "en": "Burning all plant remains"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter notes that Vṛikshāyurveda promotes crop rotation and mixed cropping."
+      }
+    },
+    {
+      "en": "In the Sikkim caselet, which inputs did Pema’s family use after shifting toward organic farming?",
+      "options": [
+        {
+          "en": "Compost and natural pest repellents using neem and garlic"
+        },
+        {
+          "en": "Only synthetic fertilisers"
+        },
+        {
+          "en": "Only coal and petroleum"
+        },
+        {
+          "en": "Untreated industrial waste"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Pema’s family switched to compost and prepared natural repellents with neem and garlic."
+      }
+    },
+    {
+      "en": "In which year did Sikkim become a 100 per cent organic state?",
+      "options": [
+        {
+          "en": "2006"
+        },
+        {
+          "en": "2010"
+        },
+        {
+          "en": "2016"
+        },
+        {
+          "en": "2020"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter states that Sikkim became fully organic in 2016."
+      }
+    },
+    {
+      "en": "The International Alliance for Solar Energy was launched by India and France in:",
+      "options": [
+        {
+          "en": "1991"
+        },
+        {
+          "en": "2005"
+        },
+        {
+          "en": "2015"
+        },
+        {
+          "en": "2025"
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The chapter states that India and France launched the International Alliance for Solar Energy in 2015."
+      }
+    },
+    {
+      "en": "The idea of lokasangraha in the chapter refers to:",
+      "options": [
+        {
+          "en": "Acting for the wellbeing of all beyond personal desires"
+        },
+        {
+          "en": "Using resources selfishly"
+        },
+        {
+          "en": "Stopping all agriculture"
+        },
+        {
+          "en": "Ignoring Nature"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Lokasangraha is explained as transcending personal desires and acting for the wellbeing of all."
+      }
+    }
+  ]
+}

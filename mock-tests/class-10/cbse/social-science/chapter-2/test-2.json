@@ -1,0 +1,239 @@
+{
+  "className": {
+    "en": "Class 10 CBSE",
+    "as": "শ্ৰেণী ১০ CBSE"
+  },
+  "subject": {
+    "en": "Social Science",
+    "as": "সমাজ বিজ্ঞান"
+  },
+  "section": {
+    "en": "CBSE",
+    "as": "CBSE"
+  },
+  "chapter": {
+    "en": "Chapter 2 - Reshaping India's Political Map",
+    "as": "Chapter 2 - Reshaping India's Political Map"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "টেষ্ট 2"
+  },
+  "displayTitle": "CBSE Class 10 Social Science - Chapter 2 Test 2",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "Muhammad bin Tughlaq’s expansion was significant because, for the first time since which empire, most of the Subcontinent came under one ruler?",
+      "options": [
+        {
+          "en": "Mauryan Empire"
+        },
+        {
+          "en": "Gupta Empire"
+        },
+        {
+          "en": "Sikh Empire"
+        },
+        {
+          "en": "Maratha Empire"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter compares Muhammad bin Tughlaq’s extent with the Mauryan Empire."
+      }
+    },
+    {
+      "en": "Muhammad bin Tughlaq shifted his capital from Delhi to:",
+      "options": [
+        {
+          "en": "Daulatabad"
+        },
+        {
+          "en": "Konark"
+        },
+        {
+          "en": "Calicut"
+        },
+        {
+          "en": "Guwahati"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "He moved the capital from Delhi to Daulatabad, then called Devagiri."
+      }
+    },
+    {
+      "en": "Why did the token currency experiment create problems?",
+      "options": [
+        {
+          "en": "People counterfeited copper coins, causing confusion in trade"
+        },
+        {
+          "en": "Gold became too heavy"
+        },
+        {
+          "en": "All farmers stopped farming"
+        },
+        {
+          "en": "No one used markets before that"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Cheap copper coins declared equal to silver/gold encouraged counterfeiting and trade confusion."
+      }
+    },
+    {
+      "en": "Jizya was a tax imposed on:",
+      "options": [
+        {
+          "en": "Non-Muslim subjects"
+        },
+        {
+          "en": "Only soldiers"
+        },
+        {
+          "en": "Only foreign traders"
+        },
+        {
+          "en": "Only sultans"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter describes jizya as a tax on non-Muslim subjects for protection and military exemption."
+      }
+    },
+    {
+      "en": "Timur attacked Delhi in:",
+      "options": [
+        {
+          "en": "1398"
+        },
+        {
+          "en": "1498"
+        },
+        {
+          "en": "1526"
+        },
+        {
+          "en": "1671"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The timeline marks 1398 as Timur’s attack on Delhi."
+      }
+    },
+    {
+      "en": "Narasimhadeva I belonged to which kingdom?",
+      "options": [
+        {
+          "en": "Eastern Ganga kingdom of Kalinga"
+        },
+        {
+          "en": "Mughal Empire"
+        },
+        {
+          "en": "Sikh Empire"
+        },
+        {
+          "en": "Ahom Kingdom"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Narasimhadeva I was a ruler of the Eastern Ganga kingdom of Kalinga."
+      }
+    },
+    {
+      "en": "The Surya temple at Konark was built partly to commemorate whose victories?",
+      "options": [
+        {
+          "en": "Narasimhadeva I"
+        },
+        {
+          "en": "Babur"
+        },
+        {
+          "en": "Aurangzeb"
+        },
+        {
+          "en": "Guru Gobind Singh"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter links the Konark temple with Narasimhadeva I’s victories and cultural brilliance."
+      }
+    },
+    {
+      "en": "The Musunuri Nayakas expelled Muhammad bin Tughlaq’s army from:",
+      "options": [
+        {
+          "en": "Warangal"
+        },
+        {
+          "en": "Delhi"
+        },
+        {
+          "en": "Agra"
+        },
+        {
+          "en": "Lahore"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The Telugu chieftains expelled Tughlaq forces from Warangal around 1330–1336."
+      }
+    },
+    {
+      "en": "The Bahmani Sultanate emerged in the:",
+      "options": [
+        {
+          "en": "Mid-14th century"
+        },
+        {
+          "en": "Early 8th century"
+        },
+        {
+          "en": "Late 19th century"
+        },
+        {
+          "en": "21st century"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The chapter says the Bahmani Sultanate rose in the mid-14th century."
+      }
+    },
+    {
+      "en": "Kumbhalgarh Fort is associated with:",
+      "options": [
+        {
+          "en": "Rana Kumbha of Mewar"
+        },
+        {
+          "en": "Babur of Kabul"
+        },
+        {
+          "en": "Guru Arjan"
+        },
+        {
+          "en": "Sher Shah Suri"
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Kumbhalgarh Fort was built by Rana Kumbha in the Aravalli hills."
+      }
+    }
+  ]
+}
