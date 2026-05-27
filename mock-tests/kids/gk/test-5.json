@@ -1,0 +1,73 @@
+{
+  "className": {"en": "Kids"},
+  "subject": {"en": "GK"},
+  "section": {"en": "General Knowledge"},
+  "test": {"en": "Test 5"},
+  "displayTitle": "Kids GK - Test 5",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is the capital of Goa?",
+      "options": [{"en": "Panaji"}, {"en": "Margao"}, {"en": "Vasco da Gama"}, {"en": "Mapusa"}],
+      "answer": "A",
+      "explanation": {"en": "Panaji is the capital of Goa."}
+    },
+    {
+      "en": "Which monument is in Agra?",
+      "options": [{"en": "India Gate"}, {"en": "Taj Mahal"}, {"en": "Charminar"}, {"en": "Qutub Minar"}],
+      "answer": "B",
+      "explanation": {"en": "The Taj Mahal is in Agra."}
+    },
+    {
+      "en": "What is the capital of Sikkim?",
+      "options": [{"en": "Gangtok"}, {"en": "Namchi"}, {"en": "Pelling"}, {"en": "Mangan"}],
+      "answer": "A",
+      "explanation": {"en": "Gangtok is the capital of Sikkim."}
+    },
+    {
+      "en": "Which city is known as the Pink City?",
+      "options": [{"en": "Jaipur"}, {"en": "Delhi"}, {"en": "Mumbai"}, {"en": "Guwahati"}],
+      "answer": "A",
+      "explanation": {"en": "Jaipur is known as the Pink City."}
+    },
+    {
+      "en": "What is the capital of Meghalaya?",
+      "options": [{"en": "Aizawl"}, {"en": "Shillong"}, {"en": "Kohima"}, {"en": "Imphal"}],
+      "answer": "B",
+      "explanation": {"en": "Shillong is the capital of Meghalaya."}
+    },
+    {
+      "en": "Which is the national flag of India called?",
+      "options": [{"en": "Tricolour"}, {"en": "Union Jack"}, {"en": "Stars and Stripes"}, {"en": "Red Flag"}],
+      "answer": "A",
+      "explanation": {"en": "The national flag of India is called the Tricolour."}
+    },
+    {
+      "en": "What is the capital of Manipur?",
+      "options": [{"en": "Imphal"}, {"en": "Kohima"}, {"en": "Agartala"}, {"en": "Itanagar"}],
+      "answer": "A",
+      "explanation": {"en": "Imphal is the capital of Manipur."}
+    },
+    {
+      "en": "How many colors are there in the Indian national flag?",
+      "options": [{"en": "Two"}, {"en": "Three"}, {"en": "Four"}, {"en": "Five"}],
+      "answer": "B",
+      "explanation": {"en": "The Indian national flag has three colors."}
+    },
+    {
+      "en": "What is the capital of Tripura?",
+      "options": [{"en": "Agartala"}, {"en": "Shillong"}, {"en": "Aizawl"}, {"en": "Dispur"}],
+      "answer": "A",
+      "explanation": {"en": "Agartala is the capital of Tripura."}
+    },
+    {
+      "en": "Who was the first Prime Minister of India?",
+      "options": [{"en": "Mahatma Gandhi"}, {"en": "Jawaharlal Nehru"}, {"en": "Dr. B. R. Ambedkar"}, {"en": "Sardar Patel"}],
+      "answer": "B",
+      "explanation": {"en": "Jawaharlal Nehru was the first Prime Minister of India."}
+    }
+  ]
+}

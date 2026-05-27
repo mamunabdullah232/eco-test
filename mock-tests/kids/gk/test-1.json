@@ -1,0 +1,73 @@
+{
+  "className": {"en": "Kids"},
+  "subject": {"en": "GK"},
+  "section": {"en": "General Knowledge"},
+  "test": {"en": "Test 1"},
+  "displayTitle": "Kids GK - Test 1",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is the capital of Assam?",
+      "options": [{"en": "Guwahati"}, {"en": "Dispur"}, {"en": "Shillong"}, {"en": "Agartala"}],
+      "answer": "B",
+      "explanation": {"en": "Dispur is the capital of Assam."}
+    },
+    {
+      "en": "What is the capital of India?",
+      "options": [{"en": "Mumbai"}, {"en": "Kolkata"}, {"en": "New Delhi"}, {"en": "Chennai"}],
+      "answer": "C",
+      "explanation": {"en": "New Delhi is the capital of India."}
+    },
+    {
+      "en": "What is the capital of West Bengal?",
+      "options": [{"en": "Kolkata"}, {"en": "Patna"}, {"en": "Ranchi"}, {"en": "Bhubaneswar"}],
+      "answer": "A",
+      "explanation": {"en": "Kolkata is the capital of West Bengal."}
+    },
+    {
+      "en": "What is the national animal of India?",
+      "options": [{"en": "Lion"}, {"en": "Tiger"}, {"en": "Elephant"}, {"en": "Deer"}],
+      "answer": "B",
+      "explanation": {"en": "The tiger is the national animal of India."}
+    },
+    {
+      "en": "What is the capital of Bihar?",
+      "options": [{"en": "Patna"}, {"en": "Lucknow"}, {"en": "Jaipur"}, {"en": "Bhopal"}],
+      "answer": "A",
+      "explanation": {"en": "Patna is the capital of Bihar."}
+    },
+    {
+      "en": "What is the national bird of India?",
+      "options": [{"en": "Parrot"}, {"en": "Peacock"}, {"en": "Eagle"}, {"en": "Sparrow"}],
+      "answer": "B",
+      "explanation": {"en": "The peacock is the national bird of India."}
+    },
+    {
+      "en": "What is the capital of Uttar Pradesh?",
+      "options": [{"en": "Kanpur"}, {"en": "Lucknow"}, {"en": "Agra"}, {"en": "Varanasi"}],
+      "answer": "B",
+      "explanation": {"en": "Lucknow is the capital of Uttar Pradesh."}
+    },
+    {
+      "en": "What is the national flower of India?",
+      "options": [{"en": "Rose"}, {"en": "Sunflower"}, {"en": "Lotus"}, {"en": "Marigold"}],
+      "answer": "C",
+      "explanation": {"en": "The lotus is the national flower of India."}
+    },
+    {
+      "en": "What is the capital of Rajasthan?",
+      "options": [{"en": "Jaipur"}, {"en": "Jodhpur"}, {"en": "Udaipur"}, {"en": "Kota"}],
+      "answer": "A",
+      "explanation": {"en": "Jaipur is the capital of Rajasthan."}
+    },
+    {
+      "en": "What is the currency of India?",
+      "options": [{"en": "Dollar"}, {"en": "Rupee"}, {"en": "Pound"}, {"en": "Yen"}],
+      "answer": "B",
+      "explanation": {"en": "The currency of India is the rupee."}
+    }
+  ]
+}

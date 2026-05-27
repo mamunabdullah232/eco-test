@@ -1,0 +1,73 @@
+{
+  "className": {"en": "Kids"},
+  "subject": {"en": "GK"},
+  "section": {"en": "General Knowledge"},
+  "test": {"en": "Test 2"},
+  "displayTitle": "Kids GK - Test 2",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is the capital of Maharashtra?",
+      "options": [{"en": "Pune"}, {"en": "Nagpur"}, {"en": "Mumbai"}, {"en": "Nashik"}],
+      "answer": "C",
+      "explanation": {"en": "Mumbai is the capital of Maharashtra."}
+    },
+    {
+      "en": "When is Independence Day celebrated in India?",
+      "options": [{"en": "15 August"}, {"en": "26 January"}, {"en": "2 October"}, {"en": "14 November"}],
+      "answer": "A",
+      "explanation": {"en": "India celebrates Independence Day on 15 August."}
+    },
+    {
+      "en": "What is the capital of Gujarat?",
+      "options": [{"en": "Ahmedabad"}, {"en": "Gandhinagar"}, {"en": "Surat"}, {"en": "Vadodara"}],
+      "answer": "B",
+      "explanation": {"en": "Gandhinagar is the capital of Gujarat."}
+    },
+    {
+      "en": "When is Republic Day celebrated in India?",
+      "options": [{"en": "15 August"}, {"en": "26 January"}, {"en": "5 September"}, {"en": "2 October"}],
+      "answer": "B",
+      "explanation": {"en": "India celebrates Republic Day on 26 January."}
+    },
+    {
+      "en": "What is the capital of Punjab?",
+      "options": [{"en": "Amritsar"}, {"en": "Ludhiana"}, {"en": "Chandigarh"}, {"en": "Jalandhar"}],
+      "answer": "C",
+      "explanation": {"en": "Chandigarh is the capital of Punjab."}
+    },
+    {
+      "en": "Who is known as the Father of the Nation in India?",
+      "options": [{"en": "Jawaharlal Nehru"}, {"en": "Mahatma Gandhi"}, {"en": "Subhas Chandra Bose"}, {"en": "Sardar Patel"}],
+      "answer": "B",
+      "explanation": {"en": "Mahatma Gandhi is known as the Father of the Nation in India."}
+    },
+    {
+      "en": "What is the capital of Haryana?",
+      "options": [{"en": "Gurugram"}, {"en": "Faridabad"}, {"en": "Chandigarh"}, {"en": "Panipat"}],
+      "answer": "C",
+      "explanation": {"en": "Chandigarh is the capital of Haryana."}
+    },
+    {
+      "en": "What is the national anthem of India?",
+      "options": [{"en": "Vande Mataram"}, {"en": "Jana Gana Mana"}, {"en": "Saare Jahan Se Achha"}, {"en": "Bande Utkala Janani"}],
+      "answer": "B",
+      "explanation": {"en": "Jana Gana Mana is the national anthem of India."}
+    },
+    {
+      "en": "What is the capital of Himachal Pradesh?",
+      "options": [{"en": "Shimla"}, {"en": "Manali"}, {"en": "Kullu"}, {"en": "Dharamshala"}],
+      "answer": "A",
+      "explanation": {"en": "Shimla is the capital of Himachal Pradesh."}
+    },
+    {
+      "en": "What is the national song of India?",
+      "options": [{"en": "Vande Mataram"}, {"en": "Jana Gana Mana"}, {"en": "Amar Sonar Bangla"}, {"en": "Sare Jahan Se Achha"}],
+      "answer": "A",
+      "explanation": {"en": "Vande Mataram is the national song of India."}
+    }
+  ]
+}

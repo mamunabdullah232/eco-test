@@ -1782,6 +1782,10 @@ function isKidsEnglishGrammarSection(parts){
   return parts.map(slugify).join("__") === "kids__english-grammar__english-grammar";
 }
 
+function isKidsGkSection(parts){
+  return parts.map(slugify).join("__") === "kids__gk__gk";
+}
+
 function class10EnglishFinalTestLink(year){
   return "mock-test.html?file=" + encodeURIComponent("mock-tests/class-10/english/hslc-" + year + "-final-english-mcq.json");
 }
@@ -1833,6 +1837,10 @@ function kidsEnglishGrammarTestFile(test){
   return "mock-tests/kids/english-grammar/test-" + getNumberFromLabel(test) + ".json";
 }
 
+function kidsGkTestFile(test){
+  return "mock-tests/kids/gk/test-" + getNumberFromLabel(test) + ".json";
+}
+
 function nestedTestLink(parts, test){
   if(isClass10History(parts)){
     return "mock-test.html?file=" + encodeURIComponent(historyTestFile(parts, test));
@@ -1879,6 +1887,9 @@ function isMockTestAvailable(parts, test){
   }
   if(isKidsEnglishGrammarSection(parts)){
     return /^Test [1-3]$/.test(labelEn(test));
+  }
+  if(isKidsGkSection(parts)){
+    return /^Test [1-5]$/.test(labelEn(test));
   }
   if(isClass8CbseSocialScience(parts)){
     return /^Test [1-5]$/.test(labelEn(test));

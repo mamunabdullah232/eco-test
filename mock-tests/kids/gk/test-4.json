@@ -1,0 +1,73 @@
+{
+  "className": {"en": "Kids"},
+  "subject": {"en": "GK"},
+  "section": {"en": "General Knowledge"},
+  "test": {"en": "Test 4"},
+  "displayTitle": "Kids GK - Test 4",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is the capital of Karnataka?",
+      "options": [{"en": "Mysuru"}, {"en": "Bengaluru"}, {"en": "Mangaluru"}, {"en": "Hubballi"}],
+      "answer": "B",
+      "explanation": {"en": "Bengaluru is the capital of Karnataka."}
+    },
+    {
+      "en": "Kaziranga National Park is located in which state?",
+      "options": [{"en": "Assam"}, {"en": "Bihar"}, {"en": "Rajasthan"}, {"en": "Kerala"}],
+      "answer": "A",
+      "explanation": {"en": "Kaziranga National Park is in Assam."}
+    },
+    {
+      "en": "What is the capital of Kerala?",
+      "options": [{"en": "Kochi"}, {"en": "Kozhikode"}, {"en": "Thiruvananthapuram"}, {"en": "Thrissur"}],
+      "answer": "C",
+      "explanation": {"en": "Thiruvananthapuram is the capital of Kerala."}
+    },
+    {
+      "en": "Which language is widely spoken in Assam?",
+      "options": [{"en": "Assamese"}, {"en": "Tamil"}, {"en": "Marathi"}, {"en": "Gujarati"}],
+      "answer": "A",
+      "explanation": {"en": "Assamese is widely spoken in Assam."}
+    },
+    {
+      "en": "What is the capital of Tamil Nadu?",
+      "options": [{"en": "Chennai"}, {"en": "Madurai"}, {"en": "Coimbatore"}, {"en": "Salem"}],
+      "answer": "A",
+      "explanation": {"en": "Chennai is the capital of Tamil Nadu."}
+    },
+    {
+      "en": "Which tea is Assam famous for?",
+      "options": [{"en": "Assam Tea"}, {"en": "Green Tea of Japan"}, {"en": "Darjeeling Tea only"}, {"en": "Nilgiri Tea only"}],
+      "answer": "A",
+      "explanation": {"en": "Assam is famous for Assam Tea."}
+    },
+    {
+      "en": "What is the capital of Telangana?",
+      "options": [{"en": "Hyderabad"}, {"en": "Warangal"}, {"en": "Karimnagar"}, {"en": "Nizamabad"}],
+      "answer": "A",
+      "explanation": {"en": "Hyderabad is the capital of Telangana."}
+    },
+    {
+      "en": "Which is the largest state of India by area?",
+      "options": [{"en": "Assam"}, {"en": "Rajasthan"}, {"en": "Goa"}, {"en": "Punjab"}],
+      "answer": "B",
+      "explanation": {"en": "Rajasthan is the largest state of India by area."}
+    },
+    {
+      "en": "What is the capital of Andhra Pradesh?",
+      "options": [{"en": "Hyderabad"}, {"en": "Amaravati"}, {"en": "Vijayawada"}, {"en": "Visakhapatnam"}],
+      "answer": "B",
+      "explanation": {"en": "Amaravati is the capital of Andhra Pradesh."}
+    },
+    {
+      "en": "Which is the smallest state of India by area?",
+      "options": [{"en": "Goa"}, {"en": "Assam"}, {"en": "Bihar"}, {"en": "Kerala"}],
+      "answer": "A",
+      "explanation": {"en": "Goa is the smallest state of India by area."}
+    }
+  ]
+}

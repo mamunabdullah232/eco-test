@@ -1,0 +1,73 @@
+{
+  "className": {"en": "Kids"},
+  "subject": {"en": "GK"},
+  "section": {"en": "General Knowledge"},
+  "test": {"en": "Test 3"},
+  "displayTitle": "Kids GK - Test 3",
+  "englishOnly": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": -0.25,
+  "questions": [
+    {
+      "en": "What is the capital of Uttarakhand?",
+      "options": [{"en": "Nainital"}, {"en": "Haridwar"}, {"en": "Dehradun"}, {"en": "Rishikesh"}],
+      "answer": "C",
+      "explanation": {"en": "Dehradun is the capital of Uttarakhand."}
+    },
+    {
+      "en": "Which river is called the lifeline of Assam?",
+      "options": [{"en": "Ganga"}, {"en": "Yamuna"}, {"en": "Brahmaputra"}, {"en": "Narmada"}],
+      "answer": "C",
+      "explanation": {"en": "The Brahmaputra is called the lifeline of Assam."}
+    },
+    {
+      "en": "What is the capital of Madhya Pradesh?",
+      "options": [{"en": "Indore"}, {"en": "Bhopal"}, {"en": "Gwalior"}, {"en": "Jabalpur"}],
+      "answer": "B",
+      "explanation": {"en": "Bhopal is the capital of Madhya Pradesh."}
+    },
+    {
+      "en": "What is the capital of Assam?",
+      "options": [{"en": "Guwahati"}, {"en": "Dispur"}, {"en": "Dibrugarh"}, {"en": "Tezpur"}],
+      "answer": "B",
+      "explanation": {"en": "Dispur is the capital of Assam."}
+    },
+    {
+      "en": "What is the capital of Chhattisgarh?",
+      "options": [{"en": "Raipur"}, {"en": "Bilaspur"}, {"en": "Durg"}, {"en": "Korba"}],
+      "answer": "A",
+      "explanation": {"en": "Raipur is the capital of Chhattisgarh."}
+    },
+    {
+      "en": "Which is the largest city of Assam?",
+      "options": [{"en": "Guwahati"}, {"en": "Silchar"}, {"en": "Jorhat"}, {"en": "Nagaon"}],
+      "answer": "A",
+      "explanation": {"en": "Guwahati is the largest city of Assam."}
+    },
+    {
+      "en": "What is the capital of Jharkhand?",
+      "options": [{"en": "Dhanbad"}, {"en": "Jamshedpur"}, {"en": "Ranchi"}, {"en": "Bokaro"}],
+      "answer": "C",
+      "explanation": {"en": "Ranchi is the capital of Jharkhand."}
+    },
+    {
+      "en": "Which festival is most famous in Assam?",
+      "options": [{"en": "Bihu"}, {"en": "Pongal"}, {"en": "Onam"}, {"en": "Lohri"}],
+      "answer": "A",
+      "explanation": {"en": "Bihu is the most famous festival of Assam."}
+    },
+    {
+      "en": "What is the capital of Odisha?",
+      "options": [{"en": "Cuttack"}, {"en": "Puri"}, {"en": "Bhubaneswar"}, {"en": "Rourkela"}],
+      "answer": "C",
+      "explanation": {"en": "Bhubaneswar is the capital of Odisha."}
+    },
+    {
+      "en": "Which animal is famous in Kaziranga National Park?",
+      "options": [{"en": "One-horned rhinoceros"}, {"en": "Camel"}, {"en": "Kangaroo"}, {"en": "Zebra"}],
+      "answer": "A",
+      "explanation": {"en": "Kaziranga National Park is famous for the one-horned rhinoceros."}
+    }
+  ]
+}
