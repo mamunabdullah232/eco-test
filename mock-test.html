@@ -41,13 +41,7 @@ header{
   justify-content:space-between;
   gap:14px;
 }
-.brand{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  font-weight:900;
-  color:var(--ink);
-}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--ink)}
 .mark{
   width:42px;
   height:42px;
@@ -57,10 +51,7 @@ header{
   display:grid;
   place-items:center;
 }
-.back{
-  color:var(--blue);
-  font-weight:900;
-}
+.back{color:var(--blue);font-weight:900}
 main{padding:30px 0 44px}
 .panel{
   background:var(--surface);
@@ -75,20 +66,8 @@ main{padding:30px 0 44px}
   border-image:linear-gradient(90deg,var(--blue),var(--green),var(--orange),var(--rose)) 1;
   background:linear-gradient(135deg,#fff 0%,#f8fbff 60%,#fff7ed 100%);
 }
-.kicker{
-  color:var(--blue);
-  font-size:.82rem;
-  font-weight:900;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-  margin-bottom:8px;
-}
-h1{
-  color:var(--ink);
-  font-size:clamp(1.6rem,3.5vw,2.45rem);
-  line-height:1.12;
-  margin-bottom:10px;
-}
+.kicker{color:var(--blue);font-size:.82rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+h1{color:var(--ink);font-size:clamp(1.6rem,3.5vw,2.45rem);line-height:1.12;margin-bottom:10px}
 .subline{color:var(--muted);font-weight:800}
 .controls{
   padding:18px 24px;
@@ -100,13 +79,7 @@ h1{
   gap:14px;
   flex-wrap:wrap;
 }
-.language{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  flex-wrap:wrap;
-  font-weight:900;
-}
+.language{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-weight:900}
 .language label{
   display:inline-flex;
   align-items:center;
@@ -117,29 +90,11 @@ h1{
   padding:8px 11px;
   cursor:pointer;
 }
-.timer{
-  color:#991b1b;
-  background:#fee2e2;
-  border-radius:999px;
-  padding:8px 12px;
-  font-weight:900;
-}
+.timer{color:#991b1b;background:#fee2e2;border-radius:999px;padding:8px 12px;font-weight:900}
 .content{padding:24px}
-.start-card{
-  display:grid;
-  gap:14px;
-}
-.rules{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:12px;
-}
-.rule{
-  border:1px solid var(--border);
-  border-radius:14px;
-  padding:14px;
-  background:#f8fafc;
-}
+.start-card{display:grid;gap:14px}
+.rules{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.rule{border:1px solid var(--border);border-radius:14px;padding:14px;background:#f8fafc}
 .rule strong{display:block;color:var(--ink)}
 .rule span{display:block;color:var(--muted);font-size:.9rem;margin-top:3px}
 .btn{
@@ -162,11 +117,7 @@ h1{
   background:#fff;
   box-shadow:0 8px 18px rgba(15,23,42,.045);
 }
-.question-title{
-  color:var(--ink);
-  font-weight:900;
-  margin-bottom:12px;
-}
+.question-title{color:var(--ink);font-weight:900;margin-bottom:12px}
 .options{display:grid;gap:9px}
 .option{
   border:1px solid var(--border);
@@ -180,30 +131,9 @@ h1{
 }
 .option.correct{border-color:#16a34a;background:#dcfce7}
 .option.wrong{border-color:#dc2626;background:#fee2e2}
-.actions{
-  margin-top:20px;
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;
-}
-.result{
-  margin-bottom:18px;
-  border:1px solid #bbf7d0;
-  background:#ecfdf5;
-  color:#14532d;
-  border-radius:16px;
-  padding:16px;
-  font-weight:900;
-}
-.missing{
-  border:1px solid #fed7aa;
-  background:#fff7ed;
-  color:#9a3412;
-  border-radius:16px;
-  padding:16px;
-  font-weight:900;
-}
-
+.actions{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap}
+.result{margin-bottom:18px;border:1px solid #bbf7d0;background:#ecfdf5;color:#14532d;border-radius:16px;padding:16px;font-weight:900}
+.missing{border:1px solid #fed7aa;background:#fff7ed;color:#9a3412;border-radius:16px;padding:16px;font-weight:900}
 .explanation{
   margin-top:14px;
   border:1px solid #bae6fd;
@@ -212,21 +142,9 @@ h1{
   padding:12px 13px;
   color:#0f172a;
 }
-.explanation-title{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  padding:4px 9px;
-  border-radius:999px;
-  background:#dbeafe;
-  color:#1d4ed8;
-  font-size:.86rem;
-  font-weight:900;
-}
+.explanation-title{display:inline-flex;align-items:center;gap:6px;padding:4px 9px;border-radius:999px;background:#dbeafe;color:#1d4ed8;font-size:.86rem;font-weight:900}
 .explanation p{margin-top:8px;color:#334155;font-weight:700}
-body.kid-mode{
-  background:linear-gradient(135deg,#fff7ad 0%,#e0f2fe 34%,#fce7f3 68%,#dcfce7 100%);
-}
+body.kid-mode{background:linear-gradient(135deg,#fff7ad 0%,#e0f2fe 34%,#fce7f3 68%,#dcfce7 100%)}
 body.kid-mode .panel{border:2px solid #facc15;box-shadow:0 18px 38px rgba(249,115,22,.16)}
 body.kid-mode .test-head{background:linear-gradient(135deg,#fff7ed 0%,#ecfeff 48%,#fdf2f8 100%)}
 body.kid-mode .kicker{color:#be123c}
@@ -236,7 +154,6 @@ body.kid-mode .question-card:nth-child(4n+2){border-color:#bbf7d0}
 body.kid-mode .question-card:nth-child(4n+3){border-color:#fbcfe8}
 body.kid-mode .btn{background:linear-gradient(135deg,#f97316,#2563eb)}
 body.kid-mode .timer{background:#fef3c7;color:#92400e}
-
 @media(max-width:680px){
   .topbar{align-items:flex-start;flex-direction:column;padding:12px 0}
   .controls{align-items:flex-start}
@@ -276,10 +193,6 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 <script src="mock-test-data.js"></script>
 <script>
 const params = new URLSearchParams(location.search);
-const activeFilePath = params.get("file") || "";
-if(activeFilePath.includes("mock-tests/kids/")){
-  document.body.classList.add("kid-mode");
-}
 let testSet = null;
 const content = document.getElementById("content");
 const timer = document.getElementById("timer");
@@ -290,13 +203,56 @@ let submitted = false;
 let remainingSeconds = 600;
 let timerHandle = null;
 
+function legacyFilePathFromSet(setId){
+  const routes = [
+    [/^kids__gk__gk__test-(\d+)$/i, "mock-tests/kids/gk/test-$1.json"],
+    [/^kids__english-grammar__english-grammar__test-(\d+)$/i, "mock-tests/kids/english-grammar/test-$1.json"],
+    [/^class-10__english__grammar__test-(\d+)$/i, "mock-tests/class-10/english/grammar/test-$1.json"]
+  ];
+  for(const route of routes){
+    const match = route[0].exec(setId || "");
+    if(match) return route[1].replace("$1", match[1]);
+  }
+  return "";
+}
+
+function activeTestFilePath(){
+  return params.get("file") || legacyFilePathFromSet(params.get("set")) || "";
+}
+
+const activeFilePath = activeTestFilePath();
+if(activeFilePath.includes("mock-tests/kids/")){
+  document.body.classList.add("kid-mode");
+}
+
 function isEnglishGrammarTest(){
-  const filePath = params.get("file") || "";
+  const filePath = activeTestFilePath();
   return filePath.includes("mock-tests/class-10/english/grammar/") || filePath.includes("mock-tests/kids/english-grammar/");
 }
 
 function safeTestFilePath(filePath){
   return /^mock-tests\/[a-z0-9\-\/]+\.json$/i.test(filePath || "");
+}
+
+function normalizeAnswerValue(value){
+  if(typeof value === "number") return value;
+  if(typeof value === "string"){
+    const trimmed = value.trim();
+    if(/^[A-D]$/i.test(trimmed)) return trimmed.toUpperCase().charCodeAt(0) - 65;
+    const numeric = Number(trimmed);
+    if(Number.isInteger(numeric)) return numeric;
+  }
+  return value;
+}
+
+function normalizeQuestion(question){
+  if(!question) return question;
+  return {
+    ...question,
+    answer:Array.isArray(question.answer)
+      ? question.answer.map(normalizeAnswerValue)
+      : normalizeAnswerValue(question.answer)
+  };
 }
 
 function normalizeTestSet(raw){
@@ -312,7 +268,7 @@ function normalizeTestSet(raw){
     durationMinutes: raw.durationMinutes || 10,
     correctMarks: raw.correctMarks ?? 1,
     wrongMarks: raw.wrongMarks ?? -0.25,
-    questions: raw.questions || []
+    questions: (raw.questions || []).map(normalizeQuestion)
   };
 }
 
@@ -320,8 +276,8 @@ function shuffleQuestionOptions(set){
   if(!set || !Array.isArray(set.questions)) return set;
   set.questions = set.questions.map(function(question){
     const originalAnswers = Array.isArray(question.answer)
-      ? question.answer.map(Number)
-      : [Number(question.answer)];
+      ? question.answer.map(normalizeAnswerValue)
+      : [normalizeAnswerValue(question.answer)];
     const choices = Array.isArray(question.options)
       ? question.options.map(function(option, index){ return { option, originalIndex:index }; })
       : [];
@@ -342,7 +298,6 @@ function shuffleQuestionOptions(set){
         return choice.originalIndex === oldAnswer;
       });
     }).filter(function(answer){ return answer >= 0; });
-
     const normalizedAnswers = newAnswers.length ? newAnswers : originalAnswers;
 
     return {
@@ -355,21 +310,25 @@ function shuffleQuestionOptions(set){
 }
 
 function isCorrectAnswer(question, optionIndex){
-  const answers = Array.isArray(question.answer) ? question.answer : [question.answer];
-  return answers.map(Number).includes(optionIndex);
+  const correctAnswers = Array.isArray(question.answer) ? question.answer : [question.answer];
+  return correctAnswers.map(normalizeAnswerValue).includes(optionIndex);
+}
+
+async function loadJsonTestFile(filePath){
+  if(!safeTestFilePath(filePath)) return;
+  try{
+    const response = await fetch(filePath, { cache:"no-store" });
+    if(!response.ok) return;
+    testSet = shuffleQuestionOptions(normalizeTestSet(await response.json()));
+  }catch(error){
+    console.error("Could not load test file:", error);
+  }
 }
 
 async function loadTestSet(){
-  const filePath = params.get("file");
+  const filePath = activeTestFilePath();
   if(filePath){
-    if(!safeTestFilePath(filePath)) return;
-    try{
-      const response = await fetch(filePath, { cache:"no-store" });
-      if(!response.ok) return;
-      testSet = shuffleQuestionOptions(normalizeTestSet(await response.json()));
-    }catch(error){
-      console.error("Could not load test file:", error);
-    }
+    await loadJsonTestFile(filePath);
     return;
   }
   testSet = shuffleQuestionOptions(normalizeTestSet(window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")]));
@@ -426,9 +385,7 @@ function setHeader(){
   document.getElementById("testTitle").textContent = testSet.displayTitle || `${text(testSet.chapter)} - ${text(testSet.test)}`;
   document.getElementById("testMeta").textContent =
     `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | ${testSet.questions.length} Questions | +${testSet.correctMarks} correct, ${testSet.wrongMarks} wrong | ${testSet.durationMinutes} minutes`;
-  if(!started){
-    timer.textContent = formatTime(testSet.durationMinutes * 60);
-  }
+  if(!started) timer.textContent = formatTime(testSet.durationMinutes * 60);
 }
 
 function formatTime(seconds){
@@ -570,7 +527,7 @@ function renderResult(){
 }
 
 function currentTestId(){
-  const filePath = params.get("file") || params.get("set") || "";
+  const filePath = activeTestFilePath() || params.get("set") || "";
   const match = filePath.match(/([^/]+)\.json$/);
   return match ? match[1] : filePath || "test";
 }
@@ -597,14 +554,14 @@ async function saveAttemptResult(result, autoSubmitted){
       subject:text(testSet.subject) || "English",
       topic:text(testSet.section) || "Grammar",
       testId:currentTestId(),
-      testTitle:document.title || "Class 10 English Grammar Test",
+      testTitle:document.title || "Xohopathi Mock Test",
       score:Number(result.score.toFixed(2)),
       totalQuestions:testSet.questions.length,
       answers:selectedAnswers,
       correctAnswers,
       extra:{
         autoSubmitted,
-        file:params.get("file") || "",
+        file:activeTestFilePath(),
         correct:result.correct,
         wrong:result.wrong,
         unanswered:result.unanswered
@@ -644,9 +601,7 @@ document.querySelectorAll("input[name='medium']").forEach(input => {
 
 loadTestSet().then(function(){
   setHeader();
-  if(testSet){
-    renderStart();
-  }
+  if(testSet) renderStart();
 });
 </script>
 <script type="module" src="/save-attempt.js"></script>
