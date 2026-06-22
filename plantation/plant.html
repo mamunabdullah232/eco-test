@@ -4,232 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>Plant Details | Xohopathi Plantation Drive</title>
+<title>Plant Details | Green Army Plantation Drive</title>
 <style>
-:root{
-  --green:#15803d;
-  --deep:#064e3b;
-  --leaf:#dcfce7;
-  --sky:#e0f2fe;
-  --pink:#fce7f3;
-  --amber:#fef3c7;
-  --ink:#10251f;
-  --muted:#52655e;
-  --line:#d8e5dc;
-  --surface:#fff;
-  --bg:#f2f8f3;
-  --shadow:0 18px 42px rgba(6,78,59,.11);
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  min-height:100vh;
-  background:var(--bg);
-  color:var(--ink);
-  font-family:Arial,Helvetica,sans-serif;
-}
-.topbar{
-  min-height:70px;
-  display:flex;
-  align-items:center;
-  padding:12px max(18px,calc((100% - 920px) / 2));
-  background:#fff;
-  border-bottom:1px solid var(--line);
-}
-.brand{display:flex;align-items:center;gap:11px;font-weight:900;color:var(--ink)}
-.mark{
-  width:44px;
-  height:44px;
-  border-radius:12px;
-  display:grid;
-  place-items:center;
-  color:#fff;
-  font-size:1.3rem;
-  background:linear-gradient(135deg,var(--green),#0284c7);
-}
-.brand small{display:block;margin-top:2px;color:var(--muted);font-weight:700}
-main{width:min(920px,calc(100% - 28px));margin:28px auto;padding-bottom:28px}
-.plant-card{
-  background:var(--surface);
-  border:1px solid var(--line);
-  border-radius:16px;
-  box-shadow:var(--shadow);
-  overflow:hidden;
-}
-.cover{
-  display:grid;
-  grid-template-columns:.9fr 1.1fr;
-  min-height:330px;
-}
-.plant-photo{
-  width:100%;
-  height:100%;
-  min-height:330px;
-  object-fit:cover;
-  background:#dbeadd;
-}
-.photo-placeholder{
-  min-height:330px;
-  display:grid;
-  place-items:center;
-  text-align:center;
-  color:var(--green);
-  background:linear-gradient(145deg,#ecfdf5,#dbeafe);
-  font-size:1.05rem;
-  font-weight:800;
-  padding:22px;
-}
-.details{padding:28px}
-.badge{
-  display:inline-flex;
-  padding:7px 11px;
-  border-radius:999px;
-  color:#166534;
-  background:var(--leaf);
-  font-weight:900;
-  font-size:.78rem;
-  text-transform:uppercase;
-}
-h1{margin:14px 0 4px;color:var(--deep);font-size:clamp(1.7rem,4vw,2.35rem);line-height:1.12}
-.scientific{margin:0 0 20px;color:var(--muted);font-style:italic}
-.status{
-  display:inline-flex;
-  align-items:center;
-  gap:7px;
-  padding:8px 12px;
-  border-radius:9px;
-  background:var(--leaf);
-  color:#166534;
-  font-weight:900;
-}
-.status::before{
-  content:"";
-  width:9px;
-  height:9px;
-  border-radius:50%;
-  background:#16a34a;
-}
-.record{padding:0 28px 28px}
-.record-grid{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:10px;
-}
-.field{
-  min-height:74px;
-  padding:12px 13px;
-  border:1px solid var(--line);
-  border-radius:10px;
-}
-.field:nth-child(4n+1){background:var(--sky)}
-.field:nth-child(4n+2){background:var(--amber)}
-.field:nth-child(4n+3){background:var(--leaf)}
-.field:nth-child(4n+4){background:var(--pink)}
-.label{
-  display:block;
-  margin-bottom:4px;
-  color:#475569;
-  font-size:.75rem;
-  font-weight:900;
-  text-transform:uppercase;
-}
-.value{font-weight:800;line-height:1.35}
-.note{
-  margin:18px 0 0;
-  padding:14px;
-  border-radius:10px;
-  background:#f8fafc;
-  color:var(--muted);
-  font-size:.92rem;
-}
-.missing{
-  padding:54px 24px;
-  text-align:center;
-}
-.missing h1{font-size:1.55rem}
-.missing p{color:var(--muted)}
-footer{
-  padding:0 14px 28px;
-  text-align:center;
-  color:var(--muted);
-  font-size:.86rem;
-}
-@media(max-width:700px){
-  main{margin:18px auto}
-  .cover{grid-template-columns:1fr}
-  .plant-photo,.photo-placeholder{min-height:245px;height:245px}
-  .details,.record{padding:20px}
-  .record-grid{grid-template-columns:1fr}
-}
+:root{--green:#15803d;--deep:#064e3b;--leaf:#dcfce7;--sky:#e0f2fe;--pink:#fce7f3;--amber:#fef3c7;--ink:#10251f;--muted:#52655e;--line:#d8e5dc;--surface:#fff;--bg:#f2f8f3;--danger:#b91c1c;--shadow:0 18px 42px rgba(6,78,59,.11)}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif}.topbar{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px max(18px,calc((100% - 980px) / 2));background:#fff;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:11px;font-weight:900;color:var(--ink)}.mark{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:#fff;font-size:1.15rem;background:linear-gradient(135deg,var(--green),#0284c7)}.brand small{display:block;margin-top:2px;color:var(--muted);font-weight:700}.admin-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}.action-button,.login-link{display:inline-flex;align-items:center;justify-content:center;min-height:38px;border:0;border-radius:9px;padding:9px 13px;background:var(--green);color:#fff;font:inherit;font-size:.9rem;font-weight:900;text-decoration:none;cursor:pointer}.ghost-button{background:#fff;color:var(--green);border:1px solid var(--line)}main{width:min(980px,calc(100% - 28px));margin:28px auto;padding-bottom:28px}.plant-card{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}.cover{display:grid;grid-template-columns:.9fr 1.1fr;min-height:330px}.plant-photo{width:100%;height:100%;min-height:330px;object-fit:cover;background:#dbeadd}.photo-placeholder{min-height:330px;display:grid;place-items:center;text-align:center;color:var(--green);background:linear-gradient(145deg,#ecfdf5,#dbeafe);font-size:1.05rem;font-weight:800;padding:22px}.details{padding:28px}.badge{display:inline-flex;padding:7px 11px;border-radius:999px;color:#166534;background:var(--leaf);font-weight:900;font-size:.78rem;text-transform:uppercase}h1{margin:14px 0 4px;color:var(--deep);font-size:clamp(1.7rem,4vw,2.35rem);line-height:1.12}.scientific{margin:0 0 20px;color:var(--muted);font-style:italic}.status{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:9px;background:var(--leaf);color:#166534;font-weight:900}.status:before{content:"";width:9px;height:9px;border-radius:50%;background:#16a34a}.record{padding:0 28px 28px}.record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{min-height:74px;padding:12px 13px;border:1px solid var(--line);border-radius:10px}.field:nth-child(4n+1){background:var(--sky)}.field:nth-child(4n+2){background:var(--amber)}.field:nth-child(4n+3){background:var(--leaf)}.field:nth-child(4n+4){background:var(--pink)}.label{display:block;margin-bottom:4px;color:#475569;font-size:.75rem;font-weight:900;text-transform:uppercase}.value{font-weight:800;line-height:1.35;overflow-wrap:anywhere}.note{margin:18px 0 0;padding:14px;border-radius:10px;background:#f8fafc;color:var(--muted);font-size:.92rem}.editor{margin:22px 0 0;padding:18px;border:1px solid var(--line);border-radius:12px;background:#f8fafc}.editor[hidden]{display:none}.editor h2{margin:0 0 14px;color:var(--deep);font-size:1.15rem}.edit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.edit-field label{display:block;margin-bottom:5px;color:#334155;font-size:.78rem;font-weight:900;text-transform:uppercase}.edit-field input,.edit-field textarea,.edit-field select{width:100%;border:1px solid var(--line);border-radius:9px;padding:10px 11px;color:var(--ink);background:#fff;font:inherit}.edit-field textarea{min-height:95px;resize:vertical}.edit-field.full{grid-column:1 / -1}.editor-footer{display:flex;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap}.message{color:var(--muted);font-weight:800}.message.danger{color:var(--danger)}.missing{padding:54px 24px;text-align:center}.missing h1{font-size:1.55rem}.missing p{color:var(--muted)}footer{padding:0 14px 28px;text-align:center;color:var(--muted);font-size:.86rem}@media(max-width:700px){.topbar{align-items:flex-start;flex-direction:column}.admin-actions{justify-content:flex-start}main{margin:18px auto}.cover{grid-template-columns:1fr}.plant-photo,.photo-placeholder{min-height:245px;height:245px}.details,.record{padding:20px}.record-grid,.edit-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header class="topbar">
-  <div class="brand">
-    <span class="mark">X</span>
-    <span>Xohopathi<small>Plantation Drive</small></span>
-  </div>
-</header>
-
-<main>
-  <article class="plant-card" id="plantCard" aria-live="polite">
-    <div class="missing">
-      <p>Loading plant details...</p>
-    </div>
-  </article>
-</main>
-
-<footer>Xohopathi Plantation Drive | A greener campus, one plant at a time.</footer>
-
+<header class="topbar"><div class="brand"><span class="mark">GA</span><span>Green Army<small>Plantation Drive</small></span></div><div class="admin-actions" id="adminActions"></div></header>
+<main><article class="plant-card" id="plantCard" aria-live="polite"><div class="missing"><p>Loading plant details...</p></div></article></main>
+<footer>Green Army Plantation Drive | A greener campus, one plant at a time.</footer>
 <script src="plants-data.js"></script>
-<script>
-function clean(value){
-  return String(value || "").replace(/[&<>"']/g, function(character){
-    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[character];
-  });
-}
-
-const plantId = new URLSearchParams(window.location.search).get("id");
-const plants = Array.isArray(window.XOHOPATHI_PLANTS) ? window.XOHOPATHI_PLANTS : [];
-const plant = plants.find(function(item){ return item.id === plantId; });
-const card = document.getElementById("plantCard");
-
-if(!plant){
-  card.innerHTML = `
-    <div class="missing">
-      <span class="badge">Xohopathi Plantation Drive</span>
-      <h1>Plant record not found</h1>
-      <p>Please check the QR code or the Plant ID printed on the label.</p>
-    </div>
-  `;
-}else{
-  document.title = plant.plantName + " | Xohopathi Plantation Drive";
-  const imageMarkup = plant.photo
-    ? `<img class="plant-photo" src="${clean(plant.photo)}" alt="${clean(plant.plantName)}" onerror="this.outerHTML='<div class=&quot;photo-placeholder&quot;>Plant photograph will be updated soon.</div>'">`
-    : `<div class="photo-placeholder">Plant photograph<br>will be updated soon.</div>`;
-  card.innerHTML = `
-    <div class="cover">
-      ${imageMarkup}
-      <div class="details">
-        <span class="badge">Xohopathi Plantation Drive</span>
-        <h1>${clean(plant.plantName)}</h1>
-        <p class="scientific">${clean(plant.scientificName)}</p>
-        <span class="status">${clean(plant.status)}</span>
-      </div>
-    </div>
-    <div class="record">
-      <div class="record-grid">
-        <div class="field"><span class="label">Plant ID</span><span class="value">${clean(plant.id)}</span></div>
-        <div class="field"><span class="label">Donated By</span><span class="value">${clean(plant.donorName)}</span></div>
-        <div class="field"><span class="label">Maintained By</span><span class="value">${clean(plant.maintenancePerson)}</span></div>
-        <div class="field"><span class="label">Planted On</span><span class="value">${clean(plant.plantationDate)}</span></div>
-        <div class="field"><span class="label">Location</span><span class="value">${clean(plant.location)}</span></div>
-        <div class="field"><span class="label">Last Updated</span><span class="value">${clean(plant.lastUpdated)}</span></div>
-      </div>
-      <p class="note">${clean(plant.note)}</p>
-    </div>
-  `;
-}
+<script type="module">
+import {auth,db,onAuthStateChanged,doc,getDoc,setDoc,serverTimestamp,ADMIN_EMAILS} from "../firebase-config.js";
+const FIELD_DEFS=[["id","Plant ID"],["plantName","Plant Name"],["scientificName","Scientific Name"],["donorName","Donated By"],["plantedBy","Planted By"],["maintenancePerson","Maintained By"],["plantationDate","Planted On"],["location","Location"],["status","Status"],["lastUpdated","Last Updated"]];
+const EDIT_FIELDS=[["plantName","Plant Name","text"],["scientificName","Scientific Name","text"],["donorName","Donated By","text"],["plantedBy","Planted By","text"],["maintenancePerson","Maintained By","text"],["plantationDate","Planted On","text"],["location","Location","text"],["status","Status","select"],["photo","Photo URL","url"],["note","Note","textarea"]];
+const STATUS_OPTIONS=["Planned for plantation","Planted","Needs care","Healthy","Replaced"];
+function clean(value){return String(value??"").replace(/[&<>"']/g,function(character){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[character]})}
+function formatDate(value){if(!value)return "";if(value.toDate)value=value.toDate();if(value instanceof Date)return value.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});return String(value)}
+function todayLabel(){return new Date().toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"})}
+function currentPathWithQuery(){return window.location.pathname+window.location.search}
+const params=new URLSearchParams(window.location.search);const plantId=params.get("id");const shouldOpenEditor=params.get("edit")==="1";const plants=Array.isArray(window.GREEN_ARMY_PLANTS)?window.GREEN_ARMY_PLANTS:(Array.isArray(window.XOHOPATHI_PLANTS)?window.XOHOPATHI_PLANTS:[]);const staticPlant=plants.find(function(item){return item.id===plantId});const card=document.getElementById("plantCard");const adminActions=document.getElementById("adminActions");let currentPlant=staticPlant||null;let currentUser=null;let isAdmin=false;
+function renderActions(){if(!plantId||!currentPlant){adminActions.innerHTML="";return}if(isAdmin){adminActions.innerHTML='<button class="action-button" id="editBtn" type="button">Edit record</button><a class="login-link ghost-button" href="/admin-dashboard.html">Admin</a>';document.getElementById("editBtn").addEventListener("click",openEditor);return}const redirect=encodeURIComponent(currentPathWithQuery());adminActions.innerHTML='<a class="login-link" href="/login.html?redirect='+redirect+'">Admin login to edit</a>'}
+function renderMissing(){const label=plantId?"Plant ID "+clean(plantId):"Missing Plant ID";card.innerHTML='<div class="missing"><span class="badge">Green Army Plantation Drive</span><h1>Plant record not found</h1><p>'+label+'</p></div>';renderActions()}
+function fieldMarkup(plant){return FIELD_DEFS.map(function(pair){const key=pair[0],label=pair[1];const value=key==="lastUpdated"?formatDate(plant.updatedAt||plant.lastUpdated):plant[key];return '<div class="field"><span class="label">'+clean(label)+'</span><span class="value">'+clean(value||"-")+'</span></div>'}).join("")}
+function editorMarkup(plant){const fields=EDIT_FIELDS.map(function(item){const key=item[0],label=item[1],type=item[2],value=clean(plant[key]||"");if(type==="textarea")return '<div class="edit-field full"><label for="edit-'+key+'">'+clean(label)+'</label><textarea id="edit-'+key+'" name="'+key+'">'+value+'</textarea></div>';if(type==="select"){const options=STATUS_OPTIONS.map(function(option){return '<option value="'+clean(option)+'" '+(plant[key]===option?"selected":"")+'>'+clean(option)+'</option>'}).join("");return '<div class="edit-field"><label for="edit-'+key+'">'+clean(label)+'</label><select id="edit-'+key+'" name="'+key+'">'+options+'</select></div>'}return '<div class="edit-field"><label for="edit-'+key+'">'+clean(label)+'</label><input id="edit-'+key+'" name="'+key+'" type="'+type+'" value="'+value+'"></div>'}).join("");return '<form class="editor" id="editor" '+(isAdmin?"":"hidden")+'><h2>Edit plant record</h2><div class="edit-grid">'+fields+'</div><div class="editor-footer"><button class="action-button" id="saveBtn" type="submit">Save record</button><button class="action-button ghost-button" id="cancelEditBtn" type="button">Close</button><span class="message" id="saveMessage"></span></div></form>'}
+function renderPlant(plant){if(!plant){renderMissing();return}document.title=(plant.plantName||plant.id)+" | Green Army Plantation Drive";const imageMarkup=plant.photo?'<img class="plant-photo" src="'+clean(plant.photo)+'" alt="'+clean(plant.plantName||plant.id)+'" onerror="this.outerHTML=\'<div class=&quot;photo-placeholder&quot;>Plant photograph will be updated soon.</div>\'">':'<div class="photo-placeholder">Plant photograph<br>will be updated soon.</div>';card.innerHTML='<div class="cover">'+imageMarkup+'<div class="details"><span class="badge">Green Army Plantation Drive</span><h1>'+clean(plant.plantName||"Plant record")+'</h1><p class="scientific">'+clean(plant.scientificName||"")+'</p><span class="status">'+clean(plant.status||"Planned for plantation")+'</span></div></div><div class="record"><div class="record-grid">'+fieldMarkup(plant)+'</div><p class="note">'+clean(plant.note||"")+'</p>'+editorMarkup(plant)+'</div>';wireEditor();renderActions();if(shouldOpenEditor&&isAdmin)openEditor()}
+function openEditor(){const editor=document.getElementById("editor");if(editor){editor.hidden=false;editor.scrollIntoView({behavior:"smooth",block:"nearest"})}}
+function wireEditor(){const editor=document.getElementById("editor");if(!editor)return;const closeBtn=document.getElementById("cancelEditBtn");if(closeBtn)closeBtn.addEventListener("click",function(){editor.hidden=true});editor.addEventListener("submit",async function(event){event.preventDefault();if(!isAdmin||!currentPlant)return;const saveBtn=document.getElementById("saveBtn");const message=document.getElementById("saveMessage");const formData=new FormData(editor);const payload={id:currentPlant.id};EDIT_FIELDS.forEach(function(item){const key=item[0];payload[key]=String(formData.get(key)||"").trim()});payload.lastUpdated=todayLabel();payload.updatedAt=serverTimestamp();payload.updatedBy={uid:currentUser.uid,name:currentUser.displayName||"",email:(currentUser.email||"").toLowerCase()};saveBtn.disabled=true;message.className="message";message.textContent="Saving...";try{await setDoc(doc(db,"plantRecords",currentPlant.id),payload,{merge:true});currentPlant={...currentPlant,...payload,updatedAt:new Date()};message.textContent="Saved";renderPlant(currentPlant)}catch(error){console.error(error);message.className="message danger";message.textContent="Save failed"}finally{saveBtn.disabled=false}})}
+async function loadRemoteRecord(){if(!plantId||!staticPlant)return;try{const snapshot=await getDoc(doc(db,"plantRecords",plantId));if(snapshot.exists()){currentPlant={...staticPlant,...snapshot.data(),id:plantId};renderPlant(currentPlant)}}catch(error){console.warn("Plant record could not be loaded from Firestore:",error)}}
+if(!plantId||!staticPlant){renderMissing()}else{renderPlant(currentPlant);loadRemoteRecord()}
+onAuthStateChanged(auth,function(user){currentUser=user;const email=(user&&user.email?user.email:"").toLowerCase();isAdmin=ADMIN_EMAILS.map(function(item){return item.toLowerCase()}).includes(email);renderPlant(currentPlant)});
 </script>
 </body>
 </html>
