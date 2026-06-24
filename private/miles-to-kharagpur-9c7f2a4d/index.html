@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Miles to Kharagpur</title>
+  <style>
+    :root {
+      --ink: #1e1a3d;
+      --muted: #6c668a;
+      --card: rgba(255, 255, 255, 0.84);
+      --line: rgba(255, 255, 255, 0.48);
+      --pink: #ff4f9a;
+      --orange: #ff9f1c;
+      --yellow: #ffe66d;
+      --mint: #2ec4b6;
+      --blue: #4d96ff;
+      --violet: #845ec2;
+      --shadow: 0 24px 80px rgba(31, 28, 68, 0.22);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 18%, rgba(255, 230, 109, 0.84) 0 11rem, transparent 11.2rem),
+        radial-gradient(circle at 82% 12%, rgba(77, 150, 255, 0.72) 0 12rem, transparent 12.2rem),
+        radial-gradient(circle at 88% 82%, rgba(255, 79, 154, 0.68) 0 14rem, transparent 14.2rem),
+        linear-gradient(135deg, #fff2ad 0%, #baf6ea 36%, #c8dcff 70%, #ffd2ea 100%);
+      overflow-x: hidden;
+    }
+
+    body::before,
+    body::after {
+      position: fixed;
+      inset: auto;
+      z-index: 0;
+      width: 18rem;
+      height: 18rem;
+      content: "";
+      border-radius: 999px;
+      filter: blur(20px);
+      opacity: 0.72;
+      pointer-events: none;
+      animation: drift 12s ease-in-out infinite alternate;
+    }
+
+    body::before {
+      top: 9%;
+      left: -5rem;
+      background: rgba(255, 79, 154, 0.54);
+    }
+
+    body::after {
+      right: -4rem;
+      bottom: 7%;
+      background: rgba(46, 196, 182, 0.58);
+      animation-delay: -4s;
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      min-height: 100vh;
+      place-items: center;
+      padding: 2rem;
+    }
+
+    .timer-shell {
+      width: min(64rem, 100%);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .top-band {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(2rem, 5vw, 4rem);
+      background:
+        linear-gradient(110deg, rgba(255, 79, 154, 0.16), rgba(77, 150, 255, 0.16)),
+        rgba(255, 255, 255, 0.54);
+    }
+
+    .eyebrow {
+      width: fit-content;
+      margin: 0;
+      padding: 0.48rem 0.85rem;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--pink), var(--orange), var(--mint), var(--blue));
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      box-shadow: 0 10px 30px rgba(255, 79, 154, 0.24);
+    }
+
+    h1 {
+      max-width: 13ch;
+      margin: 0;
+      color: #201348;
+      font-size: clamp(3rem, 9vw, 6.6rem);
+      line-height: 0.92;
+    }
+
+    .subtitle {
+      max-width: 44rem;
+      margin: 0;
+      color: #423b69;
+      font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+      line-height: 1.6;
+    }
+
+    .route-card {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.68);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.6);
+    }
+
+    .place {
+      display: grid;
+      gap: 0.25rem;
+      min-width: 0;
+    }
+
+    .place small {
+      color: var(--muted);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .place strong {
+      font-size: clamp(1.1rem, 4vw, 1.75rem);
+    }
+
+    .route-line {
+      position: relative;
+      width: min(13rem, 26vw);
+      height: 0.38rem;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--pink), var(--orange), var(--mint), var(--blue));
+      box-shadow: 0 8px 20px rgba(77, 150, 255, 0.25);
+    }
+
+    .route-line::after {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 1.1rem;
+      height: 1.1rem;
+      content: "";
+      border: 3px solid #fff;
+      border-radius: 999px;
+      background: var(--violet);
+      box-shadow: 0 8px 18px rgba(32, 19, 72, 0.28);
+      transform: translate(-10%, -50%);
+      animation: ride 3.6s ease-in-out infinite;
+    }
+
+    .countdown-panel {
+      display: grid;
+      gap: 1.25rem;
+      padding: clamp(1.5rem, 4vw, 2.5rem);
+    }
+
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .status {
+      margin: 0;
+      color: #35285f;
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      font-weight: 800;
+    }
+
+    .start-time {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+      font-weight: 700;
+    }
+
+    .timer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: clamp(0.75rem, 2vw, 1rem);
+    }
+
+    .time-card {
+      min-width: 0;
+      padding: clamp(1rem, 3vw, 1.4rem);
+      border: 1px solid rgba(255, 255, 255, 0.76);
+      border-radius: 22px;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 14px 30px rgba(36, 26, 83, 0.16);
+    }
+
+    .time-card:nth-child(1) {
+      background: linear-gradient(145deg, #ff4f9a, #845ec2);
+    }
+
+    .time-card:nth-child(2) {
+      background: linear-gradient(145deg, #ff9f1c, #ff4f9a);
+    }
+
+    .time-card:nth-child(3) {
+      background: linear-gradient(145deg, #2ec4b6, #4d96ff);
+    }
+
+    .time-card:nth-child(4) {
+      background: linear-gradient(145deg, #4d96ff, #845ec2);
+    }
+
+    .time-card strong {
+      display: block;
+      font-size: clamp(2.15rem, 7vw, 4.8rem);
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .time-card span {
+      display: block;
+      margin-top: 0.45rem;
+      font-size: 0.82rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .progress-wrap {
+      display: grid;
+      gap: 0.6rem;
+    }
+
+    .progress-track {
+      height: 0.8rem;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(54, 46, 96, 0.12);
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--pink), var(--orange), var(--yellow), var(--mint), var(--blue));
+      transition: width 0.4s ease;
+    }
+
+    .footer-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: space-between;
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      padding: 0.45rem 0.72rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.58);
+      color: #413569;
+      font-weight: 800;
+    }
+
+    @keyframes ride {
+      0% {
+        left: 0;
+      }
+      50% {
+        left: 100%;
+      }
+      100% {
+        left: 0;
+      }
+    }
+
+    @keyframes drift {
+      from {
+        transform: translate3d(0, 0, 0) scale(1);
+      }
+      to {
+        transform: translate3d(2rem, 1.5rem, 0) scale(1.08);
+      }
+    }
+
+    @media (max-width: 720px) {
+      main {
+        padding: 1rem;
+      }
+
+      .timer-shell {
+        border-radius: 22px;
+      }
+
+      .route-card {
+        grid-template-columns: 1fr;
+      }
+
+      .route-line {
+        width: 100%;
+      }
+
+      .timer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="timer-shell" aria-labelledby="tripTitle">
+      <div class="top-band">
+        <p class="eyebrow">Private road trip countdown</p>
+        <h1 id="tripTitle">Miles to Kharagpur</h1>
+        <p class="subtitle">
+          Four travellers, one car, and a late-night start from Morigaon.
+          This colorful countdown is made for the small travel circle only.
+        </p>
+
+        <div class="route-card" aria-label="Trip route">
+          <div class="place">
+            <small>Starting point</small>
+            <strong>Morigaon</strong>
+          </div>
+          <div class="route-line" aria-hidden="true"></div>
+          <div class="place">
+            <small>Destination</small>
+            <strong>Kharagpur</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="countdown-panel">
+        <div class="status-row">
+          <p class="status" id="statusText">Trip starts in</p>
+          <p class="start-time">Start: 1 July 2026, 00:40 IST</p>
+        </div>
+
+        <div class="timer-grid" aria-live="polite">
+          <div class="time-card">
+            <strong id="days">00</strong>
+            <span>Days</span>
+          </div>
+          <div class="time-card">
+            <strong id="hours">00</strong>
+            <span>Hours</span>
+          </div>
+          <div class="time-card">
+            <strong id="minutes">00</strong>
+            <span>Minutes</span>
+          </div>
+          <div class="time-card">
+            <strong id="seconds">00</strong>
+            <span>Seconds</span>
+          </div>
+        </div>
+
+        <div class="progress-wrap" aria-label="Preparation progress">
+          <div class="progress-track">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <p class="footer-note">
+            <span class="pill">Share this link only with the 4 friends</span>
+            <span id="localTime">Local time loading...</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const tripStart = new Date("2026-07-01T00:40:00+05:30");
+    const preparationStart = new Date("2026-06-24T00:00:00+05:30");
+
+    const fields = {
+      days: document.getElementById("days"),
+      hours: document.getElementById("hours"),
+      minutes: document.getElementById("minutes"),
+      seconds: document.getElementById("seconds"),
+      status: document.getElementById("statusText"),
+      progress: document.getElementById("progressFill"),
+      localTime: document.getElementById("localTime")
+    };
+
+    const formatter = new Intl.DateTimeFormat("en-IN", {
+      dateStyle: "medium",
+      timeStyle: "medium",
+      timeZone: "Asia/Kolkata"
+    });
+
+    function twoDigits(value) {
+      return String(value).padStart(2, "0");
+    }
+
+    function renderTimer() {
+      const now = new Date();
+      const remaining = tripStart.getTime() - now.getTime();
+      const absolute = Math.abs(remaining);
+
+      const totalSeconds = Math.floor(absolute / 1000);
+      const days = Math.floor(totalSeconds / 86400);
+      const hours = Math.floor((totalSeconds % 86400) / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+
+      fields.days.textContent = twoDigits(days);
+      fields.hours.textContent = twoDigits(hours);
+      fields.minutes.textContent = twoDigits(minutes);
+      fields.seconds.textContent = twoDigits(seconds);
+      fields.status.textContent = remaining >= 0 ? "Trip starts in" : "On the road for";
+      fields.localTime.textContent = `Current IST: ${formatter.format(now)}`;
+
+      const totalPrep = tripStart.getTime() - preparationStart.getTime();
+      const progress = Math.min(100, Math.max(0, ((now.getTime() - preparationStart.getTime()) / totalPrep) * 100));
+      fields.progress.style.width = `${progress}%`;
+    }
+
+    renderTimer();
+    window.setInterval(renderTimer, 1000);
+  </script>
+</body>
+</html>
