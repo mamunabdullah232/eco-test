@@ -184,65 +184,269 @@ main{
 }
 .section-head p{color:var(--muted);font-size:1rem}
 .home-shell{
-  display:grid;
-  place-items:center;
+  align-items:start;
   min-height:calc(100vh - 170px);
 }
-.fact-card{
-  width:min(920px,100%);
+.result-portal{
+  width:100%;
+  display:grid;
+  gap:18px;
+}
+.result-programs{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.result-program{
+  appearance:none;
+  border:1px solid #dbe4ef;
+  border-radius:14px;
+  padding:18px;
+  text-align:left;
+  background:#fff;
+  cursor:pointer;
+  box-shadow:0 8px 22px rgba(15,23,42,.055);
+  font:inherit;
+}
+.result-program:hover,
+.result-program.active{
+  border-color:var(--blue);
+  background:#f8fbff;
+}
+.result-program strong{
+  display:block;
+  color:var(--ink);
+  font-size:1.06rem;
+  line-height:1.25;
+}
+.result-program span{
+  display:block;
+  color:var(--muted);
+  font-size:.89rem;
+  margin-top:5px;
+}
+.result-panel{
   background:#fff;
   border:1px solid var(--border);
-  border-radius:24px;
-  overflow:hidden;
-  box-shadow:var(--shadow);
-  display:grid;
-  grid-template-columns:.95fr 1.05fr;
-  border-top:7px solid transparent;
-  border-image:linear-gradient(90deg,var(--blue),var(--green),var(--orange),var(--rose)) 1;
+  border-radius:18px;
+  padding:22px;
+  box-shadow:0 10px 25px rgba(15,23,42,.06);
 }
-.fact-media{
-  min-height:360px;
-  background:#dbeafe;
-}
-.fact-media img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-}
-.fact-copy{
-  padding:32px;
+.result-panel-head{
   display:flex;
-  flex-direction:column;
-  justify-content:center;
-  background:linear-gradient(135deg,#ffffff 0%,#f8fbff 52%,#fff7ed 100%);
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:18px;
 }
-.fact-date{
-  display:inline-flex;
-  align-self:flex-start;
-  background:#dcfce7;
-  color:#166534;
-  padding:7px 11px;
-  border-radius:999px;
+.result-panel-head h2{
+  color:var(--ink);
+  font-size:1.35rem;
+  line-height:1.2;
+}
+.result-panel-head p{
+  color:var(--muted);
+  font-size:.93rem;
+  margin-top:4px;
+}
+.result-form{
+  display:grid;
+  grid-template-columns:1.4fr .7fr auto;
+  gap:12px;
+  align-items:end;
+}
+.result-field{
+  display:grid;
+  gap:6px;
+  color:#334155;
+  font-size:.88rem;
+  font-weight:900;
+}
+.result-field select,
+.result-field input{
+  width:100%;
+  min-height:48px;
+  border:1px solid #cbd5e1;
+  border-radius:11px;
+  padding:0 12px;
+  color:var(--ink);
+  background:#fff;
+  font:inherit;
+  font-weight:700;
+}
+.result-field[hidden]{display:none}
+.result-submit,
+.result-print,
+.result-reset{
+  min-height:48px;
+  border:0;
+  border-radius:11px;
+  padding:0 16px;
+  font:inherit;
+  font-weight:900;
+  cursor:pointer;
+}
+.result-submit{
+  background:var(--blue);
+  color:#fff;
+}
+.result-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:14px;
+}
+.result-print{
+  background:#0f766e;
+  color:#fff;
+}
+.result-reset{
+  background:#f1f5f9;
+  color:#334155;
+  border:1px solid #cbd5e1;
+}
+.result-message{
+  margin-top:12px;
+  color:#be123c;
+  font-size:.92rem;
+  font-weight:800;
+}
+.marksheet{
+  margin-top:22px;
+  background:#fff;
+  border:1px solid #cbd5e1;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 14px 32px rgba(15,23,42,.08);
+}
+.marksheet[hidden]{display:none}
+.marksheet-header{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:18px;
+  align-items:center;
+  padding:24px;
+  background:linear-gradient(135deg,#0f172a 0%,#1e3a8a 56%,#0f766e 100%);
+  color:#fff;
+}
+.marksheet-logo{
+  width:66px;
+  height:66px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  border:4px double rgba(255,255,255,.85);
+  font-weight:900;
+  font-size:1.25rem;
+}
+.marksheet-title h2{
+  font-size:1.4rem;
+  line-height:1.15;
+  letter-spacing:0;
+}
+.marksheet-title p{
+  color:#dbeafe;
+  font-size:.92rem;
+  margin-top:4px;
+}
+.marksheet-badge{
+  display:grid;
+  gap:3px;
+  text-align:right;
   font-size:.8rem;
   font-weight:900;
-  margin-bottom:12px;
 }
-.fact-copy h1{
-  color:var(--green);
-  font-size:clamp(1.9rem,3.4vw,2.7rem);
-  line-height:1.08;
-  letter-spacing:-.035em;
-  margin-bottom:12px;
+.marksheet-badge span{
+  padding:4px 8px;
+  border-radius:999px;
+  background:rgba(255,255,255,.14);
 }
-.fact-title{
-  color:var(--ink);
-  font-size:1.2rem;
+.marksheet-body{
+  padding:22px;
+  display:grid;
+  gap:18px;
+}
+.student-grid,
+.stat-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:10px;
+}
+.info-box,
+.stat-box{
+  border:1px solid #e2e8f0;
+  border-radius:12px;
+  padding:12px;
+  background:#f8fafc;
+}
+.info-box span,
+.stat-box span{
+  display:block;
+  color:#64748b;
+  font-size:.76rem;
   font-weight:900;
-  margin-bottom:8px;
+  text-transform:uppercase;
 }
-.fact-copy p{
+.info-box strong,
+.stat-box strong{
+  display:block;
+  color:var(--ink);
+  margin-top:4px;
+  font-size:1.02rem;
+  line-height:1.2;
+}
+.stat-box strong{font-size:1.18rem}
+.marks-table-wrap{overflow-x:auto}
+.marks-table{
+  width:100%;
+  min-width:720px;
+  border-collapse:collapse;
+  border:1px solid #cbd5e1;
+  border-radius:12px;
+  overflow:hidden;
+}
+.marks-table th,
+.marks-table td{
+  padding:12px 11px;
+  border-bottom:1px solid #e2e8f0;
+  text-align:left;
+  vertical-align:middle;
+}
+.marks-table th{
+  background:#eff6ff;
+  color:#1e3a8a;
+  font-size:.82rem;
+  text-transform:uppercase;
+  letter-spacing:0;
+}
+.marks-table td{
   color:#334155;
-  font-size:1.03rem;
+  font-weight:700;
+}
+.marks-table td:nth-child(3),
+.marks-table td:nth-child(4),
+.marks-table td:nth-child(5){
+  text-align:right;
+}
+.marks-table tr.pending td{
+  color:#64748b;
+  background:#f8fafc;
+}
+.marksheet-foot{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  padding-top:10px;
+  color:#475569;
+  font-size:.9rem;
+}
+.signature-line{
+  margin-top:32px;
+  padding-top:8px;
+  border-top:1px solid #94a3b8;
+  text-align:center;
+  color:#334155;
+  font-weight:900;
 }
 .grid{
   display:grid;
@@ -961,11 +1165,9 @@ footer{
     min-height:0;
     place-items:start center;
   }
-  .fact-card{grid-template-columns:1fr}
-  .fact-media{
-    min-height:0;
-    aspect-ratio:16/8.5;
-  }
+  .result-form{grid-template-columns:1fr 1fr}
+  .result-submit{grid-column:1 / -1}
+  .student-grid,.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .grid,.contact-grid{grid-template-columns:1fr}
   .corner-actions{grid-template-columns:repeat(2,1fr)}
   .rule-grid{grid-template-columns:1fr}
@@ -983,14 +1185,10 @@ footer{
     padding:7px 8px;
     font-size:.75rem;
   }
-  .fact-card{
-    border-radius:18px;
-    box-shadow:0 12px 25px rgba(15,23,42,.1);
-  }
-  .fact-copy{padding:21px 18px 24px}
-  .fact-copy h1{font-size:1.7rem}
-  .fact-title{font-size:1.08rem}
-  .fact-copy p{font-size:.96rem}
+  .result-panel,.marksheet-body{padding:18px}
+  .result-programs,.result-form,.student-grid,.stat-grid,.marksheet-foot{grid-template-columns:1fr}
+  .marksheet-header{grid-template-columns:1fr;text-align:left}
+  .marksheet-badge{text-align:left}
   .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
   .resource-row{grid-template-columns:42px 1fr}
   .resource-row .badge{grid-column:2;justify-self:start}
@@ -1000,6 +1198,17 @@ footer{
   .routine-legend{gap:10px}
   .routine-table{min-width:520px}
   .routine-time-grid{grid-template-columns:1fr}
+}
+@media print{
+  body{background:#fff;color:#000}
+  header,footer,.skip-link,.result-hero,.result-programs,.result-panel-head,.result-form,.result-message,.result-actions{display:none!important}
+  main{padding:0}
+  .container{width:100%;margin:0}
+  .home-shell{min-height:0}
+  .result-portal{display:block}
+  .result-panel{border:0;box-shadow:none;padding:0}
+  .marksheet{display:block!important;margin:0;border:0;box-shadow:none;border-radius:0}
+  .marksheet-header{print-color-adjust:exact;-webkit-print-color-adjust:exact}
 }
 </style>
 </head>
@@ -1027,54 +1236,45 @@ footer{
 <main id="main">
   <section class="page-view" id="home" data-title="Home">
     <div class="container home-shell">
-     <article class="fact-card" aria-labelledby="fact-heading">
-  <div class="fact-header">
-    <span class="fact-pill">🙏 Pray for Assam</span>
-  </div>
-
-  <div class="fact-body">
-    <div class="fact-image-wrap">
-      <img
-        id="factImage"
-        src="https://raw.githubusercontent.com/mamunabdullah232/eco-test/main/deccanherald_2026-07-22_rcd5v7r9_Assam_Floods__3_.avif"
-        alt="People affected by the Assam floods">
-    </div>
-
-    <div class="fact-content">
-      <h3 id="fact-heading">Stand with Assam</h3>
-
-      <p id="factText">
-        Assam is once again battling devastating floods, affecting thousands of
-        families across the state. Many have lost their homes, livelihoods, and
-        access to essential services. Let us keep everyone impacted in our
-        thoughts and prayers, and extend support wherever possible.
-      </p>
-
-      <p class="fact-footer">
-        <strong>🙏 We pray for the safety, strength, and speedy recovery of every affected family.</strong>
-      </p>
-    </div>
-  </div>
-</article>
-
-    <!-- KEEP YOUR EXISTING CENSUS TRAINING WHATSAPP BUTTON BELOW -->
-         <a href="https://chat.whatsapp.com/BADJgC1DYjdCmpPutMANfb"
-   target="_blank"
-   rel="noopener noreferrer"
-   style="display:inline-block;margin-top:18px;padding:14px 20px;border-radius:14px;background:linear-gradient(135deg,#16a34a,#0ea5e9,#f97316,#e11d48);color:#ffffff;font-weight:900;font-size:1.08rem;line-height:1.35;text-align:center;box-shadow:0 0 0 4px rgba(34,197,94,.25),0 14px 30px rgba(225,29,72,.32);border:3px solid #ffffff;animation:pulseJoin 1.4s infinite;"
-   onclick="event.preventDefault(); if(prompt('Enter password to join WhatsApp group') === '1881'){ window.open(this.href, '_blank', 'noopener,noreferrer'); } else { alert('Wrong password'); }">
-  🔔 Click here to join Batch 3 Census Training Whatsapp Group (Charaibahi HS School) 🔔
-</a>
-
-<style>
-@keyframes pulseJoin {
-  0% { transform: scale(1); box-shadow:0 0 0 4px rgba(34,197,94,.25),0 14px 30px rgba(225,29,72,.32); }
-  50% { transform: scale(1.04); box-shadow:0 0 0 8px rgba(14,165,233,.25),0 18px 36px rgba(249,115,22,.38); }
-  100% { transform: scale(1); box-shadow:0 0 0 4px rgba(34,197,94,.25),0 14px 30px rgba(225,29,72,.32); }
-}
-</style>
+      <div class="result-portal" aria-label="Exam result portal">
+        <!-- EXAM RESULT LINKS: update or add result buttons here when you publish another class result. -->
+        <div class="result-programs" aria-label="Exam result links">
+          <button class="result-program active" type="button" data-result-class="class7">
+            <strong>Class 7 B Section Result</strong>
+            <span>English marks published / other subjects to be updated</span>
+          </button>
+          <button class="result-program" type="button" data-result-class="class12">
+            <strong>Class 12 Result</strong>
+            <span>Economics marks published / other subjects to be updated</span>
+          </button>
         </div>
-      </article>
+
+        <section class="result-panel" aria-labelledby="resultLookupHeading">
+          <div class="result-panel-head">
+            <div>
+              <h2 id="resultLookupHeading">View Student Marksheet</h2>
+              <p id="resultInstruction">Class 7 B: select name and enter roll number.</p>
+            </div>
+          </div>
+          <form class="result-form" id="resultForm">
+            <label class="result-field">
+              Student Name
+              <select id="resultStudentSelect" required></select>
+            </label>
+            <label class="result-field" id="resultRollField">
+              Roll Number
+              <input id="resultRollInput" type="text" inputmode="numeric" autocomplete="off" placeholder="Enter roll no." />
+            </label>
+            <button class="result-submit" type="submit">Get Marksheet</button>
+          </form>
+          <div class="result-message" id="resultMessage" role="alert" aria-live="polite"></div>
+          <div class="result-actions" id="resultActions" hidden>
+            <button class="result-print" type="button" id="resultPrintBtn">Print Marksheet</button>
+            <button class="result-reset" type="button" id="resultResetBtn">Check Another Student</button>
+          </div>
+          <article class="marksheet" id="marksheetOutput" hidden aria-live="polite"></article>
+        </section>
+      </div>
     </div>
   </section>
 
@@ -1314,6 +1514,236 @@ footer{
 </footer>
 
 <script>
+const resultData = {"generatedOn":"2026-08-07T18:28:53.717Z","class7Students":[{"roll":"1","uniqueId":"18090301202252643","name":"FAHIJA FARUK","fatherName":"FARUK AHMED","classSection":"Class-VII Section B","gender":"Female","english":20},{"roll":"2","uniqueId":"18090300502210121","name":"Ramisha Tabasum","fatherName":"Rakibuddin Ahmed","classSection":"Class-VII Section B","gender":"Female","english":18},{"roll":"3","uniqueId":"18090300702180021","name":"Himanshu Das","fatherName":"Hiteswar Das","classSection":"Class-VII Section B","gender":"Male","english":18},{"roll":"4","uniqueId":"18090301101210097","name":"Mehrin Alam","fatherName":"Manju Alam","classSection":"Class-VII Section B","gender":"Female","english":16},{"roll":"5","uniqueId":"18090301201220218","name":"Ranveer Mazumdar","fatherName":"Subir Mazumdar","classSection":"Class-VII Section B","gender":"Male","english":14},{"roll":"6","uniqueId":"18100419401190004","name":"SUMI DEKA","fatherName":"BUBUL DEKA","classSection":"Class-VII Section B","gender":"Female","english":14},{"roll":"7","uniqueId":"18090301308210236","name":"MINHAJ AHMED","fatherName":"SARIFUDDIN AHMED","classSection":"Class-VII Section B","gender":"Male","english":19},{"roll":"8","uniqueId":"18090301302200004","name":"BHASKAR JYOTI NATH","fatherName":"KIRAN NATH","classSection":"Class-VII Section B","gender":"Male","english":14},{"roll":"9","uniqueId":"18090301201210164","name":"Sarmin Akhtara","fatherName":"Mehedi Alom","classSection":"Class-VII Section B","gender":"Female","english":13},{"roll":"10","uniqueId":"18090300601200019","name":"AFRIN SULTANA","fatherName":"ANSAR ALI","classSection":"Class-VII Section B","gender":"Female","english":13},{"roll":"11","uniqueId":"18090301101210096","name":"Narjina Sultana","fatherName":"Nur Mahammad","classSection":"Class-VII Section B","gender":"Female","english":15},{"roll":"12","uniqueId":"18090300701200014","name":"Md. Jiaul Islam","fatherName":"Dilsan Ali","classSection":"Class-VII Section B","gender":"Male","english":8},{"roll":"13","uniqueId":"18090301308200033","name":"NASIB ALI","fatherName":"SULEMAN ALI","classSection":"Class-VII Section B","gender":"Male","english":11},{"roll":"14","uniqueId":"18090301308200023","name":"NAJIFA SULTANA","fatherName":"SAHIDUL ISLAM","classSection":"Class-VII Section B","gender":"Female","english":14},{"roll":"15","uniqueId":"18090301308200037","name":"MARUFA BEGUM","fatherName":"GULMOHAMMED","classSection":"Class-VII Section B","gender":"Female","english":12},{"roll":"16","uniqueId":"18090301101200006","name":"RUSMIYA BEGUM","fatherName":"RATUL ALI","classSection":"Class-VII Section B","gender":"Female","english":13},{"roll":"17","uniqueId":"18090301202252655","name":"AJIJUL ALI","fatherName":"SAHIDUR RAHMAN","classSection":"Class-VII Section B","gender":"Male","english":10},{"roll":"18","uniqueId":"18090300502210154","name":"Samsriya Lazmi","fatherName":"Sahabuddin Ahmed","classSection":"Class-VII Section B","gender":"Female","english":9},{"roll":"19","uniqueId":"18090300601200017","name":"SAHNAZ AKHTARA","fatherName":"SEKH ABDULLA","classSection":"Class-VII Section B","gender":"Female","english":15},{"roll":"20","uniqueId":"","name":"Suhel Alam","fatherName":"","classSection":"Class-VII Section B","gender":"","english":11},{"roll":"21","uniqueId":"18090301308200019","name":"RIHAN HUSSAIN","fatherName":"SADDAM HUSSAIN","classSection":"Class-VII Section B","gender":"Male","english":7},{"roll":"22","uniqueId":"18090300502210122","name":"Jenifa Wahid","fatherName":"Jiaur Rahman","classSection":"Class-VII Section B","gender":"Female","english":10},{"roll":"23","uniqueId":"18090301202252682","name":"MAHJEBIN SULTANA","fatherName":"Maharul Islam","classSection":"Class-VII Section B","gender":"Female","english":11},{"roll":"24","uniqueId":"18090301202252685","name":"ARMIN SULTANA","fatherName":"Abdul kalam","classSection":"Class-VII Section B","gender":"Female","english":6},{"roll":"25","uniqueId":"18090300602210077","name":"JENIFA SULTANA","fatherName":"JIAUL HOQUE","classSection":"Class-VII Section B","gender":"Female","english":9},{"roll":"26","uniqueId":"18090300602200001","name":"Abdul Samad","fatherName":"Surjan Ali","classSection":"Class-VII Section B","gender":"Male","english":7},{"roll":"27","uniqueId":"18090300601210111","name":"YESMIN SULTANA","fatherName":"Wahidur Rahman","classSection":"Class-VII Section B","gender":"Female","english":5},{"roll":"28","uniqueId":"18090301308200002","name":"SALMA BEGUM","fatherName":"ABDUL KARIM","classSection":"Class-VII Section B","gender":"Female","english":6},{"roll":"29","uniqueId":"18090301201200005","name":"PUNAM MAZUMDAR","fatherName":"RAJIB MAZUMDAR","classSection":"Class-VII Section B","gender":"Female","english":9},{"roll":"30","uniqueId":"18100412401190010","name":"MUNMI DEWRI","fatherName":"BHARAT CHANDA DEWRI","classSection":"Class-VII Section B","gender":"Female","english":4},{"roll":"31","uniqueId":"18090300802210102","name":"RASIDA KHATUN","fatherName":"ABDUL RASHID","classSection":"Class-VII Section B","gender":"Female","english":6},{"roll":"32","uniqueId":"18090301302200006","name":"HIRAMONI DAS","fatherName":"JIBAN DAS","classSection":"Class-VII Section B","gender":"Female","english":6},{"roll":"33","uniqueId":"18090300602210125","name":"MARCHI SIDDIKA","fatherName":"Babul Ali","classSection":"Class-VII Section B","gender":"Female","english":4},{"roll":"34","uniqueId":"18090301202252646","name":"BINITA DAS","fatherName":"Raju das","classSection":"Class-VII Section B","gender":"Female","english":5},{"roll":"35","uniqueId":"18090300702200004","name":"SRI BISHAL DAS","fatherName":"Sri Biju Das","classSection":"Class-VII Section B","gender":"Male","english":2},{"roll":"36","uniqueId":"18090300701200013","name":"Nargis Begum","fatherName":"Nabab Ali","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"37","uniqueId":"18090300702190015","name":"Trishna Das","fatherName":"Sri Nitumoni Das","classSection":"Class-VII Section B","gender":"Female","english":5},{"roll":"38","uniqueId":"18090300701210113","name":"Mustak Hussain","fatherName":"Mokib Hussain","classSection":"Class-VII Section B","gender":"Male","english":2},{"roll":"39","uniqueId":"18090300702180020","name":"Jhumki Das","fatherName":"Narayan Das","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"40","uniqueId":"18090301302220159","name":"Rohan Das","fatherName":"Ramen Das","classSection":"Class-VII Section B","gender":"Male","english":4},{"roll":"41","uniqueId":"18090300802210095","name":"Jenifa Akhtara","fatherName":"Jiabur Rahman","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"42","uniqueId":"18090301202252644","name":"SABRIN SIDDIKA","fatherName":"FAJIBUR HOQUE","classSection":"Class-VII Section B","gender":"Female","english":3},{"roll":"43","uniqueId":"18090301302220146","name":"Neha Devi","fatherName":"Dipak Nath","classSection":"Class-VII Section B","gender":"Female","english":4},{"roll":"45","uniqueId":"18090301202252654","name":"MD NAJIM AHMED","fatherName":"MAFIJUDDIN AHMED","classSection":"Class-VII Section B","gender":"Male","english":2},{"roll":"46","uniqueId":"18090300702180019","name":"Monjita Das","fatherName":"Mukul Ch. Das","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"47","uniqueId":"18090301202252641","name":"JUNUARA BEGUM","fatherName":"JUMA UDDIN","classSection":"Class-VII Section B","gender":"Female","english":3},{"roll":"48","uniqueId":"18090301202252642","name":"NIHARIKA DAS","fatherName":"SANAT KUMAR DAS","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"49","uniqueId":"18090301201200017","name":"SMRITY BORDOLOI","fatherName":"SIMANTA BORDOLOI","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"50","uniqueId":"18090301201220189","name":"Miss Aisha Siddika","fatherName":"Mominul Hoque","classSection":"Class-VII Section B","gender":"Female","english":3},{"roll":"51","uniqueId":"18090300801230009","name":"JUWAIYA AHMED","fatherName":"…....","classSection":"Class-VII Section B","gender":"Male","english":1},{"roll":"52","uniqueId":"18090300601200018","name":"SUMMAIYA BEGUM","fatherName":"ROUSAN ALI","classSection":"Class-VII Section B","gender":"Female","english":4},{"roll":"53","uniqueId":"18090301101210098","name":"Sajidur Rahman","fatherName":"Abdul Karim","classSection":"Class-VII Section B","gender":"Male","english":7},{"roll":"54","uniqueId":"18090301308200028","name":"AKRAM ALI","fatherName":"FAIJUL HOQUE","classSection":"Class-VII Section B","gender":"Male","english":7},{"roll":"55","uniqueId":"18090301201200018","name":"MUBACHIRA BEGUM","fatherName":"INAMUL HOQUE","classSection":"Class-VII Section B","gender":"Female","english":1},{"roll":"56","uniqueId":"18090301201200013","name":"ZERIFA SULTANA","fatherName":"JALAJ ALI","classSection":"Class-VII Section B","gender":"Female","english":1},{"roll":"57","uniqueId":"18090301405200001","name":"Rokibul Hussain","fatherName":"Taznur Ali","classSection":"Class-VII Section B","gender":"Male","english":6},{"roll":"58","uniqueId":"18100419401180004","name":"GOPAL DEKA","fatherName":"Guluk Deka","classSection":"Class-VII Section B","gender":"Male","english":2},{"roll":"59","uniqueId":"18090301302220145","name":"Riya Das","fatherName":"Pranjal Das","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"60","uniqueId":"18090301202252684","name":"NAZIMA BEGUM","fatherName":"Nurjahan Ali","classSection":"Class-VII Section B","gender":"Female","english":1},{"roll":"61","uniqueId":"18090301405200006","name":"Tehsin Akhtara","fatherName":"Tajib Uddin","classSection":"Class-VII Section B","gender":"Female","english":1},{"roll":"62","uniqueId":"","name":"Mustafizur","fatherName":"","classSection":"Class-VII Section B","gender":"","english":2},{"roll":"63","uniqueId":"18090301302200005","name":"NIHARIKA DEVI","fatherName":"MAHESWAR NATH","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"64","uniqueId":"18090301202252645","name":"PRATIBHA BANIA","fatherName":"SARUDHAN BANIA","classSection":"Class-VII Section B","gender":"Female","english":1},{"roll":"65","uniqueId":"18090301308200044","name":"JEBIN SULTANA","fatherName":"JOYMIL HOQUE","classSection":"Class-VII Section B","gender":"Female","english":2},{"roll":"66","uniqueId":"18090301202252686","name":"ZESMIN AKHTARA","fatherName":"Jiaur Rahman","classSection":"Class-VII Section B","gender":"Female","english":1},{"roll":"67","uniqueId":"18090302001200006","name":"RAHUL DAS","fatherName":"Sunil Das","classSection":"Class-VII Section B","gender":"Male","english":6},{"roll":"68","uniqueId":"18090301308200016","name":"RAKIB HUSSAIN","fatherName":"AHSHAN ALI","classSection":"Class-VII Section B","gender":"Male","english":1},{"roll":"69","uniqueId":"18100419401190005","name":"ROHIT BAISHNAB","fatherName":"GUNENDRA BAISHNAB","classSection":"Class-VII Section B","gender":"Male","english":1},{"roll":"70","uniqueId":"","name":"Sania Sultana","fatherName":"","classSection":"Class-VII Section B","gender":"","english":1},{"roll":"71","uniqueId":"18090301308200027","name":"IKRAMUL HUSSAIN","fatherName":"ISMAIL HUSSAIN","classSection":"Class-VII Section B","gender":"Male","english":2},{"roll":"72","uniqueId":"","name":"Azahar Alam","fatherName":"","classSection":"Class-VII Section B","gender":"","english":11},{"roll":"73","uniqueId":"","name":"Mominul Hoque","fatherName":"","classSection":"Class-VII Section B","gender":"","english":1},{"roll":"74","uniqueId":"","name":"Sabbin Sultana","fatherName":"","classSection":"Class-VII Section B","gender":"","english":1},{"roll":"76","uniqueId":"","name":"Injura Ahmed","fatherName":"","classSection":"Class-VII Section B","gender":"","english":23},{"roll":"78","uniqueId":"","name":"Muskan Ahmed","fatherName":"","classSection":"Class-VII Section B","gender":"","english":2},{"roll":"79","uniqueId":"","name":"Tushar Ranjan Das","fatherName":"","classSection":"Class-VII Section B","gender":"","english":3}],"class12Students":[{"roll":"","name":"Nashrin Sultan","economics":14},{"roll":"","name":"Jebin Sultana","economics":19},{"roll":"","name":"Ahan Tanjid","economics":13},{"roll":"","name":"Afrin Begum","economics":18},{"roll":"","name":"Rumena Khatun","economics":11},{"roll":"","name":"Sabina Begum","economics":18},{"roll":"","name":"Sarsing Bey","economics":7}]};
+const resultConfigs = {
+  class7:{
+    label:"Class 7 B Section",
+    school:"JALUGUTI HIGHER SECONDARY SCHOOL",
+    exam:"First Unit Test 2026",
+    className:"Class 7",
+    section:"B",
+    requireRoll:true,
+    password:"Jaluguti123",
+    publishedSubject:"English",
+    markKey:"english",
+    subjects:["English","Assamese","General Science","Social Science","Hindi","General Mathematics"],
+    students:resultData.class7Students
+  },
+  class12:{
+    label:"Class 12",
+    school:"JALUGUTI HIGHER SECONDARY SCHOOL",
+    exam:"First Unit Test 2026",
+    className:"Class 12 / Higher Secondary First Year",
+    section:"Arts",
+    requireRoll:false,
+    password:"Jaluguti321",
+    publishedSubject:"Economics",
+    markKey:"economics",
+    subjects:["English","Assamese","Economics","Political Science","Education","History","Swadesh Adhyayan"],
+    students:resultData.class12Students
+  }
+};
+let activeResultClass = "class7";
+
+function escapeHtml(value){
+  return String(value ?? "").replace(/[&<>"']/g, function(char){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char];
+  });
+}
+
+function numericMark(mark){
+  return typeof mark === "number" && Number.isFinite(mark) ? mark : null;
+}
+
+function percent(mark){
+  const value = numericMark(mark);
+  return value === null ? "" : ((value / 25) * 100).toFixed(1) + "%";
+}
+
+function grade(mark){
+  const value = numericMark(mark);
+  if(value === null) return String(mark || "To be updated");
+  const score = (value / 25) * 100;
+  if(score >= 90) return "A+";
+  if(score >= 80) return "A";
+  if(score >= 70) return "B+";
+  if(score >= 60) return "B";
+  if(score >= 50) return "C";
+  if(score >= 35) return "D";
+  return "Needs Improvement";
+}
+
+function resultStats(config){
+  const marks = config.students.map(function(student){ return numericMark(student[config.markKey]); }).filter(function(mark){ return mark !== null; });
+  const total = marks.reduce(function(sum, mark){ return sum + mark; }, 0);
+  return {
+    count:marks.length,
+    highest:marks.length ? Math.max.apply(null, marks) : "-",
+    lowest:marks.length ? Math.min.apply(null, marks) : "-",
+    average:marks.length ? (total / marks.length).toFixed(1) : "-"
+  };
+}
+
+function resultRank(config, mark){
+  const value = numericMark(mark);
+  if(value === null) return "-";
+  const higher = config.students.filter(function(student){
+    const studentMark = numericMark(student[config.markKey]);
+    return studentMark !== null && studentMark > value;
+  }).length;
+  return String(higher + 1);
+}
+
+function populateResultStudents(){
+  const config = resultConfigs[activeResultClass];
+  const select = document.getElementById("resultStudentSelect");
+  select.innerHTML = '<option value="">Select student name</option>' + config.students.map(function(student, index){
+    const label = config.requireRoll
+      ? "Roll " + student.roll + " - " + student.name
+      : student.name;
+    return '<option value="' + index + '">' + escapeHtml(label) + '</option>';
+  }).join("");
+  document.getElementById("resultRollField").hidden = !config.requireRoll;
+  document.getElementById("resultRollInput").value = "";
+  document.getElementById("resultInstruction").textContent = config.requireRoll
+    ? "Class 7 B: select name and enter roll number."
+    : "Class 12: select name only.";
+  clearResultOutput();
+}
+
+function clearResultOutput(){
+  document.getElementById("marksheetOutput").hidden = true;
+  document.getElementById("marksheetOutput").innerHTML = "";
+  document.getElementById("resultActions").hidden = true;
+  document.getElementById("resultMessage").textContent = "";
+}
+
+function setResultClass(key){
+  activeResultClass = key;
+  document.querySelectorAll(".result-program").forEach(function(button){
+    button.classList.toggle("active", button.dataset.resultClass === key);
+  });
+  populateResultStudents();
+}
+
+function subjectRows(config, student){
+  return config.subjects.map(function(subject, index){
+    const isPublished = subject === config.publishedSubject;
+    const mark = isPublished ? student[config.markKey] : "To be updated";
+    const maxMarks = isPublished ? "25" : "To be updated";
+    const rowClass = isPublished ? "" : ' class="pending"';
+    return '<tr' + rowClass + '>' +
+      '<td>' + (index + 1) + '</td>' +
+      '<td>' + escapeHtml(subject) + '</td>' +
+      '<td>' + escapeHtml(mark) + '</td>' +
+      '<td>' + escapeHtml(maxMarks) + '</td>' +
+      '<td>' + (isPublished ? escapeHtml(percent(mark)) : "-") + '</td>' +
+      '<td>' + escapeHtml(isPublished ? grade(mark) : "To be updated") + '</td>' +
+    '</tr>';
+  }).join("");
+}
+
+function renderMarksheet(config, student){
+  const mark = student[config.markKey];
+  const stats = resultStats(config);
+  const rollValue = student.roll || "Not applicable";
+  const father = student.fatherName || "Not updated";
+  const gender = student.gender || "Not updated";
+  const output = document.getElementById("marksheetOutput");
+  output.innerHTML =
+    '<div class="marksheet-header">' +
+      '<div class="marksheet-logo">JHS</div>' +
+      '<div class="marksheet-title">' +
+        '<h2>' + escapeHtml(config.school) + '</h2>' +
+        '<p>' + escapeHtml(config.exam) + ' - Official HTML Marksheet</p>' +
+      '</div>' +
+      '<div class="marksheet-badge"><span>Published</span><span>Max Marks 25</span></div>' +
+    '</div>' +
+    '<div class="marksheet-body">' +
+      '<div class="student-grid">' +
+        '<div class="info-box"><span>Student Name</span><strong>' + escapeHtml(student.name) + '</strong></div>' +
+        '<div class="info-box"><span>Roll Number</span><strong>' + escapeHtml(rollValue) + '</strong></div>' +
+        '<div class="info-box"><span>Class</span><strong>' + escapeHtml(config.className) + '</strong></div>' +
+        '<div class="info-box"><span>Section</span><strong>' + escapeHtml(config.section) + '</strong></div>' +
+        '<div class="info-box"><span>Father Name</span><strong>' + escapeHtml(father) + '</strong></div>' +
+        '<div class="info-box"><span>Gender</span><strong>' + escapeHtml(gender) + '</strong></div>' +
+        '<div class="info-box"><span>Published Subject</span><strong>' + escapeHtml(config.publishedSubject) + '</strong></div>' +
+        '<div class="info-box"><span>Result Status</span><strong>Partially Published</strong></div>' +
+      '</div>' +
+      '<div class="stat-grid">' +
+        '<div class="stat-box"><span>Marks Obtained</span><strong>' + escapeHtml(mark) + ' / 25</strong></div>' +
+        '<div class="stat-box"><span>Percentage</span><strong>' + escapeHtml(percent(mark)) + '</strong></div>' +
+        '<div class="stat-box"><span>Rank</span><strong>' + escapeHtml(resultRank(config, mark)) + '</strong></div>' +
+        '<div class="stat-box"><span>Grade</span><strong>' + escapeHtml(grade(mark)) + '</strong></div>' +
+        '<div class="stat-box"><span>Highest</span><strong>' + escapeHtml(stats.highest) + ' / 25</strong></div>' +
+        '<div class="stat-box"><span>Average</span><strong>' + escapeHtml(stats.average) + ' / 25</strong></div>' +
+        '<div class="stat-box"><span>Lowest</span><strong>' + escapeHtml(stats.lowest) + ' / 25</strong></div>' +
+        '<div class="stat-box"><span>Students Published</span><strong>' + escapeHtml(stats.count) + '</strong></div>' +
+      '</div>' +
+      '<div class="marks-table-wrap">' +
+        '<table class="marks-table">' +
+          '<thead><tr><th>Sl. No.</th><th>Subject</th><th>Marks Obtained</th><th>Maximum Marks</th><th>Percentage</th><th>Grade / Status</th></tr></thead>' +
+          '<tbody>' + subjectRows(config, student) + '</tbody>' +
+        '</table>' +
+      '</div>' +
+      '<div class="marksheet-foot">' +
+        '<p><strong>Note:</strong> Only ' + escapeHtml(config.publishedSubject) + ' marks are published now. Remaining subject marks will be updated after declaration.</p>' +
+        '<div class="signature-line">Authorized Signatory</div>' +
+      '</div>' +
+    '</div>';
+  output.hidden = false;
+  document.getElementById("resultActions").hidden = false;
+}
+
+function handleResultSubmit(event){
+  event.preventDefault();
+  const config = resultConfigs[activeResultClass];
+  const select = document.getElementById("resultStudentSelect");
+  const student = config.students[Number(select.value)];
+  const message = document.getElementById("resultMessage");
+  message.textContent = "";
+
+  if(!student){
+    clearResultOutput();
+    message.textContent = "Please select a student name.";
+    return;
+  }
+
+  if(config.requireRoll){
+    const enteredRoll = document.getElementById("resultRollInput").value.trim();
+    if(enteredRoll !== String(student.roll)){
+      clearResultOutput();
+      message.textContent = "Roll number does not match the selected student.";
+      return;
+    }
+  }
+
+  const enteredPassword = prompt("Enter password to view marksheet");
+  if(enteredPassword !== config.password){
+    clearResultOutput();
+    message.textContent = "Wrong password.";
+    return;
+  }
+
+  renderMarksheet(config, student);
+  document.getElementById("marksheetOutput").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function initResultPortal(){
+  document.querySelectorAll(".result-program").forEach(function(button){
+    button.addEventListener("click", function(){ setResultClass(button.dataset.resultClass); });
+  });
+  document.getElementById("resultForm").addEventListener("submit", handleResultSubmit);
+  document.getElementById("resultPrintBtn").addEventListener("click", function(){ window.print(); });
+  document.getElementById("resultResetBtn").addEventListener("click", function(){
+    document.getElementById("resultStudentSelect").value = "";
+    document.getElementById("resultRollInput").value = "";
+    clearResultOutput();
+    document.getElementById("resultStudentSelect").focus();
+  });
+  populateResultStudents();
+}
+
 const classes = ["Class 12","Class 11","Class 10","Class 9","Class 8","Class 7","Class 6"];
 const routinePeriodsByDay = {
   Monday:[
@@ -2500,8 +2930,7 @@ window.addEventListener("popstate", function(){
 
 populateRoutineTeachers();
 populateRoutinePeriods();
-renderFact();
-window.setInterval(renderFact, 5 * 60 * 1000);
+initResultPortal();
 renderMockTree();
 renderPaperTree();
 renderMaterialsTree();
