@@ -184,6 +184,7 @@ main{
 }
 .section-head p{color:var(--muted);font-size:1rem}
 .home-shell{
+  display:grid;
   align-items:start;
   min-height:calc(100vh - 170px);
 }
@@ -1178,17 +1179,130 @@ footer{
   .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
   .logo-text strong{font-size:1.12rem}
   .logo-text small{font-size:.68rem}
-  main{padding:18px 0 34px}
-  nav{gap:7px;padding-top:9px}
-  .nav-link{
-    min-height:55px;
-    padding:7px 8px;
-    font-size:.75rem;
+  main{padding:14px 0 30px}
+  nav{
+    gap:7px;
+    padding-top:9px;
+    grid-template-columns:repeat(2,minmax(0,1fr));
   }
-  .result-panel,.marksheet-body{padding:18px}
+  .nav-link{
+    min-height:52px;
+    padding:7px 9px;
+    font-size:.74rem;
+  }
+  .result-portal{gap:12px}
+  .result-program{
+    min-height:76px;
+    padding:14px;
+    border-radius:12px;
+  }
+  .result-program strong{font-size:1rem}
+  .result-program span{font-size:.84rem}
+  .result-panel{
+    padding:15px;
+    border-radius:14px;
+  }
+  .result-panel-head{
+    margin-bottom:14px;
+  }
+  .result-panel-head h2{font-size:1.16rem}
+  .result-panel-head p{font-size:.86rem}
+  .result-field select,
+  .result-field input,
+  .result-submit,
+  .result-print,
+  .result-reset{
+    min-height:50px;
+  }
+  .result-actions{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  .marksheet{
+    margin-top:16px;
+    border-radius:14px;
+  }
+  .marksheet-header{
+    grid-template-columns:1fr;
+    gap:10px;
+    padding:18px;
+    text-align:left;
+  }
+  .marksheet-logo{
+    width:54px;
+    height:54px;
+    font-size:1.05rem;
+  }
+  .marksheet-title h2{font-size:1.08rem}
+  .marksheet-title p{font-size:.84rem}
+  .marksheet-badge{
+    display:flex;
+    flex-wrap:wrap;
+    text-align:left;
+  }
+  .marksheet-body{
+    padding:14px;
+    gap:12px;
+  }
   .result-programs,.result-form,.student-grid,.stat-grid,.marksheet-foot{grid-template-columns:1fr}
-  .marksheet-header{grid-template-columns:1fr;text-align:left}
-  .marksheet-badge{text-align:left}
+  .info-box,.stat-box{
+    padding:10px;
+    border-radius:10px;
+  }
+  .info-box strong,.stat-box strong{font-size:.96rem}
+  .stat-box strong{font-size:1.06rem}
+  .marks-table-wrap{overflow-x:visible}
+  .marks-table{
+    min-width:0;
+    border:0;
+    border-radius:0;
+    display:block;
+  }
+  .marks-table thead{display:none}
+  .marks-table tbody,
+  .marks-table tr,
+  .marks-table td{
+    display:block;
+    width:100%;
+  }
+  .marks-table tr{
+    margin-bottom:10px;
+    border:1px solid #dbe4ef;
+    border-radius:12px;
+    overflow:hidden;
+    background:#fff;
+  }
+  .marks-table tr.pending{
+    background:#f8fafc;
+  }
+  .marks-table td{
+    display:grid;
+    grid-template-columns:minmax(104px,42%) 1fr;
+    gap:10px;
+    padding:9px 12px;
+    border-bottom:1px solid #e2e8f0;
+    text-align:right !important;
+    font-size:.91rem;
+  }
+  .marks-table td:last-child{border-bottom:0}
+  .marks-table td::before{
+    color:#64748b;
+    font-size:.72rem;
+    font-weight:900;
+    text-align:left;
+    text-transform:uppercase;
+  }
+  .marks-table td:nth-child(1)::before{content:"Sl. No."}
+  .marks-table td:nth-child(2)::before{content:"Subject"}
+  .marks-table td:nth-child(3)::before{content:"Marks"}
+  .marks-table td:nth-child(4)::before{content:"Maximum"}
+  .marks-table td:nth-child(5)::before{content:"Percentage"}
+  .marks-table td:nth-child(6)::before{content:"Status"}
+  .marksheet-foot{
+    gap:8px;
+    font-size:.84rem;
+  }
+  .signature-line{margin-top:22px}
   .corner-actions,.subject-grid,.nested-grid,.chapter-grid,.drill-grid{grid-template-columns:1fr}
   .resource-row{grid-template-columns:42px 1fr}
   .resource-row .badge{grid-column:2;justify-self:start}
