@@ -1518,7 +1518,7 @@ const resultData = {"generatedOn":"2026-08-07T18:28:53.717Z","class7Students":[{
 const resultConfigs = {
   class7:{
     label:"Class 7 B Section",
-    school:"JALUGUTI HIGHER SECONDARY SCHOOL",
+    school:"PM SHRI JALUGUTI HIGHER SECONDARY SCHOOL",
     exam:"First Unit Test 2026",
     className:"Class 7",
     section:"B",
@@ -1531,7 +1531,7 @@ const resultConfigs = {
   },
   class12:{
     label:"Class 12",
-    school:"JALUGUTI HIGHER SECONDARY SCHOOL",
+    school:"PM SHRI JALUGUTI HIGHER SECONDARY SCHOOL",
     exam:"First Unit Test 2026",
     className:"Class 12 / Higher Secondary First Year",
     section:"Arts",
@@ -1655,7 +1655,7 @@ function renderMarksheet(config, student){
       '<div class="marksheet-logo">JHS</div>' +
       '<div class="marksheet-title">' +
         '<h2>' + escapeHtml(config.school) + '</h2>' +
-        '<p>' + escapeHtml(config.exam) + ' - Official HTML Marksheet</p>' +
+        '<p>' + escapeHtml(config.exam) + ' - Marksheet</p>' +
       '</div>' +
       '<div class="marksheet-badge"><span>Published</span><span>Max Marks 25</span></div>' +
     '</div>' +
@@ -1688,7 +1688,7 @@ function renderMarksheet(config, student){
       '</div>' +
       '<div class="marksheet-foot">' +
         '<p><strong>Note:</strong> Only ' + escapeHtml(config.publishedSubject) + ' marks are published now. Remaining subject marks will be updated after declaration.</p>' +
-        '<div class="signature-line">Authorized Signatory</div>' +
+        
       '</div>' +
     '</div>';
   output.hidden = false;
