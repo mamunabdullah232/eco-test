@@ -428,6 +428,28 @@ main{
   color:#334155;
   font-weight:700;
 }
+.marks-table tbody tr + tr td{
+  border-top:3px solid #eef2f7;
+}
+.marks-table tr.published td{
+  background:#ecfdf5;
+  color:#064e3b;
+  border-bottom-color:#bbf7d0;
+}
+.marks-table tr.published td:nth-child(2){
+  color:#047857;
+  font-weight:900;
+}
+.marks-table tr.published td:nth-child(3){
+  color:#1d4ed8;
+  font-size:1.04rem;
+  font-weight:900;
+}
+.marks-table tr.published td:nth-child(5),
+.marks-table tr.published td:nth-child(6){
+  color:#0f766e;
+  font-weight:900;
+}
 .marks-table td:nth-child(3),
 .marks-table td:nth-child(4),
 .marks-table td:nth-child(5){
@@ -1341,14 +1363,23 @@ footer{
     width:100%;
   }
   .marks-table tr{
-    margin-bottom:10px;
+    margin-bottom:12px;
     border:1px solid #dbe4ef;
     border-radius:12px;
     overflow:hidden;
     background:#fff;
   }
+  .marks-table tr.published{
+    border-color:#34d399;
+    border-left:6px solid #10b981;
+    background:#ecfdf5;
+    box-shadow:0 8px 18px rgba(16,185,129,.14);
+  }
   .marks-table tr.pending{
     background:#f8fafc;
+  }
+  .marks-table tr.pending td{
+    color:#64748b;
   }
   .marks-table td{
     display:grid;
@@ -1366,6 +1397,16 @@ footer{
     font-weight:900;
     text-align:left;
     text-transform:uppercase;
+  }
+  .marks-table tr.published td:nth-child(2),
+  .marks-table tr.published td:nth-child(3){
+    font-size:.98rem;
+  }
+  .marks-table tr.published td:nth-child(3){
+    color:#1d4ed8;
+  }
+  .marks-table tr.published td::before{
+    color:#047857;
   }
   .marks-table td:nth-child(1)::before{content:"Sl. No."}
   .marks-table td:nth-child(2)::before{content:"Subject"}
@@ -1820,7 +1861,7 @@ function subjectRows(config, student){
     const isPublished = subject === config.publishedSubject;
     const mark = isPublished ? student[config.markKey] : "To be updated";
     const maxMarks = isPublished ? "25" : "To be updated";
-    const rowClass = isPublished ? "" : ' class="pending"';
+    const rowClass = isPublished ? ' class="published"' : ' class="pending"';
     return '<tr' + rowClass + '>' +
       '<td>' + (index + 1) + '</td>' +
       '<td>' + escapeHtml(subject) + '</td>' +
