@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 <title>Xohopathi | Your Digital Companion</title>
 <meta name="description" content="Xohopathi provides teacher links, student resources, mock tests, study materials, question papers, and educational contact details." />
 <style>
@@ -297,6 +300,7 @@ main{
   gap:10px;
   margin-top:14px;
 }
+.result-actions[hidden]{display:none}
 .result-print{
   background:#0f766e;
   color:#fff;
@@ -1174,52 +1178,120 @@ footer{
   .rule-grid{grid-template-columns:1fr}
 }
 @media(max-width:640px){
-  .container{width:min(100% - 28px,1140px)}
-  .navbar{min-height:0}
-  .logo-mark{width:42px;height:42px;flex-basis:42px;font-size:1.2rem}
+  body{
+    background:#f8fafc;
+  }
+  .container{width:min(100% - 20px,1140px)}
+  header{
+    position:sticky;
+    top:0;
+  }
+  .navbar{
+    min-height:0;
+    padding:8px 0 9px;
+  }
+  .logo-mark{width:40px;height:40px;flex-basis:40px;font-size:1.16rem;border-radius:12px}
   .logo-text strong{font-size:1.12rem}
-  .logo-text small{font-size:.68rem}
-  main{padding:14px 0 30px}
+  .logo-text small{font-size:.66rem;max-width:230px}
+  main{padding:12px 0 28px}
   nav{
+    display:flex;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
     gap:7px;
     padding-top:9px;
-    grid-template-columns:repeat(2,minmax(0,1fr));
+    scroll-snap-type:x proximity;
+  }
+  nav::-webkit-scrollbar{
+    display:none;
   }
   .nav-link{
-    min-height:52px;
-    padding:7px 9px;
+    flex:0 0 auto;
+    min-width:118px;
+    min-height:46px;
+    padding:7px 10px;
     font-size:.74rem;
+    border-radius:11px;
+    scroll-snap-align:start;
   }
-  .result-portal{gap:12px}
+  .nav-link .as{font-size:.72em}
+  .home-shell{
+    width:100%;
+  }
+  .result-portal{gap:10px}
+  .result-programs{
+    gap:10px;
+  }
   .result-program{
-    min-height:76px;
-    padding:14px;
+    position:relative;
+    min-height:88px;
+    padding:15px 58px 15px 14px;
     border-radius:12px;
+    border-left:5px solid var(--blue);
+    box-shadow:0 6px 16px rgba(15,23,42,.06);
+  }
+  .result-program:nth-child(2){
+    border-left-color:var(--teal);
+  }
+  .result-program::after{
+    content:"Open";
+    position:absolute;
+    right:12px;
+    top:50%;
+    transform:translateY(-50%);
+    display:grid;
+    place-items:center;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#eff6ff;
+    color:#1d4ed8;
+    font-size:.68rem;
+    font-weight:900;
+  }
+  .result-program.active::after{
+    content:"On";
+    background:#dcfce7;
+    color:#166534;
   }
   .result-program strong{font-size:1rem}
-  .result-program span{font-size:.84rem}
+  .result-program span{
+    font-size:.84rem;
+    line-height:1.32;
+  }
   .result-panel{
-    padding:15px;
+    padding:14px;
     border-radius:14px;
+    box-shadow:0 6px 16px rgba(15,23,42,.055);
   }
   .result-panel-head{
-    margin-bottom:14px;
+    margin-bottom:12px;
   }
   .result-panel-head h2{font-size:1.16rem}
   .result-panel-head p{font-size:.86rem}
+  .result-field{
+    font-size:.84rem;
+  }
   .result-field select,
   .result-field input,
   .result-submit,
   .result-print,
   .result-reset{
-    min-height:50px;
+    min-height:54px;
+    border-radius:12px;
+    font-size:1rem;
+  }
+  .result-submit{
+    box-shadow:0 8px 18px rgba(37,99,235,.22);
   }
   .result-actions{
     display:grid;
     grid-template-columns:1fr;
   }
   .marksheet{
-    margin-top:16px;
+    margin-top:14px;
     border-radius:14px;
   }
   .marksheet-header{
@@ -1244,7 +1316,10 @@ footer{
     padding:14px;
     gap:12px;
   }
-  .result-programs,.result-form,.student-grid,.stat-grid,.marksheet-foot{grid-template-columns:1fr}
+  .result-programs,.result-form,.student-grid,.marksheet-foot{grid-template-columns:1fr}
+  .stat-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
   .info-box,.stat-box{
     padding:10px;
     border-radius:10px;
