@@ -59,14 +59,47 @@ function ask(question) {
   window.setTimeout(() => addMessage(assistant.answer(text), "assistant"), 120);
 }
 
+async function fetchRecords(collectionName) {
+  const snapshot = await getDocs(collection(db, collectionName));
+  return snapshot.docs.map(document => ({ id: document.id, ...document.data() }));
+}
+
+function countLabel(count, singular, plural) {
+  return `${count} ${count === 1 ? singular : plural}`;
+}
+
 async function loadDirectory() {
-  const snapshot = await getDocs(collection(db, "staffDirectory"));
-  const records = snapshot.docs.map(document => ({ id: document.id, ...document.data() }));
-  assistant = createAssistant(records);
+  let staffRecords = [];
+  let knowledgeRecords = [];
+  const failures = [];
+
+  try {
+    staffRecords = await fetchRecords("staffDirectory");
+  } catch (error) {
+    console.warn("Staff directory load failed:", error);
+    failures.push("staff");
+  }
+
+  try {
+    knowledgeRecords = await fetchRecords("aiKnowledgeBase");
+  } catch (error) {
+    console.warn("Knowledge base load failed:", error);
+    failures.push("knowledge");
+  }
+
+  assistant = createAssistant(staffRecords, knowledgeRecords);
   syncPasswordGate();
-  if (records.length) {
-    setStatus(`${records.length} approved staff records ready`, "ready");
-  } else setStatus("Routine ready. Staff directory has not been imported.", "ready");
+  const readyParts = [];
+  if (knowledgeRecords.length) readyParts.push(countLabel(knowledgeRecords.length, "approved answer", "approved answers"));
+  if (staffRecords.length) readyParts.push(countLabel(staffRecords.length, "staff record", "staff records"));
+
+  if (readyParts.length) {
+    setStatus(`${readyParts.join(" and ")} ready`, "ready");
+  } else if (failures.length === 2) {
+    setStatus("Routine ready. Approved Firestore records could not be loaded.", "ready");
+  } else if (failures.length) {
+    setStatus("Routine ready. Some approved Firestore records could not be loaded.", "ready");
+  } else setStatus("Routine ready. No approved knowledge or staff records imported yet.", "ready");
 }
 
 onAuthStateChanged(auth, async user => {
@@ -79,9 +112,9 @@ onAuthStateChanged(auth, async user => {
   try {
     await loadDirectory();
   } catch (error) {
-    console.error("Staff directory load failed:", error);
-    assistant = createAssistant([]);
-    setStatus("Routine ready. Approved staff records could not be loaded.", "ready");
+    console.error("Approved record load failed:", error);
+    assistant = createAssistant([], []);
+    setStatus("Routine ready. Approved Firestore records could not be loaded.", "ready");
     syncPasswordGate();
   }
 });

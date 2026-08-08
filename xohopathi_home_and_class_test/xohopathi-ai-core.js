@@ -115,6 +115,91 @@ function cleanValue(value) {
   return !text || text === "-" ? "" : text;
 }
 
+const KNOWLEDGE_STOP_WORDS = new Set([
+  "about", "after", "all", "also", "am", "an", "and", "are", "ask", "at", "be", "by", "can", "class",
+  "could", "details", "do", "does", "for", "from", "give", "has", "have", "how", "i", "in", "info",
+  "information", "is", "it", "know", "me", "my", "of", "on", "or", "our", "please", "school", "show",
+  "tell", "the", "this", "to", "today", "tomorrow", "what", "when", "where", "which", "who", "why",
+  "with", "xohopathi", "you"
+]);
+
+function splitKnowledgeValues(value) {
+  if (Array.isArray(value)) return value.flatMap(splitKnowledgeValues);
+  return String(value ?? "").split(/[\n,;|]+/).map(cleanValue).filter(Boolean);
+}
+
+function knowledgeTokens(value) {
+  return normalizeText(value).split(" ").filter(token => token.length > 2 && !KNOWLEDGE_STOP_WORDS.has(token));
+}
+
+function containsNormalizedPhrase(haystack, needle) {
+  if (!haystack || !needle) return false;
+  return ` ${haystack} `.includes(` ${needle} `);
+}
+
+function normalizeKnowledgeRecord(item) {
+  const question = cleanValue(item.question);
+  const answer = cleanValue(item.answer);
+  const category = cleanValue(item.category);
+  const tags = splitKnowledgeValues(item.tags);
+  const aliases = splitKnowledgeValues(item.aliases);
+  const phrases = [question, category, ...tags, ...aliases].map(normalizeText).filter(Boolean);
+  const tokens = [...new Set(phrases.flatMap(knowledgeTokens))];
+  return {
+    id: cleanValue(item.id),
+    question,
+    normalizedQuestion: normalizeText(question),
+    answer,
+    category,
+    tags,
+    aliases,
+    phrases,
+    tokens
+  };
+}
+
+function scoreKnowledgeRecord(normalizedQuestion, questionTokens, record) {
+  if (!normalizedQuestion || !record.normalizedQuestion || !record.answer) return 0;
+  let score = 0;
+  if (normalizedQuestion === record.normalizedQuestion) score += 1200;
+  if (containsNormalizedPhrase(normalizedQuestion, record.normalizedQuestion)) score += 850;
+  if (normalizedQuestion.length > 10 && containsNormalizedPhrase(record.normalizedQuestion, normalizedQuestion)) score += 700;
+
+  record.aliases.map(normalizeText).filter(Boolean).forEach(alias => {
+    if (normalizedQuestion === alias) score += 950;
+    else if (containsNormalizedPhrase(normalizedQuestion, alias)) score += 850;
+    else if (alias.length > 10 && containsNormalizedPhrase(alias, normalizedQuestion)) score += 600;
+  });
+
+  record.tags.map(normalizeText).filter(Boolean).forEach(tag => {
+    if (containsNormalizedPhrase(normalizedQuestion, tag)) score += 220;
+  });
+
+  if (record.category && containsNormalizedPhrase(normalizedQuestion, normalizeText(record.category))) score += 90;
+
+  const asked = new Set(questionTokens);
+  const hits = record.tokens.filter(token => asked.has(token)).length;
+  if (hits) {
+    const questionCoverage = hits / Math.max(questionTokens.length, 1);
+    const recordCoverage = hits / Math.max(record.tokens.length, 1);
+    score += hits * 90 + Math.round(Math.max(questionCoverage, recordCoverage) * 320);
+  }
+  return score;
+}
+
+function findKnowledgeAnswer(question, knowledgeList) {
+  const normalized = normalizeText(question);
+  const tokens = knowledgeTokens(normalized);
+  const scored = knowledgeList.map(record => ({
+    record,
+    score: scoreKnowledgeRecord(normalized, tokens, record)
+  })).filter(item => item.score > 0).sort((a, b) => b.score - a.score);
+  if (!scored.length) return "";
+  const [best, second] = scored;
+  if (best.score >= 900 || (best.score >= 640 && (!second || best.score - second.score >= 120))) return best.record.answer;
+  return "";
+}
+
 function routinePersonName(shortName) {
   return ROUTINE_NAME_MAP[normalizeText(shortName)] || String(shortName).trim();
 }
@@ -251,14 +336,18 @@ function answerSubjectQuestion(staffList, subject, className) {
   return `The current routine lists ${people.join(", ")} for ${subject}${scope}.`;
 }
 
-export function createAssistant(staffRecords = []) {
+export function createAssistant(staffRecords = [], knowledgeRecords = []) {
   const staffList = staffRecords.map(item => ({ ...item, name: cleanValue(item.name) })).filter(item => item.name).sort((a, b) => a.name.localeCompare(b.name));
+  const knowledgeList = knowledgeRecords.map(normalizeKnowledgeRecord).filter(item => item.question && item.answer);
 
   return {
     answer(question, now = new Date()) {
       const normalized = normalizeText(question);
       if (!normalized) return "Please type a question about a staff member or the class routine.";
       if (/^(hi|hello|hey|namaskar|namaste)\b/.test(normalized)) return "Hello! Ask me about approved teacher or staff details, contact information, subjects, or the Jaluguti HS School class routine.";
+
+      const knowledgeAnswer = findKnowledgeAnswer(question, knowledgeList);
+      if (knowledgeAnswer) return knowledgeAnswer;
 
       const match = findStaff(question, staffList);
       if (match.ambiguous.length) return `I found more than one matching staff member: ${match.ambiguous.map(item => item.name).join(", ")}. Please include the full name.`;
