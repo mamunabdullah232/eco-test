@@ -8,6 +8,14 @@ let preparedRecords = [];
 
 function setStatus(message, type = "") { status.className = type; status.textContent = message; }
 function clean(value, maxLength = 160) { return String(value ?? "").trim().slice(0, maxLength); }
+function firebaseErrorText(error) {
+  const code = clean(error?.code, 80);
+  const message = clean(error?.message, 220).replace(/\s+/g, " ");
+  if (code === "permission-denied") {
+    return "Firestore denied access. Deploy firestore-rules.txt to the xohopathi Firebase project, then try again.";
+  }
+  return [code && `Firebase ${code}`, message].filter(Boolean).join(": ") || "Check the deployed Firestore rules and try again.";
+}
 
 function validateRecords(value) {
   if (!Array.isArray(value) || !value.length || value.length > 200) throw new Error("The file must contain 1 to 200 staff records.");
@@ -46,7 +54,6 @@ importBtn.addEventListener("click", async () => {
   fileInput.disabled = true;
   setStatus("Importing protected staff records...");
   try {
-    const existing = await getDocs(collection(db, "staffDirectory"));
     const incomingIds = new Set(preparedRecords.map(item => item.id));
     await Promise.all(preparedRecords.map(item => setDoc(doc(db, "staffDirectory", item.id), {
       name: item.name, staffType: item.staffType, email: item.email, mobile: item.mobile,
@@ -54,11 +61,18 @@ importBtn.addEventListener("click", async () => {
       additionalSubjectProficiency: item.additionalSubjectProficiency,
       additionalLanguageProficiency: item.additionalLanguageProficiency, updatedAt: serverTimestamp()
     }, { merge: false })));
-    await Promise.all(existing.docs.filter(item => !incomingIds.has(item.id)).map(item => deleteDoc(item.ref)));
-    setStatus(`Import complete. ${preparedRecords.length} staff records are now available to signed-in Xohopathi AI users.`, "ok");
+    try {
+      const existing = await getDocs(collection(db, "staffDirectory"));
+      const staleDocs = existing.docs.filter(item => !incomingIds.has(item.id));
+      await Promise.all(staleDocs.map(item => deleteDoc(item.ref)));
+      setStatus(`Import complete. ${preparedRecords.length} staff records are now available to signed-in Xohopathi AI users.`, "ok");
+    } catch (cleanupError) {
+      console.warn("Staff cleanup skipped:", cleanupError);
+      setStatus(`Import complete. ${preparedRecords.length} staff records were saved. Cleanup of old records was skipped: ${firebaseErrorText(cleanupError)}`, "ok");
+    }
   } catch (error) {
     console.error("Staff import failed:", error);
-    setStatus("Import failed. Check the deployed Firestore rules and try again.", "error");
+    setStatus(`Import failed: ${firebaseErrorText(error)}`, "error");
     importBtn.disabled = false;
     fileInput.disabled = false;
   }
