@@ -23,6 +23,7 @@
     footer{padding:12px max(12px,env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));border-top:1px solid var(--line);background:rgba(255,255,255,.97)}form{max-width:780px;margin:0 auto;display:flex;align-items:flex-end;gap:9px}
     .input-wrap{flex:1;border:1px solid #cbd5e1;border-radius:16px;background:white;padding:4px 5px 4px 14px;box-shadow:0 5px 18px rgba(15,23,42,.05)}input{width:100%;border:0;outline:0;padding:10px 0;background:transparent;color:var(--ink)}input::placeholder{color:#94a3b8}
     .send{width:48px;height:48px;border:0;border-radius:15px;background:linear-gradient(145deg,var(--blue),var(--blue-dark));color:white;font-size:1.2rem;font-weight:900;cursor:pointer;box-shadow:0 8px 20px rgba(37,99,235,.25)}.send:disabled{opacity:.5;cursor:not-allowed}.privacy{max-width:780px;margin:7px auto 0;text-align:center;color:#94a3b8;font-size:.7rem}
+    .password-gate{position:fixed;inset:0;z-index:20;display:grid;place-items:center;padding:18px;background:rgba(15,23,42,.45);backdrop-filter:blur(10px)}.password-gate[hidden]{display:none}.password-panel{width:min(420px,100%);border:1px solid var(--line);border-radius:18px;background:white;padding:22px;box-shadow:0 24px 70px rgba(15,23,42,.25)}.password-panel h2{margin:0 0 6px;font-size:1.18rem}.password-panel p{margin:0 0 16px;color:var(--muted);line-height:1.45}.password-panel form{display:grid;gap:10px;margin:0}.password-panel input{border:1px solid #cbd5e1;border-radius:13px;padding:12px 13px}.password-panel button{border:0;border-radius:13px;padding:12px 14px;background:var(--blue);color:white;font-weight:850;cursor:pointer}.password-error{min-height:18px;margin-top:10px;color:var(--danger);font-size:.86rem;font-weight:750}
     @media(max-width:620px){header{padding:10px 12px}.brand-mark{width:39px;height:39px}.brand p{max-width:190px}.icon-btn span{display:none}.icon-btn{padding:9px}.message .bubble{max-width:88%}main{padding-top:18px}.privacy{font-size:.66rem}}
   </style>
 </head>
@@ -36,7 +37,18 @@
         <div class="suggestions" id="suggestions"><button class="suggestion" type="button">Who teaches Economics in Class XII?</button><button class="suggestion" type="button">What is Mamun Sir's routine today?</button><button class="suggestion" type="button">What is the school timing tomorrow?</button></div>
       </div>
     </main>
-    <footer><form id="chatForm"><div class="input-wrap"><input id="questionInput" maxlength="300" autocomplete="off" placeholder="Ask Xohopathi AI..." aria-label="Question" disabled /></div><button class="send" id="sendBtn" type="submit" aria-label="Send" disabled>&#8593;</button></form><div class="privacy">Login required. Xohopathi AI does not invent missing information.</div></footer>
+    <footer><form id="chatForm"><div class="input-wrap"><input id="questionInput" maxlength="300" autocomplete="off" placeholder="Ask Xohopathi AI..." aria-label="Question" disabled /></div><button class="send" id="sendBtn" type="submit" aria-label="Send" disabled>&#8593;</button></form><div class="privacy">Login and password required. Xohopathi AI does not invent missing information.</div></footer>
+  </div>
+  <div class="password-gate" id="passwordGate" role="dialog" aria-modal="true" aria-labelledby="passwordTitle">
+    <section class="password-panel">
+      <h2 id="passwordTitle">Enter Xohopathi AI password</h2>
+      <p>Use the mentor password to unlock this assistant.</p>
+      <form id="passwordForm">
+        <input id="passwordInput" type="password" autocomplete="current-password" placeholder="Password" aria-label="Password" />
+        <button type="submit">Unlock Xohopathi AI</button>
+      </form>
+      <div class="password-error" id="passwordError" role="status" aria-live="polite"></div>
+    </section>
   </div>
   <script type="module" src="./xohopathi-ai.js"></script>
 </body>

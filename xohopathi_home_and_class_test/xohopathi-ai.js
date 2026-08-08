@@ -10,8 +10,15 @@ const input = document.getElementById("questionInput");
 const sendBtn = document.getElementById("sendBtn");
 const logoutBtn = document.getElementById("logoutBtn");
 const suggestions = document.getElementById("suggestions");
+const passwordGate = document.getElementById("passwordGate");
+const passwordForm = document.getElementById("passwordForm");
+const passwordInput = document.getElementById("passwordInput");
+const passwordError = document.getElementById("passwordError");
+const ACCESS_PASSWORD = "Mentors";
+const ACCESS_KEY = "xohopathiAiPasswordOk";
 let assistant = null;
 let signedInUser = null;
+let passwordUnlocked = sessionStorage.getItem(ACCESS_KEY) === "true";
 
 function setStatus(message, state = "") {
   status.className = `status ${state}`.trim();
@@ -36,9 +43,17 @@ function addMessage(text, role) {
   chatScroll.scrollTop = chatScroll.scrollHeight;
 }
 
+function syncPasswordGate() {
+  passwordGate.hidden = passwordUnlocked;
+  input.disabled = !passwordUnlocked || !assistant;
+  sendBtn.disabled = !passwordUnlocked || !assistant;
+  if (passwordUnlocked && assistant) input.focus();
+  else if (!passwordUnlocked) window.setTimeout(() => passwordInput.focus(), 50);
+}
+
 function ask(question) {
   const text = String(question || "").trim();
-  if (!text || !assistant) return;
+  if (!text || !assistant || !passwordUnlocked) return;
   addMessage(text, "user");
   input.value = "";
   window.setTimeout(() => addMessage(assistant.answer(text), "assistant"), 120);
@@ -48,11 +63,9 @@ async function loadDirectory() {
   const snapshot = await getDocs(collection(db, "staffDirectory"));
   const records = snapshot.docs.map(document => ({ id: document.id, ...document.data() }));
   assistant = createAssistant(records);
-  sendBtn.disabled = false;
-  input.disabled = false;
+  syncPasswordGate();
   if (records.length) {
     setStatus(`${records.length} approved staff records ready`, "ready");
-    input.focus();
   } else setStatus("Routine ready. Staff directory has not been imported.", "ready");
 }
 
@@ -69,11 +82,24 @@ onAuthStateChanged(auth, async user => {
     console.error("Staff directory load failed:", error);
     assistant = createAssistant([]);
     setStatus("Routine ready. Approved staff records could not be loaded.", "ready");
-    sendBtn.disabled = false;
-    input.disabled = false;
+    syncPasswordGate();
   }
 });
 
+passwordForm.addEventListener("submit", event => {
+  event.preventDefault();
+  if (passwordInput.value === ACCESS_PASSWORD) {
+    passwordUnlocked = true;
+    sessionStorage.setItem(ACCESS_KEY, "true");
+    passwordInput.value = "";
+    passwordError.textContent = "";
+    syncPasswordGate();
+    return;
+  }
+  passwordError.textContent = "Incorrect password.";
+  passwordInput.select();
+});
+syncPasswordGate();
 chatForm.addEventListener("submit", event => { event.preventDefault(); ask(input.value); });
 suggestions.addEventListener("click", event => { const button = event.target.closest("button"); if (button) ask(button.textContent); });
-logoutBtn.addEventListener("click", async () => { await signOut(auth); window.location.href = "./login.html"; });
+logoutBtn.addEventListener("click", async () => { sessionStorage.removeItem(ACCESS_KEY); await signOut(auth); window.location.href = "./login.html"; });
