@@ -156,7 +156,7 @@ recordForm.addEventListener("submit", async event => {
     await refreshRecords();
   } catch (error) {
     console.error("Knowledge record save failed:", error);
-    setStatus(`Save failed: ${error.message || firebaseErrorText(error)}`, "error");
+    setStatus(`Save failed: ${firebaseErrorText(error)}`, "error");
   } finally {
     saveBtn.disabled = false;
   }
