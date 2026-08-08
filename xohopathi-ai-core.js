@@ -204,6 +204,15 @@ function findStaff(question, staffList) {
   return top.length === 1 ? { staff: top[0], ambiguous: [] } : { staff: null, ambiguous: top };
 }
 
+function routineTeacherRecords() {
+  const names = new Set(routineEntries().flatMap(entry => entry.teachers));
+  return [...names].sort((a, b) => a.localeCompare(b)).map(name => ({ id: normalizeText(name), name }));
+}
+
+function findRoutineTeacher(question) {
+  return findStaff(question, routineTeacherRecords());
+}
+
 function staffRoutineEntries(staff, day) {
   const target = normalizeText(staff.name);
   return routineEntries({ day }).filter(entry => entry.teachers.some(name => normalizeText(name) === target));
@@ -250,15 +259,36 @@ export function createAssistant(staffRecords = []) {
       const normalized = normalizeText(question);
       if (!normalized) return "Please type a question about a staff member or the class routine.";
       if (/^(hi|hello|hey|namaskar|namaste)\b/.test(normalized)) return "Hello! Ask me about approved teacher or staff details, contact information, subjects, or the Jaluguti HS School class routine.";
-      if (!staffList.length) return "The approved staff directory is not available yet. Please ask the Xohopathi administrator to import it.";
 
       const match = findStaff(question, staffList);
       if (match.ambiguous.length) return `I found more than one matching staff member: ${match.ambiguous.map(item => item.name).join(", ")}. Please include the full name.`;
       const staff = match.staff;
+      const routineMatch = staff ? { staff, ambiguous: [] } : findRoutineTeacher(question);
       const day = detectedDay(question, now);
       const className = detectedClass(question);
       const subject = detectedSubject(question);
 
+      if (/\b(?:school timing|school time|first period|last period|final period|starts|ends)\b/.test(normalized)) {
+        const routineDay = day || new Intl.DateTimeFormat("en-US", { weekday: "long", timeZone: "Asia/Kolkata" }).format(now);
+        const periods = ROUTINE_PERIODS_BY_DAY[routineDay];
+        if (!periods) return `No school routine is listed for ${routineDay}.`;
+        return `${routineDay}'s listed school periods run from ${periods[0].time.split(" - ")[0]} to ${periods.at(-1).time.split(" - ")[1]}.`;
+      }
+      if (subject && /\b(?:who|teacher|teach|teaches|subject)\b/.test(normalized)) return answerSubjectQuestion(staffList, subject, className);
+      if (className && /\b(?:routine|schedule|period|class)\b/.test(normalized)) {
+        const routineDay = day || "Monday";
+        if (!ROUTINE_PERIODS_BY_DAY[routineDay]) return `No school routine is listed for ${routineDay}.`;
+        return `Class ${className} ${routineDay} routine:\n${formatRoutine(routineEntries({ className, day: routineDay }), routineDay)}`;
+      }
+      if (routineMatch.ambiguous.length && /\b(?:routine|schedule|period|class today|class tomorrow)\b/.test(normalized)) {
+        return `I found more than one matching routine teacher: ${routineMatch.ambiguous.map(item => item.name).join(", ")}. Please include the full name.`;
+      }
+      if (routineMatch.staff && /\b(?:routine|schedule|period|class today|class tomorrow)\b/.test(normalized)) {
+        const routineDay = day || new Intl.DateTimeFormat("en-US", { weekday: "long", timeZone: "Asia/Kolkata" }).format(now);
+        if (!ROUTINE_PERIODS_BY_DAY[routineDay]) return `No school routine is listed for ${routineDay}.`;
+        return `${routineMatch.staff.name}'s ${routineDay} routine:\n${formatRoutine(staffRoutineEntries(routineMatch.staff, routineDay), routineDay)}`;
+      }
+      if (!staffList.length) return "The approved staff directory is not available yet. Class routine and school timing questions are available now; staff contact/details require the admin import.";
       if (/\b(?:qualification|degree|education qualification|educational qualification)\b/.test(normalized)) return staff ? `Educational qualification is not included in the approved record for ${staff.name}.` : NOT_AVAILABLE;
       if (/\b(?:list|show|name)\b/.test(normalized) && /\bnon teaching\b/.test(normalized)) {
         const names = staffList.filter(item => normalizeText(item.staffType).includes("non teaching")).map(item => item.name);
@@ -279,18 +309,6 @@ export function createAssistant(staffRecords = []) {
       if (staff && /\b(?:details|information|who is|post|staff type|designation)\b/.test(normalized)) {
         const details = [cleanValue(staff.staffType), cleanValue(staff.post)].filter(Boolean).join(", ");
         return `${staff.name}${details ? ` is listed as ${details}` : " is included in the approved staff directory"}. ${subjectSummary(staff)}`;
-      }
-      if (/\b(?:school timing|school time|first period|last period|final period|starts|ends)\b/.test(normalized)) {
-        const routineDay = day || new Intl.DateTimeFormat("en-US", { weekday: "long", timeZone: "Asia/Kolkata" }).format(now);
-        const periods = ROUTINE_PERIODS_BY_DAY[routineDay];
-        if (!periods) return `No school routine is listed for ${routineDay}.`;
-        return `${routineDay}'s listed school periods run from ${periods[0].time.split(" - ")[0]} to ${periods.at(-1).time.split(" - ")[1]}.`;
-      }
-      if (subject && /\b(?:who|teacher|teach|teaches|subject)\b/.test(normalized)) return answerSubjectQuestion(staffList, subject, className);
-      if (className && /\b(?:routine|schedule|period|class)\b/.test(normalized)) {
-        const routineDay = day || "Monday";
-        if (!ROUTINE_PERIODS_BY_DAY[routineDay]) return `No school routine is listed for ${routineDay}.`;
-        return `Class ${className} ${routineDay} routine:\n${formatRoutine(routineEntries({ className, day: routineDay }), routineDay)}`;
       }
       if (staff) {
         const details = [cleanValue(staff.staffType), cleanValue(staff.post)].filter(Boolean).join(", ");

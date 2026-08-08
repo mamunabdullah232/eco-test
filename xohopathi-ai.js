@@ -53,7 +53,7 @@ async function loadDirectory() {
   if (records.length) {
     setStatus(`${records.length} approved staff records ready`, "ready");
     input.focus();
-  } else setStatus("Staff directory has not been imported", "error");
+  } else setStatus("Routine ready. Staff directory has not been imported.", "ready");
 }
 
 onAuthStateChanged(auth, async user => {
@@ -68,7 +68,7 @@ onAuthStateChanged(auth, async user => {
   } catch (error) {
     console.error("Staff directory load failed:", error);
     assistant = createAssistant([]);
-    setStatus("Approved staff records could not be loaded", "error");
+    setStatus("Routine ready. Approved staff records could not be loaded.", "ready");
     sendBtn.disabled = false;
     input.disabled = false;
   }
