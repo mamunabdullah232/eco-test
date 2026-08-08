@@ -130,6 +130,7 @@ nav{
 .nav-link.mock{--accent:var(--rose)}
 .nav-link.materials{--accent:var(--teal)}
 .nav-link.contact{--accent:var(--violet)}
+.nav-link.ai{--accent:#db2777}
 .nav-link.student-login{--accent:#0891b2}
 .nav-link.admin-login{--accent:#7c3aed}
 .new-blink{
@@ -652,6 +653,8 @@ body.routine-open{overflow:hidden}
 .student-action:nth-child(2){border-top-color:var(--teal)}
 .student-action:nth-child(3){border-top-color:var(--blue)}
 .student-action:nth-child(4){border-top-color:var(--violet)}
+.student-action:nth-child(5){border-top-color:#0891b2}
+.student-action:nth-child(6){border-top-color:var(--green)}
 .student-action:hover{
   border-color:var(--orange);
   background:#fffaf5;
@@ -1013,6 +1016,7 @@ footer{
       <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
     </a>
     <nav id="navMenu" aria-label="Primary navigation">
+      <a class="nav-link ai" href="/login.html?redirect=/xohopathi-ai.html"><span class="bi">Xohopathi AI<span class="as">AI Assistant</span></span></a>
       <a class="nav-link home nav-route" href="#home" data-page="home"><span class="bi">Home<span class="as">মুখ্য পৃষ্ঠা</span></span></a>
       <a class="nav-link teacher nav-route" href="#teacher-corner" data-page="teacher-corner"><span class="bi">Teacher Corner<span class="as">শিক্ষক কোণ</span></span></a>
       <a class="nav-link students nav-route" href="#students-corner" data-page="students-corner"><span class="bi">Students Corner<span class="as">শিক্ষাৰ্থী কোণ</span></span></a>
@@ -1100,6 +1104,11 @@ footer{
       </div>
 
       <div class="corner-actions">
+        <a class="student-action" href="/login.html?redirect=/xohopathi-ai.html">
+          <strong>Xohopathi AI</strong>
+          <p>Ask approved staff details and Jaluguti HS School routine questions after login.</p>
+          <span class="badge green">Ask AI</span>
+        </a>
         <a class="student-action nav-route" href="#mock-tests" data-page="mock-tests">
           <strong>Mock Test / মক টেষ্ট</strong>
           <p>Class-wise and exam-wise tests with timer and final score. / শ্ৰেণীভিত্তিক আৰু পৰীক্ষাভিত্তিক অনুশীলন।</p>
