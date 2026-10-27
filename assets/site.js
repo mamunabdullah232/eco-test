@@ -3,7 +3,7 @@ const CONFIG={nmmsYear:2026,sebaYear:2027,ahsecYear:2027,youtube:'https://www.yo
 const $=id=>document.getElementById(id);
 const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let catalog=[],subjectFilter='All',searchTerm='';
-const levelOf=test=>test.group==='Kids'?'kids':'class-'+(test.group.match(/\d+/)?.[0]||'');
+const levelOf=test=>test.exam==='NMMS'?'nmms-sat':test.group==='Kids'?'kids':'class-'+(test.group.match(/\d+/)?.[0]||'');
 const currentRoute=()=>location.hash.slice(1)||'home';
 function testURL(test,back=currentRoute()){return 'mock-test.html?file='+encodeURIComponent(test.file)+'&return='+encodeURIComponent(back);}
 function countFor(level){return catalog.filter(t=>levelOf(t)===level).length;}
@@ -22,6 +22,7 @@ function sectionHeading(title){return `<div class="section-heading"><h2>${title}
 function renderHome(){
  const levels=['kids','class-6','class-8','class-10','class-12'];
  const featured=catalog.filter(t=>levelOf(t)==='class-12');
+ const sat=catalog.filter(t=>t.exam==='NMMS'&&t.paper==='SAT');
  $('pageContent').innerHTML=heading('Mock Tests &amp; Study Materials',catalog.length+' tests')+searchBox()+`
  <div id="homeOverview">
  <section class="exam-grid" aria-label="Exam sections">
@@ -31,7 +32,7 @@ function renderHome(){
  <div class="community-links"><a class="youtube" href="#youtube"><span>▶ YouTube</span><span aria-hidden="true">↗</span></a><a class="whatsapp" href="${CONFIG.whatsapp}" target="_blank" rel="noopener noreferrer"><span>WhatsApp Group</span><span aria-hidden="true">↗</span></a></div>
  ${sectionHeading('Available mock tests')}
  <div class="class-grid">${levels.map(level=>`<a class="class-card" href="#${level==='class-12'?'ahsec-2027':'seba-2027'}/${level}"><span><b>${className(level)}</b><small>${countFor(level)} tests${['class-6','class-8'].includes(level)?' · CBSE':''}</small></span><span class="arrow" aria-hidden="true">↗</span></a>`).join('')}</div>
- <div class="home-columns"><section class="content-block"><h2>NMMS 2026</h2><div class="nmms-links"><a href="#nmms-2026/mat">MAT ↗<small>Mock tests coming soon</small></a><a href="#nmms-2026/sat">SAT ↗<small>10 school foundation tests</small></a></div></section>
+ <div class="home-columns"><section class="content-block"><h2>NMMS 2026</h2><div class="nmms-links"><a href="#nmms-2026/mat">MAT ↗<small>Mock tests coming soon</small></a><a href="#nmms-2026/sat">SAT ↗<small>${sat.length} practice tests · 90 MCQs</small></a></div>${testLinks(sat,true,'nmms-2026/sat')}</section>
  <section class="content-block"><h2>Class 12 · Economics</h2><p>Part 2 · 20 MCQs per test · 20 minutes</p>${testLinks(featured,true,'ahsec-2027/class-12')}</section></div>
  ${sectionHeading('Study materials')}${resourceLinks(['textbooks','english','social'])}
  </div><div id="homeSearchResults" hidden></div>`;
@@ -55,8 +56,8 @@ function renderBoard(type,level){
  $('pageContent').innerHTML=`<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>${title}</span></div>`+heading(title)+classTabs(type,level)+`<h2 class="scope-title">${className(level)} · Mock Tests</h2>`+(['class-6','class-8'].includes(level)?'<p class="scope-note">Current sets: CBSE Social Science foundation practice. SEBA-specific sets have not been added yet.</p>':'')+(tests.length?renderLibrary(tests):`<section class="empty"><h2>${className(level)} mock tests coming soon</h2><p>Study materials are available below.</p></section>`)+sectionHeading('Study materials')+resourceLinks(seba?['textbooks','english','social']:['textbooks']);
  if(tests.length)bindLibrary();
 }
-function renderNMMS(stream){const mat=stream==='mat';const tests=catalog.filter(t=>levelOf(t)==='class-8');
- $('pageContent').innerHTML='<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>NMMS 2026</span></div>'+heading('NMMS 2026')+`<nav class="stream-tabs" aria-label="NMMS paper"><a href="#nmms-2026/mat" ${mat?'aria-current="page"':''}>MAT</a><a href="#nmms-2026/sat" ${!mat?'aria-current="page"':''}>SAT</a></nav><h2 class="scope-title">${mat?'Mental Ability Test (MAT)':'Scholastic Aptitude Test (SAT)'}</h2>`+(mat?'<section class="empty"><h2>MAT mock tests coming soon</h2><p><a href="#nmms-2026/sat">Open SAT foundation practice →</a></p></section>':'<p class="scope-note">Class 8 Social Science foundation practice (CBSE). These are not full NMMS SAT papers.</p>'+renderLibrary(tests))+sectionHeading('Study materials')+resourceLinks(['nmms','textbooks']);if(!mat)bindLibrary();
+function renderNMMS(stream){const mat=stream==='mat';const tests=catalog.filter(t=>t.exam==='NMMS'&&t.paper==='SAT');
+ $('pageContent').innerHTML='<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>NMMS 2026</span></div>'+heading('NMMS 2026')+`<nav class="stream-tabs" aria-label="NMMS paper"><a href="#nmms-2026/mat" ${mat?'aria-current="page"':''}>MAT</a><a href="#nmms-2026/sat" ${!mat?'aria-current="page"':''}>SAT</a></nav><h2 class="scope-title">${mat?'Mental Ability Test (MAT)':'Scholastic Aptitude Test (SAT)'}</h2>`+(mat?'<section class="empty"><h2>MAT mock tests coming soon</h2><p><a href="#nmms-2026/sat">Open SAT foundation practice →</a></p></section>':'<p class="scope-note">9 short SAT practice tests · 10 MCQs each · Mathematics 3, Science 4, Social Science 3 · No negative marking. These are practice sets, not official full-length papers.</p>'+renderLibrary(tests))+sectionHeading('Study materials')+resourceLinks(['nmms','textbooks']);if(!mat)bindLibrary();
 }
 function renderYouTube(){$('pageContent').innerHTML='<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>YouTube</span></div>'+heading('YouTube')+`<section class="youtube-card"><img src="assets/channel-banner.png" width="1672" height="941" alt="Xohopathi — Your Digital Companion"><div class="youtube-details"><h2>Xohopathi</h2><p>@xohopathi</p><a class="button" href="${CONFIG.youtube}" target="_blank" rel="noopener noreferrer">Open YouTube channel ↗</a></div></section><div class="community-links"><a href="${CONFIG.whatsapp}" class="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Group ↗</a><a href="#home">Mock tests &amp; materials →</a></div>`;}
 function renderPage(){

@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-09",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 9",
+    "as": "টেষ্ট ৯"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 9",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat09q01",
+      "subject": "Mathematics",
+      "as": "এটা সংখ্যাৰ 25% হৈছে 45। সংখ্যাটো কিমান?",
+      "options": [
+        {
+          "as": "160"
+        },
+        {
+          "as": "180"
+        },
+        {
+          "as": "200"
+        },
+        {
+          "as": "225"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "সংখ্যা=\\(45\\div0.25=180\\)। পৰীক্ষা: 180-ৰ 25%=45।"
+      }
+    },
+    {
+      "id": "sat09q02",
+      "subject": "Mathematics",
+      "as": "প্ৰতিটো Exterior Angle 45° হোৱা এটা Regular Polygon-ৰ বাহুৰ সংখ্যা কিমান?",
+      "options": [
+        {
+          "as": "6"
+        },
+        {
+          "as": "7"
+        },
+        {
+          "as": "9"
+        },
+        {
+          "as": "8"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Regular Polygon-ৰ বাহুৰ সংখ্যা=\\(\\frac{360^\\circ}{\\text{Exterior Angle}}\\)=\\(\\frac{360}{45}=8\\)।"
+      }
+    },
+    {
+      "id": "sat09q03",
+      "subject": "Mathematics",
+      "as": "4 জনৰ গড় বয়স 15 বছৰ। 20 বছৰ বয়সৰ এজন যোগ দিলে নতুন গড় বয়স কিমান?",
+      "options": [
+        {
+          "as": "16 বছৰ"
+        },
+        {
+          "as": "17 বছৰ"
+        },
+        {
+          "as": "17.5 বছৰ"
+        },
+        {
+          "as": "18 বছৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "আগৰ মুঠ বয়স=\\(4\\times15=60\\)। নতুন মুঠ=80; লোক=5। নতুন গড়=\\(\\frac{80}{5}=16\\) বছৰ।"
+      }
+    },
+    {
+      "id": "sat09q04",
+      "subject": "Science",
+      "as": "শস্য কটাৰ পিছত গছৰ পৰা গুটি পৃথক কৰা প্ৰক্ৰিয়াক কি বোলে?",
+      "options": [
+        {
+          "as": "Sowing"
+        },
+        {
+          "as": "Weeding"
+        },
+        {
+          "as": "Threshing"
+        },
+        {
+          "as": "Irrigation"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Threshing-ত কটা শস্যৰ গছ বা ঠাৰিৰ পৰা গুটি পৃথক কৰা হয়।"
+      }
+    },
+    {
+      "id": "sat09q05",
+      "subject": "Science",
+      "as": "কোনটো পদাৰ্থ সাধাৰণতে বিদ্যুতৰ Insulator হিচাপে ব্যৱহাৰ কৰা হয়?",
+      "options": [
+        {
+          "as": "Copper"
+        },
+        {
+          "as": "Rubber"
+        },
+        {
+          "as": "Aluminium"
+        },
+        {
+          "as": "Iron"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Rubber-ৰ মাজেৰে electric current সহজে নাযায়। সেয়ে তাঁৰৰ insulation-ত ইয়াৰ ব্যৱহাৰ আছে।"
+      }
+    },
+    {
+      "id": "sat09q06",
+      "subject": "Science",
+      "as": "ভেজা কাপোৰ ৰ’দত শুকাওঁতে পানী কোন প্ৰক্ৰিয়াৰে বাষ্পলৈ ৰূপান্তৰিত হয়?",
+      "options": [
+        {
+          "as": "Freezing"
+        },
+        {
+          "as": "Condensation"
+        },
+        {
+          "as": "Melting"
+        },
+        {
+          "as": "Evaporation"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Evaporation-ত পানীৰ পৃষ্ঠৰ পৰা অণু বাষ্প হিচাপে ওলাই যায়। সেয়ে ভেজা কাপোৰ শুকায়।"
+      }
+    },
+    {
+      "id": "sat09q07",
+      "subject": "Science",
+      "as": "এটা শব্দ অধিক Loud হোৱা মূলত কম্পনৰ কোনটো বৈশিষ্ট্য বৃদ্ধিৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "as": "Amplitude"
+        },
+        {
+          "as": "কেৱল Frequency"
+        },
+        {
+          "as": "কেৱল উৎসৰ দূৰত্ব বৃদ্ধি"
+        },
+        {
+          "as": "কেৱল উৎসৰ ৰং"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "কম্পনৰ Amplitude বাঢ়িলে সাধাৰণতে Loudness বাঢ়ে। Frequency-এ Pitch নিৰ্ধাৰণ কৰে।"
+      }
+    },
+    {
+      "id": "sat09q08",
+      "subject": "Social Science",
+      "as": "এটা অঞ্চলৰ Population Density কেনেকৈ গণনা কৰা হয়?",
+      "options": [
+        {
+          "as": "কালি ÷ জনসংখ্যা"
+        },
+        {
+          "as": "জন্মৰ সংখ্যা ÷ মৃত্যুৰ সংখ্যা"
+        },
+        {
+          "as": "মুঠ জনসংখ্যা ÷ ভূমিৰ কালি"
+        },
+        {
+          "as": "মুঠ জনসংখ্যা × ভূমিৰ কালি"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Population Density হৈছে একক কালিত বাস কৰা লোকৰ সংখ্যা; সাধাৰণতে প্ৰতি বৰ্গ কিলোমিটাৰত প্ৰকাশ কৰা হয়।"
+      }
+    },
+    {
+      "id": "sat09q09",
+      "subject": "Social Science",
+      "as": "ভাৰতীয় জাতীয় কংগ্ৰেছ (Indian National Congress) কোন চনত গঠিত হৈছিল?",
+      "options": [
+        {
+          "as": "1857"
+        },
+        {
+          "as": "1885"
+        },
+        {
+          "as": "1905"
+        },
+        {
+          "as": "1919"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Indian National Congress 1885 চনত গঠিত হয়। ইয়াৰ প্ৰথম অধিৱেশন বোম্বেত অনুষ্ঠিত হৈছিল।"
+      }
+    },
+    {
+      "id": "sat09q10",
+      "subject": "Social Science",
+      "as": "এখন গণতান্ত্ৰিক ব্যৱস্থাত স্বাধীন সংবাদ মাধ্যমৰ এটা গুৰুত্বপূৰ্ণ ভূমিকা কি?",
+      "options": [
+        {
+          "as": "সকলো সমালোচনা নিষিদ্ধ কৰা"
+        },
+        {
+          "as": "কেৱল চৰকাৰৰ বিজ্ঞাপন প্ৰকাশ কৰা"
+        },
+        {
+          "as": "নাগৰিকৰ পৰা সকলো তথ্য লুকুৱাই ৰখা"
+        },
+        {
+          "as": "জনসাধাৰণক তথ্য দি শাসন ব্যৱস্থাক জবাবদিহি কৰাত সহায় কৰা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "স্বাধীন সংবাদ মাধ্যমে জনস্বাৰ্থৰ তথ্য প্ৰকাশ আৰু ক্ষমতাৰ সমালোচনামূলক পৰ্যালোচনাৰ মাধ্যমে জবাবদিহিতা বৃদ্ধি কৰে।"
+      }
+    }
+  ]
+}

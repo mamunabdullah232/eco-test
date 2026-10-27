@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-05",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট ৫"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 5",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat05q01",
+      "subject": "Mathematics",
+      "as": "এটা বস্তুৰ দাম ₹500-ৰ পৰা ₹600 হ’ল। দাম কিমান শতাংশ বৃদ্ধি পালে?",
+      "options": [
+        {
+          "as": "\\(10\\%\\)"
+        },
+        {
+          "as": "\\(15\\%\\)"
+        },
+        {
+          "as": "\\(25\\%\\)"
+        },
+        {
+          "as": "\\(20\\%\\)"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "বৃদ্ধি = ₹100। মূল দাম ₹500। শতকৰা বৃদ্ধি = \\(\\frac{100}{500}\\times100=20\\%\\)।"
+      }
+    },
+    {
+      "id": "sat05q02",
+      "subject": "Mathematics",
+      "as": "4, 7, 9, 12, 15 সংখ্যাকেইটাৰ Median কিমান?",
+      "options": [
+        {
+          "as": "7"
+        },
+        {
+          "as": "9"
+        },
+        {
+          "as": "10"
+        },
+        {
+          "as": "12"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "সংখ্যাবোৰ ইতিমধ্যে সৰুৰ পৰা ডাঙৰলৈ আছে। 5টা সংখ্যাৰ মাজৰ তৃতীয় সংখ্যা 9-ই Median।"
+      }
+    },
+    {
+      "id": "sat05q03",
+      "subject": "Mathematics",
+      "as": "\\(\\frac{x}{5}+3=7\\) হ’লে x কিমান?",
+      "options": [
+        {
+          "as": "20"
+        },
+        {
+          "as": "10"
+        },
+        {
+          "as": "15"
+        },
+        {
+          "as": "25"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "\\(\\frac{x}{5}=7-3=4\\)। সেয়ে \\(x=4\\times5=20\\)।"
+      }
+    },
+    {
+      "id": "sat05q04",
+      "subject": "Science",
+      "as": "পাউৰুটিৰ dough ফুলিবলৈ Yeast-এ প্ৰধানকৈ কোনটো গেছ উৎপন্ন কৰে?",
+      "options": [
+        {
+          "as": "Oxygen"
+        },
+        {
+          "as": "Nitrogen"
+        },
+        {
+          "as": "Carbon dioxide"
+        },
+        {
+          "as": "Hydrogen"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Yeast-এ চেনিৰ Fermentation কৰি Carbon dioxide উৎপন্ন কৰে। গেছৰ বুদবুদে dough ফুলায়।"
+      }
+    },
+    {
+      "id": "sat05q05",
+      "subject": "Science",
+      "as": "দৈ গঠনত সহায় কৰা বেক্টেৰিয়াৰ নাম কি?",
+      "options": [
+        {
+          "as": "Plasmodium"
+        },
+        {
+          "as": "Amoeba"
+        },
+        {
+          "as": "Rhizobium"
+        },
+        {
+          "as": "Lactobacillus"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Lactobacillus-এ গাখীৰৰ চেনিৰ পৰা Lactic acid সৃষ্টি কৰি দৈ গঠনত সহায় কৰে।"
+      }
+    },
+    {
+      "id": "sat05q06",
+      "subject": "Science",
+      "as": "কৃষিক্ষেত্ৰত Weeding বুলিলে কি বুজায়?",
+      "options": [
+        {
+          "as": "বীজ বাছনি"
+        },
+        {
+          "as": "অপতৃণ আঁতৰোৱা"
+        },
+        {
+          "as": "শস্য কটা"
+        },
+        {
+          "as": "শস্যৰ পৰা গুটি পৃথক কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Weeding হৈছে অপতৃণ আঁতৰোৱা। অপতৃণে শস্যৰ সৈতে পানী, পুষ্টি, পোহৰ আৰু স্থানৰ বাবে প্ৰতিযোগিতা কৰে।"
+      }
+    },
+    {
+      "id": "sat05q07",
+      "subject": "Science",
+      "as": "তলৰ কোনটো Physical Change?",
+      "options": [
+        {
+          "as": "বৰফ গলি পানী হোৱা"
+        },
+        {
+          "as": "লোত মামৰ ধৰা"
+        },
+        {
+          "as": "কাঠ জ্বলা"
+        },
+        {
+          "as": "গাখীৰ টেঙা হোৱা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "বৰফ গলিলে কেৱল অৱস্থা সলনি হয়; নতুন পদাৰ্থ সৃষ্টি নহয়। ই Physical Change।"
+      }
+    },
+    {
+      "id": "sat05q08",
+      "subject": "Social Science",
+      "as": "সতীদাহ প্ৰথাৰ বিৰোধিতাৰ সৈতে কোনজন সমাজ সংস্কাৰক বিশেষভাৱে জড়িত?",
+      "options": [
+        {
+          "as": "লৰ্ড ডেলহাউচি"
+        },
+        {
+          "as": "ৰবাৰ্ট ক্লাইভ"
+        },
+        {
+          "as": "ৰাজা ৰামমোহন ৰায়"
+        },
+        {
+          "as": "ৱাৰেন হেষ্টিংছ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "ৰাজা ৰামমোহন ৰায়ে সতীদাহ প্ৰথাৰ বিৰুদ্ধে সামাজিক সংস্কাৰৰ আন্দোলন কৰিছিল।"
+      }
+    },
+    {
+      "id": "sat05q09",
+      "subject": "Social Science",
+      "as": "ভাৰতত বৰ্ষাকালৰ লগত জড়িত Kharif শস্যৰ উদাহৰণ কোনটো?",
+      "options": [
+        {
+          "as": "ঘেঁহু"
+        },
+        {
+          "as": "চানা"
+        },
+        {
+          "as": "সৰিয়হ"
+        },
+        {
+          "as": "ধান"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "ধান ভাৰতৰ এটা প্ৰধান Kharif শস্য। সাধাৰণতে বৰ্ষাকালৰ আৰম্ভণিৰ সৈতে ইয়াৰ খেতি জড়িত।"
+      }
+    },
+    {
+      "id": "sat05q10",
+      "subject": "Social Science",
+      "as": "তলৰ কোনটো Public Facility-ৰ উদাহৰণ?",
+      "options": [
+        {
+          "as": "ব্যক্তিগত অলংকাৰৰ বাকচ"
+        },
+        {
+          "as": "সৰ্বসাধাৰণৰ বাবে পানী যোগান ব্যৱস্থা"
+        },
+        {
+          "as": "ব্যক্তিগত ঘৰৰ আলমাৰী"
+        },
+        {
+          "as": "কেৱল এজনৰ ব্যৱহাৰৰ মোবাইল"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Public Facility-এ সমাজৰ বহু লোকৰ মৌলিক প্ৰয়োজন পূৰণ কৰে। পানী যোগান তাৰ উদাহৰণ।"
+      }
+    }
+  ]
+}

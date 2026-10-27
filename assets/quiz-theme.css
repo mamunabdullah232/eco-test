@@ -5,3 +5,7 @@
 .brand small{display:block;font-size:10px;font-weight:400;letter-spacing:.2px;margin:3px 0 0}.brand{line-height:1.25}@media(max-width:600px){.brand small{font-size:8px}.back{max-width:140px}.test-head{padding:19px}.controls,.content{padding:17px}}
 
 @media(max-width:600px){.rules{grid-template-columns:1fr 1fr}.rule{padding:10px}.rule:last-child{grid-column:1/-1}.rule strong{font-size:13px}.rule span{font-size:11px;line-height:1.65}.rule:last-child strong{display:inline;margin-right:8px}.rule:last-child span{display:inline}.test-head h1{font-size:23px;line-height:1.3}.question-title{font-size:17px}}
+
+.question-subject{font-size:10px;font-weight:600;color:#637967;letter-spacing:.3px;margin-bottom:8px}.question-title,.option>span,.explanation{min-width:0;overflow-wrap:anywhere}.math-inline .katex{font-size:1.12em;line-height:1.7}.math-display{display:block;max-width:100%;overflow-x:auto;padding-block:5px}.math-fallback{font-family:monospace}.explanation .math-inline{line-height:2.1}.option:has(.katex){align-items:center;min-height:56px}.option input{flex-shrink:0}.question-card:has(.katex) .options{row-gap:12px}
+
+.math-inline{line-height:2}.option:has(.mfrac){min-height:69px}.question-title:has(.mfrac){line-height:2.3}.explanation .katex{font-size:1.08em}

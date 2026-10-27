@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-01",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট ১"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 1",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat01q01",
+      "subject": "Mathematics",
+      "as": "\\(\\frac{3}{4}+\\frac{5}{8}\\) -ৰ মান কিমান?",
+      "options": [
+        {
+          "as": "1"
+        },
+        {
+          "as": "\\(\\frac{11}{8}\\)"
+        },
+        {
+          "as": "\\(\\frac{8}{12}\\)"
+        },
+        {
+          "as": "\\(\\frac{15}{32}\\)"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "\\(\\frac{3}{4}=\\frac{6}{8}\\)। সেয়ে \\(\\frac{6}{8}+\\frac{5}{8}=\\frac{11}{8}\\)।"
+      }
+    },
+    {
+      "id": "sat01q02",
+      "subject": "Mathematics",
+      "as": "এটা সামগ্ৰী ₹800-ত কিনি ₹920-ত বিক্ৰী কৰা হ’ল। লাভৰ শতকৰা হাৰ কিমান?",
+      "options": [
+        {
+          "as": "\\(10\\%\\)"
+        },
+        {
+          "as": "\\(12\\%\\)"
+        },
+        {
+          "as": "\\(20\\%\\)"
+        },
+        {
+          "as": "\\(15\\%\\)"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "লাভ = 920 − 800 = ₹120। লাভৰ হাৰ = \\(\\frac{120}{800}\\times100=15\\%\\)।"
+      }
+    },
+    {
+      "id": "sat01q03",
+      "subject": "Mathematics",
+      "as": "এটা আয়তক্ষেত্ৰৰ পৰিসীমা 50 cm আৰু দৈৰ্ঘ্য 15 cm। ইয়াৰ কালি কিমান?",
+      "options": [
+        {
+          "as": "\\(150\\,\\mathrm{cm^2}\\)"
+        },
+        {
+          "as": "\\(100\\,\\mathrm{cm^2}\\)"
+        },
+        {
+          "as": "\\(200\\,\\mathrm{cm^2}\\)"
+        },
+        {
+          "as": "\\(250\\,\\mathrm{cm^2}\\)"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "\\(2(l+b)=50\\Rightarrow l+b=25\\)। প্ৰস্থ = \\(25-15=10\\,\\mathrm{cm}\\)। কালি = \\(15\\times10=150\\,\\mathrm{cm^2}\\)।"
+      }
+    },
+    {
+      "id": "sat01q04",
+      "subject": "Science",
+      "as": "সেউজীয়া উদ্ভিদে Photosynthesis-ৰ সময়ত বায়ুৰ পৰা প্ৰধানকৈ কোনটো গেছ গ্ৰহণ কৰে?",
+      "options": [
+        {
+          "as": "Oxygen"
+        },
+        {
+          "as": "Nitrogen"
+        },
+        {
+          "as": "Carbon dioxide"
+        },
+        {
+          "as": "Hydrogen"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Photosynthesis-ত উদ্ভিদে Carbon dioxide আৰু পানী ব্যৱহাৰ কৰি পোহৰৰ সহায়ত খাদ্য প্ৰস্তুত কৰে।"
+      }
+    },
+    {
+      "id": "sat01q05",
+      "subject": "Science",
+      "as": "তলৰ কোনটো অণুজীৱই মাহজাতীয় উদ্ভিদৰ শিপাৰ গাঁঠিত Nitrogen fixation কৰে?",
+      "options": [
+        {
+          "as": "Yeast"
+        },
+        {
+          "as": "Rhizobium"
+        },
+        {
+          "as": "Amoeba"
+        },
+        {
+          "as": "Plasmodium"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Rhizobium বেক্টেৰিয়াই মাহজাতীয় উদ্ভিদৰ শিপাৰ গাঁঠিত বায়ুমণ্ডলীয় নাইট্ৰ’জেন স্থিৰীকৰণ কৰে।"
+      }
+    },
+    {
+      "id": "sat01q06",
+      "subject": "Science",
+      "as": "বল (Force)-ৰ SI একক কি?",
+      "options": [
+        {
+          "as": "Joule"
+        },
+        {
+          "as": "Pascal"
+        },
+        {
+          "as": "Watt"
+        },
+        {
+          "as": "Newton"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "বলৰ SI একক Newton। Joule শক্তি/কাৰ্যৰ, Pascal চাপৰ আৰু Watt ক্ষমতাৰ একক।"
+      }
+    },
+    {
+      "id": "sat01q07",
+      "subject": "Science",
+      "as": "বায়ুশূন্য পাত্ৰত ৰাখি মমবাতি জ্বলাই ৰাখিব নোৱাৰাৰ প্ৰধান কাৰণ কি?",
+      "options": [
+        {
+          "as": "দহনৰ বাবে Oxygen নাথাকে"
+        },
+        {
+          "as": "মম গলিব নোৱাৰে"
+        },
+        {
+          "as": "সলিতাৰ ভৰ বাঢ়ে"
+        },
+        {
+          "as": "মমৰ ৰং সলনি হয়"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "মমবাতিৰ দহন অব্যাহত থাকিবলৈ Oxygen লাগে। বায়ুশূন্য স্থানত সেয়া নাথাকে।"
+      }
+    },
+    {
+      "id": "sat01q08",
+      "subject": "Social Science",
+      "as": "পলাশীৰ যুদ্ধ (Battle of Plassey) কেতিয়া হৈছিল?",
+      "options": [
+        {
+          "as": "1764"
+        },
+        {
+          "as": "1857"
+        },
+        {
+          "as": "1757"
+        },
+        {
+          "as": "1793"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "পলাশীৰ যুদ্ধ 1757 চনত হৈছিল। ই বংগত East India Company-ৰ ৰাজনৈতিক ক্ষমতা বিস্তাৰৰ পথ মুকলি কৰে।"
+      }
+    },
+    {
+      "id": "sat01q09",
+      "subject": "Social Science",
+      "as": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনাত ‘Secular’ ধাৰণাটোৰ মূল অৰ্থ কি?",
+      "options": [
+        {
+          "as": "ৰাষ্ট্ৰৰ নিজা বাধ্যতামূলক ধৰ্ম থাকে"
+        },
+        {
+          "as": "ৰাষ্ট্ৰৰ কোনো চৰকাৰী ধৰ্ম নাই আৰু সকলো ধৰ্মৰ প্ৰতি সমান ব্যৱহাৰ কৰে"
+        },
+        {
+          "as": "কেৱল সংখ্যাগৰিষ্ঠ ধৰ্মই অধিকাৰ পায়"
+        },
+        {
+          "as": "সকলো ধৰ্মীয় বিশ্বাস নিষিদ্ধ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Secularism-ত ৰাষ্ট্ৰই কোনো এটা ধৰ্মক চৰকাৰী ধৰ্ম হিচাপে গ্ৰহণ নকৰে আৰু ধৰ্মীয় সমতাৰ নীতি অনুসৰণ কৰে।"
+      }
+    },
+    {
+      "id": "sat01q10",
+      "subject": "Social Science",
+      "as": "তলৰ কোনটো Renewable Resource?",
+      "options": [
+        {
+          "as": "Coal"
+        },
+        {
+          "as": "Petroleum"
+        },
+        {
+          "as": "Natural gas"
+        },
+        {
+          "as": "Solar energy"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "সৌৰশক্তি প্ৰাকৃতিকভাৱে পুনৰ উপলব্ধ হয়। Coal, Petroleum আৰু Natural gas সীমিত জীৱাশ্ম ইন্ধন।"
+      }
+    }
+  ]
+}

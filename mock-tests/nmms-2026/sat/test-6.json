@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-06",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 6",
+    "as": "টেষ্ট ৬"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 6",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat06q01",
+      "subject": "Mathematics",
+      "as": "এটা সুষম ছয়পিঠীয়া পাশা এবাৰ মাৰিলে মৌলিক সংখ্যা (Prime number) পোৱাৰ Probability কিমান?",
+      "options": [
+        {
+          "as": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "as": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "as": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "as": "\\(\\frac{1}{6}\\)"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "1–6-ৰ মাজত মৌলিক সংখ্যা 2, 3, 5; অনুকূল ফল 3টা। Probability=\\(\\frac{3}{6}=\\frac{1}{2}\\)।"
+      }
+    },
+    {
+      "id": "sat06q02",
+      "subject": "Mathematics",
+      "as": "₹1,200 Marked Price-ৰ বস্তুত 15% Discount দিলে বিক্ৰীমূল্য কিমান?",
+      "options": [
+        {
+          "as": "₹1,020"
+        },
+        {
+          "as": "₹1,080"
+        },
+        {
+          "as": "₹1,150"
+        },
+        {
+          "as": "₹980"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "Discount=\\(\\frac{1200\\times15}{100}\\)=₹180। বিক্ৰীমূল্য=1200−180=₹1,020।"
+      }
+    },
+    {
+      "id": "sat06q03",
+      "subject": "Mathematics",
+      "as": "এটা Parallelogram-ৰ ভূমি 12 cm আৰু সংশ্লিষ্ট লম্ব উচ্চতা 7 cm। কালি কিমান?",
+      "options": [
+        {
+          "as": "\\(38\\,\\mathrm{cm^2}\\)"
+        },
+        {
+          "as": "\\(42\\,\\mathrm{cm^2}\\)"
+        },
+        {
+          "as": "\\(96\\,\\mathrm{cm^2}\\)"
+        },
+        {
+          "as": "\\(84\\,\\mathrm{cm^2}\\)"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Parallelogram-ৰ কালি=ভূমি×লম্ব উচ্চতা=\\(12\\times7=84\\,\\mathrm{cm^2}\\)।"
+      }
+    },
+    {
+      "id": "sat06q04",
+      "subject": "Science",
+      "as": "জ্বলন্ত বৈদ্যুতিক সঁজুলিত পানী ঢলাটো বিপজ্জনক কিয়?",
+      "options": [
+        {
+          "as": "পানীয়ে সদায় Oxygen উৎপন্ন কৰে"
+        },
+        {
+          "as": "সাধাৰণ পানীয়ে বিদ্যুৎ পৰিবহণ কৰি Electric shock ঘটাব পাৰে"
+        },
+        {
+          "as": "পানীয়ে বিদ্যুৎক শব্দলৈ ৰূপান্তৰ কৰে"
+        },
+        {
+          "as": "পানীয়ে সকলো ধাতু লগে লগে গলাই দিয়ে"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "সাধাৰণ পানীত দ্ৰৱীভূত লৱণ থাকে, সেয়ে ই current পৰিবহণ কৰিব পাৰে আৰু Electric shock-ৰ বিপদ সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "id": "sat06q05",
+      "subject": "Science",
+      "as": "কোষৰ অধিকাংশ কাৰ্য নিয়ন্ত্ৰণ কৰা আৰু বংশগত তথ্য বহন কৰা অংশ কোনটো?",
+      "options": [
+        {
+          "as": "Cell wall"
+        },
+        {
+          "as": "Vacuole"
+        },
+        {
+          "as": "Nucleus"
+        },
+        {
+          "as": "Cell membrane"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Nucleus-ত বংশগত পদাৰ্থ থাকে আৰু ই কোষৰ বহু কাৰ্য নিয়ন্ত্ৰণ কৰে।"
+      }
+    },
+    {
+      "id": "sat06q06",
+      "subject": "Science",
+      "as": "টিকাকৰণ (Vaccination)-ৰ মূল উদ্দেশ্য কি?",
+      "options": [
+        {
+          "as": "নিৰ্দিষ্ট ৰোগৰ বিৰুদ্ধে প্ৰতিৰোধ ক্ষমতা গঢ়া"
+        },
+        {
+          "as": "সকলো ৰোগৰ তাৎক্ষণিক চিকিৎসা কৰা"
+        },
+        {
+          "as": "শৰীৰৰ সকলো বেক্টেৰিয়া ধ্বংস কৰা"
+        },
+        {
+          "as": "খাদ্যৰ প্ৰয়োজন কমোৱা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "Vaccine-এ ৰোগ প্ৰতিৰোধ ব্যৱস্থাক নিৰ্দিষ্ট ৰোগকাৰক চিনাক্ত কৰিবলৈ প্ৰস্তুত কৰে।"
+      }
+    },
+    {
+      "id": "sat06q07",
+      "subject": "Science",
+      "as": "তলৰ কোনটো Exhaustible Natural Resource?",
+      "options": [
+        {
+          "as": "সূৰ্যৰ পোহৰ"
+        },
+        {
+          "as": "বতাহৰ শক্তি"
+        },
+        {
+          "as": "সাগৰৰ ঢৌৰ শক্তি"
+        },
+        {
+          "as": "Coal"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Coal গঠন হ’বলৈ অতি দীঘল সময় লাগে আৰু ইয়াৰ মজুত সীমিত; সেয়ে ই Exhaustible Resource।"
+      }
+    },
+    {
+      "id": "sat06q08",
+      "subject": "Social Science",
+      "as": "ভাৰতৰ Standard Meridian কোনটো?",
+      "options": [
+        {
+          "as": "68°7′ E"
+        },
+        {
+          "as": "82°30′ E"
+        },
+        {
+          "as": "97°25′ E"
+        },
+        {
+          "as": "23°30′ N"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "82°30′ পূব দ্ৰাঘিমাৰেখাৰ স্থানীয় সময়ৰ ভিত্তিত Indian Standard Time নিৰ্ধাৰণ কৰা হয়।"
+      }
+    },
+    {
+      "id": "sat06q09",
+      "subject": "Social Science",
+      "as": "ঔপনিবেশিক ভাৰতত Indigo খেতিৰ মূল উদ্দেশ্য কি আছিল?",
+      "options": [
+        {
+          "as": "চাউল উৎপাদন"
+        },
+        {
+          "as": "কাঠ উৎপাদন"
+        },
+        {
+          "as": "নীলা ৰং উৎপাদন"
+        },
+        {
+          "as": "খাদ্যতেল উৎপাদন"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Indigo উদ্ভিদৰ পৰা নীলা ৰং উৎপাদন কৰা হৈছিল, যাৰ কাপোৰ ৰং কৰাত বাণিজ্যিক চাহিদা আছিল।"
+      }
+    },
+    {
+      "id": "sat06q10",
+      "subject": "Social Science",
+      "as": "Judiciary-ৰ মূল কাম কোনটো?",
+      "options": [
+        {
+          "as": "আইনৰ ব্যাখ্যা কৰি ন্যায় প্ৰদান কৰা"
+        },
+        {
+          "as": "প্ৰতিদিনে নতুন মুদ্ৰা ছপা কৰা"
+        },
+        {
+          "as": "সকলো নিৰ্বাচনী প্ৰচাৰ চলোৱা"
+        },
+        {
+          "as": "দেশৰ সকলো শস্য ক্ৰয় কৰা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "বিচাৰ বিভাগে বিবাদ নিষ্পত্তি, আইনৰ ব্যাখ্যা আৰু অধিকাৰৰ সুৰক্ষাৰ কাম কৰে।"
+      }
+    }
+  ]
+}

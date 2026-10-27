@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-03",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট ৩"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 3",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat03q01",
+      "subject": "Mathematics",
+      "as": "\\(\\sqrt{1764}\\) -ৰ মান কিমান?",
+      "options": [
+        {
+          "as": "38"
+        },
+        {
+          "as": "40"
+        },
+        {
+          "as": "44"
+        },
+        {
+          "as": "42"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "\\(42\\times42=1764\\)। সেয়ে \\(\\sqrt{1764}=42\\)।"
+      }
+    },
+    {
+      "id": "sat03q02",
+      "subject": "Mathematics",
+      "as": "6, 8, 10, 12 আৰু 14-ৰ Arithmetic Mean কিমান?",
+      "options": [
+        {
+          "as": "10"
+        },
+        {
+          "as": "9"
+        },
+        {
+          "as": "11"
+        },
+        {
+          "as": "12"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "যোগফল = 50। পৰ্যবেক্ষণ 5টা। \\(\\text{Mean}=\\frac{50}{5}=10\\)।"
+      }
+    },
+    {
+      "id": "sat03q03",
+      "subject": "Mathematics",
+      "as": "এটা ত্ৰিভুজৰ কোণসমূহৰ অনুপাত \\(2:3:4\\)। বৃহত্তম কোণটো কিমান?",
+      "options": [
+        {
+          "as": "\\(60^\\circ\\)"
+        },
+        {
+          "as": "\\(70^\\circ\\)"
+        },
+        {
+          "as": "\\(80^\\circ\\)"
+        },
+        {
+          "as": "\\(90^\\circ\\)"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "মুঠ অংশ 9। প্ৰতিটো অংশ = \\(\\frac{180^\\circ}{9}=20^\\circ\\)। বৃহত্তম কোণ = \\(4\\times20^\\circ=80^\\circ\\)।"
+      }
+    },
+    {
+      "id": "sat03q04",
+      "subject": "Science",
+      "as": "উদ্ভিদৰ Xylem-ৰ প্ৰধান কাম কি?",
+      "options": [
+        {
+          "as": "পাতৰ পৰা খাদ্য কঢ়িওৱা"
+        },
+        {
+          "as": "শিপাৰ পৰা পানী আৰু খনিজ লৱণ কঢ়িওৱা"
+        },
+        {
+          "as": "ফুলত ৰং সৃষ্টি কৰা"
+        },
+        {
+          "as": "বীজৰ ভিতৰত খাদ্য হজম কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Xylem-এ শিপাৰ পৰা পানী আৰু খনিজ লৱণ উদ্ভিদৰ অন্যান্য অংশলৈ পৰিবহণ কৰে।"
+      }
+    },
+    {
+      "id": "sat03q05",
+      "subject": "Science",
+      "as": "মানুহৰ Red Blood Cells-এ Oxygen পৰিবহণ কৰিবলৈ কোনটো পদাৰ্থ ব্যৱহাৰ কৰে?",
+      "options": [
+        {
+          "as": "Insulin"
+        },
+        {
+          "as": "Bile"
+        },
+        {
+          "as": "Saliva"
+        },
+        {
+          "as": "Haemoglobin"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Red Blood Cells-ত থকা Haemoglobin-এ Oxygen-ৰ সৈতে যুক্ত হৈ ইয়াক পৰিবহণ কৰে।"
+      }
+    },
+    {
+      "id": "sat03q06",
+      "subject": "Science",
+      "as": "সাধাৰণ বৈদ্যুতিক bulb-ত ব্যৱহৃত Tungsten কোন ধৰণৰ মৌল?",
+      "options": [
+        {
+          "as": "ধাতু"
+        },
+        {
+          "as": "অধাতু"
+        },
+        {
+          "as": "নিষ্ক্ৰিয় গেছ"
+        },
+        {
+          "as": "Halogen"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "Tungsten এটা ধাতু। ইয়াৰ উচ্চ গলনাংকৰ বাবে incandescent bulb-ৰ filament-ত ব্যৱহাৰ কৰা হয়।"
+      }
+    },
+    {
+      "id": "sat03q07",
+      "subject": "Science",
+      "as": "Malaria ৰোগ সৃষ্টি কৰা অণুজীৱ কোনটো?",
+      "options": [
+        {
+          "as": "Rhizobium"
+        },
+        {
+          "as": "Lactobacillus"
+        },
+        {
+          "as": "Plasmodium"
+        },
+        {
+          "as": "Yeast"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Malaria-ৰ কাৰক Plasmodium। সংক্ৰমিত মাইকী Anopheles মহে ইয়াক মানুহলৈ বিয়পাব পাৰে।"
+      }
+    },
+    {
+      "id": "sat03q08",
+      "subject": "Social Science",
+      "as": "1857-ৰ বিদ্ৰোহত ঝাঁসীত নেতৃত্ব দিয়া ব্যক্তিগৰাকী কোন?",
+      "options": [
+        {
+          "as": "বেগম হাজৰত মহল"
+        },
+        {
+          "as": "ৰাণী লক্ষ্মীবাই"
+        },
+        {
+          "as": "সৰোজিনী নাইডু"
+        },
+        {
+          "as": "এনী বেছান্ত"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "ৰাণী লক্ষ্মীবাইয়ে 1857-ৰ বিদ্ৰোহত ঝাঁসীত নেতৃত্ব দিছিল।"
+      }
+    },
+    {
+      "id": "sat03q09",
+      "subject": "Social Science",
+      "as": "সমান পৰিমাণৰ বৰষুণ দেখুওৱা মানচিত্ৰত নহয়, বৰং এঠাইৰ দীৰ্ঘ সময়ৰ গড় বতৰৰ অৱস্থাক কি বোলে?",
+      "options": [
+        {
+          "as": "জোৱাৰ"
+        },
+        {
+          "as": "বতাহ"
+        },
+        {
+          "as": "দৈনিক বতৰ"
+        },
+        {
+          "as": "জলবায়ু"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Climate বা জলবায়ু হৈছে কোনো অঞ্চলৰ দীৰ্ঘ সময়ৰ বতৰৰ গড় আৰু সাধাৰণ বৈশিষ্ট্য।"
+      }
+    },
+    {
+      "id": "sat03q10",
+      "subject": "Social Science",
+      "as": "Law-ৰ আগত সকলো সমান—এই নীতিটো কোনটো ধাৰণাৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "as": "Equality before Law"
+        },
+        {
+          "as": "বংশানুক্ৰমিক শাসন"
+        },
+        {
+          "as": "ৰাজনৈতিক একচেটিয়াকৰণ"
+        },
+        {
+          "as": "ধৰ্মভিত্তিক ভোটাধিকাৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "Equality before Law অনুসৰি সকলো ব্যক্তি আইনৰ অধীন আৰু সমান আইনী সুৰক্ষাৰ দাবীদাৰ।"
+      }
+    }
+  ]
+}

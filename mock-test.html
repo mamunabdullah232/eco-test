@@ -161,7 +161,7 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 }
 </style>
 <link rel="icon" href="assets/brand-mark.png">
-<link rel="stylesheet" href="assets/quiz-theme.css?v=student-20261027">
+<link rel="stylesheet" href="assets/quiz-theme.css?v=sat-20261027">
 </head>
 <body>
 <header>
@@ -193,6 +193,7 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 </main>
 
 <script src="mock-test-data.js"></script>
+<script src="assets/equations.js?v=sat-20261027"></script>
 <script>
 const params = new URLSearchParams(location.search);
 const requestedReturn = params.get("return") || "home";
@@ -327,7 +328,9 @@ async function loadJsonTestFile(filePath){
   try{
     const response = await fetch(filePath, { cache:"no-store" });
     if(!response.ok) return;
-    testSet = shuffleQuestionOptions(normalizeTestSet(await response.json()));
+    const raw = await response.json();
+    if(raw.math || window.XohopathiMath.containsMath(raw.questions)) await window.XohopathiMath.load();
+    testSet = shuffleQuestionOptions(normalizeTestSet(raw));
   }catch(error){
     console.error("Could not load test file:", error);
   }
@@ -339,7 +342,9 @@ async function loadTestSet(){
     await loadJsonTestFile(filePath);
     return;
   }
-  testSet = shuffleQuestionOptions(normalizeTestSet(window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")]));
+  const raw = window.XOHOPATHI_TESTS && window.XOHOPATHI_TESTS[params.get("set")];
+  if(raw && (raw.math || window.XohopathiMath.containsMath(raw.questions))) await window.XohopathiMath.load();
+  testSet = shuffleQuestionOptions(normalizeTestSet(raw));
 }
 
 function text(value){
@@ -358,7 +363,11 @@ function escapeHTML(value){
 }
 
 function label(value){
-  return escapeHTML(text(value));
+  return richText(text(value));
+}
+
+function richText(value){
+  return window.XohopathiMath.renderHTML(value);
 }
 
 function renderExplanation(question){
@@ -369,8 +378,8 @@ function renderExplanation(question){
   return `
     <div class="explanation">
       <span class="explanation-title">Explanation / ব্যাখ্যা</span>
-      ${english ? `<p><strong>English:</strong> ${escapeHTML(english)}</p>` : ""}
-      ${assamese ? `<p><strong>অসমীয়া:</strong> ${escapeHTML(assamese)}</p>` : ""}
+      ${english ? `<p><strong>English:</strong> ${richText(english)}</p>` : ""}
+      ${assamese ? `<p><strong>অসমীয়া:</strong> ${richText(assamese)}</p>` : ""}
     </div>
   `;
 }
@@ -461,6 +470,7 @@ function renderQuestions(){
   const resultHTML = submitted ? renderResult() : "";
   const questionHTML = testSet.questions.map((question, qIndex) => `
     <div class="question-card">
+      ${question.subject ? `<div class="question-subject">${escapeHTML(text(question.subject))}</div>` : ""}
       <div class="question-title">${qIndex + 1}. ${label(question)}</div>
       <div class="options">
         ${question.options.map((option, optionIndex) => {

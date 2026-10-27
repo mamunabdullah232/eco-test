@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-08",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 8",
+    "as": "টেষ্ট ৮"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 8",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat08q01",
+      "subject": "Mathematics",
+      "as": "সমান হাৰত কাম কৰা 6 জন শ্ৰমিকে এটা কাম 12 দিনত কৰে। একে হাৰত 8 জনে কামটো কিমান দিনত কৰিব?",
+      "options": [
+        {
+          "as": "8 দিন"
+        },
+        {
+          "as": "10 দিন"
+        },
+        {
+          "as": "9 দিন"
+        },
+        {
+          "as": "16 দিন"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "মুঠ কাম=\\(6\\times12=72\\) worker-days। 8 জনে সময় ল’ব \\(\\frac{72}{8}=9\\) দিন।"
+      }
+    },
+    {
+      "id": "sat08q02",
+      "subject": "Mathematics",
+      "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ 7 cm। \\(\\pi=\\frac{22}{7}\\) ধৰিলে পৰিধি কিমান?",
+      "options": [
+        {
+          "as": "\\(44\\,\\mathrm{cm}\\)"
+        },
+        {
+          "as": "\\(22\\,\\mathrm{cm}\\)"
+        },
+        {
+          "as": "\\(49\\,\\mathrm{cm}\\)"
+        },
+        {
+          "as": "\\(154\\,\\mathrm{cm}\\)"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "পৰিধি=\\(2\\pi r=2\\times\\frac{22}{7}\\times7=44\\,\\mathrm{cm}\\)।"
+      }
+    },
+    {
+      "id": "sat08q03",
+      "subject": "Mathematics",
+      "as": "0.000072-ৰ Standard Form কোনটো?",
+      "options": [
+        {
+          "as": "\\(7.2 \\times 10^5\\)"
+        },
+        {
+          "as": "\\(72 \\times 10^{-5}\\)"
+        },
+        {
+          "as": "\\(0.72 \\times 10^{-4}\\)"
+        },
+        {
+          "as": "\\(7.2 \\times 10^{-5}\\)"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Standard Form-ত coefficient 1-ৰ সমান বা অধিক আৰু 10-তকৈ সৰু হয়। \\(0.000072=7.2\\times10^{-5}\\)।"
+      }
+    },
+    {
+      "id": "sat08q04",
+      "subject": "Science",
+      "as": "গৰম চাহৰ ভিতৰত ধাতুৰ চামুচ ৰাখিলে ওপৰৰ অংশও গৰম হয়। মুখ্য তাপ সঞ্চালন পদ্ধতিটো কি?",
+      "options": [
+        {
+          "as": "Convection"
+        },
+        {
+          "as": "Conduction"
+        },
+        {
+          "as": "Evaporation"
+        },
+        {
+          "as": "Condensation"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "ধাতুৰ ভিতৰে তাপ Conduction বা পৰিবহণৰ দ্বাৰা গৰম অংশৰ পৰা ঠাণ্ডা অংশলৈ যায়।"
+      }
+    },
+    {
+      "id": "sat08q05",
+      "subject": "Science",
+      "as": "কোনটো দ্ৰৱে Distilled Water-তকৈ ভালদৰে বিদ্যুৎ পৰিবহণ কৰিব?",
+      "options": [
+        {
+          "as": "খাঁটি চেনিৰ দ্ৰৱ"
+        },
+        {
+          "as": "কেৱল বিশুদ্ধ Distilled Water"
+        },
+        {
+          "as": "লৱণৰ দ্ৰৱ"
+        },
+        {
+          "as": "বিশুদ্ধ তেল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "লৱণ পানীত ভাঙি চলনশীল ion সৃষ্টি কৰে। এই ion-সমূহে electric current পৰিবহণত সহায় কৰে।"
+      }
+    },
+    {
+      "id": "sat08q06",
+      "subject": "Science",
+      "as": "পানী সংৰক্ষণৰ বাবে উদ্ভিদৰ শিপাৰ কাষত টোপাল-টোপালকৈ পানী দিয়া পদ্ধতিটো কি?",
+      "options": [
+        {
+          "as": "Drip Irrigation"
+        },
+        {
+          "as": "Flood Irrigation"
+        },
+        {
+          "as": "Threshing"
+        },
+        {
+          "as": "Winnowing"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "Drip Irrigation-ত শিপাৰ ওচৰত নিয়ন্ত্ৰিতভাৱে পানী দিয়া হয়; অপচয় কমাবলৈ ই উপযোগী।"
+      }
+    },
+    {
+      "id": "sat08q07",
+      "subject": "Science",
+      "as": "কোনো প্ৰজাতিৰ সকলো সদস্য পৃথিৱীৰ পৰা নোহোৱা হোৱাক কি বোলে?",
+      "options": [
+        {
+          "as": "Migration"
+        },
+        {
+          "as": "Hibernation"
+        },
+        {
+          "as": "Adaptation"
+        },
+        {
+          "as": "Extinction"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Extinction হৈছে কোনো প্ৰজাতিৰ সম্পূৰ্ণ বিলুপ্তি। কেৱল স্থান সলনি কৰাটো Migration।"
+      }
+    },
+    {
+      "id": "sat08q08",
+      "subject": "Social Science",
+      "as": "Sustainable Development-ৰ মূল উদ্দেশ্য কি?",
+      "options": [
+        {
+          "as": "সকলো সম্পদ যিমান পাৰি সোনকালে শেষ কৰা"
+        },
+        {
+          "as": "বৰ্তমানৰ প্ৰয়োজন পূৰণ কৰি ভৱিষ্যৎ প্ৰজন্মৰ সুযোগ অক্ষুণ্ণ ৰখা"
+        },
+        {
+          "as": "সকলো উৎপাদন স্থায়ীভাৱে বন্ধ কৰা"
+        },
+        {
+          "as": "কেৱল নগৰৰ উন্নয়ন কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Sustainable Development-এ বৰ্তমানৰ প্ৰয়োজনৰ সৈতে ভৱিষ্যৎ প্ৰজন্মৰ সম্পদ আৰু সুযোগৰ সুৰক্ষাৰ সমন্বয় কৰে।"
+      }
+    },
+    {
+      "id": "sat08q09",
+      "subject": "Social Science",
+      "as": "Doctrine of Lapse-ৰ অধীনত ব্ৰিটিছে কোনটো অজুহাতত কিছুমান ৰাজ্য অধিগ্ৰহণ কৰিছিল?",
+      "options": [
+        {
+          "as": "ৰাজ্যত অধিক বৰষুণ হোৱা"
+        },
+        {
+          "as": "ৰাজ্যত কৃষক থকা"
+        },
+        {
+          "as": "শাসকৰ স্বাভাৱিক উত্তৰাধিকাৰী নথকা"
+        },
+        {
+          "as": "ৰাজ্যত বাণিজ্য চলা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Doctrine of Lapse-ত স্বাভাৱিক উত্তৰাধিকাৰী নথকা কিছুমান ৰাজ্যৰ দত্তক উত্তৰাধিকাৰী মানি নলৈ ব্ৰিটিছে অধিগ্ৰহণ কৰিছিল।"
+      }
+    },
+    {
+      "id": "sat08q10",
+      "subject": "Social Science",
+      "as": "Constitution বা সংবিধানৰ মুখ্য ভূমিকা কি?",
+      "options": [
+        {
+          "as": "শাসনৰ মৌলিক নিয়ম আৰু নাগৰিকৰ অধিকাৰৰ কাঠামো নিৰ্ধাৰণ কৰা"
+        },
+        {
+          "as": "কেৱল দৈনিক বতৰৰ খবৰ দিয়া"
+        },
+        {
+          "as": "সকলো দোকানৰ মূল্য একে কৰা"
+        },
+        {
+          "as": "কেৱল ক্ৰীড়া প্ৰতিযোগিতা পৰিচালনা কৰা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "সংবিধানে চৰকাৰৰ গঠন, ক্ষমতাৰ সীমা, মৌলিক নীতি আৰু নাগৰিকৰ অধিকাৰৰ কাঠামো নিৰ্ধাৰণ কৰে।"
+      }
+    }
+  ]
+}

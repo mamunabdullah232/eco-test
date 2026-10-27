@@ -1,0 +1,263 @@
+{
+  "id": "nmms-sat-04",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "SAT",
+    "as": "SAT"
+  },
+  "section": {
+    "en": "Scholastic Aptitude Test",
+    "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "SAT Practice Tests",
+    "as": "SAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট ৪"
+  },
+  "displayTitle": "NMMS 2026 SAT · Test 4",
+  "assameseOnly": true,
+  "math": true,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "sat04q01",
+      "subject": "Mathematics",
+      "as": "\\(\\frac{2^3\\times2^5}{2^4}\\) -ৰ মান কিমান?",
+      "options": [
+        {
+          "as": "8"
+        },
+        {
+          "as": "32"
+        },
+        {
+          "as": "16"
+        },
+        {
+          "as": "64"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "একে ভিত্তিৰ সূচকৰ নিয়মে \\(2^{3+5-4}=2^4=16\\)।"
+      }
+    },
+    {
+      "id": "sat04q02",
+      "subject": "Mathematics",
+      "as": "এখন গাড়ীয়ে 2.5 ঘণ্টাত 150 km যায়। গড় গতি কিমান?",
+      "options": [
+        {
+          "as": "\\(50\\,\\mathrm{km/h}\\)"
+        },
+        {
+          "as": "\\(60\\,\\mathrm{km/h}\\)"
+        },
+        {
+          "as": "\\(65\\,\\mathrm{km/h}\\)"
+        },
+        {
+          "as": "\\(75\\,\\mathrm{km/h}\\)"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "গড় গতি = মুঠ দূৰত্ব ÷ মুঠ সময়। \\(v=\\frac{d}{t}=\\frac{150}{2.5}=60\\,\\mathrm{km/h}\\)।"
+      }
+    },
+    {
+      "id": "sat04q03",
+      "subject": "Mathematics",
+      "as": "এটা Cube-ৰ প্ৰতিটো বাহুৰ দৈৰ্ঘ্য 5 cm। আয়তন কিমান?",
+      "options": [
+        {
+          "as": "\\(25\\,\\mathrm{cm^3}\\)"
+        },
+        {
+          "as": "\\(75\\,\\mathrm{cm^3}\\)"
+        },
+        {
+          "as": "\\(100\\,\\mathrm{cm^3}\\)"
+        },
+        {
+          "as": "\\(125\\,\\mathrm{cm^3}\\)"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Cube-ৰ আয়তন = বাহু × বাহু × বাহু। \\(V=a^3=5^3=125\\,\\mathrm{cm^3}\\)।"
+      }
+    },
+    {
+      "id": "sat04q04",
+      "subject": "Science",
+      "as": "একে তৰলৰ ভিতৰত গভীৰতা বাঢ়িলে চাপৰ কি হয়?",
+      "options": [
+        {
+          "as": "বাঢ়ে"
+        },
+        {
+          "as": "কমে"
+        },
+        {
+          "as": "সদায় শূন্য থাকে"
+        },
+        {
+          "as": "সদায় একে থাকে"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "তৰলৰ গভীৰতা বাঢ়িলে ওপৰত থকা তৰল স্তম্ভৰ ওজন বাঢ়ে; সেয়ে চাপো বাঢ়ে।"
+      }
+    },
+    {
+      "id": "sat04q05",
+      "subject": "Science",
+      "as": "এটা শব্দৰ Pitch মূলত কিহৰ ওপৰত নিৰ্ভৰ কৰে?",
+      "options": [
+        {
+          "as": "Amplitude"
+        },
+        {
+          "as": "মাধ্যমৰ ৰং"
+        },
+        {
+          "as": "Frequency"
+        },
+        {
+          "as": "উৎসৰ ভৰহে"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "কম্পনৰ Frequency বাঢ়িলে Pitch বাঢ়ে। Amplitude মূলত Loudness-ৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "id": "sat04q06",
+      "subject": "Science",
+      "as": "মাটিত কেঁচুসাৰ বা Vermicompost ব্যৱহাৰৰ এটা প্ৰধান সুবিধা কি?",
+      "options": [
+        {
+          "as": "মাটিৰ সকলো জীৱ ধ্বংস কৰে"
+        },
+        {
+          "as": "মাটিত Organic matter যোগ কৰি গঠন উন্নত কৰে"
+        },
+        {
+          "as": "মাটিক সম্পূৰ্ণ বালিলৈ ৰূপান্তৰ কৰে"
+        },
+        {
+          "as": "উদ্ভিদৰ পানীৰ প্ৰয়োজন একেবাৰে নোহোৱা কৰে"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "Vermicompost-এ মাটিত জৈৱ পদাৰ্থ আৰু পুষ্টি যোগ কৰি মাটিৰ গঠন আৰু পানী ধৰি ৰখাৰ ক্ষমতা উন্নত কৰিব পাৰে।"
+      }
+    },
+    {
+      "id": "sat04q07",
+      "subject": "Science",
+      "as": "বায়ুমণ্ডলৰ কোনটো স্তৰত থকা Ozone-এ ক্ষতিকাৰক UV radiation-ৰ এটা ডাঙৰ অংশ শোষণ কৰে?",
+      "options": [
+        {
+          "as": "Troposphere"
+        },
+        {
+          "as": "Mesosphere"
+        },
+        {
+          "as": "Exosphere"
+        },
+        {
+          "as": "Stratosphere"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "as": "Stratosphere-ৰ Ozone layer-এ সূৰ্যৰ ক্ষতিকাৰক ultraviolet radiation-ৰ এটা ডাঙৰ অংশ শোষণ কৰে।"
+      }
+    },
+    {
+      "id": "sat04q08",
+      "subject": "Social Science",
+      "as": "Soil erosion কমাবলৈ পাহাৰৰ ঢালত কোনটো পদ্ধতি অধিক উপযোগী?",
+      "options": [
+        {
+          "as": "Terrace farming"
+        },
+        {
+          "as": "নিৰ্বিচাৰ বনধ্বংস"
+        },
+        {
+          "as": "অত্যধিক পশুচাৰণ"
+        },
+        {
+          "as": "ঢালৰ দিশে সোজাকৈ গভীৰ চহ কৰা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "as": "Terrace farming-এ ঢালক ধাপত ভাগ কৰি পানীৰ বেগ আৰু মাটি খহনীয়া কমায়।"
+      }
+    },
+    {
+      "id": "sat04q09",
+      "subject": "Social Science",
+      "as": "East India Company-এ ‘Diwani’ লাভ কৰাৰ অৰ্থ কি আছিল?",
+      "options": [
+        {
+          "as": "নিজা মুদ্ৰা বন্ধ কৰা"
+        },
+        {
+          "as": "সকলো বিদ্যালয় চলোৱা"
+        },
+        {
+          "as": "ৰাজহ সংগ্ৰহৰ অধিকাৰ লাভ কৰা"
+        },
+        {
+          "as": "বিদেশী বাণিজ্য সম্পূৰ্ণ বন্ধ কৰা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "as": "Diwani-ৰ অধিকাৰে Company-ক নিৰ্দিষ্ট অঞ্চলত ৰাজহ সংগ্ৰহৰ ক্ষমতা দিছিল।"
+      }
+    },
+    {
+      "id": "sat04q10",
+      "subject": "Social Science",
+      "as": "সংসদীয় গণতন্ত্ৰত জনসাধাৰণে মূলত কেনেকৈ কেন্দ্ৰীয় শাসনত অংশ লয়?",
+      "options": [
+        {
+          "as": "বিচাৰপতি নিযুক্ত কৰি"
+        },
+        {
+          "as": "নিজৰ প্ৰতিনিধি নিৰ্বাচন কৰি"
+        },
+        {
+          "as": "সকলো চৰকাৰী কৰ্মচাৰী নিজে বাছি"
+        },
+        {
+          "as": "সকলো আইন ব্যক্তিগতভাৱে বাতিল কৰি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "as": "নাগৰিকে নিৰ্বাচনৰ মাধ্যমে প্ৰতিনিধি বাছি লয়। সেই প্ৰতিনিধিসকলে সংসদত জনসাধাৰণৰ হৈ কাম কৰে।"
+      }
+    }
+  ]
+}
