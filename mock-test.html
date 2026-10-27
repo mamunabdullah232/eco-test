@@ -161,13 +161,13 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 }
 </style>
 <link rel="icon" href="assets/brand-mark.png">
-<link rel="stylesheet" href="assets/quiz-theme.css">
+<link rel="stylesheet" href="assets/quiz-theme.css?v=student-20261027">
 </head>
 <body>
 <header>
   <div class="container topbar">
-    <a class="brand" href="index.html#practice"><img class="quiz-mark" src="assets/brand-mark.png" width="42" height="42" alt=""><span>Xohopathi <small>Practice</small></span></a>
-    <a class="back" id="backLink" href="index.html#practice">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
+    <a class="brand" href="index.html#home"><img class="quiz-mark" src="assets/brand-mark.png" width="42" height="42" alt=""><span>Xohopathi <small>Your Digital Companion</small></span></a>
+    <a class="back" id="backLink" href="index.html#home">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
   </div>
 </header>
 
@@ -195,6 +195,11 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 <script src="mock-test-data.js"></script>
 <script>
 const params = new URLSearchParams(location.search);
+const requestedReturn = params.get("return") || "home";
+const safeReturn = /^(home|youtube|nmms-2026(?:\/(?:mat|sat))?|seba-2027(?:\/(?:kids|class-(?:[1-9]|10)))?|ahsec-2027(?:\/class-1[12])?)$/.test(requestedReturn) ? requestedReturn : "home";
+const backURL = "index.html#" + safeReturn;
+document.querySelector(".brand").href = backURL;
+document.getElementById("backLink").href = backURL;
 let testSet = null;
 const content = document.getElementById("content");
 const timer = document.getElementById("timer");
@@ -482,7 +487,7 @@ function renderQuestions(){
     <div class="questions">${questionHTML}</div>
     <div class="actions">
       ${submitted
-        ? `<a class="btn secondary" href="index.html#practice">${testSet.englishOnly ? "Back" : "Back / উভতি যাওক"}</a>`
+        ? `<a class="btn secondary" href="${backURL}">${testSet.englishOnly ? "Back" : "Back / উভতি যাওক"}</a>`
         : `<button class="btn" type="button" id="submitBtn">${testSet.englishOnly ? "Submit Test" : "Submit Test / জমা দিয়ক"}</button>`}
     </div>
   `;

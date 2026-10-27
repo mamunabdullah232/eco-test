@@ -1,57 +1,73 @@
 'use strict';
-const exams = [
- {id:'nmms',name:'NMMS Exam',full:'National Means-cum-Merit Scholarship',streams:['Mental Ability Test (MAT)','Scholastic Aptitude Test (SAT)'],summary:'MAT · SAT · Scholarship preparation',description:'Build your reasoning and scholastic foundations. Start with the exam information, then explore the existing school practice library.',url:'https://madhyamik.assam.gov.in/frontimpotentdata/nmmss-scholarship',source:'NMMS information'},
- {id:'adre',name:'ADRE',full:'Assam Direct Recruitment Examination',streams:['Grade III','Grade IV'],summary:'Grade III · Grade IV',description:'Choose your recruitment stream and use the official notices to plan your preparation. Foundation practice is available in the library.',url:'https://assam.gov.in/',source:'Assam government portal'},
- {id:'apsc',name:'APSC',full:'Assam Public Service Commission',streams:['CCE','Assistant Engineer (AE)','Junior Engineer (JE)','Departmental examinations','Other recruitment'],summary:'CCE · AE · JE · Departmental exams',description:'Explore civil services, engineering and departmental exam pathways. Refer to APSC for the notification and syllabus for your chosen examination.',url:'https://apsc.nic.in/',source:'APSC official portal'},
- {id:'tet',name:'Assam TET',full:'Teacher Eligibility Test',streams:['LP TET','UP TET','Special TET'],summary:'LP TET · UP TET · Special TET',description:'A dedicated pathway for aspiring primary and upper primary teachers. Consult the official education portal for the relevant test information.',url:'https://dee.assam.gov.in/',source:'Elementary education portal'},
- {id:'gt',name:'Graduate Teacher',full:'GT recruitment',streams:['Graduate Teacher recruitment','TET-cum-Recruitment'],summary:'GT · TET-cum-Recruitment',description:'Organise your learning around the graduate teacher recruitment stream. Use the official secondary education notices for current requirements.',url:'https://madhyamik.assam.gov.in/',source:'Secondary education portal'},
- {id:'pgt',name:'Post Graduate Teacher',full:'PGT recruitment',streams:['PGT recruitment','TET-cum-Recruitment'],summary:'PGT · TET-cum-Recruitment',description:'A pathway for postgraduate teaching aspirants. Follow the official recruitment notice when choosing your subject and preparation plan.',url:'https://madhyamik.assam.gov.in/',source:'Secondary education portal'},
- {id:'slet',name:'Assistant Professor / SLET',full:'Higher education pathways',streams:['Assam SLET','UGC NET','College recruitment'],summary:'Assam SLET · UGC NET · College recruitment',description:'Explore teaching eligibility and college recruitment pathways. SLET and UGC NET are separate examinations; use the relevant official notice for each.',url:'https://sletne.org/',source:'SLET NE official portal',extraUrl:'https://ugcnet.nta.ac.in/',extraSource:'UGC NET official portal'},
- {id:'police',name:'Assam Police',full:'Police recruitment',streams:['Constable','Sub-Inspector','Commando'],summary:'Constable · Sub-Inspector · Commando',description:'Find your police recruitment stream and review the official requirements. Use the recruitment board’s notices for the current selection process.',url:'https://slprbassam.in/',source:'SLPRB official portal'},
- {id:'other',name:'Other Assam Government Exams',full:'More opportunities to explore',streams:['Other government recruitment','State entrance examinations'],summary:'State recruitment · Entrance examinations',description:'A home for additional Assam government recruitment and state entrance exam pathways as the learning collection grows.',url:'https://assam.gov.in/',source:'Assam government portal'}
-];
-const resources = [
- {type:'textbooks',kind:'OFFICIAL TEXTBOOK LIBRARY',title:'NCERT textbooks',description:'Open the class and subject selector to find textbooks for Classes 1–12.',url:'https://ncert.nic.in/textbook.php',action:'Browse textbooks'},
- {type:'papers',kind:'HSLC 2024 · OFFICIAL PDF',title:'English question paper',description:'Read the 2024 English paper alongside your practice sessions.',url:'https://site.sebaonline.org/photo/upload/2025/1752655853_3181.pdf',action:'Open question paper'},
- {type:'papers',kind:'HSLC 2024 · OFFICIAL PDF',title:'Social Science question paper',description:'Review the original paper and identify topics for further practice.',url:'https://site.sebaonline.org/photo/upload/2025/1752655937_9300.pdf',action:'Open question paper'},
- {type:'exams',kind:'SCHOLARSHIP · OFFICIAL RESOURCE',title:'NMMS information',description:'Find the scholarship overview and MAT / SAT information on Assam’s education portal.',url:'https://madhyamik.assam.gov.in/frontimpotentdata/nmmss-scholarship',action:'Visit official resource'},
- {type:'exams',kind:'PUBLIC SERVICE · OFFICIAL PORTAL',title:'APSC resources',description:'Go to the commission’s portal for exam notices and recruitment information.',url:'https://apsc.nic.in/',action:'Visit official portal'},
- {type:'exams',kind:'HIGHER EDUCATION · OFFICIAL PORTAL',title:'SLET NE resources',description:'Access the commission’s information brochure and examination notices.',url:'https://sletne.org/',action:'Visit official portal'}
-];
-const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const $ = id => document.getElementById(id);
-$('year').textContent = new Date().getFullYear();
-const menu=document.querySelector('.menu-toggle');
-menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');$('navigation').classList.toggle('open',open);});
-document.querySelectorAll('#navigation a').forEach(link=>link.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');$('navigation').classList.remove('open');}));
-$('examGrid').innerHTML=exams.map((exam,i)=>`<button class="exam-card" data-exam="${exam.id}" aria-haspopup="dialog"><span class="exam-number">${String(i+1).padStart(2,'0')}</span><span><h3>${exam.name}</h3><p>${exam.summary}</p></span><span class="exam-arrow" aria-hidden="true">↗</span></button>`).join('');
-const dialog=$('examDialog');
-$('examGrid').addEventListener('click',event=>{const button=event.target.closest('[data-exam]');if(!button)return;const exam=exams.find(x=>x.id===button.dataset.exam);
- $('examDetails').innerHTML=`<p class="eyebrow">EXPLORE YOUR PATHWAY</p><h2 class="exam-dialog-title" id="examTitle">${exam.name}</h2><p class="exam-dialog-description">${exam.full}</p><div class="exam-streams">${exam.streams.map(s=>`<span>${s}</span>`).join('')}</div><p class="exam-dialog-description">${exam.description}</p><div class="exam-status">Dedicated ${exam.name} mock tests are being prepared. The library currently offers school and foundation practice; these are not full ${exam.name} exam simulations.</div><div class="dialog-actions"><a class="button primary" id="browseFoundation" href="#practice">Browse foundation practice ↗</a><a class="text-link" href="${exam.url}" target="_blank" rel="noopener noreferrer">${exam.source} ↗</a>${exam.extraUrl?`<a class="text-link" href="${exam.extraUrl}" target="_blank" rel="noopener noreferrer">${exam.extraSource} ↗</a>`:''}</div>`;
- $('browseFoundation').addEventListener('click',()=>dialog.close());dialog.showModal();
-});
-document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
-dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
-function renderResources(type='all'){$('resourceGrid').innerHTML=resources.filter(r=>type==='all'||r.type===type).map(r=>`<a class="resource-card" href="${r.url}" target="_blank" rel="noopener noreferrer"><span class="resource-kind">${r.kind}</span><h3>${r.title}</h3><p>${r.description}</p><span class="resource-link">${r.action}<span aria-hidden="true">↗</span></span></a>`).join('');}
-document.querySelectorAll('[data-resource]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-resource]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderResources(button.dataset.resource);}));renderResources();
-let catalog=[],visibleCollections=6;
-const levelRank=value=>Number(value.match(/\d+/)?.[0]||0);
-function titleFor(test){return test.file.includes('/class-12/')?'Part 2 · Indian Economic Development':test.chapter||test.section||test.subject;}
-function renderLibrary(){
- const query=$('testSearch').value.toLocaleLowerCase().trim(),level=$('classFilter').value;
- const filtered=catalog.filter(test=>(level==='all'||test.group===level)&&[test.group,test.subject,test.section,test.chapter,test.chapterAs,test.title].join(' ').toLocaleLowerCase().includes(query));
- const collections=new Map();
- for(const test of filtered){const key=[test.group,test.subject,test.section,test.chapter].join('|');if(!collections.has(key))collections.set(key,[]);collections.get(key).push(test);}
- const groups=[...collections.values()].sort((a,b)=>levelRank(b[0].group)-levelRank(a[0].group));
- $('resultCount').textContent=`${filtered.length} practice sets in ${groups.length} ${groups.length===1?'collection':'collections'}${level==='all'?'':` · ${level}`}`;
- $('testCollections').innerHTML=groups.slice(0,visibleCollections).map(tests=>{const first=tests[0];return `<details class="collection" ${query||level!=='all'?'open':''}><summary><span class="collection-meta">${escapeHTML(first.group)} · ${escapeHTML(first.subject)} · ${tests.length} ${tests.length===1?'test':'tests'}</span><h4>${escapeHTML(titleFor(first))}</h4>${first.chapterAs?`<span class="chapter-as" lang="as">${escapeHTML(first.chapterAs)}</span>`:''}</summary><div class="test-chips">${tests.map(test=>`<a class="test-chip" href="mock-test.html?file=${encodeURIComponent(test.file)}">${escapeHTML(test.test)} ↗<small>${test.questions} MCQs · ${test.minutes} min</small></a>`).join('')}</div></details>`;}).join('')||'<div class="empty-results"><strong>No matching practice sets.</strong><p>Try another topic or reset the filters.</p></div>';
- $('loadMore').hidden=groups.length<=visibleCollections;
+const CONFIG={nmmsYear:2026,sebaYear:2027,ahsecYear:2027,youtube:'https://www.youtube.com/@xohopathi',whatsapp:'https://chat.whatsapp.com/JRFtUEqDKnz0rQMYOrTxVC'};
+const $=id=>document.getElementById(id);
+const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let catalog=[],subjectFilter='All',searchTerm='';
+const levelOf=test=>test.group==='Kids'?'kids':'class-'+(test.group.match(/\d+/)?.[0]||'');
+const currentRoute=()=>location.hash.slice(1)||'home';
+function testURL(test,back=currentRoute()){return 'mock-test.html?file='+encodeURIComponent(test.file)+'&return='+encodeURIComponent(back);}
+function countFor(level){return catalog.filter(t=>levelOf(t)===level).length;}
+function className(level){return level==='kids'?'Kids':'Class '+level.replace('class-','');}
+function searchBox(value=''){return `<form class="search" role="search"><label class="sr" for="testSearch">Search mock tests</label><input id="testSearch" type="search" autocomplete="off" placeholder="Search subject or class…" value="${escapeHTML(value)}"></form>`;}
+function testLinks(tests,featured=false,back=currentRoute()){return `<div class="test-links ${featured?'featured-links':''}">${tests.map(test=>`<a href="${testURL(test,back)}">${escapeHTML(test.test)}${featured?'':`<small>${test.questions} MCQs · ${test.minutes} min</small>`}</a>`).join('')}</div>`;}
+const resources={
+ textbooks:{title:'NCERT textbooks',detail:'Classes 1–12 · Official library',url:'https://ncert.nic.in/textbook.php'},
+ english:{title:'English · HSLC 2024 paper',detail:'Official question paper · PDF',url:'https://site.sebaonline.org/photo/upload/2025/1752655853_3181.pdf'},
+ social:{title:'Social Science · HSLC 2024 paper',detail:'Official question paper · PDF',url:'https://site.sebaonline.org/photo/upload/2025/1752655937_9300.pdf'},
+ nmms:{title:'NMMS official information',detail:'Assam education portal',url:'https://madhyamik.assam.gov.in/frontimpotentdata/nmmss-scholarship'}
+};
+function resourceLinks(keys){return `<div class="resource-list">${keys.map(key=>{const r=resources[key];return `<a class="resource-link" href="${r.url}" target="_blank" rel="noopener noreferrer"><span>${r.title}<small>${r.detail}</small></span><span class="arrow" aria-hidden="true">↗</span></a>`;}).join('')}</div>`;}
+function heading(title,count=''){return `<div class="page-heading"><h1>${title}</h1>${count?`<span class="count">${count}</span>`:''}</div>`;}
+function sectionHeading(title){return `<div class="section-heading"><h2>${title}</h2></div>`;}
+function renderHome(){
+ const levels=['kids','class-6','class-8','class-10','class-12'];
+ const featured=catalog.filter(t=>levelOf(t)==='class-12');
+ $('pageContent').innerHTML=heading('Mock Tests &amp; Study Materials',catalog.length+' tests')+searchBox()+`
+ <div id="homeOverview">
+ <section class="exam-grid" aria-label="Exam sections">
+ <a class="exam-card nmms" href="#nmms-2026"><span class="exam-year">2026</span><b>NMMS</b><small>MAT · SAT</small><span class="arrow" aria-hidden="true">↗</span></a>
+ <a class="exam-card seba" href="#seba-2027"><span class="exam-year">2027</span><b>SEBA</b><small>Kids – Class 10</small><span class="arrow" aria-hidden="true">↗</span></a>
+ <a class="exam-card ahsec" href="#ahsec-2027"><span class="exam-year">2027</span><b>AHSEC</b><small>Classes 11 &amp; 12</small><span class="arrow" aria-hidden="true">↗</span></a></section>
+ <div class="community-links"><a class="youtube" href="#youtube"><span>▶ YouTube</span><span aria-hidden="true">↗</span></a><a class="whatsapp" href="${CONFIG.whatsapp}" target="_blank" rel="noopener noreferrer"><span>WhatsApp Group</span><span aria-hidden="true">↗</span></a></div>
+ ${sectionHeading('Available mock tests')}
+ <div class="class-grid">${levels.map(level=>`<a class="class-card" href="#${level==='class-12'?'ahsec-2027':'seba-2027'}/${level}"><span><b>${className(level)}</b><small>${countFor(level)} tests${['class-6','class-8'].includes(level)?' · CBSE':''}</small></span><span class="arrow" aria-hidden="true">↗</span></a>`).join('')}</div>
+ <div class="home-columns"><section class="content-block"><h2>NMMS 2026</h2><div class="nmms-links"><a href="#nmms-2026/mat">MAT ↗<small>Mock tests coming soon</small></a><a href="#nmms-2026/sat">SAT ↗<small>10 school foundation tests</small></a></div></section>
+ <section class="content-block"><h2>Class 12 · Economics</h2><p>Part 2 · 20 MCQs per test · 20 minutes</p>${testLinks(featured,true,'ahsec-2027/class-12')}</section></div>
+ ${sectionHeading('Study materials')}${resourceLinks(['textbooks','english','social'])}
+ </div><div id="homeSearchResults" hidden></div>`;
+ bindSearch(true);
 }
-$('libraryFilters').addEventListener('submit',e=>e.preventDefault());
-$('testSearch').addEventListener('input',()=>{visibleCollections=6;renderLibrary();});$('classFilter').addEventListener('change',()=>{visibleCollections=6;renderLibrary();});
-$('libraryFilters').addEventListener('reset',()=>{setTimeout(()=>{visibleCollections=6;renderLibrary();},0);});
-$('loadMore').addEventListener('click',()=>{visibleCollections+=6;renderLibrary();});
-fetch('assets/test-catalog.json').then(response=>{if(!response.ok)throw Error('Unavailable');return response.json();}).then(data=>{catalog=data;$('totalTests').textContent=`${catalog.length} sets`;[...new Set(catalog.map(t=>t.group))].sort((a,b)=>levelRank(b)-levelRank(a)).forEach(group=>{const option=document.createElement('option');option.value=group;option.textContent=group;$('classFilter').append(option);});renderLibrary();}).catch(()=>{$('resultCount').textContent='The library could not load. Please refresh the page. The featured Economics tests are available above.';});
-// Retain useful public bookmarks from the earlier site.
-if(location.hash==='#mock-tests')location.replace('#practice');
-if(location.hash==='#study-materials'||location.hash==='#previous-papers')location.replace('#materials');
+function groupTests(tests){const map=new Map();for(const t of tests){const key=[t.group,t.subject,t.section,t.chapter].join('|');if(!map.has(key))map.set(key,[]);map.get(key).push(t);}return [...map.values()];}
+function renderCards(tests,back=currentRoute()){
+ if(!tests.length)return '<div class="empty"><h2>No matching tests</h2><p>Try another subject or clear the search.</p></div>';
+ return `<div class="collection-grid">${groupTests(tests).map(group=>{const first=group[0];const title=levelOf(first)==='class-12'?'Part 2 · Indian Economic Development':first.chapter||first.section||first.subject;return `<article class="collection-card"><div class="meta">${escapeHTML(first.group)} · ${escapeHTML(first.subject)}${first.section&&first.section!==first.subject?' · '+escapeHTML(first.section):''}</div><h3>${escapeHTML(title)}</h3>${first.chapterAs&&first.chapterAs!==title?`<div class="chapter-as" lang="as">${escapeHTML(first.chapterAs)}</div>`:''}${testLinks(group,false,back)}</article>`;}).join('')}</div>`;
+}
+function matches(test,query){return [test.group,test.subject,test.section,test.chapter,test.chapterAs,test.title].join(' ').toLowerCase().includes(query.toLowerCase().trim());}
+function bindSearch(home=false){const input=$('testSearch');input.closest('form').addEventListener('submit',e=>e.preventDefault());input.addEventListener('input',()=>{searchTerm=input.value;if(home){const active=searchTerm.trim().length>0;$('homeOverview').hidden=active;$('homeSearchResults').hidden=!active;if(active){const found=catalog.filter(t=>matches(t,searchTerm));$('homeSearchResults').innerHTML=`<p class="result-count" role="status">${found.length} matching tests</p>`+renderCards(found,'home');}}else renderScopedResults();});}
+let scopedTests=[];
+function renderScopedResults(){const found=scopedTests.filter(t=>(subjectFilter==='All'||t.subject===subjectFilter)&&matches(t,searchTerm));$('testResults').innerHTML=`<p class="result-count" role="status">${found.length} tests</p>`+renderCards(found);}
+function renderLibrary(tests){scopedTests=tests;const subjects=['All',...new Set(tests.map(t=>t.subject))];return searchBox(searchTerm)+(subjects.length>2?`<div class="subject-tabs" role="group" aria-label="Filter subjects">${subjects.map(subject=>`<button data-subject="${escapeHTML(subject)}" aria-pressed="${subject===subjectFilter}">${escapeHTML(subject)}</button>`).join('')}</div>`:'')+'<div id="testResults"></div>';}
+function bindLibrary(){bindSearch();document.querySelectorAll('[data-subject]').forEach(button=>button.addEventListener('click',()=>{subjectFilter=button.dataset.subject;document.querySelectorAll('[data-subject]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderScopedResults();}));renderScopedResults();}
+function classTabs(type,selected){const levels=type==='seba'?['kids',...Array.from({length:10},(_,i)=>'class-'+(i+1))]:['class-11','class-12'];const route=type==='seba'?'seba-2027':'ahsec-2027';return `<nav class="class-tabs ${type==='seba'?'seba-classes':'ahsec-classes'}" aria-label="Choose class">${levels.map(level=>`<a href="#${route}/${level}" ${level===selected?'aria-current="page"':''}>${className(level)}<small>${countFor(level)?countFor(level)+' tests':'Coming soon'}</small></a>`).join('')}</nav>`;}
+function renderBoard(type,level){
+ const seba=type==='seba';const title=seba?'SEBA 2027':'AHSEC 2027';const allowed=seba?['kids',...Array.from({length:10},(_,i)=>'class-'+(i+1))]:['class-11','class-12'];if(!allowed.includes(level))level=seba?'class-10':'class-12';
+ const tests=catalog.filter(t=>levelOf(t)===level);
+ $('pageContent').innerHTML=`<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>${title}</span></div>`+heading(title)+classTabs(type,level)+`<h2 class="scope-title">${className(level)} · Mock Tests</h2>`+(['class-6','class-8'].includes(level)?'<p class="scope-note">Current sets: CBSE Social Science foundation practice. SEBA-specific sets have not been added yet.</p>':'')+(tests.length?renderLibrary(tests):`<section class="empty"><h2>${className(level)} mock tests coming soon</h2><p>Study materials are available below.</p></section>`)+sectionHeading('Study materials')+resourceLinks(seba?['textbooks','english','social']:['textbooks']);
+ if(tests.length)bindLibrary();
+}
+function renderNMMS(stream){const mat=stream==='mat';const tests=catalog.filter(t=>levelOf(t)==='class-8');
+ $('pageContent').innerHTML='<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>NMMS 2026</span></div>'+heading('NMMS 2026')+`<nav class="stream-tabs" aria-label="NMMS paper"><a href="#nmms-2026/mat" ${mat?'aria-current="page"':''}>MAT</a><a href="#nmms-2026/sat" ${!mat?'aria-current="page"':''}>SAT</a></nav><h2 class="scope-title">${mat?'Mental Ability Test (MAT)':'Scholastic Aptitude Test (SAT)'}</h2>`+(mat?'<section class="empty"><h2>MAT mock tests coming soon</h2><p><a href="#nmms-2026/sat">Open SAT foundation practice →</a></p></section>':'<p class="scope-note">Class 8 Social Science foundation practice (CBSE). These are not full NMMS SAT papers.</p>'+renderLibrary(tests))+sectionHeading('Study materials')+resourceLinks(['nmms','textbooks']);if(!mat)bindLibrary();
+}
+function renderYouTube(){$('pageContent').innerHTML='<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>YouTube</span></div>'+heading('YouTube')+`<section class="youtube-card"><img src="assets/channel-banner.png" width="1672" height="941" alt="Xohopathi — Your Digital Companion"><div class="youtube-details"><h2>Xohopathi</h2><p>@xohopathi</p><a class="button" href="${CONFIG.youtube}" target="_blank" rel="noopener noreferrer">Open YouTube channel ↗</a></div></section><div class="community-links"><a href="${CONFIG.whatsapp}" class="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Group ↗</a><a href="#home">Mock tests &amp; materials →</a></div>`;}
+function renderPage(){
+ let route=currentRoute();const legacy={'mock-tests':'home',practice:'home','study-materials':'home',materials:'home','previous-papers':'home',exams:'home'};if(legacy[route]){location.replace('#'+legacy[route]);return;}
+ const [page,level]=route.split('/');subjectFilter='All';searchTerm='';
+ const nav=page.startsWith('nmms')?'nmms':page.startsWith('seba')?'seba':page.startsWith('ahsec')?'ahsec':page==='youtube'?'youtube':'home';
+ document.querySelectorAll('[data-nav]').forEach(link=>{if(link.dataset.nav===nav)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
+ document.title=(nav==='home'?'Xohopathi':nav==='nmms'?'NMMS 2026':nav==='seba'?'SEBA 2027':nav==='ahsec'?'AHSEC 2027':'YouTube')+' | Your Digital Companion';
+ if(nav==='nmms')renderNMMS(level);else if(nav==='seba'||nav==='ahsec')renderBoard(nav,level);else if(nav==='youtube')renderYouTube();else renderHome();
+ window.scrollTo({top:0,behavior:'auto'});
+}
+$('year').textContent=new Date().getFullYear();
+window.addEventListener('hashchange',renderPage);
+fetch('assets/test-catalog.json').then(response=>{if(!response.ok)throw Error('Unavailable');return response.json();}).then(data=>{catalog=data;renderPage();}).catch(()=>{$('pageContent').innerHTML=heading('Mock Tests &amp; Study Materials')+'<p class="notice">The test list could not load. Please refresh this page.</p>';});
