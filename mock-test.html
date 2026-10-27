@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Mock Test | Xohopati.in</title>
+<title>Mock Test | Xohopathi</title>
 <style>
 :root{
   --blue:#2563eb;
@@ -160,12 +160,14 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
   .rules{grid-template-columns:1fr}
 }
 </style>
+<link rel="icon" href="assets/brand-mark.png">
+<link rel="stylesheet" href="assets/quiz-theme.css">
 </head>
 <body>
 <header>
   <div class="container topbar">
-    <a class="brand" href="index.html#mock-tests"><span class="mark">X</span><span>Xohopati.in Mock Test</span></a>
-    <a class="back" id="backLink" href="index.html#mock-tests">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
+    <a class="brand" href="index.html#practice"><img class="quiz-mark" src="assets/brand-mark.png" width="42" height="42" alt=""><span>Xohopathi <small>Practice</small></span></a>
+    <a class="back" id="backLink" href="index.html#practice">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
   </div>
 </header>
 
@@ -387,7 +389,7 @@ function setHeader(){
     document.getElementById("languageControls").innerHTML = "<span>Language:</span><strong>English only</strong>";
   }
   document.getElementById("testKicker").textContent = `${text(testSet.className)} ${text(testSet.subject)}`;
-  document.title = text(testSet.test) + " | Xohopati.in";
+  document.title = text(testSet.test) + " | Xohopathi";
   document.getElementById("testTitle").textContent = testSet.displayTitle || `${text(testSet.chapter)} - ${text(testSet.test)}`;
   document.getElementById("testMeta").textContent =
     `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | ${testSet.questions.length} Questions | +${testSet.correctMarks} correct, ${testSet.wrongMarks} wrong | ${testSet.durationMinutes} minutes`;
@@ -480,7 +482,7 @@ function renderQuestions(){
     <div class="questions">${questionHTML}</div>
     <div class="actions">
       ${submitted
-        ? `<a class="btn secondary" href="index.html#mock-tests">${testSet.englishOnly ? "Back" : "Back / উভতি যাওক"}</a>`
+        ? `<a class="btn secondary" href="index.html#practice">${testSet.englishOnly ? "Back" : "Back / উভতি যাওক"}</a>`
         : `<button class="btn" type="button" id="submitBtn">${testSet.englishOnly ? "Submit Test" : "Submit Test / জমা দিয়ক"}</button>`}
     </div>
   `;
@@ -541,54 +543,6 @@ function currentTestId(){
   return match ? match[1] : filePath || "test";
 }
 
-async function saveAttemptResult(result, autoSubmitted){
-  if(typeof window.saveXohopathiAttempt !== "function") return;
-  const selectedAnswers = testSet.questions.map((question, index) => {
-    if(answers[index] === undefined) return null;
-    const option = question.options[answers[index]];
-    return {
-      questionNumber:index + 1,
-      selectedIndex:answers[index],
-      selectedText:typeof option === "string" ? option : text(option),
-      correct:isCorrectAnswer(question, answers[index])
-    };
-  });
-  const correctAnswers = testSet.questions.map((question, index) => ({
-    questionNumber:index + 1,
-    answer:question.answer
-  }));
-  try{
-    const saveInfo = await window.saveXohopathiAttempt({
-      className:text(testSet.className) || "Class 10",
-      subject:text(testSet.subject) || "English",
-      topic:text(testSet.section) || "Grammar",
-      testId:currentTestId(),
-      testTitle:document.title || "Xohopati.in Mock Test",
-      score:Number(result.score.toFixed(2)),
-      totalQuestions:testSet.questions.length,
-      answers:selectedAnswers,
-      correctAnswers,
-      extra:{
-        autoSubmitted,
-        file:activeTestFilePath(),
-        correct:result.correct,
-        wrong:result.wrong,
-        unanswered:result.unanswered
-      }
-    });
-    const resultBox = content.querySelector(".result");
-    if(resultBox && saveInfo && saveInfo.saved){
-      resultBox.insertAdjacentHTML("beforeend", "<br><span>Attempt saved to dashboard.</span>");
-    }
-  }catch(error){
-    console.error("Could not save attempt:", error);
-    const resultBox = content.querySelector(".result");
-    if(resultBox){
-      resultBox.insertAdjacentHTML("beforeend", "<br><span>Attempt could not be saved. Please check login and Firestore rules.</span>");
-    }
-  }
-}
-
 async function submitTest(autoSubmitted){
   if(submitted) return;
   submitted = true;
@@ -596,7 +550,7 @@ async function submitTest(autoSubmitted){
   if(autoSubmitted) timer.textContent = "00:00";
   const result = calculateResult();
   renderQuestions();
-  await saveAttemptResult(result, autoSubmitted);
+  window.scrollTo({top:0, behavior:"smooth"});
 }
 
 document.querySelectorAll("input[name='medium']").forEach(input => {
@@ -613,6 +567,6 @@ loadTestSet().then(function(){
   if(testSet) renderStart();
 });
 </script>
-<script type="module" src="/save-attempt.js"></script>
+
 </body>
 </html>

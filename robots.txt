@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /plantation/
+Disallow: /owner/
+Sitemap: https://xohopathi.in/sitemap.xml
