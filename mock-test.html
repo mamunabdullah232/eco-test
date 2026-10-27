@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Mock Test | Xohopathi</title>
+<title>Mock Test | Xohopati.in</title>
 <style>
 :root{
   --blue:#2563eb;
@@ -164,7 +164,7 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 <body>
 <header>
   <div class="container topbar">
-    <a class="brand" href="index.html#mock-tests"><span class="mark">X</span><span>Xohopathi Mock Test</span></a>
+    <a class="brand" href="index.html#mock-tests"><span class="mark">X</span><span>Xohopati.in Mock Test</span></a>
     <a class="back" id="backLink" href="index.html#mock-tests">Back to Mock Test / মক টেষ্টলৈ উভতি যাওক</a>
   </div>
 </header>
@@ -265,6 +265,7 @@ function normalizeTestSet(raw){
     test: raw.test || { en:"Test", as:"টেষ্ট" },
     displayTitle: raw.displayTitle || "",
     englishOnly: raw.englishOnly === true,
+    assameseOnly: raw.assameseOnly === true,
     durationMinutes: raw.durationMinutes || 10,
     correctMarks: raw.correctMarks ?? 1,
     wrongMarks: raw.wrongMarks ?? -0.25,
@@ -375,13 +376,18 @@ function setHeader(){
     content.innerHTML = '<div class="missing">This test is not available yet. / এই টেষ্ট এতিয়াও উপলব্ধ নহয়।</div>';
     return;
   }
+  if(testSet.assameseOnly){
+    selectedMedium = "as";
+    document.documentElement.lang = "as";
+    document.getElementById("languageControls").innerHTML = "<span>মাধ্যম:</span><strong>অসমীয়া</strong>";
+  }
   if(testSet.englishOnly){
     selectedMedium = "en";
     document.getElementById("backLink").textContent = "Back to Mock Test";
     document.getElementById("languageControls").innerHTML = "<span>Language:</span><strong>English only</strong>";
   }
   document.getElementById("testKicker").textContent = `${text(testSet.className)} ${text(testSet.subject)}`;
-  document.title = text(testSet.test) + " | Xohopathi";
+  document.title = text(testSet.test) + " | Xohopati.in";
   document.getElementById("testTitle").textContent = testSet.displayTitle || `${text(testSet.chapter)} - ${text(testSet.test)}`;
   document.getElementById("testMeta").textContent =
     `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | ${testSet.questions.length} Questions | +${testSet.correctMarks} correct, ${testSet.wrongMarks} wrong | ${testSet.durationMinutes} minutes`;
@@ -418,8 +424,11 @@ function startTimer(){
 function renderStart(){
   const questionCaption = testSet.englishOnly ? "" : `<span>${assameseNumber(testSet.questions.length)}টা প্ৰশ্ন</span>`;
   const minuteCaption = testSet.englishOnly ? "" : `<span>${assameseNumber(testSet.durationMinutes)} মিনিট</span>`;
-  const markingCaption = testSet.englishOnly ? "" : "<span>শুদ্ধত +১, ভুলত -০.২৫</span>";
-  const startButtonLabel = testSet.englishOnly ? "Start Test" : "Start Test / টেষ্ট আৰম্ভ কৰক";
+  const markingCaption = testSet.englishOnly ? "" :
+    (testSet.wrongMarks === 0
+      ? "<span>শুদ্ধ উত্তৰত +" + assameseNumber(testSet.correctMarks) + ", ভুল বা উত্তৰ নিদিলে ০ · ঋণাত্মক নম্বৰ নাই</span>"
+      : "<span>শুদ্ধত +" + assameseNumber(testSet.correctMarks) + ", ভুলত " + assameseNumber(testSet.wrongMarks) + "</span>");
+  const startButtonLabel = testSet.englishOnly ? "Start Test" : "Start Test / টেষ্ট আৰম্ভ কৰা";
   content.innerHTML = `
     <div class="start-card">
       <div class="rules">
@@ -554,7 +563,7 @@ async function saveAttemptResult(result, autoSubmitted){
       subject:text(testSet.subject) || "English",
       topic:text(testSet.section) || "Grammar",
       testId:currentTestId(),
-      testTitle:document.title || "Xohopathi Mock Test",
+      testTitle:document.title || "Xohopati.in Mock Test",
       score:Number(result.score.toFixed(2)),
       totalQuestions:testSet.questions.length,
       answers:selectedAnswers,

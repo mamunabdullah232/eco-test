@@ -6,8 +6,8 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
-<title>Xohopathi | Your Digital Companion</title>
-<meta name="description" content="Xohopathi provides teacher links, student resources, mock tests, study materials, question papers, and educational contact details." />
+<title>Xohopati.in | Your Digital Companion</title>
+<meta name="description" content="Xohopati.in provides teacher links, student resources, mock tests, study materials, question papers, and educational contact details." />
 <style>
 :root{
   --blue:#2563eb;
@@ -1524,9 +1524,9 @@ footer{
 
 <header>
   <div class="container navbar">
-    <a href="#home" class="logo nav-route" data-page="home" aria-label="Xohopathi Home">
+    <a href="#home" class="logo nav-route" data-page="home" aria-label="Xohopati.in Home">
       <span class="logo-mark">স</span>
-      <span class="logo-text"><strong>Xohopathi</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
+      <span class="logo-text"><strong>Xohopati.in</strong><small>Your Digital Companion / আপোনাৰ ডিজিটেল সহায়ক</small></span>
     </a>
     <nav id="navMenu" aria-label="Primary navigation">
       <a class="nav-link ai" href="/login.html?redirect=/xohopathi-ai.html"><span class="bi">Xohopathi AI<span class="as">AI Assistant</span></span></a>
@@ -1826,7 +1826,7 @@ footer{
 
 <footer>
   <div class="container footer-line">
-    <span>&copy; 2026 Xohopathi. All rights reserved.</span>
+    <span>&copy; 2026 Xohopati.in. All rights reserved.</span>
     <span>Created by Dr. Abdullah Al Mamun / ডঃ আব্দুল্লাহ আল মামুনৰ দ্বাৰা নিৰ্মিত</span>
   </div>
 </footer>
@@ -2527,6 +2527,10 @@ function getNumberFromLabel(value){
   return match ? match[0] : "";
 }
 
+function isClass12EconomicsPart2(parts){
+  return parts.map(slugify).join("__") === "class-12__economics__part-2";
+}
+
 function isClass10History(parts){
   return /^class-10__social-science__history__chapter-[1-5]-/.test(parts.map(slugify).join("__"));
 }
@@ -2623,6 +2627,9 @@ function kidsGkTestFile(test){
 }
 
 function nestedTestLink(parts, test){
+  if(isClass12EconomicsPart2(parts)){
+    return jsonMockTestLink("mock-tests/class-12/economics/part-2/test-" + getNumberFromLabel(test) + ".json");
+  }
   if(isClass10History(parts)){
     return "mock-test.html?file=" + encodeURIComponent(historyTestFile(parts, test));
   }
@@ -2651,6 +2658,9 @@ function nestedTestLink(parts, test){
 }
 
 function isMockTestAvailable(parts, test){
+  if(isClass12EconomicsPart2(parts)){
+    return /^Test [1-5]$/.test(labelEn(test));
+  }
   if(isClass10History(parts)){
     return /^Test [1-5]$/.test(labelEn(test));
   }
@@ -2816,7 +2826,9 @@ function makeSubjectItems(group, subject){
   if(subject.parts){
     return subject.parts.map(part => ({
       label:part,
-      next:{
+      next:isClass12EconomicsPart2([group.name, subject.name, part])
+        ? makeTestLevel({en:"Part 2 · 5 tests · 20 questions each", as:"দ্বিতীয় ভাগ · ৫টা টেষ্ট · প্ৰতিটোত ২০টা প্ৰশ্ন"}, [group.name, subject.name, part])
+        : {
         title:part,
         items:Array.from({length:subject.chapters}, function(_, index){
           const chapter = {en:"Chapter " + (index + 1), as:"অধ্যায় " + (index + 1)};
@@ -2851,7 +2863,7 @@ function makeSubjectLevel(group){
 function makeMockHomeLevel(){
   const groups = [...mockClassGroups, ...examGroups];
   return {
-    title:{en:"Choose Class or Exam", as:"শ্ৰেণী বা পৰীক্ষা বাছনি কৰক"},
+    title:{en:"Choose Class or Exam", as:"শ্ৰেণী বা পৰীক্ষা বাছনি কৰা"},
     root:true,
     items:groups.map(group => ({
       label:groupLabel(group),
@@ -2906,7 +2918,7 @@ function paperLink(classGroup, year, subject){
 
 function makePaperHomeLevel(){
   return {
-    title:{en:"Choose Class", as:"শ্ৰেণী বাছনি কৰক"},
+    title:{en:"Choose Class", as:"শ্ৰেণী বাছনি কৰা"},
     items:previousPaperGroups.map(group => ({
       label:group.name,
       next:{
@@ -3172,8 +3184,8 @@ function showPage(pageId, updateHash){
     link.classList.toggle("active", link.dataset.page === page.id);
   });
   document.title = page.dataset.title === "Home"
-    ? "Xohopathi | Your Digital Companion"
-    : page.dataset.title + " | Xohopathi";
+    ? "Xohopati.in | Your Digital Companion"
+    : page.dataset.title + " | Xohopati.in";
   window.scrollTo({top:0,left:0,behavior:"auto"});
   if(updateHash && location.hash !== "#" + page.id){
     history.pushState(null,"","#" + page.id);
