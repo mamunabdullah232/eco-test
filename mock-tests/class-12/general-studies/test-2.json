@@ -1,0 +1,270 @@
+{
+  "id": "class-12__general-studies__test-2",
+  "className": {
+    "en": "Class 12",
+    "as": "শ্ৰেণী ১২"
+  },
+  "subject": {
+    "en": "General Studies",
+    "as": "সাধাৰণ অধ্যয়ন"
+  },
+  "section": {
+    "en": "AHSEC",
+    "as": "AHSEC"
+  },
+  "chapter": {
+    "en": "Half-Yearly Practice",
+    "as": "অৰ্ধবাৰ্ষিক অনুশীলন"
+  },
+  "test": {
+    "en": "Mock Test 2",
+    "as": "মক টেষ্ট 2"
+  },
+  "displayTitle": "AHSEC Class 12 General Studies · Mock Test 2",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": 1,
+      "en": "Majuli island is situated in which river?",
+      "as": "মাজুলী দ্বীপ কোনখন নদীত অৱস্থিত?",
+      "options": [
+        {
+          "en": "Barak",
+          "as": "বৰাক"
+        },
+        {
+          "en": "Ganga",
+          "as": "গংগা"
+        },
+        {
+          "en": "Brahmaputra",
+          "as": "ব্ৰহ্মপুত্ৰ"
+        },
+        {
+          "en": "Yamuna",
+          "as": "যমুনা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "en": "Who founded the Varman dynasty of ancient Kamarupa?",
+      "as": "প্ৰাচীন কামৰূপৰ বৰ্মন বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?",
+      "options": [
+        {
+          "en": "Pushyavarman",
+          "as": "পুষ্যবৰ্মন"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মন"
+        },
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        },
+        {
+          "en": "Naranarayan",
+          "as": "নৰনাৰায়ণ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "en": "Which is the state bird of Manipur?",
+      "as": "মণিপুৰৰ ৰাজ্যিক চৰাই কোনবিধ?",
+      "options": [
+        {
+          "en": "White-winged wood duck",
+          "as": "দেওহাঁহ"
+        },
+        {
+          "en": "Hornbill",
+          "as": "ধনেশ"
+        },
+        {
+          "en": "Peacock",
+          "as": "ময়ূৰ"
+        },
+        {
+          "en": "Nongin (Mrs Hume’s pheasant)",
+          "as": "নংগিন (মিচেছ হিউমৰ ফেজেণ্ট)"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 4,
+      "en": "Which Indian state is popularly called the Land of the Rising Sun?",
+      "as": "ভাৰতৰ কোনখন ৰাজ্যক জনপ্ৰিয়ভাৱে সূৰ্য উদয়ৰ দেশ বুলি কোৱা হয়?",
+      "options": [
+        {
+          "en": "Assam",
+          "as": "অসম"
+        },
+        {
+          "en": "Arunachal Pradesh",
+          "as": "অৰুণাচল প্ৰদেশ"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        },
+        {
+          "en": "Sikkim",
+          "as": "ছিকিম"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "en": "Which is the capital of Meghalaya?",
+      "as": "মেঘালয়ৰ ৰাজধানী কি?",
+      "options": [
+        {
+          "en": "Dispur",
+          "as": "দিছপুৰ"
+        },
+        {
+          "en": "Kohima",
+          "as": "কোহিমা"
+        },
+        {
+          "en": "Shillong",
+          "as": "শ্বিলং"
+        },
+        {
+          "en": "Imphal",
+          "as": "ইম্ফল"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 6,
+      "en": "Which state has Gangtok as its capital?",
+      "as": "গেংটক কোনখন ৰাজ্যৰ ৰাজধানী?",
+      "options": [
+        {
+          "en": "Tripura",
+          "as": "ত্ৰিপুৰা"
+        },
+        {
+          "en": "Mizoram",
+          "as": "মিজোৰাম"
+        },
+        {
+          "en": "Nagaland",
+          "as": "নাগালেণ্ড"
+        },
+        {
+          "en": "Sikkim",
+          "as": "ছিকিম"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 7,
+      "en": "Which state and capital are correctly matched?",
+      "as": "কোনখন ৰাজ্য আৰু ৰাজধানীৰ যোৰ শুদ্ধ?",
+      "options": [
+        {
+          "en": "Tripura — Agartala",
+          "as": "ত্ৰিপুৰা — আগৰতলা"
+        },
+        {
+          "en": "Assam — Aizawl",
+          "as": "অসম — আইজল"
+        },
+        {
+          "en": "Manipur — Kohima",
+          "as": "মণিপুৰ — কোহিমা"
+        },
+        {
+          "en": "Mizoram — Dispur",
+          "as": "মিজোৰাম — দিছপুৰ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "en": "How do music, drama and dance support students’ development?",
+      "as": "সংগীত, নাটক আৰু নৃত্যই শিক্ষাৰ্থীৰ বিকাশত কেনেদৰে সহায় কৰে?",
+      "options": [
+        {
+          "en": "By replacing every academic subject",
+          "as": "সকলো শৈক্ষিক বিষয়ৰ ঠাই লৈ"
+        },
+        {
+          "en": "By developing creativity, confidence and teamwork",
+          "as": "সৃষ্টিশীলতা, আত্মবিশ্বাস আৰু দলীয় সহযোগিতা বৃদ্ধি কৰি"
+        },
+        {
+          "en": "By discouraging communication",
+          "as": "যোগাযোগ নিৰুৎসাহিত কৰি"
+        },
+        {
+          "en": "By encouraging only rote learning",
+          "as": "কেৱল মুখস্থ শিক্ষাক উৎসাহিত কৰি"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "en": "What does the Indian Knowledge System (IKS) broadly refer to?",
+      "as": "ভাৰতীয় জ্ঞান প্ৰণালী (IKS) বুলিলে বহল অৰ্থত কি বুজায়?",
+      "options": [
+        {
+          "en": "Only imported industrial methods",
+          "as": "কেৱল আমদানিকৃত ঔদ্যোগিক পদ্ধতি"
+        },
+        {
+          "en": "Only modern examination rules",
+          "as": "কেৱল আধুনিক পৰীক্ষাৰ নিয়ম"
+        },
+        {
+          "en": "India’s knowledge traditions in fields such as philosophy, science, arts and medicine",
+          "as": "দৰ্শন, বিজ্ঞান, কলা আৰু চিকিৎসা আদি ক্ষেত্ৰত ভাৰতৰ জ্ঞানৰ পৰম্পৰা"
+        },
+        {
+          "en": "Only online shopping skills",
+          "as": "কেৱল অনলাইন ক্ৰয়ৰ দক্ষতা"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "en": "Which approach best connects traditional knowledge with scientific temper today?",
+      "as": "বৰ্তমান পৰম্পৰাগত জ্ঞানক বৈজ্ঞানিক মনোভাৱৰ সৈতে সংযোগ কৰাৰ উত্তম পদ্ধতি কোনটো?",
+      "options": [
+        {
+          "en": "Testing traditional practices using evidence and applying useful findings",
+          "as": "প্ৰমাণৰ সহায়ত পৰম্পৰাগত পদ্ধতি পৰীক্ষা কৰি উপযোগী ফলাফল প্ৰয়োগ কৰা"
+        },
+        {
+          "en": "Accepting every claim without inquiry",
+          "as": "অনুসন্ধান নকৰাকৈ প্ৰতিটো দাবী গ্ৰহণ কৰা"
+        },
+        {
+          "en": "Rejecting all traditional knowledge without study",
+          "as": "অধ্যয়ন নকৰাকৈ সকলো পৰম্পৰাগত জ্ঞান নাকচ কৰা"
+        },
+        {
+          "en": "Avoiding questions and discussion",
+          "as": "প্ৰশ্ন আৰু আলোচনা এৰাই চলা"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

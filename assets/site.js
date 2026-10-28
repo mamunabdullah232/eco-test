@@ -21,7 +21,7 @@ function heading(title,count=''){return `<div class="page-heading"><h1>${title}<
 function sectionHeading(title){return `<div class="section-heading"><h2>${title}</h2></div>`;}
 function renderHome(){
  const levels=['kids','class-6','class-8','class-10','class-12'];
- const featured=catalog.filter(t=>levelOf(t)==='class-12');
+ const featured=catalog.filter(t=>levelOf(t)==='class-12'&&t.subject==='Economics');
  const sat=catalog.filter(t=>t.exam==='NMMS'&&t.paper==='SAT');
  $('pageContent').innerHTML=heading('Mock Tests &amp; Study Materials',catalog.length+' tests')+searchBox()+`
  <div id="homeOverview">
@@ -41,7 +41,7 @@ function renderHome(){
 function groupTests(tests){const map=new Map();for(const t of tests){const key=[t.group,t.subject,t.section,t.chapter].join('|');if(!map.has(key))map.set(key,[]);map.get(key).push(t);}return [...map.values()];}
 function renderCards(tests,back=currentRoute()){
  if(!tests.length)return '<div class="empty"><h2>No matching tests</h2><p>Try another subject or clear the search.</p></div>';
- return `<div class="collection-grid">${groupTests(tests).map(group=>{const first=group[0];const title=levelOf(first)==='class-12'?'Part 2 · Indian Economic Development':first.chapter||first.section||first.subject;return `<article class="collection-card"><div class="meta">${escapeHTML(first.group)} · ${escapeHTML(first.subject)}${first.section&&first.section!==first.subject?' · '+escapeHTML(first.section):''}</div><h3>${escapeHTML(title)}</h3>${first.chapterAs&&first.chapterAs!==title?`<div class="chapter-as" lang="as">${escapeHTML(first.chapterAs)}</div>`:''}${testLinks(group,false,back)}</article>`;}).join('')}</div>`;
+ return `<div class="collection-grid">${groupTests(tests).map(group=>{const first=group[0];const title=levelOf(first)==='class-12'&&first.subject==='Economics'?'Part 2 · Indian Economic Development':first.chapter||first.section||first.subject;return `<article class="collection-card"><div class="meta">${escapeHTML(first.group)} · ${escapeHTML(first.subject)}${first.section&&first.section!==first.subject?' · '+escapeHTML(first.section):''}</div><h3>${escapeHTML(title)}</h3>${first.chapterAs&&first.chapterAs!==title?`<div class="chapter-as" lang="as">${escapeHTML(first.chapterAs)}</div>`:''}${testLinks(group,false,back)}</article>`;}).join('')}</div>`;
 }
 function matches(test,query){return [test.group,test.subject,test.section,test.chapter,test.chapterAs,test.title].join(' ').toLowerCase().includes(query.toLowerCase().trim());}
 function bindSearch(home=false){const input=$('testSearch');input.closest('form').addEventListener('submit',e=>e.preventDefault());input.addEventListener('input',()=>{searchTerm=input.value;if(home){const active=searchTerm.trim().length>0;$('homeOverview').hidden=active;$('homeSearchResults').hidden=!active;if(active){const found=catalog.filter(t=>matches(t,searchTerm));$('homeSearchResults').innerHTML=`<p class="result-count" role="status">${found.length} matching tests</p>`+renderCards(found,'home');}}else renderScopedResults();});}

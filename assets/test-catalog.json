@@ -1724,5 +1724,33 @@
     "assameseOnly": true,
     "exam": "NMMS",
     "paper": "SAT"
+  },
+  {
+    "file": "mock-tests/class-12/general-studies/test-1.json",
+    "group": "Class 12",
+    "subject": "General Studies",
+    "section": "AHSEC",
+    "chapter": "Half-Yearly Practice",
+    "chapterAs": "অৰ্ধবাৰ্ষিক অনুশীলন",
+    "test": "Mock Test 1",
+    "title": "AHSEC Class 12 General Studies · Mock Test 1",
+    "questions": 10,
+    "minutes": 10,
+    "wrongMarks": 0,
+    "assameseOnly": false
+  },
+  {
+    "file": "mock-tests/class-12/general-studies/test-2.json",
+    "group": "Class 12",
+    "subject": "General Studies",
+    "section": "AHSEC",
+    "chapter": "Half-Yearly Practice",
+    "chapterAs": "অৰ্ধবাৰ্ষিক অনুশীলন",
+    "test": "Mock Test 2",
+    "title": "AHSEC Class 12 General Studies · Mock Test 2",
+    "questions": 10,
+    "minutes": 10,
+    "wrongMarks": 0,
+    "assameseOnly": false
   }
 ]

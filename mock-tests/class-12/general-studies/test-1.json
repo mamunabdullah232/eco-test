@@ -1,0 +1,270 @@
+{
+  "id": "class-12__general-studies__test-1",
+  "className": {
+    "en": "Class 12",
+    "as": "শ্ৰেণী ১২"
+  },
+  "subject": {
+    "en": "General Studies",
+    "as": "সাধাৰণ অধ্যয়ন"
+  },
+  "section": {
+    "en": "AHSEC",
+    "as": "AHSEC"
+  },
+  "chapter": {
+    "en": "Half-Yearly Practice",
+    "as": "অৰ্ধবাৰ্ষিক অনুশীলন"
+  },
+  "test": {
+    "en": "Mock Test 1",
+    "as": "মক টেষ্ট 1"
+  },
+  "displayTitle": "AHSEC Class 12 General Studies · Mock Test 1",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": 1,
+      "en": "How many states make up North-East India, including Sikkim?",
+      "as": "ছিকিমকে ধৰি উত্তৰ-পূব ভাৰতত কিমানখন ৰাজ্য আছে?",
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "en": "In which year did the first English East India Company ship reach Surat?",
+      "as": "ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীৰ প্ৰথমখন জাহাজ কোন চনত চুৰাটত উপস্থিত হৈছিল?",
+      "options": [
+        {
+          "en": "1498",
+          "as": "১৪৯৮"
+        },
+        {
+          "en": "1608",
+          "as": "১৬০৮"
+        },
+        {
+          "en": "1757",
+          "as": "১৭৫৭"
+        },
+        {
+          "en": "1826",
+          "as": "১৮২৬"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "en": "In which year was the Treaty of Yandabo signed?",
+      "as": "ইয়াণ্ডাবু সন্ধি কোন চনত স্বাক্ষৰিত হৈছিল?",
+      "options": [
+        {
+          "en": "1757",
+          "as": "১৭৫৭"
+        },
+        {
+          "en": "1817",
+          "as": "১৮১৭"
+        },
+        {
+          "en": "1826",
+          "as": "১৮২৬"
+        },
+        {
+          "en": "1857",
+          "as": "১৮৫৭"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "en": "The Treaty of Yandabo ended which war?",
+      "as": "ইয়াণ্ডাবু সন্ধিয়ে কোনখন যুদ্ধৰ অন্ত পেলাইছিল?",
+      "options": [
+        {
+          "en": "First Anglo-Burmese War",
+          "as": "প্ৰথম ইংগ-বাৰ্মা যুদ্ধ"
+        },
+        {
+          "en": "First World War",
+          "as": "প্ৰথম বিশ্বযুদ্ধ"
+        },
+        {
+          "en": "Battle of Plassey",
+          "as": "পলাশীৰ যুদ্ধ"
+        },
+        {
+          "en": "Second Anglo-Maratha War",
+          "as": "দ্বিতীয় ইংগ-মাৰাঠা যুদ্ধ"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "en": "What does having a scientific temper mean?",
+      "as": "বৈজ্ঞানিক মনোভাৱ বুলিলে কি বুজায়?",
+      "options": [
+        {
+          "en": "Accepting blind faith",
+          "as": "অন্ধবিশ্বাস গ্ৰহণ কৰা"
+        },
+        {
+          "en": "Thinking through logic and evidence",
+          "as": "যুক্তি আৰু প্ৰমাণৰ ভিত্তিত চিন্তা কৰা"
+        },
+        {
+          "en": "Only memorising facts",
+          "as": "কেৱল তথ্য মুখস্থ কৰা"
+        },
+        {
+          "en": "Following others without questions",
+          "as": "প্ৰশ্ন নকৰাকৈ আনক অনুসৰণ কৰা"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "en": "Which constitutional provision makes developing scientific temper a fundamental duty?",
+      "as": "সংবিধানৰ কোনটো বিধানে বৈজ্ঞানিক মনোভাৱ গঢ়ি তোলাক মৌলিক কৰ্তব্য হিচাপে উল্লেখ কৰিছে?",
+      "options": [
+        {
+          "en": "Article 21",
+          "as": "অনুচ্ছেদ ২১"
+        },
+        {
+          "en": "Article 19",
+          "as": "অনুচ্ছেদ ১৯"
+        },
+        {
+          "en": "Article 51A(h)",
+          "as": "অনুচ্ছেদ ৫১A(h)"
+        },
+        {
+          "en": "Article 32",
+          "as": "অনুচ্ছেদ ৩২"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "en": "What is the main purpose of telemedicine?",
+      "as": "টেলিমেডিচিনৰ মুখ্য উদ্দেশ্য কি?",
+      "options": [
+        {
+          "en": "Online shopping",
+          "as": "অনলাইন ক্ৰয়"
+        },
+        {
+          "en": "Crop irrigation",
+          "as": "শস্যৰ জলসিঞ্চন"
+        },
+        {
+          "en": "Transport booking",
+          "as": "পৰিবহণৰ টিকট বুকিং"
+        },
+        {
+          "en": "Remote medical consultation",
+          "as": "দূৰৱৰ্তী চিকিৎসা পৰামৰ্শ"
+        }
+      ],
+      "answer": 3
+    },
+    {
+      "id": 8,
+      "en": "In a traditional arranged marriage, who usually takes the leading role in finding a match?",
+      "as": "পৰম্পৰাগতভাৱে পৰিয়ালে ঠিক কৰা বিবাহত সাধাৰণতে জীৱনসংগী বিচৰাত কোনে মুখ্য ভূমিকা লয়?",
+      "options": [
+        {
+          "en": "Parents and family members",
+          "as": "পিতৃ-মাতৃ আৰু পৰিয়ালৰ সদস্য"
+        },
+        {
+          "en": "Government officials",
+          "as": "চৰকাৰী বিষয়া"
+        },
+        {
+          "en": "School teachers",
+          "as": "বিদ্যালয়ৰ শিক্ষক"
+        },
+        {
+          "en": "Transport workers",
+          "as": "পৰিবহণ কৰ্মী"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "en": "Which broad goal is emphasised by the National Education Policy 2020?",
+      "as": "ৰাষ্ট্ৰীয় শিক্ষা নীতি ২০২০-এ কোনটো সামগ্ৰিক লক্ষ্যত গুৰুত্ব দিয়ে?",
+      "options": [
+        {
+          "en": "Memorisation alone",
+          "as": "কেৱল মুখস্থবিদ্যা"
+        },
+        {
+          "en": "Examinations alone",
+          "as": "কেৱল পৰীক্ষা"
+        },
+        {
+          "en": "Holistic development",
+          "as": "সামগ্ৰিক বিকাশ"
+        },
+        {
+          "en": "Vocational training alone",
+          "as": "কেৱল বৃত্তিমূলক প্ৰশিক্ষণ"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "en": "What does “Sa Vidya Ya Vimuktaye” mean?",
+      "as": "“সা বিদ্যা যা বিমুক্তয়ে”ৰ অৰ্থ কি?",
+      "options": [
+        {
+          "en": "Education only for employment",
+          "as": "কেৱল চাকৰিৰ বাবে শিক্ষা"
+        },
+        {
+          "en": "Education that liberates",
+          "as": "মুক্তি প্ৰদান কৰা শিক্ষা"
+        },
+        {
+          "en": "Education only for wealth",
+          "as": "কেৱল ধনৰ বাবে শিক্ষা"
+        },
+        {
+          "en": "Education only for physical strength",
+          "as": "কেৱল শাৰীৰিক শক্তিৰ বাবে শিক্ষা"
+        }
+      ],
+      "answer": 1
+    }
+  ]
+}
