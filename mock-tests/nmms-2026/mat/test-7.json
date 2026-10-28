@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-07",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 7",
+    "as": "টেষ্ট 7"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 7 · Shapes and Spatial Reasoning",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat07q01",
+      "en": "Find the next symbol: ○, △, □, ○, △, ?",
+      "as": "পৰৱৰ্তী চিহ্নটো উলিওৱা: ○, △, □, ○, △, ?",
+      "options": [
+        {
+          "en": "□",
+          "as": "□"
+        },
+        {
+          "en": "◇",
+          "as": "◇"
+        },
+        {
+          "en": "○",
+          "as": "○"
+        },
+        {
+          "en": "△",
+          "as": "△"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The three-symbol cycle ○, △, □ repeats.",
+        "as": "○, △, □ এই তিনিটা চিহ্নৰ চক্ৰ পুনৰাবৃত্তি হৈছে।"
+      }
+    },
+    {
+      "id": "mat07q02",
+      "en": "Find the next arrow: ↑, →, ↓, ←, ?",
+      "as": "পৰৱৰ্তী কাঁড় চিহ্নটো উলিওৱা: ↑, →, ↓, ←, ?",
+      "options": [
+        {
+          "en": "←",
+          "as": "←"
+        },
+        {
+          "en": "↑",
+          "as": "↑"
+        },
+        {
+          "en": "→",
+          "as": "→"
+        },
+        {
+          "en": "↓",
+          "as": "↓"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Each arrow turns 90° clockwise; after left, the next arrow points up.",
+        "as": "প্ৰতিটো কাঁড় ঘড়ীৰ কাঁটাৰ দিশত 90° ঘূৰে; বাওঁমুখী কাঁড়ৰ পিছত ওপৰমুখী কাঁড় আহে।"
+      }
+    },
+    {
+      "id": "mat07q03",
+      "en": "An arrow points up (↑). After a 90° clockwise rotation, which way does it point?",
+      "as": "এটা কাঁড় ওপৰমুখী (↑)। ঘড়ীৰ কাঁটাৰ দিশত 90° ঘূৰালে ই কোনফালে মুখ কৰিব?",
+      "options": [
+        {
+          "en": "↑",
+          "as": "↑"
+        },
+        {
+          "en": "↓",
+          "as": "↓"
+        },
+        {
+          "en": "←",
+          "as": "←"
+        },
+        {
+          "en": "→",
+          "as": "→"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "A clockwise quarter-turn changes ↑ into →.",
+        "as": "ঘড়ীৰ কাঁটাৰ দিশত এক-চতুৰ্থাংশ পাক ঘূৰালে ↑ হয় →।"
+      }
+    },
+    {
+      "id": "mat07q04",
+      "en": "In a vertical mirror placed to the right of →, which arrow is seen?",
+      "as": "→ চিহ্নৰ সোঁফালে ৰখা উলম্ব দাপোণত কোনটো কাঁড় দেখা যাব?",
+      "options": [
+        {
+          "en": "←",
+          "as": "←"
+        },
+        {
+          "en": "↓",
+          "as": "↓"
+        },
+        {
+          "en": "→",
+          "as": "→"
+        },
+        {
+          "en": "↑",
+          "as": "↑"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A vertical mirror reverses left and right, so → becomes ←.",
+        "as": "উলম্ব দাপোণে বাওঁ আৰু সোঁ সলনি কৰে; গতিকে → হয় ←।"
+      }
+    },
+    {
+      "id": "mat07q05",
+      "en": "Which shape has no straight sides?",
+      "as": "কোনটো আকৃতিৰ সৰল বাহু নাই?",
+      "options": [
+        {
+          "en": "Circle",
+          "as": "বৃত্ত"
+        },
+        {
+          "en": "Rectangle",
+          "as": "আয়ত"
+        },
+        {
+          "en": "Triangle",
+          "as": "ত্ৰিভুজ"
+        },
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A circle has a curved boundary; the other shapes have straight sides.",
+        "as": "বৃত্তৰ সীমা বক্ৰ; বাকী আকৃতিবোৰৰ বাহু সৰল।"
+      }
+    },
+    {
+      "id": "mat07q06",
+      "en": "A square is cut along one diagonal. How many triangles are formed?",
+      "as": "এটা বৰ্গক এটা কৰ্ণৰ কাষেৰে কাটিলে কিমানটা ত্ৰিভুজ গঠন হয়?",
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "One diagonal divides a square into two triangles.",
+        "as": "এটা কৰ্ণই বৰ্গক দুটা ত্ৰিভুজত ভাগ কৰে।"
+      }
+    },
+    {
+      "id": "mat07q07",
+      "en": "A cube is painted on all six faces and cut into 27 equal small cubes. How many small cubes have exactly three painted faces?",
+      "as": "এটা ঘনকৰ ছয়োখন পৃষ্ঠত ৰং কৰি 27টা সমান সৰু ঘনকত কটা হ’ল। ঠিক তিনিখন পৃষ্ঠত ৰং থকা সৰু ঘনক কিমানটা?",
+      "options": [
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Only the eight corner cubes have three painted faces.",
+        "as": "কেৱল আঠটা চুকৰ ঘনকৰ তিনিখনকৈ পৃষ্ঠত ৰং থাকে।"
+      }
+    },
+    {
+      "id": "mat07q08",
+      "en": "A cube is painted on all six faces and cut into 27 equal small cubes. How many small cubes have no painted face?",
+      "as": "এটা ঘনকৰ ছয়োখন পৃষ্ঠত ৰং কৰি 27টা সমান সৰু ঘনকত কটা হ’ল। এখনো পৃষ্ঠত ৰং নথকা সৰু ঘনক কিমানটা?",
+      "options": [
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "0",
+          "as": "0"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "In a 3 × 3 × 3 cube, only the central cube is completely inside: (3 − 2)³ = 1.",
+        "as": "3 × 3 × 3 ঘনকত কেৱল কেন্দ্ৰৰ ঘনকটো সম্পূৰ্ণ ভিতৰত থাকে: (3 − 2)³ = 1।"
+      }
+    },
+    {
+      "id": "mat07q09",
+      "en": "A dot moves around the corners of a square: top-left, top-right, bottom-right, bottom-left. Where is it next?",
+      "as": "এটা বিন্দু বৰ্গৰ চুকবোৰত ক্ৰমে ওপৰ-বাওঁ, ওপৰ-সোঁ, তল-সোঁ, তল-বাওঁ স্থানলৈ যায়। পিছত ক’ত থাকিব?",
+      "options": [
+        {
+          "en": "Bottom-right",
+          "as": "তল-সোঁ"
+        },
+        {
+          "en": "Centre",
+          "as": "কেন্দ্ৰ"
+        },
+        {
+          "en": "Top-left",
+          "as": "ওপৰ-বাওঁ"
+        },
+        {
+          "en": "Top-right",
+          "as": "ওপৰ-সোঁ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The dot moves clockwise around the four corners and returns to top-left.",
+        "as": "বিন্দুটো চাৰিটা চুকত ঘড়ীৰ কাঁটাৰ দিশত ঘূৰি পুনৰ ওপৰ-বাওঁলৈ আহে।"
+      }
+    },
+    {
+      "id": "mat07q10",
+      "en": "Complete the pattern: ▲, ▲▲, ▲▲▲, ?",
+      "as": "আৰ্হিটো সম্পূৰ্ণ কৰা: ▲, ▲▲, ▲▲▲, ?",
+      "options": [
+        {
+          "en": "▲",
+          "as": "▲"
+        },
+        {
+          "en": "▲▲",
+          "as": "▲▲"
+        },
+        {
+          "en": "▲▲▲▲",
+          "as": "▲▲▲▲"
+        },
+        {
+          "en": "▲▲▲▲▲",
+          "as": "▲▲▲▲▲"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "One triangle is added at each step, so the next group has four.",
+        "as": "প্ৰতিটো ধাপত এটা ত্ৰিভুজ যোগ হৈছে; গতিকে পিছৰ গোটত চাৰিটা থাকিব।"
+      }
+    }
+  ]
+}

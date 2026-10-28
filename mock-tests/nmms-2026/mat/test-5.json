@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-05",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 5",
+    "as": "টেষ্ট 5"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 5 · Relationships and Directions",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat05q01",
+      "en": "A and B are sisters with the same parents. C is their mother and D is C’s father. How is A related to D?",
+      "as": "A আৰু B একে পিতৃ-মাতৃৰ দুগৰাকী ভগ্নী। C তেওঁলোকৰ মাতৃ আৰু D, C-ৰ পিতৃ। A, D-ৰ কোন হয়?",
+      "options": [
+        {
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "en": "Granddaughter",
+          "as": "নাতিনী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "D is A’s maternal grandfather, so A is his granddaughter.",
+        "as": "D, A-ৰ মাতৃৰ পিতৃ; গতিকে A তেওঁৰ নাতিনী।"
+      }
+    },
+    {
+      "id": "mat05q02",
+      "en": "Ravi’s mother has only one brother, named Arun. What is Arun’s relationship to Ravi?",
+      "as": "ৰবিৰ মাতৃৰ একমাত্ৰ ভাতৃৰ নাম অৰুণ। অৰুণ ৰবিৰ কোন হয়?",
+      "options": [
+        {
+          "en": "Maternal uncle",
+          "as": "মোমায়েক"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাতৃ"
+        },
+        {
+          "en": "Grandfather",
+          "as": "ককাক"
+        },
+        {
+          "en": "Father",
+          "as": "পিতৃ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A mother’s brother is a maternal uncle.",
+        "as": "মাতৃৰ ভাতৃক মোমায়েক বোলা হয়।"
+      }
+    },
+    {
+      "id": "mat05q03",
+      "en": "Meena is the mother of a boy named Raj. Raj is the father of Sita. How is Meena related to Sita?",
+      "as": "মীনা ৰাজ নামৰ ল’ৰা এজনৰ মাতৃ। ৰাজ সীতাৰ পিতৃ। মীনা সীতাৰ কোন হয়?",
+      "options": [
+        {
+          "en": "Paternal grandmother",
+          "as": "পিতৃৰ মাতৃ"
+        },
+        {
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Aunt",
+          "as": "খুৰীয়েক"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Meena is the mother of Sita’s father, so she is Sita’s paternal grandmother.",
+        "as": "মীনা সীতাৰ পিতৃৰ মাতৃ; গতিকে তেওঁ সীতাৰ পিতৃৰ ফালৰ আইতাক।"
+      }
+    },
+    {
+      "id": "mat05q04",
+      "en": "A man says, “This girl is the daughter of my only son.” How is the girl related to him?",
+      "as": "এজন পুৰুষে কয়, “এই ছোৱালীজনী মোৰ একমাত্ৰ পুত্ৰৰ জীয়ৰী।” ছোৱালীজনী তেওঁৰ কোন হয়?",
+      "options": [
+        {
+          "en": "Granddaughter",
+          "as": "নাতিনী"
+        },
+        {
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "en": "Niece",
+          "as": "ভতিজী"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The daughter of one’s son is one’s granddaughter.",
+        "as": "নিজৰ পুত্ৰৰ জীয়ৰী নিজৰ নাতিনী হয়।"
+      }
+    },
+    {
+      "id": "mat05q05",
+      "en": "You face north and turn right once. Which direction do you face?",
+      "as": "তুমি উত্তৰমুখী হৈ এবাৰ সোঁফালে ঘূৰিলা। এতিয়া কোন দিশলৈ মুখ কৰি আছা?",
+      "options": [
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A right turn from north points east.",
+        "as": "উত্তৰৰ পৰা সোঁফালে ঘূৰিলে পূবমুখী হয়।"
+      }
+    },
+    {
+      "id": "mat05q06",
+      "en": "A girl walks 5 km east and then 3 km west. Where is she relative to her starting point?",
+      "as": "এগৰাকী ছোৱালী 5 কিমি পূবলৈ আৰু তাৰ পিছত 3 কিমি পশ্চিমলৈ গ’ল। আৰম্ভণিৰ স্থানৰ তুলনাত তেওঁ ক’ত আছে?",
+      "options": [
+        {
+          "en": "2 km west",
+          "as": "2 কিমি পশ্চিমে"
+        },
+        {
+          "en": "8 km east",
+          "as": "8 কিমি পূবে"
+        },
+        {
+          "en": "8 km west",
+          "as": "8 কিমি পশ্চিমে"
+        },
+        {
+          "en": "2 km east",
+          "as": "2 কিমি পূবে"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The opposite journeys cancel partly: 5 − 3 = 2 km east.",
+        "as": "বিপৰীত দিশৰ যাত্ৰা আংশিকভাৱে বাতিল হয়: 5 − 3 = 2 কিমি পূবে।"
+      }
+    },
+    {
+      "id": "mat05q07",
+      "en": "A boy walks 3 km north and 4 km east. What is the shortest distance back to his start?",
+      "as": "এজন ল’ৰা 3 কিমি উত্তৰলৈ আৰু 4 কিমি পূবলৈ গ’ল। আৰম্ভণিৰ স্থানলৈ সৰলৰৈখিক দূৰত্ব কিমান?",
+      "options": [
+        {
+          "en": "7 km",
+          "as": "7 km"
+        },
+        {
+          "en": "12 km",
+          "as": "12 km"
+        },
+        {
+          "en": "4 km",
+          "as": "4 km"
+        },
+        {
+          "en": "5 km",
+          "as": "5 km"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The path forms a right triangle: √(3² + 4²) = 5 km.",
+        "as": "পথটোৱে সমকোণী ত্ৰিভুজ গঠন কৰে: √(3² + 4²) = 5 কিমি।"
+      }
+    },
+    {
+      "id": "mat05q08",
+      "en": "You face east, turn left, then turn right. Which direction do you face now?",
+      "as": "তুমি পূবমুখী হৈ বাওঁফালে ঘূৰিলা, তাৰ পিছত সোঁফালে ঘূৰিলা। এতিয়া কোন দিশলৈ মুখ কৰি আছা?",
+      "options": [
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "East → north after the left turn → east after the right turn.",
+        "as": "বাওঁফালে ঘূৰিলে পূবৰ পৰা উত্তৰ; তাৰ পিছত সোঁফালে ঘূৰিলে পুনৰ পূব।"
+      }
+    },
+    {
+      "id": "mat05q09",
+      "en": "P walks 4 m north, 6 m east and 4 m south. Where is P relative to the start?",
+      "as": "P প্ৰথমে 4 মিটাৰ উত্তৰলৈ, 6 মিটাৰ পূবলৈ আৰু 4 মিটাৰ দক্ষিণলৈ গ’ল। আৰম্ভণিৰ স্থানৰ তুলনাত P ক’ত আছে?",
+      "options": [
+        {
+          "en": "6 m east",
+          "as": "6 মিটাৰ পূবে"
+        },
+        {
+          "en": "6 m west",
+          "as": "6 মিটাৰ পশ্চিমে"
+        },
+        {
+          "en": "4 m north",
+          "as": "4 মিটাৰ উত্তৰে"
+        },
+        {
+          "en": "14 m east",
+          "as": "14 মিটাৰ পূবে"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The north and south movements cancel, leaving 6 m east.",
+        "as": "উত্তৰ আৰু দক্ষিণৰ গতি বাতিল হয়; বাকী থাকে 6 মিটাৰ পূবলৈ।"
+      }
+    },
+    {
+      "id": "mat05q10",
+      "en": "A school is north of a library. The library is north of a park. In which direction is the school from the park?",
+      "as": "বিদ্যালয় পুথিভঁৰালৰ উত্তৰে। পুথিভঁৰাল উদ্যানৰ উত্তৰে। উদ্যানৰ পৰা বিদ্যালয় কোন দিশত?",
+      "options": [
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Moving from the park to the library and then to the school is northward throughout.",
+        "as": "উদ্যানৰ পৰা পুথিভঁৰাল আৰু তাৰ পৰা বিদ্যালয়লৈ দুয়োটা গতি উত্তৰমুখী।"
+      }
+    }
+  ]
+}

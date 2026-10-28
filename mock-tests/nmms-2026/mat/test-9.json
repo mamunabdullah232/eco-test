@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-09",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 9",
+    "as": "টেষ্ট 9"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 9 · Mixed MAT Revision",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat09q01",
+      "en": "Choose the odd one out: 16, 25, 36, 48.",
+      "as": "বিসদৃশটো বাছি উলিওৱা: 16, 25, 36, 48।",
+      "options": [
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "36",
+          "as": "36"
+        },
+        {
+          "en": "48",
+          "as": "48"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "16, 25 and 36 are perfect squares; 48 is not.",
+        "as": "16, 25 আৰু 36 পূৰ্ণবৰ্গ; 48 পূৰ্ণবৰ্গ নহয়।"
+      }
+    },
+    {
+      "id": "mat09q02",
+      "en": "Hand : Glove :: Foot : ?",
+      "as": "হাত : হাতমোজা :: ভৰি : ?",
+      "options": [
+        {
+          "en": "Shoe",
+          "as": "জোতা"
+        },
+        {
+          "en": "Shirt",
+          "as": "চোলা"
+        },
+        {
+          "en": "Belt",
+          "as": "পেটী"
+        },
+        {
+          "en": "Hat",
+          "as": "টুপি"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A glove is worn on a hand, and a shoe on a foot.",
+        "as": "হাতত হাতমোজা আৰু ভৰিত জোতা পিন্ধা হয়।"
+      }
+    },
+    {
+      "id": "mat09q03",
+      "en": "Find the next number: 6, 11, 21, 41, ?",
+      "as": "পৰৱৰ্তী সংখ্যাটো উলিওৱা: 6, 11, 21, 41, ?",
+      "options": [
+        {
+          "en": "81",
+          "as": "81"
+        },
+        {
+          "en": "91",
+          "as": "91"
+        },
+        {
+          "en": "61",
+          "as": "61"
+        },
+        {
+          "en": "71",
+          "as": "71"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Multiply by 2 and subtract 1: 41 × 2 − 1 = 81.",
+        "as": "2-ৰে পূৰণ কৰি 1 বিয়োগ কৰা: 41 × 2 − 1 = 81।"
+      }
+    },
+    {
+      "id": "mat09q04",
+      "en": "Find the next letter: B, E, H, K, ?",
+      "as": "পৰৱৰ্তী আখৰটো উলিওৱা: B, E, H, K, ?",
+      "options": [
+        {
+          "en": "O",
+          "as": "O"
+        },
+        {
+          "en": "L",
+          "as": "L"
+        },
+        {
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "en": "N",
+          "as": "N"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Each letter moves three places forward: K → N.",
+        "as": "প্ৰতিটো আখৰ তিনিটা স্থান আগুৱায়: K → N।"
+      }
+    },
+    {
+      "id": "mat09q05",
+      "en": "If each letter moves one place backwards, HAT becomes GZS. How is SUN coded?",
+      "as": "প্ৰতিটো আখৰ এটা স্থান পিছুৱালে HAT হয় GZS। SUN-ৰ সংকেত কি?",
+      "options": [
+        {
+          "en": "RTM",
+          "as": "RTM"
+        },
+        {
+          "en": "TVO",
+          "as": "TVO"
+        },
+        {
+          "en": "RUM",
+          "as": "RUM"
+        },
+        {
+          "en": "STM",
+          "as": "STM"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "S → R, U → T and N → M, giving RTM.",
+        "as": "S → R, U → T আৰু N → M; গতিকে RTM।"
+      }
+    },
+    {
+      "id": "mat09q06",
+      "en": "Tara is 6th from the left in a row of 25 people. What is her position from the right?",
+      "as": "25 জনৰ শাৰীত তাৰা বাওঁফালৰ পৰা 6ষ্ঠ। সোঁফালৰ পৰা তেওঁৰ স্থান কি?",
+      "options": [
+        {
+          "en": "19",
+          "as": "19"
+        },
+        {
+          "en": "20",
+          "as": "20"
+        },
+        {
+          "en": "21",
+          "as": "21"
+        },
+        {
+          "en": "18",
+          "as": "18"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "25 − 6 + 1 = 20.",
+        "as": "25 − 6 + 1 = 20।"
+      }
+    },
+    {
+      "id": "mat09q07",
+      "en": "You face south and turn left. Which direction do you face?",
+      "as": "তুমি দক্ষিণমুখী হৈ বাওঁফালে ঘূৰিলা। এতিয়া কোন দিশলৈ মুখ কৰি আছা?",
+      "options": [
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "A left turn from south points east.",
+        "as": "দক্ষিণৰ পৰা বাওঁফালে ঘূৰিলে পূবমুখী হয়।"
+      }
+    },
+    {
+      "id": "mat09q08",
+      "en": "All pencils are stationery. Some stationery items are red. Can we conclude that all pencils are red?",
+      "as": "সকলো পেঞ্চিল লিখনসামগ্ৰী। কিছুমান লিখনসামগ্ৰী ৰঙা। সকলো পেঞ্চিল ৰঙা বুলি সিদ্ধান্ত ল’ব পাৰিনে?",
+      "options": [
+        {
+          "en": "All stationery is red",
+          "as": "সকলো লিখনসামগ্ৰী ৰঙা"
+        },
+        {
+          "en": "Yes, definitely",
+          "as": "হয়, নিশ্চিতভাৱে"
+        },
+        {
+          "en": "No; the statements do not establish that",
+          "as": "নোৱাৰি; উক্তিবোৰে সেইটো নিশ্চিত নকৰে"
+        },
+        {
+          "en": "No pencil is stationery",
+          "as": "কোনো পেঞ্চিল লিখনসামগ্ৰী নহয়"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Some stationery being red does not tell us the colour of every pencil.",
+        "as": "কিছুমান লিখনসামগ্ৰী ৰঙা হ’লেও প্ৰতিটো পেঞ্চিলৰ ৰং জানিব নোৱাৰি।"
+      }
+    },
+    {
+      "id": "mat09q09",
+      "en": "If today is Monday, what day will it be 17 days from today?",
+      "as": "আজি সোমবাৰ হ’লে আজিৰ পৰা 17 দিনৰ পিছত কি বাৰ হ’ব?",
+      "options": [
+        {
+          "en": "Tuesday",
+          "as": "মঙলবাৰ"
+        },
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুকুৰবাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "17 = 14 + 3, so move three weekdays forward from Monday to Thursday.",
+        "as": "17 = 14 + 3; সোমবাৰৰ পৰা তিনি দিন আগুৱালে বৃহস্পতিবাৰ হয়।"
+      }
+    },
+    {
+      "id": "mat09q10",
+      "en": "A bag has 4 red and 6 blue balls. Without looking, what is the minimum number you must draw to guarantee at least one red ball?",
+      "as": "এটা মোনাত 4টা ৰঙা আৰু 6টা নীলা বল আছে। নোচোৱাকৈ অন্ততঃ এটা ৰঙা বল পোৱাটো নিশ্চিত কৰিবলৈ কমেও কিমানটা বল উলিয়াব লাগিব?",
+      "options": [
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "In the worst case, the first six balls are blue. The seventh must be red.",
+        "as": "আটাইতকৈ প্ৰতিকূল অৱস্থাত প্ৰথম ছটা বল নীলা হ’ব পাৰে। সপ্তমটো ৰঙা হ’বই লাগিব।"
+      }
+    }
+  ]
+}

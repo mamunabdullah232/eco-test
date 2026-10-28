@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-01",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "টেষ্ট 1"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 1 · Classification and Analogies",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat01q01",
+      "en": "Choose the odd one out: shoulder, foot, elbow, arm.",
+      "as": "বিসদৃশটো বাছি উলিওৱা: কান্ধ, ভৰি, কিলাকুটি, বাহু।",
+      "options": [
+        {
+          "en": "Shoulder",
+          "as": "কান্ধ"
+        },
+        {
+          "en": "Foot",
+          "as": "ভৰি"
+        },
+        {
+          "en": "Elbow",
+          "as": "কিলাকুটি"
+        },
+        {
+          "en": "Arm",
+          "as": "বাহু"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The foot belongs to the lower limb; the other three belong to the upper limb.",
+        "as": "ভৰি তলৰ অংগৰ অংশ; বাকী তিনিটা ওপৰৰ অংগৰ অংশ।"
+      }
+    },
+    {
+      "id": "mat01q02",
+      "en": "Which number is different because it is not prime?",
+      "as": "মৌলিক সংখ্যা নোহোৱাৰ বাবে কোনটো পৃথক?",
+      "options": [
+        {
+          "en": "27",
+          "as": "27"
+        },
+        {
+          "en": "29",
+          "as": "29"
+        },
+        {
+          "en": "37",
+          "as": "37"
+        },
+        {
+          "en": "17",
+          "as": "17"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "27 = 3 × 9; 17, 29 and 37 are prime.",
+        "as": "27 = 3 × 9; 17, 29 আৰু 37 মৌলিক সংখ্যা।"
+      }
+    },
+    {
+      "id": "mat01q03",
+      "en": "Which number is not a perfect cube?",
+      "as": "কোনটো সংখ্যা পূৰ্ণঘন নহয়?",
+      "options": [
+        {
+          "en": "125",
+          "as": "125"
+        },
+        {
+          "en": "28",
+          "as": "28"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "64",
+          "as": "64"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "8 = 2³, 64 = 4³ and 125 = 5³. 28 is not a perfect cube.",
+        "as": "8 = 2³, 64 = 4³ আৰু 125 = 5³। 28 পূৰ্ণঘন নহয়।"
+      }
+    },
+    {
+      "id": "mat01q04",
+      "en": "Cricket : Bat :: Hockey : ?",
+      "as": "ক্ৰিকেট : বেট :: হকী : ?",
+      "options": [
+        {
+          "en": "Ball",
+          "as": "বল"
+        },
+        {
+          "en": "Field",
+          "as": "খেলপথাৰ"
+        },
+        {
+          "en": "Stick",
+          "as": "ষ্টিক"
+        },
+        {
+          "en": "Player",
+          "as": "খেলুৱৈ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A bat is used to strike the ball in cricket; a stick is used in hockey.",
+        "as": "ক্ৰিকেটত বল মাৰিবলৈ বেট আৰু হকীত ষ্টিক ব্যৱহাৰ কৰা হয়।"
+      }
+    },
+    {
+      "id": "mat01q05",
+      "en": "Moon : Satellite :: Earth : ?",
+      "as": "চন্দ্ৰ : উপগ্ৰহ :: পৃথিৱী : ?",
+      "options": [
+        {
+          "en": "Sun",
+          "as": "সূৰ্য"
+        },
+        {
+          "en": "Planet",
+          "as": "গ্ৰহ"
+        },
+        {
+          "en": "Galaxy",
+          "as": "তাৰকাৰাজ্য"
+        },
+        {
+          "en": "Asteroid",
+          "as": "গ্ৰহাণু"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Moon is a satellite and Earth is a planet.",
+        "as": "চন্দ্ৰ এটা উপগ্ৰহ আৰু পৃথিৱী এটা গ্ৰহ।"
+      }
+    },
+    {
+      "id": "mat01q06",
+      "en": "Food : Stomach :: Fuel : ?",
+      "as": "খাদ্য : পাকস্থলী :: ইন্ধন : ?",
+      "options": [
+        {
+          "en": "Wheel",
+          "as": "চকা"
+        },
+        {
+          "en": "Road",
+          "as": "পথ"
+        },
+        {
+          "en": "Brake",
+          "as": "ব্ৰেক"
+        },
+        {
+          "en": "Engine",
+          "as": "ইঞ্জিন"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The stomach processes food; an engine uses fuel to produce power.",
+        "as": "পাকস্থলীয়ে খাদ্য প্ৰক্ৰিয়াকৰণ কৰে; ইঞ্জিনে শক্তি উৎপাদনৰ বাবে ইন্ধন ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "id": "mat01q07",
+      "en": "River : Bank :: Sea : ?",
+      "as": "নদী : পাৰ :: সাগৰ : ?",
+      "options": [
+        {
+          "en": "Mountain",
+          "as": "পৰ্বত"
+        },
+        {
+          "en": "Cloud",
+          "as": "মেঘ"
+        },
+        {
+          "en": "Desert",
+          "as": "মৰুভূমি"
+        },
+        {
+          "en": "Coast",
+          "as": "উপকূল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "A river has banks; a sea has a coast.",
+        "as": "নদীৰ কাষক পাৰ আৰু সাগৰৰ কাষক উপকূল বোলা হয়।"
+      }
+    },
+    {
+      "id": "mat01q08",
+      "en": "Leather : Cobbler :: Wood : ?",
+      "as": "চামৰা : মুচী :: কাঠ : ?",
+      "options": [
+        {
+          "en": "Potter",
+          "as": "কুমাৰ"
+        },
+        {
+          "en": "Farmer",
+          "as": "কৃষক"
+        },
+        {
+          "en": "Tailor",
+          "as": "দৰ্জী"
+        },
+        {
+          "en": "Carpenter",
+          "as": "কাঠমিস্ত্ৰী"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "A cobbler works with leather; a carpenter works with wood.",
+        "as": "মুচীয়ে চামৰাৰ আৰু কাঠমিস্ত্ৰীয়ে কাঠৰ কাম কৰে।"
+      }
+    },
+    {
+      "id": "mat01q09",
+      "en": "Choose the pair with a different relationship.",
+      "as": "বেলেগ সম্পৰ্ক থকা যোৰটো বাছি উলিওৱা।",
+      "options": [
+        {
+          "en": "Length : metre",
+          "as": "দৈৰ্ঘ্য : মিটাৰ"
+        },
+        {
+          "en": "Mass : kilogram",
+          "as": "ভৰ : কিলোগ্ৰাম"
+        },
+        {
+          "en": "Time : second",
+          "as": "সময় : ছেকেণ্ড"
+        },
+        {
+          "en": "Temperature : thermometer",
+          "as": "উষ্ণতা : থাৰ্মমিটাৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The first three pairs match a quantity with a unit. A thermometer is an instrument, not a unit.",
+        "as": "প্ৰথম তিনিটা যোৰত ৰাশি আৰু একক আছে। থাৰ্মমিটাৰ এটা যন্ত্ৰ, একক নহয়।"
+      }
+    },
+    {
+      "id": "mat01q10",
+      "en": "Which number is not a perfect square?",
+      "as": "কোনটো সংখ্যা পূৰ্ণবৰ্গ নহয়?",
+      "options": [
+        {
+          "en": "36",
+          "as": "36"
+        },
+        {
+          "en": "78",
+          "as": "78"
+        },
+        {
+          "en": "144",
+          "as": "144"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "25 = 5², 36 = 6² and 144 = 12²; 78 is not a perfect square.",
+        "as": "25 = 5², 36 = 6² আৰু 144 = 12²; 78 পূৰ্ণবৰ্গ নহয়।"
+      }
+    }
+  ]
+}

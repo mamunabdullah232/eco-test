@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-03",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "টেষ্ট 3"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 3 · Alphabet and Coding",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat03q01",
+      "en": "Find the next letter: A, C, F, J, O, ?",
+      "as": "পৰৱৰ্তী আখৰটো উলিওৱা: A, C, F, J, O, ?",
+      "options": [
+        {
+          "en": "V",
+          "as": "V"
+        },
+        {
+          "en": "W",
+          "as": "W"
+        },
+        {
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "en": "U",
+          "as": "U"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Letter positions increase by 2, 3, 4, 5, then 6: O(15) + 6 = U(21).",
+        "as": "আখৰৰ স্থান ক্ৰমে 2, 3, 4, 5, তাৰ পিছত 6 বৃদ্ধি পায়: O(15) + 6 = U(21)।"
+      }
+    },
+    {
+      "id": "mat03q02",
+      "en": "Find the next letter: Z, W, T, Q, ?",
+      "as": "পৰৱৰ্তী আখৰটো উলিওৱা: Z, W, T, Q, ?",
+      "options": [
+        {
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "en": "N",
+          "as": "N"
+        },
+        {
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "en": "O",
+          "as": "O"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Move three places backwards each time: Q → N.",
+        "as": "প্ৰতিবাৰ তিনিটা স্থান পিছলৈ যোৱা হৈছে: Q → N।"
+      }
+    },
+    {
+      "id": "mat03q03",
+      "en": "If each letter is replaced by the next letter, CAT becomes DBU. What does DOG become?",
+      "as": "প্ৰতিটো আখৰৰ ঠাইত পিছৰ আখৰটো লিখিলে CAT হয় DBU। DOG কি হ’ব?",
+      "options": [
+        {
+          "en": "EPH",
+          "as": "EPH"
+        },
+        {
+          "en": "EOG",
+          "as": "EOG"
+        },
+        {
+          "en": "FPH",
+          "as": "FPH"
+        },
+        {
+          "en": "CNE",
+          "as": "CNE"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "D → E, O → P and G → H, giving EPH.",
+        "as": "D → E, O → P আৰু G → H; গতিকে EPH।"
+      }
+    },
+    {
+      "id": "mat03q04",
+      "en": "If each letter moves two places forward, BOOK becomes DQQM. How is PEN coded?",
+      "as": "প্ৰতিটো আখৰ দুটা স্থান আগুৱালে BOOK হয় DQQM। PEN-ৰ সংকেত কি?",
+      "options": [
+        {
+          "en": "RGP",
+          "as": "RGP"
+        },
+        {
+          "en": "RGQ",
+          "as": "RGQ"
+        },
+        {
+          "en": "ODM",
+          "as": "ODM"
+        },
+        {
+          "en": "QFO",
+          "as": "QFO"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "P → R, E → G and N → P, giving RGP.",
+        "as": "P → R, E → G আৰু N → P; গতিকে RGP।"
+      }
+    },
+    {
+      "id": "mat03q05",
+      "en": "A word is coded by reversing its letters. TABLE becomes ELBAT. How is CHAIR coded?",
+      "as": "আখৰ ওলোটা ক্ৰমত লিখি সংকেত কৰা হয়। TABLE হয় ELBAT। CHAIR-ৰ সংকেত কি?",
+      "options": [
+        {
+          "en": "RIACH",
+          "as": "RIACH"
+        },
+        {
+          "en": "CHAIR",
+          "as": "CHAIR"
+        },
+        {
+          "en": "RACHI",
+          "as": "RACHI"
+        },
+        {
+          "en": "RIAHC",
+          "as": "RIAHC"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Reading CHAIR from right to left gives RIAHC.",
+        "as": "CHAIR সোঁফালৰ পৰা বাওঁফাললৈ পঢ়িলে RIAHC হয়।"
+      }
+    },
+    {
+      "id": "mat03q06",
+      "en": "Using A = 1, B = 2, …, Z = 26, what is the sum of the letters in BAD?",
+      "as": "A = 1, B = 2, …, Z = 26 হ’লে BAD-ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?",
+      "options": [
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "B + A + D = 2 + 1 + 4 = 7.",
+        "as": "B + A + D = 2 + 1 + 4 = 7।"
+      }
+    },
+    {
+      "id": "mat03q07",
+      "en": "In the English alphabet, which letter is fifth to the right of M?",
+      "as": "ইংৰাজী বৰ্ণমালাত M-ৰ সোঁফালে পঞ্চম আখৰটো কি?",
+      "options": [
+        {
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "en": "T",
+          "as": "T"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Count N(1), O(2), P(3), Q(4), R(5).",
+        "as": "গণনা কৰা: N(1), O(2), P(3), Q(4), R(5)।"
+      }
+    },
+    {
+      "id": "mat03q08",
+      "en": "Which word comes first in English dictionary order?",
+      "as": "ইংৰাজী অভিধানৰ ক্ৰমত কোনটো শব্দ প্ৰথমে আহে?",
+      "options": [
+        {
+          "en": "CARE",
+          "as": "CARE"
+        },
+        {
+          "en": "CARRY",
+          "as": "CARRY"
+        },
+        {
+          "en": "CARD",
+          "as": "CARD"
+        },
+        {
+          "en": "CART",
+          "as": "CART"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "After CAR, compare D, E, R and T. D comes first, so CARD is first.",
+        "as": "CAR-ৰ পিছৰ D, E, R আৰু T তুলনা কৰা। D প্ৰথমে আহে, গতিকে CARD প্ৰথম।"
+      }
+    },
+    {
+      "id": "mat03q09",
+      "en": "Choose the odd letter group.",
+      "as": "বিসদৃশ আখৰৰ গোটটো বাছি উলিওৱা।",
+      "options": [
+        {
+          "en": "CEG",
+          "as": "CEG"
+        },
+        {
+          "en": "DFI",
+          "as": "DFI"
+        },
+        {
+          "en": "ACE",
+          "as": "ACE"
+        },
+        {
+          "en": "BDF",
+          "as": "BDF"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "In ACE, BDF and CEG, each step is +2. In DFI the last step F → I is +3.",
+        "as": "ACE, BDF আৰু CEG-ত প্ৰতিটো ব্যৱধান +2। DFI-ত শেষৰ F → I ব্যৱধান +3।"
+      }
+    },
+    {
+      "id": "mat03q10",
+      "en": "In a code, red blue = ka mi and blue green = mi to. What is the code for blue?",
+      "as": "এটা সংকেতত red blue = ka mi আৰু blue green = mi to। blue-ৰ সংকেত কি?",
+      "options": [
+        {
+          "en": "Cannot be determined / নিৰ্ণয় কৰিব নোৱাৰি",
+          "as": "Cannot be determined / নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "ka",
+          "as": "ka"
+        },
+        {
+          "en": "mi",
+          "as": "mi"
+        },
+        {
+          "en": "to",
+          "as": "to"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The common word is blue and the common code is mi.",
+        "as": "উমৈহতীয়া শব্দ blue আৰু উমৈহতীয়া সংকেত mi।"
+      }
+    }
+  ]
+}

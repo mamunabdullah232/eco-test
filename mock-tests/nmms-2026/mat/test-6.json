@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-06",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 6",
+    "as": "টেষ্ট 6"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 6 · Mathematical Reasoning",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat06q01",
+      "en": "If + means × and × means −, evaluate 8 + 3 × 4 using the usual order of operations after replacement.",
+      "as": "+ চিহ্নই × আৰু × চিহ্নই − বুজালে, চিহ্ন সলনি কৰাৰ পিছত সাধাৰণ ক্ৰিয়াক্ৰমে 8 + 3 × 4-ৰ মান উলিওৱা।",
+      "options": [
+        {
+          "en": "28",
+          "as": "28"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "32",
+          "as": "32"
+        },
+        {
+          "en": "20",
+          "as": "20"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Replace the signs: 8 × 3 − 4 = 24 − 4 = 20.",
+        "as": "চিহ্ন সলনি কৰিলে: 8 × 3 − 4 = 24 − 4 = 20।"
+      }
+    },
+    {
+      "id": "mat06q02",
+      "en": "If a ★ b = a² + b, what is 4 ★ 3?",
+      "as": "a ★ b = a² + b হ’লে 4 ★ 3 কিমান?",
+      "options": [
+        {
+          "en": "19",
+          "as": "19"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "4 ★ 3 = 4² + 3 = 16 + 3 = 19.",
+        "as": "4 ★ 3 = 4² + 3 = 16 + 3 = 19।"
+      }
+    },
+    {
+      "id": "mat06q03",
+      "en": "If a # b = 2a + b, what is 6 # 5?",
+      "as": "a # b = 2a + b হ’লে 6 # 5 কিমান?",
+      "options": [
+        {
+          "en": "22",
+          "as": "22"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "17",
+          "as": "17"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "6 # 5 = 2 × 6 + 5 = 17.",
+        "as": "6 # 5 = 2 × 6 + 5 = 17।"
+      }
+    },
+    {
+      "id": "mat06q04",
+      "en": "Using the rule n → n² + 1, 3 → 10 and 5 → 26. What does 7 map to?",
+      "as": "n → n² + 1 নিয়মত 3 → 10 আৰু 5 → 26। 7-ৰ মান কি হ’ব?",
+      "options": [
+        {
+          "en": "48",
+          "as": "48"
+        },
+        {
+          "en": "49",
+          "as": "49"
+        },
+        {
+          "en": "50",
+          "as": "50"
+        },
+        {
+          "en": "56",
+          "as": "56"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "7² + 1 = 49 + 1 = 50.",
+        "as": "7² + 1 = 49 + 1 = 50।"
+      }
+    },
+    {
+      "id": "mat06q05",
+      "en": "The rows follow the same rule: (3, 4, 14), (5, 2, 12), (6, 3, ?). Find the missing number.",
+      "as": "শাৰীবোৰে একে নিয়ম মানে: (3, 4, 14), (5, 2, 12), (6, 3, ?)। খালী সংখ্যাটো উলিওৱা।",
+      "options": [
+        {
+          "en": "20",
+          "as": "20"
+        },
+        {
+          "en": "21",
+          "as": "21"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "en": "18",
+          "as": "18"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Multiply the first two numbers and add 2: 6 × 3 + 2 = 20.",
+        "as": "প্ৰথম দুটা সংখ্যা পূৰণ কৰি 2 যোগ কৰা: 6 × 3 + 2 = 20।"
+      }
+    },
+    {
+      "id": "mat06q06",
+      "en": "The rows follow the same rule: (2, 3, 13), (3, 4, 25), (4, 5, ?). Find the missing number.",
+      "as": "শাৰীবোৰে একে নিয়ম মানে: (2, 3, 13), (3, 4, 25), (4, 5, ?)। খালী সংখ্যাটো উলিওৱা।",
+      "options": [
+        {
+          "en": "40",
+          "as": "40"
+        },
+        {
+          "en": "41",
+          "as": "41"
+        },
+        {
+          "en": "20",
+          "as": "20"
+        },
+        {
+          "en": "36",
+          "as": "36"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Add the squares of the first two numbers: 4² + 5² = 16 + 25 = 41.",
+        "as": "প্ৰথম দুটা সংখ্যাৰ বৰ্গ যোগ কৰা: 4² + 5² = 16 + 25 = 41।"
+      }
+    },
+    {
+      "id": "mat06q07",
+      "en": "Five identical notebooks cost ₹60. At the same rate, what do eight notebooks cost?",
+      "as": "একে ধৰণৰ পাঁচখন বহীৰ দাম ₹60। একে দৰত আঠখন বহীৰ দাম কিমান?",
+      "options": [
+        {
+          "en": "₹108",
+          "as": "₹108"
+        },
+        {
+          "en": "₹84",
+          "as": "₹84"
+        },
+        {
+          "en": "₹90",
+          "as": "₹90"
+        },
+        {
+          "en": "₹96",
+          "as": "₹96"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "One notebook costs 60 ÷ 5 = ₹12; eight cost 8 × 12 = ₹96.",
+        "as": "এখন বহীৰ দাম 60 ÷ 5 = ₹12; আঠখনৰ দাম 8 × 12 = ₹96।"
+      }
+    },
+    {
+      "id": "mat06q08",
+      "en": "Three years ago, A was 9 years old. How old will A be five years from now?",
+      "as": "তিনি বছৰ আগতে A-ৰ বয়স 9 বছৰ আছিল। আজিৰ পৰা পাঁচ বছৰৰ পিছত A-ৰ বয়স কিমান হ’ব?",
+      "options": [
+        {
+          "en": "14 years / বছৰ",
+          "as": "14 years / বছৰ"
+        },
+        {
+          "en": "15 years / বছৰ",
+          "as": "15 years / বছৰ"
+        },
+        {
+          "en": "17 years / বছৰ",
+          "as": "17 years / বছৰ"
+        },
+        {
+          "en": "18 years / বছৰ",
+          "as": "18 years / বছৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A is now 9 + 3 = 12; five years later A will be 17.",
+        "as": "A-ৰ বৰ্তমান বয়স 9 + 3 = 12; পাঁচ বছৰৰ পিছত 17 বছৰ হ’ব।"
+      }
+    },
+    {
+      "id": "mat06q09",
+      "en": "Two numbers total 48. One is twice the other. What is the smaller number?",
+      "as": "দুটা সংখ্যাৰ যোগফল 48। এটা আনটোৰ দুগুণ। সৰু সংখ্যাটো কিমান?",
+      "options": [
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Let the smaller number be x. Then x + 2x = 48, so x = 16.",
+        "as": "সৰু সংখ্যাটো x হ’লে x + 2x = 48; গতিকে x = 16।"
+      }
+    },
+    {
+      "id": "mat06q10",
+      "en": "A clock gains 5 minutes in one hour. If set correctly at 8:00 a.m., what will it show at the actual time 11:00 a.m.?",
+      "as": "এটা ঘড়ী প্ৰতি ঘণ্টাত 5 মিনিট আগবাঢ়ে। পুৱা 8:00 বজাত ঠিককৈ মিলালে প্ৰকৃত সময় পুৱা 11:00 বজাত ই কিমান দেখুৱাব?",
+      "options": [
+        {
+          "en": "11:10 a.m.",
+          "as": "11:10 a.m."
+        },
+        {
+          "en": "11:15 a.m.",
+          "as": "11:15 a.m."
+        },
+        {
+          "en": "10:45 a.m.",
+          "as": "10:45 a.m."
+        },
+        {
+          "en": "11:05 a.m.",
+          "as": "11:05 a.m."
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "In 3 actual hours it gains 3 × 5 = 15 minutes, so it shows 11:15 a.m.",
+        "as": "প্ৰকৃত 3 ঘণ্টাত ই 3 × 5 = 15 মিনিট আগবাঢ়ে; গতিকে 11:15 দেখুৱায়।"
+      }
+    }
+  ]
+}

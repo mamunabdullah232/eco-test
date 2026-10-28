@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-08",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 8",
+    "as": "টেষ্ট 8"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 8 · Sets and Logical Inference",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat08q01",
+      "en": "Which relationship correctly describes sparrows, birds and animals?",
+      "as": "ঘৰচিৰিকা, চৰাই আৰু প্ৰাণীৰ শুদ্ধ সম্পৰ্ক কোনটো?",
+      "options": [
+        {
+          "en": "All birds are sparrows",
+          "as": "সকলো চৰাই ঘৰচিৰিকা"
+        },
+        {
+          "en": "Sparrows are within birds, and birds are within animals",
+          "as": "ঘৰচিৰিকা চৰাইৰ অন্তৰ্গত আৰু চৰাই প্ৰাণীৰ অন্তৰ্গত"
+        },
+        {
+          "en": "All animals are sparrows",
+          "as": "সকলো প্ৰাণী ঘৰচিৰিকা"
+        },
+        {
+          "en": "Birds and animals are separate groups",
+          "as": "চৰাই আৰু প্ৰাণী পৃথক গোট"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Every sparrow is a bird and every bird is an animal; the reverse claims do not hold.",
+        "as": "প্ৰতিটো ঘৰচিৰিকা চৰাই আৰু প্ৰতিটো চৰাই প্ৰাণী; বিপৰীত দাবীবোৰ শুদ্ধ নহয়।"
+      }
+    },
+    {
+      "id": "mat08q02",
+      "en": "In a class, 18 students play chess, 15 play carrom and 7 play both. How many play at least one of the two games?",
+      "as": "এটা শ্ৰেণীত 18 জনে দবা, 15 জনে কেৰম আৰু 7 জনে দুয়োটা খেলে। অন্ততঃ এটা খেল খেলা শিক্ষাৰ্থী কিমান?",
+      "options": [
+        {
+          "en": "26",
+          "as": "26"
+        },
+        {
+          "en": "33",
+          "as": "33"
+        },
+        {
+          "en": "40",
+          "as": "40"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Use inclusion–exclusion: 18 + 15 − 7 = 26.",
+        "as": "উমৈহতীয়া 7 জনক এবাৰ বাদ দিয়া: 18 + 15 − 7 = 26।"
+      }
+    },
+    {
+      "id": "mat08q03",
+      "en": "Of 18 chess players, 7 also play carrom. How many play chess but not carrom?",
+      "as": "18 জন দবা খেলুৱৈৰ 7 জনে কেৰমো খেলে। দবা খেলে কিন্তু কেৰম নেখেলে কিমানজনে?",
+      "options": [
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "18",
+          "as": "18"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Chess only = 18 − 7 = 11.",
+        "as": "কেৱল দবা খেলা = 18 − 7 = 11 জন।"
+      }
+    },
+    {
+      "id": "mat08q04",
+      "en": "Of 40 students, 26 play at least one of chess or carrom. How many play neither?",
+      "as": "40 জন শিক্ষাৰ্থীৰ 26 জনে দবা বা কেৰমৰ অন্ততঃ এটা খেলে। এটাও নেখেলা শিক্ষাৰ্থী কিমান?",
+      "options": [
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "26",
+          "as": "26"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Neither = total − at least one = 40 − 26 = 14.",
+        "as": "এটাও নেখেলা = মুঠ − অন্ততঃ এটা খেলা = 40 − 26 = 14 জন।"
+      }
+    },
+    {
+      "id": "mat08q05",
+      "en": "All roses are flowers. All flowers are plants. Which conclusion must follow?",
+      "as": "সকলো গোলাপ ফুল। সকলো ফুল উদ্ভিদ। কোনটো সিদ্ধান্ত নিশ্চিতভাৱে শুদ্ধ?",
+      "options": [
+        {
+          "en": "No rose is a plant",
+          "as": "কোনো গোলাপ উদ্ভিদ নহয়"
+        },
+        {
+          "en": "All plants are roses",
+          "as": "সকলো উদ্ভিদ গোলাপ"
+        },
+        {
+          "en": "All flowers are roses",
+          "as": "সকলো ফুল গোলাপ"
+        },
+        {
+          "en": "All roses are plants",
+          "as": "সকলো গোলাপ উদ্ভিদ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Roses are within flowers, which are within plants; therefore all roses are plants.",
+        "as": "গোলাপ ফুলৰ অন্তৰ্গত আৰু ফুল উদ্ভিদৰ অন্তৰ্গত; গতিকে সকলো গোলাপ উদ্ভিদ।"
+      }
+    },
+    {
+      "id": "mat08q06",
+      "en": "No square is a circle. Every object in box A is a square. Which statement must be true?",
+      "as": "কোনো বৰ্গ বৃত্ত নহয়। A বাকচৰ প্ৰতিটো বস্তু বৰ্গ। কোনটো উক্তি নিশ্চিতভাৱে শুদ্ধ?",
+      "options": [
+        {
+          "en": "Every object in A is a circle",
+          "as": "A-ৰ প্ৰতিটো বস্তু বৃত্ত"
+        },
+        {
+          "en": "No object in A is a circle",
+          "as": "A-ৰ কোনো বস্তু বৃত্ত নহয়"
+        },
+        {
+          "en": "Some squares are circles",
+          "as": "কিছুমান বৰ্গ বৃত্ত"
+        },
+        {
+          "en": "All circles are in A",
+          "as": "সকলো বৃত্ত A-ত আছে"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Since every object in A is a square, none can be a circle.",
+        "as": "A-ৰ প্ৰতিটো বস্তু বৰ্গ হোৱা বাবে কোনোটোৱেই বৃত্ত হ’ব নোৱাৰে।"
+      }
+    },
+    {
+      "id": "mat08q07",
+      "en": "Some students are singers. All singers are performers. Which conclusion must follow?",
+      "as": "কিছুমান শিক্ষাৰ্থী গায়ক। সকলো গায়ক পৰিৱেশক। কোনটো সিদ্ধান্ত নিশ্চিতভাৱে শুদ্ধ?",
+      "options": [
+        {
+          "en": "No student is a performer",
+          "as": "কোনো শিক্ষাৰ্থী পৰিৱেশক নহয়"
+        },
+        {
+          "en": "Some students are performers",
+          "as": "কিছুমান শিক্ষাৰ্থী পৰিৱেশক"
+        },
+        {
+          "en": "All performers are students",
+          "as": "সকলো পৰিৱেশক শিক্ষাৰ্থী"
+        },
+        {
+          "en": "All students are performers",
+          "as": "সকলো শিক্ষাৰ্থী পৰিৱেশক"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The students who are singers must also be performers.",
+        "as": "যিসকল শিক্ষাৰ্থী গায়ক, তেওঁলোক পৰিৱেশকো হ’বই লাগিব।"
+      }
+    },
+    {
+      "id": "mat08q08",
+      "en": "All cats are mammals. Some mammals are swimmers. Based only on these statements, must any cats be swimmers?",
+      "as": "সকলো মেকুৰী স্তন্যপায়ী। কিছুমান স্তন্যপায়ী সাঁতোৰবিদ। কেৱল এই উক্তিৰ পৰা কিছুমান মেকুৰী সাঁতোৰবিদ বুলি নিশ্চিত হ’ব পাৰিনে?",
+      "options": [
+        {
+          "en": "No cat can swim",
+          "as": "কোনো মেকুৰীয়ে সাঁতুৰিব নোৱাৰে"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "Yes, all cats",
+          "as": "হয়, সকলো মেকুৰী"
+        },
+        {
+          "en": "Yes, some cats",
+          "as": "হয়, কিছুমান মেকুৰী"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The swimming mammals need not include cats. Neither a positive nor a negative conclusion about cats follows.",
+        "as": "সাঁতোৰবিদ স্তন্যপায়ীৰ গোটত মেকুৰী থকাটো বাধ্যতামূলক নহয়। মেকুৰীৰ বিষয়ে ইতিবাচক বা নেতিবাচক সিদ্ধান্ত এটাও নিশ্চিত নহয়।"
+      }
+    },
+    {
+      "id": "mat08q09",
+      "en": "There are 12 artists only, 9 players only, and 5 people who are both artists and players. How many artists are there altogether?",
+      "as": "কেৱল শিল্পী 12 জন, কেৱল খেলুৱৈ 9 জন আৰু শিল্পী তথা খেলুৱৈ দুয়োটা 5 জন। মুঠ শিল্পী কিমানজন?",
+      "options": [
+        {
+          "en": "26",
+          "as": "26"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        },
+        {
+          "en": "17",
+          "as": "17"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "All artists include artists only and both groups: 12 + 5 = 17.",
+        "as": "মুঠ শিল্পীত কেৱল শিল্পী আৰু দুয়োটা গোটৰ সদস্য থাকে: 12 + 5 = 17 জন।"
+      }
+    },
+    {
+      "id": "mat08q10",
+      "en": "Every member of club P belongs to school S. Rina belongs to club P. What must be true?",
+      "as": "P ক্লাবৰ প্ৰতিজন সদস্য S বিদ্যালয়ৰ। ৰীণা P ক্লাবৰ সদস্য। কোনটো নিশ্চিতভাৱে শুদ্ধ?",
+      "options": [
+        {
+          "en": "Rina belongs to school S",
+          "as": "ৰীণা S বিদ্যালয়ৰ"
+        },
+        {
+          "en": "Every student of S is in P",
+          "as": "S-ৰ প্ৰতিজন শিক্ষাৰ্থী P-ত আছে"
+        },
+        {
+          "en": "Rina is the only member of P",
+          "as": "ৰীণা P-ৰ একমাত্ৰ সদস্য"
+        },
+        {
+          "en": "P has more members than S has students",
+          "as": "S-ৰ শিক্ষাৰ্থীতকৈ P-ৰ সদস্য বেছি"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Club P is contained in school S, so its member Rina belongs to S.",
+        "as": "P ক্লাব S বিদ্যালয়ৰ অন্তৰ্গত; গতিকে P-ৰ সদস্য ৰীণা S বিদ্যালয়ৰ।"
+      }
+    }
+  ]
+}

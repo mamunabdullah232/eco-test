@@ -1,0 +1,312 @@
+{
+  "id": "nmms-mat-04",
+  "exam": "NMMS",
+  "paper": "MAT",
+  "className": {
+    "en": "NMMS 2026",
+    "as": "NMMS ২০২৬"
+  },
+  "subject": {
+    "en": "MAT",
+    "as": "MAT"
+  },
+  "section": {
+    "en": "Mental Ability Test",
+    "as": "মানসিক যোগ্যতা পৰীক্ষা"
+  },
+  "chapter": {
+    "en": "MAT Practice Tests",
+    "as": "MAT অনুশীলনী টেষ্ট"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "টেষ্ট 4"
+  },
+  "displayTitle": "NMMS 2026 MAT · Test 4 · Ordering and Ranking",
+  "assameseOnly": false,
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "id": "mat04q01",
+      "en": "Rohan is 7th from the top and 26th from the bottom, with no tied ranks. How many students are there?",
+      "as": "সমান স্থান নথকা এখন তালিকাত ৰোহন ওপৰৰ পৰা 7ম আৰু তলৰ পৰা 26তম। মুঠ শিক্ষাৰ্থী কিমান?",
+      "options": [
+        {
+          "en": "34",
+          "as": "34"
+        },
+        {
+          "en": "31",
+          "as": "31"
+        },
+        {
+          "en": "32",
+          "as": "32"
+        },
+        {
+          "en": "33",
+          "as": "33"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Total = 7 + 26 − 1 = 32; Rohan must not be counted twice.",
+        "as": "মুঠ = 7 + 26 − 1 = 32; ৰোহনক দুবাৰ গণনা কৰা নহয়।"
+      }
+    },
+    {
+      "id": "mat04q02",
+      "en": "In a row of 40 students, Mira is 12th from the left. What is her position from the right?",
+      "as": "40 জন শিক্ষাৰ্থীৰ শাৰীত মীৰা বাওঁফালৰ পৰা 12তম। সোঁফালৰ পৰা তেওঁৰ স্থান কি?",
+      "options": [
+        {
+          "en": "27",
+          "as": "27"
+        },
+        {
+          "en": "28",
+          "as": "28"
+        },
+        {
+          "en": "29",
+          "as": "29"
+        },
+        {
+          "en": "30",
+          "as": "30"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Position from right = 40 − 12 + 1 = 29.",
+        "as": "সোঁফালৰ পৰা স্থান = 40 − 12 + 1 = 29।"
+      }
+    },
+    {
+      "id": "mat04q03",
+      "en": "A is 8th from the left and B is 15th from the left in the same row. How many people stand between them?",
+      "as": "একে শাৰীত A বাওঁফালৰ পৰা 8ম আৰু B বাওঁফালৰ পৰা 15তম। তেওঁলোকৰ মাজত কিমানজন আছে?",
+      "options": [
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "There are 15 − 8 − 1 = 6 people between them.",
+        "as": "মাজত 15 − 8 − 1 = 6 জন আছে।"
+      }
+    },
+    {
+      "id": "mat04q04",
+      "en": "P is taller than Q, and Q is taller than R. Who is shortest?",
+      "as": "P, Q-তকৈ ওখ আৰু Q, R-তকৈ ওখ। আটাইতকৈ চাপৰ কোন?",
+      "options": [
+        {
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "en": "Q",
+          "as": "Q"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The order is P > Q > R, so R is shortest.",
+        "as": "ক্ৰমটো P > Q > R; গতিকে R আটাইতকৈ চাপৰ।"
+      }
+    },
+    {
+      "id": "mat04q05",
+      "en": "For a patient visiting a doctor, choose the sensible order of these steps.",
+      "as": "চিকিৎসকৰ ওচৰলৈ যোৱা ৰোগীৰ বাবে এই ধাপবোৰৰ যুক্তিসংগত ক্ৰম বাছি উলিওৱা।",
+      "options": [
+        {
+          "en": "Treatment → Recovery → Consultation → Illness → Doctor visit",
+          "as": "চিকিৎসা → আৰোগ্য → পৰামৰ্শ → অসুস্থতা → চিকিৎসকৰ ওচৰলৈ যোৱা"
+        },
+        {
+          "en": "Illness → Doctor visit → Consultation → Treatment → Recovery",
+          "as": "অসুস্থতা → চিকিৎসকৰ ওচৰলৈ যোৱা → পৰামৰ্শ → চিকিৎসা → আৰোগ্য"
+        },
+        {
+          "en": "Recovery → Illness → Treatment → Consultation → Doctor visit",
+          "as": "আৰোগ্য → অসুস্থতা → চিকিৎসা → পৰামৰ্শ → চিকিৎসকৰ ওচৰলৈ যোৱা"
+        },
+        {
+          "en": "Consultation → Recovery → Illness → Treatment → Doctor visit",
+          "as": "পৰামৰ্শ → আৰোগ্য → অসুস্থতা → চিকিৎসা → চিকিৎসকৰ ওচৰলৈ যোৱা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Illness prompts a doctor visit, followed by consultation, treatment and recovery.",
+        "as": "অসুস্থ হ’লে চিকিৎসকৰ ওচৰলৈ যোৱা হয়; তাৰ পিছত পৰামৰ্শ, চিকিৎসা আৰু আৰোগ্য।"
+      }
+    },
+    {
+      "id": "mat04q06",
+      "en": "Arrange from smallest unit to largest: metre, millimetre, kilometre, centimetre.",
+      "as": "সৰুৰ পৰা ডাঙৰ এককলৈ সজোৱা: মিটাৰ, মিলিমিটাৰ, কিলোমিটাৰ, চেণ্টিমিটাৰ।",
+      "options": [
+        {
+          "en": "mm → cm → m → km",
+          "as": "mm → cm → m → km"
+        },
+        {
+          "en": "cm → mm → km → m",
+          "as": "cm → mm → km → m"
+        },
+        {
+          "en": "km → m → cm → mm",
+          "as": "km → m → cm → mm"
+        },
+        {
+          "en": "m → cm → mm → km",
+          "as": "m → cm → mm → km"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "10 mm = 1 cm, 100 cm = 1 m and 1000 m = 1 km.",
+        "as": "10 mm = 1 cm, 100 cm = 1 m আৰু 1000 m = 1 km।"
+      }
+    },
+    {
+      "id": "mat04q07",
+      "en": "Which order correctly describes the growth of a flowering plant?",
+      "as": "ফুলধৰা উদ্ভিদৰ বৃদ্ধিৰ শুদ্ধ ক্ৰম কোনটো?",
+      "options": [
+        {
+          "en": "Seed → Seedling → Mature plant → Flower",
+          "as": "বীজ → পুলি → পূৰ্ণবয়স্ক উদ্ভিদ → ফুল"
+        },
+        {
+          "en": "Seedling → Flower → Seed → Mature plant",
+          "as": "পুলি → ফুল → বীজ → পূৰ্ণবয়স্ক উদ্ভিদ"
+        },
+        {
+          "en": "Mature plant → Seedling → Seed → Flower",
+          "as": "পূৰ্ণবয়স্ক উদ্ভিদ → পুলি → বীজ → ফুল"
+        },
+        {
+          "en": "Flower → Seed → Seedling → Mature plant",
+          "as": "ফুল → বীজ → পুলি → পূৰ্ণবয়স্ক উদ্ভিদ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A seed germinates into a seedling, grows into a mature plant and then produces flowers.",
+        "as": "বীজ অংকুৰিত হৈ পুলি হয়, পূৰ্ণবয়স্ক উদ্ভিদলৈ বাঢ়ে আৰু তাৰ পিছত ফুল ধৰে।"
+      }
+    },
+    {
+      "id": "mat04q08",
+      "en": "Of five runners with different finish positions, A finishes before B, B before C, C before D and D before E. Who finishes third?",
+      "as": "পাঁচজন দৌৰবিদৰ স্থান পৃথক। A-ৰ পিছত B, B-ৰ পিছত C, C-ৰ পিছত D আৰু D-ৰ পিছত E আহে। তৃতীয় কোন?",
+      "options": [
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        },
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The finishing order is A, B, C, D, E.",
+        "as": "সমাপ্তিৰ ক্ৰম A, B, C, D, E।"
+      }
+    },
+    {
+      "id": "mat04q09",
+      "en": "Rina is 9th from the front and 9th from the back of a queue. How many people are in it?",
+      "as": "এটা শাৰীত ৰীণা আগফালৰ পৰা 9ম আৰু পিছফালৰ পৰা 9ম। মুঠ মানুহ কিমান?",
+      "options": [
+        {
+          "en": "19",
+          "as": "19"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "17",
+          "as": "17"
+        },
+        {
+          "en": "18",
+          "as": "18"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Total = 9 + 9 − 1 = 17.",
+        "as": "মুঠ = 9 + 9 − 1 = 17।"
+      }
+    },
+    {
+      "id": "mat04q10",
+      "en": "Four books are stacked. Maths is above Science; Science is above English; English is above History. Which is second from the bottom?",
+      "as": "চাৰিখন কিতাপৰ স্তূপত গণিত বিজ্ঞানৰ ওপৰত, বিজ্ঞান ইংৰাজীৰ ওপৰত আৰু ইংৰাজী ইতিহাসৰ ওপৰত। তলৰ পৰা দ্বিতীয়খন কি?",
+      "options": [
+        {
+          "en": "Maths",
+          "as": "গণিত"
+        },
+        {
+          "en": "Science",
+          "as": "বিজ্ঞান"
+        },
+        {
+          "en": "English",
+          "as": "ইংৰাজী"
+        },
+        {
+          "en": "History",
+          "as": "ইতিহাস"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "From bottom to top: History, English, Science, Maths.",
+        "as": "তলৰ পৰা ওপৰলৈ: ইতিহাস, ইংৰাজী, বিজ্ঞান, গণিত।"
+      }
+    }
+  ]
+}
