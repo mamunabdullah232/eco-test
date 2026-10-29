@@ -84,6 +84,7 @@ function renderNMMS(segments){
 function renderNMMSInformation(){
  return `<section class="nmms-info" aria-labelledby="nmms-info-title">
  <h2 id="nmms-info-title" class="scope-title">NMMS Information <span lang="as">· NMMS তথ্য</span></h2>
+ <a class="nmms-ask" href="https://notebook.google.com/notebook/66cc749e-aa32-46ff-b661-01e1614e6d2f" target="_blank" rel="noopener noreferrer"><span>Ask anything related to NMMS</span><span aria-hidden="true">↗</span></a>
  <p class="scope-note">National Means-cum-Merit Scholarship Scheme (NMMSS) supports eligible students from Class IX to XII. The selection examination is taken in Class VIII. <span lang="as">অষ্টম শ্ৰেণীত বাছনি পৰীক্ষা দিয়া হয়; যোগ্য শিক্ষাৰ্থীয়ে নৱমৰ পৰা দ্বাদশ শ্ৰেণীলৈ জলপানি লাভ কৰিব পাৰে।</span></p>
  <section class="nmms-update" aria-labelledby="nmms-dates-title"><h3 id="nmms-dates-title">Assam NMMS 2026 · Important dates / <span lang="as">গুৰুত্বপূৰ্ণ তাৰিখ</span></h3>
  <dl><div><dt>Application deadline / <span lang="as">আবেদনৰ শেষ তাৰিখ</span></dt><dd><time datetime="2026-11-08">8 November 2026</time></dd></div><div><dt>Entrance examination / <span lang="as">বাছনি পৰীক্ষা</span></dt><dd><time datetime="2026-11-28">28 November 2026</time></dd></div></dl>
