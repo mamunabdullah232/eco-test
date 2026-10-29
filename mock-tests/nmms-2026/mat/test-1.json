@@ -15,14 +15,14 @@
     "as": "মানসিক যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "MAT Practice Tests",
-    "as": "MAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · MAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT"
   },
   "test": {
     "en": "Test 1",
     "as": "টেষ্ট 1"
   },
-  "displayTitle": "NMMS 2026 MAT · Test 1 · Classification and Analogies",
+  "displayTitle": "NMMS 2026 · 2024 MAT · Test 1",
   "assameseOnly": false,
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -308,5 +308,6 @@
         "as": "25 = 5², 36 = 6² আৰু 144 = 12²; 78 পূৰ্ণবৰ্গ নহয়।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

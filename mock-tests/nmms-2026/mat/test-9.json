@@ -15,14 +15,14 @@
     "as": "মানসিক যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "MAT Practice Tests",
-    "as": "MAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · MAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT"
   },
   "test": {
     "en": "Test 9",
     "as": "টেষ্ট 9"
   },
-  "displayTitle": "NMMS 2026 MAT · Test 9 · Mixed MAT Revision",
+  "displayTitle": "NMMS 2026 · 2024 MAT · Test 9",
   "assameseOnly": false,
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -308,5 +308,6 @@
         "as": "আটাইতকৈ প্ৰতিকূল অৱস্থাত প্ৰথম ছটা বল নীলা হ’ব পাৰে। সপ্তমটো ৰঙা হ’বই লাগিব।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

@@ -15,14 +15,14 @@
     "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "SAT Practice Tests",
-    "as": "SAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · SAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT"
   },
   "test": {
     "en": "Test 5",
     "as": "টেষ্ট ৫"
   },
-  "displayTitle": "NMMS 2026 SAT · Test 5",
+  "displayTitle": "NMMS 2026 · 2024 SAT · Test 5",
   "assameseOnly": true,
   "math": true,
   "durationMinutes": 10,
@@ -259,5 +259,6 @@
         "as": "Public Facility-এ সমাজৰ বহু লোকৰ মৌলিক প্ৰয়োজন পূৰণ কৰে। পানী যোগান তাৰ উদাহৰণ।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

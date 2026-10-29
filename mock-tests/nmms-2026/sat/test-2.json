@@ -15,14 +15,14 @@
     "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "SAT Practice Tests",
-    "as": "SAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · SAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT"
   },
   "test": {
     "en": "Test 2",
     "as": "টেষ্ট ২"
   },
-  "displayTitle": "NMMS 2026 SAT · Test 2",
+  "displayTitle": "NMMS 2026 · 2024 SAT · Test 2",
   "assameseOnly": true,
   "math": true,
   "durationMinutes": 10,
@@ -259,5 +259,6 @@
         "as": "এই নীতিয়ে ধন-সম্পত্তি, লিংগ বা শিক্ষাগত মৰ্যাদাৰ ভিত্তিত ভোটাধিকাৰত বৈষম্য নকৰে।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

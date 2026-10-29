@@ -15,14 +15,14 @@
     "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "SAT Practice Tests",
-    "as": "SAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · SAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT"
   },
   "test": {
     "en": "Test 7",
     "as": "টেষ্ট ৭"
   },
-  "displayTitle": "NMMS 2026 SAT · Test 7",
+  "displayTitle": "NMMS 2026 · 2024 SAT · Test 7",
   "assameseOnly": true,
   "math": true,
   "durationMinutes": 10,
@@ -259,5 +259,6 @@
         "as": "প্ৰান্তীয়কৰণত কিছুমান গোটে ক্ষমতা, সম্পদ, শিক্ষা আৰু অন্যান্য সুযোগ লাভত বাধাৰ সন্মুখীন হয়।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

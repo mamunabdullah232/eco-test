@@ -15,14 +15,14 @@
     "as": "মানসিক যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "MAT Practice Tests",
-    "as": "MAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · MAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT"
   },
   "test": {
     "en": "Test 5",
     "as": "টেষ্ট 5"
   },
-  "displayTitle": "NMMS 2026 MAT · Test 5 · Relationships and Directions",
+  "displayTitle": "NMMS 2026 · 2024 MAT · Test 5",
   "assameseOnly": false,
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -308,5 +308,6 @@
         "as": "উদ্যানৰ পৰা পুথিভঁৰাল আৰু তাৰ পৰা বিদ্যালয়লৈ দুয়োটা গতি উত্তৰমুখী।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

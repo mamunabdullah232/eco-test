@@ -197,7 +197,7 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 <script>
 const params = new URLSearchParams(location.search);
 const requestedReturn = params.get("return") || "home";
-const safeReturn = /^(home|youtube|nmms-2026(?:\/(?:mat|sat))?|seba-2027(?:\/(?:kids|class-(?:[1-9]|10)))?|ahsec-2027(?:\/class-1[12])?)$/.test(requestedReturn) ? requestedReturn : "home";
+const safeReturn = /^(home|youtube|nmms-2026(?:\/(?:mat|sat|information|materials|mock-tests(?:\/202[45](?:\/(?:mat|sat))?)?))?|seba-2027(?:\/(?:materials|kids|class-(?:[1-9]|10)|mock-tests(?:\/(?:kids|class-(?:[1-9]|10)))?))?|ahsec-2027(?:\/(?:materials|class-1[12]|mock-tests(?:\/class-1[12])?))?)$/.test(requestedReturn) ? requestedReturn : "home";
 const backURL = "index.html#" + safeReturn;
 document.querySelector(".brand").href = backURL;
 document.getElementById("backLink").href = backURL;

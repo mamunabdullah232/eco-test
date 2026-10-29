@@ -1586,8 +1586,8 @@
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 1",
     "title": "NMMS 2026 SAT · Test 1",
     "questions": 10,
@@ -1595,15 +1595,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-2.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 2",
     "title": "NMMS 2026 SAT · Test 2",
     "questions": 10,
@@ -1611,15 +1612,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-3.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 3",
     "title": "NMMS 2026 SAT · Test 3",
     "questions": 10,
@@ -1627,15 +1629,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-4.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 4",
     "title": "NMMS 2026 SAT · Test 4",
     "questions": 10,
@@ -1643,15 +1646,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-5.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 5",
     "title": "NMMS 2026 SAT · Test 5",
     "questions": 10,
@@ -1659,15 +1663,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-6.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 6",
     "title": "NMMS 2026 SAT · Test 6",
     "questions": 10,
@@ -1675,15 +1680,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-7.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 7",
     "title": "NMMS 2026 SAT · Test 7",
     "questions": 10,
@@ -1691,15 +1697,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-8.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 8",
     "title": "NMMS 2026 SAT · Test 8",
     "questions": 10,
@@ -1707,15 +1714,16 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/sat/test-9.json",
     "group": "NMMS 2026",
     "subject": "SAT",
     "section": "Scholastic Aptitude Test",
-    "chapter": "SAT Practice Tests",
-    "chapterAs": "SAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · SAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT",
     "test": "Test 9",
     "title": "NMMS 2026 SAT · Test 9",
     "questions": 10,
@@ -1723,7 +1731,8 @@
     "wrongMarks": 0,
     "assameseOnly": true,
     "exam": "NMMS",
-    "paper": "SAT"
+    "paper": "SAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/class-12/general-studies/test-1.json",
@@ -1758,8 +1767,8 @@
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 1",
     "title": "NMMS 2026 MAT · Test 1 · Classification and Analogies",
     "questions": 10,
@@ -1767,15 +1776,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-2.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 2",
     "title": "NMMS 2026 MAT · Test 2 · Number Series",
     "questions": 10,
@@ -1783,15 +1793,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-3.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 3",
     "title": "NMMS 2026 MAT · Test 3 · Alphabet and Coding",
     "questions": 10,
@@ -1799,15 +1810,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-4.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 4",
     "title": "NMMS 2026 MAT · Test 4 · Ordering and Ranking",
     "questions": 10,
@@ -1815,15 +1827,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-5.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 5",
     "title": "NMMS 2026 MAT · Test 5 · Relationships and Directions",
     "questions": 10,
@@ -1831,15 +1844,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-6.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 6",
     "title": "NMMS 2026 MAT · Test 6 · Mathematical Reasoning",
     "questions": 10,
@@ -1847,15 +1861,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-7.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 7",
     "title": "NMMS 2026 MAT · Test 7 · Shapes and Spatial Reasoning",
     "questions": 10,
@@ -1863,15 +1878,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-8.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 8",
     "title": "NMMS 2026 MAT · Test 8 · Sets and Logical Inference",
     "questions": 10,
@@ -1879,15 +1895,16 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   },
   {
     "file": "mock-tests/nmms-2026/mat/test-9.json",
     "group": "NMMS 2026",
     "subject": "MAT",
     "section": "Mental Ability Test",
-    "chapter": "MAT Practice Tests",
-    "chapterAs": "MAT অনুশীলনী টেষ্ট",
+    "chapter": "2024 Question Paper · MAT",
+    "chapterAs": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT",
     "test": "Test 9",
     "title": "NMMS 2026 MAT · Test 9 · Mixed MAT Revision",
     "questions": 10,
@@ -1895,6 +1912,7 @@
     "wrongMarks": 0,
     "assameseOnly": false,
     "exam": "NMMS",
-    "paper": "MAT"
+    "paper": "MAT",
+    "paperYear": 2024
   }
 ]

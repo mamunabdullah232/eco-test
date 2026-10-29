@@ -15,14 +15,14 @@
     "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "SAT Practice Tests",
-    "as": "SAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · SAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT"
   },
   "test": {
     "en": "Test 3",
     "as": "টেষ্ট ৩"
   },
-  "displayTitle": "NMMS 2026 SAT · Test 3",
+  "displayTitle": "NMMS 2026 · 2024 SAT · Test 3",
   "assameseOnly": true,
   "math": true,
   "durationMinutes": 10,
@@ -259,5 +259,6 @@
         "as": "Equality before Law অনুসৰি সকলো ব্যক্তি আইনৰ অধীন আৰু সমান আইনী সুৰক্ষাৰ দাবীদাৰ।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

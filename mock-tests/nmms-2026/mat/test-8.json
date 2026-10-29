@@ -15,14 +15,14 @@
     "as": "মানসিক যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "MAT Practice Tests",
-    "as": "MAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · MAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT"
   },
   "test": {
     "en": "Test 8",
     "as": "টেষ্ট 8"
   },
-  "displayTitle": "NMMS 2026 MAT · Test 8 · Sets and Logical Inference",
+  "displayTitle": "NMMS 2026 · 2024 MAT · Test 8",
   "assameseOnly": false,
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -308,5 +308,6 @@
         "as": "P ক্লাব S বিদ্যালয়ৰ অন্তৰ্গত; গতিকে P-ৰ সদস্য ৰীণা S বিদ্যালয়ৰ।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

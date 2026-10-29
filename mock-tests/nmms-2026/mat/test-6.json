@@ -15,14 +15,14 @@
     "as": "মানসিক যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "MAT Practice Tests",
-    "as": "MAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · MAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · MAT"
   },
   "test": {
     "en": "Test 6",
     "as": "টেষ্ট 6"
   },
-  "displayTitle": "NMMS 2026 MAT · Test 6 · Mathematical Reasoning",
+  "displayTitle": "NMMS 2026 · 2024 MAT · Test 6",
   "assameseOnly": false,
   "durationMinutes": 10,
   "correctMarks": 1,
@@ -308,5 +308,6 @@
         "as": "প্ৰকৃত 3 ঘণ্টাত ই 3 × 5 = 15 মিনিট আগবাঢ়ে; গতিকে 11:15 দেখুৱায়।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }

@@ -15,14 +15,14 @@
     "as": "শিক্ষাগত যোগ্যতা পৰীক্ষা"
   },
   "chapter": {
-    "en": "SAT Practice Tests",
-    "as": "SAT অনুশীলনী টেষ্ট"
+    "en": "2024 Question Paper · SAT",
+    "as": "২০২৪ চনৰ প্ৰশ্নকাকত · SAT"
   },
   "test": {
     "en": "Test 9",
     "as": "টেষ্ট ৯"
   },
-  "displayTitle": "NMMS 2026 SAT · Test 9",
+  "displayTitle": "NMMS 2026 · 2024 SAT · Test 9",
   "assameseOnly": true,
   "math": true,
   "durationMinutes": 10,
@@ -259,5 +259,6 @@
         "as": "স্বাধীন সংবাদ মাধ্যমে জনস্বাৰ্থৰ তথ্য প্ৰকাশ আৰু ক্ষমতাৰ সমালোচনামূলক পৰ্যালোচনাৰ মাধ্যমে জবাবদিহিতা বৃদ্ধি কৰে।"
       }
     }
-  ]
+  ],
+  "paperYear": 2024
 }
