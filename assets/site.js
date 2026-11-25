@@ -67,10 +67,19 @@ function renderNMMS(segments){
  if(view==='information'){$('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Information'}])+heading('NMMS Information')+renderNMMSInformation();return;}
  if(view==='materials'){$('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Study materials'}])+heading('NMMS · Study Materials')+resourceLinks(['nmms','textbooks']);return;}
  if(view!=='mock-tests'){
-  $('pageContent').innerHTML=breadcrumbs(crumbs)+heading(title,'Exam soon')+infoPanel('Information','National Means-cum-Merit Scholarship examination. MAT: Mental Ability Test. SAT: Scholastic Aptitude Test — Mathematics, Science and Social Science.')+menuCards([{title:'NMMS Information',detail:'Dates, eligibility and exam pattern',route:base+'/information'},{title:'Mock Tests',detail:'Question-paper practice by year',route:base+'/mock-tests'},{title:'Study Materials',detail:'Textbooks and official information',route:base+'/materials'}]);return;
+  $('pageContent').innerHTML=breadcrumbs(crumbs)+heading(title,'Exam soon')+infoPanel('Information','National Means-cum-Merit Scholarship examination. MAT: Mental Ability Test. SAT: Scholastic Aptitude Test — Mathematics, Science and Social Science.')+menuCards([{title:'NMMS Information',detail:'Dates, eligibility and exam pattern',route:base+'/information'},{title:'Mock Tests',detail:'Previous papers and lesson-wise practice',route:base+'/mock-tests'},{title:'Study Materials',detail:'Textbooks and official information',route:base+'/materials'}]);return;
+ }
+ if(year==='social-science'){
+  const tests=catalog.filter(test=>test.collection==='nmms-sat-social-science');
+  $('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Mock Tests',route:base+'/mock-tests'},{title:'SAT Social Science'}])
+   +heading('SAT Social Science · History and Political Science')
+   +'<p class="scope-note" lang="as">সমাজ বিজ্ঞান · ইতিহাস আৰু ৰাজনীতি বিজ্ঞান</p>'
+   +renderLibrary(tests);
+  bindLibrary();
+  return;
  }
  if(!['2024','2025'].includes(year)){
-  $('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Mock Tests'}])+heading('NMMS · Mock Tests')+menuCards([{title:'2024 Question Paper',detail:'MAT · SAT',route:base+'/mock-tests/2024'},{title:'2025 Question Paper',detail:'Coming soon',route:base+'/mock-tests/2025'}]);return;
+  $('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Mock Tests'}])+heading('NMMS · Mock Tests')+menuCards([{title:'SAT Social Science (History and Political Science)',detail:'অসমীয়া আৰু English · Lesson tests and mixed revision',route:base+'/mock-tests/social-science'},{title:'2024 Question Paper',detail:'MAT · SAT',route:base+'/mock-tests/2024'},{title:'2025 Question Paper',detail:'Coming soon',route:base+'/mock-tests/2025'}]);return;
  }
  const yearRoute=base+'/mock-tests/'+year;
  const trail=[...crumbs,{title:'Mock Tests',route:base+'/mock-tests'},{title:year+' Question Paper',route:paper?yearRoute:null}];

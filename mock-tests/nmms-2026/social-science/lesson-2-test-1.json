@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-2-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 2 · Medieval Assam",
+    "as": "পাঠ ২ · মধ্যযুগৰ অসম"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which two events frame the medieval period of Assam as defined in the lesson?",
+      "as": "পাঠটোত কোন দুটা ঘটনাক অসমৰ মধ্যযুগৰ আৰম্ভণি আৰু শেষৰ সীমা হিচাপে ধৰা হৈছে?",
+      "options": [
+        {
+          "en": "Sukapha’s arrival and the Battle of Saraighat",
+          "as": "চুকাফাৰ আগমন আৰু শৰাইঘাটৰ যুদ্ধ"
+        },
+        {
+          "en": "The founding of Charaideo and Mir Jumla’s invasion",
+          "as": "চৰাইদেউত ৰাজধানী স্থাপন আৰু মিৰজুমলাৰ আক্ৰমণ"
+        },
+        {
+          "en": "The invasion of Husain Shah and the Treaty of Yandabo",
+          "as": "হুছেইন শ্বাহৰ আক্ৰমণ আৰু ইয়াণ্ডাবু সন্ধি"
+        },
+        {
+          "en": "Sukapha’s arrival and the Treaty of Yandabo",
+          "as": "চুকাফাৰ আগমন আৰু ইয়াণ্ডাবু সন্ধি"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The lesson uses the Ahoms’ arrival in 1228 and the treaty of 1826 as its endpoints.",
+        "as": "পাঠটোত ১২২৮ খ্ৰীষ্টাব্দত আহোমসকলৰ আগমনৰ পৰা ১৮২৬ খ্ৰীষ্টাব্দৰ সন্ধিলৈকে মধ্যযুগ ধৰা হৈছে।"
+      },
+      "id": "lesson-2-test-1-q1"
+    },
+    {
+      "en": "Which mountain range should be marked on a map of Sukapha’s journey into Assam?",
+      "as": "চুকাফাই অসমলৈ অহা পথৰ মানচিত্ৰত কোনটো পৰ্বতমালা চিহ্নিত কৰিব লাগিব?",
+      "options": [
+        {
+          "en": "Khasi Hills",
+          "as": "খাচী পাহাৰ"
+        },
+        {
+          "en": "Patkai",
+          "as": "পাটকাই"
+        },
+        {
+          "en": "Garo Hills",
+          "as": "গাৰো পাহাৰ"
+        },
+        {
+          "en": "Eastern Ghats",
+          "as": "পূবঘাট"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Sukapha and his followers crossed the Patkai on their way into the Brahmaputra valley.",
+        "as": "চুকাফা আৰু তেওঁৰ সংগীসকলে পাটকাই পাৰ হৈ ব্ৰহ্মপুত্ৰ উপত্যকাত সোমাইছিল।"
+      },
+      "id": "lesson-2-test-1-q2"
+    },
+    {
+      "en": "An exhibit pairs Sukapha with his first permanent capital. Which place belongs beside his name?",
+      "as": "এখন প্ৰদৰ্শনীত চুকাফাৰ নামৰ কাষত তেওঁৰ প্ৰথম স্থায়ী ৰাজধানীৰ নাম লিখিব লাগে। কোনখন ঠাইৰ নাম লিখা উচিত?",
+      "options": [
+        {
+          "en": "Charaideo",
+          "as": "চৰাইদেউ"
+        },
+        {
+          "en": "Garhgaon",
+          "as": "গড়গাঁও"
+        },
+        {
+          "en": "Rangpur",
+          "as": "ৰংপুৰ"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Sukapha settled his capital at Charaideo. The other places became Ahom capitals later.",
+        "as": "চুকাফাই চৰাইদেউত ৰাজধানী পাতিছিল। আনকেইখন ঠাই পিছৰ কালত আহোমৰ ৰাজধানী হৈছিল।"
+      },
+      "id": "lesson-2-test-1-q3"
+    },
+    {
+      "en": "Which two offices would belong in a diagram of Sukapha’s council?",
+      "as": "চুকাফাৰ মন্ত্ৰীসভাৰ এখন তালিকাত কোন দুটা পদ একেলগে থাকিব?",
+      "options": [
+        {
+          "en": "Borgohain and Borpatrogohain",
+          "as": "বৰগোহাঁই আৰু বৰপাত্ৰগোহাঁই"
+        },
+        {
+          "en": "Borbarua and Borphukan",
+          "as": "বৰবৰুৱা আৰু বৰফুকন"
+        },
+        {
+          "en": "Burhagohain and Borgohain",
+          "as": "বুঢ়াগোহাঁই আৰু বৰগোহাঁই"
+        },
+        {
+          "en": "Burhagohain and Borbarua",
+          "as": "বুঢ়াগোহাঁই আৰু বৰবৰুৱা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Burhagohain and Borgohain were the two ministers associated with Sukapha from his arrival.",
+        "as": "চুকাফা অসমলৈ আহোঁতেই তেওঁৰ লগত বুঢ়াগোহাঁই আৰু বৰগোহাঁই নামৰ দুজন মন্ত্ৰী আছিল।"
+      },
+      "id": "lesson-2-test-1-q4"
+    },
+    {
+      "en": "A map shows an arrow for Sandhya’s transfer of his capital. Which direction should the arrow indicate?",
+      "as": "সন্ধ্যাই ৰাজধানী স্থানান্তৰ কৰা দেখুৱাবলৈ মানচিত্ৰত কাঁড়চিহ্ন কেনেদৰে আঁকিব লাগিব?",
+      "options": [
+        {
+          "en": "Kamatapur to North Guwahati",
+          "as": "কমতাপুৰৰ পৰা উত্তৰ গুৱাহাটীলৈ"
+        },
+        {
+          "en": "North Guwahati to Kamatapur",
+          "as": "উত্তৰ গুৱাহাটীৰ পৰা কমতাপুৰলৈ"
+        },
+        {
+          "en": "Charaideo to Kamatapur",
+          "as": "চৰাইদেউৰ পৰা কমতাপুৰলৈ"
+        },
+        {
+          "en": "North Guwahati to Sadiya",
+          "as": "উত্তৰ গুৱাহাটীৰ পৰা শদিয়ালৈ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Sandhya shifted the seat of government from North Guwahati to Kamatapur.",
+        "as": "সন্ধ্যাই শাসনকেন্দ্ৰ উত্তৰ গুৱাহাটীৰ পৰা কমতাপুৰলৈ নিছিল।"
+      },
+      "id": "lesson-2-test-1-q5"
+    },
+    {
+      "en": "A record calls a local chief a Bhuyan. Which meaning of the title helps explain his position?",
+      "as": "এখন নথিত এজন স্থানীয় মুখিয়ালক ‘ভূঞা’ বোলা হৈছে। শব্দটোৰ কোনটো অৰ্থই তেওঁৰ মৰ্যাদা বুজায়?",
+      "options": [
+        {
+          "en": "Court chronicler",
+          "as": "ৰাজসভাৰ বুৰঞ্জী লেখক"
+        },
+        {
+          "en": "Commander of boats",
+          "as": "নাওবাহিনীৰ অধিনায়ক"
+        },
+        {
+          "en": "Keeper of the treasury",
+          "as": "ৰাজভঁৰালৰ দায়িত্বত থকা বিষয়া"
+        },
+        {
+          "en": "Landholder",
+          "as": "মাটিৰ গৰাকী"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The term Bhuyan denotes a landholder and helps explain the chiefs’ local influence.",
+        "as": "‘ভূঞা’ৰ অৰ্থ মাটিৰ গৰাকী। ভূমিৰ ওপৰত থকা অধিকাৰে স্থানীয় পৰ্যায়ত তেওঁলোকৰ প্ৰভাৱ বুজায়।"
+      },
+      "id": "lesson-2-test-1-q6"
+    },
+    {
+      "en": "Which pair links a Chutiya ruler with his other name?",
+      "as": "কোনটো যোৰত এজন চুতীয়া ৰজাৰ দুটা নাম দিয়া আছে?",
+      "options": [
+        {
+          "en": "Naranarayan and Shukladhwaj",
+          "as": "নৰনাৰায়ণ আৰু শুক্লধ্বজ"
+        },
+        {
+          "en": "Suhungmung and Sukapha",
+          "as": "চুহুংমুং আৰু চুকাফা"
+        },
+        {
+          "en": "Ratnadhwaj Pal and Gaurinarayan",
+          "as": "ৰত্নধ্বজ পাল আৰু গৌৰীনাৰায়ণ"
+        },
+        {
+          "en": "Gadadhar Singha and Rudra Singha",
+          "as": "গদাধৰ সিংহ আৰু ৰুদ্ৰ সিংহ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Ratnadhwaj Pal, also called Gaurinarayan, was a powerful Chutiya ruler.",
+        "as": "চুতীয়া ৰাজ্যৰ শক্তিশালী ৰজা ৰত্নধ্বজ পাল গৌৰীনাৰায়ণ নামেৰেও পৰিচিত আছিল।"
+      },
+      "id": "lesson-2-test-1-q7"
+    },
+    {
+      "en": "Which event belongs between Husain Shah’s attack on Kamata and the Battle of Saraighat?",
+      "as": "হুছেইন শ্বাহৰ কমতা আক্ৰমণ আৰু শৰাইঘাটৰ যুদ্ধৰ মাজৰ সময়ছোৱাত কোনটো ঘটনা ঘটিছিল?",
+      "options": [
+        {
+          "en": "The Koch campaign against the Ahoms under Naranarayan",
+          "as": "নৰনাৰায়ণৰ দিনত আহোম ৰাজ্যলৈ কোচৰ অভিযান"
+        },
+        {
+          "en": "Sukapha’s crossing of the Patkai",
+          "as": "চুকাফাৰ পাটকাই পাৰ হৈ আগমন"
+        },
+        {
+          "en": "The signing of the Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধি স্বাক্ষৰ"
+        },
+        {
+          "en": "Gadadhar Singha’s accession",
+          "as": "গদাধৰ সিংহৰ সিংহাসন আৰোহণ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The Koch campaign took place in the sixteenth century, after the 1498 attack and before Saraighat in 1671.",
+        "as": "কোচৰ অভিযান ষোড়শ শতিকাত হৈছিল। ই ১৪৯৮ চনৰ আক্ৰমণৰ পিছৰ আৰু ১৬৭১ চনৰ শৰাইঘাটৰ যুদ্ধৰ আগৰ ঘটনা।"
+      },
+      "id": "lesson-2-test-1-q8"
+    },
+    {
+      "en": "A historian finds the names Dihingia Raja and Swarganarayan in two accounts. Which ruler do both names indicate?",
+      "as": "দুটা বিৱৰণত এজন ইতিহাসবিদে ‘দিহিঙীয়া ৰজা’ আৰু ‘স্বৰ্গনাৰায়ণ’ নাম দুটা পালে। দুয়োটা নামে কোনজনক বুজায়?",
+      "options": [
+        {
+          "en": "Sudangpha",
+          "as": "চুদাংফা"
+        },
+        {
+          "en": "Suhungmung",
+          "as": "চুহুংমুং"
+        },
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        },
+        {
+          "en": "Gadadhar Singha",
+          "as": "গদাধৰ সিংহ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Suhungmung was called Dihingia Raja and assumed the Hindu name Swarganarayan.",
+        "as": "চুহুংমুং দিহিঙীয়া ৰজা নামেৰে জনাজাত আছিল। তেওঁ স্বৰ্গনাৰায়ণ নামো গ্ৰহণ কৰিছিল।"
+      },
+      "id": "lesson-2-test-1-q9"
+    },
+    {
+      "en": "Which historical episode would illustrate Mula Gabharu’s participation in warfare?",
+      "as": "মূলাগাভৰুৰ যুদ্ধত অংশগ্ৰহণ দেখুৱাবলৈ কোনটো ঘটনা বাছি ল’ব লাগে?",
+      "options": [
+        {
+          "en": "Resistance to Mir Jumla",
+          "as": "মিৰজুমলাৰ বিৰুদ্ধে প্ৰতিৰোধ"
+        },
+        {
+          "en": "The Battle of Saraighat",
+          "as": "শৰাইঘাটৰ যুদ্ধ"
+        },
+        {
+          "en": "Resistance to Turbak",
+          "as": "তুৰ্বকৰ বিৰুদ্ধে প্ৰতিৰোধ"
+        },
+        {
+          "en": "The Koch capture of Garhgaon",
+          "as": "কোচসকলৰ গড়গাঁও দখল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Mula Gabharu fought against Turbak after her husband Frasengmung Borgohain died in the conflict.",
+        "as": "তুৰ্বকৰ সৈতে হোৱা যুদ্ধত স্বামী ফ্ৰাচেংমুং বৰগোহাঁইৰ মৃত্যুৰ পিছত মূলাগাভৰুৱেও যুদ্ধত নামিছিল।"
+      },
+      "id": "lesson-2-test-1-q10"
+    }
+  ]
+}

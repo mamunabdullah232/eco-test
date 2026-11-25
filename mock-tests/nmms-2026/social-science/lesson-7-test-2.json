@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-7-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 7 · The East India Company and its Reforms in India",
+    "as": "পাঠ ৭ · ইষ্ট ইণ্ডিয়া কোম্পানী আৰু ভাৰতত ইয়াৰ সংস্কাৰসমূহ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "An estate fails to pay the fixed revenue by the deadline. Which outcome made this a serious risk for a zamindar?",
+      "as": "নিৰ্ধাৰিত সময়ত জমিদাৰ এখনে ৰাজহ দিব নোৱাৰিলে। কোনটো সম্ভাৱনাই তেওঁৰ বাবে এই বিফলতাক বিশেষ বিপজ্জনক কৰি তুলিছিল?",
+      "options": [
+        {
+          "en": "The tenants automatically became clerks",
+          "as": "ৰায়তসকলে নিজে নিজে কেৰাণীৰ পদ পাইছিল"
+        },
+        {
+          "en": "The assessment became a voluntary payment",
+          "as": "নিৰ্ধাৰিত ৰাজহ ঐচ্ছিক বৰঙনিলৈ সলনি হৈছিল"
+        },
+        {
+          "en": "The deadline passed to the village school",
+          "as": "সময়সীমা মানি চলাৰ দায়িত্ব গাঁৱৰ বিদ্যালয়ে লৈছিল"
+        },
+        {
+          "en": "The estate could be auctioned",
+          "as": "জমিদাৰীখন নিলাম হ’ব পাৰিছিল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Under the Permanent Settlement, arrears could lead to the sale of a zamindar’s estate.",
+        "as": "চিৰস্থায়ী বন্দোবস্তত ৰাজহ বাকী থাকিলে জমিদাৰীখন নিলাম হ’ব পাৰিছিল।"
+      },
+      "id": "lesson-7-test-2-q1"
+    },
+    {
+      "en": "A historian compares a land patta with a postal stamp. Which question can the patta answer more directly?",
+      "as": "এজন ইতিহাসবিদে মাটিৰ পট্টা আৰু ডাকটিকট এখন তুলনা কৰিছে। কোনটো প্ৰশ্নৰ উত্তৰ পট্টাখনৰ পৰা অধিক পোনপটীয়াকৈ পোৱা যাব?",
+      "options": [
+        {
+          "en": "How much did it cost to send a letter?",
+          "as": "চিঠি পঠিয়াবলৈ কিমান মাচুল লাগিছিল?"
+        },
+        {
+          "en": "When was a letter posted?",
+          "as": "চিঠিখন কেতিয়া ডাকত দিয়া হৈছিল?"
+        },
+        {
+          "en": "Whose holding was officially recorded?",
+          "as": "কাৰ নামত মাটিখিনি নথিভুক্ত হৈছিল?"
+        },
+        {
+          "en": "Which route did the mail take?",
+          "as": "ডাক কোনটো পথেৰে গৈছিল?"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A patta records a landholding and the holder’s recognised claim to it.",
+        "as": "পট্টাত মাটিৰ বিৱৰণ আৰু সেই মাটিৰ ওপৰত পট্টাদাৰৰ স্বীকৃত অধিকাৰ লিপিবদ্ধ থাকে।"
+      },
+      "id": "lesson-7-test-2-q2"
+    },
+    {
+      "en": "Which government proposal best reflects Wood’s Despatch?",
+      "as": "উডৰ শিক্ষা-বিষয়ক প্ৰেৰণপত্ৰৰ সৈতে কোনটো চৰকাৰী প্ৰস্তাৱৰ আটাইতকৈ বেছি মিল আছে?",
+      "options": [
+        {
+          "en": "Build a system linking primary schools, colleges and universities",
+          "as": "প্ৰাথমিক বিদ্যালয়ৰ পৰা মহাবিদ্যালয় আৰু বিশ্ববিদ্যালয়লৈকে শিক্ষাৰ ব্যৱস্থা গঢ়া"
+        },
+        {
+          "en": "Limit public teaching to a single madrasa",
+          "as": "চৰকাৰী শিক্ষাৰ ব্যৱস্থা এখন মাদ্ৰাছাতে সীমিত ৰখা"
+        },
+        {
+          "en": "Reserve education funds for military training alone",
+          "as": "শিক্ষাৰ ধন কেৱল সামৰিক প্ৰশিক্ষণত ব্যয় কৰা"
+        },
+        {
+          "en": "Make landlords solely responsible for higher education",
+          "as": "উচ্চশিক্ষাৰ সমগ্ৰ দায়িত্ব জমিদাৰক দিয়া"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The 1854 Despatch proposed coordinated provision for several levels of education.",
+        "as": "১৮৫৪ চনৰ প্ৰেৰণপত্ৰত শিক্ষাৰ বিভিন্ন স্তৰৰ বাবে সুসংগঠিত ব্যৱস্থাৰ প্ৰস্তাৱ দিয়া হৈছিল।"
+      },
+      "id": "lesson-7-test-2-q3"
+    },
+    {
+      "en": "Whose ideas should a student examine to connect Satyarth Prakash with the Arya Samaj?",
+      "as": "‘সত্যাৰ্থ প্ৰকাশ’ৰ সৈতে আৰ্য সমাজৰ সম্পৰ্ক বুজিবলৈ কাৰ চিন্তাধাৰা অধ্যয়ন কৰা উচিত?",
+      "options": [
+        {
+          "en": "Mahadev Govind Ranade",
+          "as": "মহাদেৱ গোবিন্দ ৰাণাডে"
+        },
+        {
+          "en": "Swami Vivekananda",
+          "as": "স্বামী বিবেকানন্দ"
+        },
+        {
+          "en": "Raja Rammohan Roy",
+          "as": "ৰাজা ৰামমোহন ৰায়"
+        },
+        {
+          "en": "Dayananda Saraswati",
+          "as": "দয়ানন্দ সৰস্বতী"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Dayananda wrote Satyarth Prakash and founded the Arya Samaj.",
+        "as": "দয়ানন্দই ‘সত্যাৰ্থ প্ৰকাশ’ ৰচনা কৰিছিল আৰু আৰ্য সমাজ প্ৰতিষ্ঠা কৰিছিল।"
+      },
+      "id": "lesson-7-test-2-q4"
+    },
+    {
+      "en": "Which pair represents a teacher’s influence followed by his disciple’s institutional work?",
+      "as": "কোনটো যোৰে প্ৰথমে এজন গুৰু আৰু তাৰ পাছত তেওঁৰ শিষ্যই গঢ়া অনুষ্ঠানটোক বুজায়?",
+      "options": [
+        {
+          "en": "Dayananda Saraswati and the Brahmo Samaj",
+          "as": "দয়ানন্দ সৰস্বতী আৰু ব্ৰাহ্ম সমাজ"
+        },
+        {
+          "en": "Raja Rammohan Roy and the Arya Samaj",
+          "as": "ৰাজা ৰামমোহন ৰায় আৰু আৰ্য সমাজ"
+        },
+        {
+          "en": "Ramakrishna Paramahamsa and the Ramakrishna Mission",
+          "as": "ৰামকৃষ্ণ পৰমহংস আৰু ৰামকৃষ্ণ মিছন"
+        },
+        {
+          "en": "Sir Syed Ahmad Khan and the Prarthana Samaj",
+          "as": "ছাৰ ছৈয়দ আহমদ খান আৰু প্ৰাৰ্থনা সমাজ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Vivekananda founded the Mission in 1897 to carry forward his teacher Ramakrishna’s ideals.",
+        "as": "গুৰু ৰামকৃষ্ণৰ আদৰ্শ আগবঢ়াই নিবলৈ বিবেকানন্দই ১৮৯৭ চনত মিছন প্ৰতিষ্ঠা কৰিছিল।"
+      },
+      "id": "lesson-7-test-2-q5"
+    },
+    {
+      "en": "A display on western India pairs social reform with Mahadev Govind Ranade. Which organisation belongs on its label?",
+      "as": "পশ্চিম ভাৰতৰ সমাজ সংস্কাৰৰ এখন প্ৰদৰ্শনীত মহাদেৱ গোবিন্দ ৰাণাডেৰ নাম আছে। তেওঁৰ সৈতে কোনটো সংগঠনৰ নাম দিব লাগে?",
+      "options": [
+        {
+          "en": "Aligarh Movement",
+          "as": "আলিগড় আন্দোলন"
+        },
+        {
+          "en": "Prarthana Samaj",
+          "as": "প্ৰাৰ্থনা সমাজ"
+        },
+        {
+          "en": "Ramakrishna Mission",
+          "as": "ৰামকৃষ্ণ মিছন"
+        },
+        {
+          "en": "Brahmo Samaj of Bengal",
+          "as": "বংগৰ ব্ৰাহ্ম সমাজ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Ranade was a leading figure in the Prarthana Samaj and supported social reform in western India.",
+        "as": "ৰাণাডে প্ৰাৰ্থনা সমাজৰ এজন আগশাৰীৰ ব্যক্তি আছিল আৰু পশ্চিম ভাৰতত সমাজ সংস্কাৰৰ পক্ষে কাম কৰিছিল।"
+      },
+      "id": "lesson-7-test-2-q6"
+    },
+    {
+      "en": "Which change would an Arya Samaj reformer have supported when advising a village assembly?",
+      "as": "গাঁৱৰ এখন সভাত পৰামৰ্শ দিওঁতে আৰ্য সমাজৰ এজন সংস্কাৰকে কোনটো পৰিৱৰ্তন সমৰ্থন কৰিলেহেঁতেন?",
+      "options": [
+        {
+          "en": "Lowering the age of marriage",
+          "as": "বিবাহৰ বয়স কমোৱা"
+        },
+        {
+          "en": "Making caste barriers stricter",
+          "as": "জাতিভেদ অধিক কঠোৰ কৰা"
+        },
+        {
+          "en": "Restricting schooling to boys",
+          "as": "বিদ্যালয় শিক্ষা ল’ৰাৰ মাজতে সীমিত ৰখা"
+        },
+        {
+          "en": "Allowing widows to remarry",
+          "as": "বিধৱাসকলক পুনৰ বিবাহৰ অনুমতি দিয়া"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Arya Samaj supported widow remarriage and opposed child marriage.",
+        "as": "আৰ্য সমাজে বিধৱা বিবাহ সমৰ্থন কৰিছিল আৰু বাল্যবিবাহৰ বিৰোধিতা কৰিছিল।"
+      },
+      "id": "lesson-7-test-2-q7"
+    },
+    {
+      "en": "A merchant needs to send the price of cotton to another city before a letter could arrive. Which reform serves that purpose best?",
+      "as": "চিঠি গৈ পোৱাৰ আগতেই এজন বেপাৰীয়ে আন এখন নগৰলৈ কপাহৰ দাম জনাব বিচাৰিছে। কোনটো ব্যৱস্থা আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "Electric telegraph",
+          "as": "বৈদ্যুতিক টেলিগ্ৰাফ"
+        },
+        {
+          "en": "Postage stamps",
+          "as": "ডাকটিকট"
+        },
+        {
+          "en": "Land survey",
+          "as": "ভূমি জৰীপ"
+        },
+        {
+          "en": "District courts",
+          "as": "জিলা আদালত"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The telegraph transmitted messages electrically without waiting for a letter to travel.",
+        "as": "টেলিগ্ৰাফত বৈদ্যুতিক সংকেতেৰে বাতৰি পঠিওৱা হৈছিল। চিঠি কঢ়িয়াই নিয়ালৈ বাট চাব নালাগিছিল।"
+      },
+      "id": "lesson-7-test-2-q8"
+    },
+    {
+      "en": "Which two measures belong respectively to land administration and to education?",
+      "as": "কোনটো যোৰৰ প্ৰথমটো পদক্ষেপ ভূমি প্ৰশাসনৰ আৰু দ্বিতীয়টো শিক্ষাৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Wood’s Despatch and Ryotwari settlement",
+          "as": "উডৰ শিক্ষা-বিষয়ক প্ৰেৰণপত্ৰ আৰু ৰায়তৱাৰী বন্দোবস্ত"
+        },
+        {
+          "en": "Permanent Settlement and Wood’s Despatch",
+          "as": "চিৰস্থায়ী বন্দোবস্ত আৰু উডৰ শিক্ষা-বিষয়ক প্ৰেৰণপত্ৰ"
+        },
+        {
+          "en": "Ryotwari settlement and Permanent Settlement",
+          "as": "ৰায়তৱাৰী বন্দোবস্ত আৰু চিৰস্থায়ী বন্দোবস্ত"
+        },
+        {
+          "en": "Calcutta Madrasa and Sanskrit College",
+          "as": "কলিকতা মাদ্ৰাছা আৰু সংস্কৃত মহাবিদ্যালয়"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The settlement fixed land revenue, whereas the Despatch outlined education policy.",
+        "as": "বন্দোবস্তৰ জৰিয়তে ভূমি ৰাজহ স্থিৰ কৰা হৈছিল। প্ৰেৰণপত্ৰখনত শিক্ষানীতিৰ ৰূপৰেখা দিয়া হৈছিল।"
+      },
+      "id": "lesson-7-test-2-q9"
+    },
+    {
+      "en": "Which evidence best shows that Indians themselves shaped nineteenth-century reforms?",
+      "as": "ঊনবিংশ শতিকাৰ সংস্কাৰত ভাৰতীয়সকলে নিজেও ভূমিকা লোৱাৰ আটাইতকৈ স্পষ্ট প্ৰমাণ কোনটো?",
+      "options": [
+        {
+          "en": "The Company fixed a district’s revenue",
+          "as": "কোম্পানীয়ে এখন জিলাৰ ৰাজহ স্থিৰ কৰিছিল"
+        },
+        {
+          "en": "A governor issued orders to collectors",
+          "as": "এজন গৱৰ্ণৰে কালেক্টৰসকললৈ নিৰ্দেশ পঠিয়াইছিল"
+        },
+        {
+          "en": "Roy formed an association and argued publicly against sati",
+          "as": "ৰায়ে সংগঠন গঢ়িছিল আৰু ৰাজহুৱাকৈ সতীদাহৰ বিৰোধিতা কৰিছিল"
+        },
+        {
+          "en": "British officials drew up rules of service",
+          "as": "ব্ৰিটিছ বিষয়াসকলে চাকৰিৰ নিয়ম প্ৰস্তুত কৰিছিল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Roy’s organising and advocacy show Indian initiative in changing social practices.",
+        "as": "সংগঠন গঢ়া আৰু জনমত জগোৱাৰ ক্ষেত্ৰত ৰায়ৰ কামে সমাজৰ প্ৰথা সলনি কৰিবলৈ ভাৰতীয়ই লোৱা উদ্যোগ দেখুৱায়।"
+      },
+      "id": "lesson-7-test-2-q10"
+    }
+  ]
+}

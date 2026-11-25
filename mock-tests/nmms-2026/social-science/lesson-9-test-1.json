@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-9-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 9 · The Revolt of 1857",
+    "as": "পাঠ ৯ · ১৮৫৭ চনৰ বিদ্ৰোহ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A prince adopted an heir, but the Company refused to recognise the succession and annexed his state. Which grievance does this illustrate?",
+      "as": "এজন ৰজাই পুত্ৰ তুলি ল’লে। কোম্পানীয়ে সেই পুত্ৰৰ উত্তৰাধিকাৰ মানি নলৈ ৰাজ্যখন নিজৰ অধীনলৈ নিলে। ইয়াত কোনটো অসন্তোষৰ কাৰণ দেখা যায়?",
+      "options": [
+        {
+          "en": "Discrimination in army pay",
+          "as": "সেনাৰ দৰমহাত বৈষম্য"
+        },
+        {
+          "en": "Interference with religious observance",
+          "as": "ধৰ্মাচৰণত হস্তক্ষেপ"
+        },
+        {
+          "en": "Competition from imported cloth",
+          "as": "আমদানিকৃত কাপোৰৰ প্ৰতিযোগিতা"
+        },
+        {
+          "en": "Annexation under the Doctrine of Lapse",
+          "as": "স্বত্ববিলোপ নীতিৰ অধীনত ৰাজ্য গ্ৰাস"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Dalhousie used the Doctrine of Lapse to annex certain states when an adopted heir’s claim was rejected.",
+        "as": "ডেলহাউছিয়ে স্বত্ববিলোপ নীতি প্ৰয়োগ কৰি কিছুমান ৰাজ্যত তোলনীয়া পুত্ৰৰ উত্তৰাধিকাৰ নাকচ কৰি ৰাজ্য গ্ৰাস কৰিছিল।"
+      },
+      "id": "lesson-9-test-1-q1"
+    },
+    {
+      "en": "A weaver loses customers as cheaper British factory cloth enters local markets. Which cause of discontent is clearest here?",
+      "as": "ব্ৰিটেইনৰ কলত তৈয়াৰী সস্তা কাপোৰ বজাৰলৈ অহাত এজন তাঁতীয়ে গ্ৰাহক হেৰুৱালে। ইয়াত অসন্তোষৰ কোনটো কাৰণ আটাইতকৈ স্পষ্ট?",
+      "options": [
+        {
+          "en": "Loss of a ruler’s pension",
+          "as": "ৰজাৰ পেঞ্চন হেৰুওৱা"
+        },
+        {
+          "en": "Loss of livelihood among artisans",
+          "as": "কাৰিকৰসকলৰ জীৱিকাৰ ক্ষতি"
+        },
+        {
+          "en": "Refusal to recognise an adopted heir",
+          "as": "তোলনীয়া পুত্ৰৰ উত্তৰাধিকাৰ নাকচ কৰা"
+        },
+        {
+          "en": "Compulsory overseas service",
+          "as": "বাধ্যতামূলক বহিঃসাগৰীয় সামৰিক সেৱা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Factory-made imports competed with local cloth and reduced earnings from handloom production.",
+        "as": "আমদানিকৃত কলৰ কাপোৰে স্থানীয় কাপোৰৰ সৈতে প্ৰতিযোগিতা কৰাত তাঁতশালৰ উপাৰ্জন কমিছিল।"
+      },
+      "id": "lesson-9-test-1-q2"
+    },
+    {
+      "en": "Why did the overseas-service requirement of 1856 worry some new army recruits?",
+      "as": "১৮৫৬ চনত সাগৰ পাৰ হৈ সেৱা আগবঢ়োৱাৰ চৰ্তই নতুনকৈ সেনাত যোগ দিয়া কিছুমান লোকক কিয় চিন্তিত কৰিছিল?",
+      "options": [
+        {
+          "en": "They would lose the right to inherit a throne",
+          "as": "তেওঁলোকে সিংহাসনৰ উত্তৰাধিকাৰ হেৰুৱাব বুলি ভাবিছিল"
+        },
+        {
+          "en": "They would have to pay a new land tax",
+          "as": "তেওঁলোকে নতুন ভূমি কৰ দিব লাগিব বুলি ভাবিছিল"
+        },
+        {
+          "en": "They feared crossing the sea would violate their religious customs",
+          "as": "সাগৰ পাৰ হ’লে ধৰ্মীয় আচাৰ ভংগ হ’ব বুলি তেওঁলোকে আশংকা কৰিছিল"
+        },
+        {
+          "en": "Their regiments would be replaced by village guards",
+          "as": "তেওঁলোকৰ ৰেজিমেণ্টৰ ঠাই গাঁৱৰ প্ৰহৰীয়ে ল’ব বুলি ভাবিছিল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The service condition brought military orders into conflict with the beliefs of some recruits.",
+        "as": "এই চৰ্তৰ ফলত কিছুমান নৱনিযুক্ত সৈনিকৰ ধৰ্মবিশ্বাস আৰু সামৰিক আদেশৰ মাজত সংঘাতৰ সৃষ্টি হৈছিল।"
+      },
+      "id": "lesson-9-test-1-q3"
+    },
+    {
+      "en": "What made the new rifle cartridges especially controversial among Hindu and Muslim sepoys?",
+      "as": "নতুন ৰাইফলৰ কাৰ্তুজক লৈ হিন্দু আৰু মুছলমান চিপাহীসকলৰ মাজত বিশেষ আপত্তি কিয় উঠিছিল?",
+      "options": [
+        {
+          "en": "They had to bite cartridges believed to contain cow and pig fat",
+          "as": "গৰু আৰু গাহৰিৰ চৰ্বি লগোৱা বুলি বিশ্বাস কৰা কাৰ্তুজ দাঁতেৰে কামুৰিব লাগিছিল"
+        },
+        {
+          "en": "They had to pay a land tax on every cartridge",
+          "as": "প্ৰতিটো কাৰ্তুজৰ বাবদ ভূমি কৰ দিব লাগিছিল"
+        },
+        {
+          "en": "The cartridges could be issued only overseas",
+          "as": "কেৱল সাগৰৰ সিপাৰেহে কাৰ্তুজ দিয়া হৈছিল"
+        },
+        {
+          "en": "Only European officers could carry the new rifles",
+          "as": "কেৱল ইউৰোপীয় বিষয়াইহে নতুন ৰাইফল ল’ব পাৰিছিল"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The belief about the grease made biting the cartridge offensive to the religious convictions of both groups.",
+        "as": "চৰ্বিৰ বিষয়ে বিয়পি পৰা বিশ্বাসৰ বাবে কাৰ্তুজটো কামোৰা কাৰ্যই দুয়োটা সম্প্ৰদায়ৰ ধৰ্মীয় অনুভূতিত আঘাত কৰিছিল।"
+      },
+      "id": "lesson-9-test-1-q4"
+    },
+    {
+      "en": "Which entry belongs on a memorial marking the events at Barrackpore on 29 March 1857?",
+      "as": "১৮৫৭ চনৰ ২৯ মাৰ্চত বাৰাকপুৰত ঘটা ঘটনাৰ স্মৃতিফলকত কোনটো কথা লিখা উচিত?",
+      "options": [
+        {
+          "en": "Mangal Pandey confronted British officers",
+          "as": "মংগল পাণ্ডেই ব্ৰিটিছ বিষয়াৰ বিৰুদ্ধে অস্ত্ৰ ধৰিছিল"
+        },
+        {
+          "en": "The Meerut rebels entered Delhi",
+          "as": "মীৰাটৰ বিদ্ৰোহীসকল দিল্লীত সোমাইছিল"
+        },
+        {
+          "en": "The Crown assumed control of India",
+          "as": "ভাৰতৰ শাসনভাৰ ব্ৰিটিছ ৰাজমুকুটে লৈছিল"
+        },
+        {
+          "en": "Maniram Dewan was executed",
+          "as": "মণিৰাম দেৱানক ফাঁচি দিয়া হৈছিল"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Mangal Pandey’s action at Barrackpore preceded the May uprising at Meerut.",
+        "as": "বাৰাকপুৰত মংগল পাণ্ডেৰ এই কাৰ্যৰ পাছতহে মে’ মাহত মীৰাটৰ বিদ্ৰোহ হৈছিল।"
+      },
+      "id": "lesson-9-test-1-q5"
+    },
+    {
+      "en": "After rising at Meerut in May 1857, why did the rebels turn to Bahadur Shah Zafar in Delhi?",
+      "as": "১৮৫৭ চনৰ মে’ মাহত মীৰাটত বিদ্ৰোহ কৰাৰ পাছত বিদ্ৰোহীসকলে দিল্লীত বাহাদুৰ শ্বাহ জাফৰৰ ওচৰ চাপিছিল কিয়?",
+      "options": [
+        {
+          "en": "He controlled the Company’s army appointments",
+          "as": "কোম্পানীৰ সেনাত নিযুক্তি তেওঁৰ হাতত আছিল"
+        },
+        {
+          "en": "He had commanded the Meerut regiment",
+          "as": "তেওঁ মীৰাটৰ ৰেজিমেণ্টৰ অধিনায়ক আছিল"
+        },
+        {
+          "en": "The Mughal emperor could give their cause a recognised symbol of authority",
+          "as": "মোগল সম্ৰাটজন তেওঁলোকৰ সংগ্ৰামৰ বাবে কৰ্তৃত্বৰ এক পৰিচিত প্ৰতীক হ’ব পাৰিছিল"
+        },
+        {
+          "en": "He had negotiated the annexation of Jhansi",
+          "as": "ঝান্সী দখলৰ চুক্তি তেওঁ কৰিছিল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The emperor’s name gave rebels from different places a common political rallying point.",
+        "as": "সম্ৰাটৰ নামত বিভিন্ন ঠাইৰ বিদ্ৰোহীসকলে একেটা ৰাজনৈতিক লক্ষ্যৰ বাবে গোট খোৱাৰ সুযোগ পাইছিল।"
+      },
+      "id": "lesson-9-test-1-q6"
+    },
+    {
+      "en": "A student is mapping centres of revolt. Which label belongs at Kanpur?",
+      "as": "এজন ছাত্ৰই বিদ্ৰোহৰ কেন্দ্ৰসমূহ মানচিত্ৰত দেখুৱাইছে। কানপুৰত কাৰ নাম লিখিব লাগে?",
+      "options": [
+        {
+          "en": "Begum Hazrat Mahal",
+          "as": "বেগম হজৰত মহল"
+        },
+        {
+          "en": "Nana Saheb",
+          "as": "নানা চাহেব"
+        },
+        {
+          "en": "Kunwar Singh",
+          "as": "কুঁৱৰ সিং"
+        },
+        {
+          "en": "Rani Lakshmibai",
+          "as": "ৰাণী লক্ষ্মীবাই"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Nana Saheb led the uprising at Kanpur. Begum Hazrat Mahal was associated with Lucknow.",
+        "as": "কানপুৰৰ বিদ্ৰোহত নানা চাহেবে নেতৃত্ব দিছিল। বেগম হজৰত মহল লক্ষ্ণৌৰ বিদ্ৰোহৰ সৈতে জড়িত আছিল।"
+      },
+      "id": "lesson-9-test-1-q7"
+    },
+    {
+      "en": "Which example most clearly shows that participation extended beyond the Company’s sepoys?",
+      "as": "কোম্পানীৰ চিপাহীৰ বাহিৰেও আন লোকে বিদ্ৰোহত ভাগ লোৱাৰ আটাইতকৈ স্পষ্ট উদাহৰণ কোনটো?",
+      "options": [
+        {
+          "en": "Soldiers refused cartridges at a cantonment",
+          "as": "সৈনিকসকলে ছাউনিত কাৰ্তুজ ল’বলৈ অস্বীকাৰ কৰিলে"
+        },
+        {
+          "en": "A regiment disobeyed its officers",
+          "as": "এটা ৰেজিমেণ্টে বিষয়াৰ আদেশ অমান্য কৰিলে"
+        },
+        {
+          "en": "Sepoys marched from Meerut to Delhi",
+          "as": "চিপাহীসকলে মীৰাটৰ পৰা দিল্লীলৈ যাত্ৰা কৰিলে"
+        },
+        {
+          "en": "Dispossessed landholders joined resistance in Awadh",
+          "as": "মাটি হেৰুওৱা তালুকদাৰসকলে অযোধ্যাত প্ৰতিৰোধত যোগ দিলে"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The landholders were a civilian group with grievances over land and authority.",
+        "as": "তালুকদাৰসকল অসামৰিক সমাজৰ অংশ আছিল। মাটি আৰু কৰ্তৃত্ব হেৰুৱাই তেওঁলোক ক্ষুব্ধ হৈছিল।"
+      },
+      "id": "lesson-9-test-1-q8"
+    },
+    {
+      "en": "Which event came first in the nineteenth-century resistance discussed in the lesson?",
+      "as": "পাঠত আলোচনা কৰা ঊনবিংশ শতিকাৰ প্ৰতিৰোধৰ ঘটনাবোৰৰ ভিতৰত কোনটো সৰ্বপ্ৰথমে ঘটিছিল?",
+      "options": [
+        {
+          "en": "The sepoy uprising at Meerut",
+          "as": "মীৰাটত চিপাহী বিদ্ৰোহ"
+        },
+        {
+          "en": "The Phulaguri peasant uprising",
+          "as": "ফুলগুৰিৰ কৃষক বিদ্ৰোহ"
+        },
+        {
+          "en": "Gomdhar Konwar’s uprising in Assam",
+          "as": "অসমত গোমধৰ কোঁৱৰৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "The resistance led by Rani Lakshmibai in 1857",
+          "as": "১৮৫৭ চনত ৰাণী লক্ষ্মীবাইৰ নেতৃত্বত হোৱা প্ৰতিৰোধ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Gomdhar Konwar’s uprising took place in 1828, before the events of 1857 and Phulaguri in 1861.",
+        "as": "গোমধৰ কোঁৱৰৰ বিদ্ৰোহ ১৮২৮ চনত হৈছিল। ই ১৮৫৭ চনৰ বিদ্ৰোহ আৰু ১৮৬১ চনৰ ফুলগুৰিৰ ধেৱাতকৈ আগৰ ঘটনা।"
+      },
+      "id": "lesson-9-test-1-q9"
+    },
+    {
+      "en": "Which change should appear on the Indian administration timeline at 1858?",
+      "as": "ভাৰতৰ প্ৰশাসনিক পৰিৱৰ্তনৰ সময়ৰেখাত ১৮৫৮ চনত কোনটো ঘটনা দেখুওৱা উচিত?",
+      "options": [
+        {
+          "en": "The Mughal emperor regained control of Bengal",
+          "as": "মোগল সম্ৰাটে বংগৰ শাসন ঘূৰাই পালে"
+        },
+        {
+          "en": "The Company received authority from the Crown to govern India for the first time",
+          "as": "কোম্পানীয়ে প্ৰথমবাৰৰ বাবে ৰাজমুকুটৰ পৰা ভাৰত শাসনৰ অধিকাৰ পালে"
+        },
+        {
+          "en": "The Indian princes elected a governor-general",
+          "as": "ভাৰতীয় ৰজাসকলে এজন গৱৰ্ণৰ জেনেৰেল নিৰ্বাচন কৰিলে"
+        },
+        {
+          "en": "Governing authority passed from the Company to the British Crown",
+          "as": "কোম্পানীৰ পৰা ভাৰতৰ শাসনভাৰ ব্ৰিটিছ ৰাজমুকুটলৈ গ’ল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Following the revolt, the Government of India Act of 1858 transferred government to the Crown.",
+        "as": "বিদ্ৰোহৰ পাছত ১৮৫৮ চনৰ ভাৰত শাসন আইনৰ জৰিয়তে ভাৰতৰ শাসনভাৰ ব্ৰিটিছ ৰাজমুকুটৰ হাতলৈ যায়।"
+      },
+      "id": "lesson-9-test-1-q10"
+    }
+  ]
+}

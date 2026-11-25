@@ -197,7 +197,7 @@ body.kid-mode .timer{background:#fef3c7;color:#92400e}
 <script>
 const params = new URLSearchParams(location.search);
 const requestedReturn = params.get("return") || "home";
-const safeReturn = /^(home|youtube|nmms-2026(?:\/(?:mat|sat|information|materials|mock-tests(?:\/202[45](?:\/(?:mat|sat))?)?))?|seba-2027(?:\/(?:materials|kids|class-(?:[1-9]|10)|mock-tests(?:\/(?:kids|class-(?:[1-9]|10)))?))?|ahsec-2027(?:\/(?:materials|class-1[12]|mock-tests(?:\/class-1[12])?))?)$/.test(requestedReturn) ? requestedReturn : "home";
+const safeReturn = /^(home|youtube|nmms-2026(?:\/(?:mat|sat|information|materials|mock-tests(?:\/(?:social-science|202[45](?:\/(?:mat|sat))?))?))?|seba-2027(?:\/(?:materials|kids|class-(?:[1-9]|10)|mock-tests(?:\/(?:kids|class-(?:[1-9]|10)))?))?|ahsec-2027(?:\/(?:materials|class-1[12]|mock-tests(?:\/class-1[12])?))?)$/.test(requestedReturn) ? requestedReturn : "home";
 const backURL = "index.html#" + safeReturn;
 document.querySelector(".brand").href = backURL;
 document.getElementById("backLink").href = backURL;
@@ -271,6 +271,7 @@ function normalizeTestSet(raw){
     section: raw.section || { en:"Geography", as:"ভূগোল" },
     chapter: raw.chapter || raw.title || { en:"Chapter", as:"অধ্যায়" },
     test: raw.test || { en:"Test", as:"টেষ্ট" },
+    creator: raw.creator || "",
     displayTitle: raw.displayTitle || "",
     englishOnly: raw.englishOnly === true,
     assameseOnly: raw.assameseOnly === true,
@@ -407,6 +408,7 @@ function setHeader(){
   document.getElementById("testTitle").textContent = testSet.displayTitle || `${text(testSet.chapter)} - ${text(testSet.test)}`;
   document.getElementById("testMeta").textContent =
     `${text(testSet.className)} | ${text(testSet.subject)} | ${text(testSet.section)} | ${testSet.questions.length} Questions | +${testSet.correctMarks} correct, ${testSet.wrongMarks} wrong | ${testSet.durationMinutes} minutes`;
+  if(testSet.creator) document.getElementById("testMeta").textContent += " | " + text(testSet.creator);
   if(!started) timer.textContent = formatTime(testSet.durationMinutes * 60);
 }
 

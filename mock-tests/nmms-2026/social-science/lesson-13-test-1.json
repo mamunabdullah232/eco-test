@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-13-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 13 · Our Fundamental Duties",
+    "as": "পাঠ ১৩ · আমাৰ মৌলিক কৰ্তব্য"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which part should a student open to read the list of fundamental duties?",
+      "as": "মৌলিক কৰ্তব্যৰ তালিকা পঢ়িবলৈ শিক্ষাৰ্থীয়ে কোনটো ভাগ চাব লাগে?",
+      "options": [
+        {
+          "en": "Part IVA",
+          "as": "চতুৰ্থ-ক ভাগ"
+        },
+        {
+          "en": "Part V",
+          "as": "পঞ্চম ভাগ"
+        },
+        {
+          "en": "Part III",
+          "as": "তৃতীয় ভাগ"
+        },
+        {
+          "en": "Part IV",
+          "as": "চতুৰ্থ ভাগ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Part IVA contains Article 51A, which lists the fundamental duties of citizens.",
+        "as": "চতুৰ্থ-ক ভাগৰ অনুচ্ছেদ ৫১ক-ত নাগৰিকৰ মৌলিক কৰ্তব্যসমূহ উল্লেখ আছে।"
+      },
+      "id": "lesson-13-test-1-q1"
+    },
+    {
+      "en": "Which amendment first inserted fundamental duties into the Constitution?",
+      "as": "কোনটো সংশোধনীয়ে প্ৰথমবাৰৰ বাবে মৌলিক কৰ্তব্য সংবিধানত সন্নিৱিষ্ট কৰিলে?",
+      "options": [
+        {
+          "en": "44th Amendment",
+          "as": "৪৪তম সংশোধনী"
+        },
+        {
+          "en": "73rd Amendment",
+          "as": "৭৩তম সংশোধনী"
+        },
+        {
+          "en": "86th Amendment",
+          "as": "৮৬তম সংশোধনী"
+        },
+        {
+          "en": "42nd Amendment",
+          "as": "৪২তম সংশোধনী"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The 42nd Amendment in 1976 added ten fundamental duties.",
+        "as": "১৯৭৬ চনৰ ৪২তম সংশোধনীয়ে দহটা মৌলিক কৰ্তব্য সংযোজন কৰিছিল।"
+      },
+      "id": "lesson-13-test-1-q2"
+    },
+    {
+      "en": "Which amendment added a duty for parents or guardians concerning children’s education?",
+      "as": "শিশুৰ শিক্ষা সম্পৰ্কে পিতৃ-মাতৃ বা অভিভাৱকৰ কৰ্তব্য কোনটো সংশোধনীয়ে সংযোজন কৰিছিল?",
+      "options": [
+        {
+          "en": "42nd Amendment",
+          "as": "৪২তম সংশোধনী"
+        },
+        {
+          "en": "44th Amendment",
+          "as": "৪৪তম সংশোধনী"
+        },
+        {
+          "en": "73rd Amendment",
+          "as": "৭৩তম সংশোধনী"
+        },
+        {
+          "en": "86th Amendment",
+          "as": "৮৬তম সংশোধনী"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The 86th Amendment of 2002 added clause (k) to Article 51A.",
+        "as": "২০০২ চনৰ ৮৬তম সংশোধনীয়ে অনুচ্ছেদ ৫১ক-ত এটা নতুন দফা সংযোজন কৰিছিল।"
+      },
+      "id": "lesson-13-test-1-q3"
+    },
+    {
+      "en": "Villagers restore manuscripts, traditional masks and songs from several communities. Which duty connects these activities?",
+      "as": "গাঁওবাসীয়ে বিভিন্ন জনগোষ্ঠীৰ পুথি, পৰম্পৰাগত মুখা আৰু গীত সংৰক্ষণ কৰিছে। কোনটো কৰ্তব্যই এই কামবোৰ সংযোগ কৰে?",
+      "options": [
+        {
+          "en": "Develop scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা গঢ়ি তোলা"
+        },
+        {
+          "en": "Respect national symbols",
+          "as": "ৰাষ্ট্ৰীয় প্ৰতীকসমূহক সন্মান কৰা"
+        },
+        {
+          "en": "Preserve cultural heritage",
+          "as": "সাংস্কৃতিক ঐতিহ্য সংৰক্ষণ কৰা"
+        },
+        {
+          "en": "Protect the environment",
+          "as": "পৰিৱেশ ৰক্ষা কৰা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Preserving the rich heritage of India’s composite culture is a fundamental duty.",
+        "as": "ভাৰতৰ সমন্বিত সংস্কৃতিৰ সমৃদ্ধ ঐতিহ্য সংৰক্ষণ কৰাটো মৌলিক কৰ্তব্য।"
+      },
+      "id": "lesson-13-test-1-q4"
+    },
+    {
+      "en": "A science club compares two explanations for a failed crop by collecting field observations. Which duty is illustrated?",
+      "as": "এটা বিজ্ঞান সংঘই শস্যহানিৰ দুটা ব্যাখ্যা পৰীক্ষা কৰিবলৈ পথাৰৰ তথ্য সংগ্ৰহ কৰিছে। ইয়াত কোনটো কৰ্তব্য প্ৰকাশ পাইছে?",
+      "options": [
+        {
+          "en": "Protect the environment",
+          "as": "পৰিৱেশ ৰক্ষা কৰা"
+        },
+        {
+          "en": "Develop scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা গঢ়ি তোলা"
+        },
+        {
+          "en": "Respect national symbols",
+          "as": "ৰাষ্ট্ৰীয় প্ৰতীকসমূহক সন্মান কৰা"
+        },
+        {
+          "en": "Preserve cultural heritage",
+          "as": "সাংস্কৃতিক ঐতিহ্য সংৰক্ষণ কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Testing explanations with evidence develops scientific temper and inquiry.",
+        "as": "প্ৰমাণেৰে ব্যাখ্যা পৰীক্ষা কৰাত বৈজ্ঞানিক মানসিকতা আৰু অনুসন্ধিৎসা গঢ় লয়।"
+      },
+      "id": "lesson-13-test-1-q5"
+    },
+    {
+      "en": "Students follow the prescribed manner of displaying the national flag. Which duty are they fulfilling?",
+      "as": "ছাত্ৰ-ছাত্ৰীসকলে নিৰ্ধাৰিত নিয়ম অনুসৰি ৰাষ্ট্ৰীয় পতাকা প্ৰদৰ্শন কৰিছে। তেওঁলোকে কোনটো কৰ্তব্য পালন কৰিছে?",
+      "options": [
+        {
+          "en": "Preserve cultural heritage",
+          "as": "সাংস্কৃতিক ঐতিহ্য সংৰক্ষণ কৰা"
+        },
+        {
+          "en": "Protect the environment",
+          "as": "পৰিৱেশ ৰক্ষা কৰা"
+        },
+        {
+          "en": "Develop scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা গঢ়ি তোলা"
+        },
+        {
+          "en": "Respect national symbols",
+          "as": "ৰাষ্ট্ৰীয় প্ৰতীকসমূহক সন্মান কৰা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Article 51A calls for respect for the Constitution, its institutions, the national flag and the national anthem.",
+        "as": "অনুচ্ছেদ ৫১ক-ত সংবিধান, ইয়াৰ অনুষ্ঠানসমূহ, ৰাষ্ট্ৰীয় পতাকা আৰু ৰাষ্ট্ৰীয় সংগীতক সন্মান কৰাৰ কথা আছে।"
+      },
+      "id": "lesson-13-test-1-q6"
+    },
+    {
+      "en": "Children rescue an injured wild bird and report a threat to its habitat. Which duty applies most directly?",
+      "as": "শিশুসকলে আঘাতপ্ৰাপ্ত বনৰীয়া চৰাই এটা উদ্ধাৰ কৰি তাৰ বাসস্থানৰ বিপদৰ কথা জনালে। ইয়াত প্ৰধানকৈ কোনটো কৰ্তব্য প্ৰযোজ্য?",
+      "options": [
+        {
+          "en": "Respect national symbols",
+          "as": "ৰাষ্ট্ৰীয় প্ৰতীকসমূহক সন্মান কৰা"
+        },
+        {
+          "en": "Preserve cultural heritage",
+          "as": "সাংস্কৃতিক ঐতিহ্য সংৰক্ষণ কৰা"
+        },
+        {
+          "en": "Protect the environment",
+          "as": "পৰিৱেশ ৰক্ষা কৰা"
+        },
+        {
+          "en": "Develop scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা গঢ়ি তোলা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The environmental duty includes protecting wildlife and showing compassion for living creatures.",
+        "as": "পৰিৱেশৰ প্ৰতি কৰ্তব্যত বন্যপ্ৰাণী সুৰক্ষা আৰু জীৱৰ প্ৰতি দয়া প্ৰদৰ্শন অন্তৰ্ভুক্ত।"
+      },
+      "id": "lesson-13-test-1-q7"
+    },
+    {
+      "en": "How does the Constitution classify the obligation to cherish the ideals of the freedom struggle?",
+      "as": "স্বাধীনতা সংগ্ৰামৰ মহান আদৰ্শসমূহ হৃদয়ত পোষণ কৰাৰ দায়িত্বক সংবিধানে কি হিচাপে শ্ৰেণীভুক্ত কৰিছে?",
+      "options": [
+        {
+          "en": "Qualification for public office",
+          "as": "ৰাজহুৱা পদৰ অৰ্হতা"
+        },
+        {
+          "en": "Fundamental duty",
+          "as": "মৌলিক কৰ্তব্য"
+        },
+        {
+          "en": "Fundamental right",
+          "as": "মৌলিক অধিকাৰ"
+        },
+        {
+          "en": "Directive principle for the state",
+          "as": "ৰাষ্ট্ৰৰ নিৰ্দেশাত্মক নীতি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Citizens are asked to cherish and follow the noble ideals that inspired the national struggle for freedom.",
+        "as": "স্বাধীনতাৰ ৰাষ্ট্ৰীয় সংগ্ৰামক অনুপ্ৰাণিত কৰা মহান আদৰ্শসমূহ হৃদয়ত পোষণ আৰু অনুসৰণ কৰাটো নাগৰিকৰ কৰ্তব্য।"
+      },
+      "id": "lesson-13-test-1-q8"
+    },
+    {
+      "en": "A class sorts “freedom of speech” and “respect for the national anthem” into two categories. Where does the first belong?",
+      "as": "এটা শ্ৰেণীয়ে ‘বাক্‌স্বাধীনতা’ আৰু ‘ৰাষ্ট্ৰীয় সংগীতৰ প্ৰতি সন্মান’ দুটা শিতানত ভাগ কৰিছে। প্ৰথমটো কোন শিতানত পৰিব?",
+      "options": [
+        {
+          "en": "Directive principle for the state",
+          "as": "ৰাষ্ট্ৰৰ নিৰ্দেশাত্মক নীতি"
+        },
+        {
+          "en": "Qualification for public office",
+          "as": "ৰাজহুৱা পদৰ অৰ্হতা"
+        },
+        {
+          "en": "Fundamental duty",
+          "as": "মৌলিক কৰ্তব্য"
+        },
+        {
+          "en": "Fundamental right",
+          "as": "মৌলিক অধিকাৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Speech is protected as a right under Article 19; respect for the anthem appears among the duties.",
+        "as": "অনুচ্ছেদ ১৯-এ বাক্‌স্বাধীনতা অধিকাৰ হিচাপে সুৰক্ষিত কৰে। ৰাষ্ট্ৰীয় সংগীতক সন্মান কৰাটো কৰ্তব্যৰ তালিকাত আছে।"
+      },
+      "id": "lesson-13-test-1-q9"
+    },
+    {
+      "en": "Which committee is associated with the recommendation to add fundamental duties?",
+      "as": "মৌলিক কৰ্তব্য সংযোজনৰ পৰামৰ্শ কোনখন সমিতিৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Drafting Committee",
+          "as": "খচৰা সমিতি"
+        },
+        {
+          "en": "Simon Commission",
+          "as": "ছাইমন আয়োগ"
+        },
+        {
+          "en": "Cabinet Mission",
+          "as": "কেবিনেট মিছন"
+        },
+        {
+          "en": "Swaran Singh Committee",
+          "as": "স্বৰ্ণ সিং সমিতি"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Swaran Singh Committee considered duties before their inclusion in 1976.",
+        "as": "১৯৭৬ চনত কৰ্তব্যসমূহ সংযোজন কৰাৰ আগতে স্বৰ্ণ সিং সমিতিয়ে এই বিষয়ত পৰামৰ্শ দিছিল।"
+      },
+      "id": "lesson-13-test-1-q10"
+    }
+  ]
+}

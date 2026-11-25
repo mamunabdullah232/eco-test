@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-8-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 8 · The Fall of the Ahom Kingdom in Assam and the Rise of the British",
+    "as": "পাঠ ৮ · অসমত আহোম ৰাজ্যৰ পতন আৰু ব্ৰিটিছৰ উত্থান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "An exhibit has three cards dated 1817, 1819 and 1821. What do they record in the history of Assam?",
+      "as": "এখন প্ৰদৰ্শনীত ১৮১৭, ১৮১৯ আৰু ১৮২১ চন লিখা তিনিখন কাৰ্ড আছে। অসমৰ ইতিহাসত এই তিনিটা চনে কি বুজায়?",
+      "options": [
+        {
+          "en": "Successive visits by Captain Welsh",
+          "as": "কেপ্তেইন ৱেলছৰ ক্ৰমাগত অসম ভ্ৰমণ"
+        },
+        {
+          "en": "Three treaties signed at Yandabo",
+          "as": "ইয়াণ্ডাবুত স্বাক্ষৰিত তিনিখন সন্ধি"
+        },
+        {
+          "en": "Successive Burmese invasions",
+          "as": "এটাৰ পাছত আনটো মানৰ আক্ৰমণ"
+        },
+        {
+          "en": "Three accessions of Gaurinath Singha",
+          "as": "গৌৰীনাথ সিংহৰ তিনিবাৰৰ সিংহাসন আৰোহণ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The three Burmese invasions followed each other at roughly two-year intervals.",
+        "as": "মানৰ তিনিটা আক্ৰমণ প্ৰায় দুবছৰৰ মূৰে মূৰে হৈছিল।"
+      },
+      "id": "lesson-8-test-2-q1"
+    },
+    {
+      "en": "Why did Burmese advances towards Cachar alarm the Company more directly than an Ahom court dispute?",
+      "as": "আহোম দৰবাৰৰ বিবাদতকৈ কাছাৰ অভিমুখে মানৰ অগ্ৰগতিয়ে কোম্পানীক অধিক চিন্তিত কৰিছিল কিয়?",
+      "options": [
+        {
+          "en": "Cachar was the seat of the Burmese king",
+          "as": "কাছাৰ মান ৰজাৰ ৰাজধানী আছিল"
+        },
+        {
+          "en": "The Company had promised Cachar to the Moamoriyas",
+          "as": "কোম্পানীয়ে কাছাৰ মোৱামৰীয়াসকলক দিয়াৰ প্ৰতিশ্ৰুতি দিছিল"
+        },
+        {
+          "en": "Captain Welsh was then ruling Cachar",
+          "as": "সেই সময়ত কেপ্তেইন ৱেলছে কাছাৰ শাসন কৰিছিল"
+        },
+        {
+          "en": "Burmese troops were approaching the Company’s eastern frontier",
+          "as": "মান সৈন্য কোম্পানীৰ পূব সীমান্তৰ কাষ চাপিছিল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "A neighbouring army’s expansion posed a threat to the security of British-held territory.",
+        "as": "চুবুৰীয়া শক্তিৰ সামৰিক সম্প্ৰসাৰণে ব্ৰিটিছৰ অধীনৰ অঞ্চলৰ নিৰাপত্তাৰ প্ৰতি ভাবুকি আনিছিল।"
+      },
+      "id": "lesson-8-test-2-q2"
+    },
+    {
+      "en": "Which event would explain why a family in Assam remembered the period as Manar Din?",
+      "as": "অসমৰ এটা পৰিয়ালে সেই সময়ছোৱাক ‘মানৰ দিন’ বুলি মনত ৰখাৰ কাৰণ কোনটো ঘটনাই বুজায়?",
+      "options": [
+        {
+          "en": "A change of governor in Bengal",
+          "as": "বংগত গৱৰ্ণৰৰ সলনি"
+        },
+        {
+          "en": "Hardship and displacement during Burmese occupation",
+          "as": "মানৰ দখলৰ সময়ত হোৱা দুৰ্দশা আৰু ঘৰ-বাৰী এৰাৰ অভিজ্ঞতা"
+        },
+        {
+          "en": "Welsh’s return from Assam",
+          "as": "অসমৰ পৰা ৱেলছৰ প্ৰত্যাৱৰ্তন"
+        },
+        {
+          "en": "A change of succession at the Ahom court",
+          "as": "আহোম দৰবাৰত উত্তৰাধিকাৰীৰ পৰিৱৰ্তন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The expression recalls the violence and suffering associated with Burmese occupation.",
+        "as": "এই কথাষাৰে মানৰ দখলৰ সময়ত মানুহে ভোগা হিংসা আৰু দুখ-কষ্টৰ স্মৃতি বহন কৰে।"
+      },
+      "id": "lesson-8-test-2-q3"
+    },
+    {
+      "en": "Which governor-general was in office when the First Anglo-Burmese War began?",
+      "as": "প্ৰথম ইঙ্গ-বৰ্মী যুদ্ধ আৰম্ভ হওঁতে কোনজন গৱৰ্ণৰ জেনেৰেল পদত আছিল?",
+      "options": [
+        {
+          "en": "Lord Cornwallis",
+          "as": "লৰ্ড কৰ্ণৱালিছ"
+        },
+        {
+          "en": "Warren Hastings",
+          "as": "ৱাৰেন হেষ্টিংছ"
+        },
+        {
+          "en": "Lord Amherst",
+          "as": "লৰ্ড আমহাৰ্ষ্ট"
+        },
+        {
+          "en": "Lord Dalhousie",
+          "as": "লৰ্ড ডেলহাউছি"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The war began in 1824 under Amherst, three decades after Welsh’s expedition.",
+        "as": "ৱেলছৰ অভিযানৰ প্ৰায় তিনিটা দশকৰ পাছত, ১৮২৪ চনত আমহাৰ্ষ্টৰ আমোলত যুদ্ধ আৰম্ভ হয়।"
+      },
+      "id": "lesson-8-test-2-q4"
+    },
+    {
+      "en": "A treaty record dated 24 February 1826 has spaces for the two parties. Which names belong there?",
+      "as": "১৮২৬ চনৰ ২৪ ফেব্ৰুৱাৰীৰ এখন সন্ধিৰ নথিত দুই পক্ষৰ নাম লিখিবলৈ ঠাই আছে। তাত কোন দুই পক্ষৰ নাম থাকিব?",
+      "options": [
+        {
+          "en": "The Ahom kingdom and the Moamoriyas",
+          "as": "আহোম ৰাজ্য আৰু মোৱামৰীয়াসকল"
+        },
+        {
+          "en": "The Ahom kingdom and the Burmese kingdom",
+          "as": "আহোম ৰাজ্য আৰু মান ৰাজ্য"
+        },
+        {
+          "en": "The East India Company and the Ahom kingdom",
+          "as": "ইষ্ট ইণ্ডিয়া কোম্পানী আৰু আহোম ৰাজ্য"
+        },
+        {
+          "en": "The East India Company and the Burmese kingdom",
+          "as": "ইষ্ট ইণ্ডিয়া কোম্পানী আৰু মান ৰাজ্য"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Company and Burma concluded the Treaty of Yandabo to end their war.",
+        "as": "নিজৰ মাজৰ যুদ্ধৰ অন্ত পেলাবলৈ কোম্পানী আৰু মান ৰাজ্যই ইয়াণ্ডাবু সন্ধি কৰিছিল।"
+      },
+      "id": "lesson-8-test-2-q5"
+    },
+    {
+      "en": "Which note belongs on a map showing territorial changes under the Treaty of Yandabo?",
+      "as": "ইয়াণ্ডাবু সন্ধিৰ ফলত হোৱা ভূখণ্ডৰ পৰিৱৰ্তন দেখুওৱা মানচিত্ৰত কোনটো টোকা উপযুক্ত?",
+      "options": [
+        {
+          "en": "Arakan and Tenasserim passed to the British",
+          "as": "আৰাকান আৰু টেনাচেৰিম ব্ৰিটিছৰ অধীনলৈ গ’ল"
+        },
+        {
+          "en": "Arakan and Tenasserim passed to the Ahoms",
+          "as": "আৰাকান আৰু টেনাচেৰিম আহোমৰ অধীনলৈ গ’ল"
+        },
+        {
+          "en": "Bengal and Cachar passed to Burma",
+          "as": "বংগ আৰু কাছাৰ মানৰ অধীনলৈ গ’ল"
+        },
+        {
+          "en": "Assam and Arakan passed to Manipur",
+          "as": "অসম আৰু আৰাকান মণিপুৰৰ অধীনলৈ গ’ল"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Burma ceded Arakan and Tenasserim to the British as part of the peace settlement.",
+        "as": "সন্ধিৰ চৰ্ত অনুসৰি মান ৰজাই আৰাকান আৰু টেনাচেৰিম ব্ৰিটিছক এৰি দিছিল।"
+      },
+      "id": "lesson-8-test-2-q6"
+    },
+    {
+      "en": "Which treaty clause most directly cleared the way for the Company to extend its authority in Assam?",
+      "as": "সন্ধিৰ কোনটো চৰ্তই অসমত কোম্পানীৰ কৰ্তৃত্ব বিস্তাৰৰ বাট আটাইতকৈ পোনপটীয়াকৈ মুকলি কৰিছিল?",
+      "options": [
+        {
+          "en": "Burma agreed to pay a war indemnity",
+          "as": "মান ৰজাই যুদ্ধৰ ক্ষতিপূৰণ দিবলৈ মান্তি হ’ল"
+        },
+        {
+          "en": "Burma ceded coastal Tenasserim",
+          "as": "মান ৰজাই উপকূলীয় টেনাচেৰিম এৰি দিলে"
+        },
+        {
+          "en": "Burma ceded Arakan",
+          "as": "মান ৰজাই আৰাকান এৰি দিলে"
+        },
+        {
+          "en": "Burma renounced its claims to Assam",
+          "as": "মান ৰজাই অসমৰ ওপৰত নিজৰ দাবী এৰিলে"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Renunciation removed the Burmese claim over Assam itself and altered the balance of power there.",
+        "as": "অসমৰ ওপৰত মানৰ দাবী আঁতৰি যোৱাত ইয়াত ক্ষমতাৰ ভাৰসাম্য সলনি হ’ল।"
+      },
+      "id": "lesson-8-test-2-q7"
+    },
+    {
+      "en": "A student places Purandar Singha’s restoration in Upper Assam after the Treaty of Yandabo. Why is the entry possible?",
+      "as": "এজন ছাত্ৰই ইয়াণ্ডাবু সন্ধিৰ পাছত উজনি অসমত পুৰন্দৰ সিংহ পুনৰ ৰজা হোৱাৰ কথা লিখিছে। এই ঘটনাক্ৰম কেনেকৈ সম্ভৱ হ’ল?",
+      "options": [
+        {
+          "en": "The treaty made him ruler of Burma",
+          "as": "সন্ধিয়ে তেওঁক মান ৰাজ্যৰ ৰজা পাতিলে"
+        },
+        {
+          "en": "The British later allowed him limited rule in Upper Assam",
+          "as": "পাছত ব্ৰিটিছে তেওঁক উজনি অসমত সীমিত ক্ষমতাৰে শাসন কৰিবলৈ দিলে"
+        },
+        {
+          "en": "The treaty removed British influence from Assam",
+          "as": "সন্ধিয়ে অসমৰ পৰা ব্ৰিটিছৰ প্ৰভাৱ আঁতৰালে"
+        },
+        {
+          "en": "The Moamoriyas restored him before Welsh arrived",
+          "as": "ৱেলছ অহাৰ আগতে মোৱামৰীয়াই তেওঁক পুনৰ ৰজা পাতিলে"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Purandar ruled part of Upper Assam under British conditions from 1833 until his removal in 1838.",
+        "as": "ব্ৰিটিছৰ চৰ্ত মানি পুৰন্দৰ সিংহই ১৮৩৩ চনৰ পৰা ১৮৩৮ চনত ক্ষমতা হেৰুৱালৈকে উজনি অসমৰ এক অংশ শাসন কৰিছিল।"
+      },
+      "id": "lesson-8-test-2-q8"
+    },
+    {
+      "en": "Which comparison best distinguishes Captain Welsh’s expedition from the settlement at Yandabo?",
+      "as": "কেপ্তেইন ৱেলছৰ অভিযান আৰু ইয়াণ্ডাবু সন্ধিৰ মাজৰ পাৰ্থক্য কোনটো কথাই স্পষ্ট কৰে?",
+      "options": [
+        {
+          "en": "Welsh assisted an Ahom ruler, while the treaty ended a war with Burma",
+          "as": "ৱেলছে আহোম ৰজাক সহায় কৰিছিল আৰু সন্ধিয়ে মানৰ সৈতে হোৱা যুদ্ধৰ অন্ত পেলাইছিল"
+        },
+        {
+          "en": "Welsh fought Burma, while the treaty ended a Moamoria uprising",
+          "as": "ৱেলছে মানৰ সৈতে যুঁজিছিল আৰু সন্ধিয়ে মোৱামৰীয়া বিদ্ৰোহৰ অন্ত পেলাইছিল"
+        },
+        {
+          "en": "Both were settlements negotiated with the Moamoriyas",
+          "as": "দুয়োটাই মোৱামৰীয়াসকলৰ সৈতে হোৱা মীমাংসা আছিল"
+        },
+        {
+          "en": "Both were requests by Burma for Company troops",
+          "as": "দুয়োটাই কোম্পানীৰ সৈন্য বিচাৰি মানে জনোৱা অনুৰোধ আছিল"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The expedition responded to an internal rebellion. The treaty settled a later conflict between two external powers.",
+        "as": "অভিযানটো ৰাজ্যৰ ভিতৰৰ বিদ্ৰোহৰ সৈতে জড়িত আছিল। সন্ধিখনে পাছত অসমৰ বাহিৰৰ দুই শক্তিৰ মাজত হোৱা যুদ্ধৰ নিষ্পত্তি কৰিছিল।"
+      },
+      "id": "lesson-8-test-2-q9"
+    },
+    {
+      "en": "Which evidence best challenges the claim that the Ahom kingdom fell solely because of a single foreign invasion?",
+      "as": "‘কেৱল এটা বিদেশী আক্ৰমণৰ ফলতে আহোম ৰাজ্যৰ পতন হৈছিল’—এই মতটো পুনৰ বিবেচনা কৰিবলৈ কোনটো তথ্যই আটাইতকৈ বেছি সহায় কৰে?",
+      "options": [
+        {
+          "en": "The peace treaty was signed at Yandabo",
+          "as": "শান্তি সন্ধিখন ইয়াণ্ডাবুত স্বাক্ষৰিত হৈছিল"
+        },
+        {
+          "en": "Burma had a capital at Ava",
+          "as": "আভাত মান ৰাজ্যৰ ৰাজধানী আছিল"
+        },
+        {
+          "en": "Rebellions and factional struggles had already weakened royal authority",
+          "as": "বিদ্ৰোহ আৰু দলীয় সংঘাতে আগতেই ৰাজক্ষমতা দুৰ্বল কৰিছিল"
+        },
+        {
+          "en": "Arakan lay outside the Ahom kingdom",
+          "as": "আৰাকান আহোম ৰাজ্যৰ বাহিৰত আছিল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The chronology shows internal weakening before repeated invasions and eventual British intervention.",
+        "as": "ঘটনাক্ৰমে দেখুৱায় যে বাৰে বাৰে হোৱা আক্ৰমণ আৰু শেষৰ ব্ৰিটিছ হস্তক্ষেপৰ আগতেই ৰাজ্যখন ভিতৰৰ পৰা দুৰ্বল হৈছিল।"
+      },
+      "id": "lesson-8-test-2-q10"
+    }
+  ]
+}

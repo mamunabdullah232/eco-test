@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-3-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 3 · Assamese Society in Medieval Age",
+    "as": "পাঠ ৩ · মধ্যযুগৰ অসমীয়া সমাজ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A royal order grants revenue-free land for the upkeep of a religious institution. What power of the Ahom king does it illustrate?",
+      "as": "এটা ধৰ্মীয় অনুষ্ঠানৰ প্ৰতিপালনৰ বাবে ৰজাই নিষ্কৰ মাটি দিলে। ইয়াৰ পৰা আহোম ৰজাৰ কোনটো অধিকাৰৰ কথা বুজা যায়?",
+      "options": [
+        {
+          "en": "Choosing the crops grown on every plot",
+          "as": "প্ৰতিডৰা মাটিৰ বাবে শস্য বাছি দিয়া"
+        },
+        {
+          "en": "Allocating land and granting tax exemptions",
+          "as": "মাটি আবণ্টন দিয়া আৰু কৰ ৰেহাই দিয়া"
+        },
+        {
+          "en": "Setting the price of every market good",
+          "as": "বজাৰৰ প্ৰতিবিধ বস্তুৰ দাম নিৰ্ধাৰণ কৰা"
+        },
+        {
+          "en": "Appointing every village artisan",
+          "as": "গাঁৱৰ প্ৰতিজন শিল্পীক নিযুক্ত কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "As the ultimate holder of land, the king could assign land to institutions and waive its revenue.",
+        "as": "ভূমিৰ সৰ্বোচ্চ গৰাকী হিচাপে ৰজাই অনুষ্ঠানক মাটি দি সেই মাটিৰ খাজনা ৰেহাই দিব পাৰিছিল।"
+      },
+      "id": "lesson-3-test-2-q1"
+    },
+    {
+      "en": "Which comparison best describes a change in commerce over the period covered by the lesson?",
+      "as": "পাঠত আলোচনা কৰা সময়ছোৱাত বাণিজ্যৰ পৰিৱৰ্তন কোনটো তুলনাই ভালদৰে দেখুৱায়?",
+      "options": [
+        {
+          "en": "Early trade often used barter, and commerce expanded under the Koch rulers.",
+          "as": "প্ৰথমভাগত বস্তু-বিনিময়ৰ প্ৰচলন আছিল আৰু কোচ ৰজাসকলৰ দিনত বাণিজ্যৰ প্ৰসাৰ ঘটিছিল।"
+        },
+        {
+          "en": "Trade began only after Koch rule ended.",
+          "as": "কোচ শাসনৰ অন্ত পৰাৰ পিছতহে বাণিজ্য আৰম্ভ হৈছিল।"
+        },
+        {
+          "en": "Early trade relied on imported cloth, and weaving began under the Koch rulers.",
+          "as": "প্ৰথমভাগত আমদানি কৰা কাপোৰৰ ওপৰত বাণিজ্য নিৰ্ভৰশীল আছিল আৰু কোচ শাসনতহে বয়ন শিল্প আৰম্ভ হৈছিল।"
+        },
+        {
+          "en": "Koch rulers replaced all markets with household production.",
+          "as": "কোচ ৰজাসকলে সকলো বজাৰৰ ঠাইত ঘৰুৱা উৎপাদনৰ ব্যৱস্থা কৰিছিল।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Goods were exchanged even in the early period. The Koch period saw a growth in trade.",
+        "as": "প্ৰথমভাগতো বস্তুৰ আদান-প্ৰদান হৈছিল। কোচ যুগত বেপাৰ-বাণিজ্যই অধিক বিস্তাৰ লাভ কৰে।"
+      },
+      "id": "lesson-3-test-2-q2"
+    },
+    {
+      "en": "Which example gives the strongest reason to revise the claim that women worked only within the household?",
+      "as": "‘নাৰীৰ কাম কেৱল ঘৰৰ ভিতৰতে সীমাবদ্ধ আছিল’ বুলি কৰা দাবীটো পুনৰ বিবেচনা কৰিবলৈ কোনটো তথ্য আটাইতকৈ প্ৰাসংগিক?",
+      "options": [
+        {
+          "en": "Several communities had distinctive women’s clothing.",
+          "as": "কেইবাটাও জনগোষ্ঠীৰ মহিলাৰ সুকীয়া সাজপাৰ আছিল।"
+        },
+        {
+          "en": "Many households needed woven cloth.",
+          "as": "বহু পৰিয়ালক বোৱা কাপোৰৰ প্ৰয়োজন হৈছিল।"
+        },
+        {
+          "en": "Rice was an important household staple.",
+          "as": "চাউল পৰিয়ালৰ এবিধ প্ৰধান খাদ্য আছিল।"
+        },
+        {
+          "en": "Women also participated in affairs of state and gathered intelligence.",
+          "as": "নাৰীয়ে ৰাজকাৰ্য আৰু চোৰাংচোৱাৰ কামতো অংশ লৈছিল।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Participation in government and intelligence work provides direct evidence of public roles.",
+        "as": "ৰাজকাৰ্য আৰু চোৰাংচোৱাৰ কামত অংশগ্ৰহণে ঘৰৰ বাহিৰতো নাৰীৰ দায়িত্ব থকাৰ পোনপটীয়া প্ৰমাণ দিয়ে।"
+      },
+      "id": "lesson-3-test-2-q3"
+    },
+    {
+      "en": "A student is tracing formal learning at Bardowa’s Alipukhuri. Whose tol should she investigate?",
+      "as": "এগৰাকী ছাত্ৰীয়ে বৰদোৱাৰ আলিপুখুৰীত শিক্ষাচৰ্চাৰ ইতিহাস বিচাৰিছে। তেওঁ কাৰ টোলৰ বিষয়ে অনুসন্ধান কৰা উচিত?",
+      "options": [
+        {
+          "en": "Madhava Kandali’s",
+          "as": "মাধৱ কন্দলীৰ"
+        },
+        {
+          "en": "Ananta Kandali’s",
+          "as": "অনন্ত কন্দলীৰ"
+        },
+        {
+          "en": "Mahendra Kandali’s",
+          "as": "মহেন্দ্ৰ কন্দলীৰ"
+        },
+        {
+          "en": "Sukumar Barkaith’s",
+          "as": "সুকুমাৰ বৰকাইথৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The tol at Alipukhuri is associated with the teacher Mahendra Kandali.",
+        "as": "আলিপুখুৰীৰ টোলখনৰ সৈতে শিক্ষক মহেন্দ্ৰ কন্দলীৰ নাম জড়িত।"
+      },
+      "id": "lesson-3-test-2-q4"
+    },
+    {
+      "en": "Which work would best help a student investigate specialist knowledge about elephants?",
+      "as": "হাতীৰ বিষয়ে মধ্যযুগৰ বিশেষ জ্ঞান অধ্যয়ন কৰিবলৈ কোনখন পুথি আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "Katha-Gita",
+          "as": "কথা-গীতা"
+        },
+        {
+          "en": "Hastividyarnava",
+          "as": "হস্তীবিদ্যাৰ্ণৱ"
+        },
+        {
+          "en": "Darrang Rajvamsavali",
+          "as": "দৰং ৰাজবংশাৱলী"
+        },
+        {
+          "en": "Ratnamala",
+          "as": "ৰত্নমালা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Sukumar Barkaith’s Hastividyarnava deals with elephants and their care.",
+        "as": "সুকুমাৰ বৰকাইথৰ হস্তীবিদ্যাৰ্ণৱত হাতী আৰু হাতীৰ পৰিচৰ্যাৰ বিষয়ে আলোচনা আছে।"
+      },
+      "id": "lesson-3-test-2-q5"
+    },
+    {
+      "en": "A catalogue has an entry for Madhava Kandali’s Assamese rendering of an epic. Which title should fill the blank?",
+      "as": "এখন পুথি-তালিকাত মাধৱ কন্দলীয়ে অসমীয়ালৈ ভাঙনি কৰা মহাকাব্যখনৰ নাম বাদ পৰিছে। তাত কি লিখিব লাগে?",
+      "options": [
+        {
+          "en": "Ramayana",
+          "as": "ৰামায়ণ"
+        },
+        {
+          "en": "Mahabharata",
+          "as": "মহাভাৰত"
+        },
+        {
+          "en": "Bhagavata",
+          "as": "ভাগৱত"
+        },
+        {
+          "en": "Gitagovinda",
+          "as": "গীতগোবিন্দ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Madhava Kandali rendered the Ramayana into Assamese, bringing its story to Assamese-speaking audiences.",
+        "as": "মাধৱ কন্দলীয়ে ৰামায়ণৰ অসমীয়া ভাঙনি কৰি ইয়াৰ কাহিনী অসমীয়াভাষী লোকৰ ওচৰ চপাইছিল।"
+      },
+      "id": "lesson-3-test-2-q6"
+    },
+    {
+      "en": "A researcher wants to trace the succession of rulers in Darrang. Which author’s work should be consulted first?",
+      "as": "এজন গৱেষকে দৰঙৰ ৰজাসকলৰ বংশানুক্ৰম বিচাৰিছে। তেওঁ প্ৰথমে কোনজন লেখকৰ পুথি চোৱা উচিত?",
+      "options": [
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        },
+        {
+          "en": "Mahendra Kandali",
+          "as": "মহেন্দ্ৰ কন্দলী"
+        },
+        {
+          "en": "Baladev Suryakhari Daivajna",
+          "as": "বলদেৱ সূৰ্যখৰি দৈৱজ্ঞ"
+        },
+        {
+          "en": "Purushottam Vidyavagish",
+          "as": "পুৰুষোত্তম বিদ্যাবাগীশ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Baladev’s Darrang Rajvamsavali traces the royal lineage of Darrang.",
+        "as": "বলদেৱৰ দৰং ৰাজবংশাৱলীত দৰঙৰ ৰাজপৰিয়ালৰ বংশক্ৰমৰ বিৱৰণ আছে।"
+      },
+      "id": "lesson-3-test-2-q7"
+    },
+    {
+      "en": "Which sequence correctly follows cotton from field to finished coloured cloth?",
+      "as": "পথাৰৰ কপাহৰ পৰা ৰঙীন কাপোৰ তৈয়াৰ কৰালৈকে কামবোৰৰ কোনটো ক্ৰম শুদ্ধ?",
+      "options": [
+        {
+          "en": "Weave cloth → spin cotton → dye the cloth",
+          "as": "কাপোৰ বোৱা → কপাহৰ সূতা কটা → কাপোৰত ৰং দিয়া"
+        },
+        {
+          "en": "Spin cotton → weave cloth → dye the cloth",
+          "as": "কপাহৰ সূতা কটা → কাপোৰ বোৱা → কাপোৰত ৰং দিয়া"
+        },
+        {
+          "en": "Dye the cloth → spin cotton → weave cloth",
+          "as": "কাপোৰত ৰং দিয়া → কপাহৰ সূতা কটা → কাপোৰ বোৱা"
+        },
+        {
+          "en": "Spin cotton → dye the cloth → weave cloth",
+          "as": "কপাহৰ সূতা কটা → কাপোৰত ৰং দিয়া → কাপোৰ বোৱা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "For cloth dyed after weaving, spinning supplies the yarn and weaving produces the fabric to be dyed.",
+        "as": "বোৱাৰ পিছত ৰং দিয়া কাপোৰৰ ক্ষেত্ৰত প্ৰথমে সূতা কাটে, সেই সূতাৰে কাপোৰ বয় আৰু শেষত কাপোৰত ৰং দিয়ে।"
+      },
+      "id": "lesson-3-test-2-q8"
+    },
+    {
+      "en": "Which pair would illustrate both the economy and the artistic skill of a medieval Assamese household?",
+      "as": "মধ্যযুগৰ অসমৰ এখন পৰিয়ালৰ অৰ্থনৈতিক কাম আৰু শিল্পনৈপুণ্য দুয়োটাকে দেখুৱাবলৈ কোনটো যোৰ উপযুক্ত?",
+      "options": [
+        {
+          "en": "A land boundary and a royal title",
+          "as": "মাটিৰ সীমা আৰু ৰজাৰ উপাধি"
+        },
+        {
+          "en": "A trade route and a king’s genealogy",
+          "as": "বাণিজ্যপথ আৰু ৰজাৰ বংশাৱলী"
+        },
+        {
+          "en": "A list of taxes and a military rank",
+          "as": "কৰৰ তালিকা আৰু সেনাৰ পদবী"
+        },
+        {
+          "en": "A loom and a patterned cloth woven on it",
+          "as": "তাঁতশাল আৰু তাত বোৱা ফুলাম কাপোৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The loom shows household production, while the woven design shows the weaver’s skill.",
+        "as": "তাঁতশালে ঘৰুৱা উৎপাদনৰ পৰিচয় দিয়ে আৰু কাপোৰৰ ফুলে শিপিনীৰ নৈপুণ্য দেখুৱায়।"
+      },
+      "id": "lesson-3-test-2-q9"
+    },
+    {
+      "en": "An exhibition brings together Bodo dress, Kachari architecture and Assamese literary works. Which conclusion do these exhibits best support?",
+      "as": "এখন প্ৰদৰ্শনীত বড়ো সাজপাৰ, কছাৰী স্থাপত্য আৰু অসমীয়া সাহিত্যৰ নিদৰ্শন একেলগে ৰখা হৈছে। এইবোৰে কোনটো সিদ্ধান্তক সমৰ্থন কৰে?",
+      "options": [
+        {
+          "en": "Different communities helped shape Assam’s shared cultural heritage.",
+          "as": "বিভিন্ন জনগোষ্ঠীৰ অৱদানত অসমৰ উমৈহতীয়া সাংস্কৃতিক ঐতিহ্য গঢ় লৈছে।"
+        },
+        {
+          "en": "A single royal court directed every craft in Assam.",
+          "as": "এখন ৰাজসভাই অসমৰ সকলো শিল্প পৰিচালনা কৰিছিল।"
+        },
+        {
+          "en": "Trade made local forms of dress disappear.",
+          "as": "বাণিজ্যৰ ফলত স্থানীয় সাজপাৰবোৰ নোহোৱা হৈছিল।"
+        },
+        {
+          "en": "Literary texts are the only evidence of cultural exchange.",
+          "as": "সাংস্কৃতিক আদান-প্ৰদানৰ একমাত্ৰ সমল সাহিত্য। "
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Clothing, buildings and writings preserve different contributions to the region’s culture.",
+        "as": "সাজপাৰ, স্থাপত্য আৰু সাহিত্যত অঞ্চলটোৰ সংস্কৃতিলৈ আগবঢ়োৱা ভিন ভিন অৱদানৰ চিন ৰৈছে।"
+      },
+      "id": "lesson-3-test-2-q10"
+    }
+  ]
+}

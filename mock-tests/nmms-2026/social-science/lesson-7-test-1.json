@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-7-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 7 · The East India Company and its Reforms in India",
+    "as": "পাঠ ৭ · ইষ্ট ইণ্ডিয়া কোম্পানী আৰু ভাৰতত ইয়াৰ সংস্কাৰসমূহ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A Bengal estate produces a larger harvest after 1793. Under the Permanent Settlement, which payment stays fixed?",
+      "as": "১৭৯৩ চনৰ পাছত বংগৰ এখন জমিদাৰীত উৎপাদন বাঢ়িল। চিৰস্থায়ী বন্দোবস্ত অনুসৰি কোনটো পৰিশোধৰ পৰিমাণ একে থাকিব?",
+      "options": [
+        {
+          "en": "The tenant’s rent to the zamindar",
+          "as": "ৰায়তে জমিদাৰক দিয়া খাজনা"
+        },
+        {
+          "en": "The merchant’s payment for grain",
+          "as": "বেপাৰীয়ে শস্য কিনিবলৈ দিয়া দাম"
+        },
+        {
+          "en": "The zamindar’s land revenue to the Company",
+          "as": "জমিদাৰে কোম্পানীক দিয়া ভূমি ৰাজহ"
+        },
+        {
+          "en": "The cultivator’s wages to labourers",
+          "as": "খেতিয়কে বনুৱাক দিয়া মজুৰি"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The settlement fixed the Company’s demand on the zamindar. It gave tenants no equivalent guarantee about rent.",
+        "as": "এই বন্দোবস্তত জমিদাৰে কোম্পানীক দিবলগীয়া ৰাজহ স্থিৰ কৰা হৈছিল। ৰায়তৰ খাজনাৰ ক্ষেত্ৰত তেনে নিশ্চয়তা নাছিল।"
+      },
+      "id": "lesson-7-test-1-q1"
+    },
+    {
+      "en": "A ryot’s receipt names the cultivator as the person paying the government directly. Which arrangement does it illustrate?",
+      "as": "এখন ৰচিদত চৰকাৰক পোনপটীয়াকৈ ৰাজহ দিওঁতা হিচাপে খেতিয়কৰ নাম আছে। ই কোনটো ব্যৱস্থাৰ উদাহৰণ?",
+      "options": [
+        {
+          "en": "Ryotwari settlement",
+          "as": "ৰায়তৱাৰী বন্দোবস্ত"
+        },
+        {
+          "en": "Permanent Settlement",
+          "as": "চিৰস্থায়ী বন্দোবস্ত"
+        },
+        {
+          "en": "Revenue farming by auction",
+          "as": "নিলামযোগে ৰাজহৰ ইজাৰা"
+        },
+        {
+          "en": "Collection through a zamindar",
+          "as": "জমিদাৰৰ জৰিয়তে ৰাজহ সংগ্ৰহ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Under Ryotwari the government settled revenue with individual cultivators.",
+        "as": "ৰায়তৱাৰী ব্যৱস্থাত চৰকাৰে প্ৰতিজন খেতিয়কৰ সৈতে পোনপটীয়াকৈ ৰাজহৰ বন্দোবস্ত কৰিছিল।"
+      },
+      "id": "lesson-7-test-1-q2"
+    },
+    {
+      "en": "Which complaint would most directly call for action under Cornwallis’s restrictions on Company officials?",
+      "as": "কোম্পানীৰ বিষয়াসকলৰ ওপৰত কৰ্ণৱালিছে আৰোপ কৰা নিষেধাজ্ঞা অনুসৰি কোনটো অভিযোগত ব্যৱস্থা লোৱা হ’লহেঁতেন?",
+      "options": [
+        {
+          "en": "A tenant disputes the area of a field",
+          "as": "এজন ৰায়তে মাটিডৰাৰ জোখত আপত্তি জনায়"
+        },
+        {
+          "en": "A merchant asks for a faster mail service",
+          "as": "এজন বেপাৰীয়ে দ্ৰুত ডাকসেৱা বিচাৰে"
+        },
+        {
+          "en": "A teacher requests Bengali textbooks",
+          "as": "এজন শিক্ষকে বাংলা পাঠ্যপুথি বিচাৰে"
+        },
+        {
+          "en": "An officer takes gifts for awarding contracts",
+          "as": "এজন বিষয়াই ঠিকা দিয়াৰ বিনিময়ত উপঢৌকন লয়"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Cornwallis sought to curb corruption by restricting gifts and private dealings by officials.",
+        "as": "বিষয়াই উপঢৌকন লোৱা আৰু ব্যক্তিগত ব্যৱসায় কৰাত বাধা দি কৰ্ণৱালিছে দুৰ্নীতি ৰোধ কৰিব বিচাৰিছিল।"
+      },
+      "id": "lesson-7-test-1-q3"
+    },
+    {
+      "en": "Why would a trading company maintain armed guards at its early settlements?",
+      "as": "এটা বাণিজ্যিক কোম্পানীয়ে প্ৰথম অৱস্থাত নিজৰ বাণিজ্যকেন্দ্ৰত সশস্ত্ৰ প্ৰহৰী ৰখাৰ মূল কাৰণ কি আছিল?",
+      "options": [
+        {
+          "en": "To assess land revenue in villages",
+          "as": "গাঁৱত ভূমি ৰাজহ নিৰ্ধাৰণ কৰিবলৈ"
+        },
+        {
+          "en": "To protect its goods and trading posts",
+          "as": "সামগ্ৰী আৰু বাণিজ্যকুঠি সুৰক্ষিত কৰিবলৈ"
+        },
+        {
+          "en": "To hear appeals from civil courts",
+          "as": "দেৱানী আদালতৰ আপীল শুনিবলৈ"
+        },
+        {
+          "en": "To supervise instruction in colleges",
+          "as": "মহাবিদ্যালয়ৰ পাঠদান তদাৰক কৰিবলৈ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Warehouses and goods were valuable and exposed to attack, so protecting trade was an early military function.",
+        "as": "গুদাম আৰু মূল্যৱান সামগ্ৰীৰ ওপৰত আক্ৰমণৰ আশংকা আছিল। সেয়ে বাণিজ্যৰ সুৰক্ষা বাহিনীৰ আৰম্ভণিৰ এটা কাম আছিল।"
+      },
+      "id": "lesson-7-test-1-q4"
+    },
+    {
+      "en": "Which institution belongs on a timeline at Calcutta in 1781?",
+      "as": "১৭৮১ চনৰ কলিকতাৰ ইতিহাস দেখুওৱা সময়ৰেখাত কোনখন শিক্ষানুষ্ঠান থাকিব?",
+      "options": [
+        {
+          "en": "The college founded at Aligarh",
+          "as": "আলিগড়ত স্থাপিত মহাবিদ্যালয়"
+        },
+        {
+          "en": "The madrasa supported by Warren Hastings",
+          "as": "ৱাৰেন হেষ্টিংছৰ পৃষ্ঠপোষকতাত স্থাপিত মাদ্ৰাছা"
+        },
+        {
+          "en": "The Sanskrit College at Benares",
+          "as": "বাৰাণসীৰ সংস্কৃত মহাবিদ্যালয়"
+        },
+        {
+          "en": "The University of Calcutta",
+          "as": "কলিকতা বিশ্ববিদ্যালয়"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Warren Hastings supported the Calcutta Madrasa for the study of Arabic and Islamic law.",
+        "as": "আৰবী ভাষা আৰু ইছলামীয় আইন অধ্যয়নৰ বাবে ৱাৰেন হেষ্টিংছে কলিকতা মাদ্ৰাছা স্থাপনত সহায় কৰিছিল।"
+      },
+      "id": "lesson-7-test-1-q5"
+    },
+    {
+      "en": "Which change would most directly supply the Company with clerks able to read its English correspondence?",
+      "as": "কোম্পানীৰ ইংৰাজী চিঠিপত্ৰ পঢ়িব পৰা কেৰাণীৰ চাহিদা কোনটো পৰিৱৰ্তনে পোনপটীয়াকৈ পূৰণ কৰিলেহেঁতেন?",
+      "options": [
+        {
+          "en": "Fixing the zamindars’ revenue",
+          "as": "জমিদাৰৰ ৰাজহ স্থিৰ কৰা"
+        },
+        {
+          "en": "Reorganising district police",
+          "as": "জিলা আৰক্ষীৰ পুনৰ্গঠন"
+        },
+        {
+          "en": "Introducing a uniform postage rate",
+          "as": "ডাক মাচুল একে কৰা"
+        },
+        {
+          "en": "Expanding English-language education",
+          "as": "ইংৰাজী শিক্ষাৰ প্ৰসাৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "English schooling gave prospective employees the language skills needed in Company offices.",
+        "as": "ইংৰাজী শিক্ষাই চাকৰিপ্ৰাৰ্থীসকলক কোম্পানীৰ কাৰ্যালয়ত প্ৰয়োজন হোৱা ভাষাজ্ঞান দিছিল।"
+      },
+      "id": "lesson-7-test-1-q6"
+    },
+    {
+      "en": "Which issue links Raja Rammohan Roy’s campaign with a regulation passed under William Bentinck?",
+      "as": "ৰাজা ৰামমোহন ৰায়ৰ আন্দোলন আৰু উইলিয়াম বেণ্টিংকৰ আমোলৰ এখন বিধিৰ মাজত কোনটো বিষয়ৰ মিল আছে?",
+      "options": [
+        {
+          "en": "Abolition of sati",
+          "as": "সতীদাহ প্ৰথাৰ বিলোপ"
+        },
+        {
+          "en": "Legal recognition of widow remarriage",
+          "as": "বিধৱা বিবাহক আইনী স্বীকৃতি"
+        },
+        {
+          "en": "Introduction of permanent land revenue",
+          "as": "চিৰস্থায়ী ভূমি ৰাজহৰ প্ৰৱৰ্তন"
+        },
+        {
+          "en": "Establishment of universities",
+          "as": "বিশ্ববিদ্যালয় স্থাপন"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Roy campaigned against sati, and Bentinck’s government prohibited it in the Bengal Presidency in 1829.",
+        "as": "ৰায়ে সতীদাহৰ বিৰুদ্ধে আন্দোলন কৰিছিল। ১৮২৯ চনত বেণ্টিংকৰ চৰকাৰে বংগ প্ৰেছিডেন্সিত এই প্ৰথা নিষিদ্ধ কৰে।"
+      },
+      "id": "lesson-7-test-1-q7"
+    },
+    {
+      "en": "A museum has a first-person account of a Bengali woman secretly learning to read. Who wrote the autobiography Amar Jiban?",
+      "as": "এটা সংগ্ৰহালয়ত এগৰাকী বঙালী মহিলাই গোপনে পঢ়িবলৈ শিকাৰ নিজা বিৱৰণ আছে। ‘আমাৰ জীৱন’ নামৰ এই আত্মজীৱনীখন কোনে লিখিছিল?",
+      "options": [
+        {
+          "en": "Pandita Ramabai",
+          "as": "পণ্ডিতা ৰমাবাই"
+        },
+        {
+          "en": "Savitribai Phule",
+          "as": "সাৱিত্ৰীবাই ফুলে"
+        },
+        {
+          "en": "Rassundari Devi",
+          "as": "ৰাসসুন্দৰী দেৱী"
+        },
+        {
+          "en": "Begum Rokeya",
+          "as": "বেগম ৰোকেয়া"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Rassundari Devi described her own struggle for literacy in Amar Jiban.",
+        "as": "ৰাসসুন্দৰী দেৱীয়ে ‘আমাৰ জীৱন’ত পঢ়িবলৈ শিকোঁতে নিজে কৰা সংগ্ৰামৰ কথা লিখিছে।"
+      },
+      "id": "lesson-7-test-1-q8"
+    },
+    {
+      "en": "Which movement would best fit an exhibition on Sir Syed Ahmad Khan’s educational work?",
+      "as": "ছাৰ ছৈয়দ আহমদ খানৰ শিক্ষামূলক কামৰ প্ৰদৰ্শনীত কোনটো আন্দোলনে স্থান পাব?",
+      "options": [
+        {
+          "en": "Aligarh Movement",
+          "as": "আলিগড় আন্দোলন"
+        },
+        {
+          "en": "Brahmo Samaj",
+          "as": "ব্ৰাহ্ম সমাজ"
+        },
+        {
+          "en": "Arya Samaj",
+          "as": "আৰ্য সমাজ"
+        },
+        {
+          "en": "Prarthana Samaj",
+          "as": "প্ৰাৰ্থনা সমাজ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "His work at Aligarh expanded opportunities for modern education among Indian Muslims.",
+        "as": "আলিগড়ত তেওঁ কৰা কামে ভাৰতীয় মুছলমানসকলৰ মাজত আধুনিক শিক্ষাৰ সুযোগ বৃদ্ধি কৰিছিল।"
+      },
+      "id": "lesson-7-test-1-q9"
+    },
+    {
+      "en": "Which event belongs between the Permanent Settlement (1793) and Wood’s Despatch (1854)?",
+      "as": "চিৰস্থায়ী বন্দোবস্ত (১৭৯৩) আৰু উডৰ শিক্ষা-বিষয়ক প্ৰেৰণপত্ৰৰ (১৮৫৪) মাজৰ সময়ছোৱাত কোনটো ঘটনা ঘটিছিল?",
+      "options": [
+        {
+          "en": "Foundation of the Calcutta Madrasa",
+          "as": "কলিকতা মাদ্ৰাছা স্থাপন"
+        },
+        {
+          "en": "Prohibition of sati in Bengal",
+          "as": "বংগত সতীদাহ নিষিদ্ধকৰণ"
+        },
+        {
+          "en": "Foundation of the Arya Samaj",
+          "as": "আৰ্য সমাজ স্থাপন"
+        },
+        {
+          "en": "Foundation of the Ramakrishna Mission",
+          "as": "ৰামকৃষ্ণ মিছন স্থাপন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The regulation against sati dates to 1829, within the stated interval.",
+        "as": "সতীদাহবিৰোধী বিধিখন ১৮২৯ চনৰ। এই চনটো উল্লিখিত সময়ছোৱাৰ ভিতৰত পৰে।"
+      },
+      "id": "lesson-7-test-1-q10"
+    }
+  ]
+}

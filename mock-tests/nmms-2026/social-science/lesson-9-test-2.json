@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-9-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 9 · The Revolt of 1857",
+    "as": "পাঠ ৯ · ১৮৫৭ চনৰ বিদ্ৰোহ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which grievance would a supporter of Nana Saheb have raised about the treatment of the former Peshwa’s family?",
+      "as": "প্ৰাক্তন পেছোৱাৰ পৰিয়ালৰ প্ৰতি কোম্পানীৰ আচৰণৰ বিষয়ে নানা চাহেবৰ এজন সমৰ্থকে কোনটো অভিযোগ তুলিলেহেঁতেন?",
+      "options": [
+        {
+          "en": "The Company refused to continue the Peshwa’s pension to Nana Saheb",
+          "as": "কোম্পানীয়ে পেছোৱাৰ পেঞ্চন নানা চাহেবক দি থাকিবলৈ অস্বীকাৰ কৰিলে"
+        },
+        {
+          "en": "The Company annexed Awadh on a charge of misgovernment",
+          "as": "কুশাসনৰ অভিযোগত কোম্পানীয়ে অযোধ্যা দখল কৰিলে"
+        },
+        {
+          "en": "The Company detained the Mughal emperor in Delhi",
+          "as": "কোম্পানীয়ে মোগল সম্ৰাটক দিল্লীত বন্দী কৰিলে"
+        },
+        {
+          "en": "The Company ordered recruits to serve overseas",
+          "as": "কোম্পানীয়ে নতুন সৈন্যক সাগৰৰ সিপাৰে সেৱা কৰিবলৈ নিৰ্দেশ দিলে"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Nana Saheb was the adopted son of the former Peshwa Baji Rao II and sought continuation of his pension.",
+        "as": "নানা চাহেব প্ৰাক্তন পেছোৱা দ্বিতীয় বাজীৰাওৰ তোলনীয়া পুত্ৰ আছিল। তেওঁ পিতৃৰ পেঞ্চন অব্যাহত ৰখাৰ দাবী কৰিছিল।"
+      },
+      "id": "lesson-9-test-2-q1"
+    },
+    {
+      "en": "Which leader and place best illustrate resistance by a queen defending her state after annexation?",
+      "as": "ৰাজ্য গ্ৰাসৰ পাছত নিজৰ ৰাজ্যৰ বাবে যুঁজ দিয়া এগৰাকী ৰাণীক কোনটো যোৰে চিনাক্ত কৰে?",
+      "options": [
+        {
+          "en": "Hazrat Mahal of Kanpur",
+          "as": "কানপুৰৰ হজৰত মহল"
+        },
+        {
+          "en": "Lakshmibai of Jhansi",
+          "as": "ঝান্সীৰ লক্ষ্মীবাই"
+        },
+        {
+          "en": "Lakshmibai of Lucknow",
+          "as": "লক্ষ্ণৌৰ লক্ষ্মীবাই"
+        },
+        {
+          "en": "Hazrat Mahal of Jhansi",
+          "as": "ঝান্সীৰ হজৰত মহল"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "After the Company annexed Jhansi, Lakshmibai became a leading figure in the armed resistance.",
+        "as": "কোম্পানীয়ে ঝান্সী গ্ৰাস কৰাৰ পাছত লক্ষ্মীবাই সশস্ত্ৰ প্ৰতিৰোধৰ এগৰাকী আগশাৰীৰ নেত্ৰী হৈ উঠিছিল।"
+      },
+      "id": "lesson-9-test-2-q2"
+    },
+    {
+      "en": "A museum separates long-standing causes from the immediate trigger of the revolt. Which card belongs under ‘immediate trigger’?",
+      "as": "এটা সংগ্ৰহালয়ত বিদ্ৰোহৰ দীৰ্ঘদিনীয়া কাৰণ আৰু তাৎক্ষণিক কাৰণৰ বাবে সুকীয়া শিতান আছে। ‘তাৎক্ষণিক কাৰণ’ শিতানত কোনখন কাৰ্ড থাকিব?",
+      "options": [
+        {
+          "en": "The decline of handicrafts",
+          "as": "হস্তশিল্পৰ অৱনতি"
+        },
+        {
+          "en": "Annexation of princely states",
+          "as": "দেশীয় ৰাজ্য গ্ৰাস"
+        },
+        {
+          "en": "Unequal treatment in military service",
+          "as": "সামৰিক চাকৰিত অসম ব্যৱহাৰ"
+        },
+        {
+          "en": "The dispute over greased cartridges",
+          "as": "চৰ্বি লগোৱা কাৰ্তুজক লৈ হোৱা বিবাদ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The cartridge dispute sparked open defiance after political, economic and military grievances had accumulated.",
+        "as": "ৰাজনৈতিক, অৰ্থনৈতিক আৰু সামৰিক ক্ষোভ বহুদিন ধৰি জমা হৈছিল। কাৰ্তুজৰ বিবাদে মুকলি বিদ্ৰোহৰ সূচনা কৰিলে।"
+      },
+      "id": "lesson-9-test-2-q3"
+    },
+    {
+      "en": "Which finding most directly explains the rebels’ difficulty in sustaining a coordinated campaign across northern India?",
+      "as": "উত্তৰ ভাৰতজুৰি একেলগে অভিযান চলাই নিয়াত বিদ্ৰোহীসকলৰ অসুবিধাৰ কাৰণ কোনটো তথ্যই পোনপটীয়াকৈ বুজায়?",
+      "options": [
+        {
+          "en": "Regional leaders often acted without a common command",
+          "as": "বিভিন্ন অঞ্চলৰ নেতাই প্ৰায়ে এক উমৈহতীয়া নেতৃত্ব অবিহনে কাম কৰিছিল"
+        },
+        {
+          "en": "Several groups had grievances against the Company",
+          "as": "কেইবাটাও গোষ্ঠীৰ কোম্পানীৰ বিৰুদ্ধে ক্ষোভ আছিল"
+        },
+        {
+          "en": "Delhi had symbolic importance",
+          "as": "দিল্লীৰ প্ৰতীকী গুৰুত্ব আছিল"
+        },
+        {
+          "en": "The revolt involved soldiers and civilians",
+          "as": "বিদ্ৰোহত সৈনিক আৰু অসামৰিক লোক জড়িত আছিল"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Separate centres could resist locally, but the lack of unified direction hindered joint action.",
+        "as": "বেলেগ বেলেগ কেন্দ্ৰত স্থানীয় প্ৰতিৰোধ গঢ়ি উঠিছিল যদিও একত্ৰিত নেতৃত্বৰ অভাৱে যৌথ অভিযানত বাধা দিছিল।"
+      },
+      "id": "lesson-9-test-2-q4"
+    },
+    {
+      "en": "Whom did Maniram Dewan’s supporters hope to place on the Ahom throne during the events of 1857?",
+      "as": "১৮৫৭ চনৰ ঘটনাপ্ৰৱাহৰ সময়ত মণিৰাম দেৱানৰ সমৰ্থকসকলে কাক আহোম সিংহাসনত বহুৱাব বিচাৰিছিল?",
+      "options": [
+        {
+          "en": "Gomdhar Konwar",
+          "as": "গোমধৰ কোঁৱৰ"
+        },
+        {
+          "en": "Kandarpeswar Singha",
+          "as": "কন্দৰ্পেশ্বৰ সিংহ"
+        },
+        {
+          "en": "Gaurinath Singha",
+          "as": "গৌৰীনাথ সিংহ"
+        },
+        {
+          "en": "Chandrakanta Singha",
+          "as": "চন্দ্ৰকান্ত সিংহ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The plan in Assam linked resistance to Company rule with restoring Ahom authority under Kandarpeswar Singha.",
+        "as": "অসমৰ পৰিকল্পনাত কোম্পানীৰ শাসনৰ বিৰোধিতাৰ সৈতে কন্দৰ্পেশ্বৰ সিংহৰ অধীনত আহোমৰাজ পুনঃপ্ৰতিষ্ঠাৰ লক্ষ্য জড়িত আছিল।"
+      },
+      "id": "lesson-9-test-2-q5"
+    },
+    {
+      "en": "Which pair belongs on a memorial to the two men executed at Jorhat on 26 February 1858?",
+      "as": "১৮৫৮ চনৰ ২৬ ফেব্ৰুৱাৰীত যোৰহাটত ফাঁচি দিয়া দুজন ব্যক্তিৰ স্মৃতিফলকত কোন দুজনৰ নাম থাকিব?",
+      "options": [
+        {
+          "en": "Gomdhar Konwar and Piyali Phukan",
+          "as": "গোমধৰ কোঁৱৰ আৰু পিয়লি ফুকন"
+        },
+        {
+          "en": "Kandarpeswar Singha and Piyali Barua",
+          "as": "কন্দৰ্পেশ্বৰ সিংহ আৰু পিয়লি বৰুৱা"
+        },
+        {
+          "en": "Maniram Dewan and Piyali Barua",
+          "as": "মণিৰাম দেৱান আৰু পিয়লি বৰুৱা"
+        },
+        {
+          "en": "Maniram Dewan and Piyali Phukan",
+          "as": "মণিৰাম দেৱান আৰু পিয়লি ফুকন"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Maniram and Piyali Barua were executed for their part in the resistance in Assam connected with 1857.",
+        "as": "১৮৫৭ চনৰ বিদ্ৰোহৰ সৈতে জড়িত অসমৰ প্ৰতিৰোধত অংশ লোৱাৰ বাবে মণিৰাম দেৱান আৰু পিয়লি বৰুৱাক ফাঁচি দিয়া হৈছিল।"
+      },
+      "id": "lesson-9-test-2-q6"
+    },
+    {
+      "en": "Which evidence best connects the discontent of Indian sepoys with conditions inside the army itself?",
+      "as": "কোনটো তথ্যই ভাৰতীয় চিপাহীসকলৰ অসন্তোষৰ সৈতে সেনাবাহিনীৰ আভ্যন্তৰীণ ব্যৱস্থাৰ সম্পৰ্ক আটাইতকৈ স্পষ্ট কৰে?",
+      "options": [
+        {
+          "en": "Imported cloth displaced local textiles",
+          "as": "আমদানিকৃত কাপোৰে থলুৱা বস্ত্ৰৰ বজাৰ দখল কৰিছিল"
+        },
+        {
+          "en": "Indian soldiers faced unequal pay and limited promotion",
+          "as": "ভাৰতীয় সৈনিকে দৰমহাত বৈষম্য আৰু পদোন্নতিত বাধাৰ সন্মুখীন হৈছিল"
+        },
+        {
+          "en": "Rulers lost their pensions",
+          "as": "ৰজাসকলে পেঞ্চন হেৰুৱাইছিল"
+        },
+        {
+          "en": "Landholders lost estates after annexation",
+          "as": "ৰাজ্য গ্ৰাসৰ পাছত ভূস্বামীসকলে মাটি হেৰুৱাইছিল"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Pay and promotion affected the sepoys directly in their service and sharpened resentment of discrimination.",
+        "as": "দৰমহা আৰু পদোন্নতিৰ বৈষম্যই চিপাহীসকলৰ চাকৰি জীৱনত পোনপটীয়া প্ৰভাৱ পেলাই তেওঁলোকৰ ক্ষোভ বঢ়াইছিল।"
+      },
+      "id": "lesson-9-test-2-q7"
+    },
+    {
+      "en": "Which development in Assam shows that organised opposition continued after the Crown took power?",
+      "as": "ব্ৰিটিছ ৰাজমুকুটে শাসনভাৰ লোৱাৰ পাছতো অসমত সংগঠিত বিৰোধিতা চলি থকাৰ প্ৰমাণ কোনটো ঘটনা?",
+      "options": [
+        {
+          "en": "The peasant uprising at Phulaguri",
+          "as": "ফুলগুৰিৰ কৃষক বিদ্ৰোহ"
+        },
+        {
+          "en": "Gomdhar Konwar’s uprising",
+          "as": "গোমধৰ কোঁৱৰৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Maniram Dewan’s plan during 1857",
+          "as": "১৮৫৭ চনত মণিৰাম দেৱানৰ পৰিকল্পনা"
+        },
+        {
+          "en": "The resistance led by Piyali Phukan in 1830",
+          "as": "১৮৩০ চনত পিয়লি ফুকনৰ নেতৃত্বত হোৱা প্ৰতিৰোধ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The Phulaguri uprising took place in 1861, three years after the transfer of power in 1858.",
+        "as": "১৮৫৮ চনত শাসনভাৰ হস্তান্তৰ হোৱাৰ তিনি বছৰৰ পাছত, ১৮৬১ চনত ফুলগুৰিৰ ধেৱা হৈছিল।"
+      },
+      "id": "lesson-9-test-2-q8"
+    },
+    {
+      "en": "Which sequence correctly orders events in the spread of the revolt of 1857?",
+      "as": "১৮৫৭ চনৰ বিদ্ৰোহ বিয়পি পৰাৰ ঘটনাক্ৰম কোনটো শাৰীত শুদ্ধকৈ দিয়া হৈছে?",
+      "options": [
+        {
+          "en": "Meerut uprising → Barrackpore incident → rebels reach Delhi",
+          "as": "মীৰাটৰ বিদ্ৰোহ → বাৰাকপুৰৰ ঘটনা → বিদ্ৰোহী দিল্লীত উপস্থিত"
+        },
+        {
+          "en": "Rebels reach Delhi → Meerut uprising → Barrackpore incident",
+          "as": "বিদ্ৰোহী দিল্লীত উপস্থিত → মীৰাটৰ বিদ্ৰোহ → বাৰাকপুৰৰ ঘটনা"
+        },
+        {
+          "en": "Barrackpore incident → rebels reach Delhi → Meerut uprising",
+          "as": "বাৰাকপুৰৰ ঘটনা → বিদ্ৰোহী দিল্লীত উপস্থিত → মীৰাটৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Barrackpore incident → Meerut uprising → rebels reach Delhi",
+          "as": "বাৰাকপুৰৰ ঘটনা → মীৰাটৰ বিদ্ৰোহ → বিদ্ৰোহী দিল্লীত উপস্থিত"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The March incident at Barrackpore preceded the Meerut rising on 10 May. The rebels reached Delhi the next day.",
+        "as": "মাৰ্চত বাৰাকপুৰৰ ঘটনা ঘটিছিল। ১০ মে’ত মীৰাটত বিদ্ৰোহ কৰাৰ পাছদিনা বিদ্ৰোহীসকল দিল্লীত উপস্থিত হৈছিল।"
+      },
+      "id": "lesson-9-test-2-q9"
+    },
+    {
+      "en": "Why would a British pledge in 1858 to respect the rights of Indian princes address a cause of the revolt?",
+      "as": "১৮৫৮ চনত ভাৰতীয় ৰজাসকলৰ অধিকাৰক সন্মান জনোৱাৰ ব্ৰিটিছ প্ৰতিশ্ৰুতিয়ে বিদ্ৰোহৰ এটা কাৰণক কেনেকৈ সম্বোধন কৰিছিল?",
+      "options": [
+        {
+          "en": "It guaranteed higher wages for weavers",
+          "as": "তাঁতীসকলৰ অধিক মজুৰি নিশ্চিত কৰিছিল"
+        },
+        {
+          "en": "It removed the overseas-service requirement",
+          "as": "সাগৰৰ সিপাৰে সামৰিক সেৱাৰ চৰ্ত আঁতৰাইছিল"
+        },
+        {
+          "en": "It sought to ease fears of further annexation",
+          "as": "আৰু ৰাজ্য গ্ৰাস হ’ব পাৰে বুলি থকা আশংকা কমাব বিচাৰিছিল"
+        },
+        {
+          "en": "It restored Mughal authority over all India",
+          "as": "সমগ্ৰ ভাৰতত মোগল কৰ্তৃত্ব ঘূৰাই আনিছিল"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Company annexations had alienated rulers. Assurances about their states addressed that specific political grievance.",
+        "as": "কোম্পানীৰ ৰাজ্য গ্ৰাস নীতিয়ে দেশীয় ৰজাসকলক ক্ষুব্ধ কৰিছিল। তেওঁলোকৰ ৰাজ্যৰ সুৰক্ষা সম্পৰ্কীয় আশ্বাসে সেই ৰাজনৈতিক ক্ষোভ দূৰ কৰাৰ চেষ্টা কৰিছিল।"
+      },
+      "id": "lesson-9-test-2-q10"
+    }
+  ]
+}

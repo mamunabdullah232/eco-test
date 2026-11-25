@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-12-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 12 · Fundamental Rights",
+    "as": "পাঠ ১২ · মৌলিক অধিকাৰ"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which right protects equal opportunity for citizens applying for a government post?",
+      "as": "চৰকাৰী পদত আবেদন কৰা নাগৰিকৰ সমান সুযোগ কোনটো অধিকাৰে সুৰক্ষিত কৰে?",
+      "options": [
+        {
+          "en": "Right to Freedom",
+          "as": "স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right against Exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom of Religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Equality",
+          "as": "সমতাৰ অধিকাৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Article 16 guarantees equality of opportunity in public employment.",
+        "as": "অনুচ্ছেদ ১৬-ই চৰকাৰী চাকৰিৰ ক্ষেত্ৰত সমান সুযোগ নিশ্চিত কৰে।"
+      },
+      "id": "lesson-12-test-1-q1"
+    },
+    {
+      "en": "A twelve-year-old is employed underground in a mine. Which right is violated?",
+      "as": "বাৰ বছৰীয়া শিশু এটাক খনিৰ তলত কামত নিয়োগ কৰা হৈছে। কোনটো অধিকাৰ লঙ্ঘিত হৈছে?",
+      "options": [
+        {
+          "en": "Right to Equality",
+          "as": "সমতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom",
+          "as": "স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right against Exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom of Religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Article 24 prohibits employing children below fourteen in mines, factories and other hazardous work.",
+        "as": "অনুচ্ছেদ ২৪-এ চৈধ্য বছৰৰ তলৰ শিশুক খনি, কাৰখানা আৰু আন বিপজ্জনক কামত নিয়োগ নিষিদ্ধ কৰে।"
+      },
+      "id": "lesson-12-test-1-q2"
+    },
+    {
+      "en": "Residents organise a peaceful, unarmed meeting to discuss water supply. Which right covers their assembly?",
+      "as": "পানী যোগানৰ বিষয়ে আলোচনা কৰিবলৈ বাসিন্দাসকলে নিৰস্ত্ৰভাৱে শান্তিপূৰ্ণ সভা পাতিছে। এই সমাৱেশ কোনটো অধিকাৰৰ অন্তৰ্গত?",
+      "options": [
+        {
+          "en": "Right to Freedom of Religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Equality",
+          "as": "সমতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom",
+          "as": "স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right against Exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Peaceful assembly without arms is one of the freedoms guaranteed to citizens by Article 19.",
+        "as": "নিৰস্ত্ৰভাৱে শান্তিপূৰ্ণ সমাৱেশ পতাৰ স্বাধীনতা অনুচ্ছেদ ১৯-ত নাগৰিকক দিয়া হৈছে।"
+      },
+      "id": "lesson-12-test-1-q3"
+    },
+    {
+      "en": "Which right allows a person to profess and practise a religion of their choice?",
+      "as": "এজন ব্যক্তিয়ে নিজৰ পছন্দৰ ধৰ্ম গ্ৰহণ আৰু পালন কৰিবলৈ কোনটো অধিকাৰে সুযোগ দিয়ে?",
+      "options": [
+        {
+          "en": "Right against Exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom of Religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Equality",
+          "as": "সমতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom",
+          "as": "স্বাধীনতাৰ অধিকাৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Article 25 protects freedom of conscience and religious practice subject to constitutional limits.",
+        "as": "অনুচ্ছেদ ২৫-এ সাংবিধানিক সীমাৰ ভিতৰত বিবেকৰ স্বাধীনতা আৰু ধৰ্মাচৰণৰ অধিকাৰ সুৰক্ষিত কৰে।"
+      },
+      "id": "lesson-12-test-1-q4"
+    },
+    {
+      "en": "Which provision would a campaign against untouchability quote most directly?",
+      "as": "অস্পৃশ্যতাৰ বিৰুদ্ধে চলোৱা অভিযানত কোনটো অনুচ্ছেদ পোনপটীয়াকৈ উদ্ধৃত কৰা হ’ব?",
+      "options": [
+        {
+          "en": "Article 17",
+          "as": "অনুচ্ছেদ ১৭"
+        },
+        {
+          "en": "Article 21A",
+          "as": "অনুচ্ছেদ ২১ক"
+        },
+        {
+          "en": "Article 32",
+          "as": "অনুচ্ছেদ ৩২"
+        },
+        {
+          "en": "Article 14",
+          "as": "অনুচ্ছেদ ১৪"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Article 17 abolishes untouchability and forbids its practice in any form.",
+        "as": "অনুচ্ছেদ ১৭-ই অস্পৃশ্যতা বিলোপ কৰি ইয়াৰ সকলো ৰূপ নিষিদ্ধ কৰিছে।"
+      },
+      "id": "lesson-12-test-1-q5"
+    },
+    {
+      "en": "A ten-year-old seeks free and compulsory elementary education. Which provision supports this claim?",
+      "as": "দহ বছৰীয়া শিশু এটিয়ে বিনামূলীয়া আৰু বাধ্যতামূলক প্ৰাথমিক শিক্ষা বিচাৰিছে। কোনটো অনুচ্ছেদে এই দাবীক সমৰ্থন কৰে?",
+      "options": [
+        {
+          "en": "Article 14",
+          "as": "অনুচ্ছেদ ১৪"
+        },
+        {
+          "en": "Article 17",
+          "as": "অনুচ্ছেদ ১৭"
+        },
+        {
+          "en": "Article 21A",
+          "as": "অনুচ্ছেদ ২১ক"
+        },
+        {
+          "en": "Article 32",
+          "as": "অনুচ্ছেদ ৩২"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Article 21A covers children aged six to fourteen.",
+        "as": "অনুচ্ছেদ ২১ক ছয়ৰ পৰা চৈধ্য বছৰ বয়সৰ শিশুৰ ক্ষেত্ৰত প্ৰযোজ্য।"
+      },
+      "id": "lesson-12-test-1-q6"
+    },
+    {
+      "en": "Which provision guarantees the right to move the Supreme Court to enforce fundamental rights?",
+      "as": "মৌলিক অধিকাৰ বলৱৎ কৰিবলৈ উচ্চতম ন্যায়ালয়ৰ কাষ চপাৰ অধিকাৰ কোনটো অনুচ্ছেদে নিশ্চিত কৰে?",
+      "options": [
+        {
+          "en": "Article 32",
+          "as": "অনুচ্ছেদ ৩২"
+        },
+        {
+          "en": "Article 14",
+          "as": "অনুচ্ছেদ ১৪"
+        },
+        {
+          "en": "Article 17",
+          "as": "অনুচ্ছেদ ১৭"
+        },
+        {
+          "en": "Article 21A",
+          "as": "অনুচ্ছেদ ২১ক"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Article 32 provides a constitutional remedy before the Supreme Court.",
+        "as": "অনুচ্ছেদ ৩২-এ উচ্চতম ন্যায়ালয়ত সাংবিধানিক প্ৰতিকাৰ বিচৰাৰ সুযোগ দিয়ে।"
+      },
+      "id": "lesson-12-test-1-q7"
+    },
+    {
+      "en": "Who can claim equality before the law under Article 14 within India?",
+      "as": "ভাৰতৰ ভিতৰত অনুচ্ছেদ ১৪ অনুসৰি আইনৰ আগত সমতা কোনে দাবী কৰিব পাৰে?",
+      "options": [
+        {
+          "en": "Only Indian citizens",
+          "as": "কেৱল ভাৰতীয় নাগৰিকে"
+        },
+        {
+          "en": "Only taxpayers",
+          "as": "কেৱল কৰদাতাই"
+        },
+        {
+          "en": "Both citizens and non-citizens",
+          "as": "নাগৰিক আৰু অনাগৰিক উভয়ে"
+        },
+        {
+          "en": "Only elected representatives",
+          "as": "কেৱল নিৰ্বাচিত প্ৰতিনিধিয়ে"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Article 14 uses the term “any person”.",
+        "as": "অনুচ্ছেদ ১৪-ত ‘যিকোনো ব্যক্তি’ৰ কথা কোৱা হৈছে।"
+      },
+      "id": "lesson-12-test-1-q8"
+    },
+    {
+      "en": "To whom does Article 19 grant its listed freedoms, including freedom of speech?",
+      "as": "বাক্‌স্বাধীনতাকে ধৰি অনুচ্ছেদ ১৯-ত উল্লেখ কৰা স্বাধীনতাসমূহ কাক দিয়া হৈছে?",
+      "options": [
+        {
+          "en": "Only elected representatives",
+          "as": "কেৱল নিৰ্বাচিত প্ৰতিনিধিয়ে"
+        },
+        {
+          "en": "Only Indian citizens",
+          "as": "কেৱল ভাৰতীয় নাগৰিকে"
+        },
+        {
+          "en": "Only taxpayers",
+          "as": "কেৱল কৰদাতাই"
+        },
+        {
+          "en": "Both citizens and non-citizens",
+          "as": "নাগৰিক আৰু অনাগৰিক উভয়ে"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Article 19 expressly grants these freedoms to citizens.",
+        "as": "অনুচ্ছেদ ১৯-ত এই স্বাধীনতাসমূহ স্পষ্টভাৱে নাগৰিকক দিয়া হৈছে।"
+      },
+      "id": "lesson-12-test-1-q9"
+    },
+    {
+      "en": "A linguistic minority wishes to establish and administer a school of its choice. Which group of rights applies?",
+      "as": "এটা ভাষিক সংখ্যালঘু গোষ্ঠীয়ে নিজৰ পছন্দৰ বিদ্যালয় স্থাপন আৰু পৰিচালনা কৰিব বিচাৰে। এয়া কোনখিনি অধিকাৰৰ অন্তৰ্গত?",
+      "options": [
+        {
+          "en": "Cultural and Educational Rights",
+          "as": "সাংস্কৃতিক আৰু শিক্ষাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to Freedom of Religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right against Exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Right to Equality",
+          "as": "সমতাৰ অধিকাৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Article 30 protects this right of religious and linguistic minorities.",
+        "as": "অনুচ্ছেদ ৩০-এ ধৰ্মীয় আৰু ভাষিক সংখ্যালঘুৰ এই অধিকাৰ সুৰক্ষিত কৰে।"
+      },
+      "id": "lesson-12-test-1-q10"
+    }
+  ]
+}

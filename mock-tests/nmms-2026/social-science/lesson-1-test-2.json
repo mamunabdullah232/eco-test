@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-1-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 1 · Ancient Kamrupa",
+    "as": "পাঠ ১ · প্ৰাচীন কামৰূপ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which change of ruler depended on a decision by the ministers after Tyagasimha died without an heir?",
+      "as": "ত্যাগসিংহৰ নিঃসন্তান অৱস্থাত মৃত্যু হোৱাৰ পিছত মন্ত্ৰীসকলৰ সিদ্ধান্তত কোন ৰজা হৈছিল?",
+      "options": [
+        {
+          "en": "Samudravarman",
+          "as": "সমুদ্ৰবৰ্মন"
+        },
+        {
+          "en": "Harshadeva",
+          "as": "হৰ্ষদেৱ"
+        },
+        {
+          "en": "Prithu",
+          "as": "পৃথু"
+        },
+        {
+          "en": "Brahmapala",
+          "as": "ব্ৰহ্মপাল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The ministers and senior officials selected Brahmapala to fill the vacant throne.",
+        "as": "খালী হোৱা সিংহাসনৰ বাবে মন্ত্ৰী আৰু উচ্চপদস্থ বিষয়াসকলে ব্ৰহ্মপালক বাছি লৈছিল।"
+      },
+      "id": "lesson-1-test-2-q1"
+    },
+    {
+      "en": "Which site would a student mark to show Ratnapala’s new capital?",
+      "as": "ৰত্নপালৰ নতুন ৰাজধানী দেখুৱাবলৈ মানচিত্ৰত কোনখন ঠাই চিহ্নিত কৰিব লাগিব?",
+      "options": [
+        {
+          "en": "Kamatapur",
+          "as": "কমতাপুৰ"
+        },
+        {
+          "en": "Charaideo",
+          "as": "চৰাইদেউ"
+        },
+        {
+          "en": "Durjaya",
+          "as": "দুৰ্জয়"
+        },
+        {
+          "en": "Dimapur",
+          "as": "ডিমাপুৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Ratnapala founded Durjaya, which historians associate with parts of present-day Guwahati.",
+        "as": "ৰত্নপালে দুৰ্জয় নগৰ স্থাপন কৰিছিল। ইতিহাসবিদসকলে ইয়াৰ অৱস্থান বৰ্তমানৰ গুৱাহাটীৰ একাংশত আছিল বুলি অনুমান কৰে।"
+      },
+      "id": "lesson-1-test-2-q2"
+    },
+    {
+      "en": "A clerk lists bhukti, mandala and grama under one heading. Which heading fits?",
+      "as": "এজন লিপিকাৰে ভুক্তি, মণ্ডল আৰু গ্ৰাম একেটা শিতানত লিখিছে। শিতানটোৰ উপযুক্ত নাম কি?",
+      "options": [
+        {
+          "en": "Ranks in the army",
+          "as": "সেনাবাহিনীৰ পদবী"
+        },
+        {
+          "en": "Territorial units of administration",
+          "as": "প্ৰশাসনিক অঞ্চল"
+        },
+        {
+          "en": "Types of religious grants",
+          "as": "ধৰ্মীয় দানৰ প্ৰকাৰ"
+        },
+        {
+          "en": "Titles of kings",
+          "as": "ৰজাৰ উপাধি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Kamrupa was divided into territorial units to make administration easier.",
+        "as": "শাসনৰ সুবিধাৰ বাবে কামৰূপক কেইবাটাও সৰু প্ৰশাসনিক অঞ্চলত ভগোৱা হৈছিল।"
+      },
+      "id": "lesson-1-test-2-q3"
+    },
+    {
+      "en": "A cultivator pays part of the harvest as land revenue. What does this payment illustrate?",
+      "as": "এজন খেতিয়কে উৎপন্ন শস্যৰ এভাগ মাটিৰ খাজনা হিচাপে দিলে। ইয়াত কৰ আদায়ৰ কোনটো ৰূপ দেখা যায়?",
+      "options": [
+        {
+          "en": "Payment in kind",
+          "as": "বস্তুৰে কৰ আদায়"
+        },
+        {
+          "en": "Exemption from tax",
+          "as": "কৰ ৰেহাই"
+        },
+        {
+          "en": "Payment in coin",
+          "as": "মুদ্ৰাৰে কৰ আদায়"
+        },
+        {
+          "en": "A grant of land",
+          "as": "ভূমিদান"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The cultivator pays with produce. Kamrupa accepted revenue in goods as well as in cash.",
+        "as": "খেতিয়কে উৎপাদিত শস্যৰে খাজনা দিছে। কামৰূপত নগদ ধনৰ লগতে বস্তুৰেও কৰ আদায় দিব পৰা গৈছিল।"
+      },
+      "id": "lesson-1-test-2-q4"
+    },
+    {
+      "en": "Which combination best explains why rivers such as the Subansiri mattered to gold workers?",
+      "as": "সোৱণশিৰিৰ দৰে নৈবোৰ সোণাৰীৰ বাবে কিয় গুৰুত্বপূৰ্ণ আছিল?",
+      "options": [
+        {
+          "en": "Rivers supplied indigo for colouring gold.",
+          "as": "সোণত ৰং দিবলৈ নৈত নীল পোৱা গৈছিল।"
+        },
+        {
+          "en": "River clay served as the main metal in ornaments.",
+          "as": "নৈৰ বোকাই অলংকাৰৰ মূল ধাতুৰ কাম কৰিছিল।"
+        },
+        {
+          "en": "Rivers brought all gold from Kashmir.",
+          "as": "সকলো সোণ নৈয়েদি কাশ্মীৰৰ পৰা আহিছিল।"
+        },
+        {
+          "en": "River deposits supplied gold for ornaments.",
+          "as": "নৈৰ পলসত অলংকাৰ গঢ়াৰ বাবে সোণ পোৱা গৈছিল।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Gold occurred in several rivers of Kamrupa and supported local jewellery making.",
+        "as": "কামৰূপৰ কেইবাখনো নৈত সোণ পোৱা গৈছিল আৰু সেই সোণেৰে স্থানীয় সোণাৰীয়ে অলংকাৰ গঢ়িছিল।"
+      },
+      "id": "lesson-1-test-2-q5"
+    },
+    {
+      "en": "Which lesson timetable would fit an educational centre in ancient Kamrupa?",
+      "as": "তলৰ কোনখন পাঠসূচী প্ৰাচীন কামৰূপৰ শিক্ষাকেন্দ্ৰৰ সৈতে খাপ খায়?",
+      "options": [
+        {
+          "en": "Vedic study with medicine reserved for the army alone",
+          "as": "বেদ অধ্যয়ন আৰু কেৱল সেনাৰ বাবে চিকিৎসাবিদ্যা"
+        },
+        {
+          "en": "Astronomy with all religious texts excluded",
+          "as": "ধৰ্মগ্ৰন্থ বাদ দি কেৱল জ্যোতিৰ্বিদ্যা"
+        },
+        {
+          "en": "Vedic study, astronomy and medicine",
+          "as": "বেদ অধ্যয়ন, জ্যোতিৰ্বিদ্যা আৰু চিকিৎসাবিদ্যা"
+        },
+        {
+          "en": "Music with the study of Sanskrit forbidden",
+          "as": "সংস্কৃত অধ্যয়ন নিষিদ্ধ কৰি সংগীত শিক্ষা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Teaching included the Vedas alongside subjects such as astronomy and Ayurveda.",
+        "as": "বেদৰ লগতে জ্যোতিৰ্বিদ্যা আৰু আয়ুৰ্বেদৰ দৰে বিষয়ো পঢ়োৱা হৈছিল।"
+      },
+      "id": "lesson-1-test-2-q6"
+    },
+    {
+      "en": "Which statement about language is supported by the royal plates of Kamrupa?",
+      "as": "কামৰূপৰ ৰাজকীয় ফলিসমূহে ভাষা সম্পৰ্কে কোনটো কথাৰ সাক্ষ্য দিয়ে?",
+      "options": [
+        {
+          "en": "Sanskrit was used in royal administration.",
+          "as": "ৰাজকাৰ্যত সংস্কৃত ব্যৱহাৰ কৰা হৈছিল।"
+        },
+        {
+          "en": "Every village used the same spoken language.",
+          "as": "সকলো গাঁৱতে একেটা কথিত ভাষা চলিছিল।"
+        },
+        {
+          "en": "Only priests could understand Sanskrit.",
+          "as": "কেৱল পুৰোহিতেহে সংস্কৃত বুজিছিল।"
+        },
+        {
+          "en": "Old Assamese had replaced Sanskrit in royal records.",
+          "as": "ৰাজকীয় নথিত সংস্কৃতৰ ঠাই পুৰণি অসমীয়াই লৈছিল।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Sanskrit inscriptions show its official use in a society where several languages were spoken.",
+        "as": "বিভিন্ন ভাষা প্ৰচলিত সমাজখনত সংস্কৃতৰ ৰাজকীয় ব্যৱহাৰৰ সাক্ষ্য ফলিৰ লেখাবোৰত পোৱা যায়।"
+      },
+      "id": "lesson-1-test-2-q7"
+    },
+    {
+      "en": "A display on Shakti worship needs a site from ancient Kamrupa. Which site belongs in it?",
+      "as": "প্ৰাচীন কামৰূপৰ শক্তি উপাসনা বিষয়ক প্ৰদৰ্শনীত কোনটো স্থান অন্তৰ্ভুক্ত কৰা উচিত?",
+      "options": [
+        {
+          "en": "The court at Durjaya",
+          "as": "দুৰ্জয়ৰ ৰাজসভা"
+        },
+        {
+          "en": "The findspot of the Nidhanpur plates",
+          "as": "নিধনপুৰৰ ফলি উদ্ধাৰ হোৱা ঠাই"
+        },
+        {
+          "en": "The site of Amritaprabha’s marriage",
+          "as": "অমৃতপ্ৰভাৰ বিবাহস্থলী"
+        },
+        {
+          "en": "Kamakhya temple",
+          "as": "কামাখ্যা মন্দিৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Kamakhya was a major centre of worship of the Goddess in Kamrupa.",
+        "as": "কামৰূপত দেৱী উপাসনাৰ অন্যতম প্ৰধান কেন্দ্ৰ আছিল কামাখ্যা।"
+      },
+      "id": "lesson-1-test-2-q8"
+    },
+    {
+      "en": "A fifth-century inscription, a seventh-century plate and an inscription dated 830 CE are displayed in time order. Which labels fit?",
+      "as": "পঞ্চম শতিকাৰ শিলালিপি, সপ্তম শতিকাৰ তাম্ৰফলি আৰু ৮৩০ খ্ৰীষ্টাব্দৰ শিলালিপি এই ক্ৰমত সজোৱা হৈছে। কোনকেইখন নামফলক মিলিব?",
+      "options": [
+        {
+          "en": "Dubi → Umachal → Tezpur",
+          "as": "ডুবি → উমাচল → তেজপুৰ"
+        },
+        {
+          "en": "Umachal → Dubi → Tezpur",
+          "as": "উমাচল → ডুবি → তেজপুৰ"
+        },
+        {
+          "en": "Tezpur → Dubi → Umachal",
+          "as": "তেজপুৰ → ডুবি → উমাচল"
+        },
+        {
+          "en": "Umachal → Tezpur → Dubi",
+          "as": "উমাচল → তেজপুৰ → ডুবি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The lesson dates Umachal to the fifth century, Dubi to the seventh and the Tezpur inscription to 830 CE.",
+        "as": "পাঠৰ তালিকা অনুসৰি উমাচলৰ লিপি পঞ্চম শতিকাৰ, ডুবিৰ ফলি সপ্তম শতিকাৰ আৰু তেজপুৰৰ লিপি ৮৩০ খ্ৰীষ্টাব্দৰ।"
+      },
+      "id": "lesson-1-test-2-q9"
+    },
+    {
+      "en": "Which question can Hiuen Tsang’s Si-Yu-Ki answer most directly?",
+      "as": "হিউৱেন চাঙৰ ‘চি-ইউ-কি’ৰ পৰা কোনটো প্ৰশ্নৰ আটাইতকৈ পোনপটীয়া উত্তৰ পোৱা যায়?",
+      "options": [
+        {
+          "en": "Why did ministers choose Brahmapala?",
+          "as": "মন্ত্ৰীসকলে ব্ৰহ্মপালক কিয় বাছি লৈছিল?"
+        },
+        {
+          "en": "Where did Ratnapala build his capital?",
+          "as": "ৰত্নপালে ক’ত ৰাজধানী পাতিছিল?"
+        },
+        {
+          "en": "How did a visiting traveller describe the people of Kamrupa?",
+          "as": "এজন ভ্ৰমণকাৰীয়ে কামৰূপৰ লোকসকলক কেনেদৰে বৰ্ণনা কৰিছিল?"
+        },
+        {
+          "en": "How did Prithu defeat Khilji’s army?",
+          "as": "পৃথুৱে খিলজীৰ সেনাক কেনেদৰে পৰাস্ত কৰিছিল?"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Hiuen Tsang visited during Bhaskaravarman’s reign and recorded his impressions of the inhabitants.",
+        "as": "ভাস্কৰবৰ্মনৰ ৰাজত্বকালত অহা হিউৱেন চাঙে কামৰূপৰ লোকসকলৰ বিষয়ে নিজৰ অভিজ্ঞতা লিখি গৈছে।"
+      },
+      "id": "lesson-1-test-2-q10"
+    }
+  ]
+}

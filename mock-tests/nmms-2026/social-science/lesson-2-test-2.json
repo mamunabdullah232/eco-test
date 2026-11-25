@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-2-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 2 · Medieval Assam",
+    "as": "পাঠ ২ · মধ্যযুগৰ অসম"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A court list names Naranarayan as king. Which person should be entered as his brother and military commander?",
+      "as": "ৰাজসভাৰ এখন তালিকাত নৰনাৰায়ণক ৰজা বুলি লিখা আছে। তেওঁৰ ভায়েক তথা সেনাপতি হিচাপে কাৰ নাম লিখিব লাগে?",
+      "options": [
+        {
+          "en": "Shukladhwaj",
+          "as": "শুক্লধ্বজ"
+        },
+        {
+          "en": "Biswa Singha",
+          "as": "বিশ্বসিংহ"
+        },
+        {
+          "en": "Lachit Borphukan",
+          "as": "লাচিত বৰফুকন"
+        },
+        {
+          "en": "Ram Singh",
+          "as": "ৰামসিংহ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Shukladhwaj, better known as Chilarai, led the armies of his brother Naranarayan.",
+        "as": "চিলাৰায় নামেৰে খ্যাত শুক্লধ্বজে ককায়েক নৰনাৰায়ণৰ সৈন্যবাহিনীৰ নেতৃত্ব দিছিল।"
+      },
+      "id": "lesson-2-test-2-q1"
+    },
+    {
+      "en": "Which change on a political map records a division within the Koch kingdom?",
+      "as": "ৰাজনৈতিক মানচিত্ৰৰ কোনটো পৰিৱৰ্তনে কোচ ৰাজ্যৰ বিভাজন দেখুৱায়?",
+      "options": [
+        {
+          "en": "Charaideo replaces Garhgaon as the Koch capital.",
+          "as": "গড়গাঁৱৰ ঠাইত চৰাইদেউক কোচৰ ৰাজধানী দেখুওৱা হৈছে।"
+        },
+        {
+          "en": "Sadiya and Dimapur exchange rulers.",
+          "as": "শদিয়া আৰু ডিমাপুৰৰ ৰজাৰ সালসলনি দেখুওৱা হৈছে।"
+        },
+        {
+          "en": "Kamatapur becomes part of the Chutiya kingdom.",
+          "as": "কমতাপুৰক চুতীয়া ৰাজ্যৰ অন্তৰ্ভুক্ত দেখুওৱা হৈছে।"
+        },
+        {
+          "en": "Koch Bihar and Koch Hajo appear as separate territories.",
+          "as": "কোচবিহাৰ আৰু কোচহাজোক পৃথক ৰাজ্য হিচাপে দেখুওৱা হৈছে।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The two branches of the Koch kingdom came to be known as Koch Bihar and Koch Hajo.",
+        "as": "কোচ ৰাজ্যৰ দুটা ভাগ কোচবিহাৰ আৰু কোচহাজো নামেৰে জনাজাত হৈছিল।"
+      },
+      "id": "lesson-2-test-2-q2"
+    },
+    {
+      "en": "Which source is closest in time to Mir Jumla’s expedition into Assam?",
+      "as": "মিৰজুমলাৰ অসম অভিযানৰ সমসাময়িক বিৱৰণ বিচাৰিলে কাৰ লেখা বাছি লোৱা উচিত?",
+      "options": [
+        {
+          "en": "Hiuen Tsang’s travel account",
+          "as": "হিউৱেন চাঙৰ ভ্ৰমণবৃত্তান্ত"
+        },
+        {
+          "en": "Kalhana’s Rajatarangini",
+          "as": "কল্হণৰ ৰাজতৰংগিণী"
+        },
+        {
+          "en": "Shihabuddin Talish’s account",
+          "as": "চিহাবুদ্দিন তালিছৰ বিৱৰণ"
+        },
+        {
+          "en": "Kautilya’s Arthashastra",
+          "as": "কৌটিল্যৰ অৰ্থশাস্ত্ৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Talish accompanied Mir Jumla and described the expedition.",
+        "as": "তালিছ মিৰজুমলাৰ লগত অসমলৈ আহিছিল আৰু অভিযানটোৰ বিৱৰণ লিখিছিল।"
+      },
+      "id": "lesson-2-test-2-q3"
+    },
+    {
+      "en": "A timeline has three empty spaces before the Treaty of Yandabo. Which sequence fills them correctly?",
+      "as": "ইয়াণ্ডাবু সন্ধিৰ আগৰ তিনিটা ঘটনা সময়ৰেখাত কেনেকৈ সজাব লাগিব?",
+      "options": [
+        {
+          "en": "Saraighat → Mir Jumla’s invasion → Gadadhar Singha’s accession",
+          "as": "শৰাইঘাটৰ যুদ্ধ → মিৰজুমলাৰ আক্ৰমণ → গদাধৰ সিংহৰ সিংহাসন আৰোহণ"
+        },
+        {
+          "en": "Mir Jumla’s invasion → Saraighat → Gadadhar Singha’s accession",
+          "as": "মিৰজুমলাৰ আক্ৰমণ → শৰাইঘাটৰ যুদ্ধ → গদাধৰ সিংহৰ সিংহাসন আৰোহণ"
+        },
+        {
+          "en": "Gadadhar Singha’s accession → Saraighat → Mir Jumla’s invasion",
+          "as": "গদাধৰ সিংহৰ সিংহাসন আৰোহণ → শৰাইঘাটৰ যুদ্ধ → মিৰজুমলাৰ আক্ৰমণ"
+        },
+        {
+          "en": "Mir Jumla’s invasion → Gadadhar Singha’s accession → Saraighat",
+          "as": "মিৰজুমলাৰ আক্ৰমণ → গদাধৰ সিংহৰ সিংহাসন আৰোহণ → শৰাইঘাটৰ যুদ্ধ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Mir Jumla invaded in the 1660s, Saraighat followed in 1671 and Gadadhar Singha became king in 1681.",
+        "as": "১৬৬০ৰ দশকত মিৰজুমলাৰ আক্ৰমণৰ পিছত ১৬৭১ চনত শৰাইঘাটৰ যুদ্ধ হয়। ১৬৮১ চনত গদাধৰ সিংহ ৰজা হয়।"
+      },
+      "id": "lesson-2-test-2-q4"
+    },
+    {
+      "en": "Which caption gives the outcome of the Battle of Saraighat from the Ahom side?",
+      "as": "কোনটো টোকাত আহোম পক্ষৰ দৃষ্টিৰে শৰাইঘাটৰ যুদ্ধৰ ফলাফল শুদ্ধকৈ দিয়া হৈছে?",
+      "options": [
+        {
+          "en": "Lachit Borphukan’s forces repelled Ram Singh’s Mughal army.",
+          "as": "লাচিত বৰফুকনৰ বাহিনীয়ে ৰামসিংহৰ মোগল বাহিনীক ওফৰাই পঠিয়ালে।"
+        },
+        {
+          "en": "Chilarai’s forces captured Garhgaon.",
+          "as": "চিলাৰায়ৰ বাহিনীয়ে গড়গাঁও দখল কৰিলে।"
+        },
+        {
+          "en": "Mir Jumla’s forces occupied the Ahom capital.",
+          "as": "মিৰজুমলাৰ বাহিনীয়ে আহোমৰ ৰাজধানী দখল কৰিলে।"
+        },
+        {
+          "en": "Turbak’s army overcame Frasengmung.",
+          "as": "তুৰ্বকৰ বাহিনীয়ে ফ্ৰাচেংমুংক পৰাস্ত কৰিলে।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Lachit commanded the victorious Ahom force at Saraighat in 1671.",
+        "as": "১৬৭১ চনত শৰাইঘাটত বিজয়ী আহোম বাহিনীৰ নেতৃত্ব লাচিত বৰফুকনে দিছিল।"
+      },
+      "id": "lesson-2-test-2-q5"
+    },
+    {
+      "en": "A student labels an object ‘Somdeo’ in a display on early Ahom beliefs. Which description belongs with it?",
+      "as": "আদিকালৰ আহোম ধৰ্মবিশ্বাসৰ প্ৰদৰ্শনীত ‘চোমদেউ’ নামৰ কাষত কোনটো পৰিচয় লিখিব লাগিব?",
+      "options": [
+        {
+          "en": "A title held by a chief minister",
+          "as": "প্ৰধান মন্ত্ৰীৰ এটা উপাধি"
+        },
+        {
+          "en": "A chronicle kept at the royal court",
+          "as": "ৰাজসভাত ৰখা এখন বুৰঞ্জী"
+        },
+        {
+          "en": "A tax levied on landholders",
+          "as": "মাটিৰ গৰাকীৰ পৰা লোৱা এবিধ কৰ"
+        },
+        {
+          "en": "A deity worshipped by the Ahoms",
+          "as": "আহোমসকলে উপাসনা কৰা এজন দেৱতা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Somdeo figures in the religious traditions of the Ahoms.",
+        "as": "আহোমসকলৰ ধৰ্মীয় পৰম্পৰাত চোমদেউৰ পূজাৰ উল্লেখ পোৱা যায়।"
+      },
+      "id": "lesson-2-test-2-q6"
+    },
+    {
+      "en": "Which leader belongs in a display on the rise of the Baro-Bhuyans?",
+      "as": "বাৰভূঞাসকলৰ উত্থান বিষয়ক প্ৰদৰ্শনীত কোনজন নেতাৰ নাম থাকিব?",
+      "options": [
+        {
+          "en": "Chilarai",
+          "as": "চিলাৰায়"
+        },
+        {
+          "en": "Chandibar",
+          "as": "চণ্ডীবৰ"
+        },
+        {
+          "en": "Ratnadhwaj Pal",
+          "as": "ৰত্নধ্বজ পাল"
+        },
+        {
+          "en": "Govindachandra",
+          "as": "গোবিন্দচন্দ্ৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Chandibar held the position of Shiromani Bhuyan, the foremost among the Bhuyan chiefs.",
+        "as": "চণ্ডীবৰ ভূঞাসকলৰ মুখিয়াল আছিল আৰু শিৰোমণি ভূঞাৰ পদ লাভ কৰিছিল।"
+      },
+      "id": "lesson-2-test-2-q7"
+    },
+    {
+      "en": "Which capital and kingdom belong together on a map of medieval Assam?",
+      "as": "মধ্যযুগৰ অসমৰ মানচিত্ৰত কোনখন ৰাজধানী আৰু কোনখন ৰাজ্যৰ যোৰ শুদ্ধ হ’ব?",
+      "options": [
+        {
+          "en": "Dimapur — Kachari kingdom",
+          "as": "ডিমাপুৰ — কছাৰী ৰাজ্য"
+        },
+        {
+          "en": "Dimapur — Koch kingdom",
+          "as": "ডিমাপুৰ — কোচ ৰাজ্য"
+        },
+        {
+          "en": "Charaideo — Chutiya kingdom",
+          "as": "চৰাইদেউ — চুতীয়া ৰাজ্য"
+        },
+        {
+          "en": "Garhgaon — Kamata kingdom",
+          "as": "গড়গাঁও — কমতা ৰাজ্য"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Dimapur was a capital of the Kachari rulers. Charaideo and Garhgaon were Ahom capitals.",
+        "as": "ডিমাপুৰ কছাৰী ৰজাসকলৰ এখন ৰাজধানী আছিল। চৰাইদেউ আৰু গড়গাঁও আহোমৰ ৰাজধানী আছিল।"
+      },
+      "id": "lesson-2-test-2-q8"
+    },
+    {
+      "en": "A student assigns Chilarai and Lachit Borphukan to the same campaign. Which correction fits the evidence?",
+      "as": "এজন শিক্ষাৰ্থীয়ে চিলাৰায় আৰু লাচিত বৰফুকনক একেটা অভিযানৰ সেনাপতি বুলি লিখিলে। কোনটো সংশোধন শুদ্ধ?",
+      "options": [
+        {
+          "en": "Both commanded Mughal armies in different years.",
+          "as": "দুয়োজনে বেলেগ বেলেগ বছৰত মোগল বাহিনীৰ নেতৃত্ব দিছিল।"
+        },
+        {
+          "en": "Lachit led the Koch campaign before Chilarai’s time.",
+          "as": "চিলাৰায়ৰ আগতে লাচিতে কোচ অভিযানৰ নেতৃত্ব দিছিল।"
+        },
+        {
+          "en": "Chilarai led a Koch campaign, while Lachit led the Ahoms at Saraighat.",
+          "as": "চিলাৰায়ে কোচ অভিযানৰ আৰু লাচিতে শৰাইঘাটত আহোম বাহিনীৰ নেতৃত্ব দিছিল।"
+        },
+        {
+          "en": "Both served as commanders under Naranarayan.",
+          "as": "দুয়োজনে নৰনাৰায়ণৰ অধীনত সেনাপতিৰ দায়িত্ব লৈছিল।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Chilarai served the sixteenth-century Koch king Naranarayan. Lachit fought at Saraighat a century later.",
+        "as": "চিলাৰায় ষোড়শ শতিকাৰ কোচ ৰজা নৰনাৰায়ণৰ সেনাপতি আছিল। প্ৰায় এশ বছৰৰ পিছত লাচিতে শৰাইঘাটত যুঁজিছিল।"
+      },
+      "id": "lesson-2-test-2-q9"
+    },
+    {
+      "en": "One map labels the Chutiya, Kachari and Ahom kingdoms separately. What conclusion does this support?",
+      "as": "এখন মানচিত্ৰত চুতীয়া, কছাৰী আৰু আহোম ৰাজ্য পৃথকে দেখুওৱা হৈছে। ইয়াৰ পৰা কোনটো সিদ্ধান্ত ল’ব পাৰি?",
+      "options": [
+        {
+          "en": "All three names denoted successive Ahom capitals.",
+          "as": "তিনিওটা নামে একাদিক্ৰমে হোৱা আহোমৰ ৰাজধানীক বুজাইছিল।"
+        },
+        {
+          "en": "The entire region was governed from Kamatapur.",
+          "as": "সমগ্ৰ অঞ্চলটো কমতাপুৰৰ পৰাই শাসন কৰা হৈছিল।"
+        },
+        {
+          "en": "Every boundary shown lasted until 1826.",
+          "as": "দেখুওৱা প্ৰতিটো সীমাই ১৮২৬ চনলৈকে একেদৰে আছিল।"
+        },
+        {
+          "en": "Several political powers shared the region at that time.",
+          "as": "সেই সময়ত অঞ্চলটোৰ ভিন ভিন অংশত কেইবাটাও শক্তিয়ে শাসন কৰিছিল।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The separate labels identify distinct kingdoms at the time represented by the map.",
+        "as": "পৃথক নামবোৰে মানচিত্ৰখনে দেখুওৱা সময়ছোৱাত সুকীয়া ৰাজ্য থকাৰ কথা বুজায়।"
+      },
+      "id": "lesson-2-test-2-q10"
+    }
+  ]
+}

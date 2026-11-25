@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-11-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 11 · Indian Constitution",
+    "as": "পাঠ ১১ · ভাৰতীয় সংবিধান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A student traces an idea from Ireland to the Indian Constitution. Which feature should she follow?",
+      "as": "এগৰাকী ছাত্ৰীয়ে আয়াৰলেণ্ডৰ সংবিধানৰ প্ৰভাৱ ভাৰতীয় সংবিধানত বিচাৰিছে। তেওঁ কোনটো বৈশিষ্ট্য অধ্যয়ন কৰা উচিত?",
+      "options": [
+        {
+          "en": "Parliamentary responsibility of ministers",
+          "as": "সংসদৰ প্ৰতি মন্ত্ৰীসকলৰ দায়বদ্ধতা"
+        },
+        {
+          "en": "Constitutional guarantees of fundamental rights",
+          "as": "মৌলিক অধিকাৰৰ সাংবিধানিক নিশ্চয়তা"
+        },
+        {
+          "en": "Principles guiding the state in making welfare policy",
+          "as": "কল্যাণমূলক নীতি নিৰ্ধাৰণত ৰাষ্ট্ৰক দিশ দিয়া নীতি"
+        },
+        {
+          "en": "The ideals of liberty, equality and fraternity",
+          "as": "স্বাধীনতা, সমতা আৰু ভ্ৰাতৃত্বৰ আদৰ্শ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Ireland provided the model for India’s Directive Principles of State Policy.",
+        "as": "ভাৰতীয় সংবিধানত ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতি অন্তৰ্ভুক্ত কৰোঁতে আয়াৰলেণ্ডৰ সংবিধানৰ আৰ্হি লোৱা হৈছিল।"
+      },
+      "id": "lesson-11-test-2-q1"
+    },
+    {
+      "en": "A country elects its legislature, but its head of state inherits the office. Which change would make it a republic?",
+      "as": "এখন দেশত বিধানমণ্ডলৰ সদস্যসকল নিৰ্বাচিত হয়, কিন্তু ৰাষ্ট্ৰপ্ৰধানে বংশানুক্ৰমে পদ লাভ কৰে। কোনটো পৰিৱৰ্তনে দেশখনক গণৰাজ্যত পৰিণত কৰিব?",
+      "options": [
+        {
+          "en": "Replace hereditary succession with election of the head of state.",
+          "as": "বংশানুক্ৰমিক উত্তৰাধিকাৰৰ সলনি ৰাষ্ট্ৰপ্ৰধানৰ নিৰ্বাচনৰ ব্যৱস্থা কৰা।"
+        },
+        {
+          "en": "Increase the number of elected legislators.",
+          "as": "নিৰ্বাচিত বিধায়কৰ সংখ্যা বৃদ্ধি কৰা।"
+        },
+        {
+          "en": "Allow the legislature to meet more often.",
+          "as": "বিধানমণ্ডলৰ অধিৱেশন অধিক সঘনাই অনুষ্ঠিত কৰা।"
+        },
+        {
+          "en": "Give the head of state a shorter official title.",
+          "as": "ৰাষ্ট্ৰপ্ৰধানৰ পদবীৰ নাম চুটি কৰা।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "In a republic the head of state holds a public office filled by election, directly or indirectly.",
+        "as": "গণৰাজ্যত ৰাষ্ট্ৰপ্ৰধানৰ পদ প্ৰত্যক্ষ বা পৰোক্ষ নিৰ্বাচনৰ জৰিয়তে পূৰণ কৰা হয়।"
+      },
+      "id": "lesson-11-test-2-q2"
+    },
+    {
+      "en": "Which archive label correctly pairs a constitutional reform with its year?",
+      "as": "কোনখন নথিৰ ফলকত সাংবিধানিক সংস্কাৰৰ নাম আৰু বছৰ শুদ্ধকৈ মিলোৱা হৈছে?",
+      "options": [
+        {
+          "en": "Nehru Report — 1919",
+          "as": "নেহৰু প্ৰতিবেদন — ১৯১৯"
+        },
+        {
+          "en": "Morley–Minto reforms — 1909",
+          "as": "মৰ্লে-মিণ্টো সংস্কাৰ — ১৯০৯"
+        },
+        {
+          "en": "Provincial autonomy under the Government of India Act — 1892",
+          "as": "ভাৰত চৰকাৰ আইনৰ অধীনত প্ৰাদেশিক স্বায়ত্তশাসন — ১৮৯২"
+        },
+        {
+          "en": "Appointment of the Drafting Committee — 1946",
+          "as": "খচৰা সমিতি গঠন — ১৯৪৬"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Indian Councils Act of 1909 is associated with Morley and Minto. The Nehru Report appeared in 1928.",
+        "as": "১৯০৯ চনৰ ভাৰত পৰিষদ আইন মৰ্লে আৰু মিণ্টোৰ নামৰ সৈতে জড়িত। নেহৰু প্ৰতিবেদন ১৯২৮ চনত প্ৰকাশ পাইছিল।"
+      },
+      "id": "lesson-11-test-2-q3"
+    },
+    {
+      "en": "Assam’s hill communities sought a voice in managing local affairs. Which constitutional arrangement is most closely linked with Bordoloi’s work on this issue?",
+      "as": "অসমৰ পাহাৰীয়া জনগোষ্ঠীসমূহে নিজৰ অঞ্চলৰ কাম-কাজ চলোৱাত অংশ ল’ব বিচাৰিছিল। এই বিষয়ত বৰদলৈৰ অৱদানৰ সৈতে কোনটো সাংবিধানিক ব্যৱস্থা আটাইতকৈ ঘনিষ্ঠভাৱে জড়িত?",
+      "options": [
+        {
+          "en": "A common citizenship for all Indians",
+          "as": "সকলো ভাৰতীয়ৰ বাবে একক নাগৰিকত্ব"
+        },
+        {
+          "en": "Election of the President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতিৰ নিৰ্বাচন"
+        },
+        {
+          "en": "Autonomous councils under the Sixth Schedule",
+          "as": "ষষ্ঠ অনুসূচীৰ অধীনৰ স্বায়ত্তশাসিত পৰিষদ"
+        },
+        {
+          "en": "Collective responsibility of the Union ministry",
+          "as": "কেন্দ্ৰীয় মন্ত্ৰী পৰিষদৰ সামূহিক দায়বদ্ধতা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Bordoloi’s committee helped shape special arrangements for self-government in specified tribal areas.",
+        "as": "বৰদলৈৰ সমিতিয়ে নিৰ্দিষ্ট জনজাতীয় অঞ্চলত স্বায়ত্তশাসনৰ বিশেষ ব্যৱস্থা গঢ়ি তোলাত সহায় কৰিছিল।"
+      },
+      "id": "lesson-11-test-2-q4"
+    },
+    {
+      "en": "Which observation is the clearest evidence that India has a parliamentary system at the Union level?",
+      "as": "কেন্দ্ৰত ভাৰতৰ শাসনব্যৱস্থা সংসদীয় বুলি কোনটো তথ্যই আটাইতকৈ স্পষ্টকৈ দেখুৱায়?",
+      "options": [
+        {
+          "en": "Subjects are divided between the Union and the states.",
+          "as": "কেন্দ্ৰ আৰু ৰাজ্যৰ মাজত বিষয়সমূহ ভাগ কৰা হৈছে।"
+        },
+        {
+          "en": "Citizens have a single national citizenship.",
+          "as": "নাগৰিকসকলৰ একক ৰাষ্ট্ৰীয় নাগৰিকত্ব আছে।"
+        },
+        {
+          "en": "The Constitution has a written Preamble.",
+          "as": "সংবিধানৰ এখন লিখিত প্ৰস্তাৱনা আছে।"
+        },
+        {
+          "en": "The Council of Ministers must retain the confidence of the Lok Sabha.",
+          "as": "মন্ত্ৰী পৰিষদৰ প্ৰতি লোকসভাৰ আস্থা থাকিব লাগে।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Accountability of the ministry to the elected lower house is a defining feature of parliamentary government.",
+        "as": "নিৰ্বাচিত নিম্ন সদনৰ প্ৰতি মন্ত্ৰী পৰিষদৰ দায়বদ্ধতা সংসদীয় শাসনৰ এটা মূল বৈশিষ্ট্য।"
+      },
+      "id": "lesson-11-test-2-q5"
+    },
+    {
+      "en": "A class compares the original Preamble with the version after the 42nd Amendment. Which pair of descriptions of India was added?",
+      "as": "এটা শ্ৰেণীয়ে মূল প্ৰস্তাৱনাৰ সৈতে ৪২তম সংশোধনৰ পিছৰ প্ৰস্তাৱনা তুলনা কৰিছে। ভাৰতৰ বৰ্ণনাত কোনযোৰ শব্দ সংযোজন কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "Socialist and secular",
+          "as": "সমাজবাদী আৰু ধৰ্মনিৰপেক্ষ"
+        },
+        {
+          "en": "Sovereign and democratic",
+          "as": "সাৰ্বভৌম আৰু গণতান্ত্ৰিক"
+        },
+        {
+          "en": "Democratic and republican",
+          "as": "গণতান্ত্ৰিক আৰু গণৰাজ্য"
+        },
+        {
+          "en": "Sovereign and republican",
+          "as": "সাৰ্বভৌম আৰু গণৰাজ্য"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The 1976 amendment added “socialist” and “secular” to the description of India and also added “integrity” later in the Preamble.",
+        "as": "১৯৭৬ চনৰ সংশোধনে ভাৰতৰ বৰ্ণনাত ‘সমাজবাদী’ আৰু ‘ধৰ্মনিৰপেক্ষ’ যোগ কৰিলে। প্ৰস্তাৱনাৰ পৰৱৰ্তী অংশত ‘অখণ্ডতা’ শব্দটোও যোগ কৰা হ’ল।"
+      },
+      "id": "lesson-11-test-2-q6"
+    },
+    {
+      "en": "Which note correctly links the 1946 Constituent Assembly elections with the provincial legislatures?",
+      "as": "১৯৪৬ চনৰ সংবিধান সভাৰ নিৰ্বাচনৰ সৈতে প্ৰাদেশিক বিধানসভাসমূহৰ সম্পৰ্ক কোনটো টোকাত শুদ্ধকৈ দেখুওৱা হৈছে?",
+      "options": [
+        {
+          "en": "All adult citizens directly elected the provincial representatives to the Assembly.",
+          "as": "সকলো প্ৰাপ্তবয়স্ক নাগৰিকে পোনপটীয়াকৈ সংবিধান সভালৈ প্ৰাদেশিক প্ৰতিনিধি নিৰ্বাচন কৰিছিল।"
+        },
+        {
+          "en": "The Drafting Committee elected members of the provincial legislatures.",
+          "as": "খচৰা সমিতিয়ে প্ৰাদেশিক বিধানসভাৰ সদস্যসকলক নিৰ্বাচন কৰিছিল।"
+        },
+        {
+          "en": "Members of the provincial legislatures elected representatives of the provinces.",
+          "as": "প্ৰাদেশিক বিধানসভাৰ সদস্যসকলে প্ৰদেশসমূহৰ প্ৰতিনিধি নিৰ্বাচন কৰিছিল।"
+        },
+        {
+          "en": "The President of independent India appointed the provincial representatives.",
+          "as": "স্বাধীন ভাৰতৰ ৰাষ্ট্ৰপতিয়ে প্ৰাদেশিক প্ৰতিনিধিসকলক নিযুক্তি দিছিল।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The provincial representatives entered the Assembly through indirect election by provincial legislators.",
+        "as": "প্ৰাদেশিক বিধানসভাৰ সদস্যসকলে কৰা পৰোক্ষ নিৰ্বাচনৰ জৰিয়তে প্ৰদেশসমূহৰ প্ৰতিনিধি সংবিধান সভালৈ আহিছিল।"
+      },
+      "id": "lesson-11-test-2-q7"
+    },
+    {
+      "en": "During a debate one speaker asks, “Can another country dictate our foreign policy?” Which Preamble term most directly answers this question?",
+      "as": "এখন বিতৰ্কত এজনে সুধিলে, “আন এখন দেশে আমাৰ বৈদেশিক নীতি নিৰ্ধাৰণ কৰি দিব পাৰেনে?” প্ৰস্তাৱনাৰ কোনটো শব্দ এই প্ৰশ্নৰ সৈতে পোনপটীয়াকৈ জড়িত?",
+      "options": [
+        {
+          "en": "Socialist",
+          "as": "সমাজবাদী"
+        },
+        {
+          "en": "Sovereign",
+          "as": "সাৰ্বভৌম"
+        },
+        {
+          "en": "Secular",
+          "as": "ধৰ্মনিৰপেক্ষ"
+        },
+        {
+          "en": "Republic",
+          "as": "গণৰাজ্য"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Sovereignty means that India has the authority to decide its own domestic and foreign policy.",
+        "as": "সাৰ্বভৌমত্বৰ অৰ্থ হ’ল নিজৰ আভ্যন্তৰীণ আৰু বৈদেশিক নীতি নিৰ্ধাৰণৰ কৰ্তৃত্ব ভাৰতৰ নিজৰ হাতত আছে।"
+      },
+      "id": "lesson-11-test-2-q8"
+    },
+    {
+      "en": "A student counts only the time after independence when estimating how long the Assembly took to frame the Constitution. What has she missed?",
+      "as": "সংবিধান সভাই সংবিধান ৰচিবলৈ লোৱা সময় গণনা কৰোঁতে এগৰাকী ছাত্ৰীয়ে কেৱল স্বাধীনতাৰ পিছৰ সময়খিনি ধৰিলে। তেওঁৰ গণনাত কি বাদ পৰিল?",
+      "options": [
+        {
+          "en": "The Assembly had begun its work in December 1946.",
+          "as": "১৯৪৬ চনৰ ডিচেম্বৰতে সংবিধান সভাই কাম আৰম্ভ কৰিছিল।"
+        },
+        {
+          "en": "The Drafting Committee existed before the Assembly.",
+          "as": "সংবিধান সভাৰ আগতেই খচৰা সমিতি আছিল।"
+        },
+        {
+          "en": "The original Constitution was adopted after the first Republic Day.",
+          "as": "প্ৰথম গণৰাজ্য দিৱসৰ পিছত মূল সংবিধান গৃহীত হৈছিল।"
+        },
+        {
+          "en": "The Assembly began its work with the 1935 Act.",
+          "as": "১৯৩৫ চনৰ আইনৰ লগে লগে সংবিধান সভাই কাম আৰম্ভ কৰিছিল।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The usual duration of two years, eleven months and eighteen days includes the Assembly’s work before independence.",
+        "as": "প্ৰচলিত হিচাপ অনুসৰি দুই বছৰ এঘাৰ মাহ ওঠৰ দিনৰ ভিতৰত স্বাধীনতাৰ আগতে সংবিধান সভাই কাম কৰা সময়খিনিও পৰে।"
+      },
+      "id": "lesson-11-test-2-q9"
+    },
+    {
+      "en": "Students from different communities design a project to build mutual respect and a sense of belonging. Which ideal of the Preamble is their main focus?",
+      "as": "বিভিন্ন সম্প্ৰদায়ৰ শিক্ষাৰ্থীয়ে পাৰস্পৰিক সন্মান আৰু আপোনভাব গঢ়িবলৈ এটা প্ৰকল্প হাতত লৈছে। প্ৰস্তাৱনাৰ কোনটো আদৰ্শ তেওঁলোকৰ মূল লক্ষ্য?",
+      "options": [
+        {
+          "en": "Liberty of expression",
+          "as": "মত প্ৰকাশৰ স্বাধীনতা"
+        },
+        {
+          "en": "Equality of opportunity",
+          "as": "সুযোগৰ সমতা"
+        },
+        {
+          "en": "Economic justice",
+          "as": "অৰ্থনৈতিক ন্যায়"
+        },
+        {
+          "en": "Fraternity",
+          "as": "ভ্ৰাতৃত্ববোধ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Fraternity stresses a bond among citizens that upholds individual dignity and national unity.",
+        "as": "ভ্ৰাতৃত্ববোধে নাগৰিকসকলৰ মাজত এনে এক সম্পৰ্ক গঢ়ি তোলে যিয়ে ব্যক্তিৰ মৰ্যাদা আৰু ৰাষ্ট্ৰৰ ঐক্য ৰক্ষা কৰে।"
+      },
+      "id": "lesson-11-test-2-q10"
+    }
+  ]
+}

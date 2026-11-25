@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-13-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 13 · Our Fundamental Duties",
+    "as": "পাঠ ১৩ · আমাৰ মৌলিক কৰ্তব্য"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Students of different languages work together to resolve a dispute that has divided their neighbourhood. Which duty guides them?",
+      "as": "বিভিন্ন ভাষাৰ ছাত্ৰ-ছাত্ৰীয়ে অঞ্চলটোৰ মানুহৰ মাজত বিভেদ সৃষ্টি কৰা বিবাদ একেলগে সমাধান কৰিছে। কোনটো কৰ্তব্যই তেওঁলোকক পথ দেখুৱাইছে?",
+      "options": [
+        {
+          "en": "Safeguard public property",
+          "as": "ৰাজহুৱা সম্পত্তি সুৰক্ষিত কৰা"
+        },
+        {
+          "en": "Defend the country",
+          "as": "দেশ ৰক্ষা কৰা"
+        },
+        {
+          "en": "Promote harmony and brotherhood",
+          "as": "সম্প্ৰীতি আৰু ভাতৃত্ববোধ বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Strive for excellence",
+          "as": "উৎকৰ্ষ সাধনৰ চেষ্টা কৰা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The duty of harmony extends across religious, linguistic, regional and sectional differences.",
+        "as": "সম্প্ৰীতি ৰক্ষাৰ কৰ্তব্যই ধৰ্মীয়, ভাষিক, আঞ্চলিক আৰু গোষ্ঠীগত পাৰ্থক্য অতিক্ৰম কৰে।"
+      },
+      "id": "lesson-13-test-2-q1"
+    },
+    {
+      "en": "Passengers stop someone from damaging seats in a government bus. Which duty are they carrying out?",
+      "as": "যাত্ৰীয়ে চৰকাৰী বাছৰ আসন নষ্ট কৰিবলৈ লোৱা লোক এজনক বাধা দিছে। তেওঁলোকে কোনটো কৰ্তব্য পালন কৰিছে?",
+      "options": [
+        {
+          "en": "Strive for excellence",
+          "as": "উৎকৰ্ষ সাধনৰ চেষ্টা কৰা"
+        },
+        {
+          "en": "Safeguard public property",
+          "as": "ৰাজহুৱা সম্পত্তি সুৰক্ষিত কৰা"
+        },
+        {
+          "en": "Defend the country",
+          "as": "দেশ ৰক্ষা কৰা"
+        },
+        {
+          "en": "Promote harmony and brotherhood",
+          "as": "সম্প্ৰীতি আৰু ভাতৃত্ববোধ বৃদ্ধি কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A government bus is public property, which citizens have a duty to safeguard.",
+        "as": "চৰকাৰী বাছ ৰাজহুৱা সম্পত্তি। ইয়াক সুৰক্ষিত ৰখাটো নাগৰিকৰ কৰ্তব্য।"
+      },
+      "id": "lesson-13-test-2-q2"
+    },
+    {
+      "en": "A school team keeps improving its work even after qualifying for a competition. Which duty fits this example?",
+      "as": "এটা বিদ্যালয়ৰ দলে প্ৰতিযোগিতালৈ নিৰ্বাচিত হোৱাৰ পিছতো নিজৰ কাম উন্নত কৰি গৈছে। এই উদাহৰণত কোনটো কৰ্তব্য প্ৰকাশ পাইছে?",
+      "options": [
+        {
+          "en": "Promote harmony and brotherhood",
+          "as": "সম্প্ৰীতি আৰু ভাতৃত্ববোধ বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Strive for excellence",
+          "as": "উৎকৰ্ষ সাধনৰ চেষ্টা কৰা"
+        },
+        {
+          "en": "Safeguard public property",
+          "as": "ৰাজহুৱা সম্পত্তি সুৰক্ষিত কৰা"
+        },
+        {
+          "en": "Defend the country",
+          "as": "দেশ ৰক্ষা কৰা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Citizens should strive for excellence in individual and collective activities.",
+        "as": "ব্যক্তিগত আৰু সামূহিক কামত উৎকৰ্ষ সাধনৰ চেষ্টা কৰাটো নাগৰিকৰ কৰ্তব্য।"
+      },
+      "id": "lesson-13-test-2-q3"
+    },
+    {
+      "en": "Which duty includes rendering national service when called upon to do so?",
+      "as": "আহ্বান জনালে ৰাষ্ট্ৰীয় সেৱা আগবঢ়োৱাটো কোনটো কৰ্তব্যৰ অন্তৰ্গত?",
+      "options": [
+        {
+          "en": "Defend the country",
+          "as": "দেশ ৰক্ষা কৰা"
+        },
+        {
+          "en": "Promote harmony and brotherhood",
+          "as": "সম্প্ৰীতি আৰু ভাতৃত্ববোধ বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Strive for excellence",
+          "as": "উৎকৰ্ষ সাধনৰ চেষ্টা কৰা"
+        },
+        {
+          "en": "Safeguard public property",
+          "as": "ৰাজহুৱা সম্পত্তি সুৰক্ষিত কৰা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The constitutional wording links national service when called upon with defending the country.",
+        "as": "সংবিধানত আহ্বান জনালে ৰাষ্ট্ৰীয় সেৱা আগবঢ়োৱাৰ কথা দেশ ৰক্ষাৰ কৰ্তব্যৰ সৈতে উল্লেখ কৰা হৈছে।"
+      },
+      "id": "lesson-13-test-2-q4"
+    },
+    {
+      "en": "An exhibit compares the number of duties immediately after the 1976 amendment and after the 2002 amendment. Which labels are correct?",
+      "as": "এখন প্ৰদৰ্শনীত ১৯৭৬ আৰু ২০০২ চনৰ সংশোধনীৰ পিছৰ মৌলিক কৰ্তব্যৰ সংখ্যা তুলনা কৰা হৈছে। কোনযোৰ শুদ্ধ?",
+      "options": [
+        {
+          "en": "Seven, then eleven",
+          "as": "প্ৰথমে সাতটা, পিছত এঘাৰটা"
+        },
+        {
+          "en": "Ten, then eleven",
+          "as": "প্ৰথমে দহটা, পিছত এঘাৰটা"
+        },
+        {
+          "en": "Eleven, then ten",
+          "as": "প্ৰথমে এঘাৰটা, পিছত দহটা"
+        },
+        {
+          "en": "Six, then ten",
+          "as": "প্ৰথমে ছটা, পিছত দহটা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Ten duties were added in 1976. The education-related duty raised the total to eleven.",
+        "as": "১৯৭৬ চনত দহটা কৰ্তব্য সংযোজন কৰা হৈছিল। শিক্ষা সম্পৰ্কীয় কৰ্তব্য সংযোজনৰ ফলত মুঠ সংখ্যা এঘাৰটা হয়।"
+      },
+      "id": "lesson-13-test-2-q5"
+    },
+    {
+      "en": "For which age group does Article 51A specify a parent’s or guardian’s duty to provide opportunities for education?",
+      "as": "অনুচ্ছেদ ৫১ক-ত কোন বয়সৰ শিশুক শিক্ষাৰ সুযোগ দিয়াটো পিতৃ-মাতৃ বা অভিভাৱকৰ কৰ্তব্য বুলি কোৱা হৈছে?",
+      "options": [
+        {
+          "en": "Fourteen to eighteen years",
+          "as": "চৈধ্যৰ পৰা ওঠৰ বছৰ"
+        },
+        {
+          "en": "Eighteen to twenty-one years",
+          "as": "ওঠৰৰ পৰা একৈশ বছৰ"
+        },
+        {
+          "en": "Six to fourteen years",
+          "as": "ছয়ৰ পৰা চৈধ্য বছৰ"
+        },
+        {
+          "en": "Birth to six years",
+          "as": "জন্মৰ পৰা ছয় বছৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Clause (k) specifies children or wards aged six to fourteen.",
+        "as": "সংশ্লিষ্ট দফাত ছয়ৰ পৰা চৈধ্য বছৰ বয়সৰ সন্তান বা পোষ্যৰ কথা উল্লেখ আছে।"
+      },
+      "id": "lesson-13-test-2-q6"
+    },
+    {
+      "en": "A village committee challenges a custom because it humiliates women. Which duty provides the closest basis?",
+      "as": "এখন গাঁও সমিতিয়ে নাৰীক অপমান কৰা এটা ৰীতিৰ বিৰোধিতা কৰিছে। ইয়াৰ আটাইতকৈ প্ৰাসংগিক সাংবিধানিক ভিত্তি কোনটো কৰ্তব্য?",
+      "options": [
+        {
+          "en": "Protect rivers and forests",
+          "as": "নদী আৰু বনাঞ্চল ৰক্ষা কৰা"
+        },
+        {
+          "en": "Follow the ideals of the freedom struggle",
+          "as": "স্বাধীনতা সংগ্ৰামৰ আদৰ্শ অনুসৰণ কৰা"
+        },
+        {
+          "en": "Preserve historic manuscripts",
+          "as": "ঐতিহাসিক পুথি সংৰক্ষণ কৰা"
+        },
+        {
+          "en": "Renounce practices derogatory to women",
+          "as": "নাৰীৰ মৰ্যাদাহানিকৰ প্ৰথা ত্যাগ কৰা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Article 51A(e) specifically calls on citizens to renounce practices derogatory to women’s dignity.",
+        "as": "অনুচ্ছেদ ৫১ক-ত নাৰীৰ মৰ্যাদাহানিকৰ প্ৰথা পৰিত্যাগ কৰিবলৈ নাগৰিকক কোৱা হৈছে।"
+      },
+      "id": "lesson-13-test-2-q7"
+    },
+    {
+      "en": "To whom is the list of duties in Article 51A addressed?",
+      "as": "অনুচ্ছেদ ৫১ক-ত থকা কৰ্তব্যৰ তালিকা কাৰ উদ্দেশ্যে দিয়া হৈছে?",
+      "options": [
+        {
+          "en": "Citizens of India",
+          "as": "ভাৰতৰ নাগৰিক"
+        },
+        {
+          "en": "Only members of Parliament",
+          "as": "কেৱল সংসদৰ সদস্য"
+        },
+        {
+          "en": "Only civil servants",
+          "as": "কেৱল চৰকাৰী কৰ্মচাৰী"
+        },
+        {
+          "en": "Only registered voters",
+          "as": "কেৱল পঞ্জীয়নভুক্ত ভোটাৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The article opens by assigning duties to every citizen of India.",
+        "as": "অনুচ্ছেদটোৰ আৰম্ভণিতে ভাৰতৰ প্ৰতিজন নাগৰিকৰ কৰ্তব্যৰ কথা কোৱা হৈছে।"
+      },
+      "id": "lesson-13-test-2-q8"
+    },
+    {
+      "en": "Which three features of India are citizens expressly required to uphold and protect under Article 51A(c)?",
+      "as": "অনুচ্ছেদ ৫১ক অনুসৰি নাগৰিকে ভাৰতৰ কোন তিনিটা বৈশিষ্ট্য অক্ষুণ্ণ ৰাখি সুৰক্ষিত কৰিব লাগে?",
+      "options": [
+        {
+          "en": "Justice, liberty and welfare",
+          "as": "ন্যায়, স্বাধীনতা আৰু কল্যাণ"
+        },
+        {
+          "en": "Sovereignty, unity and integrity",
+          "as": "সাৰ্বভৌমত্ব, ঐক্য আৰু অখণ্ডতা"
+        },
+        {
+          "en": "Liberty, equality and fraternity",
+          "as": "স্বাধীনতা, সমতা আৰু ভাতৃত্ব"
+        },
+        {
+          "en": "Legislature, executive and judiciary",
+          "as": "বিধানমণ্ডল, কাৰ্যপালিকা আৰু ন্যায়পালিকা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "This duty concerns India’s independent authority, unity and territorial integrity.",
+        "as": "এই কৰ্তব্য ভাৰতৰ স্বাধীন কৰ্তৃত্ব, ঐক্য আৰু ভূখণ্ডগত অখণ্ডতাৰ সৈতে জড়িত।"
+      },
+      "id": "lesson-13-test-2-q9"
+    },
+    {
+      "en": "A group plans a demonstration. Which decision fulfils the linked duties of safeguarding public property and abjuring violence?",
+      "as": "এটা গোটে প্ৰতিবাদৰ পৰিকল্পনা কৰিছে। কোনটো সিদ্ধান্তই ৰাজহুৱা সম্পত্তি ৰক্ষা আৰু হিংসা ত্যাগৰ কৰ্তব্য পালন কৰে?",
+      "options": [
+        {
+          "en": "Prevent all public discussion",
+          "as": "সকলো ৰাজহুৱা আলোচনা বন্ধ কৰা"
+        },
+        {
+          "en": "Demand that only officials protect public assets",
+          "as": "কেৱল বিষয়াসকলেহে ৰাজহুৱা সম্পদ ৰক্ষা কৰিব লাগে বুলি দাবী কৰা"
+        },
+        {
+          "en": "Protest peacefully and protect shared facilities",
+          "as": "শান্তিপূৰ্ণ প্ৰতিবাদ কৰি ৰাজহুৱা সা-সুবিধা ৰক্ষা কৰা"
+        },
+        {
+          "en": "Damage facilities to register disagreement",
+          "as": "বিৰোধিতা জনাবলৈ ৰাজহুৱা সা-সুবিধা নষ্ট কৰা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Peaceful participation allows people to voice concerns while caring for shared property.",
+        "as": "শান্তিপূৰ্ণ অংশগ্ৰহণে ৰাজহুৱা সম্পত্তিৰ যত্ন লৈ নিজৰ আপত্তি প্ৰকাশ কৰাৰ সুযোগ দিয়ে।"
+      },
+      "id": "lesson-13-test-2-q10"
+    }
+  ]
+}

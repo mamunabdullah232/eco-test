@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-11-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 11 · Indian Constitution",
+    "as": "পাঠ ১১ · ভাৰতীয় সংবিধান"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A museum label reads “Provincial autonomy under British rule”. Which law belongs on the label?",
+      "as": "সংগ্ৰহালয়ৰ এখন ফলকত লিখা আছে, “ব্ৰিটিছ শাসনকালত প্ৰাদেশিক স্বায়ত্তশাসন”। ফলকখনত কোনখন আইনৰ নাম থাকিব লাগে?",
+      "options": [
+        {
+          "en": "Indian Councils Act, 1861",
+          "as": "১৮৬১ চনৰ ভাৰত পৰিষদ আইন"
+        },
+        {
+          "en": "Government of India Act, 1935",
+          "as": "১৯৩৫ চনৰ ভাৰত চৰকাৰ আইন"
+        },
+        {
+          "en": "Indian Councils Act, 1892",
+          "as": "১৮৯২ চনৰ ভাৰত পৰিষদ আইন"
+        },
+        {
+          "en": "Indian Councils Act, 1909",
+          "as": "১৯০৯ চনৰ ভাৰত পৰিষদ আইন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The 1935 Act gave provinces greater control over their own administration through provincial autonomy.",
+        "as": "১৯৩৫ চনৰ আইনে প্ৰাদেশিক স্বায়ত্তশাসনৰ ব্যৱস্থা কৰি প্ৰদেশসমূহক নিজ নিজ প্ৰশাসনৰ ওপৰত অধিক কৰ্তৃত্ব দিছিল।"
+      },
+      "id": "lesson-11-test-1-q1"
+    },
+    {
+      "en": "Which event falls between the first meeting of the Constituent Assembly and the adoption of the Constitution?",
+      "as": "সংবিধান সভাৰ প্ৰথম বৈঠক আৰু সংবিধান গ্ৰহণৰ মাজৰ সময়ছোৱাত কোনটো ঘটনা ঘটিছিল?",
+      "options": [
+        {
+          "en": "Publication of the Nehru Report",
+          "as": "নেহৰু প্ৰতিবেদন প্ৰকাশ"
+        },
+        {
+          "en": "Introduction of the Morley–Minto reforms",
+          "as": "মৰ্লে-মিণ্টো সংস্কাৰ প্ৰৱৰ্তন"
+        },
+        {
+          "en": "Celebration of India’s first Republic Day",
+          "as": "ভাৰতৰ প্ৰথম গণৰাজ্য দিৱস উদ্‌যাপন"
+        },
+        {
+          "en": "Formation of the Drafting Committee",
+          "as": "খচৰা সমিতি গঠন"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Assembly first met in 1946, set up the committee in 1947 and adopted the Constitution in 1949.",
+        "as": "১৯৪৬ চনত সংবিধান সভাৰ প্ৰথম বৈঠক বহে। সভাই ১৯৪৭ চনত খচৰা সমিতি গঠন কৰে আৰু ১৯৪৯ চনত সংবিধান গ্ৰহণ কৰে।"
+      },
+      "id": "lesson-11-test-1-q2"
+    },
+    {
+      "en": "Who chaired the committee that prepared the draft placed before the Constituent Assembly?",
+      "as": "সংবিধান সভাত দাখিল কৰা খচৰাখন প্ৰস্তুত কৰা সমিতিৰ সভাপতি কোন আছিল?",
+      "options": [
+        {
+          "en": "B. R. Ambedkar",
+          "as": "বি. আৰ. আম্বেদকাৰ"
+        },
+        {
+          "en": "Rajendra Prasad",
+          "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Ambedkar chaired the Drafting Committee. Rajendra Prasad presided over the Constituent Assembly.",
+        "as": "আম্বেদকাৰ খচৰা সমিতিৰ সভাপতি আছিল। সংবিধান সভাৰ সভাপতিত্ব কৰিছিল ৰাজেন্দ্ৰ প্ৰসাদে।"
+      },
+      "id": "lesson-11-test-1-q3"
+    },
+    {
+      "en": "A pupil from Assam moves to Kerala. What happens to her citizenship merely because she changes her state of residence?",
+      "as": "অসমৰ এগৰাকী ছাত্ৰী কেৰালালৈ থাকিবলৈ গ’ল। কেৱল বাসস্থানৰ ৰাজ্য সলনি হোৱাৰ বাবে তেওঁৰ নাগৰিকত্বৰ কি পৰিৱৰ্তন হ’ব?",
+      "options": [
+        {
+          "en": "She must exchange Assam citizenship for Kerala citizenship.",
+          "as": "তেওঁ অসমৰ নাগৰিকত্ব সলাই কেৰালাৰ নাগৰিকত্ব ল’ব লাগিব।"
+        },
+        {
+          "en": "She acquires a second citizenship from Kerala.",
+          "as": "তেওঁ কেৰালাৰ পৰা দ্বিতীয় নাগৰিকত্ব লাভ কৰিব।"
+        },
+        {
+          "en": "She continues to hold Indian citizenship.",
+          "as": "তেওঁৰ ভাৰতীয় নাগৰিকত্ব বাহাল থাকিব।"
+        },
+        {
+          "en": "Her Indian citizenship is suspended until she registers locally.",
+          "as": "স্থানীয়ভাৱে নাম পঞ্জীয়ন নকৰালৈকে তেওঁৰ ভাৰতীয় নাগৰিকত্ব স্থগিত থাকিব।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "India has single citizenship for the whole country. Moving between states does not alter it.",
+        "as": "সমগ্ৰ ভাৰতৰ বাবে একক নাগৰিকত্বৰ ব্যৱস্থা আছে। এখন ৰাজ্যৰ পৰা আন এখনলৈ গ’লে এই নাগৰিকত্ব সলনি নহয়।"
+      },
+      "id": "lesson-11-test-1-q4"
+    },
+    {
+      "en": "Both Parliament and a state legislature can normally make laws on a particular subject. Where would a student look for that subject?",
+      "as": "এটা বিষয়ত সাধাৰণতে সংসদ আৰু ৰাজ্যৰ বিধানমণ্ডল উভয়ে আইন প্ৰণয়ন কৰিব পাৰে। শিক্ষাৰ্থীয়ে বিষয়টো ক’ত বিচাৰিব?",
+      "options": [
+        {
+          "en": "Union List",
+          "as": "কেন্দ্ৰীয় তালিকা"
+        },
+        {
+          "en": "State List",
+          "as": "ৰাজ্যিক তালিকা"
+        },
+        {
+          "en": "Preamble",
+          "as": "প্ৰস্তাৱনা"
+        },
+        {
+          "en": "Concurrent List",
+          "as": "উমৈহতীয়া তালিকা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Concurrent List groups subjects on which both levels have legislative power.",
+        "as": "যিবোৰ বিষয়ত কেন্দ্ৰ আৰু ৰাজ্য উভয়ৰে আইন প্ৰণয়নৰ ক্ষমতা আছে, সেইবোৰ উমৈহতীয়া তালিকাত থাকে।"
+      },
+      "id": "lesson-11-test-1-q5"
+    },
+    {
+      "en": "A historian finds two dates on an exhibit about India’s Constitution. Which captions belong with them?",
+      "as": "ভাৰতৰ সংবিধান সম্পৰ্কীয় প্ৰদৰ্শনীত এগৰাকী ইতিহাসবিদে দুটা তাৰিখ দেখিলে। কোনযোৰ বিৱৰণ তাৰিখ দুটাৰ সৈতে মিলে?",
+      "options": [
+        {
+          "en": "26 November 1949 — fully in force; 26 January 1950 — adopted",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯ — সম্পূৰ্ণৰূপে কাৰ্যকৰী; ২৬ জানুৱাৰী ১৯৫০ — গৃহীত"
+        },
+        {
+          "en": "26 November 1949 — adopted; 26 January 1950 — fully in force",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯ — গৃহীত; ২৬ জানুৱাৰী ১৯৫০ — সম্পূৰ্ণৰূপে কাৰ্যকৰী"
+        },
+        {
+          "en": "26 November 1949 — committee formed; 26 January 1950 — adopted",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯ — সমিতি গঠন; ২৬ জানুৱাৰী ১৯৫০ — গৃহীত"
+        },
+        {
+          "en": "26 November 1949 — Assembly first met; 26 January 1950 — committee formed",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯ — সভাৰ প্ৰথম বৈঠক; ২৬ জানুৱাৰী ১৯৫০ — সমিতি গঠন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Assembly adopted the text in November. Republic Day marks its full commencement the following January.",
+        "as": "নৱেম্বৰত সংবিধান সভাই সংবিধানখন গ্ৰহণ কৰে। পিছৰ জানুৱাৰীত ই সম্পূৰ্ণৰূপে কাৰ্যকৰী হোৱা দিনটো গণৰাজ্য দিৱস হিচাপে পালন কৰা হয়।"
+      },
+      "id": "lesson-11-test-1-q6"
+    },
+    {
+      "en": "Which entry correctly identifies Assam’s member of the Drafting Committee?",
+      "as": "খচৰা সমিতিত অসমৰ সদস্য হিচাপে কাৰ নাম লিখিলে শুদ্ধ হ’ব?",
+      "options": [
+        {
+          "en": "Syed Muhammad Saadulla",
+          "as": "ছৈয়দ মহম্মদ চাদুল্লা"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Motilal Nehru",
+          "as": "মতিলাল নেহৰু"
+        },
+        {
+          "en": "Rajendra Prasad",
+          "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Saadulla served on the Drafting Committee. Bordoloi’s contribution concerned the administration of tribal areas.",
+        "as": "চাদুল্লা খচৰা সমিতিৰ সদস্য আছিল। বৰদলৈৰ অৱদান বিশেষকৈ জনজাতীয় অঞ্চলৰ শাসনব্যৱস্থাৰ সৈতে জড়িত আছিল।"
+      },
+      "id": "lesson-11-test-1-q7"
+    },
+    {
+      "en": "Which decision by a state best illustrates secularism?",
+      "as": "ৰাষ্ট্ৰ এখনৰ কোনটো সিদ্ধান্ত ধৰ্মনিৰপেক্ষতাৰ আটাইতকৈ উপযুক্ত উদাহৰণ?",
+      "options": [
+        {
+          "en": "It requires every citizen to follow the majority religion.",
+          "as": "ই সকলো নাগৰিককে সংখ্যাগৰিষ্ঠৰ ধৰ্ম পালন কৰিবলৈ বাধ্য কৰে।"
+        },
+        {
+          "en": "It lets the largest religious body appoint the head of state.",
+          "as": "ই বৃহত্তম ধৰ্মীয় সংগঠনটোক ৰাষ্ট্ৰপ্ৰধান নিযুক্তি দিবলৈ দিয়ে।"
+        },
+        {
+          "en": "It protects the freedom to practise different religions equally.",
+          "as": "ই বিভিন্ন ধৰ্ম পালনৰ স্বাধীনতা সমানে সুৰক্ষিত কৰে।"
+        },
+        {
+          "en": "It reserves public offices for followers of the state religion.",
+          "as": "ই ৰাষ্ট্ৰধৰ্মৰ অনুগামীসকলৰ বাবে চৰকাৰী পদ সংৰক্ষণ কৰে।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A secular state has no official religion and treats people of different faiths equally.",
+        "as": "ধৰ্মনিৰপেক্ষ ৰাষ্ট্ৰৰ নিজা ৰাষ্ট্ৰধৰ্ম নাথাকে আৰু ই বিভিন্ন ধৰ্মৰ লোকক সমান ব্যৱহাৰ কৰে।"
+      },
+      "id": "lesson-11-test-1-q8"
+    },
+    {
+      "en": "Why does the Indian Constitution contain detailed provisions for both the Union and the states?",
+      "as": "ভাৰতীয় সংবিধানত কেন্দ্ৰ আৰু ৰাজ্য উভয়ৰে বাবে বিস্তৃত বিধান ৰখাৰ কাৰণ কি?",
+      "options": [
+        {
+          "en": "Every state conducts the Union’s foreign relations separately.",
+          "as": "প্ৰতিখন ৰাজ্যই কেন্দ্ৰৰ বৈদেশিক সম্পৰ্ক পৃথকে পৰিচালনা কৰে।"
+        },
+        {
+          "en": "It sets up institutions and distributes powers at both levels.",
+          "as": "ই দুয়োটা স্তৰৰ প্ৰতিষ্ঠানৰ গঠন আৰু ক্ষমতাৰ ভাগ নিৰ্ধাৰণ কৰে।"
+        },
+        {
+          "en": "Each state grants its residents a separate national citizenship.",
+          "as": "প্ৰতিখন ৰাজ্যই বাসিন্দাসকলক সুকীয়া ৰাষ্ট্ৰীয় নাগৰিকত্ব দিয়ে।"
+        },
+        {
+          "en": "The Union administers every state subject directly in ordinary times.",
+          "as": "সাধাৰণ অৱস্থাত ৰাজ্যিক তালিকাৰ সকলো বিষয় কেন্দ্ৰই পোনপটীয়াকৈ পৰিচালনা কৰে।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Providing for two levels of government in one constitutional text helps explain its length.",
+        "as": "এখন সংবিধানতে দুটা স্তৰৰ চৰকাৰৰ ব্যৱস্থা বিশদকৈ দিয়া হৈছে। সংবিধানখন দীঘল হোৱাৰ ই এটা কাৰণ।"
+      },
+      "id": "lesson-11-test-1-q9"
+    },
+    {
+      "en": "A state draws up a plan to improve nutrition and living standards. Which part of the Constitution most directly guides such policymaking?",
+      "as": "এখন ৰাজ্যই পুষ্টি আৰু জীৱনধাৰণৰ মান উন্নত কৰিবলৈ আঁচনি এখন যুগুতালে। এনে নীতি নিৰ্ধাৰণত সংবিধানৰ কোন অংশই আটাইতকৈ পোনপটীয়া দিশ দেখুৱায়?",
+      "options": [
+        {
+          "en": "Rules on citizenship",
+          "as": "নাগৰিকত্ব সম্পৰ্কীয় বিধান"
+        },
+        {
+          "en": "Procedure for electing the President",
+          "as": "ৰাষ্ট্ৰপতিৰ নিৰ্বাচন পদ্ধতি"
+        },
+        {
+          "en": "Rules on the duration of legislatures",
+          "as": "বিধানমণ্ডলৰ কাৰ্যকাল সম্পৰ্কীয় বিধান"
+        },
+        {
+          "en": "Directive Principles of State Policy",
+          "as": "ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতি"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Directive Principles guide governments in promoting welfare, including better nutrition and living conditions.",
+        "as": "পুষ্টি আৰু জীৱনধাৰণৰ মান উন্নত কৰাৰ দৰে জনকল্যাণমূলক কামত নিৰ্দেশাত্মক নীতিয়ে চৰকাৰক দিশ দেখুৱায়।"
+      },
+      "id": "lesson-11-test-1-q10"
+    }
+  ]
+}

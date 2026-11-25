@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-3-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 3 · Assamese Society in Medieval Age",
+    "as": "পাঠ ৩ · মধ্যযুগৰ অসমীয়া সমাজ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Three members of a paik group stay in the village while the fourth serves the king. How is his farm work handled?",
+      "as": "এটা গোটৰ এজন পাইক ৰজাঘৰীয়া কামলৈ গ’ল আৰু বাকী তিনিজন গাঁৱত থাকিল। যোৱা পাইকজনৰ খেতিৰ কাম কেনেদৰে চলিব?",
+      "options": [
+        {
+          "en": "The other members share his work.",
+          "as": "গোটৰ বাকীকেইজনে তেওঁৰ কাম ভগাই ল’ব।"
+        },
+        {
+          "en": "The king appoints a new landowner.",
+          "as": "ৰজাই মাটিৰ নতুন গৰাকী নিযুক্ত কৰিব।"
+        },
+        {
+          "en": "The village hands his fields to a monastery.",
+          "as": "গাঁৱৰ লোকে তেওঁৰ পথাৰ সত্ৰক গতাই দিব।"
+        },
+        {
+          "en": "He pays his companions a land tax.",
+          "as": "তেওঁ সংগীকেইজনক মাটিৰ খাজনা দিব।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Rotating service worked because the members who stayed home took on the absent paik’s tasks.",
+        "as": "গাঁৱত থকা সদস্যসকলে অনুপস্থিত পাইকজনৰ কাম চম্ভালিছিল বাবেই পাল পাতি ৰজাঘৰত সেৱা কৰা সম্ভৱ হৈছিল।"
+      },
+      "id": "lesson-3-test-1-q1"
+    },
+    {
+      "en": "A paik uses two puras of revenue-free land. What obligation explains this arrangement?",
+      "as": "এজন পাইকে দুপুৰা নিষ্কৰ মাটি ভোগ কৰিছে। ইয়াৰ বিনিময়ত তেওঁৰ কি দায়িত্ব আছিল?",
+      "options": [
+        {
+          "en": "To train the king’s priests",
+          "as": "ৰজাৰ পুৰোহিতসকলক শিক্ষা দিয়া"
+        },
+        {
+          "en": "To collect tolls from all traders",
+          "as": "সকলো বেপাৰীৰ পৰা শুল্ক সংগ্ৰহ কৰা"
+        },
+        {
+          "en": "To serve the state",
+          "as": "ৰাজ্যৰ হকে কাম কৰা"
+        },
+        {
+          "en": "To maintain a tol at his own expense",
+          "as": "নিজ খৰচত এখন টোল চলোৱা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The revenue-free holding was tied to the paik’s obligation to provide service.",
+        "as": "পাইকে ৰাজ্যক শ্ৰমসেৱা আগবঢ়োৱাৰ বিনিময়ত নিষ্কৰ মাটি ভোগ কৰিবলৈ পাইছিল।"
+      },
+      "id": "lesson-3-test-1-q2"
+    },
+    {
+      "en": "Which change in duty could a paik expect in wartime?",
+      "as": "যুদ্ধৰ সময়ত এজন পাইকৰ দায়িত্ব কেনেদৰে সলনি হ’ব পাৰিছিল?",
+      "options": [
+        {
+          "en": "He automatically became a land-revenue officer.",
+          "as": "তেওঁ নিজে নিজেই ভূমি-ৰাজহৰ বিষয়া হৈ পৰিছিল।"
+        },
+        {
+          "en": "He could be called to serve as a soldier.",
+          "as": "তেওঁক সৈনিক হিচাপে মাতিব পাৰিছিল।"
+        },
+        {
+          "en": "He became a hereditary village chief.",
+          "as": "তেওঁ বংশানুক্ৰমে গাঁৱৰ মুখিয়াল হৈছিল।"
+        },
+        {
+          "en": "He was required to teach at a tol.",
+          "as": "তেওঁ টোলত পঢ়োৱাটো বাধ্যতামূলক হৈছিল।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Ahom state drew on paiks for military service as well as for labour.",
+        "as": "আহোম ৰজাই শ্ৰমৰ লগতে যুদ্ধৰ সময়ত সৈনিকৰ দায়িত্বও পাইকসকলক দিছিল।"
+      },
+      "id": "lesson-3-test-1-q3"
+    },
+    {
+      "en": "Which problem was the posa arrangement intended to address?",
+      "as": "পচা ব্যৱস্থাৰে কোনটো সমস্যা সমাধানৰ চেষ্টা কৰা হৈছিল?",
+      "options": [
+        {
+          "en": "A shortage of trained manuscript painters",
+          "as": "পুথিত চিত্ৰ অঁকা শিল্পীৰ অভাৱ"
+        },
+        {
+          "en": "A shortage of silver coins in village markets",
+          "as": "গাঁৱৰ বজাৰত ৰূপৰ মুদ্ৰাৰ অভাৱ"
+        },
+        {
+          "en": "Waterlogging inside the Kachari capital",
+          "as": "কছাৰী ৰাজধানীত পানী জমা হোৱাৰ সমস্যা"
+        },
+        {
+          "en": "Conflict affecting settlements along the foothills",
+          "as": "পাহাৰৰ দাঁতিৰ বসতিসমূহত সংঘাতৰ আশংকা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Posa regulated customary dues along the frontier to reduce raids on foothill settlements.",
+        "as": "পাহাৰৰ দাঁতিৰ গাঁওবোৰত আক্ৰমণ কমাবলৈ পচা ব্যৱস্থাৰে সীমান্তত প্ৰাপ্য সামগ্ৰী সংগ্ৰহৰ নিয়ম বান্ধি দিয়া হৈছিল।"
+      },
+      "id": "lesson-3-test-1-q4"
+    },
+    {
+      "en": "A potter takes rice in return for a jar. Which feature of early medieval trade does this show?",
+      "as": "এজন কুমাৰে কলহ এটাৰ সলনি চাউল ল’লে। ইয়াত মধ্যযুগৰ প্ৰথমভাগৰ বাণিজ্যৰ কোনটো বৈশিষ্ট্য দেখা যায়?",
+      "options": [
+        {
+          "en": "Land revenue",
+          "as": "মাটিৰ খাজনা"
+        },
+        {
+          "en": "Royal land grant",
+          "as": "ৰাজকীয় ভূমিদান"
+        },
+        {
+          "en": "Barter",
+          "as": "বস্তু-বিনিময়"
+        },
+        {
+          "en": "Cash wages",
+          "as": "নগদ মজুৰি"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The two parties exchange goods directly without using money.",
+        "as": "ইয়াত ধন ব্যৱহাৰ নকৰাকৈ এটা বস্তুৰ সলনি আন এটা বস্তু দিয়া হৈছে।"
+      },
+      "id": "lesson-3-test-1-q5"
+    },
+    {
+      "en": "Which observation most strongly supports the description of a village as economically self-reliant?",
+      "as": "গাঁও এখন অৰ্থনৈতিকভাৱে আত্মনিৰ্ভৰশীল আছিল বুলি ক’বলৈ কোনটো তথ্য আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "Families grew food and made much of their own cloth and pottery.",
+          "as": "পৰিয়ালবোৰে খাদ্যশস্য উৎপাদন কৰাৰ লগতে প্ৰয়োজনীয় কাপোৰ আৰু মাটিৰ পাত্ৰৰ বহুখিনি নিজেই তৈয়াৰ কৰিছিল।"
+        },
+        {
+          "en": "Farmers paid the king a share of their produce.",
+          "as": "খেতিয়কে উৎপন্ন শস্যৰ এভাগ ৰজাক দিছিল।"
+        },
+        {
+          "en": "The village stood beside a river used by merchants.",
+          "as": "বেপাৰীয়ে ব্যৱহাৰ কৰা নৈ এখনৰ পাৰত গাঁওখন আছিল।"
+        },
+        {
+          "en": "A royal officer recorded each family’s land.",
+          "as": "ৰজাৰ বিষয়াই প্ৰতিঘৰৰ মাটিৰ হিচাপ ৰাখিছিল।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Local production met several everyday needs, reducing dependence on outside supplies.",
+        "as": "নিত্য প্ৰয়োজনৰ বহু সামগ্ৰী গাঁৱতে উৎপাদন হোৱাত বাহিৰৰ যোগানৰ ওপৰত নিৰ্ভৰতা কমিছিল।"
+      },
+      "id": "lesson-3-test-1-q6"
+    },
+    {
+      "en": "A farmer channels stored rainwater to a paddy field. Which practice described in the lesson is being used?",
+      "as": "এজন খেতিয়কে সাঁচি থোৱা বৰষুণৰ পানী পথাৰলৈ বোৱাই দিছে। পাঠত উল্লেখ কৰা কোনটো ব্যৱস্থা ইয়াত দেখা যায়?",
+      "options": [
+        {
+          "en": "Jhum cultivation",
+          "as": "জুম খেতি"
+        },
+        {
+          "en": "Terracing a slope",
+          "as": "ঢালত খলপ কটা"
+        },
+        {
+          "en": "Rotating crops",
+          "as": "শস্যৰ আৱৰ্তন"
+        },
+        {
+          "en": "Irrigation using a dong",
+          "as": "ডোঙেৰে জলসিঞ্চন"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Dongs helped farmers collect and direct water to their fields.",
+        "as": "ডোঙৰ সহায়ত খেতিয়কে পানী জমা কৰি পথাৰলৈ বোৱাই নিব পাৰিছিল।"
+      },
+      "id": "lesson-3-test-1-q7"
+    },
+    {
+      "en": "A hill slope has been shaped into permanent steps for cultivation. Which label best fits a sketch of it?",
+      "as": "পাহাৰৰ ঢালত খেতিৰ বাবে স্থায়ীকৈ চিৰিৰ দৰে ধাপ কটা হৈছে। ইয়াৰ ছবিখনৰ উপযুক্ত নাম কি?",
+      "options": [
+        {
+          "en": "Shifting cultivation",
+          "as": "স্থানান্তৰী খেতি"
+        },
+        {
+          "en": "Terrace cultivation",
+          "as": "খলপীয়া খেতি"
+        },
+        {
+          "en": "Floodplain cultivation",
+          "as": "প্লাৱনভূমিৰ খেতি"
+        },
+        {
+          "en": "River-island cultivation",
+          "as": "চাপৰিৰ খেতি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Terraces turn a slope into a series of level plots where crops can grow.",
+        "as": "খলপ কাটিলে ঢালত কেইবাডোখৰো সমান মাটি পোৱা যায় আৰু তাত খেতি কৰিব পাৰি।"
+      },
+      "id": "lesson-3-test-1-q8"
+    },
+    {
+      "en": "A museum displays a dokhona under ‘Clothing of medieval Assam’. Which community’s women should the label identify?",
+      "as": "সংগ্ৰহালয়ত মধ্যযুগৰ অসমৰ সাজপাৰৰ শিতানত এখন দখনা ৰখা হৈছে। নামফলকত কোন জনগোষ্ঠীৰ মহিলাৰ কথা উল্লেখ কৰিব লাগে?",
+      "options": [
+        {
+          "en": "Ahom",
+          "as": "আহোম"
+        },
+        {
+          "en": "Khasi",
+          "as": "খাচী"
+        },
+        {
+          "en": "Bodo",
+          "as": "বড়ো"
+        },
+        {
+          "en": "Mising",
+          "as": "মিচিং"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The dokhona is a distinctive garment traditionally worn by Bodo women.",
+        "as": "দখনা বড়ো মহিলাৰ পৰম্পৰাগত সাজপাৰৰ এবিধ বিশেষ বস্ত্ৰ।"
+      },
+      "id": "lesson-3-test-1-q9"
+    },
+    {
+      "en": "Which find at Dimapur most directly shows how the Kacharis managed water inside their capital?",
+      "as": "ডিমাপুৰৰ কোনখিনি নিদৰ্শনে কছাৰীসকলে ৰাজধানীত কেনেদৰে পানীৰ ব্যৱস্থা কৰিছিল তাক পোনপটীয়াকৈ দেখুৱায়?",
+      "options": [
+        {
+          "en": "Carved pillars and sculptures",
+          "as": "খোদিত স্তম্ভ আৰু ভাস্কৰ্য"
+        },
+        {
+          "en": "Brick walls and gateways",
+          "as": "ইটাৰ দেৱাল আৰু দুৱাৰ"
+        },
+        {
+          "en": "Ornaments and ivory objects",
+          "as": "অলংকাৰ আৰু হাতীদাঁতৰ সামগ্ৰী"
+        },
+        {
+          "en": "Tanks and drainage channels",
+          "as": "পুখুৰী আৰু নলা-নৰ্দমা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Tanks stored water and drains carried excess water away from built-up areas.",
+        "as": "পুখুৰীত পানী জমা হৈছিল আৰু নলা-নৰ্দমাই বসতি অঞ্চলৰ অতিৰিক্ত পানী উলিয়াই নিছিল।"
+      },
+      "id": "lesson-3-test-1-q10"
+    }
+  ]
+}

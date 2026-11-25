@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-6-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 6 · The Establishment, Expansion and Consolidation of British Rule in India",
+    "as": "পাঠ ৬ · ভাৰতবৰ্ষত ব্ৰিটিছ শাসনৰ প্ৰতিষ্ঠা, সম্প্ৰসাৰণ আৰু দৃঢ়ীকৰণ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Why did control of Bengal’s revenue make further expansion easier for the company?",
+      "as": "বংগৰ ৰাজহৰ ওপৰত নিয়ন্ত্ৰণে কোম্পানীৰ ৰাজ্য বিস্তাৰ কিয় সহজ কৰিলে?",
+      "options": [
+        {
+          "en": "It made all neighbouring rulers company officials.",
+          "as": "ইয়াৰ ফলত চুবুৰীয়া সকলো শাসক কোম্পানীৰ বিষয়া হ’ল।"
+        },
+        {
+          "en": "It helped pay for troops and supplies in India.",
+          "as": "ইয়াৰ পৰা ভাৰতত সৈন্য আৰু ৰচদৰ খৰচ যোগাব পৰা গ’ল।"
+        },
+        {
+          "en": "It immediately ended opposition in Mysore.",
+          "as": "ইয়াৰ ফলত মহীশূৰৰ প্ৰতিৰোধ তৎক্ষণাৎ শেষ হ’ল।"
+        },
+        {
+          "en": "It placed the French navy under company command.",
+          "as": "ইয়াৰ ফলত ফৰাচী নৌবাহিনী কোম্পানীৰ অধীন হ’ল।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A regular local income could sustain the military costs of expansion.",
+        "as": "স্থানীয় ৰাজহৰ নিয়মীয়া আয়ে ৰাজ্য বিস্তাৰৰ সামৰিক ব্যয় বহন কৰাত সহায় কৰিছিল।"
+      },
+      "id": "lesson-6-test-2-q1"
+    },
+    {
+      "en": "Under Bengal’s dual government, what made the Nawab’s administrative duties difficult to discharge?",
+      "as": "বংগৰ দ্বৈত শাসনত নবাবে প্ৰশাসনিক দায়িত্ব পালন কৰাত কিহে অসুবিধাৰ সৃষ্টি কৰিছিল?",
+      "options": [
+        {
+          "en": "The Nawab had sole control of both revenue and expenditure.",
+          "as": "ৰাজহ আৰু ব্যয় দুয়োটাৰে পূৰ্ণ নিয়ন্ত্ৰণ নবাবৰ হাতত আছিল।"
+        },
+        {
+          "en": "The French collected all revenue on the Nawab’s behalf.",
+          "as": "নবাবৰ হৈ ফৰাচীসকলে সকলো ৰাজহ তুলিছিল।"
+        },
+        {
+          "en": "The Mughal emperor had abolished all taxes.",
+          "as": "মোগল সম্ৰাটে সকলো কৰ উঠাই দিছিল।"
+        },
+        {
+          "en": "The company controlled the main source of revenue.",
+          "as": "ৰাজহৰ মুখ্য উৎস কোম্পানীৰ নিয়ন্ত্ৰণত আছিল।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Administrative responsibility remained with the Nawab while financial power lay with the company.",
+        "as": "প্ৰশাসনৰ দায়িত্ব নবাবৰ ওপৰত থাকিলেও ধনৰ ওপৰত কৰ্তৃত্ব আছিল কোম্পানীৰ।"
+      },
+      "id": "lesson-6-test-2-q2"
+    },
+    {
+      "en": "Which measure belongs under “British parliamentary control over the company” on a timeline?",
+      "as": "কালৰেখাৰ ‘কোম্পানীৰ ওপৰত ব্ৰিটিছ সংসদৰ নিয়ন্ত্ৰণ’ শিতানত কোনটো ব্যৱস্থা থাকিব?",
+      "options": [
+        {
+          "en": "Grant of Diwani in 1765",
+          "as": "১৭৬৫ চনত দেৱানী অধিকাৰ প্ৰদান"
+        },
+        {
+          "en": "Installation of Mir Jafar in 1757",
+          "as": "১৭৫৭ চনত মীৰজাফৰক গাদীত বহুওৱা"
+        },
+        {
+          "en": "Regulating Act of 1773",
+          "as": "১৭৭৩ চনৰ ৰেগুলেটিং এক্ট"
+        },
+        {
+          "en": "Battle of Buxar in 1764",
+          "as": "১৭৬৪ চনৰ বক্সাৰৰ যুদ্ধ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Parliament passed the Regulating Act to supervise the company’s government in India.",
+        "as": "ভাৰতত কোম্পানীৰ শাসন তদাৰক কৰিবলৈ ব্ৰিটিছ সংসদে ৰেগুলেটিং এক্ট প্ৰণয়ন কৰিছিল।"
+      },
+      "id": "lesson-6-test-2-q3"
+    },
+    {
+      "en": "A portrait is labelled “first Governor-General of Bengal”. Whom should it show?",
+      "as": "এখন প্ৰতিকৃতিৰ তলত ‘বংগৰ প্ৰথম গৱৰ্ণৰ জেনেৰেল’ বুলি লিখা আছে। এইখন কাৰ প্ৰতিকৃতি হ’ব?",
+      "options": [
+        {
+          "en": "Robert Clive",
+          "as": "ৰবাৰ্ট ক্লাইভ"
+        },
+        {
+          "en": "Warren Hastings",
+          "as": "ৱাৰেন হেষ্টিংছ"
+        },
+        {
+          "en": "Lord Dalhousie",
+          "as": "লৰ্ড ডেলহাউছি"
+        },
+        {
+          "en": "Lord Wellesley",
+          "as": "লৰ্ড ৱেলেছলি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Warren Hastings was the first to hold the office created under the Regulating Act.",
+        "as": "ৰেগুলেটিং এক্টৰ অধীনত সৃষ্টি হোৱা এই পদত প্ৰথমে ৱাৰেন হেষ্টিংছ অধিষ্ঠিত হৈছিল।"
+      },
+      "id": "lesson-6-test-2-q4"
+    },
+    {
+      "en": "A treaty makes an Indian ruler pay for company troops stationed in his territory. Which policy does this illustrate?",
+      "as": "এখন সন্ধি অনুসৰি এজন ভাৰতীয় শাসকে নিজৰ ৰাজ্যত থকা কোম্পানীৰ সৈন্যৰ খৰচ বহন কৰিব লাগে। এয়া কোনটো নীতিৰ উদাহৰণ?",
+      "options": [
+        {
+          "en": "Subsidiary Alliance",
+          "as": "অধীনতামূলক মিত্ৰতা নীতি"
+        },
+        {
+          "en": "Doctrine of Lapse",
+          "as": "স্বত্ববিলোপ নীতি"
+        },
+        {
+          "en": "Dual government",
+          "as": "দ্বৈত শাসন"
+        },
+        {
+          "en": "Diwani grant",
+          "as": "দেৱানী অধিকাৰ প্ৰদান"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Under the Subsidiary Alliance, a ruler accepted a company force and provided for its upkeep.",
+        "as": "অধীনতামূলক মিত্ৰতাত শাসকে কোম্পানীৰ সৈন্য নিজৰ ৰাজ্যত ৰাখি তাৰ ভৰণ-পোষণৰ ব্যৱস্থা কৰিছিল।"
+      },
+      "id": "lesson-6-test-2-q5"
+    },
+    {
+      "en": "Which decision would a ruler under Wellesley’s Subsidiary Alliance generally lose the freedom to make independently?",
+      "as": "ৱেলেছলিৰ অধীনতামূলক মিত্ৰতা মানি লোৱা শাসক এজনে সাধাৰণতে কোনটো সিদ্ধান্ত নিজে লোৱাৰ স্বাধীনতা হেৰুৱাইছিল?",
+      "options": [
+        {
+          "en": "Choosing the menu for a palace feast",
+          "as": "ৰাজপ্ৰাসাদৰ ভোজৰ খাদ্যতালিকা বাছনি কৰা"
+        },
+        {
+          "en": "Selecting musicians for a court festival",
+          "as": "দৰবাৰৰ উৎসৱৰ বাবে সংগীতশিল্পী বাছনি কৰা"
+        },
+        {
+          "en": "Commissioning a family portrait",
+          "as": "পৰিয়ালৰ প্ৰতিকৃতি অঁকিবলৈ দিয়া"
+        },
+        {
+          "en": "Concluding a treaty with a neighbouring ruler",
+          "as": "চুবুৰীয়া শাসকৰ লগত সন্ধি কৰা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The alliance subjected relations with other states to company approval.",
+        "as": "এই মিত্ৰতাই আন ৰাজ্যৰ সৈতে সম্পৰ্ক স্থাপনৰ ক্ষেত্ৰত কোম্পানীৰ অনুমোদন লোৱাটো বাধ্যতামূলক কৰিছিল।"
+      },
+      "id": "lesson-6-test-2-q6"
+    },
+    {
+      "en": "Which case most closely fits Dalhousie’s Doctrine of Lapse?",
+      "as": "কোনটো ঘটনা ডেলহাউছিৰ স্বত্ববিলোপ নীতিৰ উদাহৰণ?",
+      "options": [
+        {
+          "en": "A ruler grants a company merchant a duty exemption.",
+          "as": "এজন শাসকে কোম্পানীৰ বণিকক শুল্ক ৰেহাই দিয়ে।"
+        },
+        {
+          "en": "The company annexes a dependent state after rejecting an adopted heir’s claim.",
+          "as": "তোলনীয়া উত্তৰাধিকাৰীৰ দাবী নাকচ কৰি কোম্পানীয়ে এখন অধীনস্থ ৰাজ্য দখল কৰে।"
+        },
+        {
+          "en": "A ruler pays for a company force stationed at his capital.",
+          "as": "এজন শাসকে ৰাজধানীত থকা কোম্পানীৰ সেনাৰ খৰচ দিয়ে।"
+        },
+        {
+          "en": "The emperor grants the company revenue rights in three provinces.",
+          "as": "সম্ৰাটে কোম্পানীক তিনিখন প্ৰদেশৰ ৰাজহ সংগ্ৰহৰ অধিকাৰ দিয়ে।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Dalhousie denied succession by adoption in certain dependent states when a ruler died without a natural male heir.",
+        "as": "কিছুমান অধীনস্থ ৰাজ্যৰ ৰজাৰ ঔৰসজাত পুত্ৰ নথকাকৈ মৃত্যু হ’লে ডেলহাউছিয়ে তোলনীয়া পুত্ৰৰ সিংহাসনৰ দাবী মানি লোৱা নাছিল।"
+      },
+      "id": "lesson-6-test-2-q7"
+    },
+    {
+      "en": "Which state belongs in a list of annexations under the Doctrine of Lapse?",
+      "as": "স্বত্ববিলোপ নীতিৰে দখল কৰা ৰাজ্যৰ তালিকাত কোনখন ৰাজ্য থাকিব?",
+      "options": [
+        {
+          "en": "Jhansi",
+          "as": "ঝান্সি"
+        },
+        {
+          "en": "Awadh",
+          "as": "অযোধ্যা"
+        },
+        {
+          "en": "Punjab",
+          "as": "পঞ্জাব"
+        },
+        {
+          "en": "Mysore",
+          "as": "মহীশূৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The company annexed Jhansi after refusing to recognise the adopted heir’s right to rule.",
+        "as": "তোলনীয়া উত্তৰাধিকাৰীৰ শাসনৰ অধিকাৰ মানিবলৈ অস্বীকাৰ কৰি কোম্পানীয়ে ঝান্সি দখল কৰিছিল।"
+      },
+      "id": "lesson-6-test-2-q8"
+    },
+    {
+      "en": "Which comparison correctly distinguishes the outcome of Plassey from that of the Subsidiary Alliance?",
+      "as": "পলাশীৰ যুদ্ধৰ ফল আৰু অধীনতামূলক মিত্ৰতাৰ ফলৰ মাজৰ পাৰ্থক্য কোনটো বাক্যত শুদ্ধকৈ দেখুওৱা হৈছে?",
+      "options": [
+        {
+          "en": "Plassey gave the company the Diwani. The alliance abolished revenue collection.",
+          "as": "পলাশীত কোম্পানীয়ে দেৱানী পালে। মিত্ৰতাই ৰাজহ সংগ্ৰহ উঠাই দিলে।"
+        },
+        {
+          "en": "Plassey ended French rule in Pondicherry. The alliance restored it.",
+          "as": "পলাশীত পণ্ডিচেৰীৰ ফৰাচী শাসন শেষ হ’ল। মিত্ৰতাই সেই শাসন ঘূৰাই আনিলে।"
+        },
+        {
+          "en": "Plassey settled an adoption dispute. The alliance established dual government.",
+          "as": "পলাশীত তোলনীয়া পুত্ৰৰ বিবাদ মীমাংসা হ’ল। মিত্ৰতাই দ্বৈত শাসন প্ৰৱৰ্তন কৰিলে।"
+        },
+        {
+          "en": "At Plassey the company helped replace a Nawab. Under the alliance it restricted a ruler by treaty.",
+          "as": "পলাশীৰ যুদ্ধৰ পিছত কোম্পানীয়ে নবাব সলনি কৰাত ভূমিকা ল’লে। মিত্ৰতাৰ অধীনত সন্ধিৰে শাসকৰ ক্ষমতা সীমিত কৰিলে।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Installing Mir Jafar gave the company influence in Bengal. Alliance terms constrained rulers who kept their thrones.",
+        "as": "মীৰজাফৰক গাদীত বহুৱাই কোম্পানীয়ে বংগত প্ৰভাৱ বঢ়ালে। মিত্ৰতাৰ চৰ্তই গাদীত থকা শাসকৰ ক্ষমতা সীমিত কৰিলে।"
+      },
+      "id": "lesson-6-test-2-q9"
+    },
+    {
+      "en": "A historian wants evidence of consolidation after a conquest. Which document would be most useful?",
+      "as": "ৰাজ্য জয়ৰ পিছত শাসন কেনেকৈ সুদৃঢ় কৰা হৈছিল তাক জানিবলৈ কোনখন নথি আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "A list of cannon fired during the battle",
+          "as": "যুদ্ধত চলোৱা কামানৰ তালিকা"
+        },
+        {
+          "en": "A sketch of the battlefield before the armies arrived",
+          "as": "সৈন্য অহাৰ আগৰ ৰণক্ষেত্ৰৰ নক্সা"
+        },
+        {
+          "en": "An order specifying which governors must report to the Governor-General",
+          "as": "কোন কোন গৱৰ্ণৰে গৱৰ্ণৰ জেনেৰেলক প্ৰতিবেদন দিব লাগিব তাক নিৰ্ধাৰণ কৰা আদেশ"
+        },
+        {
+          "en": "A merchant’s estimate of the price of pepper overseas",
+          "as": "বিদেশত জালুকৰ দাম সম্পৰ্কে এজন বণিকৰ অনুমান"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A reporting order shows how authority was organised to govern territory after it had been won.",
+        "as": "এনে আদেশে জয় কৰা অঞ্চল চলাবলৈ শাসনকৰ্তাসকলৰ মাজত ক্ষমতা আৰু জবাবদিহি কেনেদৰে নিৰ্ধাৰণ কৰা হৈছিল সেয়া দেখুৱায়।"
+      },
+      "id": "lesson-6-test-2-q10"
+    }
+  ]
+}

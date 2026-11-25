@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-revision-test-3",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "section": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "test": {
+    "en": "Test 3",
+    "as": "অনুশীলনী ৩"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "To understand how singers expressed devotion in a medieval Assamese congregation, which source would be most relevant?",
+      "as": "মধ্যযুগীয় অসমৰ সমূহীয়া উপাসনাত গায়কে কেনেকৈ ভক্তি প্ৰকাশ কৰিছিল বুজিবলৈ কোনটো উৎস আটাইতকৈ প্ৰাসংগিক?",
+      "options": [
+        {
+          "en": "Buranji",
+          "as": "বুৰঞ্জী"
+        },
+        {
+          "en": "Devotional song",
+          "as": "ভক্তিমূলক গীত"
+        },
+        {
+          "en": "Trading charter",
+          "as": "বাণিজ্যিক চনদ"
+        },
+        {
+          "en": "Copper-plate grant",
+          "as": "তাম্ৰশাসন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The lyrics of devotional songs preserve ideas expressed in worship.",
+        "as": "ভক্তিমূলক গীতৰ কথাত উপাসনাৰ সময়ত প্ৰকাশ কৰা ভাব সংৰক্ষিত হৈ থাকে।"
+      },
+      "id": "revision-test-3-q1"
+    },
+    {
+      "en": "A display labels Chilarai as commander. Which ruler belongs in the adjoining panel on the Koch court?",
+      "as": "প্ৰদৰ্শনী এখনত চিলাৰায়ক সেনাপতি বুলি দেখুওৱা হৈছে। কাষৰ কোচ ৰাজদৰবাৰৰ ফলকত কোনজন ৰজা থাকিব?",
+      "options": [
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মা"
+        },
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        },
+        {
+          "en": "Nara Narayan",
+          "as": "নৰনাৰায়ণ"
+        },
+        {
+          "en": "Lachit Barphukan",
+          "as": "লাচিত বৰফুকন"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Chilarai commanded the army of his brother Nara Narayan.",
+        "as": "চিলাৰায়ে তেওঁৰ ভাতৃ নৰনাৰায়ণৰ সৈন্যবাহিনীৰ নেতৃত্ব দিছিল।"
+      },
+      "id": "revision-test-3-q2"
+    },
+    {
+      "en": "A minister treats a favourable trade balance as a way of accumulating gold. Which economic doctrine does the argument illustrate?",
+      "as": "এজন মন্ত্ৰীয়ে অনুকূল বাণিজ্যিক ভাৰসাম্যক সোণ সঞ্চয়ৰ উপায় বুলি ভাবে। এয়া কোনটো অৰ্থনৈতিক মতবাদ?",
+      "options": [
+        {
+          "en": "Ryotwari settlement",
+          "as": "ৰায়তৱাৰী বন্দৱস্ত"
+        },
+        {
+          "en": "Namghar",
+          "as": "নামঘৰ"
+        },
+        {
+          "en": "Paik system",
+          "as": "পাইক প্ৰথা"
+        },
+        {
+          "en": "Mercantilism",
+          "as": "বাণিজ্যবাদ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Mercantilists associated a surplus of exports over imports with gains in precious metals.",
+        "as": "বাণিজ্যবাদীসকলে আমদানিতকৈ ৰপ্তানি বেছি হোৱাটো মূল্যৱান ধাতুৰ সঞ্চয়ৰ সৈতে জড়িত কৰিছিল।"
+      },
+      "id": "revision-test-3-q3"
+    },
+    {
+      "en": "From which cantonment did rebel sepoys march to Delhi in May 1857?",
+      "as": "১৮৫৭ চনৰ মে’ মাহত বিদ্ৰোহী চিপাহীসকলে কোনটো সেনানিবাসৰ পৰা দিল্লীলৈ যাত্ৰা কৰিছিল?",
+      "options": [
+        {
+          "en": "Saraighat",
+          "as": "শৰাইঘাট"
+        },
+        {
+          "en": "Meerut",
+          "as": "মীৰাট"
+        },
+        {
+          "en": "Plassey",
+          "as": "পলাশী"
+        },
+        {
+          "en": "Buxar",
+          "as": "বক্সাৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The rising at Meerut on 10 May was followed by the rebels’ advance to Delhi.",
+        "as": "১০ মে’ত মীৰাটত বিদ্ৰোহৰ পিছত বিদ্ৰোহীসকল দিল্লীলৈ আগবাঢ়িছিল।"
+      },
+      "id": "revision-test-3-q4"
+    },
+    {
+      "en": "After a good harvest, a Bengal zamindar’s payment to the Company remains at the amount fixed in 1793. What explains this?",
+      "as": "ভাল ফচল হোৱাৰ পিছতো বংগৰ এজন জমিদাৰে কোম্পানীক দিবলগীয়া ৰাজহ ১৭৯৩ চনৰ নিৰ্ধাৰিত হাৰতেই থাকিল। ইয়াৰ কাৰণ কি?",
+      "options": [
+        {
+          "en": "Subsidiary Alliance",
+          "as": "অধীনতামূলক মিত্ৰতা নীতি"
+        },
+        {
+          "en": "Permanent Settlement",
+          "as": "চিৰস্থায়ী বন্দৱস্ত"
+        },
+        {
+          "en": "Diwani grant",
+          "as": "দেৱানী প্ৰদান"
+        },
+        {
+          "en": "Doctrine of Lapse",
+          "as": "স্বত্ববিলোপ নীতি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Permanent Settlement fixed the state revenue payable by zamindars in perpetuity.",
+        "as": "চিৰস্থায়ী বন্দৱস্তত জমিদাৰে চৰকাৰক দিবলগীয়া ৰাজহ স্থায়ীভাৱে নিৰ্ধাৰণ কৰা হৈছিল।"
+      },
+      "id": "revision-test-3-q5"
+    },
+    {
+      "en": "Which change connects a campaign by Raja Rammohan Roy with a regulation under William Bentinck?",
+      "as": "ৰাজা ৰামমোহন ৰায়ৰ অভিযান আৰু উইলিয়াম বেণ্টিঙ্কৰ শাসনৰ এখন বিধিৰ মাজত কোনটো পৰিৱৰ্তনে সংযোগ স্থাপন কৰে?",
+      "options": [
+        {
+          "en": "Moamoria rebellion",
+          "as": "মোৱামৰীয়া বিদ্ৰোহ"
+        },
+        {
+          "en": "Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধি"
+        },
+        {
+          "en": "Revolt of 1857",
+          "as": "১৮৫৭ চনৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Abolition of sati in Bengal",
+          "as": "বংগত সতীদাহ প্ৰথাৰ বিলোপ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Bentinck’s regulation of 1829 prohibited sati in the Bengal Presidency.",
+        "as": "১৮২৯ চনত বেণ্টিঙ্কৰ বিধিয়ে বংগ প্ৰেছিডেন্সিত সতীদাহ নিষিদ্ধ কৰিছিল।"
+      },
+      "id": "revision-test-3-q6"
+    },
+    {
+      "en": "After a law is passed, a department assigns officials and funds to carry it out. Which organ does this illustrate?",
+      "as": "আইন গৃহীত হোৱাৰ পিছত এটা বিভাগে ৰূপায়ণৰ বাবে বিষয়া আৰু ধন নিয়োজিত কৰিছে। এয়া কোনটো অংগৰ কাম?",
+      "options": [
+        {
+          "en": "Constituent Assembly",
+          "as": "সংবিধান সভা"
+        },
+        {
+          "en": "Legislature",
+          "as": "বিধানমণ্ডল"
+        },
+        {
+          "en": "Executive",
+          "as": "কাৰ্যপালিকা"
+        },
+        {
+          "en": "Judiciary",
+          "as": "ন্যায়পালিকা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The executive administers laws once enacted.",
+        "as": "প্ৰণীত আইন কাৰ্যকৰী কৰাটো কাৰ্যপালিকাৰ কাম।"
+      },
+      "id": "revision-test-3-q7"
+    },
+    {
+      "en": "A country chooses its head of state through election instead of hereditary succession. Which description follows?",
+      "as": "এখন দেশত বংশানুক্ৰমিক উত্তৰাধিকাৰৰ পৰিৱৰ্তে নিৰ্বাচনেৰে ৰাষ্ট্ৰপ্ৰধান বাছনি কৰা হয়। ইয়াৰ পৰা কোনটো বৈশিষ্ট্য বুজা যায়?",
+      "options": [
+        {
+          "en": "Republican government",
+          "as": "গণৰাজ্যিক শাসন"
+        },
+        {
+          "en": "Universal adult franchise",
+          "as": "সাৰ্বজনীন প্ৰাপ্তবয়স্ক ভোটাধিকাৰ"
+        },
+        {
+          "en": "Secularism",
+          "as": "ধৰ্মনিৰপেক্ষতা"
+        },
+        {
+          "en": "Federalism",
+          "as": "যুক্তৰাষ্ট্ৰীয়তা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "In a republic, the head of state holds a non-hereditary office.",
+        "as": "গণৰাজ্যত ৰাষ্ট্ৰপ্ৰধানৰ পদ বংশানুক্ৰমিক নহয়।"
+      },
+      "id": "revision-test-3-q8"
+    },
+    {
+      "en": "A community prepares reading material in its own script so that children can learn it. Which right best supports its aim?",
+      "as": "এটা জনগোষ্ঠীয়ে শিশুসকলে শিকিব পৰাকৈ নিজৰ লিপিত পাঠ্যসামগ্ৰী প্ৰস্তুত কৰিছে। কোনটো অধিকাৰে এই লক্ষ্য সমৰ্থন কৰে?",
+      "options": [
+        {
+          "en": "Freedom of religion",
+          "as": "ধৰ্মীয় স্বাধীনতা"
+        },
+        {
+          "en": "Right against exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Cultural and educational rights",
+          "as": "সাংস্কৃতিক আৰু শিক্ষাৰ অধিকাৰ"
+        },
+        {
+          "en": "Equality before the law",
+          "as": "আইনৰ আগত সমতা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The conservation of a distinct script falls within cultural rights.",
+        "as": "স্বতন্ত্ৰ লিপি সংৰক্ষণ সাংস্কৃতিক অধিকাৰৰ অন্তৰ্ভুক্ত।"
+      },
+      "id": "revision-test-3-q9"
+    },
+    {
+      "en": "Two sources disagree on the date of an event. A student checks their evidence before deciding. Which habit does this illustrate?",
+      "as": "এটা ঘটনাৰ তাৰিখ সম্পৰ্কে দুটা উৎসৰ মাজত অমিল আছে। সিদ্ধান্তৰ আগতে শিক্ষাৰ্থীয়ে প্ৰমাণ পৰীক্ষা কৰিছে। এই অভ্যাসে কি দেখুৱায়?",
+      "options": [
+        {
+          "en": "Scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা"
+        },
+        {
+          "en": "Protection of public property",
+          "as": "ৰাজহুৱা সম্পত্তিৰ সুৰক্ষা"
+        },
+        {
+          "en": "Preservation of composite culture",
+          "as": "সমন্বিত সংস্কৃতিৰ সংৰক্ষণ"
+        },
+        {
+          "en": "Respect for freedom-struggle ideals",
+          "as": "স্বাধীনতা সংগ্ৰামৰ আদৰ্শৰ প্ৰতি শ্ৰদ্ধা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Questioning claims and testing evidence expresses the spirit of inquiry.",
+        "as": "দাবী সম্পৰ্কে প্ৰশ্ন তোলা আৰু প্ৰমাণ পৰীক্ষা কৰাত অনুসন্ধিৎসা প্ৰকাশ পায়।"
+      },
+      "id": "revision-test-3-q10"
+    }
+  ]
+}

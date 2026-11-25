@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-10-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 10 · The Constitution and its Necessity",
+    "as": "পাঠ ১০ · সংবিধান আৰু ইয়াৰ প্ৰয়োজনীয়তা"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A village library keeps four records. Which one plays the role of a constitution for the library?",
+      "as": "গাঁৱৰ পুথিভঁৰাল এটাত চাৰিখন নথি আছে। কোনখন নথিয়ে পুথিভঁৰালটোৰ সংবিধানৰ দৰে কাম কৰে?",
+      "options": [
+        {
+          "en": "Minutes of the committee’s last meeting",
+          "as": "সমিতিৰ শেহতীয়া সভাৰ কাৰ্যবিৱৰণী"
+        },
+        {
+          "en": "A register of books borrowed by members",
+          "as": "সদস্যই নিয়া কিতাপৰ পঞ্জী"
+        },
+        {
+          "en": "Rules defining membership, elections and the committee’s powers",
+          "as": "সদস্যপদ, নিৰ্বাচন আৰু সমিতিৰ ক্ষমতা নিৰ্ধাৰণ কৰা নিয়মাৱলী"
+        },
+        {
+          "en": "The committee’s budget for the coming year",
+          "as": "আগন্তুক বছৰৰ বাবে সমিতিৰ বাজেট"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The rules establish who may govern and how decisions are made. The other records concern particular activities.",
+        "as": "নিয়মাৱলীয়ে কোনে পুথিভঁৰাল চলাব আৰু কেনেকৈ সিদ্ধান্ত ল’ব সেই কথা নিৰ্ধাৰণ কৰে। বাকী নথিবোৰত নিৰ্দিষ্ট কামৰ বিৱৰণ থাকে।"
+      },
+      "id": "lesson-10-test-1-q1"
+    },
+    {
+      "en": "A minister’s order conflicts with the constitution. What should determine whether the order can stand?",
+      "as": "এজন মন্ত্ৰীৰ নিৰ্দেশ সংবিধানৰ কোনো বিধানৰ সৈতে নিমিলে। নিৰ্দেশটো বাহাল থাকিব পাৰিব নে নাই, কিহৰ ভিত্তিত স্থিৰ কৰা উচিত?",
+      "options": [
+        {
+          "en": "The relevant constitutional provision",
+          "as": "সংবিধানৰ সংশ্লিষ্ট বিধান"
+        },
+        {
+          "en": "The minister’s seniority",
+          "as": "মন্ত্ৰীজনৰ জ্যেষ্ঠতা"
+        },
+        {
+          "en": "The number of supporters of the order",
+          "as": "নিৰ্দেশটোৰ সমৰ্থকৰ সংখ্যা"
+        },
+        {
+          "en": "The date on which the minister took office",
+          "as": "মন্ত্ৰীজনে কাৰ্যভাৰ লোৱাৰ তাৰিখ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The constitution is the supreme law. A minister exercises only the powers it permits.",
+        "as": "সংবিধান ৰাষ্ট্ৰৰ সৰ্বোচ্চ আইন। সংবিধানে দিয়া ক্ষমতাৰ ভিতৰত থাকিহে মন্ত্ৰীয়ে নিৰ্দেশ দিব পাৰে।"
+      },
+      "id": "lesson-10-test-1-q2"
+    },
+    {
+      "en": "A bill to protect village ponds is being debated before a vote to make it law. Which organ is performing its main function?",
+      "as": "গাঁৱৰ পুখুৰি সংৰক্ষণৰ এখন বিধেয়ক আইন হিচাপে গ্ৰহণ কৰাৰ আগতে তাৰ ওপৰত আলোচনা চলিছে। এয়া কোনটো অংগৰ মুখ্য কাম?",
+      "options": [
+        {
+          "en": "Executive",
+          "as": "কাৰ্যপালিকা"
+        },
+        {
+          "en": "Judiciary",
+          "as": "ন্যায়পালিকা"
+        },
+        {
+          "en": "Election Commission",
+          "as": "নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "Legislature",
+          "as": "বিধানমণ্ডল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Debating and passing a bill are steps in making law, a function of the legislature.",
+        "as": "বিধেয়কৰ ওপৰত আলোচনা কৰা আৰু তাক গৃহীত কৰা হৈছে আইন প্ৰণয়নৰ দুটা ধাপ। এই কাম বিধানমণ্ডলৰ।"
+      },
+      "id": "lesson-10-test-1-q3"
+    },
+    {
+      "en": "A country gathers its basic rules in one authoritative document. What can a student conclude from this fact alone?",
+      "as": "এখন দেশে নিজৰ শাসনৰ মূল নিয়মবোৰ এখন প্ৰামাণিক নথিত লিপিবদ্ধ কৰিছে। কেৱল এই তথ্যৰ পৰা কোনটো সিদ্ধান্ত ল’ব পাৰি?",
+      "options": [
+        {
+          "en": "Its constitution is rigid.",
+          "as": "দেশখনৰ সংবিধান অনমনীয়।"
+        },
+        {
+          "en": "Its constitution is written.",
+          "as": "দেশখনৰ সংবিধান লিখিত।"
+        },
+        {
+          "en": "Its head of state is elected.",
+          "as": "দেশখনৰ ৰাষ্ট্ৰপ্ৰধান নিৰ্বাচিত।"
+        },
+        {
+          "en": "Its government is federal.",
+          "as": "দেশখনৰ শাসনব্যৱস্থা যুক্তৰাষ্ট্ৰীয়।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The evidence tells us the form of the constitution. It gives no information about amendment, leadership or levels of government.",
+        "as": "এই তথ্যই সংবিধানৰ ৰূপ বুজায়। সংশোধন পদ্ধতি, ৰাষ্ট্ৰপ্ৰধানৰ বাছনি বা চৰকাৰৰ স্তৰৰ বিষয়ে ইয়াত তথ্য নাই।"
+      },
+      "id": "lesson-10-test-1-q4"
+    },
+    {
+      "en": "Which pair of entries belongs on a timeline of Nepal, earlier event first?",
+      "as": "নেপালৰ ইতিহাসৰ সময়ৰেখাত আগৰ ঘটনাটো প্ৰথমে ৰাখিলে কোনটো যোৰ শুদ্ধ হ’ব?",
+      "options": [
+        {
+          "en": "Constitution of 1990 → abolition of the monarchy in 2008",
+          "as": "১৯৯০ চনৰ সংবিধান → ২০০৮ চনত ৰাজতন্ত্ৰৰ অৱসান"
+        },
+        {
+          "en": "Abolition of the monarchy → adoption of the 1990 Constitution",
+          "as": "ৰাজতন্ত্ৰৰ অৱসান → ১৯৯০ চনৰ সংবিধান গ্ৰহণ"
+        },
+        {
+          "en": "Republic established in 1990 → restoration of monarchy in 2008",
+          "as": "১৯৯০ চনত গণৰাজ্য প্ৰতিষ্ঠা → ২০০৮ চনত ৰাজতন্ত্ৰ পুনৰ প্ৰতিষ্ঠা"
+        },
+        {
+          "en": "Monarchy abolished in 1990 → first republican election in 2008",
+          "as": "১৯৯০ চনত ৰাজতন্ত্ৰৰ অৱসান → ২০০৮ চনত গণৰাজ্যৰ প্ৰথম নিৰ্বাচন"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Nepal retained a monarch under its 1990 Constitution and became a republic in 2008.",
+        "as": "১৯৯০ চনৰ সংবিধানৰ অধীনত নেপালত ৰাজতন্ত্ৰ আছিল। ২০০৮ চনত নেপাল গণৰাজ্য হয়।"
+      },
+      "id": "lesson-10-test-1-q5"
+    },
+    {
+      "en": "In country P, the legislature can change a constitutional rule by the same procedure it uses for ordinary laws. Which term fits this procedure?",
+      "as": "‘প’ দেশত সাধাৰণ আইন সলনি কৰাৰ পদ্ধতিৰেই বিধানমণ্ডলে সাংবিধানিক নিয়ম সলনি কৰিব পাৰে। এই পদ্ধতিয়ে কোনটো বৈশিষ্ট্য দেখুৱায়?",
+      "options": [
+        {
+          "en": "Rigidity",
+          "as": "অনমনীয়তা"
+        },
+        {
+          "en": "Federalism",
+          "as": "যুক্তৰাষ্ট্ৰীয়তা"
+        },
+        {
+          "en": "Flexibility",
+          "as": "নমনীয়তা"
+        },
+        {
+          "en": "Judicial independence",
+          "as": "ন্যায়পালিকাৰ স্বাধীনতা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Flexibility refers to the ease of constitutional change through the ordinary lawmaking process.",
+        "as": "সাধাৰণ আইন প্ৰণয়নৰ পদ্ধতিৰেই সংবিধান সলনি কৰিব পৰা গুণটোক নমনীয়তা বোলে।"
+      },
+      "id": "lesson-10-test-1-q6"
+    },
+    {
+      "en": "Several language communities live in one state. How does a constitution help them live together?",
+      "as": "এখন ৰাষ্ট্ৰত কেইবাটাও ভাষিক সম্প্ৰদায়ে বাস কৰে। সংবিধানে তেওঁলোকক একেলগে বাস কৰাত কেনেকৈ সহায় কৰে?",
+      "options": [
+        {
+          "en": "It gives each community final authority over national laws.",
+          "as": "ই প্ৰতিটো সম্প্ৰদায়কে ৰাষ্ট্ৰীয় আইনৰ ওপৰত চূড়ান্ত কৰ্তৃত্ব দিয়ে।"
+        },
+        {
+          "en": "It lays down common rules and protects citizens’ rights.",
+          "as": "ই উমৈহতীয়া নিয়ম নিৰ্ধাৰণ কৰে আৰু নাগৰিকৰ অধিকাৰ সুৰক্ষিত কৰে।"
+        },
+        {
+          "en": "It lets the largest community decide who has rights.",
+          "as": "ই বৃহত্তম সম্প্ৰদায়ক কাৰ অধিকাৰ থাকিব সেয়া ঠিক কৰিবলৈ দিয়ে।"
+        },
+        {
+          "en": "It makes the customs of one community binding on all.",
+          "as": "ই এটা সম্প্ৰদায়ৰ ৰীতি-নীতি সকলোৰে বাবে বাধ্যতামূলক কৰে।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Common rules provide a basis for settling differences while protecting people across communities.",
+        "as": "উমৈহতীয়া নিয়মে বিভিন্ন সম্প্ৰদায়ৰ লোকৰ অধিকাৰ ৰক্ষা কৰাৰ লগতে মতভেদ নিষ্পত্তিৰ ভিত্তি দিয়ে।"
+      },
+      "id": "lesson-10-test-1-q7"
+    },
+    {
+      "en": "A new law has been passed. Which action is an example of the executive implementing it?",
+      "as": "এখন নতুন আইন গৃহীত হৈছে। কোনটো কাম কাৰ্যপালিকাই আইনখন কাৰ্যকৰী কৰাৰ উদাহৰণ?",
+      "options": [
+        {
+          "en": "Members debate the wording of the bill.",
+          "as": "সদস্যসকলে বিধেয়কখনৰ ভাষা সম্পৰ্কে আলোচনা কৰে।"
+        },
+        {
+          "en": "A court interprets a disputed clause.",
+          "as": "আদালতে বিতৰ্কিত দফা এটাৰ অৰ্থ নিৰ্ণয় কৰে।"
+        },
+        {
+          "en": "Members vote on an amendment to the bill.",
+          "as": "সদস্যসকলে বিধেয়কখনৰ এটা সংশোধনীৰ ওপৰত ভোট দিয়ে।"
+        },
+        {
+          "en": "A department assigns officers to carry out the law.",
+          "as": "এটা বিভাগে আইনখন কাৰ্যকৰী কৰিবলৈ বিষয়া নিয়োগ কৰে।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Organising officers to put an enacted law into practice is executive work.",
+        "as": "গৃহীত আইন এখন বাস্তৱত প্ৰয়োগ কৰিবলৈ বিষয়াসকলক দায়িত্ব দিয়াটো কাৰ্যপালিকাৰ কাম।"
+      },
+      "id": "lesson-10-test-1-q8"
+    },
+    {
+      "en": "India and the United States both have written constitutions. On which point does the lesson distinguish them?",
+      "as": "ভাৰত আৰু আমেৰিকা যুক্তৰাষ্ট্ৰ দুয়োখন দেশৰে লিখিত সংবিধান আছে। পাঠত কোনটো দিশত দুয়োৰে পাৰ্থক্য দেখুওৱা হৈছে?",
+      "options": [
+        {
+          "en": "India relies only on conventions, while the US has a single text.",
+          "as": "ভাৰত কেৱল পৰম্পৰাৰ ওপৰত নিৰ্ভৰশীল, আনহাতে আমেৰিকাৰ এখন লিখিত নথি আছে।"
+        },
+        {
+          "en": "Only India allows any amendment at all.",
+          "as": "কেৱল ভাৰততহে সংবিধান সংশোধনৰ সুযোগ আছে।"
+        },
+        {
+          "en": "India combines different amendment procedures, while the US Constitution is classed as rigid.",
+          "as": "ভাৰতত সংশোধনৰ একাধিক পদ্ধতি আছে, আনহাতে আমেৰিকাৰ সংবিধান অনমনীয় শ্ৰেণীৰ।"
+        },
+        {
+          "en": "Only the United States sets out the powers of government.",
+          "as": "কেৱল আমেৰিকাতহে চৰকাৰৰ ক্ষমতা নিৰ্ধাৰণ কৰা আছে।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Written form is common to both. The procedures for changing their provisions differ.",
+        "as": "দুয়োখন সংবিধান লিখিত। পাৰ্থক্যটো হ’ল বিধানবোৰ সংশোধন কৰাৰ পদ্ধতিত।"
+      },
+      "id": "lesson-10-test-1-q9"
+    },
+    {
+      "en": "Which change to a school council’s rules best illustrates the separation of powers?",
+      "as": "বিদ্যালয়ৰ ছাত্ৰ পৰিষদৰ নিয়মত কৰা কোনটো পৰিৱৰ্তনে ক্ষমতাৰ বিভাজনৰ ধাৰণাটো আটাইতকৈ ভালকৈ বুজায়?",
+      "options": [
+        {
+          "en": "Different groups make rules, carry them out and hear disputes.",
+          "as": "পৃথক গোটে নিয়ম প্ৰণয়ন কৰে, নিয়ম কাৰ্যকৰী কৰে আৰু বিবাদৰ বিচাৰ কৰে।"
+        },
+        {
+          "en": "One group does all three jobs for a shorter term.",
+          "as": "এটা গোটেই কম সময়ৰ বাবে তিনিওটা কাম কৰে।"
+        },
+        {
+          "en": "The same chairperson chooses everyone and decides every appeal.",
+          "as": "এজন সভাপতিয়েই সকলোকে বাছনি কৰে আৰু প্ৰতিটো আপীলৰ সিদ্ধান্ত দিয়ে।"
+        },
+        {
+          "en": "Members vote more often to choose a single decision-maker.",
+          "as": "সকলো সিদ্ধান্ত ল’বলৈ এজন ব্যক্তিক বাছনি কৰাৰ বাবে সদস্যসকলে আগতকৈ সঘনাই ভোট দিয়ে।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Giving different bodies distinct functions reduces the risk that one body will misuse unchecked power.",
+        "as": "বেলেগ বেলেগ গোটক সুকীয়া দায়িত্ব দিলে এটা গোটে বাধাহীনভাৱে ক্ষমতাৰ অপব্যৱহাৰ কৰাৰ আশংকা কমে।"
+      },
+      "id": "lesson-10-test-1-q10"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-revision-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "section": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which kind of Assamese source would give a historian a chronological account of embassies exchanged by Ahom rulers?",
+      "as": "আহোম ৰজাসকলে আদান-প্ৰদান কৰা দূতদলৰ কালানুক্ৰমিক বিৱৰণ কোনবিধ অসমীয়া উৎসত পোৱাৰ সম্ভাৱনা বেছি?",
+      "options": [
+        {
+          "en": "Copper-plate grant",
+          "as": "তাম্ৰশাসন"
+        },
+        {
+          "en": "Buranji",
+          "as": "বুৰঞ্জী"
+        },
+        {
+          "en": "Devotional song",
+          "as": "ভক্তিমূলক গীত"
+        },
+        {
+          "en": "Trading charter",
+          "as": "বাণিজ্যিক চনদ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Buranjis recorded political events, diplomatic missions and campaigns.",
+        "as": "বুৰঞ্জীত ৰাজনৈতিক ঘটনা, দূত প্ৰেৰণ আৰু সামৰিক অভিযান লিপিবদ্ধ কৰা হৈছিল।"
+      },
+      "id": "revision-test-2-q1"
+    },
+    {
+      "en": "Which leader connects a migration across the Patkai hills with the foundation of a long-lasting kingdom in the Brahmaputra valley?",
+      "as": "পাটকাই পাহাৰ অতিক্ৰম কৰি অহা আৰু ব্ৰহ্মপুত্ৰ উপত্যকাত এখন দীৰ্ঘস্থায়ী ৰাজ্য প্ৰতিষ্ঠাৰ সৈতে কোনজন নেতা জড়িত?",
+      "options": [
+        {
+          "en": "Lachit Barphukan",
+          "as": "লাচিত বৰফুকন"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মা"
+        },
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        },
+        {
+          "en": "Nara Narayan",
+          "as": "নৰনাৰায়ণ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Sukapha entered Assam in 1228 and laid the foundations of the Ahom kingdom.",
+        "as": "১২২৮ চনত চুকাফাই অসমত প্ৰৱেশ কৰি আহোম ৰাজ্যৰ ভেটি স্থাপন কৰিছিল।"
+      },
+      "id": "revision-test-2-q2"
+    },
+    {
+      "en": "An officer organises rotating labour service for the Ahom state. Which arrangement is he administering?",
+      "as": "এজন বিষয়াই আহোম ৰাজ্যৰ বাবে পাল পাতি শ্ৰমদানৰ ব্যৱস্থা কৰিছে। তেওঁ কোনটো ব্যৱস্থা চলাইছে?",
+      "options": [
+        {
+          "en": "Mercantilism",
+          "as": "বাণিজ্যবাদ"
+        },
+        {
+          "en": "Ryotwari settlement",
+          "as": "ৰায়তৱাৰী বন্দৱস্ত"
+        },
+        {
+          "en": "Namghar",
+          "as": "নামঘৰ"
+        },
+        {
+          "en": "Paik system",
+          "as": "পাইক প্ৰথা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Paiks served the state in rotation, providing labour or military service.",
+        "as": "পাইকসকলে পাল পাতি ৰাজ্যক শ্ৰম বা সামৰিক সেৱা আগবঢ়াইছিল।"
+      },
+      "id": "revision-test-2-q3"
+    },
+    {
+      "en": "Which battlefield would a researcher visit to study how Mir Jafar’s conduct helped the Company defeat Siraj ud-Daulah?",
+      "as": "মীৰজাফৰৰ ভূমিকাই কোম্পানীক ছিৰাজউদ্দৌলাক পৰাস্ত কৰাত কেনেকৈ সহায় কৰিছিল অধ্যয়ন কৰিবলৈ কোনখন ৰণক্ষেত্ৰলৈ যাব লাগিব?",
+      "options": [
+        {
+          "en": "Buxar",
+          "as": "বক্সাৰ"
+        },
+        {
+          "en": "Saraighat",
+          "as": "শৰাইঘাট"
+        },
+        {
+          "en": "Meerut",
+          "as": "মীৰাট"
+        },
+        {
+          "en": "Plassey",
+          "as": "পলাশী"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "At Plassey in 1757, key commanders withheld support from the Nawab.",
+        "as": "১৭৫৭ চনৰ পলাশীৰ যুদ্ধত গুৰুত্বপূৰ্ণ সেনাপতিসকলে নৱাবক সমৰ্থন কৰা নাছিল।"
+      },
+      "id": "revision-test-2-q4"
+    },
+    {
+      "en": "A prince keeps his throne but must maintain British troops and surrender control over foreign alliances. Which arrangement fits?",
+      "as": "এজন ৰজাই সিংহাসন ৰাখিলেও ব্ৰিটিছ সৈন্যৰ ব্যয় বহন কৰি বৈদেশিক মিত্ৰতাৰ নিয়ন্ত্ৰণ এৰিবলগীয়া হ’ল। এয়া কোনটো ব্যৱস্থা?",
+      "options": [
+        {
+          "en": "Doctrine of Lapse",
+          "as": "স্বত্ববিলোপ নীতি"
+        },
+        {
+          "en": "Subsidiary Alliance",
+          "as": "অধীনতামূলক মিত্ৰতা নীতি"
+        },
+        {
+          "en": "Permanent Settlement",
+          "as": "চিৰস্থায়ী বন্দৱস্ত"
+        },
+        {
+          "en": "Diwani grant",
+          "as": "দেৱানী প্ৰদান"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Wellesley’s alliance system limited rulers’ independence while leaving them on the throne.",
+        "as": "ৱেলেছলিৰ মিত্ৰতা নীতিয়ে সিংহাসন বজাই ৰাখিও ৰজাসকলৰ স্বাধীনতা সীমিত কৰিছিল।"
+      },
+      "id": "revision-test-2-q5"
+    },
+    {
+      "en": "Which event shows that internal resistance had weakened Ahom authority well before the Burmese invasions?",
+      "as": "মানৰ আক্ৰমণৰ বহু আগতেই আভ্যন্তৰীণ প্ৰতিৰোধে আহোমৰ কৰ্তৃত্ব দুৰ্বল কৰাৰ প্ৰমাণ কোনটো ঘটনা?",
+      "options": [
+        {
+          "en": "Abolition of sati in Bengal",
+          "as": "বংগত সতীদাহ প্ৰথাৰ বিলোপ"
+        },
+        {
+          "en": "Moamoria rebellion",
+          "as": "মোৱামৰীয়া বিদ্ৰোহ"
+        },
+        {
+          "en": "Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধি"
+        },
+        {
+          "en": "Revolt of 1857",
+          "as": "১৮৫৭ চনৰ বিদ্ৰোহ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Moamoria uprising began in 1769, decades before Burmese military intervention.",
+        "as": "মানসেনাৰ হস্তক্ষেপৰ কেইবাদশক আগতে ১৭৬৯ চনত মোৱামৰীয়া বিদ্ৰোহ আৰম্ভ হৈছিল।"
+      },
+      "id": "revision-test-2-q6"
+    },
+    {
+      "en": "A bill for protecting wetlands is debated and passed. Which organ is performing its main function?",
+      "as": "জলাশয় ৰক্ষাৰ এখন বিধেয়ক আলোচনা কৰি গৃহীত কৰা হৈছে। কোনটো অংগই নিজৰ মূল কাম কৰিছে?",
+      "options": [
+        {
+          "en": "Judiciary",
+          "as": "ন্যায়পালিকা"
+        },
+        {
+          "en": "Constituent Assembly",
+          "as": "সংবিধান সভা"
+        },
+        {
+          "en": "Legislature",
+          "as": "বিধানমণ্ডল"
+        },
+        {
+          "en": "Executive",
+          "as": "কাৰ্যপালিকা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Debating and making laws is the legislature’s function.",
+        "as": "আইন সম্পৰ্কে আলোচনা আৰু আইন প্ৰণয়ন বিধানমণ্ডলৰ কাম।"
+      },
+      "id": "revision-test-2-q7"
+    },
+    {
+      "en": "The state protects places of worship belonging to different faiths on equal terms. Which principle best explains its conduct?",
+      "as": "ৰাষ্ট্ৰই বিভিন্ন ধৰ্মৰ উপাসনাস্থলীক সমানভাৱে সুৰক্ষা দিয়ে। এই আচৰণৰ ভিত্তি কোনটো নীতি?",
+      "options": [
+        {
+          "en": "Federalism",
+          "as": "যুক্তৰাষ্ট্ৰীয়তা"
+        },
+        {
+          "en": "Republican government",
+          "as": "গণৰাজ্যিক শাসন"
+        },
+        {
+          "en": "Universal adult franchise",
+          "as": "সাৰ্বজনীন প্ৰাপ্তবয়স্ক ভোটাধিকাৰ"
+        },
+        {
+          "en": "Secularism",
+          "as": "ধৰ্মনিৰপেক্ষতা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Secularism requires the state to respect different faiths without religious discrimination.",
+        "as": "ধৰ্মনিৰপেক্ষতাত ৰাষ্ট্ৰই ধৰ্মীয় বৈষম্য নকৰাকৈ বিভিন্ন ধৰ্মক সন্মান কৰে।"
+      },
+      "id": "revision-test-2-q8"
+    },
+    {
+      "en": "A landlord compels families to work without wages to discharge a supposed obligation. Which right protects them?",
+      "as": "এজন ভূস্বামীয়ে কথিত দায়িত্বৰ নামত কিছুমান পৰিয়ালক বিনা মজুৰিত কাম কৰিবলৈ বাধ্য কৰাইছে। কোনটো অধিকাৰে তেওঁলোকক সুৰক্ষা দিয়ে?",
+      "options": [
+        {
+          "en": "Equality before the law",
+          "as": "আইনৰ আগত সমতা"
+        },
+        {
+          "en": "Freedom of religion",
+          "as": "ধৰ্মীয় স্বাধীনতা"
+        },
+        {
+          "en": "Right against exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Cultural and educational rights",
+          "as": "সাংস্কৃতিক আৰু শিক্ষাৰ অধিকাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Begar and similar forced labour are prohibited by Article 23.",
+        "as": "অনুচ্ছেদ ২৩-এ বেগাৰ আৰু অনুৰূপ বলপূৰ্বক শ্ৰম নিষিদ্ধ কৰে।"
+      },
+      "id": "revision-test-2-q9"
+    },
+    {
+      "en": "A class studies accounts of the national movement and discusses putting its noble ideals into practice. Which duty is the focus?",
+      "as": "এটা শ্ৰেণীয়ে ৰাষ্ট্ৰীয় আন্দোলনৰ বিৱৰণ পঢ়ি ইয়াৰ মহান আদৰ্শ বাস্তৱত অনুসৰণ কৰাৰ বিষয়ে আলোচনা কৰিছে। ইয়াত কোনটো কৰ্তব্য মুখ্য?",
+      "options": [
+        {
+          "en": "Respect for freedom-struggle ideals",
+          "as": "স্বাধীনতা সংগ্ৰামৰ আদৰ্শৰ প্ৰতি শ্ৰদ্ধা"
+        },
+        {
+          "en": "Scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা"
+        },
+        {
+          "en": "Protection of public property",
+          "as": "ৰাজহুৱা সম্পত্তিৰ সুৰক্ষা"
+        },
+        {
+          "en": "Preservation of composite culture",
+          "as": "সমন্বিত সংস্কৃতিৰ সংৰক্ষণ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Citizens are asked to cherish and follow the ideals that inspired the national freedom struggle.",
+        "as": "ৰাষ্ট্ৰীয় স্বাধীনতা সংগ্ৰামক অনুপ্ৰাণিত কৰা আদৰ্শসমূহ হৃদয়ত পোষণ আৰু অনুসৰণ কৰাটো নাগৰিকৰ কৰ্তব্য।"
+      },
+      "id": "revision-test-2-q10"
+    }
+  ]
+}

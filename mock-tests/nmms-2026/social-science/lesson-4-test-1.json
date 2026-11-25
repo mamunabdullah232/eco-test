@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-4-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 4 · The Rise of Neo-Religious Thoughts",
+    "as": "পাঠ ৪ · নব্য ধৰ্মীয় ভাবধাৰাৰ উত্থান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which idea would a Bhakti poet place at the heart of worship?",
+      "as": "ভক্তিবাদী কবি এজনে উপাসনাৰ মূল হিচাপে কোনটো কথাত গুৰুত্ব দিব?",
+      "options": [
+        {
+          "en": "The cost of an offering",
+          "as": "নৈবেদ্যৰ মূল্য"
+        },
+        {
+          "en": "The devotee’s ancestry",
+          "as": "ভক্তৰ বংশপৰিচয়"
+        },
+        {
+          "en": "Love for God",
+          "as": "ঈশ্বৰৰ প্ৰতি প্ৰেম"
+        },
+        {
+          "en": "The size of a shrine",
+          "as": "উপাসনাস্থলীৰ আকাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Bhakti gives the devotee’s personal love and trust in God a central place.",
+        "as": "ভক্তিবাদত ঈশ্বৰৰ প্ৰতি ভক্তৰ আন্তৰিক প্ৰেম আৰু বিশ্বাসেই মুখ্য।"
+      },
+      "id": "lesson-4-test-1-q1"
+    },
+    {
+      "en": "Which two communities would belong together on a map of early Tamil Bhakti?",
+      "as": "তামিল অঞ্চলৰ আদিকালৰ ভক্তি আন্দোলনৰ মানচিত্ৰত কোন দুটা সম্প্ৰদায়ক একেলগে দেখুওৱা হ’ব?",
+      "options": [
+        {
+          "en": "Alvars and Nayanars",
+          "as": "আলভাৰ আৰু নায়নাৰ"
+        },
+        {
+          "en": "Alvars and Sikhs",
+          "as": "আলভাৰ আৰু শিখ"
+        },
+        {
+          "en": "Nayanars and Chishti Sufis",
+          "as": "নায়নাৰ আৰু চিস্তি চুফী"
+        },
+        {
+          "en": "Sikhs and Chishti Sufis",
+          "as": "শিখ আৰু চিস্তি চুফী"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Both the Alvars and the Nayanars spread devotion through Tamil hymns.",
+        "as": "আলভাৰ আৰু নায়নাৰ উভয়ে তামিল ভাষাৰ ভক্তিগীতৰ জৰিয়তে ভক্তিৰ বাণী বিয়পাইছিল।"
+      },
+      "id": "lesson-4-test-1-q2"
+    },
+    {
+      "en": "A manuscript preserves hymns once sung by the Alvars. Which title fits it?",
+      "as": "এখন পুথিত আলভাৰসকলে গোৱা স্তোত্ৰসমূহ সংকলিত হৈছে। পুথিখনৰ পৰিচয় কি?",
+      "options": [
+        {
+          "en": "Ramcharitmanas",
+          "as": "ৰামচৰিতমানস"
+        },
+        {
+          "en": "Kirtan Ghosa",
+          "as": "কীৰ্তন-ঘোষা"
+        },
+        {
+          "en": "Nam Ghosa",
+          "as": "নামঘোষা"
+        },
+        {
+          "en": "Divya Prabandham",
+          "as": "দিব্য প্ৰবন্ধম"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Divya Prabandham brings together Tamil devotional verses of the Alvars.",
+        "as": "দিব্য প্ৰবন্ধমত আলভাৰসকলৰ তামিল ভক্তিপদসমূহ সংকলিত হৈছে।"
+      },
+      "id": "lesson-4-test-1-q3"
+    },
+    {
+      "en": "Which speaker expresses Shankaracharya’s Advaita philosophy?",
+      "as": "কাৰ কথাত শংকৰাচাৰ্যৰ অদ্বৈত দৰ্শন প্ৰকাশ পাইছে?",
+      "options": [
+        {
+          "en": "“Every self has its own independent creator.”",
+          "as": "“প্ৰতিটো আত্মাৰ সৃষ্টিকৰ্তা বেলেগ।”"
+        },
+        {
+          "en": "“The individual self and the supreme self are ultimately one.”",
+          "as": "“প্ৰকৃততে আত্মা আৰু পৰমাত্মা এক।”"
+        },
+        {
+          "en": "“The self disappears whenever the body sleeps.”",
+          "as": "“দেহ টোপনি গ’লেই আত্মা লোপ পায়।”"
+        },
+        {
+          "en": "“The self and the supreme self are eternally separate.”",
+          "as": "“আত্মা আৰু পৰমাত্মা চিৰকাল পৃথক।”"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Advaita teaches the essential unity of the individual self and the supreme reality.",
+        "as": "অদ্বৈতবাদ অনুসৰি আত্মা আৰু পৰমাত্মাৰ মাজত মৌলিক ভেদ নাই।"
+      },
+      "id": "lesson-4-test-1-q4"
+    },
+    {
+      "en": "A historian traces the spread of Bhakti from the early Tamil saints to Jnanadeva. Which region should she mark next?",
+      "as": "এগৰাকী ইতিহাসবিদে আদিৰ তামিল ভক্তসকলৰ পিছত জ্ঞানদেৱৰ কৰ্মক্ষেত্ৰ মানচিত্ৰত দেখুৱাব খুজিছে। তেওঁ কোনটো অঞ্চল চিহ্নিত কৰিব?",
+      "options": [
+        {
+          "en": "Punjab",
+          "as": "পঞ্জাব"
+        },
+        {
+          "en": "Maharashtra",
+          "as": "মহাৰাষ্ট্ৰ"
+        },
+        {
+          "en": "Bengal",
+          "as": "বংগ"
+        },
+        {
+          "en": "Assam",
+          "as": "অসম"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Jnanadeva taught in Maharashtra, where songs helped carry his message to ordinary people.",
+        "as": "জ্ঞানদেৱে মহাৰাষ্ট্ৰত গীতৰ জৰিয়তে সাধাৰণ মানুহৰ মাজত ভক্তিৰ বাণী প্ৰচাৰ কৰিছিল।"
+      },
+      "id": "lesson-4-test-1-q5"
+    },
+    {
+      "en": "Which change in a gathering best reflects Ramananda’s social teaching?",
+      "as": "কোনটো পৰিৱৰ্তনে ধৰ্মসভা এখনত ৰামানন্দৰ সামাজিক আদৰ্শ প্ৰতিফলিত কৰিব?",
+      "options": [
+        {
+          "en": "People of every caste may join the worship.",
+          "as": "সকলো জাতিৰ মানুহে উপাসনাত যোগ দিব পাৰে।"
+        },
+        {
+          "en": "Family rank determines the order of prayer.",
+          "as": "বংশমৰ্যাদা অনুসৰি প্ৰাৰ্থনাৰ ক্ৰম নিৰ্ধাৰণ কৰা হয়।"
+        },
+        {
+          "en": "Only scholars may lead a devotional song.",
+          "as": "কেৱল পণ্ডিতেহে ভক্তিগীতৰ গুৰি ধৰিব পাৰে।"
+        },
+        {
+          "en": "Artisans must worship in a separate group.",
+          "as": "কাৰিকৰসকলে পৃথক গোটত উপাসনা কৰিব লাগে।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Ramananda welcomed devotees across caste divisions.",
+        "as": "ৰামানন্দে জাতিভেদৰ ঊৰ্ধ্বত সকলোকে ভক্তিৰ পথলৈ আদৰিছিল।"
+      },
+      "id": "lesson-4-test-1-q6"
+    },
+    {
+      "en": "Kabir used both Ram and Allah in speaking of God. What did this choice convey?",
+      "as": "কবীৰে ঈশ্বৰক বুজাবলৈ ৰাম আৰু আল্লা দুয়োটা নাম ব্যৱহাৰ কৰিছিল। ইয়াৰ জৰিয়তে তেওঁ কি বুজাইছিল?",
+      "options": [
+        {
+          "en": "Each occupation needs a separate deity.",
+          "as": "প্ৰতিটো বৃত্তিৰ বাবে এজন সুকীয়া দেৱতা লাগে।"
+        },
+        {
+          "en": "A devotee must change religion to pray.",
+          "as": "প্ৰাৰ্থনা কৰিবলৈ ভক্তই ধৰ্ম সলনি কৰিব লাগে।"
+        },
+        {
+          "en": "Different names can refer to one God.",
+          "as": "এজন ঈশ্বৰকে বিভিন্ন নামেৰে মাতিব পাৰি।"
+        },
+        {
+          "en": "Only one language is fit for worship.",
+          "as": "উপাসনাৰ বাবে কেৱল এটা ভাষাহে উপযুক্ত।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Kabir’s belief in one God helped his verses speak to Hindu and Muslim listeners alike.",
+        "as": "এক ঈশ্বৰত বিশ্বাসৰ বাণীৰ বাবে কবীৰৰ পদে হিন্দু আৰু মুছলমান উভয় শ্ৰোতাকে আকৰ্ষণ কৰিছিল।"
+      },
+      "id": "lesson-4-test-1-q7"
+    },
+    {
+      "en": "Which entry correctly identifies the form of Kabir’s short, two-line verses?",
+      "as": "কবীৰৰ দুশাৰীৰ চুটি পদবোৰ কোনটো সাহিত্যৰূপৰ অন্তৰ্গত?",
+      "options": [
+        {
+          "en": "Borgeet",
+          "as": "বৰগীত"
+        },
+        {
+          "en": "Ankiya Naat",
+          "as": "অংকীয়া নাট"
+        },
+        {
+          "en": "Epic",
+          "as": "মহাকাব্য"
+        },
+        {
+          "en": "Doha",
+          "as": "দোহা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "A doha expresses a thought in a compact couplet, a form Kabir used to teach through verse.",
+        "as": "দোহাৰ দুশাৰীৰ মাজতে একোটা ভাব প্ৰকাশ পায়। কবীৰে এই ৰূপৰ জৰিয়তে উপদেশ দিছিল।"
+      },
+      "id": "lesson-4-test-1-q8"
+    },
+    {
+      "en": "Which belief is most closely associated with Guru Nanak?",
+      "as": "কোনটো বিশ্বাস গুৰু নানকৰ শিক্ষাৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "God is one and formless.",
+          "as": "ঈশ্বৰ এক আৰু নিৰাকাৰ।"
+        },
+        {
+          "en": "Birth determines a person’s right to pray.",
+          "as": "জন্মই মানুহৰ প্ৰাৰ্থনা কৰাৰ অধিকাৰ নিৰ্ধাৰণ কৰে।"
+        },
+        {
+          "en": "God can be reached only through an image.",
+          "as": "কেৱল মূৰ্তিৰ জৰিয়তেহে ঈশ্বৰক পাব পাৰি।"
+        },
+        {
+          "en": "Different castes must worship different gods.",
+          "as": "বিভিন্ন জাতিয়ে পৃথক পৃথক দেৱতাক পূজা কৰিব লাগে।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Nanak taught devotion to one formless God and challenged caste distinctions.",
+        "as": "নানকে এক নিৰাকাৰ ঈশ্বৰৰ ভক্তিৰ কথা কৈছিল আৰু জাতিভেদৰ বিৰোধিতা কৰিছিল।"
+      },
+      "id": "lesson-4-test-1-q9"
+    },
+    {
+      "en": "Which example best illustrates Mirabai’s contribution to Bhakti?",
+      "as": "কোনটো উদাহৰণে মীৰাবাঈৰ অৱদান আটাইতকৈ ভালদৰে প্ৰকাশ কৰে?",
+      "options": [
+        {
+          "en": "Compiling Tamil hymns to Vishnu",
+          "as": "বিষ্ণুৰ স্তুতিমূলক তামিল পদ সংকলন কৰা"
+        },
+        {
+          "en": "Writing the Ramcharitmanas in Awadhi",
+          "as": "অৱধী ভাষাত ৰামচৰিতমানস ৰচনা কৰা"
+        },
+        {
+          "en": "Singing bhajans addressed to Krishna",
+          "as": "কৃষ্ণৰ প্ৰতি ভক্তি প্ৰকাশ কৰি ভজন গোৱা"
+        },
+        {
+          "en": "Composing Assamese Ankiya Naat plays",
+          "as": "অসমৰ অংকীয়া নাট ৰচনা কৰা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Mirabai expressed her devotion to Krishna through bhajans that others could sing.",
+        "as": "আনেও গাব পৰা ভজনৰ জৰিয়তে মীৰাবাঈয়ে কৃষ্ণভক্তি প্ৰকাশ কৰিছিল।"
+      },
+      "id": "lesson-4-test-1-q10"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-8-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 8 · The Fall of the Ahom Kingdom in Assam and the Rise of the British",
+    "as": "পাঠ ৮ · অসমত আহোম ৰাজ্যৰ পতন আৰু ব্ৰিটিছৰ উত্থান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A timeline begins with the first Moamoria uprising in 1769. Which Ahom king belongs beside that entry?",
+      "as": "এডাল সময়ৰেখা ১৭৬৯ চনৰ প্ৰথম মোৱামৰীয়া বিদ্ৰোহেৰে আৰম্ভ হৈছে। এই ঘটনাৰ কাষত কোনজন আহোম স্বৰ্গদেউৰ নাম থাকিব?",
+      "options": [
+        {
+          "en": "Gaurinath Singha",
+          "as": "গৌৰীনাথ সিংহ"
+        },
+        {
+          "en": "Lakshmi Singha",
+          "as": "লক্ষ্মীসিংহ"
+        },
+        {
+          "en": "Chandrakanta Singha",
+          "as": "চন্দ্ৰকান্ত সিংহ"
+        },
+        {
+          "en": "Purandar Singha",
+          "as": "পুৰন্দৰ সিংহ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The first uprising broke out during Lakshmi Singha’s reign. Gaurinath succeeded him later.",
+        "as": "প্ৰথম বিদ্ৰোহ লক্ষ্মীসিংহৰ ৰাজত্বকালত হৈছিল। তেওঁৰ পাছতহে গৌৰীনাথ সিংহ ৰজা হৈছিল।"
+      },
+      "id": "lesson-8-test-1-q1"
+    },
+    {
+      "en": "Which incident helps explain why religious grievances turned into opposition to the Ahom court?",
+      "as": "ধৰ্মীয় অসন্তোষ কিয় আহোম ৰাজদৰবাৰৰ বিৰুদ্ধে ক্ষোভলৈ পৰিণত হৈছিল, সেয়া বুজিবলৈ কোনটো ঘটনা প্ৰাসংগিক?",
+      "options": [
+        {
+          "en": "Captain Welsh returned to Bengal",
+          "as": "কেপ্তেইন ৱেলছ বংগলৈ উভতিছিল"
+        },
+        {
+          "en": "Burmese troops entered Cachar",
+          "as": "মান সৈন্য কাছাৰত সোমাইছিল"
+        },
+        {
+          "en": "Purandar Singha sought shelter outside Assam",
+          "as": "পুৰন্দৰ সিংহই অসমৰ বাহিৰত আশ্ৰয় বিচাৰিছিল"
+        },
+        {
+          "en": "Kirti Chandra Barbarua insulted the Moamoria mahanta",
+          "as": "কীৰ্তিচন্দ্ৰ বৰবৰুৱাই মোৱামৰীয়া মহন্তক অপমান কৰিছিল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The public humiliation of their religious leader deepened the followers’ anger against royal officials.",
+        "as": "নিজৰ ধৰ্মগুৰুক ৰাজহুৱাকৈ অপমান কৰা দেখি শিষ্যসকলৰ মনত ৰাজবিষয়াসকলৰ প্ৰতি ক্ষোভ বাঢ়িছিল।"
+      },
+      "id": "lesson-8-test-1-q2"
+    },
+    {
+      "en": "Which succession would correctly complete a chart of late Ahom rulers?",
+      "as": "শেষৰ ফালৰ আহোম স্বৰ্গদেউসকলৰ তালিকাত কোনজনৰ পাছত কোনজন ৰজা হোৱা বুলি দেখুৱাব লাগে?",
+      "options": [
+        {
+          "en": "Lakshmi Singha followed by Gaurinath Singha",
+          "as": "লক্ষ্মীসিংহৰ পাছত গৌৰীনাথ সিংহ"
+        },
+        {
+          "en": "Gaurinath Singha followed by Lakshmi Singha",
+          "as": "গৌৰীনাথ সিংহৰ পাছত লক্ষ্মীসিংহ"
+        },
+        {
+          "en": "Chandrakanta Singha followed by Lakshmi Singha",
+          "as": "চন্দ্ৰকান্ত সিংহৰ পাছত লক্ষ্মীসিংহ"
+        },
+        {
+          "en": "Purandar Singha followed by Gaurinath Singha",
+          "as": "পুৰন্দৰ সিংহৰ পাছত গৌৰীনাথ সিংহ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Gaurinath Singha inherited the throne from his father Lakshmi Singha.",
+        "as": "পিতৃ লক্ষ্মীসিংহৰ পাছত গৌৰীনাথ সিংহ আহোম সিংহাসনত বহিছিল।"
+      },
+      "id": "lesson-8-test-1-q3"
+    },
+    {
+      "en": "Why did Gaurinath Singha seek help from the East India Company?",
+      "as": "গৌৰীনাথ সিংহই ইষ্ট ইণ্ডিয়া কোম্পানীৰ সহায় কিয় বিচাৰিছিল?",
+      "options": [
+        {
+          "en": "To enforce the Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধিৰ চৰ্ত কাৰ্যকৰী কৰিবলৈ"
+        },
+        {
+          "en": "To repel the third Burmese invasion",
+          "as": "মানৰ তৃতীয় আক্ৰমণ ৰোধ কৰিবলৈ"
+        },
+        {
+          "en": "To recover royal authority during the Moamoria rebellion",
+          "as": "মোৱামৰীয়া বিদ্ৰোহৰ সময়ত ৰাজক্ষমতা পুনৰ প্ৰতিষ্ঠা কৰিবলৈ"
+        },
+        {
+          "en": "To reinstall Purandar Singha",
+          "as": "পুৰন্দৰ সিংহক পুনৰ সিংহাসনত বহুৱাবলৈ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The rebellion had weakened his hold on the kingdom, prompting him to seek military assistance.",
+        "as": "বিদ্ৰোহৰ ফলত ৰাজ্যৰ ওপৰত তেওঁৰ নিয়ন্ত্ৰণ দুৰ্বল হৈছিল। সেয়ে তেওঁ সামৰিক সহায় বিচাৰিছিল।"
+      },
+      "id": "lesson-8-test-1-q4"
+    },
+    {
+      "en": "Which pair correctly identifies the official who sent help and the officer who led the expedition to Assam in 1792?",
+      "as": "১৭৯২ চনত অসমলৈ সহায় পঠিওৱা গৱৰ্ণৰ জেনেৰেল আৰু অভিযানৰ নেতৃত্ব দিয়া বিষয়াজন ক্ৰমে কোন আছিল?",
+      "options": [
+        {
+          "en": "Lord Amherst and Captain Welsh",
+          "as": "লৰ্ড আমহাৰ্ষ্ট আৰু কেপ্তেইন ৱেলছ"
+        },
+        {
+          "en": "Captain Welsh and Lord Cornwallis",
+          "as": "কেপ্তেইন ৱেলছ আৰু লৰ্ড কৰ্ণৱালিছ"
+        },
+        {
+          "en": "Lord Cornwallis and Captain Welsh",
+          "as": "লৰ্ড কৰ্ণৱালিছ আৰু কেপ্তেইন ৱেলছ"
+        },
+        {
+          "en": "Lord Amherst and Lord Cornwallis",
+          "as": "লৰ্ড আমহাৰ্ষ্ট আৰু লৰ্ড কৰ্ণৱালিছ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Cornwallis authorised the expedition, and Welsh took the troops into Assam.",
+        "as": "কৰ্ণৱালিছে অভিযানৰ অনুমোদন দিছিল আৰু ৱেলছে সৈন্যদল লৈ অসমলৈ আহিছিল।"
+      },
+      "id": "lesson-8-test-1-q5"
+    },
+    {
+      "en": "A researcher needs an eyewitness description of Assam during the British expedition of the 1790s. Which source is most suitable?",
+      "as": "১৭৯০ৰ দশকৰ ব্ৰিটিছ অভিযানৰ সময়ৰ অসমৰ প্ৰত্যক্ষ বিৱৰণ এজন গৱেষকক লাগে। কোনটো উৎস আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "Captain Welsh’s account of Assam",
+          "as": "কেপ্তেইন ৱেলছে লিখা অসমৰ বিৱৰণ"
+        },
+        {
+          "en": "The terms of the Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধিৰ চৰ্তসমূহ"
+        },
+        {
+          "en": "A later list of Burmese invasions",
+          "as": "পাছত প্ৰস্তুত কৰা মানৰ আক্ৰমণৰ তালিকা"
+        },
+        {
+          "en": "A map of territory ceded in 1826",
+          "as": "১৮২৬ চনত এৰি দিয়া অঞ্চলৰ মানচিত্ৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Welsh visited Assam himself and recorded observations about its administration and society.",
+        "as": "ৱেলছে নিজে অসমলৈ আহি ইয়াৰ প্ৰশাসন আৰু সমাজ সম্পৰ্কে দেখা কথাবোৰ লিপিবদ্ধ কৰিছিল।"
+      },
+      "id": "lesson-8-test-1-q6"
+    },
+    {
+      "en": "Whose rivalry with Badan Chandra Borphukan led the latter to seek outside support?",
+      "as": "কাৰ সৈতে সংঘাতে বদনচন্দ্ৰ বৰফুকনক বাহিৰৰ সহায় বিচাৰিবলৈ প্ৰেৰণা দিছিল?",
+      "options": [
+        {
+          "en": "Kirti Chandra Barbarua",
+          "as": "কীৰ্তিচন্দ্ৰ বৰবৰুৱা"
+        },
+        {
+          "en": "Purnananda Burhagohain",
+          "as": "পূৰ্ণানন্দ বুঢ়াগোহাঁই"
+        },
+        {
+          "en": "Captain Welsh",
+          "as": "কেপ্তেইন ৱেলছ"
+        },
+        {
+          "en": "Lord Amherst",
+          "as": "লৰ্ড আমহাৰ্ষ্ট"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Badan Chandra’s contest with Purnananda drew an outside power into an internal struggle.",
+        "as": "পূৰ্ণানন্দৰ সৈতে বদনচন্দ্ৰৰ ক্ষমতাৰ সংঘাতে ৰাজ্যৰ ভিতৰুৱা বিবাদলৈ বাহিৰৰ শক্তিক টানি আনিছিল।"
+      },
+      "id": "lesson-8-test-1-q7"
+    },
+    {
+      "en": "At whose court did Badan Chandra obtain military support before the first Burmese invasion?",
+      "as": "মানৰ প্ৰথম আক্ৰমণৰ আগতে বদনচন্দ্ৰই কাৰ দৰবাৰৰ পৰা সামৰিক সহায় পাইছিল?",
+      "options": [
+        {
+          "en": "Bagyidaw of Burma",
+          "as": "মান ৰজা বাগ্যিদাও"
+        },
+        {
+          "en": "Gaurinath Singha of Assam",
+          "as": "অসমৰ গৌৰীনাথ সিংহ"
+        },
+        {
+          "en": "Lord Amherst in Bengal",
+          "as": "বংগৰ লৰ্ড আমহাৰ্ষ্ট"
+        },
+        {
+          "en": "Bodawpaya of Burma",
+          "as": "মান ৰজা বদৌপায়া"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Bodawpaya agreed to send the Burmese force that entered Assam in 1817.",
+        "as": "বদৌপায়াৰ সন্মতিত অহা মান সৈন্যদলে ১৮১৭ চনত অসমত প্ৰৱেশ কৰিছিল।"
+      },
+      "id": "lesson-8-test-1-q8"
+    },
+    {
+      "en": "Which sequence traces the widening scale of conflict?",
+      "as": "কোনটো ঘটনাক্ৰমে সংঘাতৰ পৰিসৰ ক্ৰমে বহল হৈ যোৱাটো দেখুৱায়?",
+      "options": [
+        {
+          "en": "Burmese intervention → Anglo-Burmese war → court rivalry",
+          "as": "মানৰ হস্তক্ষেপ → ইঙ্গ-বৰ্মী যুদ্ধ → দৰবাৰী সংঘাত"
+        },
+        {
+          "en": "Court rivalry → Burmese intervention → Anglo-Burmese war",
+          "as": "দৰবাৰী সংঘাত → মানৰ হস্তক্ষেপ → ইঙ্গ-বৰ্মী যুদ্ধ"
+        },
+        {
+          "en": "Anglo-Burmese war → court rivalry → Burmese intervention",
+          "as": "ইঙ্গ-বৰ্মী যুদ্ধ → দৰবাৰী সংঘাত → মানৰ হস্তক্ষেপ"
+        },
+        {
+          "en": "Court rivalry → Anglo-Burmese war → Burmese intervention",
+          "as": "দৰবাৰী সংঘাত → ইঙ্গ-বৰ্মী যুদ্ধ → মানৰ হস্তক্ষেপ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Ahom factional conflict invited Burmese intervention before Britain and Burma went to war in 1824.",
+        "as": "আহোমৰ দৰবাৰী সংঘাতৰ ফলত প্ৰথমে মানে হস্তক্ষেপ কৰিছিল। তাৰ পাছত ১৮২৪ চনত ব্ৰিটিছ আৰু মানৰ মাজত যুদ্ধ আৰম্ভ হয়।"
+      },
+      "id": "lesson-8-test-1-q9"
+    },
+    {
+      "en": "Which action by Chandrakanta Singha signalled an attempt to regain independence from Burmese control?",
+      "as": "চন্দ্ৰকান্ত সিংহৰ কোনটো কাৰ্যই মানৰ নিয়ন্ত্ৰণৰ পৰা মুক্ত হোৱাৰ চেষ্টা বুজায়?",
+      "options": [
+        {
+          "en": "Strengthening the frontier against Burmese entry",
+          "as": "মানৰ প্ৰৱেশ ৰোধ কৰিবলৈ সীমান্তৰ সুৰক্ষা শক্তিশালী কৰা"
+        },
+        {
+          "en": "Inviting Welsh to suppress the Moamoriyas",
+          "as": "মোৱামৰীয়াক দমন কৰিবলৈ ৱেলছক মতা"
+        },
+        {
+          "en": "Giving Arakan to the Company",
+          "as": "আৰাকান কোম্পানীক দিয়া"
+        },
+        {
+          "en": "Seeking troops for Badan Chandra",
+          "as": "বদনচন্দ্ৰৰ বাবে সৈন্য বিচৰা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The frontier measures challenged Burmese influence and helped provoke the third invasion.",
+        "as": "সীমান্তত লোৱা ব্যৱস্থাই মানৰ কৰ্তৃত্বক প্ৰত্যাহ্বান জনাইছিল। এয়া তৃতীয় আক্ৰমণৰ এটা কাৰণ আছিল।"
+      },
+      "id": "lesson-8-test-1-q10"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-5-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 5 · Mercantilism and the Advent of European Traders in India",
+    "as": "পাঠ ৫ · বাণিজ্যবাদ আৰু ভাৰতলৈ ইউৰোপীয় ব্যৱসায়ীসকলৰ আগমন"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A merchant pays several intermediaries to carry pepper to Europe. What advantage could a direct sea route offer?",
+      "as": "এজন বণিকে ইউৰোপলৈ জালুক নিবলৈ কেইবাজনো মধ্যস্থতাকাৰীলৈ ধন দিয়ে। পোনপটীয়া সাগৰীয় পথে তেওঁক কি সুবিধা দিব পাৰে?",
+      "options": [
+        {
+          "en": "A guarantee against storms at sea",
+          "as": "সাগৰীয় ধুমুহাৰ পৰা নিশ্চিত সুৰক্ষা"
+        },
+        {
+          "en": "Ownership of the fields producing pepper",
+          "as": "জালুক উৎপাদন কৰা মাটিৰ মালিকীস্বত্ব"
+        },
+        {
+          "en": "A chance to reduce payments to intermediaries",
+          "as": "মধ্যস্থতাকাৰীক দিয়া খৰচ কমোৱাৰ সুযোগ"
+        },
+        {
+          "en": "The right to set every European retail price",
+          "as": "সমগ্ৰ ইউৰোপৰ খুচুৰা দাম নিৰ্ধাৰণৰ অধিকাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Buying closer to the source could remove some links in the trading chain.",
+        "as": "উৎপাদনস্থলীৰ ওচৰতে কিনিলে বেচা-কিনাৰ মাজৰ কেইটামান স্তৰ বাদ পৰিব পাৰে।"
+      },
+      "id": "lesson-5-test-2-q1"
+    },
+    {
+      "en": "Which pair correctly matches a European power with a major Indian base?",
+      "as": "কোনটো যোৰত ইউৰোপীয় শক্তি আৰু ভাৰতত তাৰ এটা প্ৰধান কেন্দ্ৰ শুদ্ধকৈ মিলিছে?",
+      "options": [
+        {
+          "en": "France — Bombay",
+          "as": "ফ্ৰান্স — বোম্বাই"
+        },
+        {
+          "en": "The Netherlands — Madras",
+          "as": "নেদাৰলেণ্ডছ — মাদ্ৰাজ"
+        },
+        {
+          "en": "England — Pondicherry",
+          "as": "ইংলেণ্ড — পণ্ডিচেৰী"
+        },
+        {
+          "en": "Portugal — Goa",
+          "as": "পৰ্তুগাল — গোৱা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Goa became the principal centre of Portuguese power in India.",
+        "as": "গোৱা ভাৰতত পৰ্তুগীজ শক্তিৰ প্ৰধান কেন্দ্ৰ হৈ উঠিছিল।"
+      },
+      "id": "lesson-5-test-2-q2"
+    },
+    {
+      "en": "A seventeenth-century account calls a company settlement a “factory”. Which activity would one expect there?",
+      "as": "সোতৰ শতিকাৰ এখন বিৱৰণত কোম্পানীৰ এটা কেন্দ্ৰক বাণিজ্য কুঠি বা “ফেক্টৰী” বোলা হৈছে। তাত কোনটো কাম চলাৰ কথা?",
+      "options": [
+        {
+          "en": "Minting all coins for the Mughal Empire",
+          "as": "সমগ্ৰ মোগল সাম্ৰাজ্যৰ মুদ্ৰা তৈয়াৰ কৰা"
+        },
+        {
+          "en": "Buying and storing goods for shipment",
+          "as": "জাহাজত পঠিয়াবলৈ সামগ্ৰী কিনি মজুত কৰা"
+        },
+        {
+          "en": "Training the emperor’s cavalry",
+          "as": "সম্ৰাটৰ অশ্বাৰোহী বাহিনীক প্ৰশিক্ষণ দিয়া"
+        },
+        {
+          "en": "Hearing appeals from provincial courts",
+          "as": "প্ৰাদেশিক আদালতৰ আপীল শুনা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A company factory was a trading post staffed by commercial agents.",
+        "as": "বাণিজ্য কুঠিত কোম্পানীৰ প্ৰতিনিধিয়ে সামগ্ৰীৰ কিনা-বেচা আৰু মজুতৰ কাম কৰিছিল।"
+      },
+      "id": "lesson-5-test-2-q3"
+    },
+    {
+      "en": "A ruler grants duty-free passage to a company’s goods. Which record would most directly show the privilege?",
+      "as": "এজন শাসকে কোম্পানীৰ পণ্য শুল্ক নিদিয়াকৈ নিয়াৰ অনুমতি দিলে। কোনখন নথিত এই সুবিধাৰ আটাইতকৈ প্ৰত্যক্ষ প্ৰমাণ পোৱা যাব?",
+      "options": [
+        {
+          "en": "A sailor’s chart of the coastline",
+          "as": "নাৱিকৰ উপকূলৰ মানচিত্ৰ"
+        },
+        {
+          "en": "A weaver’s list of cloth patterns",
+          "as": "শিপিনীৰ কাপোৰৰ আৰ্হিৰ তালিকা"
+        },
+        {
+          "en": "The ruler’s farman specifying the exemption",
+          "as": "শুল্ক ৰেহাইৰ কথা উল্লেখ থকা শাসকৰ ফৰমান"
+        },
+        {
+          "en": "A shipwright’s sketch of a mast",
+          "as": "জাহাজ নিৰ্মাতাৰ মাস্তুলৰ নক্সা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A farman records the sovereign’s order and can specify the terms of a trading privilege.",
+        "as": "ফৰমানত শাসকৰ আদেশ লিপিবদ্ধ থাকে। তাত বাণিজ্যিক সুবিধাৰ চৰ্তও উল্লেখ থাকিব পাৰে।"
+      },
+      "id": "lesson-5-test-2-q4"
+    },
+    {
+      "en": "How could a colony serve two connected purposes under mercantilism?",
+      "as": "বাণিজ্যবাদৰ অধীনত উপনিৱেশ এখনে কেনেকৈ দুটা পৰস্পৰ সম্পৰ্কিত কাম কৰিছিল?",
+      "options": [
+        {
+          "en": "Supply raw materials and buy finished goods",
+          "as": "কেঁচামাল যোগান ধৰা আৰু প্ৰস্তুত সামগ্ৰী কিনা"
+        },
+        {
+          "en": "Set the ruling country’s taxes and issue its coins",
+          "as": "শাসক দেশৰ কৰ নিৰ্ধাৰণ কৰা আৰু মুদ্ৰা উলিওৱা"
+        },
+        {
+          "en": "Choose the ruling country’s ministers and judges",
+          "as": "শাসক দেশৰ মন্ত্ৰী আৰু বিচাৰক বাছনি কৰা"
+        },
+        {
+          "en": "Control European ports and license European navies",
+          "as": "ইউৰোপৰ বন্দৰ নিয়ন্ত্ৰণ কৰা আৰু নৌবাহিনীক অনুমতি দিয়া"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Colonial control could secure both inputs for producers and outlets for their products.",
+        "as": "উপনিৱেশৰ ওপৰত নিয়ন্ত্ৰণে শাসক দেশৰ উৎপাদকক কেঁচামাল আৰু উৎপাদিত পণ্যৰ বজাৰ দুয়োটাই যোগাব পাৰিছিল।"
+      },
+      "id": "lesson-5-test-2-q5"
+    },
+    {
+      "en": "Two companies bid for the same limited stock of Indian silk. What would competing buyers most likely do to the purchase price?",
+      "as": "ভাৰতীয় ৰেচমৰ এটা সীমিত মজুত কিনিবলৈ দুটা কোম্পানীয়ে দৰ দিছে। ক্ৰেতাৰ প্ৰতিযোগিতাই ক্ৰয়মূল্যত কেনে প্ৰভাৱ পেলোৱাৰ সম্ভাৱনা বেছি?",
+      "options": [
+        {
+          "en": "Fix it permanently",
+          "as": "দাম চিৰদিনলৈ স্থিৰ কৰিব"
+        },
+        {
+          "en": "Reduce it to the cost of freight alone",
+          "as": "দাম কেৱল পৰিবহণ খৰচৰ সমানলৈ নমাব"
+        },
+        {
+          "en": "Make it independent of demand",
+          "as": "চাহিদাৰ সৈতে দামৰ সম্পৰ্ক নোহোৱা কৰিব"
+        },
+        {
+          "en": "Push it upward",
+          "as": "দাম বঢ়াব"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Each buyer has a reason to offer more to secure scarce goods.",
+        "as": "সীমিত সামগ্ৰীখিনি পাবলৈ প্ৰতিজন ক্ৰেতাৰে আনজনতকৈ বেছি দৰ দিয়াৰ কাৰণ থাকে।"
+      },
+      "id": "lesson-5-test-2-q6"
+    },
+    {
+      "en": "Which resource gave a sea-trading company a particular advantage during rivalry for coastal posts?",
+      "as": "উপকূলীয় বাণিজ্যকেন্দ্ৰৰ বাবে চলা প্ৰতিদ্বন্দ্বিতাত কোনটো সম্পদে সাগৰীয় বাণিজ্য কৰা কোম্পানীক বিশেষ সুবিধা দিছিল?",
+      "options": [
+        {
+          "en": "A navy able to protect shipping",
+          "as": "বাণিজ্যিক জাহাজ ৰক্ষা কৰিব পৰা নৌবাহিনী"
+        },
+        {
+          "en": "A large herd of inland pack animals",
+          "as": "স্থলপথত বোজা কঢ়িওৱা বহু পশু"
+        },
+        {
+          "en": "Exclusive ownership of mountain passes",
+          "as": "পাহাৰীয়া গিৰিপথৰ একচেটিয়া মালিকীস্বত্ব"
+        },
+        {
+          "en": "A network of desert caravan inns",
+          "as": "মৰুভূমিৰ পথে পথে থকা চৰাইখানা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Naval strength helped keep supply routes open and defend coastal bases.",
+        "as": "শক্তিশালী নৌবাহিনীয়ে সাগৰীয় যোগানপথ মুকলি ৰখাত আৰু উপকূলৰ ঘাটি ৰক্ষা কৰাত সহায় কৰিছিল।"
+      },
+      "id": "lesson-5-test-2-q7"
+    },
+    {
+      "en": "Which situation illustrates a company using “divide and rule”?",
+      "as": "কোনটো ঘটনাত কোম্পানীৰ ‘বিভাজন কৰি শাসন কৰা’ নীতি প্ৰকাশ পায়?",
+      "options": [
+        {
+          "en": "It divides a cargo between two ships to reduce loss.",
+          "as": "লোকচান কমাবলৈ ই পণ্য দুখন জাহাজত ভগাই দিয়ে।"
+        },
+        {
+          "en": "It separates accounts for imports and exports.",
+          "as": "ই আমদানি আৰু ৰপ্তানিৰ হিচাপ বেলেগে ৰাখে।"
+        },
+        {
+          "en": "It sets up warehouses at two ports for convenience.",
+          "as": "সুবিধাৰ বাবে ই দুটা বন্দৰত গুদাম পাতে।"
+        },
+        {
+          "en": "It backs one rival prince to gain influence over both sides.",
+          "as": "দুয়োপক্ষৰ ওপৰত প্ৰভাৱ বঢ়াবলৈ ই এজন প্ৰতিদ্বন্দ্বী ৰাজকুমাৰক সমৰ্থন কৰে।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The policy exploited existing political divisions to increase outside control.",
+        "as": "এই নীতিত স্থানীয় ৰাজনৈতিক বিবাদৰ সুযোগ লৈ বাহিৰৰ শক্তিয়ে নিজৰ নিয়ন্ত্ৰণ বঢ়াইছিল।"
+      },
+      "id": "lesson-5-test-2-q8"
+    },
+    {
+      "en": "A cultivator borrows to pay a fixed revenue demand after a poor harvest. Which consequence follows most directly?",
+      "as": "শস্য কম হোৱাৰ পিছতো নিৰ্ধাৰিত ৰাজহ দিবলৈ এজন কৃষকে ঋণ ল’লে। ইয়াৰ পোনপটীয়া ফল কি?",
+      "options": [
+        {
+          "en": "The harvest automatically gains in quantity.",
+          "as": "চপোৱা শস্যৰ পৰিমাণ নিজে নিজে বাঢ়িল।"
+        },
+        {
+          "en": "The company loses its right to collect revenue.",
+          "as": "কোম্পানীয়ে ৰাজহ সংগ্ৰহৰ অধিকাৰ হেৰুৱালে।"
+        },
+        {
+          "en": "The cultivator now owes money to a lender.",
+          "as": "কৃষকজন ঋণদাতাৰ ওচৰত ধৰুৱা হ’ল।"
+        },
+        {
+          "en": "The cultivator acquires the lender’s land.",
+          "as": "কৃষকজনে ঋণদাতাৰ মাটিৰ মালিকীস্বত্ব পালে।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Enforced collection despite crop losses could push producers into debt.",
+        "as": "শস্যৰ ক্ষতি হ’লেও ৰাজহ আদায় কৰাত কৃষক ঋণত পৰিব পাৰিছিল।"
+      },
+      "id": "lesson-5-test-2-q9"
+    },
+    {
+      "en": "Which evidence best indicates a shift from trade towards political control?",
+      "as": "বাণিজ্যৰ পৰা ৰাজনৈতিক নিয়ন্ত্ৰণৰ দিশে আগবঢ়াৰ আটাইতকৈ স্পষ্ট প্ৰমাণ কোনটো?",
+      "options": [
+        {
+          "en": "The company orders more cotton cloth.",
+          "as": "কোম্পানীয়ে অধিক কপাহী কাপোৰৰ ফৰমাইচ দিয়ে।"
+        },
+        {
+          "en": "The company claims authority to govern an area.",
+          "as": "কোম্পানীয়ে এটা অঞ্চল শাসন কৰাৰ অধিকাৰ দাবী কৰে।"
+        },
+        {
+          "en": "The company hires interpreters at a port.",
+          "as": "কোম্পানীয়ে বন্দৰত দোভাষী নিয়োগ কৰে।"
+        },
+        {
+          "en": "The company keeps a list of prices.",
+          "as": "কোম্পানীয়ে পণ্যৰ দামৰ তালিকা ৰাখে।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Governing territory gives a company power over inhabitants as well as its own trade.",
+        "as": "এটা অঞ্চল শাসন কৰিলে কোম্পানীয়ে নিজৰ বেপাৰৰ লগতে সেই অঞ্চলৰ বাসিন্দাৰ ওপৰতো কৰ্তৃত্ব লাভ কৰে।"
+      },
+      "id": "lesson-5-test-2-q10"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-revision-test-4",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "section": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "test": {
+    "en": "Test 4",
+    "as": "অনুশীলনী ৪"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which document would best show the overseas privileges the English sovereign gave a group of merchants in 1600?",
+      "as": "১৬০০ চনত ইংলেণ্ডৰ শাসকে এটা ব্যৱসায়ী গোটক দিয়া বহিঃবাণিজ্যৰ সুবিধা কোনখন নথিয়ে ভালকৈ দেখুৱাব?",
+      "options": [
+        {
+          "en": "Devotional song",
+          "as": "ভক্তিমূলক গীত"
+        },
+        {
+          "en": "Trading charter",
+          "as": "বাণিজ্যিক চনদ"
+        },
+        {
+          "en": "Copper-plate grant",
+          "as": "তাম্ৰশাসন"
+        },
+        {
+          "en": "Buranji",
+          "as": "বুৰঞ্জী"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A royal charter authorised the English East India Company to trade in the East.",
+        "as": "ৰাজকীয় চনদে ইংৰাজ ইষ্ট ইণ্ডিয়া কোম্পানীক প্ৰাচ্যত বাণিজ্যৰ অনুমতি দিছিল।"
+      },
+      "id": "revision-test-4-q1"
+    },
+    {
+      "en": "An account emphasises the use of boats and the terrain near Guwahati in 1671. Which leader belongs in its title?",
+      "as": "এটা বিৱৰণত ১৬৭১ চনত গুৱাহাটীৰ ওচৰত নাও আৰু স্থানীয় ভূ-প্ৰকৃতি ব্যৱহাৰৰ কথা আছে। ইয়াৰ শিৰোনামত কোনজন নেতা থাকিব?",
+      "options": [
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        },
+        {
+          "en": "Nara Narayan",
+          "as": "নৰনাৰায়ণ"
+        },
+        {
+          "en": "Lachit Barphukan",
+          "as": "লাচিত বৰফুকন"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Lachit led the Ahom defence against the Mughals at Saraighat.",
+        "as": "শৰাইঘাটত মোগলৰ বিৰুদ্ধে আহোমৰ প্ৰতিৰোধত লাচিতে নেতৃত্ব দিছিল।"
+      },
+      "id": "revision-test-4-q2"
+    },
+    {
+      "en": "A Company survey measures a cultivator’s holding and fixes revenue directly with the cultivator. Which system is being used?",
+      "as": "কোম্পানীৰ জৰীপত খেতিয়কৰ মাটি জুখি তেওঁৰ সৈতেই ৰাজহ নিৰ্ধাৰণ কৰা হৈছে। এয়া কোনটো ব্যৱস্থা?",
+      "options": [
+        {
+          "en": "Namghar",
+          "as": "নামঘৰ"
+        },
+        {
+          "en": "Paik system",
+          "as": "পাইক প্ৰথা"
+        },
+        {
+          "en": "Mercantilism",
+          "as": "বাণিজ্যবাদ"
+        },
+        {
+          "en": "Ryotwari settlement",
+          "as": "ৰায়তৱাৰী বন্দৱস্ত"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Under ryotwari, revenue was settled directly with the individual cultivator.",
+        "as": "ৰায়তৱাৰী ব্যৱস্থাত খেতিয়কৰ সৈতে পোনপটীয়াকৈ ৰাজহ নিৰ্ধাৰণ কৰা হৈছিল।"
+      },
+      "id": "revision-test-4-q3"
+    },
+    {
+      "en": "Which location belongs on an Assam map showing the conflict between Ram Singh’s army and the Ahoms?",
+      "as": "ৰামসিংহৰ বাহিনী আৰু আহোমৰ মাজৰ যুদ্ধ দেখুওৱা অসমৰ মানচিত্ৰত কোনটো স্থান চিহ্নিত কৰিব লাগে?",
+      "options": [
+        {
+          "en": "Meerut",
+          "as": "মীৰাট"
+        },
+        {
+          "en": "Plassey",
+          "as": "পলাশী"
+        },
+        {
+          "en": "Buxar",
+          "as": "বক্সাৰ"
+        },
+        {
+          "en": "Saraighat",
+          "as": "শৰাইঘাট"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The armies confronted each other at Saraighat on the Brahmaputra in 1671.",
+        "as": "১৬৭১ চনত ব্ৰহ্মপুত্ৰৰ শৰাইঘাটত দুয়ো বাহিনী মুখামুখি হৈছিল।"
+      },
+      "id": "revision-test-4-q4"
+    },
+    {
+      "en": "Which event in 1765 gave the Company the right to collect revenue in Bengal, Bihar and Orissa?",
+      "as": "১৭৬৫ চনৰ কোনটো ঘটনাই কোম্পানীক বংগ, বিহাৰ আৰু উৰিষ্যাত ৰাজহ সংগ্ৰহৰ অধিকাৰ দিছিল?",
+      "options": [
+        {
+          "en": "Permanent Settlement",
+          "as": "চিৰস্থায়ী বন্দৱস্ত"
+        },
+        {
+          "en": "Diwani grant",
+          "as": "দেৱানী প্ৰদান"
+        },
+        {
+          "en": "Doctrine of Lapse",
+          "as": "স্বত্ববিলোপ নীতি"
+        },
+        {
+          "en": "Subsidiary Alliance",
+          "as": "অধীনতামূলক মিত্ৰতা নীতি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Shah Alam II granted Diwani to the Company after its victory at Buxar.",
+        "as": "বক্সাৰৰ বিজয়ৰ পিছত দ্বিতীয় শ্বাহ আলমে কোম্পানীক দেৱানী দিছিল।"
+      },
+      "id": "revision-test-4-q5"
+    },
+    {
+      "en": "Which event most immediately preceded the transfer of India’s government from the Company to the British Crown?",
+      "as": "কোম্পানীৰ হাতৰ পৰা ব্ৰিটিছ ৰাজমুকুটলৈ ভাৰতৰ শাসন হস্তান্তৰৰ ঠিক আগতে কোনটো ঘটনা ঘটিছিল?",
+      "options": [
+        {
+          "en": "Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধি"
+        },
+        {
+          "en": "Revolt of 1857",
+          "as": "১৮৫৭ চনৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Abolition of sati in Bengal",
+          "as": "বংগত সতীদাহ প্ৰথাৰ বিলোপ"
+        },
+        {
+          "en": "Moamoria rebellion",
+          "as": "মোৱামৰীয়া বিদ্ৰোহ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "After the revolt, the Government of India Act 1858 transferred authority to the Crown.",
+        "as": "বিদ্ৰোহৰ পিছত ১৮৫৮ চনৰ ভাৰত শাসন আইনে ৰাজমুকুটলৈ শাসনক্ষমতা হস্তান্তৰ কৰিছিল।"
+      },
+      "id": "revision-test-4-q6"
+    },
+    {
+      "en": "On 26 November 1949, which body adopted the Constitution of India?",
+      "as": "১৯৪৯ চনৰ ২৬ নৱেম্বৰত কোনটো সংস্থাই ভাৰতৰ সংবিধান গ্ৰহণ কৰিছিল?",
+      "options": [
+        {
+          "en": "Legislature",
+          "as": "বিধানমণ্ডল"
+        },
+        {
+          "en": "Executive",
+          "as": "কাৰ্যপালিকা"
+        },
+        {
+          "en": "Judiciary",
+          "as": "ন্যায়পালিকা"
+        },
+        {
+          "en": "Constituent Assembly",
+          "as": "সংবিধান সভা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The Constituent Assembly debated and adopted the draft prepared for it.",
+        "as": "সংবিধান সভাই ইয়াৰ বাবে প্ৰস্তুত কৰা খচৰাখনৰ ওপৰত আলোচনা কৰি সংবিধান গ্ৰহণ কৰিছিল।"
+      },
+      "id": "revision-test-4-q7"
+    },
+    {
+      "en": "Voting eligibility in a democracy does not depend on property, literacy or wealth. Which principle does this illustrate?",
+      "as": "গণতন্ত্ৰত ভোটদানৰ যোগ্যতা সম্পত্তি, সাক্ষৰতা বা ধনৰ ওপৰত নিৰ্ভৰ নকৰে। ই কোনটো নীতি দেখুৱায়?",
+      "options": [
+        {
+          "en": "Universal adult franchise",
+          "as": "সাৰ্বজনীন প্ৰাপ্তবয়স্ক ভোটাধিকাৰ"
+        },
+        {
+          "en": "Secularism",
+          "as": "ধৰ্মনিৰপেক্ষতা"
+        },
+        {
+          "en": "Federalism",
+          "as": "যুক্তৰাষ্ট্ৰীয়তা"
+        },
+        {
+          "en": "Republican government",
+          "as": "গণৰাজ্যিক শাসন"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Universal adult franchise gives adult citizens voting rights subject to legal qualifications.",
+        "as": "সাৰ্বজনীন প্ৰাপ্তবয়স্ক ভোটাধিকাৰে আইনসন্মত অৰ্হতা সাপেক্ষে প্ৰাপ্তবয়স্ক নাগৰিকক ভোটৰ অধিকাৰ দিয়ে।"
+      },
+      "id": "revision-test-4-q8"
+    },
+    {
+      "en": "A person adopts a different faith voluntarily. Which liberty is directly involved?",
+      "as": "এজন ব্যক্তিয়ে স্বেচ্ছাই আন এটা ধৰ্ম গ্ৰহণ কৰিছে। ইয়াত কোনটো স্বাধীনতা পোনপটীয়াকৈ জড়িত?",
+      "options": [
+        {
+          "en": "Right against exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        },
+        {
+          "en": "Cultural and educational rights",
+          "as": "সাংস্কৃতিক আৰু শিক্ষাৰ অধিকাৰ"
+        },
+        {
+          "en": "Equality before the law",
+          "as": "আইনৰ আগত সমতা"
+        },
+        {
+          "en": "Freedom of religion",
+          "as": "ধৰ্মীয় স্বাধীনতা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Freedom of conscience is protected under the freedom of religion.",
+        "as": "ধৰ্মীয় স্বাধীনতাৰ অধীনত বিবেকৰ স্বাধীনতা সুৰক্ষিত।"
+      },
+      "id": "revision-test-4-q9"
+    },
+    {
+      "en": "During a peaceful march, organisers prevent damage to a public library. Which duty are they fulfilling?",
+      "as": "শান্তিপূৰ্ণ সমদলৰ সময়ত আয়োজকসকলে এটা ৰাজহুৱা পুথিভঁৰালৰ ক্ষতি হোৱাত বাধা দিছে। তেওঁলোকে কোনটো কৰ্তব্য পালন কৰিছে?",
+      "options": [
+        {
+          "en": "Protection of public property",
+          "as": "ৰাজহুৱা সম্পত্তিৰ সুৰক্ষা"
+        },
+        {
+          "en": "Preservation of composite culture",
+          "as": "সমন্বিত সংস্কৃতিৰ সংৰক্ষণ"
+        },
+        {
+          "en": "Respect for freedom-struggle ideals",
+          "as": "স্বাধীনতা সংগ্ৰামৰ আদৰ্শৰ প্ৰতি শ্ৰদ্ধা"
+        },
+        {
+          "en": "Scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Citizens have a duty to safeguard shared property and abjure violence.",
+        "as": "ৰাজহুৱা সম্পত্তি ৰক্ষা কৰা আৰু হিংসা ত্যাগ কৰাটো নাগৰিকৰ কৰ্তব্য।"
+      },
+      "id": "revision-test-4-q10"
+    }
+  ]
+}

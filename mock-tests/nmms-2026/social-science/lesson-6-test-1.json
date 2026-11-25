@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-6-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 6 · The Establishment, Expansion and Consolidation of British Rule in India",
+    "as": "পাঠ ৬ · ভাৰতবৰ্ষত ব্ৰিটিছ শাসনৰ প্ৰতিষ্ঠা, সম্প্ৰসাৰণ আৰু দৃঢ়ীকৰণ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Why could news of a peace treaty in Europe change who held Madras after the First Carnatic War?",
+      "as": "প্ৰথম কৰ্ণাটক যুদ্ধৰ পিছত মাদ্ৰাজ কাৰ অধীনত থাকিব, সেয়া ইউৰোপৰ এখন শান্তি সন্ধিয়ে কেনেকৈ নিৰ্ধাৰণ কৰিব পাৰিলে?",
+      "options": [
+        {
+          "en": "Madras was the capital of the Austrian Empire.",
+          "as": "মাদ্ৰাজ অষ্ট্ৰীয় সাম্ৰাজ্যৰ ৰাজধানী আছিল।"
+        },
+        {
+          "en": "The Nawab of Bengal negotiated every European treaty.",
+          "as": "ইউৰোপৰ প্ৰতিখন সন্ধিৰ আলোচনা বংগৰ নবাবেই চলাইছিল।"
+        },
+        {
+          "en": "European treaties gave the Dutch permanent control of Madras.",
+          "as": "ইউৰোপৰ সন্ধিসমূহে মাদ্ৰাজৰ স্থায়ী কৰ্তৃত্ব ওলন্দাজসকলক দিছিল।"
+        },
+        {
+          "en": "The fighting in India formed part of a wider Anglo-French conflict.",
+          "as": "ভাৰতৰ যুদ্ধখন ইংৰাজ আৰু ফৰাচীৰ বহল সংঘাতৰ অংশ আছিল।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Peace in Europe brought a settlement in India under which the French returned Madras to the English.",
+        "as": "ইউৰোপত শান্তি স্থাপন হোৱাত ভাৰততো মীমাংসা হ’ল আৰু ফৰাচীসকলে মাদ্ৰাজ ইংৰাজক ঘূৰাই দিলে।"
+      },
+      "id": "lesson-6-test-1-q1"
+    },
+    {
+      "en": "Which official would appear on the French side of an exhibit about the first two Carnatic Wars?",
+      "as": "প্ৰথম দুখন কৰ্ণাটক যুদ্ধ বিষয়ক প্ৰদৰ্শনীত ফৰাচী পক্ষৰ কোনজন বিষয়াৰ নাম থাকিব?",
+      "options": [
+        {
+          "en": "Robert Clive",
+          "as": "ৰবাৰ্ট ক্লাইভ"
+        },
+        {
+          "en": "Joseph François Dupleix",
+          "as": "জোছেফ ফ্ৰাঁছোৱা ডুপ্লে"
+        },
+        {
+          "en": "Warren Hastings",
+          "as": "ৱাৰেন হেষ্টিংছ"
+        },
+        {
+          "en": "Lord Wellesley",
+          "as": "লৰ্ড ৱেলেছলি"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Dupleix directed French policy from Pondicherry during these conflicts.",
+        "as": "এই সংঘাতৰ সময়ত ডুপ্লেই পণ্ডিচেৰীৰ পৰা ফৰাচী নীতি পৰিচালনা কৰিছিল।"
+      },
+      "id": "lesson-6-test-1-q2"
+    },
+    {
+      "en": "What did the English and French companies stand to gain by backing rival claimants in southern India?",
+      "as": "দক্ষিণ ভাৰতত সিংহাসনৰ প্ৰতিদ্বন্দ্বী দাবীদাৰক সমৰ্থন কৰি ইংৰাজ আৰু ফৰাচী কোম্পানীয়ে কি লাভৰ আশা কৰিছিল?",
+      "options": [
+        {
+          "en": "Influence at the court if their candidate won",
+          "as": "নিজৰ প্ৰাৰ্থী জয়ী হ’লে দৰবাৰত প্ৰভাৱ"
+        },
+        {
+          "en": "An end to all competition for Indian goods",
+          "as": "ভাৰতীয় পণ্যক লৈ চলা সকলো প্ৰতিযোগিতাৰ অৱসান"
+        },
+        {
+          "en": "Automatic succession to the Mughal throne",
+          "as": "আপোনা-আপুনি মোগল সিংহাসনৰ উত্তৰাধিকাৰ"
+        },
+        {
+          "en": "A permanent end to military expenditure",
+          "as": "সামৰিক ব্যয়ৰ স্থায়ী অৱসান"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A ruler who owed his position to company support might grant concessions to that company.",
+        "as": "কোম্পানীৰ সহায়ত গাদী পোৱা শাসকে সেই কোম্পানীক বিশেষ সুবিধা দিব পাৰিছিল।"
+      },
+      "id": "lesson-6-test-1-q3"
+    },
+    {
+      "en": "A map marks the 1757 battlefield south of Murshidabad on the Bhagirathi. What should the label read?",
+      "as": "মানচিত্ৰত মুৰ্ছিদাবাদৰ দক্ষিণে ভাগীৰথীৰ পাৰত ১৭৫৭ চনৰ ৰণক্ষেত্ৰ এখন চিহ্নিত কৰা হৈছে। ঠাইখনৰ নাম কি?",
+      "options": [
+        {
+          "en": "Buxar",
+          "as": "বক্সাৰ"
+        },
+        {
+          "en": "Wandiwash",
+          "as": "ৱাণ্ডিৱাছ"
+        },
+        {
+          "en": "Plassey",
+          "as": "পলাশী"
+        },
+        {
+          "en": "Arcot",
+          "as": "আৰ্কট"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Plassey on the Bhagirathi was the site of the confrontation between Siraj-ud-Daulah and the company.",
+        "as": "ভাগীৰথীৰ পাৰৰ পলাশীত চিৰাজউদ্দৌলা আৰু কোম্পানীৰ মাজত যুদ্ধ হৈছিল।"
+      },
+      "id": "lesson-6-test-1-q4"
+    },
+    {
+      "en": "Which fact best explains why counting the Nawab’s troops alone would give a misleading prediction at Plassey?",
+      "as": "পলাশীত কেৱল নবাবৰ সৈন্যৰ সংখ্যা চাই যুদ্ধৰ ফল অনুমান কৰিলে কিয় ভুল হোৱাৰ সম্ভাৱনা আছিল?",
+      "options": [
+        {
+          "en": "The French had already annexed Bengal.",
+          "as": "ফৰাচীসকলে ইতিমধ্যে বংগ নিজৰ ৰাজ্যত চামিল কৰিছিল।"
+        },
+        {
+          "en": "Mir Jafar withheld the support of troops under his command.",
+          "as": "মীৰজাফৰে নিজৰ অধীনৰ সৈন্যৰে নবাবক সহায় নকৰিলে।"
+        },
+        {
+          "en": "The emperor personally commanded the company’s army.",
+          "as": "সম্ৰাটে নিজেই কোম্পানীৰ সেনাৰ নেতৃত্ব দিছিল।"
+        },
+        {
+          "en": "The Nawab had no commanders in the field.",
+          "as": "ৰণক্ষেত্ৰত নবাবৰ কোনো সেনাপতি নাছিল।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Mir Jafar’s understanding with the company meant that much of the Nawab’s nominal strength did not enter the fight.",
+        "as": "কোম্পানীৰ সৈতে মীৰজাফৰৰ গোপন বুজাবুজিৰ ফলত নবাবৰ বহু সৈন্যই যুদ্ধত ভাগেই নল’লে।"
+      },
+      "id": "lesson-6-test-1-q5"
+    },
+    {
+      "en": "Which ruler came between Alivardi Khan and Mir Jafar in Bengal’s succession?",
+      "as": "বংগৰ গাদীত আলিবৰ্দি খাঁৰ পিছত আৰু মীৰজাফৰৰ আগত কোন বহিছিল?",
+      "options": [
+        {
+          "en": "Mir Qasim",
+          "as": "মীৰকাছিম"
+        },
+        {
+          "en": "Shuja-ud-Daulah",
+          "as": "ছুজাউদ্দৌলা"
+        },
+        {
+          "en": "Shah Alam II",
+          "as": "দ্বিতীয় শ্বাহ আলম"
+        },
+        {
+          "en": "Siraj-ud-Daulah",
+          "as": "চিৰাজউদ্দৌলা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Siraj succeeded Alivardi Khan and lost the throne after Plassey, when Mir Jafar became Nawab.",
+        "as": "আলিবৰ্দি খাঁৰ পিছত চিৰাজ নবাব হয়। পলাশীৰ যুদ্ধৰ পিছত তেওঁৰ ঠাইত মীৰজাফৰ গাদীত বহে।"
+      },
+      "id": "lesson-6-test-1-q6"
+    },
+    {
+      "en": "Why did Mir Qasim abolish internal trade duties for Indian merchants?",
+      "as": "মীৰকাছিমে ভাৰতীয় বণিকৰ বাবে আভ্যন্তৰীণ বাণিজ্য শুল্ক কিয় উঠাই দিছিল?",
+      "options": [
+        {
+          "en": "To put them on a similar footing to company traders enjoying exemptions",
+          "as": "শুল্ক ৰেহাই পোৱা কোম্পানীৰ বণিকৰ সৈতে সমান সুবিধা দিবলৈ"
+        },
+        {
+          "en": "To transfer all inland markets to the French",
+          "as": "ভিতৰুৱা সকলো বজাৰ ফৰাচীক দিবলৈ"
+        },
+        {
+          "en": "To increase the exclusive advantages of company servants",
+          "as": "কোম্পানীৰ কৰ্মচাৰীৰ একচেটিয়া সুবিধা বঢ়াবলৈ"
+        },
+        {
+          "en": "To end the sale of Indian goods within Bengal",
+          "as": "বংগৰ ভিতৰত ভাৰতীয় সামগ্ৰীৰ বিক্ৰী বন্ধ কৰিবলৈ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Removing duties for local merchants reduced the advantage enjoyed by traders using company privileges.",
+        "as": "স্থানীয় বণিকৰ শুল্ক আঁতৰোৱাত কোম্পানীৰ ৰেহাই ব্যৱহাৰ কৰা বণিকৰ বিশেষ সুবিধা কমিল।"
+      },
+      "id": "lesson-6-test-1-q7"
+    },
+    {
+      "en": "Which alliance opposed the company at Buxar?",
+      "as": "বক্সাৰৰ যুদ্ধত কোনটো মিত্ৰপক্ষই কোম্পানীৰ বিৰুদ্ধে যুঁজিছিল?",
+      "options": [
+        {
+          "en": "Mir Jafar, Siraj-ud-Daulah and Dupleix",
+          "as": "মীৰজাফৰ, চিৰাজউদ্দৌলা আৰু ডুপ্লে"
+        },
+        {
+          "en": "Alivardi Khan, Mir Jafar and Tipu Sultan",
+          "as": "আলিবৰ্দি খাঁ, মীৰজাফৰ আৰু টিপু চুলতান"
+        },
+        {
+          "en": "Mir Qasim, Shuja-ud-Daulah and Shah Alam II",
+          "as": "মীৰকাছিম, ছুজাউদ্দৌলা আৰু দ্বিতীয় শ্বাহ আলম"
+        },
+        {
+          "en": "Siraj-ud-Daulah, Haidar Ali and Shah Alam II",
+          "as": "চিৰাজউদ্দৌলা, হায়দৰ আলি আৰু দ্বিতীয় শ্বাহ আলম"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Mir Qasim joined the Nawab of Awadh and the Mughal emperor against the company in 1764.",
+        "as": "১৭৬৪ চনত মীৰকাছিমে অযোধ্যাৰ নবাব আৰু মোগল সম্ৰাটৰ সৈতে মিলি কোম্পানীৰ বিৰুদ্ধে যুঁজিছিল।"
+      },
+      "id": "lesson-6-test-1-q8"
+    },
+    {
+      "en": "Which sequence correctly traces the company’s growing power in eastern India?",
+      "as": "পূব ভাৰতত কোম্পানীৰ ক্ষমতা বৃদ্ধিৰ শুদ্ধ ঘটনাক্ৰম কোনটো?",
+      "options": [
+        {
+          "en": "Buxar → Plassey → grant of Diwani",
+          "as": "বক্সাৰ → পলাশী → দেৱানী অধিকাৰ লাভ"
+        },
+        {
+          "en": "Grant of Diwani → Plassey → Buxar",
+          "as": "দেৱানী অধিকাৰ লাভ → পলাশী → বক্সাৰ"
+        },
+        {
+          "en": "Plassey → Buxar → grant of Diwani",
+          "as": "পলাশী → বক্সাৰ → দেৱানী অধিকাৰ লাভ"
+        },
+        {
+          "en": "Plassey → grant of Diwani → Buxar",
+          "as": "পলাশী → দেৱানী অধিকাৰ লাভ → বক্সাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Plassey was fought in 1757, Buxar in 1764, and the company received the Diwani in 1765.",
+        "as": "পলাশীৰ যুদ্ধ ১৭৫৭ চনত আৰু বক্সাৰৰ যুদ্ধ ১৭৬৪ চনত হৈছিল। কোম্পানীয়ে ১৭৬৫ চনত দেৱানী অধিকাৰ লাভ কৰে।"
+      },
+      "id": "lesson-6-test-1-q9"
+    },
+    {
+      "en": "A company ledger begins recording revenue from Bengal, Bihar and Orissa after an imperial grant. Which right explains the entries?",
+      "as": "সম্ৰাটৰ অনুমোদনৰ পিছত কোম্পানীৰ বহীত বংগ, বিহাৰ আৰু উৰিষ্যাৰ ৰাজহৰ হিচাপ উঠিল। এই হিচাপ কোনটো অধিকাৰৰ সৈতে জড়িত?",
+      "options": [
+        {
+          "en": "Diwani",
+          "as": "দেৱানী অধিকাৰ"
+        },
+        {
+          "en": "Right of adoption",
+          "as": "তোলনীয়া পুত্ৰ গ্ৰহণৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to fortify a port",
+          "as": "বন্দৰত দুৰ্গ সজাৰ অধিকাৰ"
+        },
+        {
+          "en": "Exclusive right to trade in pepper",
+          "as": "জালুকৰ একচেটিয়া বাণিজ্যৰ অধিকাৰ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The Diwani entitled the company to collect revenue in these territories.",
+        "as": "দেৱানী অধিকাৰে কোম্পানীক এই অঞ্চলসমূহৰ ৰাজহ সংগ্ৰহৰ ক্ষমতা দিছিল।"
+      },
+      "id": "lesson-6-test-1-q10"
+    }
+  ]
+}

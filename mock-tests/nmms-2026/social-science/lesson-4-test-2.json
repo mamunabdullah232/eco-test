@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-4-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 4 · The Rise of Neo-Religious Thoughts",
+    "as": "পাঠ ৪ · নব্য ধৰ্মীয় ভাবধাৰাৰ উত্থান"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which development belongs earliest on a timeline?",
+      "as": "কালৰেখাত কোনটো ঘটনা আটাইতকৈ আগত থাকিব?",
+      "options": [
+        {
+          "en": "Jnanadeva’s teaching in Maharashtra",
+          "as": "মহাৰাষ্ট্ৰত জ্ঞানদেৱৰ ধৰ্মপ্ৰচাৰ"
+        },
+        {
+          "en": "Sankardeva’s teaching in Assam",
+          "as": "অসমত শংকৰদেৱৰ ধৰ্মপ্ৰচাৰ"
+        },
+        {
+          "en": "Guru Nanak’s teaching in Punjab",
+          "as": "পঞ্জাবত গুৰু নানকৰ ধৰ্মপ্ৰচাৰ"
+        },
+        {
+          "en": "The flourishing of early Tamil Bhakti",
+          "as": "তামিল অঞ্চলত প্ৰাৰম্ভিক ভক্তি আন্দোলনৰ বিকাশ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Tamil Bhakti was flourishing by the seventh century, several centuries before the other teachers.",
+        "as": "সপ্তম শতিকাতেই তামিল অঞ্চলত ভক্তি আন্দোলনে গা কৰি উঠিছিল। আনকেইগৰাকী সাধক তাৰ কেইবা শতিকাৰো পিছৰ।"
+      },
+      "id": "lesson-4-test-2-q1"
+    },
+    {
+      "en": "A museum pairs a Vishnu hymn with a Shiva hymn from early Tamil country. Which labels fit, in that order?",
+      "as": "সংগ্ৰহালয়ত পুৰণি তামিল অঞ্চলৰ বিষ্ণু-স্তুতিৰ পিছতে শিৱ-স্তুতি ৰখা হৈছে। ক্ৰমে কোন দুটা পৰিচয় লিখা উচিত?",
+      "options": [
+        {
+          "en": "Nayanar, Alvar",
+          "as": "নায়নাৰ, আলভাৰ"
+        },
+        {
+          "en": "Alvar, Nayanar",
+          "as": "আলভাৰ, নায়নাৰ"
+        },
+        {
+          "en": "Alvar, Alvar",
+          "as": "আলভাৰ, আলভাৰ"
+        },
+        {
+          "en": "Nayanar, Nayanar",
+          "as": "নায়নাৰ, নায়নাৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Alvars honoured Vishnu, while the Nayanars honoured Shiva.",
+        "as": "আলভাৰসকল বিষ্ণুৰ উপাসক আছিল আৰু নায়নাৰসকল শিৱৰ উপাসক আছিল।"
+      },
+      "id": "lesson-4-test-2-q2"
+    },
+    {
+      "en": "Which pair would belong in an exhibition on Sufism in India?",
+      "as": "ভাৰতৰ চুফীবাদ বিষয়ক প্ৰদৰ্শনীত কোন দুগৰাকী সাধকৰ পৰিচয় একেলগে ৰখা উচিত?",
+      "options": [
+        {
+          "en": "Muinuddin Chishti and Nizamuddin Auliya",
+          "as": "মইনুদ্দিন চিস্তি আৰু নিজামুদ্দিন আউলিয়া"
+        },
+        {
+          "en": "Nizamuddin Auliya and Tulsidas",
+          "as": "নিজামুদ্দিন আউলিয়া আৰু তুলসীদাস"
+        },
+        {
+          "en": "Muinuddin Chishti and Ramananda",
+          "as": "মইনুদ্দিন চিস্তি আৰু ৰামানন্দ"
+        },
+        {
+          "en": "Tulsidas and Jnanadeva",
+          "as": "তুলসীদাস আৰু জ্ঞানদেৱ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Both Chishti and Auliya helped spread the Sufi tradition in India.",
+        "as": "চিস্তি আৰু আউলিয়া দুয়োগৰাকীয়ে ভাৰতত চুফী পৰম্পৰাৰ প্ৰসাৰত অৰিহণা যোগাইছিল।"
+      },
+      "id": "lesson-4-test-2-q3"
+    },
+    {
+      "en": "What common ground could a Sufi teacher and a Bhakti poet find in worship?",
+      "as": "উপাসনাৰ ক্ষেত্ৰত এজন চুফী সাধক আৰু এজন ভক্তিবাদী কবিৰ মাজত কোনটো মিল পোৱা যায়?",
+      "options": [
+        {
+          "en": "One prescribed language for every prayer",
+          "as": "সকলো প্ৰাৰ্থনাৰ বাবে এটাই নিৰ্দিষ্ট ভাষা"
+        },
+        {
+          "en": "Descent from the same line of teachers",
+          "as": "একে গুৰুপৰম্পৰাৰ পৰা উৎপত্তি"
+        },
+        {
+          "en": "Love as a way of drawing close to God",
+          "as": "প্ৰেমৰ জৰিয়তে ঈশ্বৰৰ সান্নিধ্য লাভ"
+        },
+        {
+          "en": "Worship of the same image",
+          "as": "একে মূৰ্তিৰ পূজা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Both traditions gave heartfelt devotion an important place in spiritual life.",
+        "as": "দুয়োটা পৰম্পৰাই আধ্যাত্মিক জীৱনত আন্তৰিক ভক্তিক গুৰুত্ব দিছিল।"
+      },
+      "id": "lesson-4-test-2-q4"
+    },
+    {
+      "en": "Why could a hymn in a village’s everyday language reach more listeners?",
+      "as": "গাঁৱৰ মানুহৰ মুখৰ ভাষাত ৰচনা কৰা ভক্তিগীত এটাৰ বাণী কিয় অধিক লোকৰ মাজলৈ যাব পাৰিছিল?",
+      "options": [
+        {
+          "en": "Every listener had to own a manuscript.",
+          "as": "প্ৰতিজন শ্ৰোতাৰ হাতত এখনকৈ পুথি থাকিব লাগিছিল।"
+        },
+        {
+          "en": "Listeners could understand and pass on its meaning.",
+          "as": "শ্ৰোতাই অৰ্থ বুজি আনকো বুজাব পাৰিছিল।"
+        },
+        {
+          "en": "Only trained priests could sing it.",
+          "as": "কেৱল প্ৰশিক্ষিত পুৰোহিতেহে গীতটো গাব পাৰিছিল।"
+        },
+        {
+          "en": "The hymn gained the force of royal law.",
+          "as": "গীতটোৱে ৰাজকীয় আইনৰ মৰ্যাদা পাইছিল।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Using familiar speech made devotional ideas accessible to people without scholarly training.",
+        "as": "চিনাকি ভাষাৰ ব্যৱহাৰে শাস্ত্ৰৰ শিক্ষা নোপোৱা লোককো ভক্তিৰ বাণী বুজিবলৈ সুবিধা দিছিল।"
+      },
+      "id": "lesson-4-test-2-q5"
+    },
+    {
+      "en": "Which practice most directly reflects Sankardeva’s teaching about liberation?",
+      "as": "শংকৰদেৱে মুক্তিলাভৰ বাবে দেখুওৱা পথ কোনটো আচৰণত প্ৰকাশ পায়?",
+      "options": [
+        {
+          "en": "Earning the favour of a king",
+          "as": "ৰজাৰ অনুগ্ৰহ লাভ কৰা"
+        },
+        {
+          "en": "Claiming merit by birth",
+          "as": "জন্মসূত্ৰে পুণ্য দাবী কৰা"
+        },
+        {
+          "en": "Measuring devotion by the price of gifts",
+          "as": "দানৰ মূল্যৰে ভক্তিৰ জোখ লোৱা"
+        },
+        {
+          "en": "Taking refuge in God and chanting the divine name",
+          "as": "ঈশ্বৰত শৰণ লৈ নাম-কীৰ্তন কৰা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Sankardeva emphasised single-minded devotion and remembrance of God’s name.",
+        "as": "শংকৰদেৱে একান্ত ভক্তি আৰু ঈশ্বৰৰ নাম স্মৰণত গুৰুত্ব দিছিল।"
+      },
+      "id": "lesson-4-test-2-q6"
+    },
+    {
+      "en": "A performance brings a sacred story to villagers through acting, song and dialogue. Which Assamese tradition does this describe?",
+      "as": "অভিনয়, গীত আৰু সংলাপৰ জৰিয়তে গাঁৱৰ ৰাইজৰ আগত এখন ধৰ্মীয় আখ্যান দাঙি ধৰা হৈছে। এয়া অসমৰ কোনটো পৰম্পৰা?",
+      "options": [
+        {
+          "en": "Recitation of a doha",
+          "as": "দোহা পাঠ"
+        },
+        {
+          "en": "Solo reading of a chronicle",
+          "as": "অকলে বুৰঞ্জী পাঠ"
+        },
+        {
+          "en": "Bhaona",
+          "as": "ভাওনা"
+        },
+        {
+          "en": "Manuscript copying",
+          "as": "পুথি নকল কৰা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Bhaona stages devotional drama and lets an audience follow a story through performance.",
+        "as": "ভাওনাত ধৰ্মীয় নাট অভিনয় কৰা হয়। দৰ্শকে অভিনয়ৰ মাজেৰে কাহিনীটো বুজি পায়।"
+      },
+      "id": "lesson-4-test-2-q7"
+    },
+    {
+      "en": "Which text would help a student study Tulsidas’s retelling of Rama’s story?",
+      "as": "তুলসীদাসে ৰামৰ কাহিনী কেনেদৰে বৰ্ণনা কৰিছিল সেয়া অধ্যয়ন কৰিবলৈ কোনখন গ্ৰন্থ পঢ়া উচিত?",
+      "options": [
+        {
+          "en": "Divya Prabandham",
+          "as": "দিব্য প্ৰবন্ধম"
+        },
+        {
+          "en": "Ramcharitmanas",
+          "as": "ৰামচৰিতমানস"
+        },
+        {
+          "en": "Nam Ghosa",
+          "as": "নামঘোষা"
+        },
+        {
+          "en": "Kirtan Ghosa",
+          "as": "কীৰ্তন-ঘোষা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Tulsidas retold the Rama narrative in the Ramcharitmanas in Awadhi.",
+        "as": "তুলসীদাসে অৱধী ভাষাত ৰচনা কৰা ৰামচৰিতমানসত ৰামৰ কাহিনী বৰ্ণনা কৰিছে।"
+      },
+      "id": "lesson-4-test-2-q8"
+    },
+    {
+      "en": "Which observation most clearly shows a social effect of the Bhakti movement?",
+      "as": "কোনটো পৰ্যবেক্ষণত ভক্তি আন্দোলনৰ সামাজিক প্ৰভাৱ আটাইতকৈ স্পষ্ট?",
+      "options": [
+        {
+          "en": "A scribe counts the verses in a hymn.",
+          "as": "এজন লিপিকাৰে এটা স্তোত্ৰৰ পদবোৰ গণনা কৰে।"
+        },
+        {
+          "en": "A traveller records the length of a pilgrimage route.",
+          "as": "এজন ভ্ৰমণকাৰীয়ে তীৰ্থযাত্ৰাৰ পথৰ দৈৰ্ঘ্য লিখি ৰাখে।"
+        },
+        {
+          "en": "A musician repairs an instrument before prayer.",
+          "as": "এজন বাদকে প্ৰাৰ্থনাৰ আগতে বাদ্যযন্ত্ৰ মেৰামতি কৰে।"
+        },
+        {
+          "en": "Families of different castes sing together at a gathering.",
+          "as": "বিভিন্ন জাতিৰ পৰিয়ালে একেখন সভাত একেলগে নাম গায়।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Shared worship gave people separated by caste an occasion to meet as fellow devotees.",
+        "as": "সমূহীয়া উপাসনাই জাতিভেদে আঁতৰাই ৰখা মানুহক ভক্ত হিচাপে একেলগ হোৱাৰ সুযোগ দিছিল।"
+      },
+      "id": "lesson-4-test-2-q9"
+    },
+    {
+      "en": "Which question would best test whether a namghar helped unite a village?",
+      "as": "নামঘৰ এটাই গাঁৱৰ মানুহৰ মাজত একতা গঢ়াত সহায় কৰিছিল নে নাই জানিবলৈ কোনটো প্ৰশ্ন আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "Which groups took part in its shared activities?",
+          "as": "ইয়াৰ সমূহীয়া কাম-কাজত কোন কোন গোটে ভাগ লৈছিল?"
+        },
+        {
+          "en": "How many pillars held up its roof?",
+          "as": "ইয়াৰ চালখন কিমানটা খুঁটাই ধৰি ৰাখিছিল?"
+        },
+        {
+          "en": "Which wood was used for its doors?",
+          "as": "ইয়াৰ দুৱাৰত কি কাঠ ব্যৱহাৰ কৰা হৈছিল?"
+        },
+        {
+          "en": "How far did its shadow stretch at noon?",
+          "as": "দুপৰীয়া ইয়াৰ ছাঁ কিমান দূৰলৈ পৰিছিল?"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Records of participation reveal who actually came together through the institution.",
+        "as": "কোনে কোনে অংশ লৈছিল তাৰ তথ্যৰ পৰা নামঘৰে কাক কাক একত্ৰিত কৰিছিল সেয়া জানিব পাৰি।"
+      },
+      "id": "lesson-4-test-2-q10"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-12-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 12 · Fundamental Rights",
+    "as": "পাঠ ১২ · মৌলিক অধিকাৰ"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which former fundamental right now has separate protection under Article 300A?",
+      "as": "আগতে মৌলিক অধিকাৰ হিচাপে থকা কোনটো অধিকাৰ এতিয়া অনুচ্ছেদ ৩০০ক-ৰ অধীনত সুৰক্ষিত?",
+      "options": [
+        {
+          "en": "Right to constitutional remedies",
+          "as": "সাংবিধানিক প্ৰতিকাৰৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to freedom of religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to property",
+          "as": "সম্পত্তিৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to equality",
+          "as": "সমতাৰ অধিকাৰ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The 44th Amendment removed the right to property from the list of fundamental rights.",
+        "as": "৪৪তম সংশোধনীয়ে মৌলিক অধিকাৰৰ তালিকাৰ পৰা সম্পত্তিৰ অধিকাৰ আঁতৰাইছিল।"
+      },
+      "id": "lesson-12-test-2-q1"
+    },
+    {
+      "en": "Ambedkar called one article the “heart and soul” of the Constitution. Which right did he emphasise?",
+      "as": "আম্বেদকাৰে এটা অনুচ্ছেদক সংবিধানৰ ‘হৃদয় আৰু আত্মা’ বুলি কৈছিল। তেওঁ কোনটো অধিকাৰত গুৰুত্ব দিছিল?",
+      "options": [
+        {
+          "en": "Right to equality",
+          "as": "সমতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to constitutional remedies",
+          "as": "সাংবিধানিক প্ৰতিকাৰৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to freedom of religion",
+          "as": "ধৰ্মীয় স্বাধীনতাৰ অধিকাৰ"
+        },
+        {
+          "en": "Right to property",
+          "as": "সম্পত্তিৰ অধিকাৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "He was referring to Article 32, which enables enforcement of fundamental rights.",
+        "as": "তেওঁ মৌলিক অধিকাৰ বলৱৎ কৰাৰ উপায় দিয়া অনুচ্ছেদ ৩২-ৰ কথা কৈছিল।"
+      },
+      "id": "lesson-12-test-2-q2"
+    },
+    {
+      "en": "Which provision directly prohibits trafficking in human beings?",
+      "as": "মানৱ সৰবৰাহ কোনটো অনুচ্ছেদে পোনপটীয়াকৈ নিষিদ্ধ কৰে?",
+      "options": [
+        {
+          "en": "Article 19",
+          "as": "অনুচ্ছেদ ১৯"
+        },
+        {
+          "en": "Article 21",
+          "as": "অনুচ্ছেদ ২১"
+        },
+        {
+          "en": "Article 23",
+          "as": "অনুচ্ছেদ ২৩"
+        },
+        {
+          "en": "Article 29",
+          "as": "অনুচ্ছেদ ২৯"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Article 23 prohibits human trafficking, begar and similar forms of forced labour.",
+        "as": "অনুচ্ছেদ ২৩-এ মানৱ সৰবৰাহ, বেগাৰ আৰু তেনেধৰণৰ বলপূৰ্বক শ্ৰম নিষিদ্ধ কৰে।"
+      },
+      "id": "lesson-12-test-2-q3"
+    },
+    {
+      "en": "Which article protects life and personal liberty?",
+      "as": "জীৱন আৰু ব্যক্তিগত স্বাধীনতা কোনটো অনুচ্ছেদে সুৰক্ষিত কৰে?",
+      "options": [
+        {
+          "en": "Article 29",
+          "as": "অনুচ্ছেদ ২৯"
+        },
+        {
+          "en": "Article 19",
+          "as": "অনুচ্ছেদ ১৯"
+        },
+        {
+          "en": "Article 21",
+          "as": "অনুচ্ছেদ ২১"
+        },
+        {
+          "en": "Article 23",
+          "as": "অনুচ্ছেদ ২৩"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Article 21 requires any deprivation of life or personal liberty to follow procedure established by law.",
+        "as": "অনুচ্ছেদ ২১ অনুসৰি আইনে নিৰ্ধাৰণ কৰা পদ্ধতি অবিহনে কোনো ব্যক্তিক জীৱন বা ব্যক্তিগত স্বাধীনতাৰ পৰা বঞ্চিত কৰিব নোৱাৰি।"
+      },
+      "id": "lesson-12-test-2-q4"
+    },
+    {
+      "en": "Citizens wish to conserve a distinctive script even though they are geographically scattered. Which article protects this interest?",
+      "as": "বিভিন্ন ঠাইত বাস কৰিলেও এদল নাগৰিকে নিজৰ স্বতন্ত্ৰ লিপি সংৰক্ষণ কৰিব বিচাৰে। কোনটো অনুচ্ছেদে এই স্বাৰ্থ সুৰক্ষিত কৰে?",
+      "options": [
+        {
+          "en": "Article 23",
+          "as": "অনুচ্ছেদ ২৩"
+        },
+        {
+          "en": "Article 29",
+          "as": "অনুচ্ছেদ ২৯"
+        },
+        {
+          "en": "Article 19",
+          "as": "অনুচ্ছেদ ১৯"
+        },
+        {
+          "en": "Article 21",
+          "as": "অনুচ্ছেদ ২১"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Article 29(1) protects the conservation of a distinct language, script or culture.",
+        "as": "অনুচ্ছেদ ২৯(১)-এ স্বতন্ত্ৰ ভাষা, লিপি বা সংস্কৃতি সংৰক্ষণৰ অধিকাৰ সুৰক্ষিত কৰে।"
+      },
+      "id": "lesson-12-test-2-q5"
+    },
+    {
+      "en": "Where should a student look in the Constitution to find the fundamental rights together?",
+      "as": "মৌলিক অধিকাৰসমূহ একেলগে পঢ়িবলৈ শিক্ষাৰ্থীয়ে সংবিধানৰ কোনটো ভাগ চাব লাগে?",
+      "options": [
+        {
+          "en": "Part II",
+          "as": "দ্বিতীয় ভাগ"
+        },
+        {
+          "en": "Part III",
+          "as": "তৃতীয় ভাগ"
+        },
+        {
+          "en": "Part IV",
+          "as": "চতুৰ্থ ভাগ"
+        },
+        {
+          "en": "Part I",
+          "as": "প্ৰথম ভাগ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Part III contains Articles 12–35 dealing with fundamental rights.",
+        "as": "তৃতীয় ভাগৰ অনুচ্ছেদ ১২ৰ পৰা ৩৫লৈ মৌলিক অধিকাৰ সম্পৰ্কে উল্লেখ আছে।"
+      },
+      "id": "lesson-12-test-2-q6"
+    },
+    {
+      "en": "Workers form a union to present common demands. Which freedom is most directly involved?",
+      "as": "শ্ৰমিকসকলে উমৈহতীয়া দাবী উত্থাপনৰ বাবে সংঘ গঠন কৰে। ইয়াত কোনটো স্বাধীনতাৰ পোনপটীয়া প্ৰয়োগ হৈছে?",
+      "options": [
+        {
+          "en": "Freedom of movement",
+          "as": "চলাচলৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of association",
+          "as": "সংঘ গঠনৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of profession",
+          "as": "বৃত্তি গ্ৰহণৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of expression",
+          "as": "মত প্ৰকাশৰ স্বাধীনতা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Article 19 protects citizens’ freedom to form associations and unions.",
+        "as": "অনুচ্ছেদ ১৯-এ নাগৰিকৰ সংঘ আৰু সংগঠন গঠনৰ স্বাধীনতা সুৰক্ষিত কৰে।"
+      },
+      "id": "lesson-12-test-2-q7"
+    },
+    {
+      "en": "A trained citizen chooses to earn a living as a carpenter, subject to lawful rules. Which freedom is exercised?",
+      "as": "এজন প্ৰশিক্ষিত নাগৰিকে আইন মানি কাঠমিস্ত্ৰীৰ কামেৰে জীৱিকা বাছি লৈছে। কোনটো স্বাধীনতা প্ৰয়োগ কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Freedom of expression",
+          "as": "মত প্ৰকাশৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of movement",
+          "as": "চলাচলৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of association",
+          "as": "সংঘ গঠনৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of profession",
+          "as": "বৃত্তি গ্ৰহণৰ স্বাধীনতা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Article 19 includes freedom to practise a profession or carry on an occupation, trade or business.",
+        "as": "অনুচ্ছেদ ১৯-ত বৃত্তি গ্ৰহণ বা জীৱিকা, বেহা-বেপাৰ আৰু ব্যৱসায় চলোৱাৰ স্বাধীনতা অন্তৰ্ভুক্ত।"
+      },
+      "id": "lesson-12-test-2-q8"
+    },
+    {
+      "en": "A student publishes a reasoned criticism of a municipal policy. Which freedom supports this act?",
+      "as": "এজন শিক্ষাৰ্থীয়ে পৌৰ নীতিৰ যুক্তিপূৰ্ণ সমালোচনা প্ৰকাশ কৰিছে। কোনটো স্বাধীনতাই এই কামক সমৰ্থন কৰে?",
+      "options": [
+        {
+          "en": "Freedom of profession",
+          "as": "বৃত্তি গ্ৰহণৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of expression",
+          "as": "মত প্ৰকাশৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of movement",
+          "as": "চলাচলৰ স্বাধীনতা"
+        },
+        {
+          "en": "Freedom of association",
+          "as": "সংঘ গঠনৰ স্বাধীনতা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Citizens can communicate views under freedom of speech and expression, subject to reasonable restrictions.",
+        "as": "যুক্তিসংগত বাধা-নিষেধ সাপেক্ষে বাক্‌ আৰু মত প্ৰকাশৰ স্বাধীনতাৰে নাগৰিকে নিজৰ মত জনাব পাৰে।"
+      },
+      "id": "lesson-12-test-2-q9"
+    },
+    {
+      "en": "In an ordinary criminal case, a person is arrested and denied information about the grounds. Which protection is relevant?",
+      "as": "সাধাৰণ ফৌজদাৰী গোচৰত এজন ব্যক্তিক গ্ৰেপ্তাৰ কৰি কাৰণ জনোৱা হোৱা নাই। ইয়াত কোনটো সুৰক্ষা প্ৰযোজ্য?",
+      "options": [
+        {
+          "en": "Equality of opportunity in public employment",
+          "as": "চৰকাৰী চাকৰিত সমান সুযোগ"
+        },
+        {
+          "en": "Freedom to manage religious affairs",
+          "as": "ধৰ্মীয় বিষয় পৰিচালনাৰ স্বাধীনতা"
+        },
+        {
+          "en": "Protection against arbitrary arrest",
+          "as": "স্বেচ্ছাচাৰী গ্ৰেপ্তাৰৰ বিৰুদ্ধে সুৰক্ষা"
+        },
+        {
+          "en": "Freedom from forced labour",
+          "as": "বলপূৰ্বক শ্ৰমৰ পৰা মুক্তি"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Article 22 gives an arrested person safeguards including being informed of the grounds of arrest.",
+        "as": "অনুচ্ছেদ ২২-এ গ্ৰেপ্তাৰৰ কাৰণ জনাকে ধৰি গ্ৰেপ্তাৰ হোৱা ব্যক্তিক কিছুমান সুৰক্ষা দিয়ে।"
+      },
+      "id": "lesson-12-test-2-q10"
+    }
+  ]
+}

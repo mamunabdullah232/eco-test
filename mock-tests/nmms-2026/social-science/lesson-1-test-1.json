@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-1-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 1 · Ancient Kamrupa",
+    "as": "পাঠ ১ · প্ৰাচীন কামৰূপ"
+  },
+  "section": {
+    "en": "History",
+    "as": "ইতিহাস"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which river would a mapmaker mark on Kamrupa’s western boundary using the Yogini Tantra?",
+      "as": "যোগিনী তন্ত্ৰৰ বৰ্ণনা অনুসৰি মানচিত্ৰত কামৰূপৰ পশ্চিম সীমাত কোনখন নৈ দেখুৱাব লাগিব?",
+      "options": [
+        {
+          "en": "Dikhow",
+          "as": "দিখৌ"
+        },
+        {
+          "en": "Subansiri",
+          "as": "সোৱণশিৰি"
+        },
+        {
+          "en": "Karatoya",
+          "as": "কৰতোয়া"
+        },
+        {
+          "en": "Bharali",
+          "as": "ভৰলী"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The Yogini Tantra places the Karatoya to the west of Kamrupa.",
+        "as": "যোগিনী তন্ত্ৰত কামৰূপৰ পশ্চিম সীমা কৰতোয়া নৈ বুলি উল্লেখ আছে।"
+      },
+      "id": "lesson-1-test-1-q1"
+    },
+    {
+      "en": "Which caption identifies its source as an oral tradition?",
+      "as": "কোনটো টোকাত জনশ্ৰুতিক তথ্যৰ উৎস হিচাপে দেখুওৱা হৈছে?",
+      "options": [
+        {
+          "en": "Mahiranga Danava is remembered as Kamrupa’s first ruler.",
+          "as": "জনশ্ৰুতি মতে মহীৰংগ দানৱ কামৰূপৰ প্ৰথম শাসক আছিল।"
+        },
+        {
+          "en": "A plate from Nidhanpur bears a royal inscription.",
+          "as": "নিধনপুৰৰ এখন ফলিত ৰাজকীয় লিপি আছে।"
+        },
+        {
+          "en": "Hiuen Tsang described the people he met.",
+          "as": "হিউৱেন চাঙে তেওঁ লগ পোৱা লোকসকলৰ বৰ্ণনা দিছে।"
+        },
+        {
+          "en": "An excavation at Ambari yielded ancient objects.",
+          "as": "আমবাৰীৰ খননত পুৰণি বস্তু উদ্ধাৰ হৈছে।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The account of Mahiranga as the first king comes down through oral narratives.",
+        "as": "মহীৰংগক প্ৰথম ৰজা বুলি কোৱা কাহিনী মুখে মুখে চলি আহিছে।"
+      },
+      "id": "lesson-1-test-1-q2"
+    },
+    {
+      "en": "Which pair could appear on a timeline under ‘contemporary rulers’?",
+      "as": "সময়ৰেখাত ‘সমসাময়িক শাসক’ শিতানত কোনটো যোৰ ৰাখিব পাৰি?",
+      "options": [
+        {
+          "en": "Bhaskaravarman and Samudragupta",
+          "as": "ভাস্কৰবৰ্মন আৰু সমুদ্ৰগুপ্ত"
+        },
+        {
+          "en": "Ratnapala and Harshavardhana",
+          "as": "ৰত্নপাল আৰু হৰ্ষবৰ্ধন"
+        },
+        {
+          "en": "Brahmapala and Pushyavarman",
+          "as": "ব্ৰহ্মপাল আৰু পুষ্যবৰ্মন"
+        },
+        {
+          "en": "Pushyavarman and Samudragupta",
+          "as": "পুষ্যবৰ্মন আৰু সমুদ্ৰগুপ্ত"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Pushyavarman founded the Varman dynasty in Kamrupa during the time of the Gupta ruler Samudragupta.",
+        "as": "গুপ্ত শাসক সমুদ্ৰগুপ্তৰ সময়তে পুষ্যবৰ্মনে কামৰূপত বৰ্মন বংশ প্ৰতিষ্ঠা কৰিছিল।"
+      },
+      "id": "lesson-1-test-1-q3"
+    },
+    {
+      "en": "Which episode in Kalhana’s Rajatarangini connects Kamrupa with Kashmir?",
+      "as": "কল্হণৰ ৰাজতৰংগিণীৰ কোনটো ঘটনাই কামৰূপৰ সৈতে কাশ্মীৰৰ সম্পৰ্ক দেখুৱায়?",
+      "options": [
+        {
+          "en": "Bhaskaravarman’s friendship with Harshavardhana",
+          "as": "হৰ্ষবৰ্ধনৰ সৈতে ভাস্কৰবৰ্মনৰ বন্ধুত্ব"
+        },
+        {
+          "en": "Amritaprabha’s marriage to Meghavahana",
+          "as": "মেঘবাহনৰ সৈতে অমৃতপ্ৰভাৰ বিবাহ"
+        },
+        {
+          "en": "Ratnapala’s move to Durjaya",
+          "as": "ৰত্নপালে দুৰ্জয়লৈ ৰাজধানী নিয়া"
+        },
+        {
+          "en": "Brahmapala’s selection by the ministers",
+          "as": "মন্ত্ৰীসকলে ব্ৰহ্মপালক ৰজা পতা"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Amritaprabha was a princess of Kamrupa and Meghavahana was a ruler of Kashmir.",
+        "as": "অমৃতপ্ৰভা কামৰূপৰ ৰাজকুঁৱৰী আৰু মেঘবাহন কাশ্মীৰৰ ৰজা আছিল।"
+      },
+      "id": "lesson-1-test-1-q4"
+    },
+    {
+      "en": "Which event marks the beginning of Bhaskarabda in the lesson?",
+      "as": "পাঠটোত কোনটো ঘটনাৰ পৰা ভাস্কৰাব্দ গণনা কৰা হৈছে?",
+      "options": [
+        {
+          "en": "Bhaskaravarman’s accession",
+          "as": "ভাস্কৰবৰ্মনৰ সিংহাসন আৰোহণ"
+        },
+        {
+          "en": "Hiuen Tsang’s arrival",
+          "as": "হিউৱেন চাঙৰ আগমন"
+        },
+        {
+          "en": "The founding of Durjaya",
+          "as": "দুৰ্জয় নগৰ স্থাপন"
+        },
+        {
+          "en": "The end of the Varman dynasty",
+          "as": "বৰ্মন বংশৰ শাসনৰ অন্ত"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The era commemorates Bhaskaravarman’s accession in 594 CE.",
+        "as": "৫৯৪ খ্ৰীষ্টাব্দত ভাস্কৰবৰ্মনে সিংহাসনত বহাৰ পৰাই এই চনৰ গণনা আৰম্ভ হয়।"
+      },
+      "id": "lesson-1-test-1-q5"
+    },
+    {
+      "en": "A grant assigns an entire village to Brahmins. Which term most precisely describes the grant?",
+      "as": "এখন দানপত্ৰ অনুসৰি ব্ৰাহ্মণক গোটেই গাঁও এখন দিয়া হৈছিল। এনে দানৰ নিৰ্দিষ্ট নাম কি?",
+      "options": [
+        {
+          "en": "Devottar",
+          "as": "দেৱোত্তৰ"
+        },
+        {
+          "en": "Dharmottar",
+          "as": "ধৰ্মোত্তৰ"
+        },
+        {
+          "en": "Agrahara",
+          "as": "অগ্ৰহাৰ"
+        },
+        {
+          "en": "Bhukti",
+          "as": "ভুক্তি"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Agrahara specifically denotes a village granted to Brahmins.",
+        "as": "ব্ৰাহ্মণক দান কৰা গাঁওখনক অগ্ৰহাৰ বোলা হৈছিল।"
+      },
+      "id": "lesson-1-test-1-q6"
+    },
+    {
+      "en": "Which arrangement puts the three ruling dynasties in order from earliest to latest?",
+      "as": "তলৰ কোনটো ক্ৰমত শাসক বংশকেইটাক আগৰ পৰা পিছলৈ সজোৱা হৈছে?",
+      "options": [
+        {
+          "en": "Salastambha → Varman → Pala",
+          "as": "শালস্তম্ভ → বৰ্মন → পাল"
+        },
+        {
+          "en": "Varman → Salastambha → Pala",
+          "as": "বৰ্মন → শালস্তম্ভ → পাল"
+        },
+        {
+          "en": "Pala → Varman → Salastambha",
+          "as": "পাল → বৰ্মন → শালস্তম্ভ"
+        },
+        {
+          "en": "Varman → Pala → Salastambha",
+          "as": "বৰ্মন → পাল → শালস্তম্ভ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Salastambha gained the throne after Bhaskaravarman, and Brahmapala succeeded the last Salastambha ruler.",
+        "as": "ভাস্কৰবৰ্মনৰ পিছত শালস্তম্ভই সিংহাসন দখল কৰে। শালস্তম্ভ বংশৰ শেষ ৰজাৰ পিছত ব্ৰহ্মপাল ৰজা হয়।"
+      },
+      "id": "lesson-1-test-1-q7"
+    },
+    {
+      "en": "A plate praises a king as a form of Vishnu. What does this tell us most directly?",
+      "as": "এখন ফলিত ৰজাক বিষ্ণুৰ ৰূপ বুলি প্ৰশংসা কৰা হৈছে। ইয়াৰ পৰা পোনপটীয়াকৈ কি জানিব পাৰি?",
+      "options": [
+        {
+          "en": "How villagers chose their representatives",
+          "as": "গাঁৱৰ লোকে কেনেদৰে প্ৰতিনিধি বাছিছিল"
+        },
+        {
+          "en": "How priests assessed land revenue",
+          "as": "পুৰোহিতে কেনেদৰে ভূমিৰ খাজনা নিৰ্ধাৰণ কৰিছিল"
+        },
+        {
+          "en": "How soldiers were promoted",
+          "as": "সৈনিকসকলক কেনেদৰে পদোন্নতি দিয়া হৈছিল"
+        },
+        {
+          "en": "How the court presented royal authority",
+          "as": "ৰাজসভাই ৰজাৰ ক্ষমতাক কেনেদৰে দাঙি ধৰিছিল"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The comparison links kingship with divine authority in a royal record.",
+        "as": "ৰাজকীয় নথিত এনে তুলনাৰে ৰাজক্ষমতাৰ সৈতে দৈৱশক্তিৰ সম্পৰ্ক দেখুওৱা হৈছিল।"
+      },
+      "id": "lesson-1-test-1-q8"
+    },
+    {
+      "en": "Which material would best help a student study dance and music among women in ancient Kamrupa?",
+      "as": "প্ৰাচীন কামৰূপৰ নাৰীৰ নৃত্য-সংগীত চৰ্চা অধ্যয়ন কৰিবলৈ কোনখিনি সমল আটাইতকৈ উপযোগী?",
+      "options": [
+        {
+          "en": "Temple carvings of women dancing and playing instruments",
+          "as": "নৃত্য কৰা আৰু বাদ্য বজোৱা নাৰীৰ মন্দিৰৰ ভাস্কৰ্য"
+        },
+        {
+          "en": "A list of taxes paid in grain",
+          "as": "শস্যৰে আদায় দিয়া কৰৰ তালিকা"
+        },
+        {
+          "en": "A grant marking a village boundary",
+          "as": "গাঁৱৰ সীমা নিৰ্দেশ কৰা দানপত্ৰ"
+        },
+        {
+          "en": "An account of river trade routes",
+          "as": "নদীপথে চলা বাণিজ্যৰ বিৱৰণ"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The carvings depict performers and the instruments they played.",
+        "as": "ভাস্কৰ্যবোৰত নৃত্যৰ ভংগিমা আৰু নাৰীসকলে বজোৱা বাদ্যযন্ত্ৰ দেখা যায়।"
+      },
+      "id": "lesson-1-test-1-q9"
+    },
+    {
+      "en": "Which record could be compared with Minhaj Siraj’s account of Bakhtiar Khilji’s defeat?",
+      "as": "বখতিয়াৰ খিলজীৰ পৰাজয় সম্পৰ্কে মিনহাজ ছিৰাজৰ বিৱৰণৰ সৈতে কোনখন লিপি মিলাই চাব পাৰি?",
+      "options": [
+        {
+          "en": "The Dubi plates",
+          "as": "ডুবিৰ তাম্ৰশাসন"
+        },
+        {
+          "en": "The Kanai Barasi Bowa inscription",
+          "as": "কানাই বৰশী বোৱা শিলালিপি"
+        },
+        {
+          "en": "The Umachal inscription",
+          "as": "উমাচল শিলালিপি"
+        },
+        {
+          "en": "The Nidhanpur plates",
+          "as": "নিধনপুৰৰ তাম্ৰশাসন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The inscription at North Guwahati records the defeat of the invading force in Kamrupa.",
+        "as": "উত্তৰ গুৱাহাটীৰ এই শিলালিপিত কামৰূপত আক্ৰমণকাৰী বাহিনীৰ পৰাজয়ৰ উল্লেখ আছে।"
+      },
+      "id": "lesson-1-test-1-q10"
+    }
+  ]
+}

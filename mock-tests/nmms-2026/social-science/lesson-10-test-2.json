@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-lesson-10-test-2",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Lesson 10 · The Constitution and its Necessity",
+    "as": "পাঠ ১০ · সংবিধান আৰু ইয়াৰ প্ৰয়োজনীয়তা"
+  },
+  "section": {
+    "en": "Political Science",
+    "as": "ৰাজনীতি বিজ্ঞান"
+  },
+  "test": {
+    "en": "Test 2",
+    "as": "অনুশীলনী ২"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "A researcher studying Britain finds both Acts of Parliament and long-established conventions. Which conclusion fits this evidence?",
+      "as": "ব্ৰিটেইনৰ শাসনব্যৱস্থা অধ্যয়ন কৰি এগৰাকী গৱেষকে সংসদীয় আইন আৰু দীৰ্ঘদিনীয়া পৰম্পৰা দুয়োটাই পালে। এই তথ্যৰ সৈতে কোনটো সিদ্ধান্ত মিলে?",
+      "options": [
+        {
+          "en": "Every constitutional rule must be an oral tradition.",
+          "as": "প্ৰতিটো সাংবিধানিক নিয়মেই মৌখিক পৰম্পৰা হ’ব লাগে।"
+        },
+        {
+          "en": "Every convention was enacted by Parliament.",
+          "as": "প্ৰতিটো পৰম্পৰা সংসদে আইন হিচাপে গৃহীত কৰিছিল।"
+        },
+        {
+          "en": "All constitutional rules were adopted on one date.",
+          "as": "সকলো সাংবিধানিক নিয়ম একেটা তাৰিখতে গ্ৰহণ কৰা হৈছিল।"
+        },
+        {
+          "en": "Constitutional rules can come from several sources.",
+          "as": "সাংবিধানিক নিয়মৰ একাধিক উৎস থাকিব পাৰে।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Britain’s uncodified constitution draws on written laws as well as conventions that developed over time.",
+        "as": "ব্ৰিটেইনৰ সংবিধান এখন নথিত সংকলিত নহয়। লিখিত আইন আৰু সময়ৰ লগে লগে গঢ় লোৱা পৰম্পৰা দুয়োটাই ইয়াৰ উৎস।"
+      },
+      "id": "lesson-10-test-2-q1"
+    },
+    {
+      "en": "A government follows the constitutional limit on its term even though its party could win a vote to ignore it. Which idea does this illustrate?",
+      "as": "এটা শাসক দলে নিজৰ কাৰ্যকালৰ সীমা আওকাণ কৰাৰ সপক্ষে ভোটত জিকিব পাৰিলেহেঁতেন। তথাপি চৰকাৰে সাংবিধানিক সীমা মানিলে। ইয়াত কোনটো ধাৰণা প্ৰকাশ পাইছে?",
+      "options": [
+        {
+          "en": "Hereditary succession",
+          "as": "বংশানুক্ৰমিক উত্তৰাধিকাৰ"
+        },
+        {
+          "en": "Constitutionalism",
+          "as": "সংবিধানবাদ"
+        },
+        {
+          "en": "Direct election",
+          "as": "প্ৰত্যক্ষ নিৰ্বাচন"
+        },
+        {
+          "en": "Constitutional amendment",
+          "as": "সংবিধান সংশোধন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Constitutionalism requires those in power to act within constitutional limits even when they enjoy majority support.",
+        "as": "সংবিধানবাদ অনুসৰি সংখ্যাগৰিষ্ঠৰ সমৰ্থন থাকিলেও শাসকসকল সাংবিধানিক সীমাৰ ভিতৰত থাকিব লাগে।"
+      },
+      "id": "lesson-10-test-2-q2"
+    },
+    {
+      "en": "Which record shows an amendment rather than a change of office-holder?",
+      "as": "কোনখন নথিত পদাধিকাৰী সলনি হোৱাৰ পৰিৱৰ্তে সংবিধান সংশোধন হোৱাৰ প্ৰমাণ পোৱা যায়?",
+      "options": [
+        {
+          "en": "A newly elected member took the oath of office.",
+          "as": "এজন নৱনিৰ্বাচিত সদস্যই শপত ল’লে।"
+        },
+        {
+          "en": "A minister resigned after losing support.",
+          "as": "সমৰ্থন হেৰুওৱাৰ পিছত এজন মন্ত্ৰীয়ে পদত্যাগ কৰিলে।"
+        },
+        {
+          "en": "A constitutional clause was revised by the prescribed procedure.",
+          "as": "নিৰ্ধাৰিত পদ্ধতিৰে সংবিধানৰ এটা দফা সলনি কৰা হ’ল।"
+        },
+        {
+          "en": "An election returned the same government to power.",
+          "as": "নিৰ্বাচনত একেখন চৰকাৰেই পুনৰ ক্ষমতালৈ আহিল।"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "An amendment changes a constitutional provision. Elections and resignations can occur under existing rules.",
+        "as": "সংশোধনে সাংবিধানিক বিধান সলনি কৰে। প্ৰচলিত নিয়মৰ অধীনতেই নিৰ্বাচন বা পদত্যাগ হ’ব পাৰে।"
+      },
+      "id": "lesson-10-test-2-q3"
+    },
+    {
+      "en": "Two candidates claim to have won an election using different ways of counting votes. Which safeguard would best prevent this disagreement?",
+      "as": "ভোট গণনাৰ দুটা বেলেগ পদ্ধতি দেখুৱাই দুজন প্ৰাৰ্থীয়ে নিজকে বিজয়ী বুলি দাবী কৰিলে। কোনটো ব্যৱস্থাই এনে মতভেদ ৰোধ কৰাত আটাইতকৈ বেছি সহায় কৰিলেহেঁতেন?",
+      "options": [
+        {
+          "en": "Let the leading candidate choose the method after polling.",
+          "as": "ভোটদানৰ পিছত আগবাঢ়ি থকা প্ৰাৰ্থীক পদ্ধতি বাছিবলৈ দিয়া।"
+        },
+        {
+          "en": "Ask each candidate to certify a separate result.",
+          "as": "প্ৰতিজন প্ৰাৰ্থীক নিজৰ ফলাফল সত্যাপিত কৰিবলৈ দিয়া।"
+        },
+        {
+          "en": "Choose a counting method after comparing the results.",
+          "as": "ফলাফলবোৰ তুলনা কৰাৰ পিছত গণনা-পদ্ধতি বাছনি কৰা।"
+        },
+        {
+          "en": "Agree on binding electoral rules before voting.",
+          "as": "ভোটদানৰ আগতেই সকলোৰে বাবে বাধ্যতামূলক নিৰ্বাচনী নিয়ম স্থিৰ কৰা।"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Rules fixed in advance give all candidates the same basis for deciding the result.",
+        "as": "আগতেই নিৰ্ধাৰণ কৰা নিয়মে সকলো প্ৰাৰ্থীৰ বাবে ফলাফল নিৰ্ণয়ৰ একে ভিত্তি দিয়ে।"
+      },
+      "id": "lesson-10-test-2-q4"
+    },
+    {
+      "en": "A law limits a freedom protected by the constitution. A citizen brings a case. Which question belongs to the judiciary?",
+      "as": "এখন আইনে সংবিধানে সুৰক্ষা দিয়া এটা স্বাধীনতা সীমিত কৰিছে। এজন নাগৰিকে গোচৰ তৰিলে। কোনটো প্ৰশ্নৰ সিদ্ধান্ত দিয়া ন্যায়পালিকাৰ কাম?",
+      "options": [
+        {
+          "en": "Is the restriction consistent with the constitution?",
+          "as": "এই সীমাবদ্ধতা সংবিধানসন্মত নে?"
+        },
+        {
+          "en": "How many officers should enforce the law?",
+          "as": "আইনখন বলৱৎ কৰিবলৈ কিমান বিষয়া নিয়োগ কৰা উচিত?"
+        },
+        {
+          "en": "Which party should campaign against the law?",
+          "as": "কোনটো দলে আইনখনৰ বিৰুদ্ধে প্ৰচাৰ চলোৱা উচিত?"
+        },
+        {
+          "en": "Which bill should the legislature debate next?",
+          "as": "বিধানমণ্ডলে ইয়াৰ পিছত কোনখন বিধেয়ক আলোচনা কৰা উচিত?"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "In deciding the case, the court interprets the constitution and examines the disputed restriction.",
+        "as": "গোচৰটোৰ বিচাৰ কৰোঁতে আদালতে সংবিধানৰ ব্যাখ্যা কৰে আৰু বিতৰ্কিত সীমাবদ্ধতাটো পৰীক্ষা কৰে।"
+      },
+      "id": "lesson-10-test-2-q5"
+    },
+    {
+      "en": "A proposal wins an ordinary majority but fails because constitutional change requires a larger majority. Which feature explains the outcome?",
+      "as": "এটা প্ৰস্তাৱে সাধাৰণ সংখ্যাগৰিষ্ঠতা পালে। কিন্তু সংবিধান সলনি কৰিবলৈ ইয়াতকৈ বেছি ভোটৰ প্ৰয়োজন হোৱাত প্ৰস্তাৱটো বিফল হ’ল। ইয়াৰ কাৰণ কোনটো বৈশিষ্ট্য?",
+      "options": [
+        {
+          "en": "A shorter legislative term",
+          "as": "বিধানমণ্ডলৰ চুটি কাৰ্যকাল"
+        },
+        {
+          "en": "A rigid amendment procedure",
+          "as": "অনমনীয় সংশোধন পদ্ধতি"
+        },
+        {
+          "en": "An unwritten electoral convention",
+          "as": "নিৰ্বাচন সম্পৰ্কীয় অলিখিত পৰম্পৰা"
+        },
+        {
+          "en": "A division into electoral districts",
+          "as": "নিৰ্বাচনী সমষ্টিত বিভাজন"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A special majority makes changing the constitution harder than passing an ordinary law.",
+        "as": "বিশেষ সংখ্যাগৰিষ্ঠতাৰ প্ৰয়োজন হ’লে সাধাৰণ আইন গৃহীত কৰাতকৈ সংবিধান সলনি কৰাটো অধিক কঠিন হয়।"
+      },
+      "id": "lesson-10-test-2-q6"
+    },
+    {
+      "en": "A class is arranging three cards about a law. Which order makes sense for a dispute arising from its enforcement?",
+      "as": "আইন এখন বলৱৎ কৰাৰ ফলত সৃষ্টি হোৱা বিবাদ এটা বুজাবলৈ শ্ৰেণীৰ শিক্ষাৰ্থীসকলে তিনিখন কাৰ্ড সজাইছে। কোনটো ক্ৰম যুক্তিসংগত?",
+      "options": [
+        {
+          "en": "Apply the law → hear the dispute → pass the law",
+          "as": "আইন প্ৰয়োগ কৰা → বিবাদৰ শুনানি লোৱা → আইন গৃহীত কৰা"
+        },
+        {
+          "en": "Hear the dispute → pass the law → apply it",
+          "as": "বিবাদৰ শুনানি লোৱা → আইন গৃহীত কৰা → আইন প্ৰয়োগ কৰা"
+        },
+        {
+          "en": "Pass the law → hear the dispute → apply it",
+          "as": "আইন গৃহীত কৰা → বিবাদৰ শুনানি লোৱা → আইন প্ৰয়োগ কৰা"
+        },
+        {
+          "en": "Pass the law → apply it → hear the dispute",
+          "as": "আইন গৃহীত কৰা → আইন প্ৰয়োগ কৰা → বিবাদৰ শুনানি লোৱা"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The dispute in this example arises when the executive applies a law already passed by the legislature.",
+        "as": "এই উদাহৰণত বিধানমণ্ডলে গৃহীত কৰা আইন কাৰ্যপালিকাই প্ৰয়োগ কৰাৰ পিছতহে বিবাদৰ সৃষ্টি হৈছে।"
+      },
+      "id": "lesson-10-test-2-q7"
+    },
+    {
+      "en": "Which evidence would best help compare how flexible two constitutions are?",
+      "as": "দুখন সংবিধানৰ নমনীয়তা তুলনা কৰিবলৈ কোনখিনি তথ্য আটাইতকৈ কামত আহিব?",
+      "options": [
+        {
+          "en": "The number of languages in which each is published",
+          "as": "প্ৰতিখন সংবিধান কিমানটা ভাষাত প্ৰকাশ পাইছে"
+        },
+        {
+          "en": "The number of pages in the two documents",
+          "as": "নথি দুখনৰ পৃষ্ঠাৰ সংখ্যা"
+        },
+        {
+          "en": "The approvals required to change the same kind of provision",
+          "as": "একে ধৰণৰ বিধান সলনি কৰিবলৈ প্ৰয়োজন হোৱা অনুমোদনসমূহ"
+        },
+        {
+          "en": "The dates on which the countries became independent",
+          "as": "দেশ দুখনে স্বাধীনতা পোৱাৰ তাৰিখ"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Comparing approval requirements shows how difficult it is to make a comparable change.",
+        "as": "একে ধৰণৰ পৰিৱৰ্তনৰ বাবে কাৰ কাৰ অনুমোদন লাগে সেয়া তুলনা কৰিলে সংশোধন কিমান কঠিন বুজা যায়।"
+      },
+      "id": "lesson-10-test-2-q8"
+    },
+    {
+      "en": "Which provision would most directly protect citizens when a new government takes office?",
+      "as": "নতুন চৰকাৰে কাৰ্যভাৰ লোৱাৰ সময়ত কোনটো বিধানে নাগৰিকক আটাইতকৈ পোনপটীয়াকৈ সুৰক্ষা দিব?",
+      "options": [
+        {
+          "en": "The outgoing ministers may recommend their successors.",
+          "as": "বিদায়ী মন্ত্ৰীসকলে উত্তৰসূৰীৰ নাম প্ৰস্তাৱ কৰিব পাৰিব।"
+        },
+        {
+          "en": "Every government must respect the rights guaranteed to citizens.",
+          "as": "প্ৰতিখন চৰকাৰেই নাগৰিকৰ নিশ্চিত অধিকাৰসমূহ সন্মান কৰিব লাগিব।"
+        },
+        {
+          "en": "The largest party may decide the length of its own term.",
+          "as": "বৃহত্তম দলে নিজৰ কাৰ্যকাল নিজে ঠিক কৰিব পাৰিব।"
+        },
+        {
+          "en": "The new ministers may choose which rules bind them.",
+          "as": "নতুন মন্ত্ৰীসকলে কোনবোৰ নিয়ম মানিব সেয়া নিজে বাছিব পাৰিব।"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Constitutional guarantees continue to bind those who govern when office-holders change.",
+        "as": "পদাধিকাৰী সলনি হ’লেও নাগৰিকক দিয়া সাংবিধানিক নিশ্চয়তা মানিবলৈ নতুন শাসকসকল বাধ্য।"
+      },
+      "id": "lesson-10-test-2-q9"
+    },
+    {
+      "en": "A student says that a rigid constitution can never change. Which observation would disprove the claim?",
+      "as": "এজন শিক্ষাৰ্থীয়ে ক’লে যে অনমনীয় সংবিধান কেতিয়াও সলনি নহয়। কোনটো তথ্যই তেওঁৰ কথাটো ভুল বুলি দেখুৱাব?",
+      "options": [
+        {
+          "en": "An amendment succeeded after all the special approvals were obtained.",
+          "as": "সকলো বিশেষ অনুমোদন পোৱাৰ পিছত এটা সংশোধনী গৃহীত হ’ল।"
+        },
+        {
+          "en": "A proposal failed to secure the required votes.",
+          "as": "এটা প্ৰস্তাৱে প্ৰয়োজনীয় ভোট নাপালে।"
+        },
+        {
+          "en": "A constitution remained unchanged for fifty years.",
+          "as": "এখন সংবিধান পঞ্চাশ বছৰ ধৰি একেদৰে থাকিল।"
+        },
+        {
+          "en": "A government abandoned a proposed amendment.",
+          "as": "চৰকাৰে প্ৰস্তাৱিত সংশোধনী এটা বাদ দিলে।"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Rigidity raises the threshold for change. A successful amendment shows that change remains possible.",
+        "as": "অনমনীয় সংবিধান সংশোধনৰ চৰ্ত কঠোৰ। সেই চৰ্ত পূৰণ কৰি সংশোধন কৰিব পৰা যায়।"
+      },
+      "id": "lesson-10-test-2-q10"
+    }
+  ]
+}

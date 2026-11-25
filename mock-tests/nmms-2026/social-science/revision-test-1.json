@@ -1,0 +1,314 @@
+{
+  "id": "nmms-social-revision-test-1",
+  "exam": "NMMS",
+  "paper": "SAT",
+  "className": {
+    "en": "NMMS",
+    "as": "এন এম এম এছ"
+  },
+  "subject": {
+    "en": "SAT Social Science",
+    "as": "SAT সমাজ বিজ্ঞান"
+  },
+  "chapter": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "section": {
+    "en": "Mixed Revision",
+    "as": "মিশ্ৰ পুনৰালোচনা"
+  },
+  "test": {
+    "en": "Test 1",
+    "as": "অনুশীলনী ১"
+  },
+  "creator": {
+    "en": "Created by Dr. Abdullah Al Mamun",
+    "as": "প্ৰস্তুতকৰ্তা: ড° আব্দুল্লা আল মামুন"
+  },
+  "durationMinutes": 10,
+  "correctMarks": 1,
+  "wrongMarks": 0,
+  "questions": [
+    {
+      "en": "Which source would best establish the boundaries of a village donated by an ancient Kamrupa ruler?",
+      "as": "প্ৰাচীন কামৰূপৰ ৰজাই দান কৰা এখন গাঁৱৰ সীমা জানিবলৈ কোনটো উৎস আটাইতকৈ উপযুক্ত?",
+      "options": [
+        {
+          "en": "Trading charter",
+          "as": "বাণিজ্যিক চনদ"
+        },
+        {
+          "en": "Copper-plate grant",
+          "as": "তাম্ৰশাসন"
+        },
+        {
+          "en": "Buranji",
+          "as": "বুৰঞ্জী"
+        },
+        {
+          "en": "Devotional song",
+          "as": "ভক্তিমূলক গীত"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Land grants often specified boundaries so that the grant could be identified and honoured.",
+        "as": "দান কৰা ভূমি চিনাক্ত আৰু দানৰ চৰ্ত পালন কৰিব পৰাকৈ ভূমিদানৰ লিপিত প্ৰায়ে সীমা উল্লেখ কৰা হৈছিল।"
+      },
+      "id": "revision-test-1-q1"
+    },
+    {
+      "en": "An exhibit on relations between Kamrupa and Harshavardhana needs a portrait of Harsha’s ally. Whom should it depict?",
+      "as": "কামৰূপ আৰু হৰ্ষবৰ্ধনৰ সম্পৰ্কৰ প্ৰদৰ্শনীত হৰ্ষৰ মিত্ৰৰ এখন ছবি লাগে। ছবিখন কাৰ হ’ব লাগে?",
+      "options": [
+        {
+          "en": "Nara Narayan",
+          "as": "নৰনাৰায়ণ"
+        },
+        {
+          "en": "Lachit Barphukan",
+          "as": "লাচিত বৰফুকন"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মা"
+        },
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Bhaskaravarman of Kamrupa allied with Harshavardhana in the seventh century.",
+        "as": "সপ্তম শতিকাত কামৰূপৰ ভাস্কৰবৰ্মাই হৰ্ষবৰ্ধনৰ সৈতে মিত্ৰতা স্থাপন কৰিছিল।"
+      },
+      "id": "revision-test-1-q2"
+    },
+    {
+      "en": "Which institution brought villagers together for prayer and the performance of bhaona?",
+      "as": "প্ৰাৰ্থনা আৰু ভাওনাৰ বাবে গাঁওবাসীক কোনটো অনুষ্ঠানে একত্ৰিত কৰিছিল?",
+      "options": [
+        {
+          "en": "Paik system",
+          "as": "পাইক প্ৰথা"
+        },
+        {
+          "en": "Mercantilism",
+          "as": "বাণিজ্যবাদ"
+        },
+        {
+          "en": "Ryotwari settlement",
+          "as": "ৰায়তৱাৰী বন্দৱস্ত"
+        },
+        {
+          "en": "Namghar",
+          "as": "নামঘৰ"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The namghar served as a centre for congregational worship and cultural activity.",
+        "as": "নামঘৰ সমূহীয়া উপাসনা আৰু সাংস্কৃতিক কাৰ্যৰ কেন্দ্ৰ আছিল।"
+      },
+      "id": "revision-test-1-q3"
+    },
+    {
+      "en": "Which battlefield links the Company’s victory over a coalition in 1764 to its acquisition of Diwani the next year?",
+      "as": "১৭৬৪ চনত এটা মিত্ৰজোঁটৰ ওপৰত কোম্পানীৰ বিজয় আৰু পিছৰ বছৰত দেৱানী লাভৰ সৈতে কোনখন ৰণক্ষেত্ৰ জড়িত?",
+      "options": [
+        {
+          "en": "Plassey",
+          "as": "পলাশী"
+        },
+        {
+          "en": "Buxar",
+          "as": "বক্সাৰ"
+        },
+        {
+          "en": "Saraighat",
+          "as": "শৰাইঘাট"
+        },
+        {
+          "en": "Meerut",
+          "as": "মীৰাট"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The Company defeated the combined forces at Buxar before obtaining Diwani in 1765.",
+        "as": "১৭৬৫ চনত দেৱানী লাভৰ আগতে কোম্পানীয়ে বক্সাৰত মিত্ৰবাহিনীক পৰাস্ত কৰিছিল।"
+      },
+      "id": "revision-test-1-q4"
+    },
+    {
+      "en": "A ruler dies without a natural male heir. The Company rejects the adopted heir’s claim and annexes the state. Which policy explains this?",
+      "as": "এজন ৰজাৰ ঔৰসজাত পুত্ৰ নোহোৱাকৈ মৃত্যু হ’ল। কোম্পানীয়ে তোলনীয়া পুত্ৰৰ দাবী নাকচ কৰি ৰাজ্য দখল কৰিলে। কোনটো নীতি ইয়াৰ কাৰণ?",
+      "options": [
+        {
+          "en": "Diwani grant",
+          "as": "দেৱানী প্ৰদান"
+        },
+        {
+          "en": "Doctrine of Lapse",
+          "as": "স্বত্ববিলোপ নীতি"
+        },
+        {
+          "en": "Subsidiary Alliance",
+          "as": "অধীনতামূলক মিত্ৰতা নীতি"
+        },
+        {
+          "en": "Permanent Settlement",
+          "as": "চিৰস্থায়ী বন্দৱস্ত"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Dalhousie used the Doctrine of Lapse to annex several princely states.",
+        "as": "ডেলহাউছিয়ে স্বত্ববিলোপ নীতিৰে কেইবাখনো দেশীয় ৰাজ্য দখল কৰিছিল।"
+      },
+      "id": "revision-test-1-q5"
+    },
+    {
+      "en": "Which event would a historian place between the Burmese invasions of Assam and the restoration of Purandar Singha in Upper Assam?",
+      "as": "মানৰ অসম আক্ৰমণ আৰু উজনি অসমত পুৰন্দৰ সিংহৰ পুনঃপ্ৰতিষ্ঠাৰ মাজত ইতিহাসবিদে কোনটো ঘটনা ৰাখিব?",
+      "options": [
+        {
+          "en": "Revolt of 1857",
+          "as": "১৮৫৭ চনৰ বিদ্ৰোহ"
+        },
+        {
+          "en": "Abolition of sati in Bengal",
+          "as": "বংগত সতীদাহ প্ৰথাৰ বিলোপ"
+        },
+        {
+          "en": "Moamoria rebellion",
+          "as": "মোৱামৰীয়া বিদ্ৰোহ"
+        },
+        {
+          "en": "Treaty of Yandabo",
+          "as": "ইয়াণ্ডাবু সন্ধি"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The treaty ended the First Anglo-Burmese War in 1826. Purandar Singha was restored in 1833.",
+        "as": "১৮২৬ চনৰ সন্ধিয়ে প্ৰথম ইংগ-বৰ্মী যুদ্ধৰ অন্ত পেলায়। ১৮৩৩ চনত পুৰন্দৰ সিংহক পুনঃপ্ৰতিষ্ঠা কৰা হয়।"
+      },
+      "id": "revision-test-1-q6"
+    },
+    {
+      "en": "A citizen challenges a restriction on speech. Which organ decides whether it is consistent with the Constitution?",
+      "as": "এজন নাগৰিকে বাক্‌স্বাধীনতাৰ ওপৰত আৰোপ কৰা বাধাক প্ৰত্যাহ্বান জনাইছে। বাধাটো সংবিধানসন্মত নে নহয় কোনটো অংগই বিচাৰ কৰিব?",
+      "options": [
+        {
+          "en": "Executive",
+          "as": "কাৰ্যপালিকা"
+        },
+        {
+          "en": "Judiciary",
+          "as": "ন্যায়পালিকা"
+        },
+        {
+          "en": "Constituent Assembly",
+          "as": "সংবিধান সভা"
+        },
+        {
+          "en": "Legislature",
+          "as": "বিধানমণ্ডল"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Courts interpret the Constitution and examine whether restrictions on rights are lawful.",
+        "as": "আদালতে সংবিধানৰ ব্যাখ্যা কৰি অধিকাৰৰ ওপৰত আৰোপ কৰা বাধাৰ বৈধতা বিচাৰ কৰে।"
+      },
+      "id": "revision-test-1-q7"
+    },
+    {
+      "en": "A learner compares the Union List with the State List. Which constitutional feature is being studied?",
+      "as": "এজন শিক্ষাৰ্থীয়ে কেন্দ্ৰীয় তালিকা আৰু ৰাজ্যিক তালিকা তুলনা কৰিছে। তেওঁ কোনটো সাংবিধানিক বৈশিষ্ট্য অধ্যয়ন কৰিছে?",
+      "options": [
+        {
+          "en": "Secularism",
+          "as": "ধৰ্মনিৰপেক্ষতা"
+        },
+        {
+          "en": "Federalism",
+          "as": "যুক্তৰাষ্ট্ৰীয়তা"
+        },
+        {
+          "en": "Republican government",
+          "as": "গণৰাজ্যিক শাসন"
+        },
+        {
+          "en": "Universal adult franchise",
+          "as": "সাৰ্বজনীন প্ৰাপ্তবয়স্ক ভোটাধিকাৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Lists distribute legislative subjects between levels of government, a feature of federalism.",
+        "as": "তালিকাসমূহে চৰকাৰৰ বিভিন্ন স্তৰৰ মাজত আইন প্ৰণয়নৰ বিষয় ভাগ কৰে। ই যুক্তৰাষ্ট্ৰীয়তাৰ বৈশিষ্ট্য।"
+      },
+      "id": "revision-test-1-q8"
+    },
+    {
+      "en": "A wealthy citizen argues that an ordinary criminal law should not apply to him because of his social position. Which principle answers him?",
+      "as": "এজন ধনী নাগৰিকে সামাজিক মৰ্যাদাৰ বাবে সাধাৰণ ফৌজদাৰী আইন তেওঁৰ ক্ষেত্ৰত প্ৰযোজ্য নহয় বুলি কৈছে। কোনটো নীতিয়ে এই দাবীৰ উত্তৰ দিয়ে?",
+      "options": [
+        {
+          "en": "Cultural and educational rights",
+          "as": "সাংস্কৃতিক আৰু শিক্ষাৰ অধিকাৰ"
+        },
+        {
+          "en": "Equality before the law",
+          "as": "আইনৰ আগত সমতা"
+        },
+        {
+          "en": "Freedom of religion",
+          "as": "ধৰ্মীয় স্বাধীনতা"
+        },
+        {
+          "en": "Right against exploitation",
+          "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Article 14 guarantees equality before the law to every person.",
+        "as": "অনুচ্ছেদ ১৪-ই প্ৰতিজন ব্যক্তিৰ বাবে আইনৰ আগত সমতা নিশ্চিত কৰে।"
+      },
+      "id": "revision-test-1-q9"
+    },
+    {
+      "en": "Students archive a Borgeet performance and the musical traditions of neighbouring communities. Which duty gives the project its common purpose?",
+      "as": "শিক্ষাৰ্থীসকলে বৰগীতৰ পৰিৱেশন আৰু চুবুৰীয়া জনগোষ্ঠীৰ সংগীত পৰম্পৰা সংৰক্ষণ কৰিছে। কোনটো কৰ্তব্যই এই প্ৰকল্পক উমৈহতীয়া উদ্দেশ্য দিছে?",
+      "options": [
+        {
+          "en": "Preservation of composite culture",
+          "as": "সমন্বিত সংস্কৃতিৰ সংৰক্ষণ"
+        },
+        {
+          "en": "Respect for freedom-struggle ideals",
+          "as": "স্বাধীনতা সংগ্ৰামৰ আদৰ্শৰ প্ৰতি শ্ৰদ্ধা"
+        },
+        {
+          "en": "Scientific temper",
+          "as": "বৈজ্ঞানিক মানসিকতা"
+        },
+        {
+          "en": "Protection of public property",
+          "as": "ৰাজহুৱা সম্পত্তিৰ সুৰক্ষা"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Documenting several living traditions helps preserve the heritage of a composite culture.",
+        "as": "বিভিন্ন জীৱন্ত পৰম্পৰাৰ তথ্য সংৰক্ষণে সমন্বিত সংস্কৃতিৰ ঐতিহ্য ৰক্ষা কৰে।"
+      },
+      "id": "revision-test-1-q10"
+    }
+  ]
+}
