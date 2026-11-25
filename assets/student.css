@@ -19,3 +19,19 @@
 .navigation .youtube-nav:hover,.community-links .youtube:hover,.youtube-details .youtube-cta:hover{background:#ffe2df;border-color:#a12622}
 @keyframes youtube-glow{0%,100%{box-shadow:0 0 0 0 rgba(217,74,69,.08)}50%{box-shadow:0 0 12px 3px rgba(217,74,69,.32)}}
 @media(prefers-reduced-motion:reduce){.navigation .youtube-nav,.community-links .youtube,.youtube-details .youtube-cta{animation:none}}
+
+/* NMMS exam clock */
+.exam-clock{position:relative;isolation:isolate;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.18fr);align-items:center;gap:clamp(1rem,3vw,2.25rem);padding:clamp(1.15rem,3.5vw,2.6rem);margin:0 0 1.3rem;border-radius:22px;background:linear-gradient(115deg,#063c3a,#0b5348 65%,#116657);color:#fff;box-shadow:0 12px 26px #073c3b19}
+.exam-clock::before,.exam-clock::after{content:'';position:absolute;z-index:-1;pointer-events:none;border:1px solid #bae8c632;border-radius:50%;width:24rem;aspect-ratio:1;right:-12rem;top:-15rem;box-shadow:0 0 0 1.5rem #b7e5ce0b,0 0 0 3rem #b7e5ce0a,0 0 0 4.5rem #b7e5ce08}
+.exam-clock::after{width:15rem;top:auto;right:auto;bottom:-14rem;left:7%}
+.exam-clock h2{margin:0 0 .4rem;color:white;font-size:clamp(1.5rem,2.7vw,2.15rem);line-height:1.15;letter-spacing:-.035em}
+.exam-clock time{color:#ffe3a1;font-size:1rem;font-weight:650}
+.exam-clock p{margin:.8rem 0 0;color:#eef8ea;font-size:1rem;line-height:1.55}
+.exam-clock-digits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(4px,1vw,10px)}
+.exam-clock-unit{position:relative;text-align:center;min-width:0;padding:.85rem .1rem .65rem;border:1px solid #ffffff40;border-radius:12px;background:#053837;box-shadow:inset 0 2px #ffffff0d,0 4px 8px #042b2926}
+.exam-clock-unit:last-child{background:#ffe3a1;color:#173d35;border-color:#ffe3a1}
+.exam-clock-unit strong{display:block;font-size:clamp(2rem,4vw,3.5rem);line-height:1.05;letter-spacing:-.055em;font-variant-numeric:tabular-nums}
+.exam-clock-unit span,.exam-clock-unit small{display:block;line-height:1.45}.exam-clock-unit span{margin-top:.45rem;font-size:.83rem;font-weight:650}.exam-clock-unit small{font-size:.76rem;font-weight:400}
+.exam-clock-finished .exam-clock-unit:last-child{color:inherit;background:#053837;border-color:#ffffff40}
+@media(max-width:760px){.exam-clock{grid-template-columns:minmax(0,1fr);gap:1rem}.exam-clock-unit strong{font-size:clamp(2rem,8vw,3rem)}}
+@media(max-width:360px){.exam-clock{padding:.85rem}.exam-clock-unit span{font-size:.72rem}.exam-clock-unit{border-radius:9px}}

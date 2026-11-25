@@ -60,6 +60,41 @@ function renderBoard(type,segments){
  $('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Mock Tests',route:base+'/mock-tests'},{title:className(level)}])+heading(className(level)+' · Mock Tests')+(['class-6','class-8'].includes(level)?'<p class="scope-note">Current sets: CBSE Social Science foundation practice. SEBA-specific sets have not been added yet.</p>':'')+(tests.length?renderLibrary(tests):'<section class="empty"><h2>Coming soon</h2><p>Mock tests will be added here.</p></section>');
  if(tests.length)bindLibrary();
 }
+const nmmsExamStart = Date.parse('2026-12-05T10:30:00+05:30');
+let examClockTimeout;
+
+function examCountdownCard(){
+ const labels = [['Days','দিন'],['Hours','ঘণ্টা'],['Minutes','মিনিট'],['Seconds','ছেকেণ্ড']];
+ const tiles = labels.map(([en,as]) => `<div class="exam-clock-unit"><strong data-clock-unit>00</strong><span>${en} <small lang="as">${as}</small></span></div>`).join('');
+ return `<section class="exam-clock" id="examClock" aria-labelledby="clockHeading">
+  <div class="exam-clock-copy">
+   <h2 id="clockHeading">Countdown to exam day</h2>
+   <time datetime="2026-12-05T10:30:00+05:30">5 December 2026 · 10:30 a.m. IST</time>
+   <p id="clockEncouragement" lang="as">আজিৰ অলপ অনুশীলনেই কাইলৈ তোমাৰ আত্মবিশ্বাস বঢ়াব।</p>
+  </div>
+  <div class="exam-clock-digits" role="timer" aria-live="off" aria-label="Time remaining until the NMMS exam">${tiles}</div>
+ </section>`;
+}
+
+function updateExamCountdown(){
+ const clock = $('examClock');
+ if(!clock) return;
+ const milliseconds = nmmsExamStart - Date.now();
+ const seconds = Math.max(0, Math.ceil(milliseconds / 1000));
+ const values = [Math.floor(seconds / 86400), Math.floor(seconds / 3600) % 24, Math.floor(seconds / 60) % 60, seconds % 60];
+ clock.querySelectorAll('[data-clock-unit]').forEach((tile,index) => {
+  const digits = String(values[index]).padStart(2,'0');
+  if(tile.textContent !== digits) tile.textContent = digits;
+ });
+ if(milliseconds <= 0){
+  $('clockHeading').textContent = 'The exam start time has arrived';
+  $('clockEncouragement').textContent = 'সকলো পৰীক্ষাৰ্থীলৈ আন্তৰিক শুভেচ্ছা!';
+  clock.classList.add('exam-clock-finished');
+  return;
+ }
+ examClockTimeout = setTimeout(updateExamCountdown, (milliseconds - 1) % 1000 + 1);
+}
+
 function renderNMMS(segments){
  const base='nmms-2026',title='NMMS 2026';let [view,year,paper]=segments;
  if(['mat','sat'].includes(view)){location.replace('#'+base+'/mock-tests/2024/'+view);return;}
@@ -67,7 +102,8 @@ function renderNMMS(segments){
  if(view==='information'){$('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Information'}])+heading('NMMS Information')+renderNMMSInformation();return;}
  if(view==='materials'){$('pageContent').innerHTML=breadcrumbs([...crumbs,{title:'Study materials'}])+heading('NMMS · Study Materials')+resourceLinks(['nmms','textbooks']);return;}
  if(view!=='mock-tests'){
-  $('pageContent').innerHTML=breadcrumbs(crumbs)+heading(title,'Exam soon')+infoPanel('Information','National Means-cum-Merit Scholarship examination. MAT: Mental Ability Test. SAT: Scholastic Aptitude Test — Mathematics, Science and Social Science.')+menuCards([{title:'NMMS Information',detail:'Dates, eligibility and exam pattern',route:base+'/information'},{title:'Mock Tests',detail:'Previous papers and lesson-wise practice',route:base+'/mock-tests'},{title:'Study Materials',detail:'Textbooks and official information',route:base+'/materials'}]);return;
+  $('pageContent').innerHTML=breadcrumbs(crumbs)+heading(title)+examCountdownCard()+infoPanel('Information','National Means-cum-Merit Scholarship examination. MAT: Mental Ability Test. SAT: Scholastic Aptitude Test — Mathematics, Science and Social Science.')+menuCards([{title:'NMMS Information',detail:'Dates, eligibility and exam pattern',route:base+'/information'},{title:'Mock Tests',detail:'Previous papers and lesson-wise practice',route:base+'/mock-tests'},{title:'Study Materials',detail:'Textbooks and official information',route:base+'/materials'}]);
+  updateExamCountdown();return;
  }
  if(year==='social-science'){
   const tests=catalog.filter(test=>test.collection==='nmms-sat-social-science');
@@ -114,6 +150,7 @@ function renderNMMSInformation(){
 }
 function renderYouTube(){$('pageContent').innerHTML='<div class="breadcrumb"><a href="#home">Home</a><span>›</span><span>YouTube</span></div>'+heading('YouTube')+`<section class="youtube-card"><img src="assets/channel-banner.png" width="1672" height="941" alt="Xohopathi — Your Digital Companion"><div class="youtube-details"><h2>Xohopathi</h2><p>@xohopathi</p><a class="button youtube-cta" href="${CONFIG.youtube}" target="_blank" rel="noopener noreferrer">Open YouTube channel ↗</a></div></section><div class="community-links"><a href="${CONFIG.whatsapp}" class="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Group ↗</a><a href="#home">Mock tests &amp; materials →</a></div>`;}
 function renderPage(){
+ clearTimeout(examClockTimeout);
  let route=currentRoute();const legacy={'mock-tests':'home',practice:'home','study-materials':'home',materials:'home','previous-papers':'home',exams:'home'};if(legacy[route]){location.replace('#'+legacy[route]);return;}
  const [page,...segments]=route.split('/');subjectFilter='All';searchTerm='';
  const nav=page.startsWith('nmms')?'nmms':page.startsWith('seba')?'seba':page.startsWith('ahsec')?'ahsec':page==='youtube'?'youtube':'home';
